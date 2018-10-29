@@ -1,0 +1,101 @@
+numberOfTriples
+-----------
+| triples |
+===========
+| 1223    |
+-----------
+
+numberOfTriplesPerClass
+------------------------------------------
+| class                      | instances |
+==========================================
+| <http://schema.org/Recipe> | 100       |
+------------------------------------------
+
+numberOfDistinctClasses
+---------------------------
+| numberOfDistinctClasses |
+===========================
+| 1                       |
+---------------------------
+
+numberOfDistinctProperties
+------------------------------
+| numberOfDistinctProperties |
+==============================
+| 5                          |
+------------------------------
+
+classesPerDataSet
+--------------------------------------------
+| namedGraph  | class                      |
+============================================
+|             | <http://schema.org/Recipe> |
+| <nonEdamam> | <http://schema.org/Recipe> |
+--------------------------------------------
+
+propertiesPerDataSet
+------------------------------------------------------
+| namedGraph  | class                                |
+======================================================
+|             | <http://schema.org/author>           |
+|             | <http://schema.org/identifier>       |
+|             | <http://schema.org/name>             |
+|             | <http://schema.org/recipeIngredient> |
+|             | <http://schema.org/url>              |
+| <nonEdamam> | <http://schema.org/author>           |
+| <nonEdamam> | <http://schema.org/identifier>       |
+| <nonEdamam> | <http://schema.org/name>             |
+| <nonEdamam> | <http://schema.org/recipeIngredient> |
+| <nonEdamam> | <http://schema.org/url>              |
+------------------------------------------------------
+
+instancesPerClassPerDataSet
+--------------------------------------------------------
+| namedGraph  | class                      | instances |
+========================================================
+|             | <http://schema.org/Recipe> | 100       |
+| <nonEdamam> | <http://schema.org/Recipe> | 100       |
+--------------------------------------------------------
+
+subjectsPerPropertyPerDataSet
+-----------------------------------------------------------------
+| namedGraph  | class                                | subjects |
+=================================================================
+|             | <http://schema.org/author>           | 100      |
+|             | <http://schema.org/identifier>       | 100      |
+|             | <http://schema.org/name>             | 100      |
+|             | <http://schema.org/recipeIngredient> | 100      |
+|             | <http://schema.org/url>              | 100      |
+| <nonEdamam> | <http://schema.org/author>           | 100      |
+| <nonEdamam> | <http://schema.org/identifier>       | 100      |
+| <nonEdamam> | <http://schema.org/name>             | 100      |
+| <nonEdamam> | <http://schema.org/recipeIngredient> | 100      |
+| <nonEdamam> | <http://schema.org/url>              | 100      |
+-----------------------------------------------------------------
+
+objectsPerPropertyPerDataSet
+----------------------------------------------------------------
+| namedGraph  | class                                | objects |
+================================================================
+|             | <http://schema.org/author>           | 1       |
+|             | <http://schema.org/identifier>       | 100     |
+|             | <http://schema.org/url>              | 100     |
+|             | <http://schema.org/recipeIngredient> | 672     |
+|             | <http://schema.org/name>             | 87      |
+| <nonEdamam> | <http://schema.org/author>           | 1       |
+| <nonEdamam> | <http://schema.org/identifier>       | 100     |
+| <nonEdamam> | <http://schema.org/url>              | 100     |
+| <nonEdamam> | <http://schema.org/recipeIngredient> | 672     |
+| <nonEdamam> | <http://schema.org/name>             | 87      |
+----------------------------------------------------------------
+
+propertiesInTop5Classes
+----------------------------------------
+| x                                    |
+========================================
+| <http://schema.org/actor>            |
+| <http://schema.org/director>         |
+| <http://schema.org/recipeIngredient> |
+----------------------------------------
+

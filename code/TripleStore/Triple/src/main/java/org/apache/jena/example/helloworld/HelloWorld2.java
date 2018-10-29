@@ -40,8 +40,7 @@ import org.slf4j.LoggerFactory;
 /**
  * <h2>Apache Jena Getting Started Guide - Step 1: Hello World</h2>
  * <p>
- * In this step, we illustrate the basic operations of getting some data into a
- * Java program, finding some data, and showing some output.
+ * In this step, we illustrate the basic operations of getting some data into a Java program, finding some data, and showing some output.
  * </p>
  */
 public class HelloWorld2 extends RecipeBase {
@@ -74,9 +73,8 @@ public class HelloWorld2 extends RecipeBase {
 	/***********************************/
 
 	/**
-	 * Main entry point for running this example. Since every sub-class will be
-	 * {@link Runnable}, we create an instance, stash the command-line args where we
-	 * can retrieve them later, and invoke {@link #run}
+	 * Main entry point for running this example. Since every sub-class will be {@link Runnable}, we create an instance, stash the command-line args where we can retrieve them later, and invoke
+	 * {@link #run}
 	 */
 	public static void main(String[] args) {
 		new HelloWorld2().setArgs(args).run();
@@ -86,38 +84,26 @@ public class HelloWorld2 extends RecipeBase {
 	public void run() {
 		// creates a new, empty in-memory model
 		Model m = ModelFactory.createDefaultModel();
-
 		OntModel o = ModelFactory.createOntologyModel();
-
-		FileManager.get().readModel(o, RECIPE_SCHEMA_FILE);
 
 		// load some data into the model
 		FileManager.get().readModel(m, RECIPE_DATA_FILE);
+		FileManager.get().readModel(o, RECIPE_SCHEMA_FILE);
 
-		DatasetImpl ds = new DatasetImpl(m);
-		ds.addNamedModel("nonEdamam", m);
-		model = ds;
+		// create DataSet for with namedGraph
+		model = new DatasetImpl(m);
+		model.addNamedModel("nonEdamam", m);
 
-		// generate some output
-
-		// StmtIterator a = model.listStatements();
-
-		// while (a.hasNext()) {
-		// System.out.println(a.next());
-		// }
-
-		// showQuery(model, "SELECT ?x ?y \r\n"
-		// + "WHERE { ?x <http://schema.org/identifier> ?y .FILTER regex(str(?y),
-		// \"trap\") }");
-
-		// numberOfTriples();
-		// numberOfTriplesPerClass();
-		// numberOfDistinctClasses();
-		// numberOfDistinctProperties();
-		// classesPerDataSet();
-		// propertiesPerDataSet();
-		// instancesPerClassPerDataSet();
+		numberOfTriples();
+		numberOfTriplesPerClass();
+		numberOfDistinctClasses();
+		numberOfDistinctProperties();
+		classesPerDataSet();
+		propertiesPerDataSet();
+		instancesPerClassPerDataSet();
 		subjectsPerPropertyPerDataSet();
+		objectsPerPropertyPerDataSet();
+		propertiesInTop5Classes();
 
 	}
 
@@ -127,25 +113,38 @@ public class HelloWorld2 extends RecipeBase {
 
 	// total number of triples
 	public static void numberOfTriples() {
+		System.out.println("numberOfTriples");
 		showQuery(model, prefix + "SELECT (COUNT(?x) as ?triples)	\r\n" + "WHERE { ?x ?y ?s . ?x a schema:Recipe}");
+
 	}
 
 	// total number of instantiations
 	public static void numberOfTriplesPerClass() {
+		System.out.println("numberOfTriplesPerClass");
 		showQuery(model, prefix + "SELECT  ?class (COUNT(?x) as ?instances)	\r\n"
-				+ "WHERE { ?x ?class ?s . ?x a schema:Recipe} GROUP BY ?class ");
+				+ "WHERE { ?x ?y ?class . ?class a rdfs:Class . ?x a schema:Recipe} GROUP BY ?class ");
+
 	}
+
+	// ?x rdf:type schema:Recipe
+	// we want the subject ?x that is connected to the object schema:Recipe by the predicate rdf:type
+	// _:Nb9b78862704942d18cd2e72470615aae <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+	// <http://schema.org/Recipe> .
+	// example triple for the subject above:
+	// _:Nb9b78862704942d18cd2e72470615aae <http://schema.org/recipeIngredient> "25 grams paprika (about 1/4 cup)" .
 
 	// total number of distinct classes
 	public static void numberOfDistinctClasses() {
+		System.out.println("numberOfDistinctClasses");
 		showQuery(model,
 				prefix + "SELECT (COUNT(*) as ?numberOfDistinctClasses) \r\n WHERE{"
 						+ "SELECT (COUNT(distinct ?y) as ?xcount) \r\n"
-						+ "WHERE { ?x ?y ?s . ?x a schema:Recipe} GROUP BY ?y}");
+						+ "WHERE { ?x ?y ?s . ?s a rdfs:Class . ?x a schema:Recipe} GROUP BY ?y}");
 	}
 
 	// total number of distinct properties
 	public static void numberOfDistinctProperties() {
+		System.out.println("numberOfDistinctProperties");
 		showQuery(model, prefix
 				+ "SELECT (COUNT(*) as ?numberOfDistinctProperties) WHERE{ SELECT DISTINCT ?Properties WHERE {\r\n"
 				+ " ?x ?Properties ?z. ?Properties a rdf:Property . ?x a schema:Recipe }GROUP BY ?Properties} ");
@@ -153,14 +152,16 @@ public class HelloWorld2 extends RecipeBase {
 
 	// list of all classes used in your dataset per data source (see named graphs)
 	public static void classesPerDataSet() {
+		System.out.println("classesPerDataSet");
 		showQuery(model, prefix + "SELECT DISTINCT ?namedGraph ?class \r\n" + "{\r\n"
-				+ " { ?s ?class ?o . ?s a schema:Recipe } UNION { GRAPH ?namedGraph { ?s ?class ?o . ?s a schema:Recipe  } }\r\n"
+				+ " { ?s ?p ?class . ?class a rdfs:Class . ?s a schema:Recipe } UNION { GRAPH ?namedGraph { ?s ?p ?class . ?class a rdfs:Class . ?s a schema:Recipe  } }\r\n"
 				+ "} GROUP BY ?class ?namedGraph ORDER BY ?namedGraph");
 
 	}
 
 	// list of all properties used in your dataset per data source
 	public static void propertiesPerDataSet() {
+		System.out.println("propertiesPerDataSet");
 		showQuery(model, prefix + "SELECT DISTINCT ?namedGraph ?class \r\n" + "{\r\n"
 				+ " { ?s ?class ?o . ?class a rdf:Property . ?s a schema:Recipe  } UNION { GRAPH ?namedGraph { ?s ?class ?o . ?class a rdf:Property . ?s a schema:Recipe  } }\r\n"
 				+ "} GROUP BY ?class ?namedGraph ORDER BY ?namedGraph");
@@ -169,24 +170,43 @@ public class HelloWorld2 extends RecipeBase {
 
 	// total number of instances per class per data source (reasoning on and off)
 	public static void instancesPerClassPerDataSet() {
-
+		System.out.println("instancesPerClassPerDataSet");
 		showQuery(model, prefix + "SELECT DISTINCT ?namedGraph ?class (COUNT(?class) as ?instances)	 \r\n" + "{\r\n"
-				+ " { ?s ?class ?o . ?s a schema:Recipe } UNION { GRAPH ?namedGraph { ?s ?class ?o . ?s a schema:Recipe  } }\r\n"
+				+ " { ?s ?p ?class . ?class a rdfs:Class . ?s a schema:Recipe } UNION { GRAPH ?namedGraph { ?s ?p ?class . ?class a rdfs:Class . ?s a schema:Recipe  } }\r\n"
 				+ "} GROUP BY ?class ?namedGraph ORDER BY ?namedGraph");
 	}
 
 	// total number of distinct subjects per property per data source
 	public static void subjectsPerPropertyPerDataSet() {
-		showQuery(model, prefix + "SELECT DISTINCT ?namedGraph ?class (COUNT(?s) as ?subjectCount) \r\n" + "{\r\n"
+		System.out.println("subjectsPerPropertyPerDataSet");
+		showQuery(model, prefix
+				+ "SELECT ?namedGraph ?class (COUNT(?subjectCount) as ?subjects) WHERE{SELECT ?namedGraph ?class (COUNT(?s) as ?subjectCount) \r\n"
+				+ "{\r\n"
 				+ " { ?s ?class ?o . ?class a rdf:Property . ?s a schema:Recipe  } UNION { GRAPH ?namedGraph { ?s ?class ?o . ?class a rdf:Property . ?s a schema:Recipe  } }\r\n"
-				+ "} GROUP BY ?class ?namedGraph ORDER BY ?namedGraph");
+				+ "} GROUP BY ?s ?class ?namedGraph ORDER BY ?namedGraph} GROUP BY ?s ?class ?namedGraph ORDER BY ?namedGraph");
 	}
 
 	// total number of distinct objects per property per data source
 	public static void objectsPerPropertyPerDataSet() {
-		showQuery(model, prefix + "SELECT DISTINCT ?namedGraph ?s (COUNT(?s) as ?subjectCount) \r\n" + "{\r\n"
+		System.out.println("objectsPerPropertyPerDataSet");
+		showQuery(model, prefix
+				+ "SELECT ?namedGraph ?class (COUNT(?subjectCount) as ?objects) WHERE{SELECT ?namedGraph ?class (COUNT(?o) as ?subjectCount) \r\n"
+				+ "{\r\n"
 				+ " { ?s ?class ?o . ?class a rdf:Property . ?s a schema:Recipe  } UNION { GRAPH ?namedGraph { ?s ?class ?o . ?class a rdf:Property . ?s a schema:Recipe  } }\r\n"
-				+ "} GROUP BY ?s ?namedGraph ORDER BY ?namedGraph");
+				+ "} GROUP BY ?o ?class ?namedGraph ORDER BY ?namedGraph} GROUP BY ?o ?class ?namedGraph ORDER BY ?namedGraph");
+	}
+
+	// distinct properties used on top 5 classes in terms of amount of instances
+	// (reasoning on and off)
+	public static void propertiesInTop5Classes() {
+		System.out.println("propertiesInTop5Classes");
+
+		// added dummy movie rdf object to demonstrate this query
+		showQuery(model, prefix
+				+ "SELECT DISTINCT ?x \r\n WHERE { ?x schema:domainIncludes ?o . ?sub ?x ?obj . FILTER(?o = ?class)"
+				+ "{SELECT ?class \r\n WHERE { ?x ?p ?class . ?class a rdfs:Class "
+				+ ". ?x a ?classtype . FILTER (?classtype IN (schema:Recipe, schema:Movie) ) } "
+				+ "GROUP BY ?class ORDER BY DESC(?instances) LIMIT 5}}");
 	}
 
 	public static void namedGraphTest() {
@@ -215,6 +235,8 @@ public class HelloWorld2 extends RecipeBase {
 		} finally {
 			qexec.close();
 		}
+
+		System.out.println();
 
 	}
 
