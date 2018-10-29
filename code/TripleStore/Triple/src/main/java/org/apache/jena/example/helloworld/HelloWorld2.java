@@ -95,7 +95,7 @@ public class HelloWorld2 extends RecipeBase {
 		FileManager.get().readModel(m, RECIPE_DATA_FILE);
 
 		DatasetImpl ds = new DatasetImpl(m);
-		ds.addNamedModel("steve", o);
+		ds.addNamedModel("nonEdamam", m);
 		model = ds;
 
 		// generate some output
@@ -112,20 +112,12 @@ public class HelloWorld2 extends RecipeBase {
 
 		// numberOfTriples();
 		// numberOfTriplesPerClass();
-		numberOfDistinctClasses();
+		// numberOfDistinctClasses();
 		// numberOfDistinctProperties();
 		// classesPerDataSet();
-
-		// showQuery(model, prefix + "SELECT ?y \r\n WHERE { ?x ?y ?s . ?x a
-		// schema:Recipe} GROUP BY ?y");
-
-		// showQuery(model, prefix + "SELECT DISTINCT ?s\r\n" + "WHERE {\r\n" + " ?s a
-		// rdfs:Property\r\n" + "}");
-
-		// showQuery(ds, "SELECT *\r\n" + "{\r\n" + " { ?s ?p ?o } UNION { GRAPH ?g { ?s
-		// ?p ?o } }\r\n" + "}");
-
-		// PrintUtil.printOut(ds.asDatasetGraph().find());
+		// propertiesPerDataSet();
+		// instancesPerClassPerDataSet();
+		subjectsPerPropertyPerDataSet();
 
 	}
 
@@ -133,18 +125,18 @@ public class HelloWorld2 extends RecipeBase {
 	/* Internal implementation methods */
 	/***********************************/
 
-	/**
-	 * Show the size of the model on stdout
-	 */
+	// total number of triples
 	public static void numberOfTriples() {
 		showQuery(model, prefix + "SELECT (COUNT(?x) as ?triples)	\r\n" + "WHERE { ?x ?y ?s . ?x a schema:Recipe}");
 	}
 
+	// total number of instantiations
 	public static void numberOfTriplesPerClass() {
-		showQuery(model, prefix + "SELECT  ?class (COUNT(?x) as ?count)	\r\n"
+		showQuery(model, prefix + "SELECT  ?class (COUNT(?x) as ?instances)	\r\n"
 				+ "WHERE { ?x ?class ?s . ?x a schema:Recipe} GROUP BY ?class ");
 	}
 
+	// total number of distinct classes
 	public static void numberOfDistinctClasses() {
 		showQuery(model,
 				prefix + "SELECT (COUNT(*) as ?numberOfDistinctClasses) \r\n WHERE{"
@@ -152,14 +144,53 @@ public class HelloWorld2 extends RecipeBase {
 						+ "WHERE { ?x ?y ?s . ?x a schema:Recipe} GROUP BY ?y}");
 	}
 
+	// total number of distinct properties
 	public static void numberOfDistinctProperties() {
 		showQuery(model, prefix
 				+ "SELECT (COUNT(*) as ?numberOfDistinctProperties) WHERE{ SELECT DISTINCT ?Properties WHERE {\r\n"
 				+ " ?x ?Properties ?z. ?Properties a rdf:Property . ?x a schema:Recipe }GROUP BY ?Properties} ");
 	}
 
+	// list of all classes used in your dataset per data source (see named graphs)
 	public static void classesPerDataSet() {
-		showQuery(model, " SELECT ?x ?y ?z \r\n" + "WHERE { ?x ?y ?z }");
+		showQuery(model, prefix + "SELECT DISTINCT ?namedGraph ?class \r\n" + "{\r\n"
+				+ " { ?s ?class ?o . ?s a schema:Recipe } UNION { GRAPH ?namedGraph { ?s ?class ?o . ?s a schema:Recipe  } }\r\n"
+				+ "} GROUP BY ?class ?namedGraph ORDER BY ?namedGraph");
+
+	}
+
+	// list of all properties used in your dataset per data source
+	public static void propertiesPerDataSet() {
+		showQuery(model, prefix + "SELECT DISTINCT ?namedGraph ?class \r\n" + "{\r\n"
+				+ " { ?s ?class ?o . ?class a rdf:Property . ?s a schema:Recipe  } UNION { GRAPH ?namedGraph { ?s ?class ?o . ?class a rdf:Property . ?s a schema:Recipe  } }\r\n"
+				+ "} GROUP BY ?class ?namedGraph ORDER BY ?namedGraph");
+
+	}
+
+	// total number of instances per class per data source (reasoning on and off)
+	public static void instancesPerClassPerDataSet() {
+
+		showQuery(model, prefix + "SELECT DISTINCT ?namedGraph ?class (COUNT(?class) as ?instances)	 \r\n" + "{\r\n"
+				+ " { ?s ?class ?o . ?s a schema:Recipe } UNION { GRAPH ?namedGraph { ?s ?class ?o . ?s a schema:Recipe  } }\r\n"
+				+ "} GROUP BY ?class ?namedGraph ORDER BY ?namedGraph");
+	}
+
+	// total number of distinct subjects per property per data source
+	public static void subjectsPerPropertyPerDataSet() {
+		showQuery(model, prefix + "SELECT DISTINCT ?namedGraph ?class (COUNT(?s) as ?subjectCount) \r\n" + "{\r\n"
+				+ " { ?s ?class ?o . ?class a rdf:Property . ?s a schema:Recipe  } UNION { GRAPH ?namedGraph { ?s ?class ?o . ?class a rdf:Property . ?s a schema:Recipe  } }\r\n"
+				+ "} GROUP BY ?class ?namedGraph ORDER BY ?namedGraph");
+	}
+
+	// total number of distinct objects per property per data source
+	public static void objectsPerPropertyPerDataSet() {
+		showQuery(model, prefix + "SELECT DISTINCT ?namedGraph ?s (COUNT(?s) as ?subjectCount) \r\n" + "{\r\n"
+				+ " { ?s ?class ?o . ?class a rdf:Property . ?s a schema:Recipe  } UNION { GRAPH ?namedGraph { ?s ?class ?o . ?class a rdf:Property . ?s a schema:Recipe  } }\r\n"
+				+ "} GROUP BY ?s ?namedGraph ORDER BY ?namedGraph");
+	}
+
+	public static void namedGraphTest() {
+		showQuery(model, "SELECT *\r\n" + "{\r\n" + " { ?s ?p ?o } UNION { GRAPH ?g { ?s ?p ?o } }\r\n" + "}");
 
 	}
 
