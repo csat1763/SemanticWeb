@@ -20,8 +20,8 @@ import com.google.gson.internal.LinkedTreeMap;
 
 public class EdmanAPI {
 
-	public static void main(String[] args) throws IOException {
-		getData();
+	public static void main(String[] args) throws IOException, InterruptedException {
+		// getData();
 		translateJasonLdToN3();
 
 	}
@@ -168,4 +168,5 @@ public class EdmanAPI {
 		n3fileWriter.close();
 		System.out.println("[DEBUG]--------------- Converting JSON-LD file into N3: DONE.");
 	}
+
 }
