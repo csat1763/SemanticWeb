@@ -14,7 +14,6 @@ import java.net.HttpURLConnection;
 import java.net.URL;
 import java.net.URLEncoder;
 import java.util.ArrayList;
-import java.util.Iterator;
 import java.util.List;
 
 import org.json.simple.JSONArray;
@@ -22,16 +21,14 @@ import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
 
 import com.google.gson.Gson;
-import com.google.gson.JsonObject;
-import com.google.gson.JsonParser;
 import com.google.gson.internal.LinkedTreeMap;
 
 public class EdmanAPI {
 
 	public static void main(String[] args) throws IOException, InterruptedException {
 		// getData();
-		// translateJasonLdToN3();
-		translateTxtToJson();
+		translateJasonLdToN3();
+		// translateTxtToJson();
 
 	}
 
@@ -88,9 +85,7 @@ public class EdmanAPI {
 				ingredients = (ArrayList<String>) recipe.get("ingredientLines");
 
 				/*
-				 * System.out.println("\nnew entry:\n" + " uri: " + uri + "\nlabel: " + label +
-				 * "\nurl: " + recipeUrl + "\ncalories: " + calories + "\ningredients" +
-				 * ingredients);
+				 * System.out.println("\nnew entry:\n" + " uri: " + uri + "\nlabel: " + label + "\nurl: " + recipeUrl + "\ncalories: " + calories + "\ningredients" + ingredients);
 				 */
 
 				ingredientsAsString.append("[\n");
@@ -178,78 +173,68 @@ public class EdmanAPI {
 		System.out.println("[DEBUG]--------------- Converting JSON-LD file into N3: DONE.");
 	}
 
-	
 	public static void translateTxtToJson() throws IOException {
-		
+
 		JSONParser parser = new JSONParser();
-		
+
 		StringBuilder recipiesAsString = new StringBuilder();
 		recipiesAsString.append("[\n");
-				
-        try {
- 
-            Object obj = parser.parse(new FileReader(
-                    "data.txt"));      
-            
-            JSONArray jsonArray = (JSONArray) obj;
 
-            for(int i = 0; i < jsonArray.size(); i++){
-            	
-            	StringBuilder ingredientsAsString = new StringBuilder();
-        		
-        		ingredientsAsString.append("[\n");          	
-            	
-                JSONObject jsonObj = (JSONObject) jsonArray.get(i);
-                String label = (String) jsonObj.get("name");
-                
-                JSONArray ingredientsJson = (JSONArray) jsonObj.get("recipeIngredient");
-                
-                
-                ArrayList<String> ingredients = new ArrayList<String>();
-                
-                
-                for(int j = 0; j<ingredientsJson.size();j++){
-                	ingredients.add((String) ingredientsJson.get(j));
-                }
-                
-                for (String ing : ingredients) {
-        			ingredientsAsString.append("\t\t\"").append(ing).append("\",\n");
-        		}
-        		ingredientsAsString.delete(ingredientsAsString.length() - 2, ingredientsAsString.length() - 1);
+		try {
 
-        		ingredientsAsString.append("\t]");
-                
-                String cookTime = (String) jsonObj.get("cookTime");
-                String prepTime = (String) jsonObj.get("prepTime");
-                String url = (String) jsonObj.get("url");
-        		
-        		
-        		recipiesAsString.append("{\n" + "\t\"@context\": \"http://schema.org\",\n"
-						+ "\t\"@type\": \"Recipe\",\n" + 
-        				"\t\"author\": \"John Smith\", \n" + 
-						"\t\"name\": \"" + label + "\",\n" + 
-						"\t\"cookTime\": \"" + cookTime + "\",\n" +
-						"\t\"prepTime\": \"" + prepTime + "\",\n" +
-						"\t\"url\": \"" + url + "\",\n" +
-						"\t\"recipeIngredient\": " + ingredientsAsString.toString() + 
-						" \n" + "},\n");
-               
-            }
+			Object obj = parser.parse(new FileReader("data.txt"));
+
+			JSONArray jsonArray = (JSONArray) obj;
+
+			for (int i = 0; i < jsonArray.size(); i++) {
+
+				StringBuilder ingredientsAsString = new StringBuilder();
+
+				ingredientsAsString.append("[\n");
+
+				JSONObject jsonObj = (JSONObject) jsonArray.get(i);
+				String label = (String) jsonObj.get("name");
+
+				JSONArray ingredientsJson = (JSONArray) jsonObj.get("recipeIngredient");
+
+				ArrayList<String> ingredients = new ArrayList<String>();
+
+				for (int j = 0; j < ingredientsJson.size(); j++) {
+					ingredients.add((String) ingredientsJson.get(j));
+				}
+
+				for (String ing : ingredients) {
+					ingredientsAsString.append("\t\t\"").append(ing).append("\",\n");
+				}
+				ingredientsAsString.delete(ingredientsAsString.length() - 2, ingredientsAsString.length() - 1);
+
+				ingredientsAsString.append("\t]");
+
+				String cookTime = (String) jsonObj.get("cookTime");
+				String prepTime = (String) jsonObj.get("prepTime");
+				String url = (String) jsonObj.get("url");
+
+				recipiesAsString.append("{\n" + "\t\"@context\": \"http://schema.org\",\n"
+						+ "\t\"@type\": \"Recipe\",\n" + "\t\"author\": \"John Smith\", \n" + "\t\"name\": \"" + label
+						+ "\",\n" + "\t\"cookTime\": \"" + cookTime + "\",\n" + "\t\"prepTime\": \"" + prepTime
+						+ "\",\n" + "\t\"url\": \"" + url + "\",\n" + "\t\"recipeIngredient\": "
+						+ ingredientsAsString.toString() + " \n" + "},\n");
+
+			}
 			recipiesAsString.delete(recipiesAsString.length() - 2, recipiesAsString.length() - 1);
 			recipiesAsString.append("]");
-         
+
 			File recipesFromTxt = new File("recipesFromTxt.json");
 
 			PrintWriter tempWriter = new PrintWriter(recipesFromTxt);
 			tempWriter.print(recipiesAsString.toString());
 			tempWriter.flush();
 			tempWriter.close();
-			
-			
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-        
-	}	
+
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+
+	}
 
 }
