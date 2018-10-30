@@ -84,25 +84,34 @@ public class HelloWorld2 extends RecipeBase {
 	public void run() {
 		// creates a new, empty in-memory model
 		Model m = ModelFactory.createDefaultModel();
+		Model m2 = ModelFactory.createDefaultModel();
 		OntModel o = ModelFactory.createOntologyModel();
 
 		// load some data into the model
-		FileManager.get().readModel(m, RECIPE_DATA_FILE);
+		FileManager.get().readModel(m, RECIPE_DATASET1);
+		FileManager.get().readModel(m2, RECIPE_DATASET2);
 		FileManager.get().readModel(o, RECIPE_SCHEMA_FILE);
 
 		// create DataSet for with namedGraph
-		model = new DatasetImpl(m);
-		model.addNamedModel("nonEdamam", m);
+		DatasetImpl ds = new DatasetImpl(ModelFactory.createDefaultModel());
+		ds.addNamedModel("google", m2);
+		ds.addNamedModel("edamam", m);
+		ds.addNamedModel("ontology", o);
+		ds.setDefaultModel(ds.getUnionModel());
+		model = ds;
 
 		numberOfTriples();
 		numberOfTriplesPerClass();
 		numberOfDistinctClasses();
 		numberOfDistinctProperties();
+
 		classesPerDataSet();
+
 		propertiesPerDataSet();
 		instancesPerClassPerDataSet();
 		subjectsPerPropertyPerDataSet();
 		objectsPerPropertyPerDataSet();
+
 		propertiesInTop5Classes();
 
 	}
@@ -153,9 +162,9 @@ public class HelloWorld2 extends RecipeBase {
 	// list of all classes used in your dataset per data source (see named graphs)
 	public static void classesPerDataSet() {
 		System.out.println("classesPerDataSet");
-		showQuery(model, prefix + "SELECT DISTINCT ?namedGraph ?class \r\n" + "{\r\n"
-				+ " { ?s ?p ?class . ?class a rdfs:Class . ?s a schema:Recipe } UNION { GRAPH ?namedGraph { ?s ?p ?class . ?class a rdfs:Class . ?s a schema:Recipe  } }\r\n"
-				+ "} GROUP BY ?class ?namedGraph ORDER BY ?namedGraph");
+		showQuery(model, prefix + "SELECT DISTINCT ?graph ?class \r\n" + "WHERE{\r\n"
+				+ " { ?s ?p ?class . ?class a rdfs:Class . ?s a schema:Recipe  } . GRAPH ?graph { ?s ?p ?class } \r\n"
+				+ "} ");
 
 	}
 
@@ -163,7 +172,7 @@ public class HelloWorld2 extends RecipeBase {
 	public static void propertiesPerDataSet() {
 		System.out.println("propertiesPerDataSet");
 		showQuery(model, prefix + "SELECT DISTINCT ?namedGraph ?class \r\n" + "{\r\n"
-				+ " { ?s ?class ?o . ?class a rdf:Property . ?s a schema:Recipe  } UNION { GRAPH ?namedGraph { ?s ?class ?o . ?class a rdf:Property . ?s a schema:Recipe  } }\r\n"
+				+ " { ?s ?class ?o . ?class a rdf:Property . ?s a schema:Recipe  } . { GRAPH ?namedGraph { ?s ?class ?o  } }\r\n"
 				+ "} GROUP BY ?class ?namedGraph ORDER BY ?namedGraph");
 
 	}
@@ -172,7 +181,7 @@ public class HelloWorld2 extends RecipeBase {
 	public static void instancesPerClassPerDataSet() {
 		System.out.println("instancesPerClassPerDataSet");
 		showQuery(model, prefix + "SELECT DISTINCT ?namedGraph ?class (COUNT(?class) as ?instances)	 \r\n" + "{\r\n"
-				+ " { ?s ?p ?class . ?class a rdfs:Class . ?s a schema:Recipe } UNION { GRAPH ?namedGraph { ?s ?p ?class . ?class a rdfs:Class . ?s a schema:Recipe  } }\r\n"
+				+ " { ?s ?p ?class . ?class a rdfs:Class . ?s a schema:Recipe } . { GRAPH ?namedGraph { ?s ?p ?class } }\r\n"
 				+ "} GROUP BY ?class ?namedGraph ORDER BY ?namedGraph");
 	}
 
@@ -182,7 +191,7 @@ public class HelloWorld2 extends RecipeBase {
 		showQuery(model, prefix
 				+ "SELECT ?namedGraph ?class (COUNT(?subjectCount) as ?subjects) WHERE{SELECT ?namedGraph ?class (COUNT(?s) as ?subjectCount) \r\n"
 				+ "{\r\n"
-				+ " { ?s ?class ?o . ?class a rdf:Property . ?s a schema:Recipe  } UNION { GRAPH ?namedGraph { ?s ?class ?o . ?class a rdf:Property . ?s a schema:Recipe  } }\r\n"
+				+ " { ?s ?class ?o . ?class a rdf:Property . ?s a schema:Recipe  } . { GRAPH ?namedGraph { ?s ?class ?o } }\r\n"
 				+ "} GROUP BY ?s ?class ?namedGraph ORDER BY ?namedGraph} GROUP BY ?s ?class ?namedGraph ORDER BY ?namedGraph");
 	}
 
@@ -192,7 +201,7 @@ public class HelloWorld2 extends RecipeBase {
 		showQuery(model, prefix
 				+ "SELECT ?namedGraph ?class (COUNT(?subjectCount) as ?objects) WHERE{SELECT ?namedGraph ?class (COUNT(?o) as ?subjectCount) \r\n"
 				+ "{\r\n"
-				+ " { ?s ?class ?o . ?class a rdf:Property . ?s a schema:Recipe  } UNION { GRAPH ?namedGraph { ?s ?class ?o . ?class a rdf:Property . ?s a schema:Recipe  } }\r\n"
+				+ " { ?s ?class ?o . ?class a rdf:Property . ?s a schema:Recipe  } . { GRAPH ?namedGraph { ?s ?class ?o  } }\r\n"
 				+ "} GROUP BY ?o ?class ?namedGraph ORDER BY ?namedGraph} GROUP BY ?o ?class ?namedGraph ORDER BY ?namedGraph");
 	}
 
@@ -203,15 +212,14 @@ public class HelloWorld2 extends RecipeBase {
 
 		// added dummy movie rdf object to demonstrate this query
 		showQuery(model, prefix
-				+ "SELECT DISTINCT ?x \r\n WHERE { ?x schema:domainIncludes ?o . ?sub ?x ?obj . FILTER(?o = ?class)"
-				+ "{SELECT ?class \r\n WHERE { ?x ?p ?class . ?class a rdfs:Class "
-				+ ". ?x a ?classtype . FILTER (?classtype IN (schema:Recipe, schema:Movie) ) } "
+				+ "SELECT DISTINCT ?properties \r\n WHERE { ?properties schema:domainIncludes ?o . ?sub ?properties ?obj . FILTER(?o = ?class)"
+				+ "{SELECT ?class \r\n WHERE { ?properties ?p ?class . ?class a rdfs:Class "
+				+ ". ?properties a ?classtype . FILTER (?classtype IN (schema:Recipe) ) } "
 				+ "GROUP BY ?class ORDER BY DESC(?instances) LIMIT 5}}");
 	}
 
 	public static void namedGraphTest() {
 		showQuery(model, "SELECT *\r\n" + "{\r\n" + " { ?s ?p ?o } UNION { GRAPH ?g { ?s ?p ?o } }\r\n" + "}");
-
 	}
 
 	public static void showQuery(Model m, String q) {

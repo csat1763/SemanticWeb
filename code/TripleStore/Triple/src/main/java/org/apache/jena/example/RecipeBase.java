@@ -25,8 +25,7 @@ import org.slf4j.LoggerFactory;
 
 /**
  * <p>
- * Base class for cheese-ontology based examples. Declares common namespaces and
- * provides some basic utilities.
+ * Base class for cheese-ontology based examples. Declares common namespaces and provides some basic utilities.
  * </p>
  */
 public abstract class RecipeBase extends Base {
@@ -41,6 +40,8 @@ public abstract class RecipeBase extends Base {
 
 	public static final String RECIPE_SCHEMA_FILE = ONTOLOGIES_DIR + "all-layers.nt";
 	public static final String RECIPE_DATA_FILE = DATA_DIR + "recipesFromEdamam.nt";
+	public static final String RECIPE_DATASET1 = DATA_DIR + "recipesFromEdamam.jsonld";
+	public static final String RECIPE_DATASET2 = DATA_DIR + "recipesFromTxt.jsonld";
 
 	/***********************************/
 	/* Static variables */

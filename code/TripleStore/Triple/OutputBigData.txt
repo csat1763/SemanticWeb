@@ -1,0 +1,129 @@
+numberOfTriples
+-----------
+| triples |
+===========
+| 11454   |
+-----------
+
+numberOfTriplesPerClass
+------------------------------------------
+| class                      | instances |
+==========================================
+| <http://schema.org/Recipe> | 618       |
+------------------------------------------
+
+numberOfDistinctClasses
+---------------------------
+| numberOfDistinctClasses |
+===========================
+| 1                       |
+---------------------------
+
+numberOfDistinctProperties
+------------------------------
+| numberOfDistinctProperties |
+==============================
+| 12                         |
+------------------------------
+
+classesPerDataSet
+-----------------------------------------
+| graph    | class                      |
+=========================================
+| <edamam> | <http://schema.org/Recipe> |
+| <google> | <http://schema.org/Recipe> |
+-----------------------------------------
+
+propertiesPerDataSet
+------------------------------------------------------------------
+| namedGraph | class                                             |
+==================================================================
+| <edamam>   | <http://schema.org/author>                        |
+| <edamam>   | <http://schema.org/identifier>                    |
+| <edamam>   | <http://schema.org/image>                         |
+| <edamam>   | <http://schema.org/name>                          |
+| <edamam>   | <http://schema.org/nutrition>                     |
+| <edamam>   | <http://schema.org/recipeIngredient>              |
+| <edamam>   | <http://schema.org/recipeYield>                   |
+| <edamam>   | <http://schema.org/totalTime>                     |
+| <edamam>   | <http://schema.org/url>                           |
+| <edamam>   | <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> |
+| <google>   | <http://schema.org/author>                        |
+| <google>   | <http://schema.org/cookTime>                      |
+| <google>   | <http://schema.org/image>                         |
+| <google>   | <http://schema.org/name>                          |
+| <google>   | <http://schema.org/prepTime>                      |
+| <google>   | <http://schema.org/recipeIngredient>              |
+| <google>   | <http://schema.org/recipeYield>                   |
+| <google>   | <http://schema.org/url>                           |
+| <google>   | <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> |
+------------------------------------------------------------------
+
+instancesPerClassPerDataSet
+-------------------------------------------------------
+| namedGraph | class                      | instances |
+=======================================================
+| <edamam>   | <http://schema.org/Recipe> | 100       |
+| <google>   | <http://schema.org/Recipe> | 518       |
+-------------------------------------------------------
+
+subjectsPerPropertyPerDataSet
+-----------------------------------------------------------------------------
+| namedGraph | class                                             | subjects |
+=============================================================================
+| <edamam>   | <http://schema.org/author>                        | 100      |
+| <edamam>   | <http://schema.org/identifier>                    | 100      |
+| <edamam>   | <http://schema.org/image>                         | 100      |
+| <edamam>   | <http://schema.org/name>                          | 100      |
+| <edamam>   | <http://schema.org/nutrition>                     | 100      |
+| <edamam>   | <http://schema.org/recipeIngredient>              | 100      |
+| <edamam>   | <http://schema.org/recipeYield>                   | 100      |
+| <edamam>   | <http://schema.org/totalTime>                     | 100      |
+| <edamam>   | <http://schema.org/url>                           | 100      |
+| <edamam>   | <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> | 100      |
+| <google>   | <http://schema.org/author>                        | 518      |
+| <google>   | <http://schema.org/cookTime>                      | 518      |
+| <google>   | <http://schema.org/image>                         | 518      |
+| <google>   | <http://schema.org/name>                          | 518      |
+| <google>   | <http://schema.org/prepTime>                      | 518      |
+| <google>   | <http://schema.org/recipeIngredient>              | 518      |
+| <google>   | <http://schema.org/recipeYield>                   | 518      |
+| <google>   | <http://schema.org/url>                           | 518      |
+| <google>   | <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> | 518      |
+-----------------------------------------------------------------------------
+
+objectsPerPropertyPerDataSet
+----------------------------------------------------------------------------
+| namedGraph | class                                             | objects |
+============================================================================
+| <edamam>   | <http://schema.org/author>                        | 1       |
+| <edamam>   | <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> | 1       |
+| <edamam>   | <http://schema.org/identifier>                    | 100     |
+| <edamam>   | <http://schema.org/image>                         | 100     |
+| <edamam>   | <http://schema.org/nutrition>                     | 100     |
+| <edamam>   | <http://schema.org/url>                           | 100     |
+| <edamam>   | <http://schema.org/recipeYield>                   | 12      |
+| <edamam>   | <http://schema.org/totalTime>                     | 32      |
+| <edamam>   | <http://schema.org/recipeIngredient>              | 672     |
+| <edamam>   | <http://schema.org/name>                          | 87      |
+| <google>   | <http://schema.org/author>                        | 1       |
+| <google>   | <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> | 1       |
+| <google>   | <http://schema.org/prepTime>                      | 28      |
+| <google>   | <http://schema.org/recipeIngredient>              | 3631    |
+| <google>   | <http://schema.org/cookTime>                      | 37      |
+| <google>   | <http://schema.org/name>                          | 516     |
+| <google>   | <http://schema.org/image>                         | 517     |
+| <google>   | <http://schema.org/url>                           | 518     |
+| <google>   | <http://schema.org/recipeYield>                   | 9       |
+----------------------------------------------------------------------------
+
+propertiesInTop5Classes
+----------------------------------------
+| properties                           |
+========================================
+| <http://schema.org/recipeIngredient> |
+| <http://schema.org/recipeYield>      |
+| <http://schema.org/nutrition>        |
+| <http://schema.org/cookTime>         |
+----------------------------------------
+

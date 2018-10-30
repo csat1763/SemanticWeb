@@ -26,8 +26,8 @@ import com.google.gson.internal.LinkedTreeMap;
 public class EdmanAPI {
 
 	public static void main(String[] args) throws IOException, InterruptedException {
-		// getData();
-		translateJasonLdToN3();
+		getData();
+		translateJsonLdToN3();
 		// translateTxtToJson();
 
 	}
@@ -37,7 +37,8 @@ public class EdmanAPI {
 	@SuppressWarnings("unchecked")
 	public static void getData() throws IOException {
 
-		URL url = new URL("https://api.edamam.com/search?q=chicken&app_id=XXX&app_key=XXX&from=0&to=100");
+		URL url = new URL(
+				"https://api.edamam.com/search?q=chicken&app_id=6362f010&app_key=0a2cfb0cce312b298bf239c7c37790a8&from=0&to=100");
 
 		// Create instance of connection to the API URL
 		HttpURLConnection conn = (HttpURLConnection) url.openConnection();
@@ -71,16 +72,19 @@ public class EdmanAPI {
 				// Publishing Date (YYYY-MM-DD) begin
 				LinkedTreeMap<String, Object> recipe = (LinkedTreeMap<String, Object>) hit.get("recipe");
 
-				String uri, label, recipeUrl;
+				String uri, label, recipeUrl, imageUrl;
 				List<String> ingredients = new ArrayList<String>();
-				double calories;
+				double calories, yield, totalTime;
 				// TODO: totalNutrients, healthLabels, source(author)
 
 				uri = (String) recipe.get("uri");
 				label = (String) recipe.get("label");
 				recipeUrl = (String) recipe.get("url");
-
+				imageUrl = (String) recipe.get("image");
+				yield = (double) recipe.get("yield");
 				calories = (double) recipe.get("calories");
+				totalTime = (double) recipe.get("totalTime");
+				calories = Math.round(calories);
 
 				ingredients = (ArrayList<String>) recipe.get("ingredientLines");
 
@@ -102,15 +106,20 @@ public class EdmanAPI {
 				recipiesAsString.append("{\n" + "\t\"@context\": \"http://schema.org\",\n"
 						+ "\t\"@type\": \"Recipe\",\n" + "\t\"author\": \"John Smith\", \n" + "\t\"name\": \"" + label
 						+ "\",\n" + "\t\"identifier\": \"" + uri + "\",\n" + "\t\"url\": \"" + recipeUrl + "\",\n"
-						+ "\t\"recipeIngredient\": " + ingredientsAsString.toString() + " \n" + "},\n");
+						+ "\t\"image\": \"" + imageUrl + "\",\n" + "\t\"recipeYield\": \"" + yield + "\",\n"
+						+ "\t\"totalTime\": \"" + totalTime + "\",\n"
+						+ "\t\"nutrition\": {\n\t\t\"@type\": \"NutritionInformation\",\n\t\t\"calories\" : \""
+						+ calories + " calories\"\n\t},\n" + "\t\"recipeIngredient\": " + ingredientsAsString.toString()
+						+ " \n" + "},\n");
 
 			}
+
 			recipiesAsString.delete(recipiesAsString.length() - 2, recipiesAsString.length() - 1);
 			recipiesAsString.append("]");
 
 			// System.out.println(recipiesAsString.toString());
 
-			File recipesFromEdamam = new File("recipesFromEdamam.json");
+			File recipesFromEdamam = new File("recipesFromEdamam.jsonld");
 
 			PrintWriter tempWriter = new PrintWriter(recipesFromEdamam);
 			tempWriter.print(recipiesAsString.toString());
@@ -124,10 +133,10 @@ public class EdmanAPI {
 
 	}
 
-	public static void translateJasonLdToN3() throws IOException {
+	public static void translateJsonLdToN3() throws IOException {
 		URL url = new URL("http://rdf-translator.appspot.com/convert/json-ld/nt/content");
 
-		File file = new File("recipesFromEdamam.json");
+		File file = new File("recipesFromEdamam.jsonld");
 		InputStream fileInputStream = new FileInputStream(file);
 
 		byte[] fileContent = new byte[(int) file.length()];
@@ -213,18 +222,21 @@ public class EdmanAPI {
 				String cookTime = (String) jsonObj.get("cookTime");
 				String prepTime = (String) jsonObj.get("prepTime");
 				String url = (String) jsonObj.get("url");
+				String imageUrl = (String) jsonObj.get("image");
+				String yield = (String) jsonObj.get("recipeYield");
 
 				recipiesAsString.append("{\n" + "\t\"@context\": \"http://schema.org\",\n"
 						+ "\t\"@type\": \"Recipe\",\n" + "\t\"author\": \"John Smith\", \n" + "\t\"name\": \"" + label
-						+ "\",\n" + "\t\"cookTime\": \"" + cookTime + "\",\n" + "\t\"prepTime\": \"" + prepTime
-						+ "\",\n" + "\t\"url\": \"" + url + "\",\n" + "\t\"recipeIngredient\": "
-						+ ingredientsAsString.toString() + " \n" + "},\n");
+						+ "\",\n" + "\t\"recipeYield\": \"" + yield + "\",\n" + "\t\"image\": \"" + imageUrl + "\",\n"
+						+ "\t\"cookTime\": \"" + cookTime + "\",\n" + "\t\"prepTime\": \"" + prepTime + "\",\n"
+						+ "\t\"url\": \"" + url + "\",\n" + "\t\"recipeIngredient\": " + ingredientsAsString.toString()
+						+ " \n" + "},\n");
 
 			}
 			recipiesAsString.delete(recipiesAsString.length() - 2, recipiesAsString.length() - 1);
 			recipiesAsString.append("]");
 
-			File recipesFromTxt = new File("recipesFromTxt.json");
+			File recipesFromTxt = new File("recipesFromTxt.jsonld");
 
 			PrintWriter tempWriter = new PrintWriter(recipesFromTxt);
 			tempWriter.print(recipiesAsString.toString());
@@ -234,6 +246,8 @@ public class EdmanAPI {
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
+
+		System.out.println("Source 2 done.");
 
 	}
 
