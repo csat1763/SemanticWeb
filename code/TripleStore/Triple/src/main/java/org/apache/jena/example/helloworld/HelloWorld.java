@@ -18,17 +18,20 @@
 
 package org.apache.jena.example.helloworld;
 
-// Imports
-///////////////
-import org.apache.jena.example.CheeseBase;
-import org.apache.jena.rdf.model.Literal;
+import org.apache.jena.example.RecipeBase;
+import org.apache.jena.ontology.OntModel;
+import org.apache.jena.query.Dataset;
+import org.apache.jena.query.Query;
+import org.apache.jena.query.QueryExecution;
+import org.apache.jena.query.QueryExecutionFactory;
+import org.apache.jena.query.QueryFactory;
+import org.apache.jena.query.ResultSet;
+import org.apache.jena.query.ResultSetFormatter;
 import org.apache.jena.rdf.model.Model;
 import org.apache.jena.rdf.model.ModelFactory;
-import org.apache.jena.rdf.model.Property;
-import org.apache.jena.rdf.model.Resource;
-import org.apache.jena.rdf.model.Statement;
-import org.apache.jena.rdf.model.StmtIterator;
+import org.apache.jena.sparql.core.DatasetImpl;
 import org.apache.jena.util.FileManager;
+import org.apache.jena.vocabulary.OWL;
 import org.apache.jena.vocabulary.RDF;
 import org.apache.jena.vocabulary.RDFS;
 import org.slf4j.Logger;
@@ -37,11 +40,11 @@ import org.slf4j.LoggerFactory;
 /**
  * <h2>Apache Jena Getting Started Guide - Step 1: Hello World</h2>
  * <p>
- * In this step, we illustrate the basic operations of getting some data into a
- * Java program, finding some data, and showing some output.
+ * In this step, we illustrate the basic operations of getting some data into a Java program, finding some data, and showing some output.
  * </p>
  */
-public class HelloWorld extends CheeseBase { /***********************************/
+public class HelloWorld extends RecipeBase {
+	/***********************************/
 	/* Constants */
 	/***********************************/
 
@@ -51,6 +54,11 @@ public class HelloWorld extends CheeseBase { /**********************************
 
 	@SuppressWarnings(value = "unused")
 	private static final Logger log = LoggerFactory.getLogger(HelloWorld.class);
+
+	public static String prefix = "prefix schema: <http://schema.org/>\n" + "prefix rdfs: <" + RDFS.getURI() + ">\n"
+			+ "prefix rdf: <" + RDF.getURI() + ">\n" + "prefix owl: <" + OWL.getURI() + ">\n";
+
+	public static DatasetImpl model;
 
 	/***********************************/
 	/* Instance variables */
@@ -65,95 +73,179 @@ public class HelloWorld extends CheeseBase { /**********************************
 	/***********************************/
 
 	/**
-	 * Main entry point for running this example. Since every sub-class will be
-	 * {@link Runnable}, we create an instance, stash the command-line args where we
-	 * can retrieve them later, and invoke {@link #run}
+	 * Main entry point for running this example. Since every sub-class will be {@link Runnable}, we create an instance, stash the command-line args where we can retrieve them later, and invoke
+	 * {@link #run}
 	 */
 	public static void main(String[] args) {
 		new HelloWorld().setArgs(args).run();
 	}
 
+	@Override
 	public void run() {
 		// creates a new, empty in-memory model
 		Model m = ModelFactory.createDefaultModel();
+		Model m2 = ModelFactory.createDefaultModel();
+		OntModel o = ModelFactory.createOntologyModel();
 
 		// load some data into the model
-		FileManager.get().readModel(m, CHEESE_DATA_FILE);
+		FileManager.get().readModel(m, RECIPE_DATASET1);
+		FileManager.get().readModel(m2, RECIPE_DATASET2);
+		FileManager.get().readModel(o, RECIPE_SCHEMA_FILE);
 
-		// generate some output
-		showModelSize(m);
-		listCheeses(m);
+		// create DataSet for with namedGraph
+		DatasetImpl ds = new DatasetImpl(ModelFactory.createDefaultModel());
+		ds.addNamedModel("google", m2);
+		ds.addNamedModel("edamam", m);
+		ds.addNamedModel("ontology", o);
+		ds.setDefaultModel(ds.getUnionModel());
+		model = ds;
+
+		numberOfTriples();
+		numberOfTriplesPerClass();
+		numberOfDistinctClasses();
+		numberOfDistinctProperties();
+
+		classesPerDataSet();
+
+		propertiesPerDataSet();
+		instancesPerClassPerDataSet();
+		subjectsPerPropertyPerDataSet();
+		objectsPerPropertyPerDataSet();
+
+		propertiesInTop5Classes();
+
 	}
 
 	/***********************************/
 	/* Internal implementation methods */
 	/***********************************/
 
-	/**
-	 * Show the size of the model on stdout
-	 */
-	protected void showModelSize(Model m) {
-		System.out.println(String.format("The model contains %d triples", m.size()));
+	// total number of triples
+	public static void numberOfTriples() {
+		System.out.println("numberOfTriples");
+		showQuery(model, prefix + "SELECT (COUNT(?x) as ?triples)	\r\n" + "WHERE { ?x ?y ?s . ?x a schema:Recipe}");
+
 	}
 
-	/**
-	 * List the names of cheeses to stdout
-	 */
-	protected void listCheeses(Model m) {
-		Resource cheeseClass = m.getResource(CHEESE_SCHEMA + "Cheese");
+	// total number of instantiations
+	public static void numberOfTriplesPerClass() {
+		System.out.println("numberOfTriplesPerClass");
+		showQuery(model, prefix + "SELECT  ?class (COUNT(?x) as ?instances)	\r\n"
+				+ "WHERE { ?x ?y ?class . ?class a rdfs:Class . ?x a schema:Recipe} GROUP BY ?class ");
 
-		StmtIterator i = m.listStatements(null, RDF.type, cheeseClass);
+	}
 
-		while (i.hasNext()) {
-			Resource cheese = i.next().getSubject();
-			String label = getEnglishLabel(cheese);
-			System.out.println(String.format("Cheese %s has name: %s", cheese.getURI(), label));
+	// ?x rdf:type schema:Recipe
+	// we want the subject ?x that is connected to the object schema:Recipe by the predicate rdf:type
+	// _:Nb9b78862704942d18cd2e72470615aae <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+	// <http://schema.org/Recipe> .
+	// example triple for the subject above:
+	// _:Nb9b78862704942d18cd2e72470615aae <http://schema.org/recipeIngredient> "25 grams paprika (about 1/4 cup)" .
+
+	// total number of distinct classes
+	public static void numberOfDistinctClasses() {
+		System.out.println("numberOfDistinctClasses");
+		showQuery(model,
+				prefix + "SELECT (COUNT(*) as ?numberOfDistinctClasses) \r\n WHERE{"
+						+ "SELECT (COUNT(distinct ?y) as ?xcount) \r\n"
+						+ "WHERE { ?x ?y ?s . ?s a rdfs:Class . ?x a schema:Recipe} GROUP BY ?y}");
+	}
+
+	// total number of distinct properties
+	public static void numberOfDistinctProperties() {
+		System.out.println("numberOfDistinctProperties");
+		showQuery(model, prefix
+				+ "SELECT (COUNT(*) as ?numberOfDistinctProperties) WHERE{ SELECT DISTINCT ?Properties WHERE {\r\n"
+				+ " ?x ?Properties ?z. ?Properties a rdf:Property . ?x a schema:Recipe }GROUP BY ?Properties} ");
+	}
+
+	// list of all classes used in your dataset per data source (see named graphs)
+	public static void classesPerDataSet() {
+		System.out.println("classesPerDataSet");
+		showQuery(model, prefix + "SELECT DISTINCT ?graph ?class \r\n" + "WHERE{\r\n"
+				+ " { ?s ?p ?class . ?class a rdfs:Class . ?s a schema:Recipe  } . GRAPH ?graph { ?s ?p ?class } \r\n"
+				+ "} ");
+
+	}
+
+	// list of all properties used in your dataset per data source
+	public static void propertiesPerDataSet() {
+		System.out.println("propertiesPerDataSet");
+		showQuery(model, prefix + "SELECT DISTINCT ?namedGraph ?class \r\n" + "{\r\n"
+				+ " { ?s ?class ?o . ?class a rdf:Property . ?s a schema:Recipe  } . { GRAPH ?namedGraph { ?s ?class ?o  } }\r\n"
+				+ "} GROUP BY ?class ?namedGraph ORDER BY ?namedGraph");
+
+	}
+
+	// total number of instances per class per data source (reasoning on and off)
+	public static void instancesPerClassPerDataSet() {
+		System.out.println("instancesPerClassPerDataSet");
+		showQuery(model, prefix + "SELECT DISTINCT ?namedGraph ?class (COUNT(?class) as ?instances)	 \r\n" + "{\r\n"
+				+ " { ?s ?p ?class . ?class a rdfs:Class . ?s a schema:Recipe } . { GRAPH ?namedGraph { ?s ?p ?class } }\r\n"
+				+ "} GROUP BY ?class ?namedGraph ORDER BY ?namedGraph");
+	}
+
+	// total number of distinct subjects per property per data source
+	public static void subjectsPerPropertyPerDataSet() {
+		System.out.println("subjectsPerPropertyPerDataSet");
+		showQuery(model, prefix
+				+ "SELECT ?namedGraph ?class (COUNT(?subjectCount) as ?subjects) WHERE{SELECT ?namedGraph ?class (COUNT(?s) as ?subjectCount) \r\n"
+				+ "{\r\n"
+				+ " { ?s ?class ?o . ?class a rdf:Property . ?s a schema:Recipe  } . { GRAPH ?namedGraph { ?s ?class ?o } }\r\n"
+				+ "} GROUP BY ?s ?class ?namedGraph ORDER BY ?namedGraph} GROUP BY ?s ?class ?namedGraph ORDER BY ?namedGraph");
+	}
+
+	// total number of distinct objects per property per data source
+	public static void objectsPerPropertyPerDataSet() {
+		System.out.println("objectsPerPropertyPerDataSet");
+		showQuery(model, prefix
+				+ "SELECT ?namedGraph ?class (COUNT(?subjectCount) as ?objects) WHERE{SELECT ?namedGraph ?class (COUNT(?o) as ?subjectCount) \r\n"
+				+ "{\r\n"
+				+ " { ?s ?class ?o . ?class a rdf:Property . ?s a schema:Recipe  } . { GRAPH ?namedGraph { ?s ?class ?o  } }\r\n"
+				+ "} GROUP BY ?o ?class ?namedGraph ORDER BY ?namedGraph} GROUP BY ?o ?class ?namedGraph ORDER BY ?namedGraph");
+	}
+
+	// distinct properties used on top 5 classes in terms of amount of instances
+	// (reasoning on and off)
+	public static void propertiesInTop5Classes() {
+		System.out.println("propertiesInTop5Classes");
+
+		// added dummy movie rdf object to demonstrate this query
+		showQuery(model, prefix
+				+ "SELECT DISTINCT ?properties \r\n WHERE { ?properties schema:domainIncludes ?o . ?sub ?properties ?obj . FILTER(?o = ?class)"
+				+ "{SELECT ?class \r\n WHERE { ?properties ?p ?class . ?class a rdfs:Class "
+				+ ". ?properties a ?classtype . FILTER (?classtype IN (schema:Recipe) ) } "
+				+ "GROUP BY ?class ORDER BY DESC(?instances) LIMIT 5}}");
+	}
+
+	public static void namedGraphTest() {
+		showQuery(model, "SELECT *\r\n" + "{\r\n" + " { ?s ?p ?o } UNION { GRAPH ?g { ?s ?p ?o } }\r\n" + "}");
+	}
+
+	public static void showQuery(Model m, String q) {
+		Query query = QueryFactory.create(q);
+		QueryExecution qexec = QueryExecutionFactory.create(query, m);
+		try {
+			ResultSet results = qexec.execSelect();
+			ResultSetFormatter.out(results, m);
+		} finally {
+			qexec.close();
 		}
+
 	}
 
-	/**
-	 * Get the English-language label for a given resource. In general, a resource
-	 * may have zero, one or many labels. In this case, we happen to know that the
-	 * cheese resources have mutlilingual labels, so we pick out the English one
-	 * 
-	 * @param cheese
-	 * @return
-	 */
-	protected String getEnglishLabel(Resource cheese) {
-		StmtIterator i = cheese.listProperties(RDFS.label);
-		while (i.hasNext()) {
-			Literal l = i.next().getLiteral();
-
-			if (l.getLanguage() != null && l.getLanguage().equals("en")) {
-				// found the English language label
-				return l.getLexicalForm();
-			}
+	public static void showQuery(Dataset m, String q) {
+		Query query = QueryFactory.create(q);
+		QueryExecution qexec = QueryExecutionFactory.create(query, m);
+		try {
+			ResultSet results = qexec.execSelect();
+			ResultSetFormatter.out(results);
+		} finally {
+			qexec.close();
 		}
 
-		return "A Cheese with No Name!";
-	}
+		System.out.println();
 
-	/**
-	 * Get the value of a property as a string, allowing for missing properties
-	 * 
-	 * @param r
-	 *            A resource
-	 * @param p
-	 *            The property whose value is wanted
-	 * @return The value of the <code>p</code> property of <code>r</code> as a
-	 *         string
-	 */
-	protected String getValueAsString(Resource r, Property p) {
-		Statement s = r.getProperty(p);
-		if (s == null) {
-			return "";
-		} else {
-			return s.getObject().isResource() ? s.getResource().getURI() : s.getString();
-		}
 	}
-
-	/***********************************/
-	/* Inner class definitions */
-	/***********************************/
 
 }
