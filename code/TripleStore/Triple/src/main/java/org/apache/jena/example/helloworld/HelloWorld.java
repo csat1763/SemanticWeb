@@ -25,10 +25,14 @@ import org.apache.jena.query.Query;
 import org.apache.jena.query.QueryExecution;
 import org.apache.jena.query.QueryExecutionFactory;
 import org.apache.jena.query.QueryFactory;
+import org.apache.jena.query.QuerySolution;
 import org.apache.jena.query.ResultSet;
 import org.apache.jena.query.ResultSetFormatter;
 import org.apache.jena.rdf.model.Model;
 import org.apache.jena.rdf.model.ModelFactory;
+import org.apache.jena.rdf.model.RDFNode;
+import org.apache.jena.rdfconnection.RDFConnection;
+import org.apache.jena.rdfconnection.RDFConnectionRemote;
 import org.apache.jena.sparql.core.DatasetImpl;
 import org.apache.jena.util.FileManager;
 import org.apache.jena.vocabulary.OWL;
@@ -82,6 +86,7 @@ public class HelloWorld extends RecipeBase {
 
 	@Override
 	public void run() {
+
 		// creates a new, empty in-memory model
 		Model m = ModelFactory.createDefaultModel();
 		Model m2 = ModelFactory.createDefaultModel();
@@ -247,5 +252,53 @@ public class HelloWorld extends RecipeBase {
 		System.out.println();
 
 	}
+
+	public static void execSelectAndProcess(String query) {
+		QueryExecution q = QueryExecutionFactory.sparqlService("http://localhost:3030/edamam/query", query);
+		ResultSet results = q.execSelect();
+
+		while (results.hasNext()) {
+			QuerySolution soln = results.nextSolution();
+			// assumes that you have an "?x" in your query
+			RDFNode x = soln.get("x");
+			System.out.println(x);
+		}
+	}
+
+	public static void rdfCon() {
+
+		// UpdateExecutionFactory.createStreaming(ds);
+
+		// DatasetAccessorFactory.createHTTP("http://localhost:3030/food/update").add("google", m2);
+
+		RDFConnection conn0 = RDFConnectionRemote.create().destination("http://localhost:3030/")
+				.queryEndpoint("/food/sparql")
+				// Set a specific accept header; here, sparql-results+json (preferred) and text/tab-separated-values
+				// The default is "application/sparql-results+json, application/sparql-results+xml;q=0.9, text/tab-separated-values;q=0.7, text/csv;q=0.5, application/json;q=0.2, application/xml;q=0.2, */*;q=0.1"
+				.acceptHeaderSelectQuery("application/sparql-results+json, application/sparql-results+xml;q=0.9")
+				.build();
+		// conn0.loadDataset(model);
+
+		Query query = QueryFactory.create(prefix
+				+ "SELECT DISTINCT ?namedGraph ?class (COUNT(?class) as ?instances)	 \r\n" + "{\r\n"
+				+ " {{?s ?p ?class} UNION {GRAPH ?namedGraph { ?s ?p ?class }}} . { ?s ?p ?class . ?class a rdfs:Class . ?s a schema:Recipe } . { GRAPH ?namedGraph { ?s ?p ?class } }\r\n"
+				+ "} GROUP BY ?class ?namedGraph ORDER BY ?namedGraph");
+
+		// Whether the connection can be reused depends on the details of the implementation.
+		// See example 5.
+		try (RDFConnection conn = conn0) {
+			conn.queryResultSet(query, ResultSetFormatter::out);
+		}
+
+		/*PREFIX schema: <http://schema.org/>
+		SELECT distinct ?g ?o
+		FROM  <http://localhost:3030/food2/data/ont>
+		FROM  NAMED <http://localhost:3030/food2/data/edamama>
+		FROM  NAMED <http://localhost:3030/food2/data/google>
+		WHERE {
+			
+		GRAPH ?g{?s ?p ?o  . ?s a schema:Recipe}. ?o a rdfs:Class .
+
+		}*/}
 
 }
