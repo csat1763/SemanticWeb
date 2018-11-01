@@ -27,7 +27,7 @@ public class EdmanAPI {
 
 	public static void main(String[] args) throws IOException, InterruptedException {
 		getData();
-		translateJsonLdToN3();
+		// translateJsonLdToN3();
 		// translateTxtToJson();
 
 	}
@@ -37,8 +37,7 @@ public class EdmanAPI {
 	@SuppressWarnings("unchecked")
 	public static void getData() throws IOException {
 
-		URL url = new URL(
-				"https://api.edamam.com/search?q=chicken&app_id=6362f010&app_key=0a2cfb0cce312b298bf239c7c37790a8&from=0&to=100");
+		URL url = new URL("https://api.edamam.com/search?q=chicken&app_id=XXX&app_key=XXX&from=100&to=200");
 
 		// Create instance of connection to the API URL
 		HttpURLConnection conn = (HttpURLConnection) url.openConnection();
