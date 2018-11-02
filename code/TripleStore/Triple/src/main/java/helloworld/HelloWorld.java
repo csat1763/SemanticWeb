@@ -109,7 +109,7 @@ public class HelloWorld extends RecipeBase {
 
 		HashMap<String, Model> nameData = new HashMap<String, Model>();
 		nameData.put("google", m2);
-		nameData.put("edamam2", m3);
+		nameData.put("edamam", m);
 		nameData.put("ontology", o);
 
 		// FusekiServer server = FusekiServer.create().add("/rdf", new DatasetImpl(m)).build();
@@ -118,17 +118,16 @@ public class HelloWorld extends RecipeBase {
 		FusekiConnection fc = new FusekiConnection("http://localhost:3030", "food2");
 		fc.initFuseki(nameData);
 
-		// fc.query(objectsPerPropertyPerDataSet());
-
-		/*
-		 * numberOfTriples(); numberOfTriplesPerClass(); numberOfDistinctClasses(); numberOfDistinctProperties();
-		 * 
-		 * classesPerDataSet();
-		 * 
-		 * propertiesPerDataSet(); instancesPerClassPerDataSet(); subjectsPerPropertyPerDataSet(); objectsPerPropertyPerDataSet();
-		 * 
-		 * propertiesInTop5Classes();
-		 */
+		fc.query(numberOfTriples());
+		fc.query(numberOfTriplesPerClass());
+		fc.query(numberOfDistinctClasses());
+		fc.query(numberOfDistinctProperties());
+		fc.query(classesPerDataSet());
+		fc.query(propertiesPerDataSet());
+		fc.query(instancesPerClassPerDataSet());
+		fc.query(subjectsPerPropertyPerDataSet());
+		fc.query(objectsPerPropertyPerDataSet());
+		fc.query(propertiesInTop5Classes());
 
 	}
 
@@ -137,17 +136,17 @@ public class HelloWorld extends RecipeBase {
 	/***********************************/
 
 	// total number of triples
-	public static void numberOfTriples() {
+	public static String numberOfTriples() {
 		System.out.println("numberOfTriples");
-		showQuery(model, prefix + "SELECT (COUNT(?x) as ?triples)	\r\n" + "WHERE { ?x ?y ?s . ?x a schema:Recipe}");
+		return prefix + "SELECT (COUNT(?x) as ?triples)	\r\n" + "WHERE { ?x ?y ?s . ?x a schema:Recipe}";
 
 	}
 
 	// total number of instantiations
-	public static void numberOfTriplesPerClass() {
+	public static String numberOfTriplesPerClass() {
 		System.out.println("numberOfTriplesPerClass");
-		showQuery(model, prefix + "SELECT  ?class (COUNT(?x) as ?instances)	\r\n"
-				+ "WHERE { ?x ?y ?class . ?class a rdfs:Class . ?x a schema:Recipe} GROUP BY ?class ");
+		return prefix + "SELECT  ?class (COUNT(?x) as ?instances)	\r\n"
+				+ "WHERE { ?x ?y ?class . ?class a rdfs:Class . ?x a schema:Recipe} GROUP BY ?class ";
 
 	}
 
@@ -177,18 +176,25 @@ public class HelloWorld extends RecipeBase {
 	// list of all classes used in your dataset per data source (see named graphs)
 	public static String classesPerDataSet() {
 		System.out.println("classesPerDataSet");
-		return prefix + "SELECT DISTINCT ?graph ?class \r\n" + "WHERE{\r\n"
-				+ " { ?s ?p ?class . ?class a rdfs:Class . ?s a schema:Recipe  } . GRAPH ?graph { ?s ?p ?class } \r\n"
-				+ "} ";
+		return prefix + "SELECT DISTINCT ?graph ?class WHERE{\r\n"
+				+ "				GRAPH ?graph { ?s ?p ?class . ?s a schema:Recipe}  . ?class a rdfs:Class\r\n"
+				+ "				} ";
 
 	}
 
 	// list of all properties used in your dataset per data source
 	public static String propertiesPerDataSet() {
 		System.out.println("propertiesPerDataSet");
-		return prefix + "SELECT DISTINCT ?namedGraph ?class \r\n" + "{\r\n"
-				+ " { ?s ?class ?o . ?class a rdf:Property . ?s a schema:Recipe  } . { GRAPH ?namedGraph { ?s ?class ?o  } }\r\n"
-				+ "} GROUP BY ?class ?namedGraph ORDER BY ?namedGraph";
+		return prefix + "SELECT DISTINCT ?namedGraph ?class {\r\n"
+				+ "				  GRAPH ?namedGraph { ?s ?class ?o  . ?s a schema:Recipe }. ?class a rdf:Property \r\n"
+				+ "				} GROUP BY ?class ?namedGraph ORDER BY ?namedGraph";
+
+		// GRAPH ?namedGraph { ?s ?class ?o . ?s a schema:Recipe }. ?class a rdf:Property
+		// Explanation: keyword GRAPH binds the set to 1 named graph and within this named graph certain propertiess can be accessed
+		// "?s a schema:Recipe" is valid because the dataset includes the triple "xxxx rdf:type schema:Recipe"
+		// ". ?class a rdf:Property" has to be outside because once the set is bound to a named graph, no other named graph can be accessed within the boundary
+		// but since all named graphs are unified in the default graph, other named graph triples can be accessed outside the set.
+		// The ontology graph which holds the information schema:recipeIngridient rdf:type rdf:Property is accessed this way.
 
 	}
 
@@ -196,7 +202,7 @@ public class HelloWorld extends RecipeBase {
 	public static String instancesPerClassPerDataSet() {
 		System.out.println("instancesPerClassPerDataSet");
 		return prefix + "SELECT DISTINCT ?namedGraph ?class (COUNT(?class) as ?instances)	 \r\n" + "{\r\n"
-				+ " { ?s ?p ?class . ?class a rdfs:Class . ?s a schema:Recipe } . { GRAPH ?namedGraph { ?s ?p ?class } }\r\n"
+				+ "  GRAPH ?namedGraph { ?s ?p ?class . ?s a schema:Recipe}  . ?class a rdfs:Class  \r\n"
 				+ "} GROUP BY ?class ?namedGraph ORDER BY ?namedGraph";
 	}
 
@@ -205,8 +211,7 @@ public class HelloWorld extends RecipeBase {
 		System.out.println("subjectsPerPropertyPerDataSet");
 		return prefix
 				+ "SELECT ?namedGraph ?class (COUNT(?subjectCount) as ?subjects) WHERE{SELECT ?namedGraph ?class (COUNT(?s) as ?subjectCount) \r\n"
-				+ "{\r\n"
-				+ " { ?s ?class ?o . ?class a rdf:Property . ?s a schema:Recipe  } . { GRAPH ?namedGraph { ?s ?class ?o } }\r\n"
+				+ "{\r\n" + "  GRAPH ?namedGraph { ?s ?class ?o . ?s a schema:Recipe } . ?class a rdf:Property   \r\n"
 				+ "} GROUP BY ?s ?class ?namedGraph ORDER BY ?namedGraph} GROUP BY ?s ?class ?namedGraph ORDER BY ?namedGraph";
 	}
 
@@ -215,9 +220,9 @@ public class HelloWorld extends RecipeBase {
 		System.out.println("objectsPerPropertyPerDataSet");
 		return prefix
 				+ "SELECT ?namedGraph ?class (COUNT(?subjectCount) as ?objects) WHERE{SELECT ?namedGraph ?class (COUNT(?o) as ?subjectCount) \r\n"
-				+ "{\r\n"
-				+ " { ?s ?class ?o . ?class a rdf:Property . ?s a schema:Recipe  } . { GRAPH ?namedGraph { ?s ?class ?o  } }\r\n"
+				+ "{\r\n" + " GRAPH ?namedGraph { ?s ?class ?o . ?s a schema:Recipe  } . ?class a rdf:Property\r\n"
 				+ "} GROUP BY ?o ?class ?namedGraph ORDER BY ?namedGraph} GROUP BY ?o ?class ?namedGraph ORDER BY ?namedGraph";
+
 	}
 
 	// distinct properties used on top 5 classes in terms of amount of instances
@@ -298,6 +303,13 @@ public class HelloWorld extends RecipeBase {
 
 		}
 
+		private void reInit() {
+			this.queryConnection = RDFConnectionRemote.create().destination(connectionUrl + "/")
+					.queryEndpoint(dataName + "/sparql")
+					.acceptHeaderSelectQuery("application/sparql-results+json, application/sparql-results+xml;q=0.9")
+					.build();
+		}
+
 		public void deleteModel(String graphName) {
 			DatasetAccessorFactory.createHTTP(connectionUrl + "/" + dataName + "/data").deleteModel(graphName);
 		}
@@ -330,8 +342,12 @@ public class HelloWorld extends RecipeBase {
 
 			Query query = QueryFactory.create(queryString);
 
-			try (RDFConnection conn = queryConnection) {
+			reInit();
+			try (
+
+					RDFConnection conn = queryConnection) {
 				conn.queryResultSet(query, ResultSetFormatter::out);
+
 			}
 
 		}
@@ -342,7 +358,8 @@ public class HelloWorld extends RecipeBase {
 			ArrayList<String> graphNames = getGraphNames();
 			for (Entry<String, Model> entry : nameData.entrySet()) {
 
-				if (!graphNames.contains(connectionUrl + "/" + dataName + "/data/" + entry.getKey())) {
+				if (!graphNames.contains(connectionUrl + "/" + dataName + "/data/" + entry.getKey())
+						&& !dataset.getNamedModel(entry.getKey()).isIsomorphicWith(entry.getValue())) {
 					dataset.addNamedModel(entry.getKey(), entry.getValue());
 					a.load(entry.getKey(), entry.getValue());
 				}
