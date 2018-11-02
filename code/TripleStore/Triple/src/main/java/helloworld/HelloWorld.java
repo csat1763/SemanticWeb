@@ -110,7 +110,7 @@ public class HelloWorld extends RecipeBase {
 		// FusekiServer server = FusekiServer.create().add("/rdf", new DatasetImpl(m)).build();
 		// server.start();
 
-		FusekiConnection fc = new FusekiConnection("http://localhost:3030", "food2");
+		FusekiConnection fc = new FusekiConnection("http://localhost:3030", "food");
 		fc.initFuseki(nameData);
 		// fc.deleteDefaultModel();
 
@@ -243,28 +243,12 @@ public class HelloWorld extends RecipeBase {
 
 		private RDFConnection readConnection;
 
-		private RDFConnection queryConnection;
-
 		public Dataset dataset;
 
 		public FusekiConnection(String connectionUrl, String dataName) {
 			this.dataName = dataName;
 			this.connectionUrl = connectionUrl;
-			this.readConnection = RDFConnectionRemote.create().destination(connectionUrl + "/" + dataName + "/data")
-					.build();
-			this.queryConnection = RDFConnectionRemote.create().destination(connectionUrl + "/")
-					.queryEndpoint(dataName + "/sparql")
-					.acceptHeaderSelectQuery("application/sparql-results+json, application/sparql-results+xml;q=0.9")
-					.build();
-			this.dataset = readConnection.fetchDataset();
 
-		}
-
-		private void reInit() {
-			this.queryConnection = RDFConnectionRemote.create().destination(connectionUrl + "/")
-					.queryEndpoint(dataName + "/sparql")
-					.acceptHeaderSelectQuery("application/sparql-results+json, application/sparql-results+xml;q=0.9")
-					.build();
 		}
 
 		public void deleteModel(String graphName) {
@@ -299,10 +283,11 @@ public class HelloWorld extends RecipeBase {
 
 			Query query = QueryFactory.create(queryString);
 
-			reInit();
-			try (
-
-					RDFConnection conn = queryConnection) {
+			RDFConnection queryConnection = RDFConnectionRemote.create().destination(connectionUrl + "/")
+					.queryEndpoint(dataName + "/sparql")
+					.acceptHeaderSelectQuery("application/sparql-results+json, application/sparql-results+xml;q=0.9")
+					.build();
+			try (RDFConnection conn = queryConnection) {
 				conn.queryResultSet(query, ResultSetFormatter::out);
 
 			}
@@ -310,6 +295,10 @@ public class HelloWorld extends RecipeBase {
 		}
 
 		public void initFuseki(HashMap<String, Model> nameData) {
+			System.out.println("Initializing dataset...");
+			this.readConnection = RDFConnectionRemote.create().destination(connectionUrl + "/" + dataName + "/data")
+					.build();
+			this.dataset = readConnection.fetchDataset();
 			RDFDatasetConnection a = RDFConnectionRemote.create().destination(connectionUrl + "/" + dataName + "/data")
 					.build();
 			ArrayList<String> graphNames = getGraphNames();
@@ -323,7 +312,7 @@ public class HelloWorld extends RecipeBase {
 
 			}
 			if (!dataset.getDefaultModel().isIsomorphicWith(dataset.getUnionModel())) {
-				System.out.println("Not isomorph");
+				// System.out.println("Not isomorph");
 				dataset.setDefaultModel(ModelFactory.createDefaultModel());
 				dataset.setDefaultModel(dataset.getUnionModel());
 

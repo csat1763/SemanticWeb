@@ -10,15 +10,6 @@
 
 [] rdf:type fuseki:Server ;
 
-fuseki:name                       "ds" ;       # http://host:port/ds
-fuseki:serviceQuery               "sparql" ;   # SPARQL query service
-fuseki:serviceQuery               "query" ;    # SPARQL query service (alt name)
-fuseki:serviceUpdate              "update" ;   # SPARQL update service
-fuseki:serviceUpload              "upload" ;   # Non-SPARQL upload service
-fuseki:serviceReadWriteGraphStore "data" ;     # SPARQL Graph store protocol (read and write)
-# A separate read-only graph store endpoint:
-fuseki:serviceReadGraphStore      "get" ;      # SPARQL Graph store protocol (read only)
-fuseki:dataset                   <#dataset> ;
 	
    # Example::
    # Server-wide query timeout.   
