@@ -313,9 +313,7 @@ class EdamamCrawler implements Callable<String> {
 	public String call() {
 		URL url;
 		try {
-			url = new URL(
-					"https://api.edamam.com/search?q=pasta&app_id=6362f010&app_key=0a2cfb0cce312b298bf239c7c37790a8&from="
-							+ from + "&to=" + to);
+			url = new URL("https://api.edamam.com/search?q=pasta&app_id=XXX&app_key=XXX&from=" + from + "&to=" + to);
 
 			// Create instance of connection to the API URL
 			HttpURLConnection conn = (HttpURLConnection) url.openConnection();
