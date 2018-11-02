@@ -111,7 +111,8 @@ public class HelloWorld extends RecipeBase {
 		// server.start();
 
 		FusekiConnection fc = new FusekiConnection("http://localhost:3030", "food2");
-		fc.initFuseki(nameData);
+		// fc.initFuseki(nameData);
+		fc.deleteDefaultModel();
 
 		fc.query(numberOfTriples());
 		fc.query(numberOfTriplesPerClass());
@@ -172,10 +173,13 @@ public class HelloWorld extends RecipeBase {
 	public static String classesPerDataSet() {
 		System.out.println("classesPerDataSet");
 		return prefix + "SELECT DISTINCT ?graph ?class WHERE{\r\n"
-				+ "				GRAPH ?graph { ?s ?p ?class . ?s a schema:Recipe}  . ?class a rdfs:Class\r\n"
+				+ "				GRAPH ?graph { ?s ?p ?class . ?s a schema:Recipe}  . GRAPH ?j {?class a rdfs:Class} \r\n"
 				+ "				} ";
 
 	}
+
+	// GRAPH ?graph { ?s ?p ?class . ?s a schema:Recipe} . GRAPH ?j {?class a rdfs:Class}
+	// also a valid query in case the default graph is empty or not a union of all named graphs
 
 	// list of all properties used in your dataset per data source
 	public static String propertiesPerDataSet() {
