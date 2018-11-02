@@ -111,8 +111,8 @@ public class HelloWorld extends RecipeBase {
 		// server.start();
 
 		FusekiConnection fc = new FusekiConnection("http://localhost:3030", "food2");
-		// fc.initFuseki(nameData);
-		fc.deleteDefaultModel();
+		fc.initFuseki(nameData);
+		// fc.deleteDefaultModel();
 
 		fc.query(numberOfTriples());
 		fc.query(numberOfTriplesPerClass());
