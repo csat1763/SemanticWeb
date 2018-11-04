@@ -1,0 +1,4 @@
+SELECT (COUNT(?x) as ?triples) WHERE
+{ 
+  ?x ?y ?s . ?x a schema:Recipe
+}

@@ -62,8 +62,19 @@ public class HelloWorld extends RecipeBase {
 	@SuppressWarnings(value = "unused")
 	private static final Logger log = LoggerFactory.getLogger(HelloWorld.class);
 
-	public static String prefix = "prefix schema: <http://schema.org/>\n" + "prefix rdfs: <" + RDFS.getURI() + ">\n"
-			+ "prefix rdf: <" + RDF.getURI() + ">\n" + "prefix owl: <" + OWL.getURI() + ">\n";
+	public static String prefix = "prefix rdfs: <" + RDFS.getURI() + ">\n" + "prefix rdf: <" + RDF.getURI() + ">\n"
+			+ "prefix owl: <" + OWL.getURI() + ">\n" + "PREFIX wd: <http://www.wikidata.org/entity/>\r\n"
+			+ "PREFIX wds: <http://www.wikidata.org/entity/statement/>\r\n"
+			+ "PREFIX wdv: <http://www.wikidata.org/value/>\r\n"
+			+ "PREFIX wdt: <http://www.wikidata.org/prop/direct/>\r\n"
+			+ "PREFIX wikibase: <http://wikiba.se/ontology#>\r\n" + "PREFIX p: <http://www.wikidata.org/prop/>\r\n"
+			+ "PREFIX ps: <http://www.wikidata.org/prop/statement/>\r\n"
+			+ "PREFIX pq: <http://www.wikidata.org/prop/qualifier/>\r\n"
+			+ "PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>\r\n"
+			+ "PREFIX bd: <http://www.bigdata.com/rdf#>\r\n" + "PREFIX afn: <http://jena.hpl.hp.com/ARQ/function#>\r\n"
+			+ "PREFIX dc: <http://purl.org/dc/elements/1.1/>\r\n"
+			+ "PREFIX mw: <http://tools.wmflabs.org/mw2sparql/ontology#>\r\n"
+			+ "PREFIX mwapi: <https://www.mediawiki.org/ontology#API/>\r\n" + "PREFIX schema: <http://schema.org/>";
 
 	public static DatasetImpl model;
 
@@ -111,7 +122,8 @@ public class HelloWorld extends RecipeBase {
 		// server.start();
 
 		FusekiConnection fc = new FusekiConnection("http://localhost:3030", "food");
-		fc.initFuseki(nameData);
+		// fc.initFuseki(nameData);
+		// fc.deleteAllGraphs();
 		// fc.deleteDefaultModel();
 
 		fc.query(numberOfTriples());
@@ -124,6 +136,7 @@ public class HelloWorld extends RecipeBase {
 		fc.query(subjectsPerPropertyPerDataSet());
 		fc.query(objectsPerPropertyPerDataSet());
 		fc.query(propertiesInTop5Classes());
+		fc.query(federatedQuery());
 
 	}
 
@@ -235,13 +248,28 @@ public class HelloWorld extends RecipeBase {
 				+ "GROUP BY ?class ORDER BY DESC(?instances) LIMIT 5}}";
 	}
 
+	// distinct properties used on top 5 classes in terms of amount of instances
+	// (reasoning on and off)
+	public static String federatedQuery() {
+		System.out.println("wikiDataAlignment");
+		return prefix + "SELECT DISTINCT ?item ?itemLabel ?localClass WHERE {\r\n" + "   {\r\n"
+				+ "	SELECT DISTINCT ?localClass ?z WHERE {\r\n"
+				+ "    ?s ?p ?localClass . ?localClass a rdfs:Class . ?s a schema:Recipe . ?localClass rdfs:label ?z .\r\n"
+				+ "    }\r\n" + "  }\r\n" + "  SERVICE <https://query.wikidata.org/sparql> {\r\n" + "\r\n"
+				+ "   SERVICE wikibase:mwapi {\r\n" + "   bd:serviceParam wikibase:api \"EntitySearch\" .\r\n"
+				+ "   bd:serviceParam wikibase:endpoint \"www.wikidata.org\" .\r\n"
+				+ "   bd:serviceParam mwapi:search ?z .\r\n" + "   bd:serviceParam mwapi:language \"en\" .\r\n"
+				+ "   bd:serviceParam mwapi:limit 5 .\r\n" + "   ?item wikibase:apiOutputItem mwapi:item .  \r\n"
+				+ "	}\r\n" + "   ?item rdfs:label ?itemLabel .\r\n"
+				+ "   FILTER(LANG(?itemLabel) = \"\" || LANGMATCHES(LANG(?itemLabel), \"en\"))   \r\n" + "  }\r\n"
+				+ "}";
+	}
+
 	class FusekiConnection {
 
 		private String connectionUrl;
 
 		private String dataName;
-
-		private RDFConnection readConnection;
 
 		public Dataset dataset;
 
@@ -268,7 +296,8 @@ public class HelloWorld extends RecipeBase {
 		}
 
 		public ArrayList<String> getGraphNames() {
-			Iterator<String> names = readConnection.fetchDataset().listNames();
+			Iterator<String> names = RDFConnectionRemote.create().destination(connectionUrl + "/" + dataName + "/data")
+					.build().fetchDataset().listNames();
 
 			ArrayList<String> namesAsStrings = new ArrayList<String>();
 			while (names.hasNext()) {
@@ -296,9 +325,8 @@ public class HelloWorld extends RecipeBase {
 
 		public void initFuseki(HashMap<String, Model> nameData) {
 			System.out.println("Initializing dataset...");
-			this.readConnection = RDFConnectionRemote.create().destination(connectionUrl + "/" + dataName + "/data")
-					.build();
-			this.dataset = readConnection.fetchDataset();
+			this.dataset = RDFConnectionRemote.create().destination(connectionUrl + "/" + dataName + "/data").build()
+					.fetchDataset();
 			RDFDatasetConnection a = RDFConnectionRemote.create().destination(connectionUrl + "/" + dataName + "/data")
 					.build();
 			ArrayList<String> graphNames = getGraphNames();
@@ -320,6 +348,16 @@ public class HelloWorld extends RecipeBase {
 				a.load(dataset.getDefaultModel());
 
 			}
+		}
+
+		public void deleteAllGraphs() {
+
+			for (String name : getGraphNames()) {
+				deleteModel(name);
+			}
+			deleteDefaultModel();
+			System.out.println("All graphs deleted!");
+
 		}
 
 	}

@@ -52,6 +52,7 @@ public class EdmanAPI {
 			results.add(pool.submit(new EdamamCrawler(i + 300, i + 400)));
 			results.add(pool.submit(new EdamamCrawler(i + 400, i + 500)));
 			i += 500;
+			Thread.sleep(1200);
 
 			for (Future<String> res : results) {
 				try {
@@ -65,7 +66,7 @@ public class EdmanAPI {
 			}
 		}
 
-		File recipesFromEdamam = new File("omgLuL.jsonld");
+		File recipesFromEdamam = new File("recipesFromEdamam.jsonld");
 
 		PrintWriter tempWriter = new PrintWriter(recipesFromEdamam);
 
