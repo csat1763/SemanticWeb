@@ -33,10 +33,10 @@ import com.google.gson.internal.LinkedTreeMap;
 public class EdmanAPI {
 
 	public static void main(String[] args) throws IOException, InterruptedException, ExecutionException {
-		// getData();
+		getData();
 		// translateJsonLdToN3();
 		// translateTxtToJson();
-		crawl();
+		// crawl();
 
 	}
 
