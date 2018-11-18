@@ -13,3 +13,21 @@ SELECT DISTINCT ?ox WHERE{
       GRAPH ?g4 {?ox a owl:Class}
 	}
 }
+
+PREFIX schema: <http://schema.org/>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+
+SELECT DISTINCT ?s ?p1 ?o2 WHERE{
+  GRAPH ?g { ?s0 ?p0 ?o0 . ?s0 a schema:Recipe } .
+  {GRAPH ?g { ?s ?p ?o } . GRAPH ?g1 { ?s a owl:Class }}
+  UNION
+  {GRAPH ?g { ?s1 ?p1 ?o1 } . GRAPH ?g1 { ?p1 a owl:Class }}
+  UNION
+  {GRAPH ?g { ?s2 ?p2 ?o2 } . GRAPH ?g1 { ?o2 a owl:Class }}
+ 
+
+}
+
+path queries for one recipe entry most efficient

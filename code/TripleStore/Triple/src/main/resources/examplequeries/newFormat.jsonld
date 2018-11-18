@@ -1,7 +1,7 @@
 {
 	"@context": "http://schema.org",
 	"@type": "Recipe",
-	"sameAs": "<http://www.edamam.com/ontologies/edamam.owl#recipe_7bf4a371c6884d809682a72808da7dc2>",
+	"sameAs": "http://www.edamam.com/ontologies/edamam.owl#recipe_7bf4a371c6884d809682a72808da7dc2",
 	"creator": {
 		"@type": "Person",
 		"name" : "Daniel Kaufmann"
@@ -30,9 +30,9 @@
 	},
 	"recipeIngredient": [
 		{ 
-			"@type" : "IngridientAddition",
+			"@type" : "IngredientAddition",
 			"ingridientName" : {
-				"@type" : "Ingridient",
+				"@type" : "Ingredient",
 				"name" : "Mustard",
 				"ingridientFullName" : "Dijon"
 			},
@@ -44,9 +44,9 @@
 
 		},
 		{ 
-			"@type" : "IngridientAddition",
+			"@type" : "IngredientAddition",
 			"ingridientName" : {
-				"@type" : "Ingridient",
+				"@type" : "Ingredient",
 				"name" : "Mustard",
 				"ingridientFullName" : "Dijon"
 			},
