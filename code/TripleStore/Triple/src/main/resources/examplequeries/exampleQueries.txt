@@ -14,6 +14,8 @@ SELECT DISTINCT ?ox WHERE{
 	}
 }
 
+###########################################################################################
+
 PREFIX schema: <http://schema.org/>
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
@@ -27,6 +29,21 @@ SELECT DISTINCT ?s ?p1 ?o2 WHERE{
   UNION
   {GRAPH ?g { ?s2 ?p2 ?o2 } . GRAPH ?g1 { ?o2 a owl:Class }}
  
+
+}
+
+###########################################################################################
+
+PREFIX schema: <http://schema.org/>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+
+SELECT DISTINCT ?s0 ?o WHERE{
+  {SELECT DISTINCT ?s0 WHERE{
+  GRAPH ?g { ?s0 a schema:Recipe } .
+    } LIMIT 1}
+  GRAPH ?g { ?s0 ((<>|!<>)|^(<>|!<>))* ?o } . GRAPH ?g1 {?o a rdfs:Class }
 
 }
 
