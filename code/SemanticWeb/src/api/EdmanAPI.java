@@ -84,7 +84,7 @@ public class EdmanAPI {
 	@SuppressWarnings("unchecked")
 	public static void getData() throws IOException {
 
-		URL url = new URL("https://api.edamam.com/search?q=chicken&app_id=XXX&app_key=XXX&from=100&to=200");
+		URL url = new URL("https://api.edamam.com/search?q=beef&app_id=6362f010&app_key=0a2cfb0cce312b298bf239c7c37790a8&from=0&to=100");
 
 		// Create instance of connection to the API URL
 		HttpURLConnection conn = (HttpURLConnection) url.openConnection();
@@ -149,13 +149,43 @@ public class EdmanAPI {
 
 				// System.out.println("\njson-ld:\n");
 
-				recipiesAsString.append("{\n" + "\t\"@context\": \"http://schema.org\",\n"
-						+ "\t\"@type\": \"Recipe\",\n" + "\t\"author\": \"John Smith\", \n" + "\t\"name\": \"" + label
-						+ "\",\n" + "\t\"identifier\": \"" + uri + "\",\n" + "\t\"url\": \"" + recipeUrl + "\",\n"
-						+ "\t\"image\": \"" + imageUrl + "\",\n" + "\t\"recipeYield\": \"" + yield + "\",\n"
-						+ "\t\"totalTime\": \"" + totalTime + "\",\n"
-						+ "\t\"nutrition\": {\n\t\t\"@type\": \"NutritionInformation\",\n\t\t\"calories\" : \""
-						+ calories + " calories\"\n\t},\n" + "\t\"recipeIngredient\": " + ingredientsAsString.toString()
+				recipiesAsString.append("{\n" + 
+						"\t\"@context\": \"http://schema.org\",\n"	+ 
+						
+						"\t\"@type\": \"Recipe\",\n" + 
+						
+						"\t\"sameAs\": \"" + recipeUrl + "\",\n" +
+						
+						"\t\"creator\": {" + "\n" + 
+						"\t\t\"@type\": \"Person\",\n" +
+						"\t\t\"name\": \"not given\"\n\t},\n" +
+						
+						"\t\"nutrition\": {\n" + 
+						"\t\t\"@type\": \"NutritionInformation\",\n" + 
+						"\t\t\"calories\" : \"" + calories + " calories\"\n\t},\n" + 
+						
+						"\t\"name\": \"" + label + "\",\n" + 
+						
+						"\t\"recipeYield\": {" + "\n" +
+						"\t\t\"@type\": \"QuantitativeValue\",\n" + 
+						"\t\t\"value\" : \"" + yield + "\"\n\t}, \n" + 
+						 
+						"\t\"image\": {\n" + 
+						"\t\t\"@type\": \"ImageObject\",\n" + 
+						"\t\t\"contentUrl\" : \"" + imageUrl + "\", \n" +
+						"\t\t\"caption\" : \"" + label + "\"\n\t}, \n" +
+						
+						"\t\"cookTime\": \"" + "-" + "\",\n"	+ 
+						
+						"\t\"prepTime\": \"" + "-" + "\",\n"	+  
+						
+						"\t\"totalTime\": \"" + convertDoubleToISODuration(totalTime) + "\",\n"	+ 
+ 
+						"\t\"recipeInstructions\": {\n" + 
+						"\t\t\"@type\": \"CreativeWork\",\n" + 
+						"\t\t\"url\" : \"" + url + "\"\n\t}, \n" +
+						
+						"\t\"recipeIngredient\": " + ingredientsAsString.toString()
 						+ " \n" + "},\n");
 
 			}
@@ -165,7 +195,7 @@ public class EdmanAPI {
 
 			// System.out.println(recipiesAsString.toString());
 
-			File recipesFromEdamam = new File("recipesFromEdamam.jsonld");
+			File recipesFromEdamam = new File("beefFromEdamam.jsonld");
 
 			PrintWriter tempWriter = new PrintWriter(recipesFromEdamam);
 			tempWriter.print(recipiesAsString.toString());
@@ -296,6 +326,22 @@ public class EdmanAPI {
 		System.out.println("Source 2 done.");
 
 	}
+	
+	public static String convertDoubleToISODuration(double d){
+		StringBuilder sb = new StringBuilder();
+		
+		int hours = 0;
+		int minutes = 0;
+		
+		if(d>=60){
+			hours = (int) d / 60;
+			minutes = (int) d % 60;
+			sb.append("PT"+hours+"H"+minutes+"M");			
+		} else {
+			sb.append("PT"+minutes+"M");
+		}
+		return sb.toString();
+	}
 
 }
 
@@ -418,4 +464,5 @@ class EdamamCrawler implements Callable<String> {
 		return null;
 
 	}
+	
 }
