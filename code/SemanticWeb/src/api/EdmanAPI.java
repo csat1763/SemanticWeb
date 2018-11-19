@@ -33,9 +33,9 @@ import com.google.gson.internal.LinkedTreeMap;
 public class EdmanAPI {
 
 	public static void main(String[] args) throws IOException, InterruptedException, ExecutionException {
-		getData();
+		//getData();
 		// translateJsonLdToN3();
-		// translateTxtToJson();
+		translateTxtToJson();
 		// crawl();
 
 	}
@@ -300,15 +300,50 @@ public class EdmanAPI {
 				String url = (String) jsonObj.get("url");
 				String imageUrl = (String) jsonObj.get("image");
 				String yield = (String) jsonObj.get("recipeYield");
-
-				recipiesAsString.append("{\n" + "\t\"@context\": \"http://schema.org\",\n"
-						+ "\t\"@type\": \"Recipe\",\n" + "\t\"author\": \"John Smith\", \n" + "\t\"name\": \"" + label
-						+ "\",\n" + "\t\"recipeYield\": \"" + yield + "\",\n" + "\t\"image\": \"" + imageUrl + "\",\n"
-						+ "\t\"cookTime\": \"" + cookTime + "\",\n" + "\t\"prepTime\": \"" + prepTime + "\",\n"
-						+ "\t\"url\": \"" + url + "\",\n" + "\t\"recipeIngredient\": " + ingredientsAsString.toString()
+				
+				recipiesAsString.append("{\n" + 
+						"\t\"@context\": \"http://schema.org\",\n"	+ 
+						
+						"\t\"@type\": \"Recipe\",\n" + 
+						
+						"\t\"sameAs\": \"" + url + "\",\n" +
+						
+						"\t\"creator\": {" + "\n" + 
+						"\t\t\"@type\": \"Person\",\n" +
+						"\t\t\"name\": \"not given\"\n\t},\n" +
+						
+						"\t\"nutrition\": {\n" + 
+						"\t\t\"@type\": \"NutritionInformation\",\n" + 
+						"\t\t\"calories\" : \"" + "not given" + "\"\n\t},\n" + 
+						
+						"\t\"name\": \"" + label + "\",\n" + 
+						
+						"\t\"recipeYield\": {" + "\n" +
+						"\t\t\"@type\": \"QuantitativeValue\",\n" + 
+						"\t\t\"value\" : \"" + yield + "\"\n\t}, \n" + 
+						 
+						"\t\"image\": {\n" + 
+						"\t\t\"@type\": \"ImageObject\",\n" + 
+						"\t\t\"contentUrl\" : \"" + imageUrl + "\", \n" +
+						"\t\t\"caption\" : \"" + label + "\"\n\t}, \n" +
+						
+						"\t\"cookTime\": \"" + cookTime + "\",\n"	+ 
+						
+						"\t\"prepTime\": \"" + prepTime + "\",\n"	+  
+						
+						"\t\"totalTime\": \"" + addTwoIsoTimes(cookTime, prepTime) + "\",\n"	+ 
+ 
+						"\t\"recipeInstructions\": {\n" + 
+						"\t\t\"@type\": \"CreativeWork\",\n" + 
+						"\t\t\"url\" : \"" + url + "\"\n\t}, \n" +
+						
+						"\t\"recipeIngredient\": " + ingredientsAsString.toString()
 						+ " \n" + "},\n");
 
 			}
+			
+				
+		
 			recipiesAsString.delete(recipiesAsString.length() - 2, recipiesAsString.length() - 1);
 			recipiesAsString.append("]");
 
@@ -338,9 +373,31 @@ public class EdmanAPI {
 			minutes = (int) d % 60;
 			sb.append("PT"+hours+"H"+minutes+"M");			
 		} else {
-			sb.append("PT"+minutes+"M");
+			sb.append("PT"+(int)d+"M");
 		}
 		return sb.toString();
+	}
+	
+	public static String addTwoIsoTimes(String cookTime, String prepTime) {
+		String cookTimeStr = cookTime.replaceAll("[^\\d.]", "");
+		String prepTimeStr = prepTime.replaceAll("[^\\d.]", "");
+		
+		long cookTimeInt = 0;
+		long prepTimeInt = 0;
+		int totalTime = 0;
+		
+		if(!cookTimeStr.equals("")) {
+			java.time.Duration durCook = java.time.Duration.parse(cookTime);
+			cookTimeInt = durCook.get(java.time.temporal.ChronoUnit.SECONDS);
+		}
+		
+		if(!prepTimeStr.equals("")) {
+			java.time.Duration durPrep = java.time.Duration.parse(prepTime);
+			prepTimeInt = durPrep.get(java.time.temporal.ChronoUnit.SECONDS);
+		}
+		
+		totalTime = (int) ((cookTimeInt + prepTimeInt) / 60);
+		return convertDoubleToISODuration((double) totalTime);
 	}
 
 }
