@@ -1,0 +1,16 @@
+5 owl axioms:
+
+1) MIN: recipeIngredients has at least 3 elements (cardinality >= 3)
+- schema:hasIngredient min 3 schema:IngredientAddition
+
+2) Existential: recipe Instructions are given
+- schema:hasRecipeInstructions some CreativeWork
+
+3) For all: recipeIngreient has amount only quantitative value
+- schema:hasAmount only QuantitativeValue
+
+4) MAX: image has at most 1 reference
+- schema:hasImage max 1 ImageObject
+
+5) DISJOINT: recipe is not a food
+- not schema:Food
