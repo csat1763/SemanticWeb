@@ -22,6 +22,8 @@ import java.util.concurrent.ExecutionException;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.concurrent.Future;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
@@ -84,7 +86,7 @@ public class EdmanAPI {
 	@SuppressWarnings("unchecked")
 	public static void getData() throws IOException {
 
-		URL url = new URL("https://api.edamam.com/search?q=chicken&app_id=XXX&app_key=XXX&from=100&to=200");
+		URL url = new URL("https://api.edamam.com/search?q=chicken&app_id=6362f010&app_key=0a2cfb0cce312b298bf239c7c37790a8&from=0&to=3&calories=591-722&health=alcohol-free");
 
 		// Create instance of connection to the API URL
 		HttpURLConnection conn = (HttpURLConnection) url.openConnection();
@@ -139,14 +141,27 @@ public class EdmanAPI {
 				 */
 
 				ingredientsAsString.append("[\n");
+				String pattern = "^\\*? ?([0-9\\.\\/½¼¾]* ?[0-9\\.\\/½¼¾]+)[ \\-]?([a-zA-Z\\.\\(\\)]+)? +([a-zA-Z0-9 \\+\\-\\,\\/\\.\\(\\)®%\\'éèîñ&]+)$";
+				Pattern r = Pattern.compile(pattern);
 
 				for (String i : ingredients) {
-					ingredientsAsString.append("\t\t\"").append(i).append("\",\n");
+					Matcher m = r.matcher(i);
+					if (m.find()) {
+						String amount = m.group(1).replaceAll("½", " 1/2").replaceAll("¼", " 1/4").replaceAll("¾", " 3/4").replaceAll("  ", " ").replaceAll("^ +", "");
+						String unit = m.group(2);
+						if (unit == null) {
+							unit = "pcs";
+						}
+						String ingredient = m.group(3);
+						ingredientsAsString.append("\t\t{\"amount\": \"").append(amount).append("\", \"unit\": \"").append(unit).append("\", \"ingredient\": \"").append(ingredient).append("\"},\n");
+					} else {
+						ingredientsAsString.append("\t\t\"").append(i).append("\",\n");
+					}
 				}
 				ingredientsAsString.delete(ingredientsAsString.length() - 2, ingredientsAsString.length() - 1);
 
 				ingredientsAsString.append("\t]");
-
+	
 				// System.out.println("\njson-ld:\n");
 
 				recipiesAsString.append("{\n" + "\t\"@context\": \"http://schema.org\",\n"
