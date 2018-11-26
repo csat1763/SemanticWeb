@@ -16,6 +16,7 @@ import java.net.MalformedURLException;
 import java.net.URL;
 import java.net.URLEncoder;
 import java.util.ArrayList;
+import java.util.Collection;
 import java.util.List;
 import java.util.concurrent.Callable;
 import java.util.concurrent.ExecutionException;
@@ -37,7 +38,7 @@ public class EdmanAPI {
 	public static void main(String[] args) throws IOException, InterruptedException, ExecutionException {
 		getData();
 		// translateJsonLdToN3();
-		// translateTxtToJson();
+		//translateTxtToJson();
 		// crawl();
 
 	}
@@ -82,117 +83,212 @@ public class EdmanAPI {
 	}
 
 	// TODO: 5 workers; 5 requests per minute; 100 results per request; variate from
-	// and to in request-query;
-	@SuppressWarnings("unchecked")
-	public static void getData() throws IOException {
+		// and to in request-query;
+		@SuppressWarnings("unchecked")
+		public static void getData() throws IOException {
 
-		URL url = new URL("https://api.edamam.com/search?q=chicken&app_id=6362f010&app_key=0a2cfb0cce312b298bf239c7c37790a8&from=0&to=3&calories=591-722&health=alcohol-free");
-
-		// Create instance of connection to the API URL
-		HttpURLConnection conn = (HttpURLConnection) url.openConnection();
-		conn.setRequestMethod("GET");
-
-		// We will get the result in json format
-		conn.setRequestProperty("Accept", "application/json");
-		conn.setDoOutput(true);
-		// Read response body from the stream returned by getInputStream()
-		BufferedReader br = new BufferedReader(new InputStreamReader((conn.getInputStream()), "UTF-8"));
-
-		StringBuilder rep = new StringBuilder();
-		String output = "";
-		while ((output = br.readLine()) != null) {
-			rep.append(output);
-		}
-
-		// Transform output to json
-		LinkedTreeMap<String, Object> jsonResult = new Gson().fromJson(rep.toString(), LinkedTreeMap.class);
-
-		List<LinkedTreeMap<String, Object>> hits = (ArrayList<LinkedTreeMap<String, Object>>) jsonResult.get("hits");
-
-		if (null != hits && !hits.isEmpty()) {
-
-			StringBuilder recipiesAsString = new StringBuilder();
-			recipiesAsString.append("[\n");
-			for (LinkedTreeMap<String, Object> hit : hits) {
-
-				StringBuilder ingredientsAsString = new StringBuilder();
-
-				// Publishing Date (YYYY-MM-DD) begin
-				LinkedTreeMap<String, Object> recipe = (LinkedTreeMap<String, Object>) hit.get("recipe");
-
-				String uri, label, recipeUrl, imageUrl;
-				List<String> ingredients = new ArrayList<String>();
-				double calories, yield, totalTime;
-				// TODO: totalNutrients, healthLabels, source(author)
-
-				uri = (String) recipe.get("uri");
-				label = (String) recipe.get("label");
-				recipeUrl = (String) recipe.get("url");
-				imageUrl = (String) recipe.get("image");
-				yield = (double) recipe.get("yield");
-				calories = (double) recipe.get("calories");
-				totalTime = (double) recipe.get("totalTime");
-				calories = Math.round(calories);
-
-				ingredients = (ArrayList<String>) recipe.get("ingredientLines");
-
-				/*
-				 * System.out.println("\nnew entry:\n" + " uri: " + uri + "\nlabel: " + label + "\nurl: " + recipeUrl + "\ncalories: " + calories + "\ningredients" + ingredients);
-				 */
-
-				ingredientsAsString.append("[\n");
-				String pattern = "^\\*? ?([0-9\\.\\/½¼¾]* ?[0-9\\.\\/½¼¾]+)[ \\-]?([a-zA-Z\\.\\(\\)]+)? +([a-zA-Z0-9 \\+\\-\\,\\/\\.\\(\\)®%\\'éèîñ&]+)$";
-				Pattern r = Pattern.compile(pattern);
-
-				for (String i : ingredients) {
-					Matcher m = r.matcher(i);
-					if (m.find()) {
-						String amount = m.group(1).replaceAll("½", " 1/2").replaceAll("¼", " 1/4").replaceAll("¾", " 3/4").replaceAll("  ", " ").replaceAll("^ +", "");
-						String unit = m.group(2);
-						if (unit == null) {
-							unit = "pcs";
-						}
-						String ingredient = m.group(3);
-						ingredientsAsString.append("\t\t{\"amount\": \"").append(amount).append("\", \"unit\": \"").append(unit).append("\", \"ingredient\": \"").append(ingredient).append("\"},\n");
-					} else {
-						ingredientsAsString.append("\t\t\"").append(i).append("\",\n");
-					}
+			String searchTerm = "";
+			String filename = "recipes/"+ searchTerm + "FromEdamam.jsonld";
+			
+			Collection<String> searchTerms = new ArrayList<String>();
+			/*
+			searchTerms.add("alcohol");
+			searchTerms.add("american");
+			searchTerms.add("asian");
+			searchTerms.add("beef");
+			searchTerms.add("beer");
+			searchTerms.add("burger");
+			searchTerms.add("cake");
+			searchTerms.add("cheese");
+			searchTerms.add("chicken");
+			searchTerms.add("chocolate");
+			searchTerms.add("fish");
+			searchTerms.add("fruit");
+			searchTerms.add("german");
+			searchTerms.add("greek");
+			searchTerms.add("hot");
+			searchTerms.add("ice");
+			searchTerms.add("italian");
+			searchTerms.add("korean");
+			searchTerms.add("mexican");
+			searchTerms.add("noodle");
+			searchTerms.add("pizza");
+			searchTerms.add("pork");
+			searchTerms.add("potato");
+			searchTerms.add("rice");
+			searchTerms.add("salad");
+			searchTerms.add("soup");
+			searchTerms.add("sour");
+			searchTerms.add("sushi");
+			searchTerms.add("swedish");
+			searchTerms.add("sweet");
+			
+			searchTerms.add("african");
+			searchTerms.add("british");
+			searchTerms.add("caribbean");
+			searchTerms.add("chinese");
+			searchTerms.add("french");
+			searchTerms.add("indian");
+			searchTerms.add("irish");
+			searchTerms.add("japanese");
+			searchTerms.add("nordic");
+			searchTerms.add("pakistani");
+			searchTerms.add("portuguese");
+			searchTerms.add("spanish");
+			searchTerms.add("thai");
+			searchTerms.add("turkish");		
+			searchTerms.add("russian");
+			*/
+			
+			for(String s : searchTerms){
+				
+				searchTerm = s;
+				filename = "recipes/"+ searchTerm + "FromEdamam.jsonld";
+			
+				URL url = new URL("https://api.edamam.com/search?q="+searchTerm+"&app_id=6362f010&app_key=0a2cfb0cce312b298bf239c7c37790a8&from=0&to=100");
+		
+				// Create instance of connection to the API URL
+				HttpURLConnection conn = (HttpURLConnection) url.openConnection();
+				conn.setRequestMethod("GET");
+		
+				// We will get the result in json format
+				conn.setRequestProperty("Accept", "application/json");
+				conn.setDoOutput(true);
+				// Read response body from the stream returned by getInputStream()
+				BufferedReader br = new BufferedReader(new InputStreamReader((conn.getInputStream()), "UTF-8"));
+		
+				StringBuilder rep = new StringBuilder();
+				String output = "";
+				while ((output = br.readLine()) != null) {
+					rep.append(output);
 				}
-				ingredientsAsString.delete(ingredientsAsString.length() - 2, ingredientsAsString.length() - 1);
+		
+				// Transform output to json
+				LinkedTreeMap<String, Object> jsonResult = new Gson().fromJson(rep.toString(), LinkedTreeMap.class);
+		
+				List<LinkedTreeMap<String, Object>> hits = (ArrayList<LinkedTreeMap<String, Object>>) jsonResult.get("hits");
+		
+				if (null != hits && !hits.isEmpty()) {
+		
+					StringBuilder recipiesAsString = new StringBuilder();
+					recipiesAsString.append("[\n");
+					for (LinkedTreeMap<String, Object> hit : hits) {
+		
+						StringBuilder ingredientsAsString = new StringBuilder();
+		
+						// Publishing Date (YYYY-MM-DD) begin
+						LinkedTreeMap<String, Object> recipe = (LinkedTreeMap<String, Object>) hit.get("recipe");
+		
+						String urlRecipe, label, recipeUrl, imageUrl;
+						List<String> ingredients = new ArrayList<String>();
+						double calories, yield, totalTime;
+						// TODO: totalNutrients, healthLabels, source(author)
+		
+						urlRecipe = (String) recipe.get("url");
+						label = (String) recipe.get("label");
+						recipeUrl = (String) recipe.get("url");
+						imageUrl = (String) recipe.get("image");
+						yield = (double) recipe.get("yield");
+						calories = (double) recipe.get("calories");
+						totalTime = (double) recipe.get("totalTime");
+						calories = Math.round(calories);
+		
+						ingredients = (ArrayList<String>) recipe.get("ingredientLines");
+		
+						/*
+						 * System.out.println("\nnew entry:\n" + " uri: " + uri + "\nlabel: " + label + "\nurl: " + recipeUrl + "\ncalories: " + calories + "\ningredients" + ingredients);
+						 */
+						
+						ingredientsAsString.append("[\n");
+						String pattern = "^\\*? ?([0-9\\.\\/½¼¾]* ?[0-9\\.\\/½¼¾]+)[ \\-]?([a-zA-Z\\.\\(\\)]+)? +([a-zA-Z0-9 \\+\\-\\,\\/\\.\\(\\)®%\\'éèîñ&]+)$";
+						Pattern r = Pattern.compile(pattern);
 
-				ingredientsAsString.append("\t]");
-	
-				// System.out.println("\njson-ld:\n");
+						for (String i : ingredients) {
+							Matcher m = r.matcher(i);
+							if (m.find()) {
+								String amount = m.group(1).replaceAll("½", " 1/2").replaceAll("¼", " 1/4").replaceAll("¾", " 3/4").replaceAll("  ", " ").replaceAll("^ +", "");
+								String unit = m.group(2);
+								if (unit == null) {
+									unit = "pcs";
+								}
+								String ingredient = m.group(3);
+								ingredientsAsString.append("\t\t{\"amount\": \"").append(amount).append("\", \"unit\": \"").append(unit).append("\", \"ingredient\": \"").append(ingredient).append("\"},\n");
+							} else {
+								ingredientsAsString.append("\t\t\"").append(i).append("\",\n");
+							}
+						}
+						ingredientsAsString.delete(ingredientsAsString.length() - 2, ingredientsAsString.length() - 1);
 
-				recipiesAsString.append("{\n" + "\t\"@context\": \"http://schema.org\",\n"
-						+ "\t\"@type\": \"Recipe\",\n" + "\t\"author\": \"John Smith\", \n" + "\t\"name\": \"" + label
-						+ "\",\n" + "\t\"identifier\": \"" + uri + "\",\n" + "\t\"url\": \"" + recipeUrl + "\",\n"
-						+ "\t\"image\": \"" + imageUrl + "\",\n" + "\t\"recipeYield\": \"" + yield + "\",\n"
-						+ "\t\"totalTime\": \"" + totalTime + "\",\n"
-						+ "\t\"nutrition\": {\n\t\t\"@type\": \"NutritionInformation\",\n\t\t\"calories\" : \""
-						+ calories + " calories\"\n\t},\n" + "\t\"recipeIngredient\": " + ingredientsAsString.toString()
-						+ " \n" + "},\n");
-
+						ingredientsAsString.append("\t]");
+		
+						// System.out.println("\njson-ld:\n");
+		
+						recipiesAsString.append("{\n" + 
+								"\t\"@context\": \"http://schema.org\",\n"	+ 
+								
+								"\t\"@type\": \"Recipe\",\n" + 
+								
+								"\t\"sameAs\": \"" + recipeUrl + "\",\n" +
+								
+								"\t\"creator\": {" + "\n" + 
+								"\t\t\"@type\": \"Person\",\n" +
+								"\t\t\"name\": \"not given\"\n\t},\n" +
+								
+								"\t\"nutrition\": {\n" + 
+								"\t\t\"@type\": \"NutritionInformation\",\n" + 
+								"\t\t\"calories\" : \"" + calories + " calories\"\n\t},\n" + 
+								
+								"\t\"name\": \"" + label + "\",\n" + 
+								
+								"\t\"recipeYield\": {" + "\n" +
+								"\t\t\"@type\": \"QuantitativeValue\",\n" + 
+								"\t\t\"value\" : \"" + yield + "\"\n\t}, \n" + 
+								 
+								"\t\"image\": {\n" + 
+								"\t\t\"@type\": \"ImageObject\",\n" + 
+								"\t\t\"contentUrl\" : \"" + imageUrl + "\", \n" +
+								"\t\t\"caption\" : \"" + label + "\"\n\t}, \n" +
+								
+								"\t\"cookTime\": \"" + "-" + "\",\n"	+ 
+								
+								"\t\"prepTime\": \"" + "-" + "\",\n"	+  
+								
+								"\t\"totalTime\": \"" + convertDoubleToISODuration(totalTime) + "\",\n"	+ 
+		 
+								"\t\"recipeInstructions\": {\n" + 
+								"\t\t\"@type\": \"CreativeWork\",\n" + 
+								"\t\t\"url\" : \"" + urlRecipe + "\"\n\t}, \n" +
+								
+								"\t\"recipeIngredient\": " + ingredientsAsString.toString()
+								+ " \n" + "},\n");
+		
+					}
+		
+					recipiesAsString.delete(recipiesAsString.length() - 2, recipiesAsString.length() - 1);
+					recipiesAsString.append("]");
+		
+					// System.out.println(recipiesAsString.toString());
+		
+					File recipesFromEdamam = new File(filename);
+		
+					PrintWriter tempWriter = new PrintWriter(recipesFromEdamam);
+					tempWriter.print(recipiesAsString.toString());
+					tempWriter.flush();
+					tempWriter.close();
+		
+				}
+			
+				// Close connection instance
+				conn.disconnect();
+				try {
+					Thread.sleep(20000);
+				} catch (InterruptedException e) {
+					// TODO Auto-generated catch block
+					e.printStackTrace();
+				}
+				System.out.println(s + " done.");
 			}
-
-			recipiesAsString.delete(recipiesAsString.length() - 2, recipiesAsString.length() - 1);
-			recipiesAsString.append("]");
-
-			// System.out.println(recipiesAsString.toString());
-
-			File recipesFromEdamam = new File("recipesFromEdamam.jsonld");
-
-			PrintWriter tempWriter = new PrintWriter(recipesFromEdamam);
-			tempWriter.print(recipiesAsString.toString());
-			tempWriter.flush();
-			tempWriter.close();
-
 		}
-
-		// Close connection instance
-		conn.disconnect();
-
-	}
 
 	public static void translateJsonLdToN3() throws IOException {
 		URL url = new URL("http://rdf-translator.appspot.com/convert/json-ld/nt/content");
@@ -285,15 +381,50 @@ public class EdmanAPI {
 				String url = (String) jsonObj.get("url");
 				String imageUrl = (String) jsonObj.get("image");
 				String yield = (String) jsonObj.get("recipeYield");
-
-				recipiesAsString.append("{\n" + "\t\"@context\": \"http://schema.org\",\n"
-						+ "\t\"@type\": \"Recipe\",\n" + "\t\"author\": \"John Smith\", \n" + "\t\"name\": \"" + label
-						+ "\",\n" + "\t\"recipeYield\": \"" + yield + "\",\n" + "\t\"image\": \"" + imageUrl + "\",\n"
-						+ "\t\"cookTime\": \"" + cookTime + "\",\n" + "\t\"prepTime\": \"" + prepTime + "\",\n"
-						+ "\t\"url\": \"" + url + "\",\n" + "\t\"recipeIngredient\": " + ingredientsAsString.toString()
+				
+				recipiesAsString.append("{\n" + 
+						"\t\"@context\": \"http://schema.org\",\n"	+ 
+						
+						"\t\"@type\": \"Recipe\",\n" + 
+						
+						"\t\"sameAs\": \"" + url + "\",\n" +
+						
+						"\t\"creator\": {" + "\n" + 
+						"\t\t\"@type\": \"Person\",\n" +
+						"\t\t\"name\": \"not given\"\n\t},\n" +
+						
+						"\t\"nutrition\": {\n" + 
+						"\t\t\"@type\": \"NutritionInformation\",\n" + 
+						"\t\t\"calories\" : \"" + "not given" + "\"\n\t},\n" + 
+						
+						"\t\"name\": \"" + label + "\",\n" + 
+						
+						"\t\"recipeYield\": {" + "\n" +
+						"\t\t\"@type\": \"QuantitativeValue\",\n" + 
+						"\t\t\"value\" : \"" + yield + "\"\n\t}, \n" + 
+						 
+						"\t\"image\": {\n" + 
+						"\t\t\"@type\": \"ImageObject\",\n" + 
+						"\t\t\"contentUrl\" : \"" + imageUrl + "\", \n" +
+						"\t\t\"caption\" : \"" + label + "\"\n\t}, \n" +
+						
+						"\t\"cookTime\": \"" + cookTime + "\",\n"	+ 
+						
+						"\t\"prepTime\": \"" + prepTime + "\",\n"	+  
+						
+						"\t\"totalTime\": \"" + addTwoIsoTimes(cookTime, prepTime) + "\",\n"	+ 
+ 
+						"\t\"recipeInstructions\": {\n" + 
+						"\t\t\"@type\": \"CreativeWork\",\n" + 
+						"\t\t\"url\" : \"" + url + "\"\n\t}, \n" +
+						
+						"\t\"recipeIngredient\": " + ingredientsAsString.toString()
 						+ " \n" + "},\n");
 
 			}
+			
+				
+		
 			recipiesAsString.delete(recipiesAsString.length() - 2, recipiesAsString.length() - 1);
 			recipiesAsString.append("]");
 
@@ -310,6 +441,44 @@ public class EdmanAPI {
 
 		System.out.println("Source 2 done.");
 
+	}
+	
+	public static String convertDoubleToISODuration(double d){
+		StringBuilder sb = new StringBuilder();
+		
+		int hours = 0;
+		int minutes = 0;
+		
+		if(d>=60){
+			hours = (int) d / 60;
+			minutes = (int) d % 60;
+			sb.append("PT"+hours+"H"+minutes+"M");			
+		} else {
+			sb.append("PT"+(int)d+"M");
+		}
+		return sb.toString();
+	}
+	
+	public static String addTwoIsoTimes(String cookTime, String prepTime) {
+		String cookTimeStr = cookTime.replaceAll("[^\\d.]", "");
+		String prepTimeStr = prepTime.replaceAll("[^\\d.]", "");
+		
+		long cookTimeInt = 0;
+		long prepTimeInt = 0;
+		int totalTime = 0;
+		
+		if(!cookTimeStr.equals("")) {
+			java.time.Duration durCook = java.time.Duration.parse(cookTime);
+			cookTimeInt = durCook.get(java.time.temporal.ChronoUnit.SECONDS);
+		}
+		
+		if(!prepTimeStr.equals("")) {
+			java.time.Duration durPrep = java.time.Duration.parse(prepTime);
+			prepTimeInt = durPrep.get(java.time.temporal.ChronoUnit.SECONDS);
+		}
+		
+		totalTime = (int) ((cookTimeInt + prepTimeInt) / 60);
+		return convertDoubleToISODuration((double) totalTime);
 	}
 
 }
@@ -433,4 +602,5 @@ class EdamamCrawler implements Callable<String> {
 		return null;
 
 	}
+	
 }
