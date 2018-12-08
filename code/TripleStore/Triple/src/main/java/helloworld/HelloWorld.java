@@ -363,3 +363,9 @@ public class HelloWorld extends RecipeBase {
 	}
 
 }
+
+// DESCRIBE ?s0 WHERE{
+// {SELECT DISTINCT ?s0 WHERE{
+// GRAPH ?g { ?s0 a schema:Recipe } .
+// } LIMIT 1}
+// }
