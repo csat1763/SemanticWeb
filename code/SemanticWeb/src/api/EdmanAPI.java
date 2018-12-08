@@ -36,7 +36,8 @@ import com.google.gson.internal.LinkedTreeMap;
 public class EdmanAPI {
 
 	public static void main(String[] args) throws IOException, InterruptedException, ExecutionException {
-		getData();
+		getRawData();
+		//getData();
 		// translateJsonLdToN3();
 		//translateTxtToJson();
 		// crawl();
@@ -82,6 +83,107 @@ public class EdmanAPI {
 
 	}
 
+	public static void getRawData() throws IOException {
+
+		String searchTerm = "";
+		String filename = "rawRecipes/" + searchTerm + ".json";
+
+		Collection<String> searchTerms = new ArrayList<String>();
+
+		searchTerms.add("alcohol");
+		searchTerms.add("american");
+		searchTerms.add("asian");
+		searchTerms.add("beef");
+		searchTerms.add("beer");
+		searchTerms.add("burger");
+		searchTerms.add("cake");
+		searchTerms.add("cheese");
+		searchTerms.add("chicken");
+		searchTerms.add("chocolate");
+		searchTerms.add("fish");
+		searchTerms.add("fruit");
+		searchTerms.add("german");
+		searchTerms.add("greek");
+		searchTerms.add("hot");
+		searchTerms.add("ice");
+		searchTerms.add("italian");
+		searchTerms.add("korean");
+		searchTerms.add("mexican");
+		searchTerms.add("noodle");
+		searchTerms.add("pizza");
+		searchTerms.add("pork");
+		searchTerms.add("potato");
+		searchTerms.add("rice");
+		searchTerms.add("salad");
+		searchTerms.add("soup");
+		searchTerms.add("sour");
+		searchTerms.add("sushi");
+		searchTerms.add("swedish");
+		searchTerms.add("sweet");
+		searchTerms.add("african");
+		searchTerms.add("british");
+		searchTerms.add("caribbean");
+		searchTerms.add("chinese");
+		searchTerms.add("french");
+		searchTerms.add("indian");
+		searchTerms.add("irish");
+		searchTerms.add("japanese");
+		searchTerms.add("nordic");
+		searchTerms.add("pakistani");
+		searchTerms.add("portuguese");
+		searchTerms.add("spanish");
+		searchTerms.add("thai");
+		searchTerms.add("turkish");
+		searchTerms.add("russian");
+		
+
+		for (String s : searchTerms) {
+
+			searchTerm = s;
+			filename = "rawRecipes/" + searchTerm + ".json";
+
+			URL url = new URL("https://api.edamam.com/search?q=" + searchTerm
+					+ "&app_id=xxx&app_key=xxx&from=0&to=100");
+
+			// Create instance of connection to the API URL
+			HttpURLConnection conn = (HttpURLConnection) url.openConnection();
+			conn.setRequestMethod("GET");
+
+			// We will get the result in json format
+			conn.setRequestProperty("Accept", "application/json");
+			conn.setDoOutput(true);
+			// Read response body from the stream returned by getInputStream()
+			BufferedReader br = new BufferedReader(new InputStreamReader((conn.getInputStream()), "UTF-8"));
+
+			StringBuilder rep = new StringBuilder();
+			String output = "";
+			while ((output = br.readLine()) != null) {
+				rep.append(output);
+			}
+
+			// Transform output to json
+			LinkedTreeMap<String, Object> jsonResult = new Gson().fromJson(rep.toString(), LinkedTreeMap.class);
+
+			File recipesFromEdamam = new File(filename);
+
+			PrintWriter tempWriter = new PrintWriter(recipesFromEdamam);
+			tempWriter.print(jsonResult.toString());
+			tempWriter.flush();
+			tempWriter.close();
+
+			// Close connection instance
+			conn.disconnect();
+			try {
+				Thread.sleep(20000);
+			} catch (InterruptedException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+			System.out.println(s + " done.");
+		}
+	}
+	
+	
 	// TODO: 5 workers; 5 requests per minute; 100 results per request; variate from
 		// and to in request-query;
 		@SuppressWarnings("unchecked")
@@ -145,7 +247,7 @@ public class EdmanAPI {
 				searchTerm = s;
 				filename = "recipes/"+ searchTerm + "FromEdamam.jsonld";
 			
-				URL url = new URL("https://api.edamam.com/search?q="+searchTerm+"&app_id=6362f010&app_key=0a2cfb0cce312b298bf239c7c37790a8&from=0&to=100");
+				URL url = new URL("https://api.edamam.com/search?q="+searchTerm+"&app_id=xxx&app_key=xxx&from=0&to=100");
 		
 				// Create instance of connection to the API URL
 				HttpURLConnection conn = (HttpURLConnection) url.openConnection();
