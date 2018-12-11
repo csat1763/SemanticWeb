@@ -29,20 +29,176 @@
 		"url" : "http://zesterdaily.com/cooking/chowder-recipe-scandinavian-style/"
 	}, 
 	"recipeIngredient": [
-		"1 tablespoon rapeseed or olive oil",
-		"3 leeks",
-		"3 cloves of garlic",
-		"2 pounds blue mussels",
-		"2 cups india pale ale",
-		"4 sprigs of thyme",
-		"2 teaspoons of course sea salt and freshly grounded pepper",
-		"8 ounces bacon cut in cubes",
-		"2 pounds of potatoes",
-		"1 pound celeriac",
-		"2 cups of water",
-		"1 cup heavy cream",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "rapeseed or olive oil",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoon",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "leeks",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pcs",
+				"value" : "3"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "of garlic",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cloves",
+				"value" : "3"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "blue mussels",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pounds",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "india pale ale",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cups",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "of thyme",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "sprigs",
+				"value" : "4"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "of course sea salt and freshly grounded pepper",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoons",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "bacon cut in cubes",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "ounces",
+				"value" : "8"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "of potatoes",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pounds",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "celeriac",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pound",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "of water",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cups",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "heavy cream",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1"
+			}
+		},
 		"Sea salt and freshly grounded pepper.",
-		"4 tablespoons of coarsely chopped lovage, chervil or parsley"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "of coarsely chopped lovage  chervil or parsley",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoons",
+				"value" : "4"
+			}
+		}
 	] 
 },
 {
@@ -75,18 +231,138 @@
 		"url" : "http://honestcooking.com/pig-of-the-week-chompin-at-the-savoy/"
 	}, 
 	"recipeIngredient": [
-		"400g minced pork meat",
-		"1 head of savoy cabbage",
-		"1 large white onion, finely chopped",
-		"2 cloves of garlic, crushed",
-		"A handful of sundried tomatoes, finely chopped",
-		"10-12 leaves of fresh sage, finely chopped",
-		"8 anchovy fillets",
-		"2 tbs breadcrumbs",
-		"1 small egg, whisked",
-		"2 tbs of milk",
-		"2 tbs butter",
-		"1 liter of vegetable stock (or chicken stock)",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "minced pork meat",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "g",
+				"value" : "400"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "of savoy cabbage",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "head",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "white onion  finely chopped",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "large",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "of garlic  crushed",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cloves",
+				"value" : "2"
+			}
+		},
+		"A handful of sundried tomatoes  finely chopped",
+		"10-12 leaves of fresh sage  finely chopped",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "fillets",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "anchovy",
+				"value" : "8"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "breadcrumbs",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tbs",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "egg  whisked",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "small",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "of milk",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tbs",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "butter",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tbs",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "of vegetable stock (or chicken stock)",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "liter",
+				"value" : "1"
+			}
+		},
 		"Salt and pepper for seasoning"
 	] 
 },
@@ -114,28 +390,124 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT45.0M",
+	"totalTime": "PT45M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://www.tastingtable.com/cook/recipes/savory-nordic-oatmeal-recipe-breakfast"
 	}, 
 	"recipeIngredient": [
-		"2 tablespoons unsalted butter",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "unsalted butter",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoons",
+				"value" : "2"
+			}
+		},
 		"1? cups steel-cut oatmeal",
-		"2½ cups vegetable stock",
+		"2? cups vegetable stock",
 		"kosher salt",
-		"2 tablespoons butter",
-		"2 medium shallots, peeled and thinly sliced",
-		"8 ounces soppressata, thinly sliced",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "butter",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoons",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "shallots  peeled and thinly sliced",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "medium",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "soppressata  thinly sliced",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "ounces",
+				"value" : "8"
+			}
+		},
 		"kosher salt",
 		"kosher salt",
-		"4 ounces mixed beans",
-		"½ tablespoon olive oil",
-		"½ tablespoon Meyer lemon juice",
-		"1 teaspoon Meyer lemon zest",
-		"2 tablespoons white wine vinegar",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "mixed beans",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "ounces",
+				"value" : "4"
+			}
+		},
+		"? tablespoon olive oil",
+		"? tablespoon Meyer lemon juice",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "Meyer lemon zest",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoon",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "white wine vinegar",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoons",
+				"value" : "2"
+			}
+		},
 		"kosher salt",
-		"4 eggs",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "eggs",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pcs",
+				"value" : "4"
+			}
+		},
 		"grated horseradish"
 	] 
 },
@@ -163,26 +535,182 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT0.0M",
+	"totalTime": "PT0M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://www.foodandwine.com/recipes/nordic-winter-vegetable-soup"
 	}, 
 	"recipeIngredient": [
-		"2 tablespoons extra-virgin olive oil",
-		"1 large onion, thinly sliced",
-		"2 leeks, white and tender green parts only, thinly sliced",
-		"2 garlic cloves, minced",
-		"1 cup pearled barley",
-		"8 cups low-sodium vegetable broth",
-		"4 cups water",
-		"10 thyme sprigs",
-		"2 bay leaves",
-		"1 1/2 pounds celery root, peeled and cut into 1/2-inch cubes",
-		"1 pound parsnips, peeled and cut into 1/2-inch pieces",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "extra-virgin olive oil",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoons",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "onion  thinly sliced",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "large",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "white and tender green parts only  thinly sliced",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "leeks",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "cloves  minced",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "garlic",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "pearled barley",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "low-sodium vegetable broth",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cups",
+				"value" : "8"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "water",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cups",
+				"value" : "4"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "sprigs",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "thyme",
+				"value" : "10"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "leaves",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "bay",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "celery root  peeled and cut into 1/2-inch cubes",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pounds",
+				"value" : "1 1/2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "parsnips  peeled and cut into 1/2-inch pieces",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pound",
+				"value" : "1"
+			}
+		},
 		"Salt and freshly ground pepper",
-		"1 pound baby spinach",
-		"1 teaspoon freshly grated nutmeg"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "baby spinach",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pound",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "freshly grated nutmeg",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoon",
+				"value" : "1"
+			}
+		}
 	] 
 },
 {
@@ -215,12 +743,72 @@
 		"url" : "http://honestcooking.com/buttermilk-marinade-recipe/"
 	}, 
 	"recipeIngredient": [
-		"500ml buttermilk",
-		"2 tsp. salt",
-		"1 tsp. honey",
-		"3 tbsp. chopped spring herbs (e.g. lemon thyme, thyme or fresh ramson)",
-		"1 tsp. wholegrain mustard",
-		"½-1 kg lean meat (e.g. chicken breast, leg of rabbit, leg of goat/lamb/mutton, beef sirloin)"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "buttermilk",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "ml",
+				"value" : "500"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "salt",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tsp.",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "honey",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tsp.",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "chopped spring herbs (e.g. lemon thyme  thyme or fresh ramson)",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tbsp.",
+				"value" : "3"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "wholegrain mustard",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tsp.",
+				"value" : "1"
+			}
+		},
+		"?-1 kg lean meat (e.g. chicken breast  leg of rabbit  leg of goat/lamb/mutton  beef sirloin)"
 	] 
 },
 {
@@ -235,7 +823,7 @@
 		"@type": "NutritionInformation",
 		"calories" : "5651.0 calories"
 	},
-	"name": ""Shrimp evening" dumplings",
+	"name": "Shrimp evening dumplings",
 	"recipeYield": {
 		"@type": "QuantitativeValue",
 		"value" : "14.0"
@@ -243,7 +831,7 @@
 	"image": {
 		"@type": "ImageObject",
 		"contentUrl" : "https://www.edamam.com/web-img/568/5684e1c13afde72cab8a47eca51c0093.jpg", 
-		"caption" : ""Shrimp evening" dumplings"
+		"caption" : "Shrimp evening dumplings"
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
@@ -253,23 +841,191 @@
 		"url" : "https://food52.com/recipes/18538-shrimp-evening-dumplings"
 	}, 
 	"recipeIngredient": [
-		"2/3 cups warm water (about 110f)",
-		"1/4 teaspoon active dry yeast",
-		"2 cups all purpose flour",
-		"1 teaspoon sugar",
-		"1 teaspoon salt",
-		"1 pound shrimp, shells and tails removed",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "warm water (about 110f)",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cups",
+				"value" : "2/3"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "active dry yeast",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoon",
+				"value" : "1/4"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "all purpose flour",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cups",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "sugar",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoon",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "salt",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoon",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "shrimp  shells and tails removed",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pound",
+				"value" : "1"
+			}
+		},
 		"Dry white wine",
 		"A large sprig of dill",
 		"Salt",
-		"1 cup fresh dill",
-		"1 1/2 cup olive oil, canola oil, or other oil (for the dill oil)",
-		"1 large egg yolk, at room temperature",
-		"2 teaspoons lemon juice (or pureed and strained unripe strawberry if you want to go very new nordic)",
-		"1 teaspoon mustard",
-		"1/4 teaspoon salt",
-		"1 teaspoon cold water",
-		"3/4 cups neutral flavored oil such as canola or safflower (for the mayo)"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "fresh dill",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "olive oil  canola oil  or other oil (for the dill oil)",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1 1/2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "egg yolk  at room temperature",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "large",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "lemon juice (or pureed and strained unripe strawberry if you want to go very new nordic)",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoons",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "mustard",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoon",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "salt",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoon",
+				"value" : "1/4"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "cold water",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoon",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "neutral flavored oil such as canola or safflower (for the mayo)",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cups",
+				"value" : "3/4"
+			}
+		}
 	] 
 },
 {
@@ -296,33 +1052,213 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT0.0M",
+	"totalTime": "PT0M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://www.seriouseats.com/recipes/2010/10/seriously-scandinavian-swedish-meatballs-recipe.html"
 	}, 
 	"recipeIngredient": [
 		"For the Pickles:",
-		"1/2 cup water",
-		"1/3 cup sugar",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "water",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1/2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "sugar",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1/3"
+			}
+		},
 		"Salt",
-		"1/2 cup distilled white vinegar",
-		"1/2 a large cucumber, finely diced (about1 cup)",
-		"1 bay leaf",
-		"1 fresh red chili split in half",
-		"5 whole mixed peppercorns",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "distilled white vinegar",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1/2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "large cucumber  finely diced (about1 cup)",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "a",
+				"value" : "1/2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "leaf",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "bay",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "red chili split in half",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "fresh",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "mixed peppercorns",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "whole",
+				"value" : "5"
+			}
+		},
 		"For the Lingonberry Jam:",
-		"1 1/2 cups lingonberries",
-		"1 1/2 cups sugar",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "lingonberries",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cups",
+				"value" : "1 1/2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "sugar",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cups",
+				"value" : "1 1/2"
+			}
+		},
 		"For the Meatballs:",
-		"1 medium onion, peeled and coarsley grated on a box grater (about 3/4 cup)",
-		"1 1/2 pounds fresh ground chuck",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "onion  peeled and coarsley grated on a box grater (about 3/4 cup)",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "medium",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "fresh ground chuck",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pounds",
+				"value" : "1 1/2"
+			}
+		},
 		"Kosher salt and freshly ground black pepper",
-		"3 tablespoons sunflower or canola oil",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "sunflower or canola oil",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoons",
+				"value" : "3"
+			}
+		},
 		"For the Cream Sauce:",
-		"1 tablespoon unsalted butter",
-		"1/2 cup low-sodium beef stock",
-		"1 1/2 cups heavy cream",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "unsalted butter",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoon",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "low-sodium beef stock",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1/2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "heavy cream",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cups",
+				"value" : "1 1/2"
+			}
+		},
 		"Pinch of sugar (optional)"
 	] 
 },
@@ -356,20 +1292,80 @@
 		"url" : "http://www.seriouseats.com/recipes/2016/11/porchetta-flavored-spatchcocked-turkey-recipe.html"
 	}, 
 	"recipeIngredient": [
-		"3 large onions, roughly chopped (about 1 1/2 quarts; 1 1/2 pounds; 680g), divided",
-		"3 large carrots, peeled and roughly chopped (about 1 quart; 12 ounces; 340g), divided",
-		"4 ribs celery, roughly chopped (about 1 quart; 12 ounces; 340g), divided",
-		"12 thyme sprigs, divided",
+		"3 large onions  roughly chopped (about 1 1/2 quarts; 1 1/2 pounds; 680g)  divided",
+		"3 large carrots  peeled and roughly chopped (about 1 quart; 12 ounces; 340g)  divided",
+		"4 ribs celery  roughly chopped (about 1 quart; 12 ounces; 340g)  divided",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "sprigs  divided",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "thyme",
+				"value" : "12"
+			}
+		},
 		"1/2 tablespoon black peppercorns (1/4 ounce; 6g)",
 		"1 tablespoon fennel seed (1/4 ounce; 8g)",
-		"1 teaspoon (2g) red pepper flakes",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "(2g) red pepper flakes",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoon",
+				"value" : "1"
+			}
+		},
 		"4 medium cloves garlic (3/4 ounce; 20g)",
 		"1/2 cup fresh sage leaves (1/2 ounce; 15g)",
-		"1 whole turkey (12 to 14 pounds total; 5.5 to 6.3kg), butterflied according to these instructions, backbone, neck, and giblets reserved",
-		"2 tablespoons (30ml) vegetable oil, divided",
+		"1 whole turkey (12 to 14 pounds total; 5.5 to 6.3kg)  butterflied according to these instructions  backbone  neck  and giblets reserved",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "(30ml) vegetable oil  divided",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoons",
+				"value" : "2"
+			}
+		},
 		"Kosher salt and freshly ground black pepper",
-		"1 1/2 quarts (1.4L) homemade or store-bought low-sodium chicken or turkey stock",
-		"2 bay leaves"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "(1.4L) homemade or store-bought low-sodium chicken or turkey stock",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "quarts",
+				"value" : "1 1/2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "leaves",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "bay",
+				"value" : "2"
+			}
+		}
 	] 
 },
 {
@@ -402,20 +1398,188 @@
 		"url" : "https://www.chowhound.com/recipes/vanilla-bundt-cake-strawberries-31830"
 	}, 
 	"recipeIngredient": [
-		"1 cup (2 sticks) butter, softened",
-		"1 1/2 cups granulated sugar",
-		"3 large eggs",
-		"1 tablespoon lemon juice",
-		"1 vanilla bean pod",
-		"2 1/2 cups all-purpose flour, split",
-		"1/2 teaspoon baking soda",
-		"1 teaspoon baking powder",
-		"1/2 teaspoon salt",
-		"8 ounces Greek yogurt, plain or vanilla",
-		"12 ounces fresh strawberries, diced",
-		"1 1/2 cups powdered sugar",
-		"3 tablespoons water",
-		"1/2 tablespoon unsalted butter",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "(2 sticks) butter  softened",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "granulated sugar",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cups",
+				"value" : "1 1/2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "eggs",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "large",
+				"value" : "3"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "lemon juice",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoon",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "bean pod",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "vanilla",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "all-purpose flour  split",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cups",
+				"value" : "2 1/2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "baking soda",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoon",
+				"value" : "1/2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "baking powder",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoon",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "salt",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoon",
+				"value" : "1/2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "Greek yogurt  plain or vanilla",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "ounces",
+				"value" : "8"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "fresh strawberries  diced",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "ounces",
+				"value" : "12"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "powdered sugar",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cups",
+				"value" : "1 1/2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "water",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoons",
+				"value" : "3"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "unsalted butter",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoon",
+				"value" : "1/2"
+			}
+		},
 		"pinch fine sea salt"
 	] 
 },
@@ -449,19 +1613,67 @@
 		"url" : "https://www.tastingtable.com/entry_detail/chefs_recipes/2888/Cheesy_garlicky_bread_from_NYCs_most_fleeting_restaurant.htm"
 	}, 
 	"recipeIngredient": [
-		"3 cups bread flour",
-		"½ cup semolina flour",
-		"1½ teaspoons fine sea salt",
-		"1½ teaspoons sugar",
-		"¼ ounce dry active yeast",
-		"1¼ cups warm water",
-		"2 tablespoons extra-virgin olive oil",
-		"¼ cup maldon sea salt (or other flaky salt)",
-		"1¼ teaspoons freshly ground pepper",
-		"1¼ teaspoons caraway seeds",
-		"2½ cups coarsely grated emmentaler",
-		"6 tablespoons unsalted butter",
-		"1 garlic clove, crushed"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "bread flour",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cups",
+				"value" : "3"
+			}
+		},
+		"? cup semolina flour",
+		"1? teaspoons fine sea salt",
+		"1? teaspoons sugar",
+		"? ounce dry active yeast",
+		"1? cups warm water",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "extra-virgin olive oil",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoons",
+				"value" : "2"
+			}
+		},
+		"? cup maldon sea salt (or other flaky salt)",
+		"1? teaspoons freshly ground pepper",
+		"1? teaspoons caraway seeds",
+		"2? cups coarsely grated emmentaler",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "unsalted butter",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoons",
+				"value" : "6"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "clove  crushed",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "garlic",
+				"value" : "1"
+			}
+		}
 	] 
 },
 {
@@ -494,20 +1706,176 @@
 		"url" : "http://www.seriouseats.com/recipes/2010/11/turkey-in-parts-white-dark-recipe.html"
 	}, 
 	"recipeIngredient": [
-		"1 whole turkey, 10 to 15 pounds",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "turkey  10 to 15 pounds",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "whole",
+				"value" : "1"
+			}
+		},
 		"Kosher salt and freshly ground black pepper",
-		"1 large onion, peeled and roughly chopped (about 2 cups)",
-		"1 large carrot, peeled and roughly chopped (about 1 cup)",
-		"2 large stalks celery, roughly chopped (about 1 cup)",
-		"2 medium cloves garlic, peeled and smashed",
-		"2 bay leaves",
-		"12 whole black peppercorns",
-		"1 quart homemade or store-bought low-sodium chicken stock",
-		"2 tablespoons vegetable oil",
-		"3 tabespoons unsalted butter",
-		"3 tablespoons flour",
-		"1/4 teaspoon marmite",
-		"1 teaspoon soy sauce"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "onion  peeled and roughly chopped (about 2 cups)",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "large",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "carrot  peeled and roughly chopped (about 1 cup)",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "large",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "stalks celery  roughly chopped (about 1 cup)",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "large",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "cloves garlic  peeled and smashed",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "medium",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "leaves",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "bay",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "black peppercorns",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "whole",
+				"value" : "12"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "homemade or store-bought low-sodium chicken stock",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "quart",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "vegetable oil",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoons",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "unsalted butter",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tabespoons",
+				"value" : "3"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "flour",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoons",
+				"value" : "3"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "marmite",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoon",
+				"value" : "1/4"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "soy sauce",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoon",
+				"value" : "1"
+			}
+		}
 	] 
 },
 {
@@ -534,17 +1902,53 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT0.0M",
+	"totalTime": "PT0M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://www.williams-sonoma.com/recipe/pumpkin-bundt-cake.html"
 	}, 
 	"recipeIngredient": [
 		"Williams-Sonoma Pumpkin Bundt Cake Mix (includes cake mix and pumpkin puree packets)",
-		"4 eggs",
-		"12 Tbs. (1 1/2 sticks) (6 oz./185 g) unsalted butter, melted and cooled",
-		"1/2 cup (4 fl. oz./125 ml) milk",
-		"Confectioners’ sugar for dusting"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "eggs",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pcs",
+				"value" : "4"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "(1 1/2 sticks) (6 oz./185 g) unsalted butter  melted and cooled",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "Tbs.",
+				"value" : "12"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "(4 fl. oz./125 ml) milk",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1/2"
+			}
+		},
+		"Confectioners? sugar for dusting"
 	] 
 },
 {
@@ -571,24 +1975,144 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT40.0M",
+	"totalTime": "PT40M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://honestcooking.com/jerusalem-artichoke-soup-with-bacon-and-chives/"
 	}, 
 	"recipeIngredient": [
-		"500g jerusalem artichokes",
-		"1 litre chicken or vegetable stock",
-		"1 onion",
-		"2 garlic cloves",
-		"3 sprigs of thyme",
-		"50g bacon",
-		"½ bunch fresh chives",
-		"2 tablespoons olive oil",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "jerusalem artichokes",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "g",
+				"value" : "500"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "chicken or vegetable stock",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "litre",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "onion",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pcs",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "cloves",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "garlic",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "of thyme",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "sprigs",
+				"value" : "3"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "bacon",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "g",
+				"value" : "50"
+			}
+		},
+		"? bunch fresh chives",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "olive oil",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoons",
+				"value" : "2"
+			}
+		},
 		"2-3 tablespoons cider vinegar",
-		"50ml cream",
-		"25g butter",
-		"1 pinch of nutmeg (optional)"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "cream",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "ml",
+				"value" : "50"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "butter",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "g",
+				"value" : "25"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "of nutmeg (optional)",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pinch",
+				"value" : "1"
+			}
+		}
 	] 
 },
 {
@@ -621,18 +2145,114 @@
 		"url" : "http://www.seriouseats.com/recipes/2016/11/chinese-red-sauce-glazed-turkey-thanksgiving-recipe.html"
 	}, 
 	"recipeIngredient": [
-		"1 cup (235ml) dark soy sauce",
-		"1 cup (235ml) Shaoxing wine",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "(235ml) dark soy sauce",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "(235ml) Shaoxing wine",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1"
+			}
+		},
 		"1 cup sugar (8 ounces; 225g)",
-		"1 cinnamon stick",
-		"2 pieces star anise",
-		"2 (1-inch) knobs peeled fresh ginger, lightly crushed under the heel of a knife, divided",
-		"4 scallions, divided",
-		"3 large onions, roughly chopped (about 1 1/2 quarts; 1 1/2 pounds; 680g), divided",
-		"4 ribs celery, roughly chopped (about 1 quart; 12 ounces; 340g), divided",
-		"1 whole turkey (12 to 14 pounds total; 5.5 to 6.3kg), butterflied according to these instructions, backbone, neck, and giblets reserved",
-		"2 tablespoons (30ml) vegetable oil, divided",
-		"1 1/2 quarts (1.4L) homemade or store-bought low-sodium chicken or turkey stock",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "stick",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cinnamon",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "star anise",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pieces",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "(1-inch) knobs peeled fresh ginger  lightly crushed under the heel of a knife  divided",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pcs",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "divided",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "scallions",
+				"value" : "4"
+			}
+		},
+		"3 large onions  roughly chopped (about 1 1/2 quarts; 1 1/2 pounds; 680g)  divided",
+		"4 ribs celery  roughly chopped (about 1 quart; 12 ounces; 340g)  divided",
+		"1 whole turkey (12 to 14 pounds total; 5.5 to 6.3kg)  butterflied according to these instructions  backbone  neck  and giblets reserved",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "(30ml) vegetable oil  divided",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoons",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "(1.4L) homemade or store-bought low-sodium chicken or turkey stock",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "quarts",
+				"value" : "1 1/2"
+			}
+		},
 		"Kosher salt and freshly ground black pepper"
 	] 
 },
@@ -660,27 +2280,111 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT0.0M",
+	"totalTime": "PT0M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://www.thedailymeal.com/recipes/scandinavian-black-bread-recipe"
 	}, 
 	"recipeIngredient": [
-		"10 ½  Ounces   whole-wheat flour",
-		"9 ½  Ounces   (scant 2 cups) all-purpose flour",
-		"2 ¾  Ounces   coarse rye flour",
-		"1  Ounce   wheat bran",
-		"1 ¾  Ounce   wheat germ",
-		"5  Ounces   cracked wheat",
-		"1  Teaspoon   mixed spices (like ground caraway and fennel seeds)",
-		"1 ¼  Tablespoon   baking soda",
-		"1 ½  Teaspoon   salt",
-		"5  Ounces   light molasses",
-		"12  Ounces   whole milk",
-		"18  Ounces   unsweetened yogurt",
-		"1 ¾  Ounce   raisins",
-		"1 ¾  Ounce   sunflower oil, for greasing",
-		"2  Ounces   sunflower seeds"
+		"10 ?  Ounces   whole-wheat flour",
+		"9 ?  Ounces   (scant 2 cups) all-purpose flour",
+		"2 ?  Ounces   coarse rye flour",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "Ounce   wheat bran",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pcs",
+				"value" : "1"
+			}
+		},
+		"1 ?  Ounce   wheat germ",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "Ounces   cracked wheat",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pcs",
+				"value" : "5"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "Teaspoon   mixed spices (like ground caraway and fennel seeds)",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pcs",
+				"value" : "1"
+			}
+		},
+		"1 ?  Tablespoon   baking soda",
+		"1 ?  Teaspoon   salt",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "Ounces   light molasses",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pcs",
+				"value" : "5"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "Ounces   whole milk",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pcs",
+				"value" : "12"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "Ounces   unsweetened yogurt",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pcs",
+				"value" : "18"
+			}
+		},
+		"1 ?  Ounce   raisins",
+		"1 ?  Ounce   sunflower oil  for greasing",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "Ounces   sunflower seeds",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pcs",
+				"value" : "2"
+			}
+		}
 	] 
 },
 {
@@ -707,21 +2411,93 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT0.0M",
+	"totalTime": "PT0M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://www.thedailymeal.com/recipes/scandinavian-chocolate-potato-cake-recipe"
 	}, 
 	"recipeIngredient": [
-		"1 ½  Cup   (14 ounces) potatoes, skin on",
-		"2   eggs",
-		"4  Tablespoons   (2 ounces) superfine sugar",
-		"1  Teaspoon   baking powder",
-		"3 ½  Ounces   (scant ½ cup) unsalted butter, room temperature, plus more for greasing",
-		"4  Tablespoons   cocoa powder",
-		"¼  Cup   (1 ounce) bread crumbs",
-		"2  Tablespoons   confectioners sugar, for garnish",
-		"7  Ounces   (scant cup) whipping cream, for garnish"
+		"1 ?  Cup   (14 ounces) potatoes  skin on",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "eggs",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pcs",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "Tablespoons   (2 ounces) superfine sugar",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pcs",
+				"value" : "4"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "Teaspoon   baking powder",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pcs",
+				"value" : "1"
+			}
+		},
+		"3 ?  Ounces   (scant ? cup) unsalted butter  room temperature  plus more for greasing",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "Tablespoons   cocoa powder",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pcs",
+				"value" : "4"
+			}
+		},
+		"?  Cup   (1 ounce) bread crumbs",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "Tablespoons   confectioners sugar  for garnish",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pcs",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "Ounces   (scant cup) whipping cream  for garnish",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pcs",
+				"value" : "7"
+			}
+		}
 	] 
 },
 {
@@ -754,17 +2530,149 @@
 		"url" : "http://www.seriouseats.com/recipes/2015/01/hot-and-numbing-oven-fried-xian-chicken-wings-recipe.html"
 	}, 
 	"recipeIngredient": [
-		"4 pounds chicken wings, cut into drumettes and flats",
-		"1 tablespoon baking powder",
-		"1 1/2 tablespoons kosher salt",
-		"1 tablespoon whole cumin seed",
-		"1 teaspoon whole fennel seed",
-		"1 tablespoon dried red pepper flakes (preferably Thai)",
-		"1 tablespoon whole Sichuan peppercorns, seeds removed",
-		"1 tablespoon brown sugar",
-		"2 teaspoons vegetable oil",
-		"1/2 cup chopped fresh cilantro leaves and fine stems",
-		"4 scallions, thinly sliced"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "chicken wings  cut into drumettes and flats",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pounds",
+				"value" : "4"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "baking powder",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoon",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "kosher salt",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoons",
+				"value" : "1 1/2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "whole cumin seed",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoon",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "whole fennel seed",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoon",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "dried red pepper flakes (preferably Thai)",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoon",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "whole Sichuan peppercorns  seeds removed",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoon",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "brown sugar",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoon",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "vegetable oil",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoons",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "chopped fresh cilantro leaves and fine stems",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1/2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "thinly sliced",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "scallions",
+				"value" : "4"
+			}
+		}
 	] 
 },
 {
@@ -791,25 +2699,157 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT50.0M",
+	"totalTime": "PT50M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://honestcooking.com/swedish-pancakes-with-blackberry-vanilla-jam/"
 	}, 
 	"recipeIngredient": [
-		"2 eggs",
-		"1 teaspoon sour cream",
-		"1 cup milk",
-		"2 tablespoons butter, melted",
-		"3 tablespoons white sugar",
-		"1 tablespoon dark brown sugar",
-		"¾ cup white flour",
-		"1 pinch of salt",
-		"1 tablespoon butter",
-		"1 quart fresh blackberries",
-		"¼ cup sugar",
-		"1 tablespoon vanilla extract",
-		"1 cinnamon stick"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "eggs",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pcs",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "sour cream",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoon",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "milk",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "butter  melted",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoons",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "white sugar",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoons",
+				"value" : "3"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "dark brown sugar",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoon",
+				"value" : "1"
+			}
+		},
+		"? cup white flour",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "of salt",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pinch",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "butter",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoon",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "fresh blackberries",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "quart",
+				"value" : "1"
+			}
+		},
+		"? cup sugar",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "vanilla extract",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoon",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "stick",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cinnamon",
+				"value" : "1"
+			}
+		}
 	] 
 },
 {
@@ -824,7 +2864,7 @@
 		"@type": "NutritionInformation",
 		"calories" : "2010.0 calories"
 	},
-	"name": "Seriously Scandinavian: Smoked Salmon With Sunchoke Paté",
+	"name": "Seriously Scandinavian: Smoked Salmon With Sunchoke Pat?",
 	"recipeYield": {
 		"@type": "QuantitativeValue",
 		"value" : "4.0"
@@ -832,7 +2872,7 @@
 	"image": {
 		"@type": "ImageObject",
 		"contentUrl" : "https://www.edamam.com/web-img/bfe/bfe2455a528801fcfc99ad3426ce569f.jpg", 
-		"caption" : "Seriously Scandinavian: Smoked Salmon With Sunchoke Paté"
+		"caption" : "Seriously Scandinavian: Smoked Salmon With Sunchoke Pat?"
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
@@ -842,17 +2882,125 @@
 		"url" : "http://www.seriouseats.com/recipes/2010/10/seriously-scandinavian-smoked-salmon-with-sunchoke-pate-recipe.html"
 	}, 
 	"recipeIngredient": [
-		"For the paté",
-		"1/3 pound sunchokes",
-		"1/2 cup heavy cream",
-		"1/2 cup milk",
-		"2 gelatine leaves",
-		"6 ounces cream cheese",
+		"For the pat?",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "sunchokes",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pound",
+				"value" : "1/3"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "heavy cream",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1/2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "milk",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1/2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "leaves",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "gelatine",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "cream cheese",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "ounces",
+				"value" : "6"
+			}
+		},
 		"Kosher salt & freshly ground white pepper",
-		"2/3 pound wild smoked salmon (preferrable sliced fresh by hand into thin slices)",
-		"4 slices good, thin crisp bread",
-		"12 sprigs of dill",
-		"3 tablespoons extra virgin olive oil"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "wild smoked salmon (preferrable sliced fresh by hand into thin slices)",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pound",
+				"value" : "2/3"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "good  thin crisp bread",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "slices",
+				"value" : "4"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "of dill",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "sprigs",
+				"value" : "12"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "extra virgin olive oil",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoons",
+				"value" : "3"
+			}
+		}
 	] 
 },
 {
@@ -879,21 +3027,93 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT0.0M",
+	"totalTime": "PT0M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://www.thedailymeal.com/recipes/isterband-salad-recipe"
 	}, 
 	"recipeIngredient": [
-		"1  Cup   pearl barley",
-		"1  Tablespoon   cider vinegar",
-		"2  Teaspoons   olive oil",
-		"21  Ounces   lightly smoked pork sausages",
-		"1  Tablespoon   rapeseed oil",
-		"1  Ounce   dill fronds",
-		"½  Cup   (3.5 ounces) pickled beet, drained and sliced",
-		"2   onions, peeled and cut into ½-inch-thick rings",
-		"Plain yogurt, for serving (optional)"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "Cup   pearl barley",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pcs",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "Tablespoon   cider vinegar",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pcs",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "Teaspoons   olive oil",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pcs",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "Ounces   lightly smoked pork sausages",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pcs",
+				"value" : "21"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "Tablespoon   rapeseed oil",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pcs",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "Ounce   dill fronds",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pcs",
+				"value" : "1"
+			}
+		},
+		"?  Cup   (3.5 ounces) pickled beet  drained and sliced",
+		"2   onions  peeled and cut into ?-inch-thick rings",
+		"Plain yogurt  for serving (optional)"
 	] 
 },
 {
@@ -920,21 +3140,117 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT50.0M",
+	"totalTime": "PT50M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://honestcooking.com/plokkfiskur-icelandic-fish-stew/"
 	}, 
 	"recipeIngredient": [
-		"2 tablespoons good quality butter",
-		"1 medium white onion, diced finely",
-		"2 celery stalks, sliced finely",
-		"1 small carrot, diced finely",
-		"¾ cup white wine",
-		"1 pound small, waxy potatoes, but into halves or quarters",
-		"1.5 liters chicken or vegetable stock",
-		"2 pounds haddock, cod or other white fish, cube into 1 inch cubes",
-		"1 medium tomato, chopped",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "good quality butter",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoons",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "white onion  diced finely",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "medium",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "stalks  sliced finely",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "celery",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "carrot  diced finely",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "small",
+				"value" : "1"
+			}
+		},
+		"? cup white wine",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "small  waxy potatoes  but into halves or quarters",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pound",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "chicken or vegetable stock",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "liters",
+				"value" : "1.5"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "haddock  cod or other white fish  cube into 1 inch cubes",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pounds",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "tomato  chopped",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "medium",
+				"value" : "1"
+			}
+		},
 		"Two cups cream",
 		"Salt and pepper to taste",
 		"2-3 tablespoons finely minced chives"
@@ -964,26 +3280,170 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT50.0M",
+	"totalTime": "PT50M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://honestcooking.com/nordic-cuisine-for-the-home-cook-dream-cake-with-barley-and-berries/"
 	}, 
 	"recipeIngredient": [
-		"275 g flour (try old wheat varieties e.g. øland wheat or spelt)",
-		"3 tsp. baking powder",
-		"2 tsp. dried sweet woodruff (optional, or use vanilla instead)",
-		"3 large eggs",
-		"300 g sugar",
-		"90 g butter, melted",
-		"200 ml single cream or whole milk",
-		"175 g fresh/frozen black currants, red currants, lingonberries or blue berries.",
+		"275 g flour (try old wheat varieties e.g. ?land wheat or spelt)",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "baking powder",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tsp.",
+				"value" : "3"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "dried sweet woodruff (optional  or use vanilla instead)",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tsp.",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "eggs",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "large",
+				"value" : "3"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "sugar",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "g",
+				"value" : "300"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "butter  melted",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "g",
+				"value" : "90"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "single cream or whole milk",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "ml",
+				"value" : "200"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "fresh/frozen black currants  red currants  lingonberries or blue berries.",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "g",
+				"value" : "175"
+			}
+		},
 		"Topping:",
-		"200 g butter",
-		"75 ml single cream or whole milk",
-		"375 g brown sugar",
-		"175 g barley flakes (or rolled oats)",
-		"3 tsp. dark malt flour (optional)"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "butter",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "g",
+				"value" : "200"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "single cream or whole milk",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "ml",
+				"value" : "75"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "brown sugar",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "g",
+				"value" : "375"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "barley flakes (or rolled oats)",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "g",
+				"value" : "175"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "dark malt flour (optional)",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tsp.",
+				"value" : "3"
+			}
+		}
 	] 
 },
 {
@@ -1016,21 +3476,165 @@
 		"url" : "http://www.seriouseats.com/recipes/2015/12/roast-goose-and-gravy-recipe.html"
 	}, 
 	"recipeIngredient": [
-		"1 whole goose (10-12 pounds; 4.5-5.5kg), neck, giblets, wing tips, and wishbone removed and reserved (see note above)",
-		"1/2 cup (2.5 ounces; 70g) Diamond Crystal kosher salt or 6 tablespoons (3 ounces; 85g) Morton's kosher salt, plus more to taste",
-		"2 tablespoons (24g) baking powder",
-		"1 1/2 cups (355ml) homemade chicken stock or low-sodium chicken broth",
+		"1 whole goose (10-12 pounds; 4.5-5.5kg)  neck  giblets  wing tips  and wishbone removed and reserved (see note above)",
+		"1/2 cup (2.5 ounces; 70g) Diamond Crystal kosher salt or 6 tablespoons (3 ounces; 85g) Morton's kosher salt  plus more to taste",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "(24g) baking powder",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoons",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "(355ml) homemade chicken stock or low-sodium chicken broth",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cups",
+				"value" : "1 1/2"
+			}
+		},
 		"1 packet (2 1/2 teaspoons; 7g) unflavored gelatin (only if using store-bought chicken broth; see note above)",
-		"1 large yellow onion, diced",
-		"2 medium carrots, peeled and diced",
-		"2 ribs celery, diced",
-		"1 tablespoon (15ml) tomato paste",
-		"2 cups (475ml) dry red wine",
-		"8 large sprigs parsley",
-		"3 sprigs fresh thyme",
-		"1 bay leaf",
-		"2 tablespoons (16g) all-purpose flour",
-		"1/2 cup (120ml) Amontillado sherry",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "yellow onion  diced",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "large",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "carrots  peeled and diced",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "medium",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "celery  diced",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "ribs",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "(15ml) tomato paste",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoon",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "(475ml) dry red wine",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cups",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "sprigs parsley",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "large",
+				"value" : "8"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "fresh thyme",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "sprigs",
+				"value" : "3"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "leaf",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "bay",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "(16g) all-purpose flour",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoons",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "(120ml) Amontillado sherry",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1/2"
+			}
+		},
 		"Freshly ground black pepper"
 	] 
 },
@@ -1064,11 +3668,35 @@
 		"url" : "http://www.seriouseats.com/recipes/2015/11/sweet-potato-casserole-marshmallow-recipe.html"
 	}, 
 	"recipeIngredient": [
-		"6 pounds (2.8kg) moist sweet potatoes, such as ruby or garnet yams (about 6 large potatoes; see note above)",
+		"6 pounds (2.8kg) moist sweet potatoes  such as ruby or garnet yams (about 6 large potatoes; see note above)",
 		"8 tablespoons unsalted butter (1 stick; 115g)",
-		"8 sprigs fresh thyme and/or sage",
-		"1 (4-inch) knob peeled fresh ginger, finely grated (about 1 tablespoon; 15g)",
-		"1/4 cup (60g) buttermilk or sour cream",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "fresh thyme and/or sage",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "sprigs",
+				"value" : "8"
+			}
+		},
+		"1 (4-inch) knob peeled fresh ginger  finely grated (about 1 tablespoon; 15g)",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "(60g) buttermilk or sour cream",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1/4"
+			}
+		},
 		"Kosher salt",
 		"2 cups mini marshmallows (3 ounces; 90g) (see note above)"
 	] 
@@ -1103,23 +3731,167 @@
 		"url" : "http://www.seriouseats.com/recipes/2016/11/cajun-spiced-turkey-thanksgiving-recipe.html"
 	}, 
 	"recipeIngredient": [
-		"3 large onions, roughly chopped (about 1 1/2 quarts; 1 1/2 pounds; 680g), divided",
-		"3 large carrots, peeled and roughly chopped (about 1 quart; 12 ounces; 340g), divided",
-		"4 ribs celery, roughly chopped (about 1 quart; 12 ounces; 340g), divided",
-		"12 thyme sprigs, divided",
-		"1 tablespoon (12g) paprika",
-		"1 1/2 teaspoons (6g) cayenne pepper",
-		"1 1/2 teaspoons (6g) ground coriander seed",
-		"3/4 teaspoon (3g) ground cumin",
-		"3/4 teaspoon (3g) onion powder",
-		"3/4 teaspoon (3g) garlic powder",
-		"1 1/2 teaspoons (3g) dried thyme",
-		"1 1/2 teaspoons (3g) dried oregano",
-		"1 whole turkey (12 to 14 pounds total; 5.5 to 6.3kg), butterflied according to these instructions, backbone, neck, and giblets reserved",
-		"2 tablespoons (30ml) vegetable oil, divided",
+		"3 large onions  roughly chopped (about 1 1/2 quarts; 1 1/2 pounds; 680g)  divided",
+		"3 large carrots  peeled and roughly chopped (about 1 quart; 12 ounces; 340g)  divided",
+		"4 ribs celery  roughly chopped (about 1 quart; 12 ounces; 340g)  divided",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "sprigs  divided",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "thyme",
+				"value" : "12"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "(12g) paprika",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoon",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "(6g) cayenne pepper",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoons",
+				"value" : "1 1/2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "(6g) ground coriander seed",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoons",
+				"value" : "1 1/2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "(3g) ground cumin",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoon",
+				"value" : "3/4"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "(3g) onion powder",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoon",
+				"value" : "3/4"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "(3g) garlic powder",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoon",
+				"value" : "3/4"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "(3g) dried thyme",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoons",
+				"value" : "1 1/2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "(3g) dried oregano",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoons",
+				"value" : "1 1/2"
+			}
+		},
+		"1 whole turkey (12 to 14 pounds total; 5.5 to 6.3kg)  butterflied according to these instructions  backbone  neck  and giblets reserved",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "(30ml) vegetable oil  divided",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoons",
+				"value" : "2"
+			}
+		},
 		"Kosher salt and freshly ground black pepper",
-		"1 1/2 quarts (1.4L) homemade or store-bought low-sodium chicken or turkey stock",
-		"2 bay leaves"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "(1.4L) homemade or store-bought low-sodium chicken or turkey stock",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "quarts",
+				"value" : "1 1/2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "leaves",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "bay",
+				"value" : "2"
+			}
+		}
 	] 
 },
 {
@@ -1152,23 +3924,215 @@
 		"url" : "http://www.seriouseats.com/recipes/2010/11/easy-herb-rubbed-turkey.html"
 	}, 
 	"recipeIngredient": [
-		"1 whole turkey, neck and giblets reserved, about 10 to 12 pounds (see note above)",
-		"12 tablespoons (1 1/2 sticks) butter, divided",
-		"1/2 cup finely minced parsley leaves",
-		"1 tablespoon finely minced fresh thyme leaves (or 2 teaspoons dried thyme)",
-		"1 tablespoon finely minced fresh sage leaves",
-		"1 tablespoon finely minced fresh rosemary leaves",
-		"2 medium garlic, minced or grated on microplane (about 2 teaspoons)",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "turkey  neck and giblets reserved  about 10 to 12 pounds (see note above)",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "whole",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "(1 1/2 sticks) butter  divided",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoons",
+				"value" : "12"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "finely minced parsley leaves",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1/2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "finely minced fresh thyme leaves (or 2 teaspoons dried thyme)",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoon",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "finely minced fresh sage leaves",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoon",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "finely minced fresh rosemary leaves",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoon",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "garlic  minced or grated on microplane (about 2 teaspoons)",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "medium",
+				"value" : "2"
+			}
+		},
 		"Kosher salt and freshly ground black pepper",
-		"1 tablespoon vegetable oil",
-		"1 large onion, roughly chopped",
-		"1 large carrot, peeled and roughly chopped",
-		"2 stalks celery, roughly chopped",
-		"1 1/2 quarts homemade or store-bought low-sodium chicken stock",
-		"2 bay leaves",
-		"1 teaspoon soy sauce",
-		"1/4 teaspoon marmite",
-		"1/4 cup flour"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "vegetable oil",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoon",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "onion  roughly chopped",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "large",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "carrot  peeled and roughly chopped",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "large",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "celery  roughly chopped",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "stalks",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "homemade or store-bought low-sodium chicken stock",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "quarts",
+				"value" : "1 1/2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "leaves",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "bay",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "soy sauce",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoon",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "marmite",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoon",
+				"value" : "1/4"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "flour",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1/4"
+			}
+		}
 	] 
 },
 {
@@ -1205,20 +4169,116 @@
 		"17.5 ounces bread flour (500g; about 3 1/2 cups)",
 		"1/2 ounce salt (14g; about 1 tablespoon)",
 		"1/4 ounce instant or rapid-rise yeast (6g; about 1 1/2 teaspoons)",
-		"0.35 ounce extra-virgin olive oil (20g; 2 tablespoons), plus 1/4 cup olive oil (60ml; 40g) for the pan",
+		"0.35 ounce extra-virgin olive oil (20g; 2 tablespoons)  plus 1/4 cup olive oil (60ml; 40g) for the pan",
 		"11.5 ounces room-temperature water (325g; about 1 cup plus 7 tablespoons)",
 		"For the Sauce:",
-		"2 tablespoons (30ml) extra-virgin olive oil",
-		"9 medium cloves garlic, roughly chopped",
-		"1 tablespoon (about 4g) dried oregano",
-		"2 teaspoons (about 3g) dried red pepper flakes, or more to taste",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "(30ml) extra-virgin olive oil",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoons",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "cloves garlic  roughly chopped",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "medium",
+				"value" : "9"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "(about 4g) dried oregano",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoon",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "(about 3g) dried red pepper flakes  or more to taste",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoons",
+				"value" : "2"
+			}
+		},
 		"1 (28-ounce; 800g) can whole peeled tomatoes",
-		"1 teaspoon (about 4g) sugar",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "(about 4g) sugar",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoon",
+				"value" : "1"
+			}
+		},
 		"Kosher salt",
 		"To Assemble and Bake:",
-		"1 pound (450g) sliced deli-style mozzarella cheese",
-		"12 ounces (325g) natural-casing pepperoni, cut into 1/8-inch slices (see note above)",
-		"4 ounces (115g) ground Pecorino Romano cheese"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "(450g) sliced deli-style mozzarella cheese",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pound",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "(325g) natural-casing pepperoni  cut into 1/8-inch slices (see note above)",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "ounces",
+				"value" : "12"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "(115g) ground Pecorino Romano cheese",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "ounces",
+				"value" : "4"
+			}
+		}
 	] 
 },
 {
@@ -1251,17 +4311,137 @@
 		"url" : "http://www.seriouseats.com/recipes/2014/11/the-best-simple-roast-turkey-gravy-recipe.html"
 	}, 
 	"recipeIngredient": [
-		"1 whole turkey, neck and giblets reserved, about 10 to 12 pounds (4.5 to 5kg) (see note above)",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "turkey  neck and giblets reserved  about 10 to 12 pounds (4.5 to 5kg) (see note above)",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "whole",
+				"value" : "1"
+			}
+		},
 		"Kosher salt and freshly ground black pepper",
-		"1 tablespoon (15ml) vegetable oil",
-		"1 large onion, roughly chopped",
-		"1 large carrot, peeled and roughly chopped",
-		"2 ribs celery, roughly chopped",
-		"1 1/2 quarts (about 1.5L) homemade or store-bought low-sodium chicken stock",
-		"2 bay leaves",
-		"1 teaspoon (5ml) soy sauce",
-		"3 tablespoons (45g) butter",
-		"1/4 cup (1 1/2 ounces) flour"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "(15ml) vegetable oil",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoon",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "onion  roughly chopped",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "large",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "carrot  peeled and roughly chopped",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "large",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "celery  roughly chopped",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "ribs",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "(about 1.5L) homemade or store-bought low-sodium chicken stock",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "quarts",
+				"value" : "1 1/2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "leaves",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "bay",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "(5ml) soy sauce",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoon",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "(45g) butter",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoons",
+				"value" : "3"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "(1 1/2 ounces) flour",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1/4"
+			}
+		}
 	] 
 },
 {
@@ -1294,23 +4474,215 @@
 		"url" : "http://www.seriouseats.com/recipes/2011/11/herb-rubbed-roast-turkey-with-stuffing.html"
 	}, 
 	"recipeIngredient": [
-		"1 whole turkey, neck and giblets reserved, about 10 to 12 pounds",
-		"1 recipe classic sage and sauges stuffing or your favorite stuffing recipe, unbaked",
-		"12 tablespoons (1 1/2 sticks) butter, divided",
-		"1 tablespoon finely minced fresh thyme leaves (or 2 teaspoons dried thyme)",
-		"1 tablespoon finely minced fresh sage leaves",
-		"1 tablespoon finely minced fresh rosemary leaves",
-		"2 medium garlic, minced or grated on microplane (about 2 teaspoons)",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "turkey  neck and giblets reserved  about 10 to 12 pounds",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "whole",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "classic sage and sauges stuffing or your favorite stuffing recipe  unbaked",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "recipe",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "(1 1/2 sticks) butter  divided",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoons",
+				"value" : "12"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "finely minced fresh thyme leaves (or 2 teaspoons dried thyme)",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoon",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "finely minced fresh sage leaves",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoon",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "finely minced fresh rosemary leaves",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoon",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "garlic  minced or grated on microplane (about 2 teaspoons)",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "medium",
+				"value" : "2"
+			}
+		},
 		"Kosher salt and freshly ground black pepper",
-		"1 tablespoon vegetable oil",
-		"1 large onion, roughly chopped",
-		"1 large carrot, peeled and roughly chopped",
-		"3 stalks celery, roughly chopped",
-		"1 1/2 quarts homemade or store-bought low-sodium chicken stock",
-		"2 bay leaves",
-		"1 teaspoon soy sauce",
-		"1/4 teaspoon marmite",
-		"1/4 cup flour"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "vegetable oil",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoon",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "onion  roughly chopped",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "large",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "carrot  peeled and roughly chopped",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "large",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "celery  roughly chopped",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "stalks",
+				"value" : "3"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "homemade or store-bought low-sodium chicken stock",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "quarts",
+				"value" : "1 1/2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "leaves",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "bay",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "soy sauce",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoon",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "marmite",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoon",
+				"value" : "1/4"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "flour",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1/4"
+			}
+		}
 	] 
 },
 {
@@ -1343,17 +4715,89 @@
 		"url" : "http://www.seriouseats.com/recipes/2010/11/classic-sage-and-sausage-stuffing-or-dressing-recipe.html"
 	}, 
 	"recipeIngredient": [
-		"2 1/2 pounds (1.25kg) high-quality sandwich bread or soft Italian or French bread (about 2 loaves), cut into 3/4-inch dice (about 5 quarts)",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "(1.25kg) high-quality sandwich bread or soft Italian or French bread (about 2 loaves)  cut into 3/4-inch dice (about 5 quarts)",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pounds",
+				"value" : "2 1/2"
+			}
+		},
 		"8 tablespoons butter (1 stick; 4 ounces; 115g)",
-		"1 1/2 pounds (680g) sage sausage, removed from casing",
-		"1 large onion, finely chopped (about 12 ounces; 350g)",
-		"4 large ribs celery, finely chopped (about 12 ounces; 350g)",
-		"2 cloves garlic, minced or grated on a Microplane",
-		"1/4 cup minced fresh sage leaves (or 2 teaspoons dried sage leaves)",
-		"Kosher salt and freshly ground black pepper, if needed (see note above)",
-		"1 quart low-sodium homemade or store-bought low-sodium chicken or turkey stock (4 cups; 1L), divided",
-		"3 whole eggs",
-		"1/4 cup minced parsley leaves, divided"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "(680g) sage sausage  removed from casing",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pounds",
+				"value" : "1 1/2"
+			}
+		},
+		"1 large onion  finely chopped (about 12 ounces; 350g)",
+		"4 large ribs celery  finely chopped (about 12 ounces; 350g)",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "garlic  minced or grated on a Microplane",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cloves",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "minced fresh sage leaves (or 2 teaspoons dried sage leaves)",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1/4"
+			}
+		},
+		"Kosher salt and freshly ground black pepper  if needed (see note above)",
+		"1 quart low-sodium homemade or store-bought low-sodium chicken or turkey stock (4 cups; 1L)  divided",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "eggs",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "whole",
+				"value" : "3"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "minced parsley leaves  divided",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1/4"
+			}
+		}
 	] 
 },
 {
@@ -1386,16 +4830,112 @@
 		"url" : "http://www.seriouseats.com/recipes/2014/11/herb-butter-rubbed-crisp-skinned-butterflied-spatchcock-roast-turkey-thanksgiving-recipe.html"
 	}, 
 	"recipeIngredient": [
-		"4 medium cloves garlic",
-		"1/4 cup roughly chopped chives",
-		"1/4 cup fresh parsley leaves",
-		"1/4 cup fresh sage leaves",
-		"2 tablespoons fresh thyme leaves",
-		"1 medium shallot, thinly sliced",
-		"1 stick butter, cut into 1/4-inch slices",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "cloves garlic",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "medium",
+				"value" : "4"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "roughly chopped chives",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1/4"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "fresh parsley leaves",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1/4"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "fresh sage leaves",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1/4"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "fresh thyme leaves",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoons",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "shallot  thinly sliced",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "medium",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "butter  cut into 1/4-inch slices",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "stick",
+				"value" : "1"
+			}
+		},
 		"Kosher salt and freshly ground black pepper",
-		"1 whole turkey (12 to 14 pounds total), butterflied according to these instructions (reserve backbone and neck if making stock for gravy, see note above)",
-		"Gravy, for serving"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "turkey (12 to 14 pounds total)  butterflied according to these instructions (reserve backbone and neck if making stock for gravy  see note above)",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "whole",
+				"value" : "1"
+			}
+		},
+		"Gravy  for serving"
 	] 
 },
 {
@@ -1422,16 +4962,64 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT0.0M",
+	"totalTime": "PT0M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "https://www.thedrinkblog.com/nordic-snapper/"
 	}, 
 	"recipeIngredient": [
-		"* 2 oz aquavit",
-		"* 2 oz tomato juice",
-		"* 1/4 oz lemon juice",
-		"* 1/2 tsp worcestershire sauce",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "aquavit",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "oz",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "tomato juice",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "oz",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "lemon juice",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "oz",
+				"value" : "1/4"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "worcestershire sauce",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tsp",
+				"value" : "1/2"
+			}
+		},
 		"* pinch fine sea salt",
 		"* pinch freshly ground black pepper",
 		"* pinch cayenne pepper",
@@ -1468,15 +5056,99 @@
 		"url" : "http://www.bigoven.com/recipe/Nordic-Potato-Soup-with-Ham/116159"
 	}, 
 	"recipeIngredient": [
-		"1 lb smoked ham hocks",
-		"2 1/2 c chicken broth",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "smoked ham hocks",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "lb",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "chicken broth",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "c",
+				"value" : "2 1/2"
+			}
+		},
 		"1 1/2 lb red potatoes; peeled and",
-		"1 tb dry dill weed",
-		"1 lg onion",
-		"1/4 ts ground white pepper",
-		"1/2 c whipping cream",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "dry dill weed",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tb",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "onion",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "lg",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "ground white pepper",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "ts",
+				"value" : "1/4"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "whipping cream",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "c",
+				"value" : "1/2"
+			}
+		},
 		"2 ts lemon peel; grated",
-		"1 tb cornstarch"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "cornstarch",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tb",
+				"value" : "1"
+			}
+		}
 	] 
 },
 {
@@ -1509,12 +5181,84 @@
 		"url" : "http://www.food.com/recipe/nordic-cardamom-ice-cream-504834"
 	}, 
 	"recipeIngredient": [
-		"8  egg yolks, at room temperature",
-		"1  cup sugar",
-		"2  cups milk",
-		"2  cups whipping cream",
-		"1  vanilla bean",
-		"1  tablespoon cardamom, freshly ground"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "egg yolks  at room temperature",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pcs",
+				"value" : "8"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "cup sugar",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pcs",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "cups milk",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pcs",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "cups whipping cream",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pcs",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "vanilla bean",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pcs",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "tablespoon cardamom  freshly ground",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pcs",
+				"value" : "1"
+			}
+		}
 	] 
 },
 {
@@ -1547,17 +5291,137 @@
 		"url" : "http://recipes-plus.com/recipe/nordic-pepper-pot-21806"
 	}, 
 	"recipeIngredient": [
-		"10 oz lean beef, cut into pieces",
-		"10 oz pork, cut into pieces",
-		"10 oz lean lamb, cut into pieces",
-		"2 leeks, sliced",
-		"9 oz carrots, peeled and sliced",
-		"15 black peppercorns, crushed",
-		"15 allspice peppercorns, crushed",
-		"3 cloves garlic, crushed",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "lean beef  cut into pieces",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "oz",
+				"value" : "10"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "pork  cut into pieces",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "oz",
+				"value" : "10"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "lean lamb  cut into pieces",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "oz",
+				"value" : "10"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "sliced",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "leeks",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "carrots  peeled and sliced",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "oz",
+				"value" : "9"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "peppercorns  crushed",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "black",
+				"value" : "15"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "peppercorns  crushed",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "allspice",
+				"value" : "15"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "garlic  crushed",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cloves",
+				"value" : "3"
+			}
+		},
 		"4-5 bay leaves",
-		"3 cups vegetable stock",
-		"1 2/3 lb potatoes, peeled and thinly sliced",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "vegetable stock",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cups",
+				"value" : "3"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "potatoes  peeled and thinly sliced",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "lb",
+				"value" : "1 2/3"
+			}
+		},
 		"parsley"
 	] 
 },
@@ -1585,25 +5449,133 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT30.0M",
+	"totalTime": "PT30M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://www.delscookingtwist.com/2014/08/06/nordic-salmon-burger/"
 	}, 
 	"recipeIngredient": [
 		"salmon fillets",
-		"1/2 red onion",
-		"8 crispy lettuce leaves",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "onion",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "red",
+				"value" : "1/2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "lettuce leaves",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "crispy",
+				"value" : "8"
+			}
+		},
 		"olive oil",
 		"pepper",
 		"salt",
-		"4 sesame buger buns",
-		"5.30 oz (150g) shrimps",
-		"1/2 red onion",
-		"1/2 apple",
-		"1 tbsp capers",
-		"3.5 oz (100g) mayonnaise",
-		"1/2 tsp fresh lemon juice",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "buger buns",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "sesame",
+				"value" : "4"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "(150g) shrimps",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "oz",
+				"value" : "5.30"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "onion",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "red",
+				"value" : "1/2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "apple",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pcs",
+				"value" : "1/2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "capers",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tbsp",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "(100g) mayonnaise",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "oz",
+				"value" : "3.5"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "fresh lemon juice",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tsp",
+				"value" : "1/2"
+			}
+		},
 		"pepper",
 		"salt"
 	] 
@@ -1620,7 +5592,7 @@
 		"@type": "NutritionInformation",
 		"calories" : "1330.0 calories"
 	},
-	"name": "Bondepige med Slør (Nordic Apple Trifle) recipes",
+	"name": "Bondepige med Sl?r (Nordic Apple Trifle) recipes",
 	"recipeYield": {
 		"@type": "QuantitativeValue",
 		"value" : "6.0"
@@ -1628,23 +5600,107 @@
 	"image": {
 		"@type": "ImageObject",
 		"contentUrl" : "https://www.edamam.com/web-img/1fe/1fe063432ea477169272f040544772ad", 
-		"caption" : "Bondepige med Slør (Nordic Apple Trifle) recipes"
+		"caption" : "Bondepige med Sl?r (Nordic Apple Trifle) recipes"
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT30.0M",
+	"totalTime": "PT30M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://spiceinthecity.co/2016/08/13/nutrition-dense-deliciousness-bondepige-med-slor-nordic-apple-trifle/"
 	}, 
 	"recipeIngredient": [
-		"6 Apples, peeled and cubed",
-		"1 tablespoon Sugar",
-		"3 slices Rye Bread (you can substitute with Oats)",
-		"12 Almonds, chopped",
-		"1 tablespoon Butter",
-		"150 ml Whipping Cream",
-		"1 tablespoon Icing Sugar"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "peeled and cubed",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "Apples",
+				"value" : "6"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "Sugar",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoon",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "Rye Bread (you can substitute with Oats)",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "slices",
+				"value" : "3"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "chopped",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "Almonds",
+				"value" : "12"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "Butter",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoon",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "Whipping Cream",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "ml",
+				"value" : "150"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "Icing Sugar",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoon",
+				"value" : "1"
+			}
+		}
 	] 
 },
 {
@@ -1671,29 +5727,209 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT45.0M",
+	"totalTime": "PT45M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://honest-food.net/2016/06/30/nordic-fish-chowder/"
 	}, 
 	"recipeIngredient": [
-		"1 to 2 pounds fish heads and bones, or smashed crab, crayfish, lobster or shrimp shells",
-		"1 chopped carrot",
-		"1 large onion or leek, chopped",
-		"2 bay leaves",
-		"2 teaspoons thyme",
-		"1 to 2 cups whey or white wine",
-		"2 quarts water",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "2 pounds fish heads and bones  or smashed crab  crayfish  lobster or shrimp shells",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "to",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "carrot",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "chopped",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "onion or leek  chopped",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "large",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "leaves",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "bay",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "thyme",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoons",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "2 cups whey or white wine",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "to",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "water",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "quarts",
+				"value" : "2"
+			}
+		},
 		"clam juice",
-		"3 tablespoons unsalted butter",
-		"1 large yellow or white onion, chopped roughly",
-		"1 to 2 pounds yellow, waxy potatoes, cut into 1-inch chunks",
-		"1 to 2 pounds fish or mixed seafood",
-		"1/4 cup sea beans (optional)",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "unsalted butter",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoons",
+				"value" : "3"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "yellow or white onion  chopped roughly",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "large",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "2 pounds yellow  waxy potatoes  cut into 1-inch chunks",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "to",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "2 pounds fish or mixed seafood",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "to",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "sea beans (optional)",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1/4"
+			}
+		},
 		"black pepper",
-		"2 egg yolks",
-		"1/2 cup heavy cream",
-		"2 to 3 tablespoons chopped dill"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "yolks",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "egg",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "heavy cream",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1/2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "3 tablespoons chopped dill",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "to",
+				"value" : "2"
+			}
+		}
 	] 
 },
 {
@@ -1720,23 +5956,155 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT40.0M",
+	"totalTime": "PT40M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://www.chatelaine.com/recipe/dinner/nordic-meatballs-with-beet-and-kale-salad/"
 	}, 
 	"recipeIngredient": [
-		"3 slices light rye bread, cut into 1/4-in. cubes",
-		"1/4 cup milk",
-		"500 g lean ground beef",
-		"1/4 cup plus 2 tbsp finely chopped parsley, divided",
-		"1 egg yolk",
-		"1/2 tsp salt",
-		"3 tbsp canola oil, divided",
-		"2 tbsp apple cider vinegar",
-		"1/2 tsp Dijon",
-		"8 cups finely sliced kale",
-		"1 small beet, peeled and grated"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "light rye bread  cut into 1/4-in. cubes",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "slices",
+				"value" : "3"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "milk",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1/4"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "lean ground beef",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "g",
+				"value" : "500"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "plus 2 tbsp finely chopped parsley  divided",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1/4"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "yolk",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "egg",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "salt",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tsp",
+				"value" : "1/2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "canola oil  divided",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tbsp",
+				"value" : "3"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "apple cider vinegar",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tbsp",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "Dijon",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tsp",
+				"value" : "1/2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "finely sliced kale",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cups",
+				"value" : "8"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "beet  peeled and grated",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "small",
+				"value" : "1"
+			}
+		}
 	] 
 },
 {
@@ -1763,17 +6131,41 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT10.0M",
+	"totalTime": "PT10M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://www.food.com/recipe/shrimp-mousse-387081"
 	}, 
 	"recipeIngredient": [
-		"1  lb nordic shrimp",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "lb nordic shrimp",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pcs",
+				"value" : "1"
+			}
+		},
 		"1?3 cup homemade mayonnaise or 1?3 cup storebough mayonnaise",
-		"2  green onions, sliced",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "green onions  sliced",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pcs",
+				"value" : "2"
+			}
+		},
 		"1?4 teaspoon garlic salt (the recipe asks for 1/4 teaspoon of garlic flowers (fleur d'ail in French) or 1?4 teaspoon use garlic salt",
-		"fresh parsley, to taste",
+		"fresh parsley  to taste",
 		"salt and pepper"
 	] 
 },
@@ -1801,20 +6193,20 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT15.0M",
+	"totalTime": "PT15M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "https://www.ricardocuisine.com/en/recipes/6198-seafood-and-fresh-herb-pizza"
 	}, 
 	"recipeIngredient": [
 		"unchecked1 Pizza Dough recipe",
-		"unchecked1 cup (250 ml) crème fraîche",
-		"unchecked1 small onion, thinly sliced",
-		"unchecked2 green onions, chopped",
+		"unchecked1 cup (250 ml) cr?me fra?che",
+		"unchecked1 small onion  thinly sliced",
+		"unchecked2 green onions  chopped",
 		"unchecked3 tbsp (9 g) chopped parsley",
 		"unchecked2 tbsp chopped basil",
 		"unchecked1 tsp chopped thyme",
-		"unchecked1 1/2 cups (200 g) cooked Nordic shrimp, drained, or",
+		"unchecked1 1/2 cups (200 g) cooked Nordic shrimp  drained  or",
 		"unchecked1 1/2 cups (200 g) lobster meat",
 		"oil",
 		"pepper",
@@ -1833,7 +6225,7 @@
 		"@type": "NutritionInformation",
 		"calories" : "2655.0 calories"
 	},
-	"name": "Double Baked Potatoes with Broccoli, Corn and Shrimp recipes",
+	"name": "Double Baked Potatoes with Broccoli  Corn and Shrimp recipes",
 	"recipeYield": {
 		"@type": "QuantitativeValue",
 		"value" : "4.0"
@@ -1841,25 +6233,25 @@
 	"image": {
 		"@type": "ImageObject",
 		"contentUrl" : "https://www.edamam.com/web-img/28c/28cbfefb377f6f37cccbe399dce9d98b", 
-		"caption" : "Double Baked Potatoes with Broccoli, Corn and Shrimp recipes"
+		"caption" : "Double Baked Potatoes with Broccoli  Corn and Shrimp recipes"
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT15.0M",
+	"totalTime": "PT15M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "https://www.ricardocuisine.com/en/recipes/6838-double-baked-potatoes-with-broccoli--corn-and-shrimp"
 	}, 
 	"recipeIngredient": [
-		"unchecked2 tbsp (30 ml) butter, melted",
-		"unchecked1 clove garlic, finely chopped",
-		"unchecked4 large russet potatoes, scrubbed clean",
+		"unchecked2 tbsp (30 ml) butter  melted",
+		"unchecked1 clove garlic  finely chopped",
+		"unchecked4 large russet potatoes  scrubbed clean",
 		"unchecked3/4 cup (190 g) cottage cheese",
 		"unchecked3/4 cup (75 g) grated cheddar cheese",
 		"unchecked2 cups (140 g) small broccoli florets",
-		"unchecked1/2 lb (225 g) frozen Nordic shrimp, thawed and drained",
-		"unchecked1/2 cup (70 g) frozen corn kernels, thawed",
-		"unchecked2 tsp (10 ml) jalapeno pepper, seeded and chopped",
+		"unchecked1/2 lb (225 g) frozen Nordic shrimp  thawed and drained",
+		"unchecked1/2 cup (70 g) frozen corn kernels  thawed",
+		"unchecked2 tsp (10 ml) jalapeno pepper  seeded and chopped",
 		"unchecked2 tbsp (30 ml) olive oil",
 		"unchecked1/2 cup (125 ml) sour cream",
 		"pepper"
@@ -1889,20 +6281,92 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT23.0M",
+	"totalTime": "PT23M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://www.food.com/recipe/nordic-potato-soup-with-ham-74533"
 	}, 
 	"recipeIngredient": [
-		"3  medium thin-skinned potatoes, peeled and diced (about 1 1/2 lbs. total)",
-		"1  large onion, finely chopped",
-		"1  smoked ham hock (about 1 lb.)",
-		"1  tablespoon dry dill weed",
-		"2  teaspoons grated lemons, rind of",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "medium thin-skinned potatoes  peeled and diced (about 1 1/2 lbs. total)",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pcs",
+				"value" : "3"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "large onion  finely chopped",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pcs",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "smoked ham hock (about 1 lb.)",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pcs",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "tablespoon dry dill weed",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pcs",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "teaspoons grated lemons  rind of",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pcs",
+				"value" : "2"
+			}
+		},
 		"1?4 teaspoon white pepper",
 		"2 1?2 cups chicken broth",
-		"1  tablespoon cornstarch",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "tablespoon cornstarch",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pcs",
+				"value" : "1"
+			}
+		},
 		"1?2 cup whipping cream",
 		"dill sprigs (but good) (optional)"
 	] 
@@ -1938,19 +6402,115 @@
 	}, 
 	"recipeIngredient": [
 		"3-4 tbsp butter",
-		"2 small onion – finely sliced",
-		"1/2 leek – finely sliced",
-		"3 tomatoes – chopped into very small pieces",
-		"2 small stalks celery, finely sliced",
-		"1.5 liters chicken or vegetable stock/ 6 cups",
-		"200 ml cream/ 4/5 cups (you can add less if you wish, or none)",
-		"100 ml/ 1/2 cup sherry or port or Noilly Prat",
-		"3 tbsp tomato concentrate",
-		"1/2 tsp saffron powder (optional)",
+		"2 small onion ? finely sliced",
+		"1/2 leek ? finely sliced",
+		"3 tomatoes ? chopped into very small pieces",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "stalks celery  finely sliced",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "small",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "chicken or vegetable stock/ 6 cups",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "liters",
+				"value" : "1.5"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "cream/ 4/5 cups (you can add less if you wish  or none)",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "ml",
+				"value" : "200"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "ml/ 1/2 cup sherry or port or Noilly Prat",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pcs",
+				"value" : "100"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "tomato concentrate",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tbsp",
+				"value" : "3"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "saffron powder (optional)",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tsp",
+				"value" : "1/2"
+			}
+		},
 		"3-4 tbsp wine vinegar",
-		"160 ml/ 3/4 cup dry white wine",
-		"400 g/ 4 cups small shrimps (without shells)",
-		"500 g/ 5 cups mixed nordic fish – salmon, haddock, plaice, halibut – cubed",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "ml/ 3/4 cup dry white wine",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pcs",
+				"value" : "160"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "g/ 4 cups small shrimps (without shells)",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pcs",
+				"value" : "400"
+			}
+		},
+		"500 g/ 5 cups mixed nordic fish ? salmon  haddock  plaice  halibut ? cubed",
 		"salt",
 		"pepper"
 	] 
@@ -1979,16 +6539,64 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT1.0M",
+	"totalTime": "PT1M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "https://www.allrecipes.com/recipe/21596/balalaika/"
 	}, 
 	"recipeIngredient": [
-		"1 fluid ounce vodka",
-		"1/2 fluid ounce cointreau",
-		"1 fluid ounce lemon juice",
-		"1 slice lemon, for garnish"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "ounce vodka",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "fluid",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "ounce cointreau",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "fluid",
+				"value" : "1/2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "ounce lemon juice",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "fluid",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "lemon  for garnish",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "slice",
+				"value" : "1"
+			}
+		}
 	] 
 },
 {
@@ -2015,26 +6623,146 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT40.0M",
+	"totalTime": "PT40M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://www.food.com/recipe/nordic-salmon-chowder-with-saffron-504596"
 	}, 
 	"recipeIngredient": [
-		"2  garlic cloves",
-		"1  leek",
-		"1  tablespoon canola oil",
-		"1  pinch salt",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "garlic cloves",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pcs",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "leek",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pcs",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "tablespoon canola oil",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pcs",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "pinch salt",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pcs",
+				"value" : "1"
+			}
+		},
 		"1 1?2 tablespoons Old Bay Seasoning",
-		"2  cups water",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "cups water",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pcs",
+				"value" : "2"
+			}
+		},
 		"1 1?4 cups low-fat whipping cream",
 		"1?2 cup sour cream",
-		"1  cup white wine",
-		"1?2 teaspoon saffron thread, crumbled (or 1 packet powdered saffron)",
-		"1  teaspoon dried thyme",
-		"1  teaspoon dried basil",
-		"1  lb mixed seafood (scallops, shrimp, langoustines, calamari)",
-		"1  lb salmon fillet, chopped into a 2-inch dice"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "cup white wine",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pcs",
+				"value" : "1"
+			}
+		},
+		"1?2 teaspoon saffron thread  crumbled (or 1 packet powdered saffron)",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "teaspoon dried thyme",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pcs",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "teaspoon dried basil",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pcs",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "lb mixed seafood (scallops  shrimp  langoustines  calamari)",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pcs",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "lb salmon fillet  chopped into a 2-inch dice",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pcs",
+				"value" : "1"
+			}
+		}
 	] 
 },
 {
@@ -2061,20 +6789,92 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT30.0M",
+	"totalTime": "PT30M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://www.food.com/recipe/nordic-moon-ranchs-most-excellent-ground-lamb-101018"
 	}, 
 	"recipeIngredient": [
 		"1 1?2 lbs ground lamb",
-		"1  large onion, finely chopped",
-		"2  tablespoons olive oil",
-		"2  tablespoons your favorite curry powder (I use Rogan Josh)",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "large onion  finely chopped",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pcs",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "tablespoons olive oil",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pcs",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "tablespoons your favorite curry powder (I use Rogan Josh)",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pcs",
+				"value" : "2"
+			}
+		},
 		"3?4 cup red wine or 3?4 cup beef broth",
-		"4  teaspoons tomato paste",
-		"2  cloves garlic",
-		"1  teaspoon salt",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "teaspoons tomato paste",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pcs",
+				"value" : "4"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "cloves garlic",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pcs",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "teaspoon salt",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pcs",
+				"value" : "1"
+			}
+		},
 		"1?8-1?4 teaspoon red pepper flakes (for you pepper bellies out there) (optional)",
 		"1?2 teaspoon ground cumin"
 	] 
@@ -2091,7 +6891,7 @@
 		"@type": "NutritionInformation",
 		"calories" : "1070.0 calories"
 	},
-	"name": "Salmon Cakes with Capers, Apple & Lemon",
+	"name": "Salmon Cakes with Capers  Apple & Lemon",
 	"recipeYield": {
 		"@type": "QuantitativeValue",
 		"value" : "6.0"
@@ -2099,24 +6899,84 @@
 	"image": {
 		"@type": "ImageObject",
 		"contentUrl" : "https://www.edamam.com/web-img/775/775056a74985f0954939f62125cf2eb9.jpg", 
-		"caption" : "Salmon Cakes with Capers, Apple & Lemon"
+		"caption" : "Salmon Cakes with Capers  Apple & Lemon"
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT0.0M",
+	"totalTime": "PT0M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://www.foodista.com/recipe/2ZMN7FFH/salmon-cakes-with-capers-apple-lemon"
 	}, 
 	"recipeIngredient": [
-		"14 oz. fresh salmon",
-		"1 egg",
-		"1 tbsp. Psyllium Husk Fiber (available at health food stores)",
-		"½ onion, finely chopped",
-		"1 tsp. salt",
-		"1 tbsp. capers",
-		"¼ apple",
-		"Zest of ½ lemon Hint: put the rest of the lemon zest in the freezer, will last months",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "fresh salmon",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "oz.",
+				"value" : "14"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "egg",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pcs",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "Psyllium Husk Fiber (available at health food stores)",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tbsp.",
+				"value" : "1"
+			}
+		},
+		"? onion  finely chopped",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "salt",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tsp.",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "capers",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tbsp.",
+				"value" : "1"
+			}
+		},
+		"? apple",
+		"Zest of ? lemon Hint: put the rest of the lemon zest in the freezer  will last months",
 		"Freshly ground pepper",
 		"butter"
 	] 
@@ -2145,20 +7005,80 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT0.0M",
+	"totalTime": "PT0M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://www.foodista.com/recipe/T3H5MGGL/vegetarian-medallions-with-black-beans"
 	}, 
 	"recipeIngredient": [
-		"5.5 oz. cooked black beans",
-		"2 eggs",
-		"1 heaping tbsp. Psyllium Husk Fiber (available at health food stores)",
-		"½ green bell pepper, chopped",
-		"1 tsp. cumin",
-		"1 tsp. salt",
-		"Wild Garlic, chopped fine, to taste",
-		"Parsley, to taste",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "cooked black beans",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "oz.",
+				"value" : "5.5"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "eggs",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pcs",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "tbsp. Psyllium Husk Fiber (available at health food stores)",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "heaping",
+				"value" : "1"
+			}
+		},
+		"? green bell pepper  chopped",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "cumin",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tsp.",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "salt",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tsp.",
+				"value" : "1"
+			}
+		},
+		"Wild Garlic  chopped fine  to taste",
+		"Parsley  to taste",
 		"Olive oil"
 	] 
 },
@@ -2186,21 +7106,105 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT0.0M",
+	"totalTime": "PT0M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://www.foodista.com/recipe/HHL8XS8H/deer-meatballs-with-thyme-and-bacon"
 	}, 
 	"recipeIngredient": [
-		"1 lb. 2 oz. ground Venison from deer.",
-		"3.5 oz. smoked organic bacon, ½ inch pieces",
-		"2 heaping tablespoons fresh chopped thyme",
-		"1 onion, grated",
-		"1 egg",
-		"2 tbsp. breadcrumbs",
-		"1 tsp. salt",
-		"¼ tsp. pepper",
-		"1 pinch of freshly grated nutmeg",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "2 oz. ground Venison from deer.",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "lb.",
+				"value" : "1"
+			}
+		},
+		"3.5 oz. smoked organic bacon  ? inch pieces",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "tablespoons fresh chopped thyme",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "heaping",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "grated",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "onion",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "egg",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pcs",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "breadcrumbs",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tbsp.",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "salt",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tsp.",
+				"value" : "1"
+			}
+		},
+		"? tsp. pepper",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "of freshly grated nutmeg",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pinch",
+				"value" : "1"
+			}
+		},
 		"Butter"
 	] 
 },
@@ -2228,31 +7232,199 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT0.0M",
+	"totalTime": "PT0M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://www.foodista.com/recipe/F2QMQSWS/lasagna-with-ricotta-cheese-on-cabbage-shells"
 	}, 
 	"recipeIngredient": [
-		"14 oz. minced beef",
-		"1 onion",
-		"1 stalk celery",
-		"2 garlic cloves",
-		"¾ cup diced tomatoes",
-		"1 small dash tomato concentrate",
-		"¾ cup water",
-		"1 tbsp . oregano",
-		"1 tbsp . thyme",
-		"1 tbsp . balsamic vinegar",
-		"1 tbsp . apple cider vinegar",
-		"1 tsp. sugar",
-		"1 tsp. salt",
-		"½ red chilli, finely chopped",
-		"16 oz ricotta",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "minced beef",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "oz.",
+				"value" : "14"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "onion",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pcs",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "celery",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "stalk",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "cloves",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "garlic",
+				"value" : "2"
+			}
+		},
+		"? cup diced tomatoes",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "dash tomato concentrate",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "small",
+				"value" : "1"
+			}
+		},
+		"? cup water",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : ". oregano",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tbsp",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : ". thyme",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tbsp",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : ". balsamic vinegar",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tbsp",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : ". apple cider vinegar",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tbsp",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "sugar",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tsp.",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "salt",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tsp.",
+				"value" : "1"
+			}
+		},
+		"? red chilli  finely chopped",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "ricotta",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "oz",
+				"value" : "16"
+			}
+		},
 		"Nutmeg",
 		"Black Pepper to taste",
-		"5 oz grated mozzarella",
-		"1 cabbage"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "grated mozzarella",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "oz",
+				"value" : "5"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "cabbage",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pcs",
+				"value" : "1"
+			}
+		}
 	] 
 }
 ]

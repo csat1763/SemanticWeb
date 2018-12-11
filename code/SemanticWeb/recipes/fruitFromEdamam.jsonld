@@ -23,15 +23,51 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT0.0M",
+	"totalTime": "PT0M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://leitesculinaria.com/87051/recipes-tropical-fruit-popsicles.html"
 	}, 
 	"recipeIngredient": [
-		"2 cups cold water",
-		"2/3 cup granulated sugar",
-		"4 pounds seedless watermelon, rind removed and fruit cut into chunks, or 3 pounds ripe papaya, peeled and seeded, or 5 ripe mangoes, peeled and fruit cut away from the pit",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "cold water",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cups",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "granulated sugar",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "2/3"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "seedless watermelon  rind removed and fruit cut into chunks  or 3 pounds ripe papaya  peeled and seeded  or 5 ripe mangoes  peeled and fruit cut away from the pit",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pounds",
+				"value" : "4"
+			}
+		},
 		"Juice of 2 limes"
 	] 
 },
@@ -47,7 +83,7 @@
 		"@type": "NutritionInformation",
 		"calories" : "217.0 calories"
 	},
-	"name": "Fruit Juice "Gummies"",
+	"name": "Fruit Juice Gummies",
 	"recipeYield": {
 		"@type": "QuantitativeValue",
 		"value" : "2.0"
@@ -55,7 +91,7 @@
 	"image": {
 		"@type": "ImageObject",
 		"contentUrl" : "https://www.edamam.com/web-img/01a/01ad4401981efb0867c48d1a3c6ce6f0.jpg", 
-		"caption" : "Fruit Juice "Gummies""
+		"caption" : "Fruit Juice Gummies"
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
@@ -65,8 +101,32 @@
 		"url" : "http://www.epicurious.com/recipes/food/views/Fruit-Juice-Gummies-240066"
 	}, 
 	"recipeIngredient": [
-		"1 cup fruit juice (pure juice-not a fruit-flavored drink) or nectar, such as goya, mott's, or kern's, chilled or at room temperature",
-		"1 1/4-ounce package gelatin"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "fruit juice (pure juice-not a fruit-flavored drink) or nectar  such as goya  mott's  or kern's  chilled or at room temperature",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "package gelatin",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "ounce",
+				"value" : "1 1/4"
+			}
+		}
 	] 
 },
 {
@@ -93,16 +153,64 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT20.0M",
+	"totalTime": "PT20M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://www.marthastewart.com/326899/fruit-jellies"
 	}, 
 	"recipeIngredient": [
-		"1 1/3 cups fruit juice (any flavor) or water",
-		"4 packets powdered gelatin (1 ounce total)",
-		"2 1/2 cups sugar",
-		"2 cups fruit preserves or jam"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "fruit juice (any flavor) or water",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cups",
+				"value" : "1 1/3"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "powdered gelatin (1 ounce total)",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "packets",
+				"value" : "4"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "sugar",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cups",
+				"value" : "2 1/2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "fruit preserves or jam",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cups",
+				"value" : "2"
+			}
+		}
 	] 
 },
 {
@@ -129,18 +237,54 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT4.0M",
+	"totalTime": "PT4M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://nymag.com/restaurants/articles/recipes/passionfruitcooler.htm"
 	}, 
 	"recipeIngredient": [
 		"71?2 ounces 100 percent blue-agave tequila (such as sauza hornitos)",
-		"6 ounces passion-fruit purée",
-		"18 ounces ginger beer",
+		"6 ounces passion-fruit pur?e",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "ginger beer",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "ounces",
+				"value" : "18"
+			}
+		},
 		"4 and 1?2 ounces cointreau",
-		"3 ounces lime juice",
-		"1 lime, thinly sliced"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "lime juice",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "ounces",
+				"value" : "3"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "thinly sliced",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "lime",
+				"value" : "1"
+			}
+		}
 	] 
 },
 {
@@ -167,15 +311,51 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT7.0M",
+	"totalTime": "PT7M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://www.bonappetit.com/recipe/passion-fruit-mimosas"
 	}, 
 	"recipeIngredient": [
-		"6 tablespoons fresh passion fruit juice or passion fruit blend nectar",
-		"1 cup chilled brut champagne (about 2/3 or 375-ml bottle)",
-		"2 tablespoons grand marnier",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "fresh passion fruit juice or passion fruit blend nectar",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoons",
+				"value" : "6"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "chilled brut champagne (about 2/3 or 375-ml bottle)",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "grand marnier",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoons",
+				"value" : "2"
+			}
+		},
 		"Orange peel twists (optional)"
 	] 
 },
@@ -209,11 +389,59 @@
 		"url" : "https://food52.com/recipes/2163-fruit-lollipops"
 	}, 
 	"recipeIngredient": [
-		"1 cup sugar",
-		"1 tablespoon light corn syrup",
-		"1/3 cup water",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "sugar",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "light corn syrup",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoon",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "water",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1/3"
+			}
+		},
 		"1/4-1/2 teaspoon natural fruit extract or oil",
-		"1 drop gel based food coloring"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "gel based food coloring",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "drop",
+				"value" : "1"
+			}
+		}
 	] 
 },
 {
@@ -240,15 +468,51 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT10.0M",
+	"totalTime": "PT10M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://www.loveandoliveoil.com/2014/11/passion-fruit-meyer-lemonade.html"
 	}, 
 	"recipeIngredient": [
-		"1/2 cup fresh passion fruit juice (from 5-6 passion fruit)",
-		"1/2 cup Meyer lemon juice (form 2-3 large lemons)",
-		"1 cup water",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "fresh passion fruit juice (from 5-6 passion fruit)",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1/2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "Meyer lemon juice (form 2-3 large lemons)",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1/2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "water",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1"
+			}
+		},
 		"4-6 tablespoons simple sugar syrup*"
 	] 
 },
@@ -276,17 +540,65 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT0.0M",
+	"totalTime": "PT0M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://www.jamieoliver.com/recipes/rum-recipes/dry-passion-fruit-daiquiri/"
 	}, 
 	"recipeIngredient": [
 		"caster sugar",
-		"50 ml Bacardi Superior rum",
-		"1 lime",
-		"10 ml Campari",
-		"1 passion fruit , plus extra to serve"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "Bacardi Superior rum",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "ml",
+				"value" : "50"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "lime",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pcs",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "Campari",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "ml",
+				"value" : "10"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "fruit   plus extra to serve",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "passion",
+				"value" : "1"
+			}
+		}
 	] 
 },
 {
@@ -313,7 +625,7 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT20.0M",
+	"totalTime": "PT20M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://www.pbs.org/food/fresh-tastes/passion-fruit-syrup/"
@@ -321,7 +633,19 @@
 	"recipeIngredient": [
 		"7.55 ounces sugar (~1 cup)",
 		"7.55 ounces water (~1 cup)",
-		"1 1/2 cups passion fruit pulp (about 6 passion fruits)"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "passion fruit pulp (about 6 passion fruits)",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cups",
+				"value" : "1 1/2"
+			}
+		}
 	] 
 },
 {
@@ -348,15 +672,27 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT0.0M",
+	"totalTime": "PT0M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://www.kitchendaily.com/recipe/fruit-roll-ups"
 	}, 
 	"recipeIngredient": [
 		"4 cup berries (chopped if using strawberries) or chopped stone fruit*",
-		"½ cup sugar",
-		"1 Tbsp fresh lemon juice"
+		"? cup sugar",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "fresh lemon juice",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "Tbsp",
+				"value" : "1"
+			}
+		}
 	] 
 },
 {
@@ -383,22 +719,142 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT0.0M",
+	"totalTime": "PT0M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://www.bbcgoodfood.com/recipes/9882/"
 	}, 
 	"recipeIngredient": [
-		"4 passion fruit",
-		"142.0ml carton double cream",
-		"90.0g caster sugar",
-		"180.0g caster sugar",
-		"1 vanilla pod , split",
-		"6 egg yolks",
-		"250.0g plain flour",
-		"3 lemons , zested and juiced",
-		"125.0g butter , softened",
-		"1 large egg",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "fruit",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "passion",
+				"value" : "4"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "carton double cream",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "ml",
+				"value" : "142.0"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "caster sugar",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "g",
+				"value" : "90.0"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "caster sugar",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "g",
+				"value" : "180.0"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "pod   split",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "vanilla",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "yolks",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "egg",
+				"value" : "6"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "plain flour",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "g",
+				"value" : "250.0"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "zested and juiced",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "lemons",
+				"value" : "3"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "butter   softened",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "g",
+				"value" : "125.0"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "egg",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "large",
+				"value" : "1"
+			}
+		},
 		"PASSION FRUIT CURD"
 	] 
 },
@@ -426,15 +882,51 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT0.0M",
+	"totalTime": "PT0M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://www.eatingwell.com/recipes/tropical_fruit_ice.html"
 	}, 
 	"recipeIngredient": [
-		"1 11-1/2-ounce can frozen passion fruit concentrate, (see Ingredient note)",
-		"2 cups water",
-		"2 tablespoons lime juice"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "11-1/2-ounce can frozen passion fruit concentrate  (see Ingredient note)",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pcs",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "water",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cups",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "lime juice",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoons",
+				"value" : "2"
+			}
+		}
 	] 
 },
 {
@@ -467,15 +959,123 @@
 		"url" : "http://www.thekitchn.com/how-to-make-fruit-clafoutis-233958"
 	}, 
 	"recipeIngredient": [
-		"1 tablespoon unsalted butter",
-		"12 ounces fresh fruit, such as cherries, berries, or stone fruit",
-		"1 cup whole milk",
-		"1/2 cup granulated sugar",
-		"3 large eggs",
-		"1 teaspoon vanilla extract",
-		"1/2 cup all-purpose flour",
-		"1 teaspoon finely grated fresh lemon zest",
-		"1 /4 teaspoon fine salt",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "unsalted butter",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoon",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "fresh fruit  such as cherries  berries  or stone fruit",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "ounces",
+				"value" : "12"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "whole milk",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "granulated sugar",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1/2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "eggs",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "large",
+				"value" : "3"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "vanilla extract",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoon",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "all-purpose flour",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1/2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "finely grated fresh lemon zest",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoon",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "fine salt",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoon",
+				"value" : "1 /4"
+			}
+		},
 		"powdered sugar"
 	] 
 },
@@ -503,18 +1103,90 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT1.0M",
+	"totalTime": "PT1M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://www.cookingchanneltv.com/recipes/emeril-lagasse/passion-fruit-batida.html"
 	}, 
 	"recipeIngredient": [
-		"1 cup passion fruit puree, recipe follows",
-		"1 cup cachaca",
-		"4 cups chipped ice",
-		"8 passion fruits",
-		"4 tablespoons sugar",
-		"1/2 cup water"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "passion fruit puree  recipe follows",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "cachaca",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "chipped ice",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cups",
+				"value" : "4"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "fruits",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "passion",
+				"value" : "8"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "sugar",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoons",
+				"value" : "4"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "water",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1/2"
+			}
+		}
 	] 
 },
 {
@@ -541,17 +1213,77 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT35.0M",
+	"totalTime": "PT35M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://chezus.com/2014/05/25/passion-fruit-ice-cream/"
 	}, 
 	"recipeIngredient": [
-		"2 cups heavy cream",
-		"1 cup whole milk",
-		"3/4 cup sugar",
-		"5 egg yolks",
-		"1 cup passion fruit pulp"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "heavy cream",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cups",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "whole milk",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "sugar",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "3/4"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "yolks",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "egg",
+				"value" : "5"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "passion fruit pulp",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1"
+			}
+		}
 	] 
 },
 {
@@ -578,16 +1310,52 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT0.0M",
+	"totalTime": "PT0M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://www.foodandwine.com/recipes/passion-fruit-batida"
 	}, 
 	"recipeIngredient": [
-		"1 1/2 cups passion fruit juice",
-		"1/4 cup sweetened condensed milk",
-		"3 ounces cachaça or white rum (1/4 cup plus 2 tablespoons)",
-		"2 cups crushed ice"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "passion fruit juice",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cups",
+				"value" : "1 1/2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "sweetened condensed milk",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1/4"
+			}
+		},
+		"3 ounces cacha?a or white rum (1/4 cup plus 2 tablespoons)",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "crushed ice",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cups",
+				"value" : "2"
+			}
+		}
 	] 
 },
 {
@@ -620,10 +1388,46 @@
 		"url" : "http://www.cookstr.com/Dessert/Summer-Fruit-Parfait"
 	}, 
 	"recipeIngredient": [
-		"3 cups (750 ml) prepared fruit such as strawberries, raspberries, blueberries and even sweet cherries",
-		"1 tbsp (15 ml) balsamic vinegar",
-		"1 tbsp (15 ml) brown or maple sugar",
-		"1-1/2 cups (375 ml) yogurt, plain or fruit-flavored"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "(750 ml) prepared fruit such as strawberries  raspberries  blueberries and even sweet cherries",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cups",
+				"value" : "3"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "(15 ml) balsamic vinegar",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tbsp",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "(15 ml) brown or maple sugar",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tbsp",
+				"value" : "1"
+			}
+		},
+		"1-1/2 cups (375 ml) yogurt  plain or fruit-flavored"
 	] 
 },
 {
@@ -638,7 +1442,7 @@
 		"@type": "NutritionInformation",
 		"calories" : "344.0 calories"
 	},
-	"name": "“Homemade Fruit Leather” recipes",
+	"name": "?Homemade Fruit Leather? recipes",
 	"recipeYield": {
 		"@type": "QuantitativeValue",
 		"value" : "15.0"
@@ -646,7 +1450,7 @@
 	"image": {
 		"@type": "ImageObject",
 		"contentUrl" : "https://www.edamam.com/web-img/f04/f04eae4c305a1b3d5492e89eacde4d76", 
-		"caption" : "“Homemade Fruit Leather” recipes"
+		"caption" : "?Homemade Fruit Leather? recipes"
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
@@ -656,9 +1460,33 @@
 		"url" : "http://georgiapellegrini.com/2010/07/23/recipes/homemade-fruit-leather/"
 	}, 
 	"recipeIngredient": [
-		"2 cups fruit pulp",
-		"1 tablespoon lemon Juice",
-		"¼ cup sugar (optional, depending on the sweetness of your fruit)"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "fruit pulp",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cups",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "lemon Juice",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoon",
+				"value" : "1"
+			}
+		},
+		"? cup sugar (optional  depending on the sweetness of your fruit)"
 	] 
 },
 {
@@ -685,19 +1513,103 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT0.0M",
+	"totalTime": "PT0M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://userealbutter.com/2010/06/09/passion-fruit-ice-cream-recipe/"
 	}, 
 	"recipeIngredient": [
-		"1/2 cup Frozen Passion Fruit Pulp",
-		"1 cup Heavy Cream",
-		"6 tbs Whole Milk",
-		"7 tbs Sugar",
-		"7 x Salt",
-		"3 x Egg Yolks",
-		"3 x Passion Fruit Seeds"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "Frozen Passion Fruit Pulp",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1/2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "Heavy Cream",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "Whole Milk",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tbs",
+				"value" : "6"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "Sugar",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tbs",
+				"value" : "7"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "Salt",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "x",
+				"value" : "7"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "Egg Yolks",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "x",
+				"value" : "3"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "Passion Fruit Seeds",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "x",
+				"value" : "3"
+			}
+		}
 	] 
 },
 {
@@ -724,17 +1636,77 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT0.0M",
+	"totalTime": "PT0M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://www.myrecipes.com/recipe/tropical-fruit-slush-50400000094244/"
 	}, 
 	"recipeIngredient": [
-		"1 pint passion-fruit sorbet",
-		"1 cup guava juice",
-		"1 cup papaya juice",
-		"1 cup passionfruit rum",
-		"3 cups crushed ice",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "passion-fruit sorbet",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pint",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "guava juice",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "papaya juice",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "passionfruit rum",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "crushed ice",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cups",
+				"value" : "3"
+			}
+		},
 		"Garnish: sliced star fruit"
 	] 
 },
@@ -762,14 +1734,38 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT0.0M",
+	"totalTime": "PT0M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://www.williams-sonoma.com/recipe/passion-fruit-bellinis.html"
 	}, 
 	"recipeIngredient": [
-		"1 bottle (12.5 fl. oz./369 ml) passion fruit bellini mix",
-		"1 bottle (750 ml) sparkling wine"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "(12.5 fl. oz./369 ml) passion fruit bellini mix",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "bottle",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "(750 ml) sparkling wine",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "bottle",
+				"value" : "1"
+			}
+		}
 	] 
 },
 {
@@ -796,15 +1792,51 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT0.0M",
+	"totalTime": "PT0M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://www.goodhousekeeping.com/food-recipes/a6411/iced-fruit-punch-3644/"
 	}, 
 	"recipeIngredient": [
-		"6 c. assorted fruit juices",
-		"3 c. Ginger ale",
-		"3 c. Seltzer water"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "assorted fruit juices",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "c.",
+				"value" : "6"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "Ginger ale",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "c.",
+				"value" : "3"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "Seltzer water",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "c.",
+				"value" : "3"
+			}
+		}
 	] 
 },
 {
@@ -837,9 +1869,45 @@
 		"url" : "http://www.marthastewart.com/342472/dried-fruit-thumbprints"
 	}, 
 	"recipeIngredient": [
-		"1/2 batch Chocolate Dough + 1/2 batch Vanilla Dough, marbleized",
-		"1 cup chopped dried fruit",
-		"1 tablespoon fruit jam"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "Chocolate Dough + 1/2 batch Vanilla Dough  marbleized",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "batch",
+				"value" : "1/2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "chopped dried fruit",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "fruit jam",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoon",
+				"value" : "1"
+			}
+		}
 	] 
 },
 {
@@ -866,15 +1934,51 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT0.0M",
+	"totalTime": "PT0M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://www.thedailymeal.com/recipes/homemade-fruit-leather-recipe"
 	}, 
 	"recipeIngredient": [
-		"12  Ounces   very ripe fresh fruit, peeled and chopped",
-		"2  Tablespoons   honey or agave nectar",
-		"1  Teaspoon   freshly squeezed lemon juice"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "Ounces   very ripe fresh fruit  peeled and chopped",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pcs",
+				"value" : "12"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "Tablespoons   honey or agave nectar",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pcs",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "Teaspoon   freshly squeezed lemon juice",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pcs",
+				"value" : "1"
+			}
+		}
 	] 
 },
 {
@@ -901,17 +2005,65 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT0.0M",
+	"totalTime": "PT0M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://www.delish.com/cooking/recipe-ideas/recipes/a30379/fruit-pops-recipe/"
 	}, 
 	"recipeIngredient": [
-		"3 c. ripe fresh fruit chunks (watermelon, cantaloupe, honeydew melon, or pineapple)",
-		"½ c. superfine sugar",
-		"3 tbsp. light corn syrup",
-		"1 tbsp. lemon juice",
-		"2 c. vanilla yogurt"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "ripe fresh fruit chunks (watermelon  cantaloupe  honeydew melon  or pineapple)",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "c.",
+				"value" : "3"
+			}
+		},
+		"? c. superfine sugar",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "light corn syrup",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tbsp.",
+				"value" : "3"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "lemon juice",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tbsp.",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "vanilla yogurt",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "c.",
+				"value" : "2"
+			}
+		}
 	] 
 },
 {
@@ -938,20 +2090,104 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT0.0M",
+	"totalTime": "PT0M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://orangette.blogspot.com/2005/12/coming-of-age-in-cookies.html"
 	}, 
 	"recipeIngredient": [
-		"1/2 cup walnuts",
-		"1/2 lb dried cherries",
-		"1/2 lb dried Turkish figs",
-		"1/2 lb dried apricots",
-		"1/2 lb dried pitted prunes",
-		"1 - 2 tbsp fruit juice, such as good apple cider, or fruit-flavored liqueur",
-		"Powdered sugar, for dredging",
-		"8 oz good-quality semi-sweet chocolate, coarsely chopped"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "walnuts",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1/2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "dried cherries",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "lb",
+				"value" : "1/2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "dried Turkish figs",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "lb",
+				"value" : "1/2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "dried apricots",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "lb",
+				"value" : "1/2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "dried pitted prunes",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "lb",
+				"value" : "1/2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "- 2 tbsp fruit juice  such as good apple cider  or fruit-flavored liqueur",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pcs",
+				"value" : "1"
+			}
+		},
+		"Powdered sugar  for dredging",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "good-quality semi-sweet chocolate  coarsely chopped",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "oz",
+				"value" : "8"
+			}
+		}
 	] 
 },
 {
@@ -984,9 +2220,45 @@
 		"url" : "http://www.epicurious.com/recipes/food/views/Passion-Fruit-Nieve-232019"
 	}, 
 	"recipeIngredient": [
-		"3 cups passion-fruit nectar (24 fl oz), chilled",
-		"2/3 cup light corn syrup",
-		"2 tablespoons fresh lime juice"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "passion-fruit nectar (24 fl oz)  chilled",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cups",
+				"value" : "3"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "light corn syrup",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "2/3"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "fresh lime juice",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoons",
+				"value" : "2"
+			}
+		}
 	] 
 },
 {
@@ -1013,17 +2285,77 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT0.0M",
+	"totalTime": "PT0M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://www.wholeliving.com/131674/sparkling-fruit-coolers"
 	}, 
 	"recipeIngredient": [
-		"1 1/2 cups fresh lemonade, sweetened to taste",
-		"1 1/2 cups fresh limeade, sweetened to taste",
-		"1 1/2 cups fruit juice, such as cranberry, orange, apricot, or peach nectar",
-		"1 quart sparkling water",
-		"4 lime slices"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "fresh lemonade  sweetened to taste",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cups",
+				"value" : "1 1/2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "fresh limeade  sweetened to taste",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cups",
+				"value" : "1 1/2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "fruit juice  such as cranberry  orange  apricot  or peach nectar",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cups",
+				"value" : "1 1/2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "sparkling water",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "quart",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "slices",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "lime",
+				"value" : "4"
+			}
+		}
 	] 
 },
 {
@@ -1056,10 +2388,46 @@
 		"url" : "http://www.loveandoliveoil.com/2014/11/passion-fruit-creme-brulee.html"
 	}, 
 	"recipeIngredient": [
-		"4 large egg yolks",
-		"1/3 cup granulated sugar, plus more for brûlée topping",
-		"1/4 cup passion fruit juice (from 4-5 fresh passion fruit) or concentrate",
-		"2 cups heavy cream"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "egg yolks",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "large",
+				"value" : "4"
+			}
+		},
+		"1/3 cup granulated sugar  plus more for br?l?e topping",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "passion fruit juice (from 4-5 fresh passion fruit) or concentrate",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1/4"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "heavy cream",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cups",
+				"value" : "2"
+			}
+		}
 	] 
 },
 {
@@ -1086,19 +2454,103 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT0.0M",
+	"totalTime": "PT0M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://www.bbcgoodfood.com/recipes/13356/"
 	}, 
 	"recipeIngredient": [
-		"1 beaten egg",
-		"400 g dried mixed fruit",
-		"300 g plain flour",
-		"1 tsp cinnamon",
-		"300 g granulated sugar",
-		"1 tsp baking powder",
-		"1 tsp nutmeg"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "egg",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "beaten",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "dried mixed fruit",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "g",
+				"value" : "400"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "plain flour",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "g",
+				"value" : "300"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "cinnamon",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tsp",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "granulated sugar",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "g",
+				"value" : "300"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "baking powder",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tsp",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "nutmeg",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tsp",
+				"value" : "1"
+			}
+		}
 	] 
 },
 {
@@ -1125,17 +2577,65 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT7.0M",
+	"totalTime": "PT7M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://www.bonappetit.com/recipe/mango-and-passion-fruit-smoothie"
 	}, 
 	"recipeIngredient": [
-		"2 cups 1/2-inch cubes peeled mango",
-		"2 cups crushed ice",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "1/2-inch cubes peeled mango",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cups",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "crushed ice",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cups",
+				"value" : "2"
+			}
+		},
 		"5 tablespoons strained passion fruit juice (from about 8 passion fruits; seeds discarded)",
-		"1/4 cup coconut water (such as vita coco)",
-		"1 teaspoon honey"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "coconut water (such as vita coco)",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1/4"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "honey",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoon",
+				"value" : "1"
+			}
+		}
 	] 
 },
 {
@@ -1162,22 +2662,142 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT0.0M",
+	"totalTime": "PT0M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "https://food52.com/recipes/9632-passion-fruit-creaminess"
 	}, 
 	"recipeIngredient": [
-		"1 cup passion fruit (including seeds)",
-		"1 cup sugar",
-		"2 cups cream",
-		"2 cups plain yogurt",
-		"2 tsps vanilla",
-		"1/3 cup passion fruit syrup w/o seeds",
-		"2 tbsps fresh squeezed lime juice",
-		"3/4 cups sugar",
-		"1 tbsp powdered gelatin",
-		"1 tbsp lime zest"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "passion fruit (including seeds)",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "sugar",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "cream",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cups",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "plain yogurt",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cups",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "vanilla",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tsps",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "passion fruit syrup w/o seeds",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1/3"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "fresh squeezed lime juice",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tbsps",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "sugar",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cups",
+				"value" : "3/4"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "powdered gelatin",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tbsp",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "lime zest",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tbsp",
+				"value" : "1"
+			}
+		}
 	] 
 },
 {
@@ -1204,16 +2824,64 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT0.0M",
+	"totalTime": "PT0M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://www.eatingwell.com/recipes/summer_fruit_punch.html"
 	}, 
 	"recipeIngredient": [
-		"2 cups diced stone fruit, (apricots, plums, peaches, nectarines)",
-		"2 cups apricot juice",
-		"2 cups sparkling wine",
-		"1 cup seltzer"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "diced stone fruit  (apricots  plums  peaches  nectarines)",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cups",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "apricot juice",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cups",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "sparkling wine",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cups",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "seltzer",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1"
+			}
+		}
 	] 
 },
 {
@@ -1240,19 +2908,91 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT0.0M",
+	"totalTime": "PT0M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://www.jamieoliver.com/recipes/fruit-recipes/stuffed-fruit-crumble/"
 	}, 
 	"recipeIngredient": [
-		"3 cardamom pods",
-		"½ a vanilla pod",
-		"75 g caster sugar",
-		"70 g desiccated coconut",
-		"1 large free-range egg white",
-		"1 orange",
-		"4 large plums or any soft stone fruit"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "pods",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cardamom",
+				"value" : "3"
+			}
+		},
+		"? a vanilla pod",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "caster sugar",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "g",
+				"value" : "75"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "desiccated coconut",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "g",
+				"value" : "70"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "free-range egg white",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "large",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "orange",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pcs",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "plums or any soft stone fruit",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "large",
+				"value" : "4"
+			}
+		}
 	] 
 },
 {
@@ -1279,16 +3019,64 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT0.0M",
+	"totalTime": "PT0M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://www.cookstr.com/recipes/passion-fruit-puddings"
 	}, 
 	"recipeIngredient": [
-		"8 ripe passion fruit",
-		"2/3 cup plus 1 tbsp cornstarch",
-		"1/3 cup sugar",
-		"1 quart (1 liter) whole milk"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "passion fruit",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "ripe",
+				"value" : "8"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "plus 1 tbsp cornstarch",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "2/3"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "sugar",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1/3"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "(1 liter) whole milk",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "quart",
+				"value" : "1"
+			}
+		}
 	] 
 },
 {
@@ -1315,17 +3103,65 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT0.0M",
+	"totalTime": "PT0M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://www.delish.com/cooking/recipe-ideas/recipes/a17119/passion-fruit-caipiroska-recipe-cosmo0711/"
 	}, 
 	"recipeIngredient": [
-		"2 oz. passion-fruit juice",
-		"1 oz. simple syrup",
-		"2 oz. Absolut Vodka",
-		"1 oz. lime juice",
-		"½ oz. lemon juice"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "passion-fruit juice",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "oz.",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "simple syrup",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "oz.",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "Absolut Vodka",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "oz.",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "lime juice",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "oz.",
+				"value" : "1"
+			}
+		},
+		"? oz. lemon juice"
 	] 
 },
 {
@@ -1352,16 +3188,52 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT0.0M",
+	"totalTime": "PT0M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://www.myrecipes.com/recipe/fruit-danish-10000001178478/"
 	}, 
 	"recipeIngredient": [
-		"1 8-count tube refrigerated crescent rolls",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "tube refrigerated crescent rolls",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "count",
+				"value" : "1 8"
+			}
+		},
 		"Flour for the work surface",
-		"4 tablespoons cream cheese",
-		"4 tablespoons fruit jam"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "cream cheese",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoons",
+				"value" : "4"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "fruit jam",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoons",
+				"value" : "4"
+			}
+		}
 	] 
 },
 {
@@ -1388,16 +3260,64 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT0.0M",
+	"totalTime": "PT0M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://www.thedailymeal.com/recipes/passion-fruit-rita-recipe"
 	}, 
 	"recipeIngredient": [
-		"1 1/2  Ounce   Herradura Silver Tequila",
-		"1/2  Ounce   Triple Sec",
-		"1  Ounce   fresh lime juice",
-		"1  Ounce   Monin Passion Fruit Syrup",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "Ounce   Herradura Silver Tequila",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pcs",
+				"value" : "1 1/2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "Ounce   Triple Sec",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pcs",
+				"value" : "1/2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "Ounce   fresh lime juice",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pcs",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "Ounce   Monin Passion Fruit Syrup",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pcs",
+				"value" : "1"
+			}
+		},
 		"Lime Wheel (Garnish)"
 	] 
 },
@@ -1431,9 +3351,45 @@
 		"url" : "https://food52.com/recipes/2129-tangerine-passion-fruit-marmalade"
 	}, 
 	"recipeIngredient": [
-		"6 tangerines, with the thinnest skin possible",
-		"3 cups sugar",
-		"1.5 cups passion-fruit pulp"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "with the thinnest skin possible",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tangerines",
+				"value" : "6"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "sugar",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cups",
+				"value" : "3"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "passion-fruit pulp",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cups",
+				"value" : "1.5"
+			}
+		}
 	] 
 },
 {
@@ -1466,8 +3422,32 @@
 		"url" : "http://www.marthastewart.com/333834/boozy-fruit"
 	}, 
 	"recipeIngredient": [
-		"6 cups sliced ripe fruit, such as melon, grapes, plums, nectarines, and berries",
-		"1/2 cup solerno liqueur (drinkupny.com) or brandy"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "sliced ripe fruit  such as melon  grapes  plums  nectarines  and berries",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cups",
+				"value" : "6"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "solerno liqueur (drinkupny.com) or brandy",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1/2"
+			}
+		}
 	] 
 },
 {
@@ -1494,22 +3474,142 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT0.0M",
+	"totalTime": "PT0M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://userealbutter.com/2009/06/17/matcha-green-tea-passion-fruit-macarons-recipe/"
 	}, 
 	"recipeIngredient": [
-		"110 g Blanched Almonds",
-		"200 g Powdered Sugar",
-		"2 tsp Matcha",
-		"100 g egg whites",
-		"50 g Sugar",
-		"1 cup Passion Fruit swiss meringue buttercream",
-		"4 oz egg whites",
-		"8 oz Sugar",
-		"8 oz Butter",
-		"5 tbs Passion Fruit Concentrate"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "Blanched Almonds",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "g",
+				"value" : "110"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "Powdered Sugar",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "g",
+				"value" : "200"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "Matcha",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tsp",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "egg whites",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "g",
+				"value" : "100"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "Sugar",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "g",
+				"value" : "50"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "Passion Fruit swiss meringue buttercream",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "egg whites",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "oz",
+				"value" : "4"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "Sugar",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "oz",
+				"value" : "8"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "Butter",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "oz",
+				"value" : "8"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "Passion Fruit Concentrate",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tbs",
+				"value" : "5"
+			}
+		}
 	] 
 },
 {
@@ -1536,18 +3636,78 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT25.0M",
+	"totalTime": "PT25M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://www.goodhousekeeping.com/food-recipes/a9023/festive-fruit-compote/"
 	}, 
 	"recipeIngredient": [
-		"4 medium Golden Delicious or Jonagold apples",
-		"1 orange",
-		"1 medium lemon",
-		"1 package dried fruit",
-		"1 package dried Calimyrna figs",
-		"½ c. sugar",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "Golden Delicious or Jonagold apples",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "medium",
+				"value" : "4"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "orange",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pcs",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "lemon",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "medium",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "dried fruit",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "package",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "dried Calimyrna figs",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "package",
+				"value" : "1"
+			}
+		},
+		"? c. sugar",
 		"cinnamon stick",
 		"cinnamon"
 	] 
@@ -1576,19 +3736,67 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT0.0M",
+	"totalTime": "PT0M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://www.williams-sonoma.com/recipe/any-kind-of-fruit-galette.html"
 	}, 
 	"recipeIngredient": [
-		"1 batch basic pie dough",
-		"4 cups prepared fruit (see note above)",
-		"About 1/2 cup sugar, depending on sweetness of fruit",
-		"2 to 3 Tbs. all-purpose flour, depending on juiciness of fruit, plus more for rolling out dough",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "basic pie dough",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "batch",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "prepared fruit (see note above)",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cups",
+				"value" : "4"
+			}
+		},
+		"About 1/2 cup sugar  depending on sweetness of fruit",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "3 Tbs. all-purpose flour  depending on juiciness of fruit  plus more for rolling out dough",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "to",
+				"value" : "2"
+			}
+		},
 		"Pinch of salt",
-		"2 Tbs. unsalted butter, cut into bits",
-		"Vanilla bean ice cream, homemade or purchased, or sweetened whipped cream, for serving"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "unsalted butter  cut into bits",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "Tbs.",
+				"value" : "2"
+			}
+		},
+		"Vanilla bean ice cream  homemade or purchased  or sweetened whipped cream  for serving"
 	] 
 },
 {
@@ -1603,7 +3811,7 @@
 		"@type": "NutritionInformation",
 		"calories" : "267.0 calories"
 	},
-	"name": "Almond, banana & passion fruit smoothie",
+	"name": "Almond  banana & passion fruit smoothie",
 	"recipeYield": {
 		"@type": "QuantitativeValue",
 		"value" : "2.0"
@@ -1611,20 +3819,68 @@
 	"image": {
 		"@type": "ImageObject",
 		"contentUrl" : "https://www.edamam.com/web-img/468/4680c58fe36da0f91ca04405a8a32046.jpg", 
-		"caption" : "Almond, banana & passion fruit smoothie"
+		"caption" : "Almond  banana & passion fruit smoothie"
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT5.0M",
+	"totalTime": "PT5M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://www.jamieoliver.com/recipes/fruit-recipes/almond-banana-passion-fruit-smoothie/"
 	}, 
 	"recipeIngredient": [
-		"1 large ripe banana",
-		"500 ml almond milk",
-		"1 teaspoon almond essence , optional",
-		"4 ripe passion fruit"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "ripe banana",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "large",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "almond milk",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "ml",
+				"value" : "500"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "almond essence   optional",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoon",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "passion fruit",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "ripe",
+				"value" : "4"
+			}
+		}
 	] 
 },
 {
@@ -1651,15 +3907,51 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT55.0M",
+	"totalTime": "PT55M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://www.epicurious.com/recipes/food/views/Passion-Fruit-Ice-Cream-106604"
 	}, 
 	"recipeIngredient": [
-		"1 1/2 cups sugar",
-		"3 large eggs",
-		"3 cups heavy cream",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "sugar",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cups",
+				"value" : "1 1/2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "eggs",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "large",
+				"value" : "3"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "heavy cream",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cups",
+				"value" : "3"
+			}
+		},
 		"1 1/4 cups thawed frozen passion-fruit pulp*"
 	] 
 },
@@ -1675,7 +3967,7 @@
 		"@type": "NutritionInformation",
 		"calories" : "218.0 calories"
 	},
-	"name": "Brûléed Yogurt with Fresh Fruit recipes",
+	"name": "Br?l?ed Yogurt with Fresh Fruit recipes",
 	"recipeYield": {
 		"@type": "QuantitativeValue",
 		"value" : "2.0"
@@ -1683,22 +3975,94 @@
 	"image": {
 		"@type": "ImageObject",
 		"contentUrl" : "https://www.edamam.com/web-img/953/953116d7aaba46be9484cacefda78aef", 
-		"caption" : "Brûléed Yogurt with Fresh Fruit recipes"
+		"caption" : "Br?l?ed Yogurt with Fresh Fruit recipes"
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT15.0M",
+	"totalTime": "PT15M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://www.loveandoliveoil.com/2014/06/bruleed-yogurt-fresh-fruit.html"
 	}, 
 	"recipeIngredient": [
-		"1/2 cup plain yogurt (use your favorite kind, such as Greek or European)",
-		"1/4 teaspoon vanilla extract",
-		"1 teaspoon honey (or more to taste)",
-		"1/4 cup chopped strawberries or kiwi fruit",
-		"2 strawberries or 1 kiwi fruit, very thinly sliced",
-		"2 tablespoons granulated sugar"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "plain yogurt (use your favorite kind  such as Greek or European)",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1/2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "vanilla extract",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoon",
+				"value" : "1/4"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "honey (or more to taste)",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoon",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "chopped strawberries or kiwi fruit",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1/4"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "or 1 kiwi fruit  very thinly sliced",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "strawberries",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "granulated sugar",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoons",
+				"value" : "2"
+			}
+		}
 	] 
 },
 {
@@ -1725,16 +4089,52 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT0.0M",
+	"totalTime": "PT0M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://www.cookstr.com/recipes/tropical-fruit-sorbet"
 	}, 
 	"recipeIngredient": [
-		"About 18 passion fruit (enough to yield 1 cup juice) or substitute 1 cup defrosted frozen purée (available in Hispanic markets)",
-		"1 tablespoon vodka",
-		"1 cup Simple Syrup",
-		"2 cups orange juice , strained"
+		"About 18 passion fruit (enough to yield 1 cup juice) or substitute 1 cup defrosted frozen pur?e (available in Hispanic markets)",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "vodka",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoon",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "Simple Syrup",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "orange juice   strained",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cups",
+				"value" : "2"
+			}
+		}
 	] 
 },
 {
@@ -1761,23 +4161,143 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT0.0M",
+	"totalTime": "PT0M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://www.bbcgoodfood.com/recipes/5824/"
 	}, 
 	"recipeIngredient": [
-		"2 eggs beaten",
-		"2 tsp mixed spice",
-		"1 lb mixed fruit",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "beaten",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "eggs",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "mixed spice",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tsp",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "mixed fruit",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "lb",
+				"value" : "1"
+			}
+		},
 		"FOR THE CAKE MIXTURE",
-		"2 oz chopped walnuts",
-		"4 oz Glace Cherries",
-		"12 oz Self Raising Flour",
-		"4 oz Brown Sugar",
-		"1/2 Pint Milk",
-		"8 oz margarine or butter",
-		"1 tsp bicarbonate of soda",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "chopped walnuts",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "oz",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "Glace Cherries",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "oz",
+				"value" : "4"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "Self Raising Flour",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "oz",
+				"value" : "12"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "Brown Sugar",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "oz",
+				"value" : "4"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "Milk",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "Pint",
+				"value" : "1/2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "margarine or butter",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "oz",
+				"value" : "8"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "bicarbonate of soda",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tsp",
+				"value" : "1"
+			}
+		},
 		"BOILED FRUIT MIXTURE"
 	] 
 },
@@ -1805,22 +4325,142 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT0.0M",
+	"totalTime": "PT0M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://www.eatingwell.com/recipes/fresh_fruit_chutney.html"
 	}, 
 	"recipeIngredient": [
-		"1 cup water",
-		"1 cup vinegar",
-		"4 cups chopped onion",
-		"1 tablespoon minced garlic",
-		"1 cup dried fruit, chopped if larger than raisins",
-		"1 cup granulated sugar , or brown sugar (see Note)",
-		"2 small fresh chile peppers, seeded and slivered lengthwise, or 1 teaspoon crushed red pepper",
-		"1 teaspoon salt",
-		"8 cups prepared fresh fruit, peeled if desired (see Tip)",
-		"1 tablespoon canola oil"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "water",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "vinegar",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "chopped onion",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cups",
+				"value" : "4"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "minced garlic",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoon",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "dried fruit  chopped if larger than raisins",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "granulated sugar   or brown sugar (see Note)",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "fresh chile peppers  seeded and slivered lengthwise  or 1 teaspoon crushed red pepper",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "small",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "salt",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoon",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "prepared fresh fruit  peeled if desired (see Tip)",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cups",
+				"value" : "8"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "canola oil",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoon",
+				"value" : "1"
+			}
+		}
 	] 
 },
 {
@@ -1847,16 +4487,64 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT0.0M",
+	"totalTime": "PT0M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://www.myrecipes.com/recipe/brandied-fruit-compote-10000000521039/"
 	}, 
 	"recipeIngredient": [
-		"3 1/2 cups Dried Fruit Mix",
-		"2 cups water",
-		"3/4 cup sugar",
-		"1/2 cup brandy"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "Dried Fruit Mix",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cups",
+				"value" : "3 1/2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "water",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cups",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "sugar",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "3/4"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "brandy",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1/2"
+			}
+		}
 	] 
 },
 {
@@ -1889,8 +4577,32 @@
 		"url" : "http://www.marthastewart.com/355782/macerated-fruit"
 	}, 
 	"recipeIngredient": [
-		"1 1/2 cups dried fruit (such as cranberries, cherries, golden raisins, and currants)",
-		"3/4 cup alcohol (such as brandy, aged rum, marsala, or sherry)"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "dried fruit (such as cranberries  cherries  golden raisins  and currants)",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cups",
+				"value" : "1 1/2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "alcohol (such as brandy  aged rum  marsala  or sherry)",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "3/4"
+			}
+		}
 	] 
 },
 {
@@ -1917,16 +4629,52 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT15.0M",
+	"totalTime": "PT15M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://www.epicurious.com/recipes/food/views/Passion-Fruit-Caipirinha-232182"
 	}, 
 	"recipeIngredient": [
-		"1/4 fresh lime, cut into 4 pieces",
-		"2 teaspoons superfine granulated sugar",
-		"3 oz (6 tablespoons) pure passion-fruit juice (preferably Looza brand)",
-		"1 1/2 oz (3 tablespoons) cachaça"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "lime  cut into 4 pieces",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "fresh",
+				"value" : "1/4"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "superfine granulated sugar",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoons",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "(6 tablespoons) pure passion-fruit juice (preferably Looza brand)",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "oz",
+				"value" : "3"
+			}
+		},
+		"1 1/2 oz (3 tablespoons) cacha?a"
 	] 
 },
 {
@@ -1959,11 +4707,59 @@
 		"url" : "https://food52.com/recipes/16854-seasonal-fruit-tart"
 	}, 
 	"recipeIngredient": [
-		"1 pie crust ( pre-made or homemade)",
-		"2 cups seasonal fruit",
-		"1/4 cup powdered sugar",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "crust ( pre-made or homemade)",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pie",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "seasonal fruit",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cups",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "powdered sugar",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1/4"
+			}
+		},
 		"Zest of one lemon",
-		"1 teaspoon vanilla extract"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "vanilla extract",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoon",
+				"value" : "1"
+			}
+		}
 	] 
 },
 {
@@ -1996,11 +4792,47 @@
 		"url" : "http://www.goodhousekeeping.com/food-recipes/a14346/summer-fruit-tarts-recipe-wdy0712/"
 	}, 
 	"recipeIngredient": [
-		"2 lb. assorted summer fruit, such as raspberries, blueberries, blackberries, strawberries, nectarines, peaches and/or plums",
-		"4 refrigerated rolled pie crusts",
-		"¼ c. sugar",
-		"¼ c. apricot jam",
-		"2 tbsp. lemon juice"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "assorted summer fruit  such as raspberries  blueberries  blackberries  strawberries  nectarines  peaches and/or plums",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "lb.",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "rolled pie crusts",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "refrigerated",
+				"value" : "4"
+			}
+		},
+		"? c. sugar",
+		"? c. apricot jam",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "lemon juice",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tbsp.",
+				"value" : "2"
+			}
+		}
 	] 
 },
 {
@@ -2015,7 +4847,7 @@
 		"@type": "NutritionInformation",
 		"calories" : "2218.0 calories"
 	},
-	"name": "Crème Brûlée with Tropical Fruit",
+	"name": "Cr?me Br?l?e with Tropical Fruit",
 	"recipeYield": {
 		"@type": "QuantitativeValue",
 		"value" : "6.0"
@@ -2023,26 +4855,98 @@
 	"image": {
 		"@type": "ImageObject",
 		"contentUrl" : "https://www.edamam.com/web-img/6e3/6e39489a9a809b225f09058d0a023c61.jpg", 
-		"caption" : "Crème Brûlée with Tropical Fruit"
+		"caption" : "Cr?me Br?l?e with Tropical Fruit"
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT0.0M",
+	"totalTime": "PT0M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://www.delish.com/cooking/recipe-ideas/recipes/a24927/creme-brulee-tropical-fruit-970/"
 	}, 
 	"recipeIngredient": [
-		"2 c. heavy or whipping cream",
-		"4 large egg yolks",
-		"¼ c. sugar",
-		"½ tsp. vanilla extract",
-		"3 tbsp. brown sugar",
-		"2 medium nectarines",
-		"2 kiwi fruit",
-		"1 carambola (star fruit)",
-		"½ c. raspberries",
-		"½ c. blackberries"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "heavy or whipping cream",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "c.",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "egg yolks",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "large",
+				"value" : "4"
+			}
+		},
+		"? c. sugar",
+		"? tsp. vanilla extract",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "brown sugar",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tbsp.",
+				"value" : "3"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "nectarines",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "medium",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "fruit",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "kiwi",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "(star fruit)",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "carambola",
+				"value" : "1"
+			}
+		},
+		"? c. raspberries",
+		"? c. blackberries"
 	] 
 },
 {
@@ -2069,16 +4973,40 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT0.0M",
+	"totalTime": "PT0M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://www.eatingwell.com/recipes/fresh_fruit_jam.html"
 	}, 
 	"recipeIngredient": [
-		"1 1.75-ounce packet ?no sugar needed? pectin , (see Note)",
-		"12 cups prepared fresh fruit, peeled if desired (see Tip)",
-		"1-2 cups granulated sugar , or brown sugar (see Note)",
-		"1/2 cup water"
+		"1 1.75-ounce packet ?no sugar needed? pectin   (see Note)",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "prepared fresh fruit  peeled if desired (see Tip)",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cups",
+				"value" : "12"
+			}
+		},
+		"1-2 cups granulated sugar   or brown sugar (see Note)",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "water",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1/2"
+			}
+		}
 	] 
 },
 {
@@ -2105,18 +5033,78 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT0.0M",
+	"totalTime": "PT0M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://www.cookstr.com/recipes/fast-fruit-punch"
 	}, 
 	"recipeIngredient": [
-		"1 bottle (32 ounces) grape juice",
-		"1 can (6 ounces) frozen lemonade concentrate",
-		"1 can (6 ounces) frozen orange juice concentrate",
-		"1 large can (46 ounces) pineapple juice",
-		"Fresh fruit of any kind, for garnish",
-		"1 quart ginger ale"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "(32 ounces) grape juice",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "bottle",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "(6 ounces) frozen lemonade concentrate",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "can",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "(6 ounces) frozen orange juice concentrate",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "can",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "can (46 ounces) pineapple juice",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "large",
+				"value" : "1"
+			}
+		},
+		"Fresh fruit of any kind  for garnish",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "ginger ale",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "quart",
+				"value" : "1"
+			}
+		}
 	] 
 },
 {
@@ -2149,9 +5137,45 @@
 		"url" : "http://www.marthastewart.com/856114/real-fruit-rolls"
 	}, 
 	"recipeIngredient": [
-		"4 cups berries or chopped stone fruit",
-		"1/2 cup sugar",
-		"1 tablespoon fresh lemon juice"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "berries or chopped stone fruit",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cups",
+				"value" : "4"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "sugar",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1/2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "fresh lemon juice",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoon",
+				"value" : "1"
+			}
+		}
 	] 
 },
 {
@@ -2178,18 +5202,78 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT0.0M",
+	"totalTime": "PT0M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://www.myrecipes.com/recipe/fruit-punch-10000000300501/"
 	}, 
 	"recipeIngredient": [
-		"3 cups cranberry juice cocktail",
-		"2 cups pineapple juice",
-		"2 cups orange juice",
-		"1 (1-liter) bottle ginger ale, chilled",
-		"3/4 to 1 cup light rum",
-		"Garnish: 1 star fruit, cut into 1/4-inch slices"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "cranberry juice cocktail",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cups",
+				"value" : "3"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "pineapple juice",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cups",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "orange juice",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cups",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "(1-liter) bottle ginger ale  chilled",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pcs",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "1 cup light rum",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "to",
+				"value" : "3/4"
+			}
+		},
+		"Garnish: 1 star fruit  cut into 1/4-inch slices"
 	] 
 },
 {
@@ -2216,16 +5300,28 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT15.0M",
+	"totalTime": "PT15M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://www.goodhousekeeping.com/food-recipes/a14593/hawaiian-fresh-fruit-salad-recipe-ghk0913/"
 	}, 
 	"recipeIngredient": [
 		"? c. fresh lime juice",
-		"1½ tbsp. honey",
-		"¾ tsp. finely chopped fresh ginger or ground ginger",
-		"6 c. bite-sized pieces fruit"
+		"1? tbsp. honey",
+		"? tsp. finely chopped fresh ginger or ground ginger",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "bite-sized pieces fruit",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "c.",
+				"value" : "6"
+			}
+		}
 	] 
 },
 {
@@ -2258,10 +5354,46 @@
 		"url" : "http://www.delish.com/cooking/recipe-ideas/recipes/a9561/no-fuss-fruit-pie-recipe-campbells-1109/"
 	}, 
 	"recipeIngredient": [
-		"1 package Pepperidge Farm® Puff Pastry Sheets",
-		"1 egg",
-		"1 tbsp. water",
-		"1 can fruit pie filling"
+		"1 package Pepperidge Farm? Puff Pastry Sheets",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "egg",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pcs",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "water",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tbsp.",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "fruit pie filling",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "can",
+				"value" : "1"
+			}
+		}
 	] 
 },
 {
@@ -2294,14 +5426,110 @@
 		"url" : "https://food52.com/recipes/67-fruit-crisp"
 	}, 
 	"recipeIngredient": [
-		"1/2 cup brown sugar",
-		"1/2 cup white sugar",
-		"1/2 cup flour",
-		"1/2 cup butter, cut into very small pieces, plus more for pan.",
-		"1/2 cup oats (old fashioned, not quick cooking)",
-		"1 bunch sliced fruit- whatever you'd like- enough to fill your pan",
-		"1 dash cinnamon",
-		"2 dashes white sugar"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "brown sugar",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1/2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "white sugar",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1/2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "flour",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1/2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "butter  cut into very small pieces  plus more for pan.",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1/2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "oats (old fashioned  not quick cooking)",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1/2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "sliced fruit- whatever you'd like- enough to fill your pan",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "bunch",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "cinnamon",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "dash",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "white sugar",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "dashes",
+				"value" : "2"
+			}
+		}
 	] 
 },
 {
@@ -2328,16 +5556,52 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT0.0M",
+	"totalTime": "PT0M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://www.myrecipes.com/recipe/stone-fruit-preserves-50400000114535/"
 	}, 
 	"recipeIngredient": [
 		"4 1/2 cups peeled and diced peaches (about 2 1/2 lb.)*",
-		"1 1/2 cups sugar",
-		"3 tablespoons fresh lemon juice",
-		"1 (1.75-oz.) package powdered fruit pectin"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "sugar",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cups",
+				"value" : "1 1/2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "fresh lemon juice",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoons",
+				"value" : "3"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "(1.75-oz.) package powdered fruit pectin",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pcs",
+				"value" : "1"
+			}
+		}
 	] 
 },
 {
@@ -2370,9 +5634,45 @@
 		"url" : "http://www.marthastewart.com/342486/passion-fruit-sorbet"
 	}, 
 	"recipeIngredient": [
-		"1 cup sugar",
-		"2 cups water",
-		"1 cup passion fruit puree"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "sugar",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "water",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cups",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "passion fruit puree",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1"
+			}
+		}
 	] 
 },
 {
@@ -2405,9 +5705,21 @@
 		"url" : "http://www.goodhousekeeping.com/food-recipes/a12636/cumin-roast-pork-dried-fruit-121635/"
 	}, 
 	"recipeIngredient": [
-		"1 package mixed dried fruit",
-		"2½ lb. boneless pork loin",
-		"1½ tsp. ground cumin"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "mixed dried fruit",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "package",
+				"value" : "1"
+			}
+		},
+		"2? lb. boneless pork loin",
+		"1? tsp. ground cumin"
 	] 
 },
 {
@@ -2434,17 +5746,29 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT24.0M",
+	"totalTime": "PT24M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://www.delish.com/cooking/recipe-ideas/recipes/a31844/cookie-fruit-tart-recipe-120569/"
 	}, 
 	"recipeIngredient": [
-		"½ roll refrigerated sugar-cookie dough",
-		"4 oz. light cream cheese (Neufchâtel)",
-		"¼ c. reduced-fat sour cream",
-		"2 tsp. sugar",
-		"2½ c. fruit"
+		"? roll refrigerated sugar-cookie dough",
+		"4 oz. light cream cheese (Neufch?tel)",
+		"? c. reduced-fat sour cream",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "sugar",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tsp.",
+				"value" : "2"
+			}
+		},
+		"2? c. fruit"
 	] 
 },
 {
@@ -2471,14 +5795,26 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT0.0M",
+	"totalTime": "PT0M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://www.delish.com/cooking/recipe-ideas/recipes/a9202/emeril-lagasse-kid-sparkling-cider-recipe/"
 	}, 
 	"recipeIngredient": [
-		"2 bottle sparkling apple cider or apple-grape cider",
-		"Sliced assorted fall fruit, like apples, pears, or Asian pears"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "sparkling apple cider or apple-grape cider",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "bottle",
+				"value" : "2"
+			}
+		},
+		"Sliced assorted fall fruit  like apples  pears  or Asian pears"
 	] 
 },
 {
@@ -2505,15 +5841,51 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT35.0M",
+	"totalTime": "PT35M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://www.marthastewart.com/338495/fruit-syrups"
 	}, 
 	"recipeIngredient": [
-		"2 cups berries or diced fruit, (pitted or cored) such as pears, peaches, or plums",
-		"1 cup maple syrup",
-		"1 vanilla bean, (optional)"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "berries or diced fruit  (pitted or cored) such as pears  peaches  or plums",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cups",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "maple syrup",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "bean  (optional)",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "vanilla",
+				"value" : "1"
+			}
+		}
 	] 
 },
 {
@@ -2546,18 +5918,162 @@
 		"url" : "http://www.myrecipes.com/recipe/exotic-fruit-pavlova"
 	}, 
 	"recipeIngredient": [
-		"1 vanilla bean, split lengthwise",
-		"2 tablespoons granulated sugar",
-		"1/2 cup pineapple juice, divided",
-		"1/2 cup orange juice",
-		"2 tablespoons passion fruit juice",
-		"3 egg whites",
-		"6 tablespoons granulated sugar",
-		"5 tablespoons sifted powdered sugar, divided",
-		"2 tablespoons passion fruit juice",
-		"2 cubed, peeled ripe mangoes",
-		"1 tablespoon sugar (optional)",
-		"1 thinly sliced, peeled mango"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "bean  split lengthwise",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "vanilla",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "granulated sugar",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoons",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "pineapple juice  divided",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1/2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "orange juice",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1/2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "passion fruit juice",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoons",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "whites",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "egg",
+				"value" : "3"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "granulated sugar",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoons",
+				"value" : "6"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "sifted powdered sugar  divided",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoons",
+				"value" : "5"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "passion fruit juice",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoons",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "peeled ripe mangoes",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cubed",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "sugar (optional)",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoon",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "sliced  peeled mango",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "thinly",
+				"value" : "1"
+			}
+		}
 	] 
 },
 {
@@ -2590,13 +6106,49 @@
 		"url" : "http://www.goodhousekeeping.com/food-recipes/a3600/autumn-fruit-cups-2461/"
 	}, 
 	"recipeIngredient": [
-		"6 sheets fresh or frozen (thawed) phyllo",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "fresh or frozen (thawed) phyllo",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "sheets",
+				"value" : "6"
+			}
+		},
 		"Nonstick cooking spray",
-		"1 package mixed dried fruit",
-		"¾ c. apple or orange juice",
-		"½ c. water",
-		"¾ tsp. anise extract",
-		"1 pt. fat-free vanilla frozen yogurt",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "mixed dried fruit",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "package",
+				"value" : "1"
+			}
+		},
+		"? c. apple or orange juice",
+		"? c. water",
+		"? tsp. anise extract",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "fat-free vanilla frozen yogurt",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pt.",
+				"value" : "1"
+			}
+		},
 		"Lemon leaves for garnish"
 	] 
 },
@@ -2630,13 +6182,61 @@
 		"url" : "http://www.delish.com/cooking/recipe-ideas/recipes/a21265/philadelphia-fruit-pizza-recipe-kft0313/"
 	}, 
 	"recipeIngredient": [
-		"1 package refrigerated sliceable sugar cookies",
-		"1 package Philadelphia Cream Cheese",
-		"¼ c. sugar",
-		"½ tsp. vanilla",
-		"4 c. assorted cut-up fruit (kiwi, strawberries, blueberries, drained canned mandarin oranges)",
-		"¼ c. apricot preserves",
-		"1 tbsp. water"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "refrigerated sliceable sugar cookies",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "package",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "Philadelphia Cream Cheese",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "package",
+				"value" : "1"
+			}
+		},
+		"? c. sugar",
+		"? tsp. vanilla",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "assorted cut-up fruit (kiwi  strawberries  blueberries  drained canned mandarin oranges)",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "c.",
+				"value" : "4"
+			}
+		},
+		"? c. apricot preserves",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "water",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tbsp.",
+				"value" : "1"
+			}
+		}
 	] 
 },
 {
@@ -2663,20 +6263,92 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT0.0M",
+	"totalTime": "PT0M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://www.marthastewart.com/355601/fruit-turnovers"
 	}, 
 	"recipeIngredient": [
-		"1/3 cup sugar",
-		"2 tsps cornstarch",
-		"1/2 tsp coarse salt",
-		"3/4 lb fresh or frozen fruit, cut into 1-inch pieces if necessary",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "sugar",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1/3"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "cornstarch",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tsps",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "coarse salt",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tsp",
+				"value" : "1/2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "fresh or frozen fruit  cut into 1-inch pieces if necessary",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "lb",
+				"value" : "3/4"
+			}
+		},
 		"Finely grated zest of 1 lemon",
-		"All-purpose flour, for work surface",
-		"2 sheets frozen puff pastry, thawed",
-		"2 large egg yolks",
+		"All-purpose flour  for work surface",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "frozen puff pastry  thawed",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "sheets",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "egg yolks",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "large",
+				"value" : "2"
+			}
+		},
 		"Coarse sugar (optional)"
 	] 
 },
@@ -2704,27 +6376,183 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT0.0M",
+	"totalTime": "PT0M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://www.myrecipes.com/recipe/tropical-fruit-soup-10000001017298/"
 	}, 
 	"recipeIngredient": [
-		"1 cinnamon stick (2 in.)",
-		"1 star anise",
-		"8 whole cloves",
-		"8 black peppercorns",
-		"2 stalks (about 2 oz.) fresh lemon grass",
-		"1 cup sugar",
-		"1 1/2 tablespoons grated orange peel",
-		"4 thin, quarter-size slices peeled fresh ginger",
-		"1 piece vanilla bean (2 in.)",
-		"1 tablespoon rum",
-		"1 large egg white",
-		"1/2 cup unsweetened shredded dried coconut",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "stick (2 in.)",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cinnamon",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "anise",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "star",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "cloves",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "whole",
+				"value" : "8"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "peppercorns",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "black",
+				"value" : "8"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "(about 2 oz.) fresh lemon grass",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "stalks",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "sugar",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "grated orange peel",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoons",
+				"value" : "1 1/2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "quarter-size slices peeled fresh ginger",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "thin",
+				"value" : "4"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "vanilla bean (2 in.)",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "piece",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "rum",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoon",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "egg white",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "large",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "unsweetened shredded dried coconut",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1/2"
+			}
+		},
 		"About 2 cups fruit (see notes)",
-		"1 pint coconut or tropical fruit sorbet",
-		"Mint sprigs, rinsed"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "coconut or tropical fruit sorbet",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pint",
+				"value" : "1"
+			}
+		},
+		"Mint sprigs  rinsed"
 	] 
 },
 {
@@ -2751,17 +6579,77 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT50.0M",
+	"totalTime": "PT50M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://www.myrecipes.com/recipe/passion-fruit-tea-slush"
 	}, 
 	"recipeIngredient": [
-		"1 cup bottled unsweetened iced tea",
-		"1 cup passion fruit juice",
-		"2 cups ice cubes",
-		"2 tablespoons superfine sugar",
-		"2 large carambolas (star fruits), sliced"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "bottled unsweetened iced tea",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "passion fruit juice",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "ice cubes",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cups",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "superfine sugar",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoons",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "carambolas (star fruits)  sliced",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "large",
+				"value" : "2"
+			}
+		}
 	] 
 },
 {
@@ -2788,17 +6676,53 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT0.0M",
+	"totalTime": "PT0M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://www.marthastewart.com/1050538/dried-fruit-and-nut-bites"
 	}, 
 	"recipeIngredient": [
-		"2 cups mixed dried fruit",
-		"2 cups raw mixed nuts and seeds",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "mixed dried fruit",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cups",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "raw mixed nuts and seeds",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cups",
+				"value" : "2"
+			}
+		},
 		"Cinnamon",
 		"Coarse salt",
-		"1/3 cup raw sesame seeds"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "raw sesame seeds",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1/3"
+			}
+		}
 	] 
 },
 {
@@ -2831,10 +6755,58 @@
 		"url" : "http://www.marthastewart.com/1014280/spiked-fruit-cup"
 	}, 
 	"recipeIngredient": [
-		"4 cups fruit, sliced or pitted if necessary",
-		"1/2 cup sugar",
-		"3 sprigs basil, plus leaves for garnish",
-		"1 1/2 cup white rum, gin, or cachaca",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "fruit  sliced or pitted if necessary",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cups",
+				"value" : "4"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "sugar",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1/2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "basil  plus leaves for garnish",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "sprigs",
+				"value" : "3"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "white rum  gin  or cachaca",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1 1/2"
+			}
+		},
 		"Juice of 1 lime"
 	] 
 },
@@ -2862,17 +6834,77 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT0.0M",
+	"totalTime": "PT0M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://www.myrecipes.com/recipe/mango-passion-fruit-gelato-10000000226610/"
 	}, 
 	"recipeIngredient": [
-		"1 cup sugar",
-		"1 cup water",
-		"3 cups chopped peeled mango (about 2 mangoes)",
-		"2 cups passion fruit nectar",
-		"1 1/2 cups half-and-half"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "sugar",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "water",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "chopped peeled mango (about 2 mangoes)",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cups",
+				"value" : "3"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "passion fruit nectar",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cups",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "half-and-half",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cups",
+				"value" : "1 1/2"
+			}
+		}
 	] 
 },
 {
@@ -2899,20 +6931,116 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT0.0M",
+	"totalTime": "PT0M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://www.myrecipes.com/recipe/festive-fruit-punch-10000001134047/"
 	}, 
 	"recipeIngredient": [
-		"4 cups tonic water",
-		"3 cups ice cubes",
-		"2 cups pineapple juice, chilled",
-		"2 cups orange juice, chilled",
-		"2 cups light cranberry juice cocktail, chilled",
-		"1 lime, sliced",
-		"1 orange, sliced",
-		"1 carambola (star fruit), sliced"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "tonic water",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cups",
+				"value" : "4"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "ice cubes",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cups",
+				"value" : "3"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "pineapple juice  chilled",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cups",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "orange juice  chilled",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cups",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "light cranberry juice cocktail  chilled",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cups",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "sliced",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "lime",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "sliced",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "orange",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "(star fruit)  sliced",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "carambola",
+				"value" : "1"
+			}
+		}
 	] 
 },
 {
@@ -2939,22 +7067,130 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT0.0M",
+	"totalTime": "PT0M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://www.myrecipes.com/recipe/spicy-passion-fruit-glazed-shrimp-10000001065581/"
 	}, 
 	"recipeIngredient": [
-		"1/2 cup water",
-		"1/2 cup sugar",
-		"1/2 cup passion fruit pulp (about 4 passion fruit)",
-		"2 tablespoons fresh lime juice",
-		"1 teaspoon low-sodium soy sauce",
-		"1/2 teaspoon crushed red pepper",
-		"1/4 teaspoon salt",
-		"32 large shrimp, peeled and deveined (about 1 1/2 pounds)",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "water",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1/2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "sugar",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1/2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "passion fruit pulp (about 4 passion fruit)",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1/2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "fresh lime juice",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoons",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "low-sodium soy sauce",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoon",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "crushed red pepper",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoon",
+				"value" : "1/2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "salt",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoon",
+				"value" : "1/4"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "shrimp  peeled and deveined (about 1 1/2 pounds)",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "large",
+				"value" : "32"
+			}
+		},
 		"Cooking spray",
-		"8 lime wedges"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "wedges",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "lime",
+				"value" : "8"
+			}
+		}
 	] 
 },
 {
@@ -2981,23 +7217,143 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT0.0M",
+	"totalTime": "PT0M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://www.myrecipes.com/recipe/sausage-fall-fruit-stuffing-10000001875675/"
 	}, 
 	"recipeIngredient": [
-		"2 cups low-sodium chicken broth",
-		"7 ounces minced dried fruit (such as Sun-Maid Fruit Bits)",
-		"1/2 cup dried cranberries",
-		"12 ounces bulk pork sausage, casings removed",
-		"2 tablespoons unsalted butter",
-		"1 cup chopped onion",
-		"1 cup chopped celery",
-		"1 tablespoon minced fresh sage",
-		"1 tablespoon minced fresh thyme",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "low-sodium chicken broth",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cups",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "minced dried fruit (such as Sun-Maid Fruit Bits)",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "ounces",
+				"value" : "7"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "dried cranberries",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1/2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "bulk pork sausage  casings removed",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "ounces",
+				"value" : "12"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "unsalted butter",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoons",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "chopped onion",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "chopped celery",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "minced fresh sage",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoon",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "minced fresh thyme",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoon",
+				"value" : "1"
+			}
+		},
 		"Salt and pepper",
-		"2 1/2 cups corn bread stuffing mix"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "corn bread stuffing mix",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cups",
+				"value" : "2 1/2"
+			}
+		}
 	] 
 },
 {
@@ -3030,12 +7386,60 @@
 		"url" : "http://www.seriouseats.com/recipes/2011/08/perfect-passion-fruit-parfaits.html"
 	}, 
 	"recipeIngredient": [
-		"1 cup sugar, divided",
-		"1/2 cup water, divided",
-		"10 eggs, separated",
-		"1 cup passion fruit purée",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "sugar  divided",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "water  divided",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1/2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "separated",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "eggs",
+				"value" : "10"
+			}
+		},
+		"1 cup passion fruit pur?e",
 		"pinch of salt",
-		"2 cups heavy cream"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "heavy cream",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cups",
+				"value" : "2"
+			}
+		}
 	] 
 },
 {
@@ -3062,15 +7466,39 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT30.0M",
+	"totalTime": "PT30M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://www.epicurious.com/recipes/food/views/Passion-Fruit-Fool-109470"
 	}, 
 	"recipeIngredient": [
-		"1 (14-oz) package thawed (but cold) unsweetened passion-fruit (maracuyá) purée such as Goya brand* (about 1 1/2 cups)",
-		"1 cup sugar, or to taste",
-		"2 1/2 cups chilled heavy cream"
+		"1 (14-oz) package thawed (but cold) unsweetened passion-fruit (maracuy?) pur?e such as Goya brand* (about 1 1/2 cups)",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "sugar  or to taste",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "chilled heavy cream",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cups",
+				"value" : "2 1/2"
+			}
+		}
 	] 
 },
 {
@@ -3097,17 +7525,65 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT0.0M",
+	"totalTime": "PT0M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://www.eatingwell.com/recipes/fresh_fruit_butter.html"
 	}, 
 	"recipeIngredient": [
-		"6 cups prepared fresh fruit, peeled if desired (see Tip)",
-		"1 tablespoon freshly grated lemon, lime or orange zest , (optional)",
-		"1/2-1 cup granulated sugar , or brown sugar (see Note)",
-		"1/4 cup lemon, lime or orange juice , (optional)",
-		"1 cup water"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "prepared fresh fruit  peeled if desired (see Tip)",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cups",
+				"value" : "6"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "freshly grated lemon  lime or orange zest   (optional)",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoon",
+				"value" : "1"
+			}
+		},
+		"1/2-1 cup granulated sugar   or brown sugar (see Note)",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "lemon  lime or orange juice   (optional)",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1/4"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "water",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1"
+			}
+		}
 	] 
 },
 {
@@ -3134,19 +7610,43 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT0.0M",
+	"totalTime": "PT0M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://www.cookstr.com/recipes/dried-fruit-cream-scones"
 	}, 
 	"recipeIngredient": [
-		"¼ cup golden raisins",
-		"½ cup chopped dried fruit (apricots, prunes, or figs)",
-		"2 cups all-purpose flour",
-		"1¼ cups heavy cream",
-		"¼ cup sugar",
-		"½ teaspoon salt",
-		"1 tablespoon baking powder"
+		"? cup golden raisins",
+		"? cup chopped dried fruit (apricots  prunes  or figs)",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "all-purpose flour",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cups",
+				"value" : "2"
+			}
+		},
+		"1? cups heavy cream",
+		"? cup sugar",
+		"? teaspoon salt",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "baking powder",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoon",
+				"value" : "1"
+			}
+		}
 	] 
 },
 {
@@ -3173,17 +7673,53 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT36.0M",
+	"totalTime": "PT36M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://www.cookingchanneltv.com/recipes/ingrid-hoffmann/maracuya-passion-fruit-mousse.html"
 	}, 
 	"recipeIngredient": [
-		"2 cups frozen passion fruit pulp, defrosted",
-		"4 cups heavy cream",
-		"1 (14-ounce) can sweetened condensed milk",
-		"Mint sprigs, for garnish",
-		"Biscotti or other crisp cookies, for garnish"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "frozen passion fruit pulp  defrosted",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cups",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "heavy cream",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cups",
+				"value" : "4"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "(14-ounce) can sweetened condensed milk",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pcs",
+				"value" : "1"
+			}
+		},
+		"Mint sprigs  for garnish",
+		"Biscotti or other crisp cookies  for garnish"
 	] 
 },
 {
@@ -3216,11 +7752,23 @@
 		"url" : "http://www.goodhousekeeping.com/food-recipes/a13252/cumin-roast-pork-dried-fruit-recipe-122324/"
 	}, 
 	"recipeIngredient": [
-		"1 package mixed dried fruit",
-		"2½ lb. boneless pork loin",
-		"1½ tsp. ground cumin",
-		"½ tsp. salt",
-		"¼ tsp. pepper"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "mixed dried fruit",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "package",
+				"value" : "1"
+			}
+		},
+		"2? lb. boneless pork loin",
+		"1? tsp. ground cumin",
+		"? tsp. salt",
+		"? tsp. pepper"
 	] 
 },
 {
@@ -3253,15 +7801,99 @@
 		"url" : "http://www.marthastewart.com/316371/passion-fruit-souffle"
 	}, 
 	"recipeIngredient": [
-		"Unsalted butter, softened, for ramekins",
-		"1 passion fruit",
-		"1/2 cup whole milk",
-		"2 tablespoons cornstarch",
-		"1/3 cup passion fruit puree",
-		"3 large egg whites",
-		"1/4 teaspoon freshly squeezed lemon juice",
-		"1/4 cup granulated sugar",
-		"Confectioners' sugar, for dusting",
+		"Unsalted butter  softened  for ramekins",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "fruit",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "passion",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "whole milk",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1/2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "cornstarch",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoons",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "passion fruit puree",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1/3"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "egg whites",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "large",
+				"value" : "3"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "freshly squeezed lemon juice",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoon",
+				"value" : "1/4"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "granulated sugar",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1/4"
+			}
+		},
+		"Confectioners' sugar  for dusting",
 		"Pina colada sauce"
 	] 
 },
@@ -3289,24 +7921,168 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT0.0M",
+	"totalTime": "PT0M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://leitesculinaria.com/81678/recipes-warm-fruit-crumble.html"
 	}, 
 	"recipeIngredient": [
-		"3 cups fresh figs, stems removed, or any chopped fruit or whole berries",
-		"1 large egg, lightly beaten",
-		"3 tablespoons brown sugar (or more or less, depending on the sweetness of your fruit)",
-		"2 tablespoons all-purpose flour",
-		"2 tablespoons unsalted butter, melted",
-		"1 pinch ground cinnamon",
-		"2/3 cup all-purpose flour",
-		"1/3 cup packed brown sugar",
-		"1/4 cup granulated sugar",
-		"1/2 teaspoon ground cinnamon",
-		"1 pinch salt",
-		"6 tablespoons unsalted butter, cold, cut into 1/2-inch pieces"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "fresh figs  stems removed  or any chopped fruit or whole berries",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cups",
+				"value" : "3"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "egg  lightly beaten",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "large",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "brown sugar (or more or less  depending on the sweetness of your fruit)",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoons",
+				"value" : "3"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "all-purpose flour",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoons",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "unsalted butter  melted",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoons",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "ground cinnamon",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pinch",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "all-purpose flour",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "2/3"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "packed brown sugar",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1/3"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "granulated sugar",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1/4"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "ground cinnamon",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoon",
+				"value" : "1/2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "salt",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pinch",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "unsalted butter  cold  cut into 1/2-inch pieces",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoons",
+				"value" : "6"
+			}
+		}
 	] 
 },
 {
@@ -3333,18 +8109,90 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT8.0M",
+	"totalTime": "PT8M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://www.goodhousekeeping.com/food-recipes/a12307/margarita-fruit-cocktail-121163/"
 	}, 
 	"recipeIngredient": [
-		"4 c. assorted fruit, chilled (1 cup each blueberries, cubed honeydew melon, cubed pineapple and halved strawberries)",
-		"2 tbsp. granulated sugar",
-		"2 tbsp. tequila or water",
-		"1 tsp. grated lime zest",
-		"2 tbsp. lime juice",
-		"1 lime wedge",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "assorted fruit  chilled (1 cup each blueberries  cubed honeydew melon  cubed pineapple and halved strawberries)",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "c.",
+				"value" : "4"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "granulated sugar",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tbsp.",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "tequila or water",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tbsp.",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "grated lime zest",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tsp.",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "lime juice",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tbsp.",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "wedge",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "lime",
+				"value" : "1"
+			}
+		},
 		"Garnish: coarse decorating sugar"
 	] 
 },
@@ -3378,11 +8226,59 @@
 		"url" : "http://www.epicurious.com/recipes/food/views/Passion-Fruit-Gelees-240933"
 	}, 
 	"recipeIngredient": [
-		"4 (1/4-ounce) envelopes unflavored gelatin",
-		"1 cup water",
-		"2 cups sugar plus additional for tossing",
-		"1 teaspoon fresh lemon juice",
-		"3/4 cup thawed unsweetened passion-fruit (maracuyá) purée such as Goya"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "(1/4-ounce) envelopes unflavored gelatin",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pcs",
+				"value" : "4"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "water",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "sugar plus additional for tossing",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cups",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "fresh lemon juice",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoon",
+				"value" : "1"
+			}
+		},
+		"3/4 cup thawed unsweetened passion-fruit (maracuy?) pur?e such as Goya"
 	] 
 },
 {
@@ -3409,20 +8305,92 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT35.0M",
+	"totalTime": "PT35M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://www.marthastewart.com/355601/fruit-turnovers"
 	}, 
 	"recipeIngredient": [
-		"1/3 cup sugar",
-		"2 teaspoons cornstarch",
-		"1/2 teaspoon coarse salt",
-		"3/4 pound fresh or frozen fruit, cut into 1-inch pieces if necessary",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "sugar",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1/3"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "cornstarch",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoons",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "coarse salt",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoon",
+				"value" : "1/2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "fresh or frozen fruit  cut into 1-inch pieces if necessary",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pound",
+				"value" : "3/4"
+			}
+		},
 		"Finely grated zest of 1 lemon",
 		"all-purpose flour",
-		"2 sheets frozen puff pastry, thawed",
-		"2 large egg yolks",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "frozen puff pastry  thawed",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "sheets",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "egg yolks",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "large",
+				"value" : "2"
+			}
+		},
 		"coarse sugar"
 	] 
 },
@@ -3456,14 +8424,98 @@
 		"url" : "http://www.goodhousekeeping.com/food-recipes/a13232/dried-fruit-cornbread-stuffing-recipe-122484/"
 	}, 
 	"recipeIngredient": [
-		"1 bag cornbread stuffing",
-		"1 package dried fruit bits",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "cornbread stuffing",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "bag",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "dried fruit bits",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "package",
+				"value" : "1"
+			}
+		},
 		"? c. Chopped parsley",
-		"12 oz. bulk pork sausage",
-		"3 tbsp. butter",
-		"2 c. chopped onion",
-		"1 c. chopped celery",
-		"3 c. water"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "bulk pork sausage",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "oz.",
+				"value" : "12"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "butter",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tbsp.",
+				"value" : "3"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "chopped onion",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "c.",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "chopped celery",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "c.",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "water",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "c.",
+				"value" : "3"
+			}
+		}
 	] 
 },
 {
@@ -3490,23 +8542,71 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT40.0M",
+	"totalTime": "PT40M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://pinchofyum.com/fruit-pizza"
 	}, 
 	"recipeIngredient": [
-		"1½ cups sugar",
-		"2½ cups flour",
-		"½ teaspoon baking powder",
-		"½ teaspoon salt",
-		"14 tablespoons (1¾ sticks) unsalted butter, softened",
-		"2 teaspoons vanilla extract",
-		"2 large eggs",
-		"12 ounces cream cheese, softened",
-		"7½ tablespoons unsalted butter, softened",
-		"1 teaspoon vanilla",
-		"1¾ cup powdered sugar",
+		"1? cups sugar",
+		"2? cups flour",
+		"? teaspoon baking powder",
+		"? teaspoon salt",
+		"14 tablespoons (1? sticks) unsalted butter  softened",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "vanilla extract",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoons",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "eggs",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "large",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "cream cheese  softened",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "ounces",
+				"value" : "12"
+			}
+		},
+		"7? tablespoons unsalted butter  softened",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "vanilla",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoon",
+				"value" : "1"
+			}
+		},
+		"1? cup powdered sugar",
 		"fruit"
 	] 
 },
@@ -3540,14 +8640,98 @@
 		"url" : "http://www.delish.com/cooking/recipe-ideas/recipes/a25750/tropical-fruit-cheesecake-1527/"
 	}, 
 	"recipeIngredient": [
-		"1 c. cinnamon-sugar graham-cracker crumbs",
-		"3 tbsp. margarine",
-		"7 large lemons",
-		"4 large eggs",
-		"1 package cream cheese",
-		"2 large egg yolks",
-		"1 can sweetened condensed milk",
-		"Fruit for topping: 3 kiwifruit, 1/2 small pineapple, 1 mango, 1 papaya, 1 banana",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "cinnamon-sugar graham-cracker crumbs",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "c.",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "margarine",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tbsp.",
+				"value" : "3"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "lemons",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "large",
+				"value" : "7"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "eggs",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "large",
+				"value" : "4"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "cream cheese",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "package",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "egg yolks",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "large",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "sweetened condensed milk",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "can",
+				"value" : "1"
+			}
+		},
+		"Fruit for topping: 3 kiwifruit  1/2 small pineapple  1 mango  1 papaya  1 banana",
 		"Raspberries for garnish"
 	] 
 },
@@ -3575,22 +8759,82 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT0.0M",
+	"totalTime": "PT0M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://www.cookstr.com/recipes/dried-fruit-and-nut-cake"
 	}, 
 	"recipeIngredient": [
-		"¼ teaspoon baking soda",
-		"¼ teaspoon baking powder",
-		"3 cups (12 ounces) walnut halves",
-		"¾ cup (5.25 ounces) firmly packed light or dark brown sugar or raw sugar, such as light muscovado or grated piloncillo",
-		"2 cups quartered moist dates or any other favorite dried fruits",
-		"½ teaspoon salt",
-		"¾ cup (3.4 ounces) all-purpose flour",
-		"1 cup dried apricots , plums, pluots, pears, or peaches, or a mixture (to measure, leave apricots or similar-size fruit whole and cut larger fruit in halves or thirds)",
-		"1 teaspoon pure vanilla extract",
-		"3 large eggs"
+		"? teaspoon baking soda",
+		"? teaspoon baking powder",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "(12 ounces) walnut halves",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cups",
+				"value" : "3"
+			}
+		},
+		"? cup (5.25 ounces) firmly packed light or dark brown sugar or raw sugar  such as light muscovado or grated piloncillo",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "quartered moist dates or any other favorite dried fruits",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cups",
+				"value" : "2"
+			}
+		},
+		"? teaspoon salt",
+		"? cup (3.4 ounces) all-purpose flour",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "dried apricots   plums  pluots  pears  or peaches  or a mixture (to measure  leave apricots or similar-size fruit whole and cut larger fruit in halves or thirds)",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "pure vanilla extract",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoon",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "eggs",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "large",
+				"value" : "3"
+			}
+		}
 	] 
 },
 {
@@ -3617,16 +8861,64 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT10.0M",
+	"totalTime": "PT10M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://www.eatingwell.com/recipe/248475/green-tea-fruit-smoothie/"
 	}, 
 	"recipeIngredient": [
-		"2 cups frozen unsweetened mixed fruit, preferably peaches and pineapple",
-		"1 cup cold unsweetened green tea",
-		"1 tablespoon honey",
-		"1 tablespoon lemon juice"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "frozen unsweetened mixed fruit  preferably peaches and pineapple",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cups",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "cold unsweetened green tea",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "honey",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoon",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "lemon juice",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoon",
+				"value" : "1"
+			}
+		}
 	] 
 },
 {
@@ -3653,16 +8945,64 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT40.0M",
+	"totalTime": "PT40M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://www.thekitchn.com/how-to-make-fruit-sauce-in-the-slow-cooker-231609"
 	}, 
 	"recipeIngredient": [
-		"6 cups mixed summer fruit (berries, stone fruit, rhubarb, cherries, or a combination)",
-		"1 cup water",
-		"1/2 cup granulated sugar",
-		"1 vanilla bean, split in half lengthwise"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "mixed summer fruit (berries  stone fruit  rhubarb  cherries  or a combination)",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cups",
+				"value" : "6"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "water",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "granulated sugar",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1/2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "bean  split in half lengthwise",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "vanilla",
+				"value" : "1"
+			}
+		}
 	] 
 },
 {
@@ -3689,18 +9029,90 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT25.0M",
+	"totalTime": "PT25M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://www.latimes.com/food/la-fo-gratinsrec3-20110224-story.html"
 	}, 
 	"recipeIngredient": [
-		"8 amaretti cookies, finely crumbled",
-		"4 generous cups diced fresh fruit, cut into bite-size pieces (small berries can be left whole)",
-		"1 (8-ounce) container mascarpone cheese, at room temperature",
-		"2 tablespoons honey",
-		"1 teaspoon amaretto or citrus liqueur",
-		"2 teaspoons cornstarch"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "cookies  finely crumbled",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "amaretti",
+				"value" : "8"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "cups diced fresh fruit  cut into bite-size pieces (small berries can be left whole)",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "generous",
+				"value" : "4"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "(8-ounce) container mascarpone cheese  at room temperature",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pcs",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "honey",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoons",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "amaretto or citrus liqueur",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoon",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "cornstarch",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoons",
+				"value" : "2"
+			}
+		}
 	] 
 },
 {
@@ -3733,13 +9145,61 @@
 		"url" : "http://www.kitchendaily.com/recipe/philadelphia-fruit-pizza"
 	}, 
 	"recipeIngredient": [
-		"1 pkg. (16.5 oz.) refrigerated sliceable sugar cookies, sliced",
-		"8 oz PHILADELPHIA Cream Cheese, softened",
-		"¼ cup sugar",
-		"½ tsp vanilla",
-		"4 cup assorted cut-up fruit (kiwi, strawberries, blueberries, drained canned mandarin oranges)",
-		"¼ cup apricot preserves, pressed through sieve to remove lumps",
-		"1 Tbsp water"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "(16.5 oz.) refrigerated sliceable sugar cookies  sliced",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pkg.",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "PHILADELPHIA Cream Cheese  softened",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "oz",
+				"value" : "8"
+			}
+		},
+		"? cup sugar",
+		"? tsp vanilla",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "assorted cut-up fruit (kiwi  strawberries  blueberries  drained canned mandarin oranges)",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "4"
+			}
+		},
+		"? cup apricot preserves  pressed through sieve to remove lumps",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "water",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "Tbsp",
+				"value" : "1"
+			}
+		}
 	] 
 },
 {
@@ -3766,20 +9226,104 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT35.0M",
+	"totalTime": "PT35M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://www.cookingchanneltv.com/recipes/michael-chiarello/mango-fruit-fondue.html"
 	}, 
 	"recipeIngredient": [
-		"4 ripe mangos, peeled and diced in large pieces (about 3 cups diced fruit)",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "mangos  peeled and diced in large pieces (about 3 cups diced fruit)",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "ripe",
+				"value" : "4"
+			}
+		},
 		"1/2 cup coconut cream (recommended: coco lopez)",
-		"1/2 cup coconut milk",
-		"2 teaspoons minced ginger",
-		"1/2 tablespoon butter",
-		"2 tablespoons fresh lime juice",
-		"1 box chocolate biscotti",
-		"1 box ladyfingers"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "coconut milk",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1/2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "minced ginger",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoons",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "butter",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoon",
+				"value" : "1/2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "fresh lime juice",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoons",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "chocolate biscotti",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "box",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "ladyfingers",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "box",
+				"value" : "1"
+			}
+		}
 	] 
 }
 ]

@@ -23,17 +23,77 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT0.0M",
+	"totalTime": "PT0M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://norecipes.com/blog/sushi-rice-recipe/"
 	}, 
 	"recipeIngredient": [
-		"2 rice cooker cups short grain (11.5 ounces or 326 grams)",
-		"1 1/2 cups cold water (355 mililiters)",
-		"4 tablespoons rice vinegar",
-		"3 tablespoons granulated sugar",
-		"1 teaspoon salt"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "cooker cups short grain (11.5 ounces or 326 grams)",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "rice",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "cold water (355 mililiters)",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cups",
+				"value" : "1 1/2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "rice vinegar",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoons",
+				"value" : "4"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "granulated sugar",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoons",
+				"value" : "3"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "salt",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoon",
+				"value" : "1"
+			}
+		}
 	] 
 },
 {
@@ -66,8 +126,32 @@
 		"url" : "http://www.seriouseats.com/recipes/2008/04/essentials-how-to-cook-rice.html"
 	}, 
 	"recipeIngredient": [
-		"1 cup long-grain white rice",
-		"1 3/4 cup water",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "long-grain white rice",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "water",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1 3/4"
+			}
+		},
 		"Pinch of salt",
 		"Glug of olive oil"
 	] 
@@ -96,16 +180,64 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT0.0M",
+	"totalTime": "PT0M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://www.finecooking.com/recipes/sushi-rice.aspx"
 	}, 
 	"recipeIngredient": [
-		"5 Tbs. sugar",
-		"4 cups raw Japanese sushi rice",
-		"1 tsp. salt",
-		"1/2 cup unseasoned rice vinegar"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "sugar",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "Tbs.",
+				"value" : "5"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "raw Japanese sushi rice",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cups",
+				"value" : "4"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "salt",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tsp.",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "unseasoned rice vinegar",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1/2"
+			}
+		}
 	] 
 },
 {
@@ -132,14 +264,38 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT17.0M",
+	"totalTime": "PT17M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://www.marthastewart.com/950845/perfect-white-rice-rice-cooker"
 	}, 
 	"recipeIngredient": [
-		"2 cups cold water",
-		"2 cups jasmine rice"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "cold water",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cups",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "jasmine rice",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cups",
+				"value" : "2"
+			}
+		}
 	] 
 },
 {
@@ -166,16 +322,64 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT0.0M",
+	"totalTime": "PT0M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://thepioneerwoman.com/cooking/2009/01/perfect-sushi-rice/"
 	}, 
 	"recipeIngredient": [
-		"1 cup Rice Wine Vinegar",
-		"1/2 cup Sugar",
-		"1/4 cup Sake Or Mirin (a Japanese Rice Wine)",
-		"4 cups Short Grain/sushi Rice"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "Rice Wine Vinegar",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "Sugar",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1/2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "Sake Or Mirin (a Japanese Rice Wine)",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1/4"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "Short Grain/sushi Rice",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cups",
+				"value" : "4"
+			}
+		}
 	] 
 },
 {
@@ -209,9 +413,33 @@
 	}, 
 	"recipeIngredient": [
 		"1?2 cup long-grain white rice",
-		"1 tsp. kosher salt",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "kosher salt",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tsp.",
+				"value" : "1"
+			}
+		},
 		"Chinese chile oil",
-		"1 tbsp. salted dry-roasted peanuts"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "salted dry-roasted peanuts",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tbsp.",
+				"value" : "1"
+			}
+		}
 	] 
 },
 {
@@ -238,16 +466,64 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT0.0M",
+	"totalTime": "PT0M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://www.foodrepublic.com/2011/10/28/basic-sushi-rice-recipe"
 	}, 
 	"recipeIngredient": [
-		"3 cups Japanese short-grain rice, rinsed several times",
-		"1/3 cup rice vinegar",
-		"3 tablespoons sugar",
-		"1 teaspoon salt"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "Japanese short-grain rice  rinsed several times",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cups",
+				"value" : "3"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "rice vinegar",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1/3"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "sugar",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoons",
+				"value" : "3"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "salt",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoon",
+				"value" : "1"
+			}
+		}
 	] 
 },
 {
@@ -274,15 +550,51 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT45.0M",
+	"totalTime": "PT45M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://www.thekitchn.com/how-to-make-rice-in-a-rice-cooker-226756"
 	}, 
 	"recipeIngredient": [
-		"1 cup short-, medium-, or long-grain white rice",
-		"1 cup water",
-		"1/2 teaspoon salt, optional"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "short-  medium-  or long-grain white rice",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "water",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "salt  optional",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoon",
+				"value" : "1/2"
+			}
+		}
 	] 
 },
 {
@@ -309,16 +621,52 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT0.0M",
+	"totalTime": "PT0M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://glutenfreegirl.com/2007/11/gratitude-and-sweet-rice-pudding/"
 	}, 
 	"recipeIngredient": [
 		"2 cup rice milk (this makes the recipe dairy-free!)",
-		"1/2 cup mochi sweet rice (or just less. You need 20 teaspoons of rice)",
-		"8 tsp Sugar",
-		"1/8 tsp Saigon cinnamon (if your cinnamon is not that strong, add a bit more)"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "mochi sweet rice (or just less. You need 20 teaspoons of rice)",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1/2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "Sugar",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tsp",
+				"value" : "8"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "Saigon cinnamon (if your cinnamon is not that strong  add a bit more)",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tsp",
+				"value" : "1/8"
+			}
+		}
 	] 
 },
 {
@@ -345,20 +693,92 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT0.0M",
+	"totalTime": "PT0M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://www.bbcgoodfood.com/recipes/2863/"
 	}, 
 	"recipeIngredient": [
-		"2.0 tbsp olive oil",
-		"½ orange , juice only",
-		"6 dried apricots , chopped",
-		"1 large carrot , grated",
-		"100.0g basmati rice , long grain rice or brown rice",
-		"2.0 tbsp toasted pumpkin seeds or sunflower seeds",
-		"½ cucumber , deseeded and finely chopped",
-		"1 small red pepper , deseeded and finely chopped"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "olive oil",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tbsp",
+				"value" : "2.0"
+			}
+		},
+		"? orange   juice only",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "apricots   chopped",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "dried",
+				"value" : "6"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "carrot   grated",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "large",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "basmati rice   long grain rice or brown rice",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "g",
+				"value" : "100.0"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "toasted pumpkin seeds or sunflower seeds",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tbsp",
+				"value" : "2.0"
+			}
+		},
+		"? cucumber   deseeded and finely chopped",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "red pepper   deseeded and finely chopped",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "small",
+				"value" : "1"
+			}
+		}
 	] 
 },
 {
@@ -385,20 +805,104 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT0.0M",
+	"totalTime": "PT0M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://simplyrecipes.com/recipes/rice_pilaf/"
 	}, 
 	"recipeIngredient": [
-		"2 cups white rice (preferably long grain)",
-		"2 teaspoons of chicken fat or olive oil",
-		"1/2 cup chopped onion - green onion (scallions) or yellow onion",
-		"1/2 cup chopped celery",
-		"Up to 4 cups of stock (amount depends on the type of rice you are using), either chicken stock or vegetable stock for vegetarian option, or a mix of water and stock*",
-		"2 teaspoons of Vegesal (or other seasoned salt)",
-		"1/4 teaspoon ground pepper",
-		"1/8 teaspoon cayenne"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "white rice (preferably long grain)",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cups",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "of chicken fat or olive oil",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoons",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "chopped onion - green onion (scallions) or yellow onion",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1/2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "chopped celery",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1/2"
+			}
+		},
+		"Up to 4 cups of stock (amount depends on the type of rice you are using)  either chicken stock or vegetable stock for vegetarian option  or a mix of water and stock*",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "of Vegesal (or other seasoned salt)",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoons",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "ground pepper",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoon",
+				"value" : "1/4"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "cayenne",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoon",
+				"value" : "1/8"
+			}
+		}
 	] 
 },
 {
@@ -425,16 +929,64 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT29.0M",
+	"totalTime": "PT29M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://herbivoracious.com/2009/03/coconut-rice-recipe.html"
 	}, 
 	"recipeIngredient": [
-		"1.5 cups jasmine or basmati rice",
-		"1 14 oz. can coconut milk",
-		"3/4 cup unsweetened dried shredded coconut",
-		"1 teaspoon salt"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "jasmine or basmati rice",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cups",
+				"value" : "1.5"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "can coconut milk",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "oz.",
+				"value" : "1 14"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "unsweetened dried shredded coconut",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "3/4"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "salt",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoon",
+				"value" : "1"
+			}
+		}
 	] 
 },
 {
@@ -467,11 +1019,59 @@
 		"url" : "http://www.epicurious.com/recipes/food/views/Persian-Rice-395037"
 	}, 
 	"recipeIngredient": [
-		"2 cups basmati rice",
-		"3 teaspoons kosher salt, divided",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "basmati rice",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cups",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "kosher salt  divided",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoons",
+				"value" : "3"
+			}
+		},
 		"Pinch of saffron threads",
-		"2 cups plain whole-milk yogurt",
-		"3 tablespoons unsalted butter"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "plain whole-milk yogurt",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cups",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "unsalted butter",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoons",
+				"value" : "3"
+			}
+		}
 	] 
 },
 {
@@ -498,14 +1098,38 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT30.0M",
+	"totalTime": "PT30M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://www.cookingchanneltv.com/recipes/robert-irvine/rice-balls.html"
 	}, 
 	"recipeIngredient": [
-		"1 pound sushi quality tuna, salmon, yellowtail, snapper",
-		"1 1/2 cups prepared vinegared sushi rice"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "sushi quality tuna  salmon  yellowtail  snapper",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pound",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "prepared vinegared sushi rice",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cups",
+				"value" : "1 1/2"
+			}
+		}
 	] 
 },
 {
@@ -538,14 +1162,110 @@
 		"url" : "http://www.bonappetit.com/recipe/coriander-rice"
 	}, 
 	"recipeIngredient": [
-		"1/2 cup olive oil",
-		"1 1/2 cups minced shallots (about 8)",
-		"3 tablespoons ground coriander",
-		"3/4 teaspoon turmeric",
-		"4 1/2 cups basmati rice or other long-grain white rice",
-		"9 cups low-salt chicken broth",
-		"3 teaspoons salt",
-		"1/2 cup chopped fresh italian parsley"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "olive oil",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1/2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "minced shallots (about 8)",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cups",
+				"value" : "1 1/2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "ground coriander",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoons",
+				"value" : "3"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "turmeric",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoon",
+				"value" : "3/4"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "basmati rice or other long-grain white rice",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cups",
+				"value" : "4 1/2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "low-salt chicken broth",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cups",
+				"value" : "9"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "salt",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoons",
+				"value" : "3"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "chopped fresh italian parsley",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1/2"
+			}
+		}
 	] 
 },
 {
@@ -572,18 +1292,66 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT40.0M",
+	"totalTime": "PT40M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://honestcooking.com/green-rice-recipe/"
 	}, 
 	"recipeIngredient": [
-		"1 cup (240 ml) brown rice",
-		"5 cups (1 l) water",
-		"½ cup chopped parsley",
-		"¼ cup sesame seeds",
-		"1 tablespoon olive oil",
-		"1 tablespoon soy sauce"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "(240 ml) brown rice",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "(1 l) water",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cups",
+				"value" : "5"
+			}
+		},
+		"? cup chopped parsley",
+		"? cup sesame seeds",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "olive oil",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoon",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "soy sauce",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoon",
+				"value" : "1"
+			}
+		}
 	] 
 },
 {
@@ -610,14 +1378,38 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT0.0M",
+	"totalTime": "PT0M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://steamykitchen.com/192-perfect-steamed-rice-update-from-china.html"
 	}, 
 	"recipeIngredient": [
-		"2 cup raw rice - long grain, jasmine or short grain rice, 380 g",
-		"2 1/2 cup cool water - 700 ml"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "raw rice - long grain  jasmine or short grain rice  380 g",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "cool water - 700 ml",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "2 1/2"
+			}
+		}
 	] 
 },
 {
@@ -644,21 +1436,57 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT30.0M",
+	"totalTime": "PT30M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "https://www.tastingtable.com/entry_detail/chefs_recipes/4424/A_rice_pudding_fit_for_emperors.htm"
 	}, 
 	"recipeIngredient": [
-		"½ cup forbidden rice or black glutinous rice",
+		"? cup forbidden rice or black glutinous rice",
 		"? cup short grain arborio rice",
-		"1½ cups water",
-		"1 tablespoon plus 1 teaspoon raw sugar",
-		"½ teaspoon kosher salt",
-		"¾ cup full-fat coconut milk",
-		"¼ cup plus 2 tablespoons cream of coconut (such as coco lopez)",
-		"1 mango, sliced",
-		"1 passion fruit, seeds and pulp removed"
+		"1? cups water",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "plus 1 teaspoon raw sugar",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoon",
+				"value" : "1"
+			}
+		},
+		"? teaspoon kosher salt",
+		"? cup full-fat coconut milk",
+		"? cup plus 2 tablespoons cream of coconut (such as coco lopez)",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "sliced",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "mango",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "fruit  seeds and pulp removed",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "passion",
+				"value" : "1"
+			}
+		}
 	] 
 },
 {
@@ -691,11 +1519,71 @@
 		"url" : "http://www.foodandwine.com/recipes/sushi-rice-masaharu-morimoto"
 	}, 
 	"recipeIngredient": [
-		"2 cups short-grain Japanese rice",
-		"1/4 cup sake-mash vinegar (or white wine vinegar)",
-		"1/4 cup rice vinegar",
-		"1/4 cup sugar",
-		"2 tablespoons salt"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "short-grain Japanese rice",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cups",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "sake-mash vinegar (or white wine vinegar)",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1/4"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "rice vinegar",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1/4"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "sugar",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1/4"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "salt",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoons",
+				"value" : "2"
+			}
+		}
 	] 
 },
 {
@@ -728,15 +1616,123 @@
 		"url" : "https://food52.com/recipes/12578-brown-rice-pudding"
 	}, 
 	"recipeIngredient": [
-		"2 1/2 cups brown rice",
-		"10 ounces extra firm organic tofu",
-		"1 cup almond (or rice) milk",
-		"1/2 cup brown rice syrup",
-		"6 medjool dates, pitted and chopped",
-		"1 teaspoon nutmeg",
-		"1 teaspoon cinnamon",
-		"1/2 teaspoon ground ginger",
-		"1 teaspoon vanilla",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "brown rice",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cups",
+				"value" : "2 1/2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "extra firm organic tofu",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "ounces",
+				"value" : "10"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "almond (or rice) milk",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "brown rice syrup",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1/2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "dates  pitted and chopped",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "medjool",
+				"value" : "6"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "nutmeg",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoon",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "cinnamon",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoon",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "ground ginger",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoon",
+				"value" : "1/2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "vanilla",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoon",
+				"value" : "1"
+			}
+		},
 		"Seeds of 1/2 vanilla bean",
 		"Nuts and raw sugar for sprinkling"
 	] 
@@ -771,13 +1767,85 @@
 		"url" : "http://www.chowhound.com/recipes/coconut-rice-14538"
 	}, 
 	"recipeIngredient": [
-		"2 tablespoons oil",
-		"1/4 cup chopped onion",
-		"3 cups jasmine rice or any other long-grain rice, washed",
-		"1 (13.5-ounce) can coconut milk",
-		"2 1/2 cups water, or as necessary (see “game plan” above)",
-		"1 tablespoon salt",
-		"1 tablespoon sugar",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "oil",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoons",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "chopped onion",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1/4"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "jasmine rice or any other long-grain rice  washed",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cups",
+				"value" : "3"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "(13.5-ounce) can coconut milk",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pcs",
+				"value" : "1"
+			}
+		},
+		"2 1/2 cups water  or as necessary (see ?game plan? above)",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "salt",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoon",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "sugar",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoon",
+				"value" : "1"
+			}
+		},
 		"Fried shallots for garnish"
 	] 
 },
@@ -805,14 +1873,38 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT0.0M",
+	"totalTime": "PT0M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://www.wholefoodsmarket.com/recipe/how-cook-brown-rice"
 	}, 
 	"recipeIngredient": [
-		"2 cups water",
-		"1 cup brown rice"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "water",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cups",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "brown rice",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1"
+			}
+		}
 	] 
 },
 {
@@ -839,17 +1931,41 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT0.0M",
+	"totalTime": "PT0M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://www.delish.com/cooking/recipe-ideas/recipes/a17244/sushi-rice-recipe-fw0911/"
 	}, 
 	"recipeIngredient": [
-		"2 c. short-grain Japanese rice",
-		"¼ c. sake-mash vinegar",
-		"¼ c. rice vinegar",
-		"¼ c. sugar",
-		"2 tbsp. salt"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "short-grain Japanese rice",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "c.",
+				"value" : "2"
+			}
+		},
+		"? c. sake-mash vinegar",
+		"? c. rice vinegar",
+		"? c. sugar",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "salt",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tbsp.",
+				"value" : "2"
+			}
+		}
 	] 
 },
 {
@@ -876,22 +1992,142 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT55.0M",
+	"totalTime": "PT55M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://www.latimes.com/food/la-fo-chinese-grandmarec1-20111222-story.html"
 	}, 
 	"recipeIngredient": [
-		"3 cups sweet rice",
-		"6 dried black mushrooms",
-		"2 ounces dried shrimp",
-		"6 cups boiling water, plus extra for rinsing and soaking the rice, mushrooms and shrimp",
-		"1 tablespoon vegetable or peanut oil",
-		"3 cloves garlic, minced",
-		"3 chinese-style sausages (lop cheong), diced",
-		"1 (14.5 ounce) can of chicken broth, divided",
-		"1 to 2 tablespoons light soy sauce, or to taste",
-		"1/2 teaspoon white pepper, or to taste"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "sweet rice",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cups",
+				"value" : "3"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "black mushrooms",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "dried",
+				"value" : "6"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "dried shrimp",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "ounces",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "boiling water  plus extra for rinsing and soaking the rice  mushrooms and shrimp",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cups",
+				"value" : "6"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "vegetable or peanut oil",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoon",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "garlic  minced",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cloves",
+				"value" : "3"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "chinese-style sausages (lop cheong)  diced",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pcs",
+				"value" : "3"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "(14.5 ounce) can of chicken broth  divided",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pcs",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "2 tablespoons light soy sauce  or to taste",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "to",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "white pepper  or to taste",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoon",
+				"value" : "1/2"
+			}
+		}
 	] 
 },
 {
@@ -918,23 +2154,155 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT0.0M",
+	"totalTime": "PT0M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://www.realsimple.com/food-recipes/browse-all-recipes/turkey-fried-rice"
 	}, 
 	"recipeIngredient": [
-		"3/4 cup long-grain white rice",
-		"2 tbsps canola oil",
-		"1/2 lb ground turkey",
-		"1 tbsp chopped garlic",
-		"1 tbsp chopped ginger",
-		"4 scallions, sliced",
-		"1 cup frozen peas",
-		"1 cup snow peas, halved",
-		"4 carrots, sliced",
-		"2 tbsps hoisin sauce",
-		"2 tbsps rice vinegar"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "long-grain white rice",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "3/4"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "canola oil",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tbsps",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "ground turkey",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "lb",
+				"value" : "1/2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "chopped garlic",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tbsp",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "chopped ginger",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tbsp",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "sliced",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "scallions",
+				"value" : "4"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "frozen peas",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "snow peas  halved",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "sliced",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "carrots",
+				"value" : "4"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "hoisin sauce",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tbsps",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "rice vinegar",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tbsps",
+				"value" : "2"
+			}
+		}
 	] 
 },
 {
@@ -961,23 +2329,143 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT0.0M",
+	"totalTime": "PT0M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://www.joythebaker.com/blog/2009/11/brown-rice-rice-pudding/"
 	}, 
 	"recipeIngredient": [
-		"4 cup water",
-		"1 cup brown rice",
-		"1/2 tsp salt",
-		"2 tbsp butter",
-		"4 cup whole milk",
-		"2 tbsp sugar",
-		"2 tbsp honey",
-		"1/2 x vanilla bean, split open (or 1 teaspoon vanilla extract)",
-		"1 x cinnamon stick",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "water",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "4"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "brown rice",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "salt",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tsp",
+				"value" : "1/2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "butter",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tbsp",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "whole milk",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "4"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "sugar",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tbsp",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "honey",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tbsp",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "vanilla bean  split open (or 1 teaspoon vanilla extract)",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "x",
+				"value" : "1/2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "cinnamon stick",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "x",
+				"value" : "1"
+			}
+		},
 		"pinch of ground cardamom",
-		"1/2 cup dried sour cherries (or any dried fruit you fancy)"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "dried sour cherries (or any dried fruit you fancy)",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1/2"
+			}
+		}
 	] 
 },
 {
@@ -1004,15 +2492,51 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT0.0M",
+	"totalTime": "PT0M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://www.myrecipes.com/recipe/easy-rice-pudding-10000001582788/"
 	}, 
 	"recipeIngredient": [
-		"2 cups instant rice (such as Minute Rice)",
-		"1/2 cup vanilla ice cream",
-		"1/2 teaspoon ground cinnamon, plus more for garnishing (optional)"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "instant rice (such as Minute Rice)",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cups",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "vanilla ice cream",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1/2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "ground cinnamon  plus more for garnishing (optional)",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoon",
+				"value" : "1/2"
+			}
+		}
 	] 
 },
 {
@@ -1039,15 +2563,27 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT0.0M",
+	"totalTime": "PT0M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://www.goodhousekeeping.com/food-recipes/a7916/rice-above-it-4132/"
 	}, 
 	"recipeIngredient": [
-		"1¾ c. water",
-		"1 c. long-grain rice",
-		"½ tsp. salt"
+		"1? c. water",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "long-grain rice",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "c.",
+				"value" : "1"
+			}
+		},
+		"? tsp. salt"
 	] 
 },
 {
@@ -1074,18 +2610,90 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT0.0M",
+	"totalTime": "PT0M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://www.donalskehan.com/2011/03/sushi-rice-and-seasoning/"
 	}, 
 	"recipeIngredient": [
-		"250 g sushi rice",
-		"325 ml water",
-		"2 tbsps sushi rice seasoning",
-		"500 ml rice vinegar",
-		"300 g sugar",
-		"150 g salt"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "sushi rice",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "g",
+				"value" : "250"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "water",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "ml",
+				"value" : "325"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "sushi rice seasoning",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tbsps",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "rice vinegar",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "ml",
+				"value" : "500"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "sugar",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "g",
+				"value" : "300"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "salt",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "g",
+				"value" : "150"
+			}
+		}
 	] 
 },
 {
@@ -1112,19 +2720,79 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT0.0M",
+	"totalTime": "PT0M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://www.cookstr.com/recipes/rice-pudding-2"
 	}, 
 	"recipeIngredient": [
-		"1 cup rice , parboiled, not instant",
-		"2 cups heavy cream",
-		"1 vanilla bean , split lengthwise",
-		"¼ cup granulated sugar",
-		"½ cup raisins",
-		"2 egg yolks",
-		"2 cups milk"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "rice   parboiled  not instant",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "heavy cream",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cups",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "bean   split lengthwise",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "vanilla",
+				"value" : "1"
+			}
+		},
+		"? cup granulated sugar",
+		"? cup raisins",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "yolks",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "egg",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "milk",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cups",
+				"value" : "2"
+			}
+		}
 	] 
 },
 {
@@ -1151,19 +2819,31 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT45.0M",
+	"totalTime": "PT45M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://www.kitchendaily.com/recipe/crisp-sushi-rice-cakes"
 	}, 
 	"recipeIngredient": [
-		"1 cup sushi rice, rinsed",
-		"1 ½ cup water",
-		"½ Tbsp mirin",
-		"½ tsp rice vinegar",
-		"½ tsp sugar",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "sushi rice  rinsed",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1"
+			}
+		},
+		"1 ? cup water",
+		"? Tbsp mirin",
+		"? tsp rice vinegar",
+		"? tsp sugar",
 		"salt",
-		"vegetable oil, for frying"
+		"vegetable oil  for frying"
 	] 
 },
 {
@@ -1190,19 +2870,55 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT40.0M",
+	"totalTime": "PT40M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://pinchofyum.com/wild-rice-flatbread"
 	}, 
 	"recipeIngredient": [
-		"2 cups cooked wild rice (or “instant” wild rice, wild rice blend, etc)",
-		"½ cup water",
-		"2 egg whites",
-		"1 clove of garlic",
-		"1 tbs. flaxseed meal",
+		"2 cups cooked wild rice (or ?instant? wild rice  wild rice blend  etc)",
+		"? cup water",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "whites",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "egg",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "of garlic",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "clove",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "flaxseed meal",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tbs.",
+				"value" : "1"
+			}
+		},
 		"seasoning",
-		"½ tbs. olive oil + salt + pepper",
+		"? tbs. olive oil + salt + pepper",
 		"salt",
 		"pepper"
 	] 
@@ -1231,15 +2947,39 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT0.0M",
+	"totalTime": "PT0M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://www.bbcgoodfood.com/recipes/2087/saffron-wild-rice"
 	}, 
 	"recipeIngredient": [
 		"Good pinch of saffron",
-		"600.0ml hot vegetable stock",
-		"300.0g basmati rice and wild rice (tilda is a good choice)"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "hot vegetable stock",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "ml",
+				"value" : "600.0"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "basmati rice and wild rice (tilda is a good choice)",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "g",
+				"value" : "300.0"
+			}
+		}
 	] 
 },
 {
@@ -1266,17 +3006,53 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT0.0M",
+	"totalTime": "PT0M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://www.williams-sonoma.com/recipe/morimoto-s-sushi-rice.html"
 	}, 
 	"recipeIngredient": [
 		"One 2-inch (5-cm) piece of kombu (dried kelp)",
-		"1 cup (8 fl. oz./250 ml) unseasoned rice vinegar",
-		"1/2 cup (4 oz./125 g) granulated sugar",
-		"1/4 cup (1 1/4 oz./35 g) kosher salt",
-		"3 cups (21 oz./655 g) short-grain white rice (“sushi rice”)"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "(8 fl. oz./250 ml) unseasoned rice vinegar",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "(4 oz./125 g) granulated sugar",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1/2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "(1 1/4 oz./35 g) kosher salt",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1/4"
+			}
+		},
+		"3 cups (21 oz./655 g) short-grain white rice (?sushi rice?)"
 	] 
 },
 {
@@ -1303,16 +3079,64 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT30.0M",
+	"totalTime": "PT30M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://www.marthastewart.com/313745/ginger-rice"
 	}, 
 	"recipeIngredient": [
-		"2 tablespoons grated and peeled fresh ginger",
-		"1 teaspoon sugar",
-		"1 teaspoon coarse salt",
-		"2 cups jasmine rice"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "grated and peeled fresh ginger",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoons",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "sugar",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoon",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "coarse salt",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoon",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "jasmine rice",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cups",
+				"value" : "2"
+			}
+		}
 	] 
 },
 {
@@ -1346,7 +3170,19 @@
 	}, 
 	"recipeIngredient": [
 		"1 1?2 cups long-grain wild rice",
-		"4 cups chicken stock"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "chicken stock",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cups",
+				"value" : "4"
+			}
+		}
 	] 
 },
 {
@@ -1373,18 +3209,90 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT0.0M",
+	"totalTime": "PT0M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://www.food52.com/recipes/10469_purple_tai_rice_cooker_sticky_rice"
 	}, 
 	"recipeIngredient": [
-		"1 shallot",
-		"4 garlic cloves",
-		"1 cup purple rice",
-		"2 cups water or broth",
-		"1 dash kosher salt",
-		"1 splash olive oil"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "shallot",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pcs",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "cloves",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "garlic",
+				"value" : "4"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "purple rice",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "water or broth",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cups",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "kosher salt",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "dash",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "olive oil",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "splash",
+				"value" : "1"
+			}
+		}
 	] 
 },
 {
@@ -1411,19 +3319,103 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT40.0M",
+	"totalTime": "PT40M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://www.epicurious.com/recipes/food/views/yellow-rice-232707"
 	}, 
 	"recipeIngredient": [
-		"2 teaspoons vegetable oil",
-		"2 tablespoons chopped shallot",
-		"1 garlic clove, chopped",
-		"1 1/2 cups jasmine rice or basmati rice, well rinsed",
-		"2 1/4 cups low-salt chicken broth",
-		"1 teaspoon (scant) salt",
-		"1/2 teaspoon (scant) turmeric"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "vegetable oil",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoons",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "chopped shallot",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoons",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "clove  chopped",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "garlic",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "jasmine rice or basmati rice  well rinsed",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cups",
+				"value" : "1 1/2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "low-salt chicken broth",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cups",
+				"value" : "2 1/4"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "(scant) salt",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoon",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "(scant) turmeric",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoon",
+				"value" : "1/2"
+			}
+		}
 	] 
 },
 {
@@ -1450,16 +3442,52 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT0.0M",
+	"totalTime": "PT0M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://www.rachaelray.com/recipe/rice-pilaf/"
 	}, 
 	"recipeIngredient": [
-		"3 tablespoons butter",
-		"1/4-1/3 cup 1-inch pieces broken thin spaghetti (a small handful), regular or whole grain",
-		"1 cup white rice",
-		"2 cups chicken stock"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "butter",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoons",
+				"value" : "3"
+			}
+		},
+		"1/4-1/3 cup 1-inch pieces broken thin spaghetti (a small handful)  regular or whole grain",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "white rice",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "chicken stock",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cups",
+				"value" : "2"
+			}
+		}
 	] 
 },
 {
@@ -1492,10 +3520,58 @@
 		"url" : "http://www.bonappetit.com/recipe/coconut-rice"
 	}, 
 	"recipeIngredient": [
-		"2 cups jasmine rice",
-		"1 cup coconut cream",
-		"1 1/2 tablespoons sugar",
-		"1 teaspoon kosher salt"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "jasmine rice",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cups",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "coconut cream",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "sugar",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoons",
+				"value" : "1 1/2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "kosher salt",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoon",
+				"value" : "1"
+			}
+		}
 	] 
 },
 {
@@ -1522,14 +3598,14 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT30.0M",
+	"totalTime": "PT30M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://www.kitchendaily.com/recipe/broth-simmered-rice"
 	}, 
 	"recipeIngredient": [
-		"1 can (14 ounce) Swanson® Vegetable Broth",
-		"¾ cup uncooked regular long-grain white rice"
+		"1 can (14 ounce) Swanson? Vegetable Broth",
+		"? cup uncooked regular long-grain white rice"
 	] 
 },
 {
@@ -1556,15 +3632,39 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT30.0M",
+	"totalTime": "PT30M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://www.delish.com/cooking/recipe-ideas/recipes/a35908/wild-rice-recipe-clv0913/"
 	}, 
 	"recipeIngredient": [
-		"1 c. wild rice",
-		"2 c. water",
-		"½ tsp. salt"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "wild rice",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "c.",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "water",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "c.",
+				"value" : "2"
+			}
+		},
+		"? tsp. salt"
 	] 
 },
 {
@@ -1591,20 +3691,92 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT0.0M",
+	"totalTime": "PT0M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://www.foodandwine.com/recipes/mango-sticky-rice"
 	}, 
 	"recipeIngredient": [
-		"1 1/2 cups sticky rice (3/4 pound)",
-		"2 1/4 cups unsweetened coconut milk",
-		"1/4 cup plus 2 tablespoons sugar",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "sticky rice (3/4 pound)",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cups",
+				"value" : "1 1/2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "unsweetened coconut milk",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cups",
+				"value" : "2 1/4"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "plus 2 tablespoons sugar",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1/4"
+			}
+		},
 		"Salt",
-		"1 tablespoon vegetable oil",
-		"1/2 cup unsweetened puffed rice",
-		"Banana leaves, for serving (optional)",
-		"2 mangoes, peeled and cut into 3-inch sticks"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "vegetable oil",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoon",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "unsweetened puffed rice",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1/2"
+			}
+		},
+		"Banana leaves  for serving (optional)",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "peeled and cut into 3-inch sticks",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "mangoes",
+				"value" : "2"
+			}
+		}
 	] 
 },
 {
@@ -1631,22 +3803,130 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT55.0M",
+	"totalTime": "PT55M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://www.cookingchanneltv.com/recipes/robert-irvine/rice-pudding.html"
 	}, 
 	"recipeIngredient": [
-		"5 cups whole milk",
-		"3/4 cup short-grain white rice (if unable to locate, try medium-grain white rice in the spanish foods section of store)",
-		"1/8 teaspoon salt",
-		"1/4 cup granulated white sugar",
-		"1/4 cup vanilla extract",
-		"3/4 cup golden seedless raisins pre-soaked in warm water",
-		"2 egg yolks",
-		"1 cup heavy cream",
-		"2 tablespoons butter",
-		"Ground cinnamon, optional"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "whole milk",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cups",
+				"value" : "5"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "short-grain white rice (if unable to locate  try medium-grain white rice in the spanish foods section of store)",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "3/4"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "salt",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoon",
+				"value" : "1/8"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "granulated white sugar",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1/4"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "vanilla extract",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1/4"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "golden seedless raisins pre-soaked in warm water",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "3/4"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "yolks",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "egg",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "heavy cream",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "butter",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoons",
+				"value" : "2"
+			}
+		},
+		"Ground cinnamon  optional"
 	] 
 },
 {
@@ -1679,8 +3959,32 @@
 		"url" : "http://www.marthastewart.com/315782/cooked-basmati-rice"
 	}, 
 	"recipeIngredient": [
-		"1 cup basmati rice",
-		"1/4 teaspoon salt"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "basmati rice",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "salt",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoon",
+				"value" : "1/4"
+			}
+		}
 	] 
 },
 {
@@ -1707,21 +4011,129 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT0.0M",
+	"totalTime": "PT0M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://www.myrecipes.com/recipe/rice-pudding-10000001662877/"
 	}, 
 	"recipeIngredient": [
-		"2 cups cooked Arborio rice or other short-grain rice",
-		"3 1/2 cups fat-free milk",
-		"1/3 cup sugar",
-		"1/4 cup nonfat dry milk",
-		"1/4 teaspoon salt",
-		"2 large eggs, beaten",
-		"1/4 cup golden raisins",
-		"1 teaspoon vanilla extract",
-		"1 teaspoon ground cinnamon"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "cooked Arborio rice or other short-grain rice",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cups",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "fat-free milk",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cups",
+				"value" : "3 1/2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "sugar",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1/3"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "nonfat dry milk",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1/4"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "salt",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoon",
+				"value" : "1/4"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "eggs  beaten",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "large",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "golden raisins",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1/4"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "vanilla extract",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoon",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "ground cinnamon",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoon",
+				"value" : "1"
+			}
+		}
 	] 
 },
 {
@@ -1748,14 +4160,26 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT51.0M",
+	"totalTime": "PT51M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://www.saveur.com/perfect-brown-rice-recipe"
 	}, 
 	"recipeIngredient": [
-		"1 cup short, medium, or long-grain brown rice",
-		"Kosher salt, to taste"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "short  medium  or long-grain brown rice",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1"
+			}
+		},
+		"Kosher salt  to taste"
 	] 
 },
 {
@@ -1788,13 +4212,97 @@
 		"url" : "https://food52.com/recipes/764-perfumed-rice"
 	}, 
 	"recipeIngredient": [
-		"1 cup rice",
-		"2 cardamon pods",
-		"2 cloves",
-		"1 cinnamon stick",
-		"100 gram chopped pistachio nuts",
-		"1 onion",
-		"1 pinch saffron",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "rice",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "pods",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cardamon",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "cloves",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pcs",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "stick",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cinnamon",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "chopped pistachio nuts",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "gram",
+				"value" : "100"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "onion",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pcs",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "saffron",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pinch",
+				"value" : "1"
+			}
+		},
 		"Sun flower oil"
 	] 
 },
@@ -1822,19 +4330,103 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT0.0M",
+	"totalTime": "PT0M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://www.wholefoodsmarket.com/recipes/2679"
 	}, 
 	"recipeIngredient": [
-		"2 tablespoons brown rice or light yellow miso",
-		"1 1/2 cups chopped fresh pineapple",
-		"1 tablespoon finely grated ginger",
-		"1/4 cup chopped cilantro",
-		"3/4 cup vegetable broth",
-		"2 cups shelled edamame",
-		"4 cups cooked brown rice"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "brown rice or light yellow miso",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoons",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "chopped fresh pineapple",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cups",
+				"value" : "1 1/2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "finely grated ginger",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoon",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "chopped cilantro",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1/4"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "vegetable broth",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "3/4"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "shelled edamame",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cups",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "cooked brown rice",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cups",
+				"value" : "4"
+			}
+		}
 	] 
 },
 {
@@ -1861,20 +4453,68 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT0.0M",
+	"totalTime": "PT0M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://www.bbcgoodfood.com/recipes/1344/sticky-rice-and-mango"
 	}, 
 	"recipeIngredient": [
 		"2-4 tbsp coconut cream (you can freeze the rest)",
-		"3.0 tbsp granulated sugar",
-		"¼ tsp salt",
-		"300.0g sticky rice (a glutinous rice, sometimes sold as sushi rice)",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "granulated sugar",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tbsp",
+				"value" : "3.0"
+			}
+		},
+		"? tsp salt",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "sticky rice (a glutinous rice  sometimes sold as sushi rice)",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "g",
+				"value" : "300.0"
+			}
+		},
 		"2-3 ripe mangoes",
-		"Banana leaves , for serving if you can find them",
-		"1.0 tbsp toasted sesame seeds",
-		"250.0ml coconut milk"
+		"Banana leaves   for serving if you can find them",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "toasted sesame seeds",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tbsp",
+				"value" : "1.0"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "coconut milk",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "ml",
+				"value" : "250.0"
+			}
+		}
 	] 
 },
 {
@@ -1901,17 +4541,77 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT0.0M",
+	"totalTime": "PT0M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://www.bonappetit.com/recipe/black-rice-coconut"
 	}, 
 	"recipeIngredient": [
-		"1/4 cup unsweetened flaked organic coconut",
-		"1 cup black rice (such as Lotus Foods Forbidden Rice)",
-		"1 3" lemongrass tip (optional)",
-		"1 2" piece peeled ginger, sliced into 4 coins",
-		"1/2 tsp kosher salt, plus more to taste"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "unsweetened flaked organic coconut",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1/4"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "black rice (such as Lotus Foods Forbidden Rice)",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "tip (optional)",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "lemongrass",
+				"value" : "1 3"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "peeled ginger  sliced into 4 coins",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "piece",
+				"value" : "1 2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "kosher salt  plus more to taste",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tsp",
+				"value" : "1/2"
+			}
+		}
 	] 
 },
 {
@@ -1938,26 +4638,98 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT0.0M",
+	"totalTime": "PT0M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://www.goodhousekeeping.com/food-recipes/a7502/citrus-bay-pudding-rice-crisps-3795/"
 	}, 
 	"recipeIngredient": [
-		"3 c. crisped rice cereal",
-		"2 oz. marshmallows",
-		"2 tbsp. unsalted butter",
-		"4 c. milk",
-		"Zest of 1 orange, juice reserved",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "crisped rice cereal",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "c.",
+				"value" : "3"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "marshmallows",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "oz.",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "unsalted butter",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tbsp.",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "milk",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "c.",
+				"value" : "4"
+			}
+		},
+		"Zest of 1 orange  juice reserved",
 		"Zest of 1 lemon",
 		"Zest of 1 lime",
-		"3 bay leaves",
-		"¼ vanilla bean",
-		"½ stick cinnamon",
-		"½ c. sugar",
-		"¼ tsp. salt",
-		"½ c. Arborio rice",
-		"1 c. heavy cream"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "leaves",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "bay",
+				"value" : "3"
+			}
+		},
+		"? vanilla bean",
+		"? stick cinnamon",
+		"? c. sugar",
+		"? tsp. salt",
+		"? c. Arborio rice",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "heavy cream",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "c.",
+				"value" : "1"
+			}
+		}
 	] 
 },
 {
@@ -1984,15 +4756,51 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT0.0M",
+	"totalTime": "PT0M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://www.myrecipes.com/recipe/red-rice-10000001224879/"
 	}, 
 	"recipeIngredient": [
-		"1/3 to 1/2 cup jarred salsa",
-		"1/4 teaspoon kosher salt",
-		"1 cup long-grain white rice"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "1/2 cup jarred salsa",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "to",
+				"value" : "1/3"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "kosher salt",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoon",
+				"value" : "1/4"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "long-grain white rice",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1"
+			}
+		}
 	] 
 },
 {
@@ -2019,19 +4827,79 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT0.0M",
+	"totalTime": "PT0M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://www.foodandwine.com/recipes/crisp-sushi-rice-cakes"
 	}, 
 	"recipeIngredient": [
-		"1 cup sushi rice, rinsed",
-		"1 1/2 cups water",
-		"1/2 tablespoon mirin",
-		"1/2 teaspoon rice vinegar",
-		"1/2 teaspoon sugar",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "sushi rice  rinsed",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "water",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cups",
+				"value" : "1 1/2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "mirin",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoon",
+				"value" : "1/2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "rice vinegar",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoon",
+				"value" : "1/2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "sugar",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoon",
+				"value" : "1/2"
+			}
+		},
 		"Salt",
-		"Vegetable oil, for frying"
+		"Vegetable oil  for frying"
 	] 
 },
 {
@@ -2064,13 +4932,97 @@
 		"url" : "http://www.delish.com/cooking/recipe-ideas/recipes/a19437/brown-rice-sushi-recipe-del0312/"
 	}, 
 	"recipeIngredient": [
-		"1 c. brown short-grain rice",
-		"2 c. water",
-		"1 tbsp. rice vinegar",
-		"3 sheets toasted nori (yaki-nori)",
-		"1 Lebanese cucumber",
-		"1 oz. snow pea sprouts",
-		"2 tbsp. Japanese soy sauce"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "brown short-grain rice",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "c.",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "water",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "c.",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "rice vinegar",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tbsp.",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "toasted nori (yaki-nori)",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "sheets",
+				"value" : "3"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "cucumber",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "Lebanese",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "snow pea sprouts",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "oz.",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "Japanese soy sauce",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tbsp.",
+				"value" : "2"
+			}
+		}
 	] 
 },
 {
@@ -2097,18 +5049,54 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT30.0M",
+	"totalTime": "PT30M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://www.goodhousekeeping.com/food-recipes/a4355/rice-pilaf-1108/"
 	}, 
 	"recipeIngredient": [
-		"1 c. chicken or vegetable broth",
-		"½ c. regular long-grain rice",
-		"¼ c. celery",
-		"¼ c. green pepper",
-		"1 small green onion",
-		"2 tbsp. chopped fresh parsley leaves"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "chicken or vegetable broth",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "c.",
+				"value" : "1"
+			}
+		},
+		"? c. regular long-grain rice",
+		"? c. celery",
+		"? c. green pepper",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "green onion",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "small",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "chopped fresh parsley leaves",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tbsp.",
+				"value" : "2"
+			}
+		}
 	] 
 },
 {
@@ -2135,15 +5123,51 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT0.0M",
+	"totalTime": "PT0M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://www.marthastewart.com/1049924/saffron-rice"
 	}, 
 	"recipeIngredient": [
-		"2 pinches of saffron, crumbled",
-		"1/4 cup boiling water",
-		"1 cup basmati rice",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "of saffron  crumbled",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pinches",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "boiling water",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1/4"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "basmati rice",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1"
+			}
+		},
 		"Kosher salt and freshly ground black pepper"
 	] 
 },
@@ -2171,20 +5195,116 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT0.0M",
+	"totalTime": "PT0M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://www.bbcgoodfood.com/recipes/1072/"
 	}, 
 	"recipeIngredient": [
-		"2 large spring onions , finely sliced",
-		"1.0 tbsp soy sauce",
-		"2 eggs",
-		"85.0g carrots , diced",
-		"25.0g butter",
-		"85.0g frozen peas",
-		"1.0 tbsp vegetable oil",
-		"200.0g basmati rice (or use cooked rice)"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "spring onions   finely sliced",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "large",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "soy sauce",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tbsp",
+				"value" : "1.0"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "eggs",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pcs",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "carrots   diced",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "g",
+				"value" : "85.0"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "butter",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "g",
+				"value" : "25.0"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "frozen peas",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "g",
+				"value" : "85.0"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "vegetable oil",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tbsp",
+				"value" : "1.0"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "basmati rice (or use cooked rice)",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "g",
+				"value" : "200.0"
+			}
+		}
 	] 
 },
 {
@@ -2217,22 +5337,154 @@
 		"url" : "https://food52.com/recipes/15176-dirty-rice"
 	}, 
 	"recipeIngredient": [
-		"1 cup parboiled rice (this kind of rice is very forgiving and doesn't get sticky - i use zatarains but any kind is fine)",
-		"1 link andouille sausage",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "parboiled rice (this kind of rice is very forgiving and doesn't get sticky - i use zatarains but any kind is fine)",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "andouille sausage",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "link",
+				"value" : "1"
+			}
+		},
 		"Liver from your turkey",
-		"1/4 cup diced onion",
-		"1/4 cup diced green pepper",
-		"1/4 cup diced celery",
-		"2-3 big garlic cloves, minced",
-		"1 teaspoon dried thyme",
-		"5 leaves fresh sage - minced",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "diced onion",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1/4"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "diced green pepper",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1/4"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "diced celery",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1/4"
+			}
+		},
+		"2-3 big garlic cloves  minced",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "dried thyme",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoon",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "fresh sage - minced",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "leaves",
+				"value" : "5"
+			}
+		},
 		"Chicken stock to cover the rice - at least 2 cups",
-		"2 teaspoons smoked paprika",
-		"2 bay leaves",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "smoked paprika",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoons",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "leaves",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "bay",
+				"value" : "2"
+			}
+		},
 		"A pinch pf cayenne (or more depending on your need for heat)",
-		"2 tablespoons butter",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "butter",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoons",
+				"value" : "2"
+			}
+		},
 		"Salt and pepper",
-		"4 chopped green onions"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "green onions",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "chopped",
+				"value" : "4"
+			}
+		}
 	] 
 },
 {
@@ -2259,19 +5511,67 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT0.0M",
+	"totalTime": "PT0M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://www.delish.com/cooking/recipe-ideas/recipes/a26584/wild-rice-pilaf-4266/"
 	}, 
 	"recipeIngredient": [
-		"4½ c. vegetable or chicken broth",
-		"3 tbsp. olive oil",
-		"6 tbsp. minced shallots",
-		"2 tbsp. minced garlic",
-		"1½ c. wild rice or wild rice blend",
-		"1 tsp. salt",
-		"½ tsp. ground black pepper"
+		"4? c. vegetable or chicken broth",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "olive oil",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tbsp.",
+				"value" : "3"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "minced shallots",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tbsp.",
+				"value" : "6"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "minced garlic",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tbsp.",
+				"value" : "2"
+			}
+		},
+		"1? c. wild rice or wild rice blend",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "salt",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tsp.",
+				"value" : "1"
+			}
+		},
+		"? tsp. ground black pepper"
 	] 
 },
 {
@@ -2298,18 +5598,90 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT0.0M",
+	"totalTime": "PT0M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://www.myrecipes.com/recipe/green-tea-rice-10000000610502/"
 	}, 
 	"recipeIngredient": [
-		"2 teaspoons loose Sencha or Bancha tea, or the tea from 2 green-tea bags",
-		"1/2 cup white rice",
-		"1 cup water",
-		"1 tablespoon sugar",
-		"1 tablespoon rice vinegar",
-		"1/4 teaspoon kosher salt"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "loose Sencha or Bancha tea  or the tea from 2 green-tea bags",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoons",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "white rice",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1/2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "water",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "sugar",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoon",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "rice vinegar",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoon",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "kosher salt",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoon",
+				"value" : "1/4"
+			}
+		}
 	] 
 },
 {
@@ -2336,14 +5708,38 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT35.0M",
+	"totalTime": "PT35M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://www.marthastewart.com/338796/perfect-white-rice"
 	}, 
 	"recipeIngredient": [
-		"1 teaspoon coarse salt",
-		"1 cup unconverted white rice"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "coarse salt",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoon",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "unconverted white rice",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1"
+			}
+		}
 	] 
 },
 {
@@ -2376,10 +5772,58 @@
 		"url" : "https://food52.com/recipes/9297-rice-with-pomegranate"
 	}, 
 	"recipeIngredient": [
-		"4.2 ounces patna rice",
-		"1/2 pomegranate",
-		"1 shallot",
-		"1 teaspoon cumin seeds",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "patna rice",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "ounces",
+				"value" : "4.2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "pomegranate",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pcs",
+				"value" : "1/2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "shallot",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pcs",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "cumin seeds",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoon",
+				"value" : "1"
+			}
+		},
 		"4-5 cardamom pods",
 		"Knob of butter",
 		"Salt to taste"
@@ -2415,8 +5859,32 @@
 		"url" : "http://www.marthastewart.com/347002/perfect-white-rice"
 	}, 
 	"recipeIngredient": [
-		"1 cup long-grain white rice",
-		"1/2 teaspoon salt"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "long-grain white rice",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "salt",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoon",
+				"value" : "1/2"
+			}
+		}
 	] 
 },
 {
@@ -2443,17 +5911,29 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT45.0M",
+	"totalTime": "PT45M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://www.delish.com/cooking/recipe-ideas/recipes/a14355/crisp-sushi-rice-cakes-recipe-fw0211/"
 	}, 
 	"recipeIngredient": [
-		"1 c. sushi rice",
-		"1½ c. water",
-		"½ tbsp. mirin",
-		"½ tsp. rice vinegar",
-		"½ tsp. sugar",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "sushi rice",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "c.",
+				"value" : "1"
+			}
+		},
+		"1? c. water",
+		"? tbsp. mirin",
+		"? tsp. rice vinegar",
+		"? tsp. sugar",
 		"salt",
 		"vegetable oil"
 	] 
@@ -2482,18 +5962,90 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT0.0M",
+	"totalTime": "PT0M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://www.myrecipes.com/recipe/lemon-rice-10000001673214/"
 	}, 
 	"recipeIngredient": [
-		"1 garlic clove",
-		"2 cups chicken broth",
-		"2 tablespoons butter",
-		"1/2 teaspoon salt",
-		"1 cup basmati rice",
-		"1 tablespoon grated lemon rind"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "clove",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "garlic",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "chicken broth",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cups",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "butter",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoons",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "salt",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoon",
+				"value" : "1/2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "basmati rice",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "grated lemon rind",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoon",
+				"value" : "1"
+			}
+		}
 	] 
 },
 {
@@ -2520,18 +6072,78 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT0.0M",
+	"totalTime": "PT0M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://food52.com/recipes/31191-tomato-rice"
 	}, 
 	"recipeIngredient": [
-		"2 tablespoons unsalted butter",
-		"1 small onion, diced",
-		"1/2 red bell pepper, seeded and diced",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "unsalted butter",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoons",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "onion  diced",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "small",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "bell pepper  seeded and diced",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "red",
+				"value" : "1/2"
+			}
+		},
 		"Salt",
-		"1 cup chopped tomatoes (fresh or canned)",
-		"1 cup long grain brown rice"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "chopped tomatoes (fresh or canned)",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "long grain brown rice",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1"
+			}
+		}
 	] 
 },
 {
@@ -2558,17 +6170,77 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT0.0M",
+	"totalTime": "PT0M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://www.myrecipes.com/recipe/cashew-rice-50400000117845/"
 	}, 
 	"recipeIngredient": [
-		"1 cup water",
-		"1/2 cup long-grain rice",
-		"1/4 teaspoon salt",
-		"1/3 cup sliced green onions",
-		"1/4 cup chopped unsalted cashews"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "water",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "long-grain rice",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1/2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "salt",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoon",
+				"value" : "1/4"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "sliced green onions",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1/3"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "chopped unsalted cashews",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1/4"
+			}
+		}
 	] 
 },
 {
@@ -2601,8 +6273,32 @@
 		"url" : "http://www.marthastewart.com/316935/simple-white-rice"
 	}, 
 	"recipeIngredient": [
-		"3 cups salted water",
-		"2 cups long-grain white rice"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "salted water",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cups",
+				"value" : "3"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "long-grain white rice",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cups",
+				"value" : "2"
+			}
+		}
 	] 
 },
 {
@@ -2635,11 +6331,59 @@
 		"url" : "https://food52.com/recipes/12995-basmati-rice-iranian-with-tahdig"
 	}, 
 	"recipeIngredient": [
-		"3 cups basmati rice",
-		"1 tablespoon salt to soak rice then more for cooking.",
-		"2 tablespoons butter",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "basmati rice",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cups",
+				"value" : "3"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "salt to soak rice then more for cooking.",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoon",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "butter",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoons",
+				"value" : "2"
+			}
+		},
 		"Generous pinch saffron",
-		"1/4 cup water"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "water",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1/4"
+			}
+		}
 	] 
 },
 {
@@ -2666,20 +6410,116 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT15.0M",
+	"totalTime": "PT15M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://www.delish.com/cooking/recipe-ideas/recipes/a18394/veggie-fried-rice-recipe-122414/"
 	}, 
 	"recipeIngredient": [
-		"2 tbsp. canola oil",
-		"2 bag frozen broccoli stir-fry blend",
-		"2 clove garlic",
-		"2 c. Cooked brown or white rice",
-		"2 scallions",
-		"4 large eggs",
-		"3 tbsp. low-sodium soy sauce",
-		"2 tbsp. rice wine"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "canola oil",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tbsp.",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "frozen broccoli stir-fry blend",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "bag",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "garlic",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "clove",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "Cooked brown or white rice",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "c.",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "scallions",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pcs",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "eggs",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "large",
+				"value" : "4"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "low-sodium soy sauce",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tbsp.",
+				"value" : "3"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "rice wine",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tbsp.",
+				"value" : "2"
+			}
+		}
 	] 
 },
 {
@@ -2706,21 +6546,105 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT35.0M",
+	"totalTime": "PT35M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://www.delish.com/cooking/recipe-ideas/recipes/a21638/fried-rice-ham-recipe-mslo1013/"
 	}, 
 	"recipeIngredient": [
-		"2 tbsp. vegetable oil",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "vegetable oil",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tbsp.",
+				"value" : "2"
+			}
+		},
 		"Coarse salt",
-		"3 large eggs",
-		"4 scallions",
-		"4 clove garlic",
-		"5 oz. ham",
-		"3 tbsp. rice vinegar",
-		"1½ c. frozen peas",
-		"4 c. cooked rice"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "eggs",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "large",
+				"value" : "3"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "scallions",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pcs",
+				"value" : "4"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "garlic",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "clove",
+				"value" : "4"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "ham",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "oz.",
+				"value" : "5"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "rice vinegar",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tbsp.",
+				"value" : "3"
+			}
+		},
+		"1? c. frozen peas",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "cooked rice",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "c.",
+				"value" : "4"
+			}
+		}
 	] 
 },
 {
@@ -2747,15 +6671,51 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT40.0M",
+	"totalTime": "PT40M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://www.marthastewart.com/314850/fluffy-rice"
 	}, 
 	"recipeIngredient": [
-		"1 3/4 cups water",
-		"1 teaspoon coarse salt",
-		"1 cup unconverted white rice"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "water",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cups",
+				"value" : "1 3/4"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "coarse salt",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoon",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "unconverted white rice",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1"
+			}
+		}
 	] 
 },
 {
@@ -2782,21 +6742,129 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT0.0M",
+	"totalTime": "PT0M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://www.myrecipes.com/recipe/lentils-rice-10000000671396/"
 	}, 
 	"recipeIngredient": [
-		"3 cups cooked rice, reheated",
-		"2 scallions, thinly sliced",
-		"1 red onion, thinly sliced",
-		"2 tablespoons olive oil",
-		"2 15-ounce canned lentils, drained and rinsed",
-		"1 tomato, chopped",
-		"1 teaspoon kosher salt",
-		"1 tablespoon lemon juice",
-		"1/4 cup fresh parsley, chopped",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "cooked rice  reheated",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cups",
+				"value" : "3"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "thinly sliced",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "scallions",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "onion  thinly sliced",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "red",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "olive oil",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoons",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "canned lentils  drained and rinsed",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "ounce",
+				"value" : "2 15"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "chopped",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tomato",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "kosher salt",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoon",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "lemon juice",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoon",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "fresh parsley  chopped",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1/4"
+			}
+		},
 		"Coconut Rice with Winter Squash"
 	] 
 },
@@ -2824,16 +6892,52 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT0.0M",
+	"totalTime": "PT0M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://www.delish.com/cooking/recipe-ideas/recipes/a15475/perfect-steamed-rice-recipe-top0411/"
 	}, 
 	"recipeIngredient": [
-		"1 c. RICE",
-		"1½ c. water",
-		"2 bay leaves",
-		"1 pinch salt"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "RICE",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "c.",
+				"value" : "1"
+			}
+		},
+		"1? c. water",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "leaves",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "bay",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "salt",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pinch",
+				"value" : "1"
+			}
+		}
 	] 
 },
 {
@@ -2860,15 +6964,51 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT0.0M",
+	"totalTime": "PT0M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://www.myrecipes.com/recipe/sweet-tea-rice-50400000112201/"
 	}, 
 	"recipeIngredient": [
-		"2 cups sweetened tea",
-		"1 cup uncooked long-grain rice",
-		"1/2 teaspoon salt"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "sweetened tea",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cups",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "uncooked long-grain rice",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "salt",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoon",
+				"value" : "1/2"
+			}
+		}
 	] 
 },
 {
@@ -2901,12 +7041,84 @@
 		"url" : "http://www.marthastewart.com/356812/rice-pilaf"
 	}, 
 	"recipeIngredient": [
-		"1 1/2 cups basic chicken stock",
-		"1 tablespoon unsalted butter",
-		"1/4 cup minced onion",
-		"1 small dried bay leaf",
-		"1/2 teaspoon coarse salt",
-		"1 cup long-grain white rice"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "basic chicken stock",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cups",
+				"value" : "1 1/2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "unsalted butter",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoon",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "minced onion",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1/4"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "dried bay leaf",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "small",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "coarse salt",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoon",
+				"value" : "1/2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "long-grain white rice",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1"
+			}
+		}
 	] 
 },
 {
@@ -2933,14 +7145,14 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT30.0M",
+	"totalTime": "PT30M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://www.delish.com/cooking/recipe-ideas/recipes/a8527/broth-simmered-rice-recipe-campbells-1109/"
 	}, 
 	"recipeIngredient": [
-		"1¾ c. Swanson® Chicken Broth",
-		"¾ c. regular long-grain white rice"
+		"1? c. Swanson? Chicken Broth",
+		"? c. regular long-grain white rice"
 	] 
 },
 {
@@ -2967,17 +7179,77 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT0.0M",
+	"totalTime": "PT0M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://www.myrecipes.com/recipe/red-rice-10000001618587/"
 	}, 
 	"recipeIngredient": [
-		"1 14.5-ounce can diced tomatoes, including liquid",
-		"3 cups low-sodium chicken broth",
-		"1 tablespoon chili powder",
-		"1 teaspoon kosher salt",
-		"2 cups long-grain white rice"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "can diced tomatoes  including liquid",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "ounce",
+				"value" : "1 14.5"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "low-sodium chicken broth",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cups",
+				"value" : "3"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "chili powder",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoon",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "kosher salt",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoon",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "long-grain white rice",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cups",
+				"value" : "2"
+			}
+		}
 	] 
 },
 {
@@ -3010,11 +7282,47 @@
 		"url" : "http://www.delish.com/cooking/recipe-ideas/recipes/a32910/wild-rice-orzo-120819/"
 	}, 
 	"recipeIngredient": [
-		"1 c. each uncooked wild rice and orzo (rice-shaped pasta)",
-		"3 tbsp. butter",
-		"2 c. chopped onions",
-		"½ c. thawed frozen green peas",
-		"½ tsp. each salt and pepper",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "each uncooked wild rice and orzo (rice-shaped pasta)",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "c.",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "butter",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tbsp.",
+				"value" : "3"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "chopped onions",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "c.",
+				"value" : "2"
+			}
+		},
+		"? c. thawed frozen green peas",
+		"? tsp. each salt and pepper",
 		"? c. Sliced scallions"
 	] 
 },
@@ -3042,16 +7350,52 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT0.0M",
+	"totalTime": "PT0M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://www.thekitchn.com/recipe-simple-rice-pilaf-46100"
 	}, 
 	"recipeIngredient": [
 		"2-4 tablespoons olive oil or butter",
-		"1 cup rice",
-		"2 cups water or broth",
-		"2 teaspoons salt"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "rice",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "water or broth",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cups",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "salt",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoons",
+				"value" : "2"
+			}
+		}
 	] 
 },
 {
@@ -3078,17 +7422,41 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT0.0M",
+	"totalTime": "PT0M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://www.cookstr.com/recipes/rice-pudding"
 	}, 
 	"recipeIngredient": [
-		"3 tbsp sugar",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "sugar",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tbsp",
+				"value" : "3"
+			}
+		},
 		"pinch of ground cinnamon or freshly grated nutmeg",
-		"1 tbsp butter , plus more for the dish",
-		"¼ cup short-grain rice for risotto, such as Arborio",
-		"2½ cups whole milk"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "butter   plus more for the dish",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tbsp",
+				"value" : "1"
+			}
+		},
+		"? cup short-grain rice for risotto  such as Arborio",
+		"2? cups whole milk"
 	] 
 },
 {
@@ -3115,22 +7483,142 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT0.0M",
+	"totalTime": "PT0M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "https://food52.com/recipes/27403-breakfast-fried-rice"
 	}, 
 	"recipeIngredient": [
-		"5 slices of bacon",
-		"1 tablespoon sesame oil",
-		"3 green onions, thinly sliced",
-		"3 cups day-old cooked rice, at room temperature",
-		"1/3 cup low-sodium soy sauce",
-		"1 tablespoon rice vinegar",
-		"1 tablespoon sesame seeds, toasted",
-		"1/4 teaspoon crushed red pepper flakes",
-		"1 tablespoon unsalted butter",
-		"2 eggs"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "of bacon",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "slices",
+				"value" : "5"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "sesame oil",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoon",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "onions  thinly sliced",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "green",
+				"value" : "3"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "day-old cooked rice  at room temperature",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cups",
+				"value" : "3"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "low-sodium soy sauce",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1/3"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "rice vinegar",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoon",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "sesame seeds  toasted",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoon",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "crushed red pepper flakes",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoon",
+				"value" : "1/4"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "unsalted butter",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoon",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "eggs",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pcs",
+				"value" : "2"
+			}
+		}
 	] 
 },
 {
@@ -3163,18 +7651,114 @@
 		"url" : "http://www.goodhousekeeping.com/food-recipes/a10763/herbed-rice-pilaf-recipe-ghk1210/"
 	}, 
 	"recipeIngredient": [
-		"1 oz. dried porcini mushrooms",
-		"3½ c. water",
-		"2 medium carrots",
-		"1 small onion",
-		"1 c. wild rice",
-		"½ c. dried cranberries",
-		"3 tbsp. margarine or butter",
-		"2 tsp. fresh thyme leaves",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "dried porcini mushrooms",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "oz.",
+				"value" : "1"
+			}
+		},
+		"3? c. water",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "carrots",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "medium",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "onion",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "small",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "wild rice",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "c.",
+				"value" : "1"
+			}
+		},
+		"? c. dried cranberries",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "margarine or butter",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tbsp.",
+				"value" : "3"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "fresh thyme leaves",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tsp.",
+				"value" : "2"
+			}
+		},
 		"salt",
 		"pepper",
-		"3 c. lower-sodium chicken broth",
-		"2 c. long-grain brown rice"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "lower-sodium chicken broth",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "c.",
+				"value" : "3"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "long-grain brown rice",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "c.",
+				"value" : "2"
+			}
+		}
 	] 
 },
 {
@@ -3201,16 +7785,64 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT0.0M",
+	"totalTime": "PT0M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://www.myrecipes.com/recipe/cranberry-almond-wild-rice-10000000686242/"
 	}, 
 	"recipeIngredient": [
-		"1 (6-ounce) package long grain and wild rice",
-		"1 (3.5-ounce) bag quick-cooking brown rice",
-		"3/4 cup sweetened dried cranberries",
-		"1/3 cup toasted slivered almonds"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "(6-ounce) package long grain and wild rice",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pcs",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "(3.5-ounce) bag quick-cooking brown rice",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pcs",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "sweetened dried cranberries",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "3/4"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "toasted slivered almonds",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1/3"
+			}
+		}
 	] 
 },
 {
@@ -3237,16 +7869,64 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT30.0M",
+	"totalTime": "PT30M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://www.marthastewart.com/313745/ginger-rice"
 	}, 
 	"recipeIngredient": [
-		"2 tablespoons grated and peeled fresh ginger",
-		"1 teaspoon sugar",
-		"1 teaspoon coarse salt",
-		"2 cups jasmine rice"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "grated and peeled fresh ginger",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoons",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "sugar",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoon",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "coarse salt",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoon",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "jasmine rice",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cups",
+				"value" : "2"
+			}
+		}
 	] 
 },
 {
@@ -3273,19 +7953,79 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT30.0M",
+	"totalTime": "PT30M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://www.delish.com/cooking/recipe-ideas/recipes/a23943/rice-and-beans/"
 	}, 
 	"recipeIngredient": [
-		"2 c. converted rice",
-		"4½ c. water",
-		"3 tbsp. unsalted butter",
-		"1 can pinto beans",
-		"6 scallions",
-		"¼ c. Chopped cilantro",
-		"1 tsp. salt"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "converted rice",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "c.",
+				"value" : "2"
+			}
+		},
+		"4? c. water",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "unsalted butter",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tbsp.",
+				"value" : "3"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "pinto beans",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "can",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "scallions",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pcs",
+				"value" : "6"
+			}
+		},
+		"? c. Chopped cilantro",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "salt",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tsp.",
+				"value" : "1"
+			}
+		}
 	] 
 },
 {
@@ -3312,16 +8052,52 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT4.0M",
+	"totalTime": "PT4M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://www.epicurious.com/recipes/food/views/Chicken-Rice-Casserole-51263950"
 	}, 
 	"recipeIngredient": [
-		"1 can chicken in water (28 oz.)",
-		"1 cup frozen green peas",
-		"1 can cream of chicken soup (14oz.)",
-		"1 pouch UNCLE BEN?S® READY RICE® Original Long Grain Rice"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "chicken in water (28 oz.)",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "can",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "frozen green peas",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "cream of chicken soup (14oz.)",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "can",
+				"value" : "1"
+			}
+		},
+		"1 pouch UNCLE BEN?S? READY RICE? Original Long Grain Rice"
 	] 
 },
 {
@@ -3354,13 +8130,13 @@
 		"url" : "http://www.delish.com/cooking/recipe-ideas/recipes/a23942/asian-rice-salad/?click=recipe_sr"
 	}, 
 	"recipeIngredient": [
-		".5 cup(s) frozen shelled edamame or peas",
-		"1 large takeout order chinese roast pork, cut in strips",
-		"1 small takeout order chinese white rice",
-		"2  (green onions) thinly sliced",
-		"4 large radishes, thinly sliced",
-		"2 tablespoon(s) seasoned rice vinegar",
-		"1 tablespoon(s) asian sesame oil"
+		".5?cup(s) frozen shelled edamame or peas",
+		"1?large takeout order chinese roast pork  cut in strips",
+		"1?small takeout order chinese white rice",
+		"2? (green onions) thinly sliced",
+		"4?large radishes  thinly sliced",
+		"2?tablespoon(s) seasoned rice vinegar",
+		"1?tablespoon(s) asian sesame oil"
 	] 
 },
 {
@@ -3387,15 +8163,39 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT0.0M",
+	"totalTime": "PT0M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://www.cookstr.com/recipes/basic-white-rice"
 	}, 
 	"recipeIngredient": [
-		"1 cup raw white basmati rice (found in health food stores)",
-		"½ teaspoon salt",
-		"2 cups water"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "raw white basmati rice (found in health food stores)",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1"
+			}
+		},
+		"? teaspoon salt",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "water",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cups",
+				"value" : "2"
+			}
+		}
 	] 
 },
 {
@@ -3422,16 +8222,64 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT0.0M",
+	"totalTime": "PT0M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://www.foodandwine.com/recipes/sizzled-ginger-rice"
 	}, 
 	"recipeIngredient": [
-		"1 1/2 cups sushi rice",
-		"2 cups water",
-		"1 tablespoon vegetable oil",
-		"1/4 cup julienned fresh ginger"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "sushi rice",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cups",
+				"value" : "1 1/2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "water",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cups",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "vegetable oil",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoon",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "julienned fresh ginger",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1/4"
+			}
+		}
 	] 
 },
 {
@@ -3458,16 +8306,64 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT30.0M",
+	"totalTime": "PT30M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://www.delish.com/cooking/recipe-ideas/recipes/a24964/hot-fluffy-rice-960/"
 	}, 
 	"recipeIngredient": [
-		"2 c. water",
-		"1 c. regular long-grain rice",
-		"1 tbsp. butter or margarine",
-		"1 tsp. salt"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "water",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "c.",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "regular long-grain rice",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "c.",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "butter or margarine",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tbsp.",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "salt",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tsp.",
+				"value" : "1"
+			}
+		}
 	] 
 },
 {
@@ -3494,23 +8390,107 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT0.0M",
+	"totalTime": "PT0M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://www.goodhousekeeping.com/food-recipes/a6210/wild-rice-stuffing-2484/"
 	}, 
 	"recipeIngredient": [
-		"2 can chicken broth",
-		"2/3 c. wild rice",
-		"1 tsp. salt",
-		"½ tsp. dried thyme or 2 teaspoons fresh thyme leaves",
-		"2 tbsp. vegetable oil",
-		"4 medium carrots",
-		"2 medium celery stalks",
-		"1 medium onion",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "chicken broth",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "can",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "wild rice",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "c.",
+				"value" : "2/3"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "salt",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tsp.",
+				"value" : "1"
+			}
+		},
+		"? tsp. dried thyme or 2 teaspoons fresh thyme leaves",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "vegetable oil",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tbsp.",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "carrots",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "medium",
+				"value" : "4"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "celery stalks",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "medium",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "onion",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "medium",
+				"value" : "1"
+			}
+		},
 		"medium-size mushrooms",
-		"1½ c. regular long-grain rice",
-		"¼ c. Chopped parsley"
+		"1? c. regular long-grain rice",
+		"? c. Chopped parsley"
 	] 
 },
 {
@@ -3537,18 +8517,30 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT55.0M",
+	"totalTime": "PT55M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://www.goodhousekeeping.com/food-recipes/a9111/eggnog-rice-pudding/"
 	}, 
 	"recipeIngredient": [
-		"¾ c. white rice",
-		"¼ tsp. salt",
-		"1½ c. water",
-		"1 qt. eggnog",
-		"¼ tsp. nutmeg",
-		"½ c. cranberries"
+		"? c. white rice",
+		"? tsp. salt",
+		"1? c. water",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "eggnog",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "qt.",
+				"value" : "1"
+			}
+		},
+		"? tsp. nutmeg",
+		"? c. cranberries"
 	] 
 },
 {
@@ -3575,18 +8567,78 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT40.0M",
+	"totalTime": "PT40M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://www.marthastewart.com/316139/scallion-rice"
 	}, 
 	"recipeIngredient": [
-		"1 tablespoon olive oil",
-		"4 scallions, thinly sliced",
-		"1 1/2 cups long-grain rice",
-		"1 can (14.5 ounces) reduced-sodium chicken broth",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "olive oil",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoon",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "thinly sliced",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "scallions",
+				"value" : "4"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "long-grain rice",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cups",
+				"value" : "1 1/2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "(14.5 ounces) reduced-sodium chicken broth",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "can",
+				"value" : "1"
+			}
+		},
 		"Coarse salt and ground pepper",
-		"2/3 cup chopped (packed) fresh cilantro leaves"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "chopped (packed) fresh cilantro leaves",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "2/3"
+			}
+		}
 	] 
 },
 {
@@ -3613,20 +8665,116 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT0.0M",
+	"totalTime": "PT0M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://chezus.com/2015/11/22/jeweled-rice-salad/"
 	}, 
 	"recipeIngredient": [
-		"* 3/4 cup wild rice",
-		"* 1 cup long grain rice",
-		"* 2 cup diced butternut squash",
-		"* 1/2 cup italian parsley, rough chop",
-		"* 1/2 cup pomegranate seed",
-		"* 1/4 cup olive oil",
-		"* 1/4 cup fresh lemon juice i use meyer lemon when i can",
-		"* 1 teaspoon zaatar",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "wild rice",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "3/4"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "long grain rice",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "diced butternut squash",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "italian parsley  rough chop",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1/2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "pomegranate seed",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1/2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "olive oil",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1/4"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "fresh lemon juice i use meyer lemon when i can",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1/4"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "zaatar",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoon",
+				"value" : "1"
+			}
+		},
 		"* kosher salt",
 		"* black pepper"
 	] 
@@ -3655,24 +8803,108 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT0.0M",
+	"totalTime": "PT0M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://www.goodhousekeeping.com/food-recipes/a5599/mushroom-rice-pilaf-4231/"
 	}, 
 	"recipeIngredient": [
-		"¾ c. wild rice",
-		"4¼ c. water",
+		"? c. wild rice",
+		"4? c. water",
 		"salt",
-		"1½ c. long-grain white rice",
-		"3 tbsp. olive oil or butter",
-		"2 carrots",
-		"2 stalk celery",
-		"1 medium onion",
-		"1 lb. white mushrooms",
-		"1 package shiitake mushrooms (or sliced mixed wild mushrooms)",
-		"1 c. fresh parsley leaves",
-		"¼ c. fresh chives"
+		"1? c. long-grain white rice",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "olive oil or butter",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tbsp.",
+				"value" : "3"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "carrots",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pcs",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "celery",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "stalk",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "onion",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "medium",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "white mushrooms",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "lb.",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "shiitake mushrooms (or sliced mixed wild mushrooms)",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "package",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "fresh parsley leaves",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "c.",
+				"value" : "1"
+			}
+		},
+		"? c. fresh chives"
 	] 
 },
 {
@@ -3699,23 +8931,155 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT0.0M",
+	"totalTime": "PT0M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://www.myrecipes.com/recipe/wild-rice-congee-10000000633371/"
 	}, 
 	"recipeIngredient": [
-		"1/2 cup long-grain white rice",
-		"1/2 cup wild rice, rinsed and drained",
-		"1 quart fat-skimmed low-sodium chicken broth",
-		"1 1/2 tablespoons Chinese rice wine or sake",
-		"1/4 teaspoon salt",
-		"1/8 teaspoon hot chili flakes",
-		"1/2 teaspoon grated fresh ginger",
-		"1/4 teaspoon minced garlic (optional)",
-		"1 cake (8 oz.) baked tofu, shredded or diced (see notes)",
-		"1 or 2 green onions, rinsed and thinly sliced",
-		"1/4 cup chopped fresh cilantro",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "long-grain white rice",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1/2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "wild rice  rinsed and drained",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1/2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "fat-skimmed low-sodium chicken broth",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "quart",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "Chinese rice wine or sake",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoons",
+				"value" : "1 1/2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "salt",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoon",
+				"value" : "1/4"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "hot chili flakes",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoon",
+				"value" : "1/8"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "grated fresh ginger",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoon",
+				"value" : "1/2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "minced garlic (optional)",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoon",
+				"value" : "1/4"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "(8 oz.) baked tofu  shredded or diced (see notes)",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cake",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "2 green onions  rinsed and thinly sliced",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "or",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "chopped fresh cilantro",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1/4"
+			}
+		},
 		"Fried shallots"
 	] 
 },
@@ -3743,18 +9107,90 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT0.0M",
+	"totalTime": "PT0M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://www.saveur.com/article/Recipes/Green-Tea-Rice"
 	}, 
 	"recipeIngredient": [
-		"1 Â½ cups short grain rice (can be sushi rice), rinsed",
-		"2 cups cold water",
-		"2 tbsp sake",
-		"1 tsp matcha green tea powder",
-		"1 tsp salt",
-		"2 tbsp toasted sesame seeds"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "short grain rice (can be sushi rice)  rinsed",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cups",
+				"value" : "1 ½"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "cold water",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cups",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "sake",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tbsp",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "matcha green tea powder",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tsp",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "salt",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tsp",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "toasted sesame seeds",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tbsp",
+				"value" : "2"
+			}
+		}
 	] 
 },
 {
@@ -3787,12 +9223,84 @@
 		"url" : "https://food52.com/recipes/3055-champorado-chocolate-rice-porridge"
 	}, 
 	"recipeIngredient": [
-		"1 cup glutinous rice (also known as 'sweet rice')",
-		"1 quart water",
-		"1/4 teaspoon salt",
-		"3 tablespoons sugar",
-		"2 tablespoons dutch-processed unsweetened cocoa, dissolved in 1/4 cup boiling water",
-		"1 teaspoon vanilla"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "glutinous rice (also known as 'sweet rice')",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "water",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "quart",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "salt",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoon",
+				"value" : "1/4"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "sugar",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoons",
+				"value" : "3"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "dutch-processed unsweetened cocoa  dissolved in 1/4 cup boiling water",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoons",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "vanilla",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoon",
+				"value" : "1"
+			}
+		}
 	] 
 }
 ]

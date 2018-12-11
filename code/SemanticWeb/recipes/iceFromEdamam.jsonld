@@ -29,12 +29,84 @@
 		"url" : "http://www.seriouseats.com/recipes/2012/07/rainbow-ice-cream-pops-recipe.html"
 	}, 
 	"recipeIngredient": [
-		"3 tablespoons pink-tinted ice cream, softened",
-		"3 tablespoons orange-tinted ice cream, softened",
-		"3 tablespoons yellow-tinted ice cream, softened",
-		"3 tablespoons green-tinted ice cream, softened",
-		"3 tablespoons blue-tinted ice cream, softened",
-		"3 tablespoons violet-tinted ice cream, softened"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "pink-tinted ice cream  softened",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoons",
+				"value" : "3"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "orange-tinted ice cream  softened",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoons",
+				"value" : "3"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "yellow-tinted ice cream  softened",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoons",
+				"value" : "3"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "green-tinted ice cream  softened",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoons",
+				"value" : "3"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "blue-tinted ice cream  softened",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoons",
+				"value" : "3"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "violet-tinted ice cream  softened",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoons",
+				"value" : "3"
+			}
+		}
 	] 
 },
 {
@@ -61,14 +133,38 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT5.0M",
+	"totalTime": "PT5M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://leitesculinaria.com/69967/recipes-guinness-and-ice-cream.html"
 	}, 
 	"recipeIngredient": [
-		"1 pint good-quality vanilla ice cream, softened but not melted",
-		"1 bottle guinness stout"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "good-quality vanilla ice cream  softened but not melted",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pint",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "guinness stout",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "bottle",
+				"value" : "1"
+			}
+		}
 	] 
 },
 {
@@ -102,10 +198,58 @@
 	}, 
 	"recipeIngredient": [
 		"3 cups raspberry syrup (recommended: torani)",
-		"3/4 cup lemon juice",
-		"1 lemon, zested",
-		"1/4 cup finely chopped fresh mint leaves",
-		"5 pounds crushed ice (about 6 ice trays)"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "lemon juice",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "3/4"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "zested",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "lemon",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "finely chopped fresh mint leaves",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1/4"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "crushed ice (about 6 ice trays)",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pounds",
+				"value" : "5"
+			}
+		}
 	] 
 },
 {
@@ -132,19 +276,103 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT0.0M",
+	"totalTime": "PT0M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://www.bbcgoodfood.com/recipes/8570/"
 	}, 
 	"recipeIngredient": [
-		"750 ml pistachio or coffee ice cream",
-		"500 ml vanilla ice cream",
-		"1 loaf Madeira cake or chocolate cake",
-		"100.0g each dark and white chocolate",
-		"50.0g sultanas , soaked in 3 tbsp sherry or brandy",
-		"4 chocolate truffles , cut into pieces",
-		"1 litre chocolate ice cream"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "pistachio or coffee ice cream",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "ml",
+				"value" : "750"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "vanilla ice cream",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "ml",
+				"value" : "500"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "Madeira cake or chocolate cake",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "loaf",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "each dark and white chocolate",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "g",
+				"value" : "100.0"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "sultanas   soaked in 3 tbsp sherry or brandy",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "g",
+				"value" : "50.0"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "truffles   cut into pieces",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "chocolate",
+				"value" : "4"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "chocolate ice cream",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "litre",
+				"value" : "1"
+			}
+		}
 	] 
 },
 {
@@ -177,10 +405,46 @@
 		"url" : "https://food52.com/recipes/12165-ice-mocha"
 	}, 
 	"recipeIngredient": [
-		"2 ounces chocolate syrup",
-		"6 ounces coffee ice cream",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "chocolate syrup",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "ounces",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "coffee ice cream",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "ounces",
+				"value" : "6"
+			}
+		},
 		"3-6 ounces cold strong coffee",
-		"1 ounce whipped cream as a garnish (optional)"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "whipped cream as a garnish (optional)",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "ounce",
+				"value" : "1"
+			}
+		}
 	] 
 },
 {
@@ -207,14 +471,38 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT7.0M",
+	"totalTime": "PT7M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://www.marthastewart.com/313970/ice-cream-waffle-sandwich"
 	}, 
 	"recipeIngredient": [
-		"1 scoop ice cream, gelato, or sorbet, softened",
-		"2 waffle cookies"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "ice cream  gelato  or sorbet  softened",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "scoop",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "cookies",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "waffle",
+				"value" : "2"
+			}
+		}
 	] 
 },
 {
@@ -247,14 +535,110 @@
 		"url" : "http://www.bonappetit.com/recipe/ice-cream-truffles"
 	}, 
 	"recipeIngredient": [
-		"1/2 pint (about) vanilla ice cream",
-		"1/2 pint (about) coffee ice cream",
-		"1/2 pint (about) chocolate ice cream",
-		"20 ounces bittersweet (not unsweetend) or semisweet chocolate, chopped",
-		"1 1/2 tablespoons vegetable oil",
-		"2 cups sliced almonds, toasted",
-		"2 cups sweetend flaked coconut (about five ounces), lightly toasted",
-		"1 1/2 cups shelled natural pistachios, chopped"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "(about) vanilla ice cream",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pint",
+				"value" : "1/2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "(about) coffee ice cream",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pint",
+				"value" : "1/2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "(about) chocolate ice cream",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pint",
+				"value" : "1/2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "bittersweet (not unsweetend) or semisweet chocolate  chopped",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "ounces",
+				"value" : "20"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "vegetable oil",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoons",
+				"value" : "1 1/2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "sliced almonds  toasted",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cups",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "sweetend flaked coconut (about five ounces)  lightly toasted",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cups",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "shelled natural pistachios  chopped",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cups",
+				"value" : "1 1/2"
+			}
+		}
 	] 
 },
 {
@@ -281,17 +665,77 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT40.0M",
+	"totalTime": "PT40M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://www.chowhound.com/recipes/pistachio-strawberry-ice-cream-cake-12034"
 	}, 
 	"recipeIngredient": [
-		"1 tablespoon unsalted butter, melted",
-		"3/4 cup ground vanilla wafer cookies (about 20 cookies)",
-		"2 cups Fresh Strawberry Ice Cream, softened",
-		"2 cups Vanilla Bean Ice Cream, softened",
-		"2 cups Roasted Pistachio Ice Cream, softened"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "unsalted butter  melted",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoon",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "ground vanilla wafer cookies (about 20 cookies)",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "3/4"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "Fresh Strawberry Ice Cream  softened",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cups",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "Vanilla Bean Ice Cream  softened",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cups",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "Roasted Pistachio Ice Cream  softened",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cups",
+				"value" : "2"
+			}
+		}
 	] 
 },
 {
@@ -318,19 +762,103 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT0.0M",
+	"totalTime": "PT0M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://simplyrecipes.com/recipes/peppermint_ice_cream/"
 	}, 
 	"recipeIngredient": [
-		"2 1/2 cups heavy cream",
-		"1 1/2 cups whole milk",
-		"8 large egg yolks",
-		"3/4 cup sugar",
-		"1/4 teaspoon salt",
-		"2 teaspoons peppermint extract",
-		"1/2 cup crushed candy canes or hard peppermint candy",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "heavy cream",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cups",
+				"value" : "2 1/2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "whole milk",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cups",
+				"value" : "1 1/2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "egg yolks",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "large",
+				"value" : "8"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "sugar",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "3/4"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "salt",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoon",
+				"value" : "1/4"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "peppermint extract",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoons",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "crushed candy canes or hard peppermint candy",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1/2"
+			}
+		},
 		"An ice cream maker or a KitchenAid mixer with an ice cream attachment"
 	] 
 },
@@ -364,14 +892,110 @@
 		"url" : "http://www.epicurious.com/recipes/food/views/Ice-Cream-Truffles-109599"
 	}, 
 	"recipeIngredient": [
-		"1/2 pint (about) vanilla ice cream",
-		"1/2 pint (about) coffee ice cream",
-		"1/2 pint (about) chocolate ice cream",
-		"20 ounces bittersweet (not unsweetened) or semisweet chocolate, chopped",
-		"1 1/2 tablespoons vegetable oil",
-		"2 cups sliced almonds, toasted",
-		"2 cups sweetened flaked coconut (about 5 ounces), lightly toasted",
-		"1 1/2 cups shelled natural pistachios, chopped"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "(about) vanilla ice cream",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pint",
+				"value" : "1/2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "(about) coffee ice cream",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pint",
+				"value" : "1/2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "(about) chocolate ice cream",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pint",
+				"value" : "1/2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "bittersweet (not unsweetened) or semisweet chocolate  chopped",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "ounces",
+				"value" : "20"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "vegetable oil",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoons",
+				"value" : "1 1/2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "sliced almonds  toasted",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cups",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "sweetened flaked coconut (about 5 ounces)  lightly toasted",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cups",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "shelled natural pistachios  chopped",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cups",
+				"value" : "1 1/2"
+			}
+		}
 	] 
 },
 {
@@ -404,13 +1028,85 @@
 		"url" : "http://www.foodandwine.com/recipes/spice-ice"
 	}, 
 	"recipeIngredient": [
-		"6 ounces blanco tequila",
-		"5 ounces mango puree or nectar",
-		"5 ounces fresh lime juice",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "blanco tequila",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "ounces",
+				"value" : "6"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "mango puree or nectar",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "ounces",
+				"value" : "5"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "fresh lime juice",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "ounces",
+				"value" : "5"
+			}
+		},
 		"Finely grated zest of 1 lime",
-		"4 ounces ginger-habanero syrup",
-		"4 cups ice",
-		"4 lime wheels, for garnish"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "ginger-habanero syrup",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "ounces",
+				"value" : "4"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "ice",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cups",
+				"value" : "4"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "wheels  for garnish",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "lime",
+				"value" : "4"
+			}
+		}
 	] 
 },
 {
@@ -437,22 +1133,142 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT55.0M",
+	"totalTime": "PT55M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://www.thekitchn.com/recipe-smores-ice-cream-cake-recipes-from-the-kitchn-207645"
 	}, 
 	"recipeIngredient": [
-		"4 cups graham cracker crumbs",
-		"1/2 cup sugar",
-		"10 tablespoons unsalted butter, melted",
-		"1 cup sugar",
-		"1/2 cup water",
-		"4 large egg whites",
-		"1/2 teaspoon cream of tartar",
-		"3 cups chocolate ice cream, store-bought or homemade",
-		"3 cups vanilla ice cream, store-bought or homemade",
-		"12 whole graham crackers broken into pieces for layering into the ice cream."
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "graham cracker crumbs",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cups",
+				"value" : "4"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "sugar",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1/2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "unsalted butter  melted",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoons",
+				"value" : "10"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "sugar",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "water",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1/2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "egg whites",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "large",
+				"value" : "4"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "cream of tartar",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoon",
+				"value" : "1/2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "chocolate ice cream  store-bought or homemade",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cups",
+				"value" : "3"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "vanilla ice cream  store-bought or homemade",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cups",
+				"value" : "3"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "graham crackers broken into pieces for layering into the ice cream.",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "whole",
+				"value" : "12"
+			}
+		}
 	] 
 },
 {
@@ -479,14 +1295,38 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT0.0M",
+	"totalTime": "PT0M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://www.kitchendaily.com/recipe/stout-and-ice-cream-float"
 	}, 
 	"recipeIngredient": [
-		"1 pt vanilla ice cream",
-		"1 12-ounce bottle of beer"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "vanilla ice cream",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pt",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "bottle of beer",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "ounce",
+				"value" : "1 12"
+			}
+		}
 	] 
 },
 {
@@ -513,16 +1353,64 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT0.0M",
+	"totalTime": "PT0M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://www.realsimple.com/food-recipes/browse-all-recipes/ice-cream-cake"
 	}, 
 	"recipeIngredient": [
-		"1 box yellow cake mix",
-		"3 large eggs",
-		"1/3 cup vegetable oil",
-		"2 qts coffee (or any other flavor) ice cream, softened slightly"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "yellow cake mix",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "box",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "eggs",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "large",
+				"value" : "3"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "vegetable oil",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1/3"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "coffee (or any other flavor) ice cream  softened slightly",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "qts",
+				"value" : "2"
+			}
+		}
 	] 
 },
 {
@@ -555,9 +1443,45 @@
 		"url" : "http://www.pbs.org/food/recipes/easy-ice-cream-sandwiches/"
 	}, 
 	"recipeIngredient": [
-		"1 dozen chocolate chip (or other variety) cookies",
-		"1 pint ice cream",
-		"1/3 cup candy sprinkles"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "chocolate chip (or other variety) cookies",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "dozen",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "ice cream",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pint",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "candy sprinkles",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1/3"
+			}
+		}
 	] 
 },
 {
@@ -590,21 +1514,189 @@
 		"url" : "http://honestcooking.com/strawberry-ice-cream-cake/"
 	}, 
 	"recipeIngredient": [
-		"2 eggs",
-		"3.5 oz (100 g) sugar",
-		"0.2 cups (50 ml) oil",
-		"0.5 cups (140 ml) milk",
-		"0.7 oz (20 g) cocoa",
-		"2 tbsp sour cream",
-		"3.5 oz (100 g) all purpose flour",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "eggs",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pcs",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "(100 g) sugar",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "oz",
+				"value" : "3.5"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "(50 ml) oil",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cups",
+				"value" : "0.2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "(140 ml) milk",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cups",
+				"value" : "0.5"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "(20 g) cocoa",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "oz",
+				"value" : "0.7"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "sour cream",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tbsp",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "(100 g) all purpose flour",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "oz",
+				"value" : "3.5"
+			}
+		},
 		"Pinch of salt",
-		"1 tsp baking powder",
-		"35.2 oz (1 kg) strawberry ice cream",
-		"17.6 oz (500 g) chocolate ice cream",
-		"7 oz (200 g) strawberries or raspberries",
-		"2 tbsp honey",
-		"0.8 cups (200 ml) whipping cream",
-		"1 tsp vanilla extract"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "baking powder",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tsp",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "(1 kg) strawberry ice cream",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "oz",
+				"value" : "35.2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "(500 g) chocolate ice cream",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "oz",
+				"value" : "17.6"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "(200 g) strawberries or raspberries",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "oz",
+				"value" : "7"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "honey",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tbsp",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "(200 ml) whipping cream",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cups",
+				"value" : "0.8"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "vanilla extract",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tsp",
+				"value" : "1"
+			}
+		}
 	] 
 },
 {
@@ -631,15 +1723,51 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT0.0M",
+	"totalTime": "PT0M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://www.myrecipes.com/recipe/ice-cream-bombe-10000001130899/"
 	}, 
 	"recipeIngredient": [
-		"2 pints vanilla ice cream",
-		"2 pints chocolate ice cream",
-		"1 cup crushed candy canes or peppermint candies"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "vanilla ice cream",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pints",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "chocolate ice cream",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pints",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "crushed candy canes or peppermint candies",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1"
+			}
+		}
 	] 
 },
 {
@@ -666,16 +1794,64 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT0.0M",
+	"totalTime": "PT0M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://food52.com/recipes/29918-italian-ice"
 	}, 
 	"recipeIngredient": [
-		"3 cups fresh fruit (I've tried strawberries, blueberries, pineapple)",
-		"2 to 4 tablespoons honey or granulated sugar",
-		"1 tablespoon fresh lemon juice",
-		"3 cups ice"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "fresh fruit (I've tried strawberries  blueberries  pineapple)",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cups",
+				"value" : "3"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "4 tablespoons honey or granulated sugar",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "to",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "fresh lemon juice",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoon",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "ice",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cups",
+				"value" : "3"
+			}
+		}
 	] 
 },
 {
@@ -708,11 +1884,71 @@
 		"url" : "http://www.delish.com/cooking/recipe-ideas/recipes/a48461/oreogasm-ice-cream-bombe-recipe/"
 	}, 
 	"recipeIngredient": [
-		"1 1/2 qt. cookies n' cream ice cream, softened",
-		"2 pt. chocolate ice cream, softened",
-		"1 1/2 pt. caramel ice cream, softened",
-		"24 oreos",
-		"4 tbsp. melted butter",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "cookies n' cream ice cream  softened",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "qt.",
+				"value" : "1 1/2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "chocolate ice cream  softened",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pt.",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "caramel ice cream  softened",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pt.",
+				"value" : "1 1/2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "oreos",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pcs",
+				"value" : "24"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "melted butter",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tbsp.",
+				"value" : "4"
+			}
+		},
 		"pinch of salt"
 	] 
 },
@@ -746,14 +1982,98 @@
 		"url" : "http://www.seriouseats.com/recipes/2013/07/spumoni-ice-cream-terrine-recipe.html"
 	}, 
 	"recipeIngredient": [
-		"3 cups pistachio ice cream, softened",
-		"3 cups vanilla (or cherry vanilla) ice cream, softened",
-		"1 cup maraschino cherries, chopped",
-		"1/3 cup sliced almonds, chopped",
-		"2 tablespoons cherry brandy",
-		"1 teaspoon almond extract",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "pistachio ice cream  softened",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cups",
+				"value" : "3"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "vanilla (or cherry vanilla) ice cream  softened",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cups",
+				"value" : "3"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "maraschino cherries  chopped",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "sliced almonds  chopped",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1/3"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "cherry brandy",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoons",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "almond extract",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoon",
+				"value" : "1"
+			}
+		},
 		"A few specks pink food coloring",
-		"3 cups chocolate ice cream, softened"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "chocolate ice cream  softened",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cups",
+				"value" : "3"
+			}
+		}
 	] 
 },
 {
@@ -780,14 +2100,38 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT0.0M",
+	"totalTime": "PT0M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://www.williams-sonoma.com/recipe/ice-cream-sandwiches.html"
 	}, 
 	"recipeIngredient": [
-		"1 chocolate cookie dough disk , at cool room temperature",
-		"1 1/2 pints ice cream, flavor of your choice, slightly softened"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "cookie dough disk   at cool room temperature",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "chocolate",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "ice cream  flavor of your choice  slightly softened",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pints",
+				"value" : "1 1/2"
+			}
+		}
 	] 
 },
 {
@@ -814,16 +2158,64 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT8.0M",
+	"totalTime": "PT8M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://www.bonappetit.com/recipe/margarita-ice-pops"
 	}, 
 	"recipeIngredient": [
-		"1/2 cup tequila",
-		"6 tablespoons fresh lime juice",
-		"1/4 cup coarse kosher salt",
-		"6 frozen lime-flavored ice pops or fruit bars, unwrapped"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "tequila",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1/2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "fresh lime juice",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoons",
+				"value" : "6"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "coarse kosher salt",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1/4"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "lime-flavored ice pops or fruit bars  unwrapped",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "frozen",
+				"value" : "6"
+			}
+		}
 	] 
 },
 {
@@ -856,13 +2248,49 @@
 		"url" : "http://www.goodhousekeeping.com/food-recipes/a12211/ice-cream-snickers-pie-121327/"
 	}, 
 	"recipeIngredient": [
-		"1 pt. chocolate ice cream",
-		"1 ready-to-fill Oreo cookie crust",
-		"3 tbsp. creamy peanut butter",
-		"½ c. caramel ice cream topping",
-		"½ c. salted peanuts",
-		"½ c. coarsely chopped Snickers Popables candy",
-		"2 pt. Ben & Jerry’s “In a Crunch” ice cream"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "chocolate ice cream",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pt.",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "ready-to-fill Oreo cookie crust",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pcs",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "creamy peanut butter",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tbsp.",
+				"value" : "3"
+			}
+		},
+		"? c. caramel ice cream topping",
+		"? c. salted peanuts",
+		"? c. coarsely chopped Snickers Popables candy",
+		"2 pt. Ben & Jerry?s ?In a Crunch? ice cream"
 	] 
 },
 {
@@ -889,16 +2317,64 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT0.0M",
+	"totalTime": "PT0M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://www.epicurious.com/recipes/food/views/Ice-Wine-Sorbet-with-White-Peaches-232513"
 	}, 
 	"recipeIngredient": [
-		"1 (375-ml) bottle ice wine (13 fl oz)",
-		"3/4 cup water",
-		"6 tablespoons sugar",
-		"4 firm-ripe white peaches, cut into 1/2-inch-thick wedges",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "(375-ml) bottle ice wine (13 fl oz)",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pcs",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "water",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "3/4"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "sugar",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoons",
+				"value" : "6"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "firm-ripe white peaches  cut into 1/2-inch-thick wedges",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pcs",
+				"value" : "4"
+			}
+		},
 		"Special equipment: an ice cream maker"
 	] 
 },
@@ -926,15 +2402,39 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT0.0M",
+	"totalTime": "PT0M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://www.bbcgoodfood.com/recipes/11380/"
 	}, 
 	"recipeIngredient": [
 		"icing sugar",
-		"250.0g blackberries",
-		"1.0l vanilla ice cream (bought or see 'Goes well with' recipe, below)"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "blackberries",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "g",
+				"value" : "250.0"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "vanilla ice cream (bought or see 'Goes well with' recipe  below)",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "l",
+				"value" : "1.0"
+			}
+		}
 	] 
 },
 {
@@ -961,16 +2461,64 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT0.0M",
+	"totalTime": "PT0M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://www.wholefoodsmarket.com/recipes/2262"
 	}, 
 	"recipeIngredient": [
-		"1 pint vanilla ice cream",
-		"1 tablespoon freshly squeezed orange juice",
-		"1 pound strawberries, hulled and halved",
-		"1 cup aged balsamic vinegar"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "vanilla ice cream",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pint",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "freshly squeezed orange juice",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoon",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "strawberries  hulled and halved",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pound",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "aged balsamic vinegar",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1"
+			}
+		}
 	] 
 },
 {
@@ -997,15 +2545,39 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT0.0M",
+	"totalTime": "PT0M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://www.thedailymeal.com/recipes/vanilla-grapefruit-ice-cream-float-recipe"
 	}, 
 	"recipeIngredient": [
-		"1  Cup   pink grapefruit juice",
-		"½  Cup   seltzer",
-		"2   scoops vanilla ice cream"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "Cup   pink grapefruit juice",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pcs",
+				"value" : "1"
+			}
+		},
+		"?  Cup   seltzer",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "scoops vanilla ice cream",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pcs",
+				"value" : "2"
+			}
+		}
 	] 
 },
 {
@@ -1032,15 +2604,39 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT0.0M",
+	"totalTime": "PT0M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://whatsgabycooking.com/grilled-peaches-with-vanilla-ice-cream/#.UmB2e1Ay0uM"
 	}, 
 	"recipeIngredient": [
-		"2 ripe peaches",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "peaches",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "ripe",
+				"value" : "2"
+			}
+		},
 		"canola oil",
-		"4 scoops vanilla ice cream"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "vanilla ice cream",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "scoops",
+				"value" : "4"
+			}
+		}
 	] 
 },
 {
@@ -1067,21 +2663,117 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT0.0M",
+	"totalTime": "PT0M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://simplyrecipes.com/recipes/butter_pecan_ice_cream/"
 	}, 
 	"recipeIngredient": [
-		"6 large egg yolks",
-		"6 Tbsp butter",
-		"1 cup brown sugar",
-		"1/4 teaspoon salt",
-		"2 cups heavy cream",
-		"2 cups whole milk",
-		"1 teaspoon vanilla",
-		"1 cup pecans",
-		"Special equipment needed An ice cream maker, or a KitchenAid mixer with an ice cream attachment"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "egg yolks",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "large",
+				"value" : "6"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "butter",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "Tbsp",
+				"value" : "6"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "brown sugar",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "salt",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoon",
+				"value" : "1/4"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "heavy cream",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cups",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "whole milk",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cups",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "vanilla",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoon",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "pecans",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1"
+			}
+		},
+		"Special equipment needed An ice cream maker  or a KitchenAid mixer with an ice cream attachment"
 	] 
 },
 {
@@ -1114,12 +2806,84 @@
 		"url" : "http://www.marthastewart.com/338977/matzo-chocolate-mint-ice-cream-cake"
 	}, 
 	"recipeIngredient": [
-		"3/4 cup heavy cream",
-		"6 ounces bittersweet chocolate, chopped",
-		"3 large matzo crackers",
-		"1 pint mint-chip ice cream",
-		"1 pint chocolate ice cream",
-		"1/3 cup coarsely chopped natural almonds, toasted"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "heavy cream",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "3/4"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "bittersweet chocolate  chopped",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "ounces",
+				"value" : "6"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "matzo crackers",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "large",
+				"value" : "3"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "mint-chip ice cream",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pint",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "chocolate ice cream",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pint",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "coarsely chopped natural almonds  toasted",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1/3"
+			}
+		}
 	] 
 },
 {
@@ -1146,19 +2910,79 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT0.0M",
+	"totalTime": "PT0M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://www.cookingchanneltv.com/recipes/giada-de-laurentiis/ice-caffe-latte.html"
 	}, 
 	"recipeIngredient": [
-		"4 shots espresso (about 1 1/2 ounces each)",
-		"1 1/3 cups whole milk",
-		"Crushed ice, for serving",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "espresso (about 1 1/2 ounces each)",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "shots",
+				"value" : "4"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "whole milk",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cups",
+				"value" : "1 1/3"
+			}
+		},
+		"Crushed ice  for serving",
 		"Special equipment: 4 small mason jars",
-		"1 cup sugar",
-		"1/2 cup water",
-		"4 cinnamon sticks"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "sugar",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "water",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1/2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "sticks",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cinnamon",
+				"value" : "4"
+			}
+		}
 	] 
 },
 {
@@ -1185,15 +3009,51 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT15.0M",
+	"totalTime": "PT15M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://www.foodandwine.com/recipes/snickers-ice-cream-milk"
 	}, 
 	"recipeIngredient": [
-		"2 1/2 ounces snickers bars, chopped",
-		"2 cups whole milk",
-		"1 pint vanilla ice cream"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "snickers bars  chopped",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "ounces",
+				"value" : "2 1/2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "whole milk",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cups",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "vanilla ice cream",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pint",
+				"value" : "1"
+			}
+		}
 	] 
 },
 {
@@ -1220,15 +3080,51 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT0.0M",
+	"totalTime": "PT0M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://www.myrecipes.com/recipe/spumoni-ice-cream-terrine-10000000630055/"
 	}, 
 	"recipeIngredient": [
-		"3 cups (1 1/2 pints) strawberry ice cream, softened (see notes)",
-		"3 cups (1 1/2 pints) pistachio or toasted almond ice cream, softened (see notes)",
-		"3 cups (1 1/2 pints) chocolate ice cream, softened (see notes)"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "(1 1/2 pints) strawberry ice cream  softened (see notes)",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cups",
+				"value" : "3"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "(1 1/2 pints) pistachio or toasted almond ice cream  softened (see notes)",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cups",
+				"value" : "3"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "(1 1/2 pints) chocolate ice cream  softened (see notes)",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cups",
+				"value" : "3"
+			}
+		}
 	] 
 },
 {
@@ -1255,16 +3151,40 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT10.0M",
+	"totalTime": "PT10M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://www.goodhousekeeping.com/food-recipes/a8571/ice-cream-shortcakes-121525/"
 	}, 
 	"recipeIngredient": [
-		"2 biscuits",
-		"2 sliced nectarines",
-		"½ c. peach or apricot preserves",
-		"½ c. peach ice cream"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "biscuits",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pcs",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "nectarines",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "sliced",
+				"value" : "2"
+			}
+		},
+		"? c. peach or apricot preserves",
+		"? c. peach ice cream"
 	] 
 },
 {
@@ -1297,13 +3217,61 @@
 		"url" : "http://www.delish.com/cooking/recipe-ideas/recipes/a33421/ice-cream-tiramisu-121521/"
 	}, 
 	"recipeIngredient": [
-		"3 oz. bittersweet chocolate",
-		"18 soft ladyfinger halves",
-		"¼ c. brewed coffee",
-		"¼ c. coffee liqueur",
-		"1 pt. coffee ice cream",
-		"1½ c. Whipped topping",
-		"1 pt. dulce de leche ice cream",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "bittersweet chocolate",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "oz.",
+				"value" : "3"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "ladyfinger halves",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "soft",
+				"value" : "18"
+			}
+		},
+		"? c. brewed coffee",
+		"? c. coffee liqueur",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "coffee ice cream",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pt.",
+				"value" : "1"
+			}
+		},
+		"1? c. Whipped topping",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "dulce de leche ice cream",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pt.",
+				"value" : "1"
+			}
+		},
 		"Garnish: Chocolate curls"
 	] 
 },
@@ -1331,16 +3299,64 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT0.0M",
+	"totalTime": "PT0M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://www.williams-sonoma.com/recipe/ice-cream-bars.html"
 	}, 
 	"recipeIngredient": [
-		"1 quart Classic Vanilla Bean Ice Cream",
-		"9 or 16 Popsicle sticks",
-		"20 oz. bittersweet or semisweet chocolate, chopped",
-		"2 Tbs. canola oil"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "Classic Vanilla Bean Ice Cream",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "quart",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "16 Popsicle sticks",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "or",
+				"value" : "9"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "bittersweet or semisweet chocolate  chopped",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "oz.",
+				"value" : "20"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "canola oil",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "Tbs.",
+				"value" : "2"
+			}
+		}
 	] 
 },
 {
@@ -1367,15 +3383,51 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT0.0M",
+	"totalTime": "PT0M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://www.thedailymeal.com/recipes/kiwi-ginger-ice-cream-float-recipe"
 	}, 
 	"recipeIngredient": [
-		"1   SunGold kiwifruit, sliced",
-		"2   scoops vanilla ice cream",
-		"1   bottle ginger beer"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "SunGold kiwifruit  sliced",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pcs",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "scoops vanilla ice cream",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pcs",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "bottle ginger beer",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pcs",
+				"value" : "1"
+			}
+		}
 	] 
 },
 {
@@ -1409,7 +3461,19 @@
 	}, 
 	"recipeIngredient": [
 		"2-3 scoops premium coffee ice cream",
-		"1 12-ounce bottle porter or stout with espresso or chocolate overtones"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "bottle porter or stout with espresso or chocolate overtones",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "ounce",
+				"value" : "1 12"
+			}
+		}
 	] 
 },
 {
@@ -1436,15 +3500,51 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT35.0M",
+	"totalTime": "PT35M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://www.epicurious.com/recipes/food/views/Pretzel-Ice-Cream-Pie-368449"
 	}, 
 	"recipeIngredient": [
-		"1 recipe Pretzel Crunch",
-		"25 g butter, melted 2 tablespoons",
-		"1 recipe Pretzel Ice Cream"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "Pretzel Crunch",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "recipe",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "butter  melted 2 tablespoons",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "g",
+				"value" : "25"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "Pretzel Ice Cream",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "recipe",
+				"value" : "1"
+			}
+		}
 	] 
 },
 {
@@ -1471,16 +3571,52 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT0.0M",
+	"totalTime": "PT0M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://www.bbcgoodfood.com/recipes/4617/"
 	}, 
 	"recipeIngredient": [
-		"225.0g strawberries , hulled",
-		"3 large scoops vanilla ice cream",
-		"300.0ml cold milk",
-		"extra strawberries , to serve (optional)"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "strawberries   hulled",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "g",
+				"value" : "225.0"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "scoops vanilla ice cream",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "large",
+				"value" : "3"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "cold milk",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "ml",
+				"value" : "300.0"
+			}
+		},
+		"extra strawberries   to serve (optional)"
 	] 
 },
 {
@@ -1507,16 +3643,52 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT15.0M",
+	"totalTime": "PT15M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://www.marthastewart.com/313709/raspberry-ice-cream-cake"
 	}, 
 	"recipeIngredient": [
-		"1 loaf pound cake, sliced horizontally into thirds",
-		"1 1/2 cups raspberries (6 ounces)",
-		"1 pint vanilla ice cream, softened",
-		"Confectioners' sugar, for serving"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "pound cake  sliced horizontally into thirds",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "loaf",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "raspberries (6 ounces)",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cups",
+				"value" : "1 1/2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "vanilla ice cream  softened",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pint",
+				"value" : "1"
+			}
+		},
+		"Confectioners' sugar  for serving"
 	] 
 },
 {
@@ -1549,12 +3721,84 @@
 		"url" : "http://www.bonappetit.com/recipe/marmalade-ice-cream"
 	}, 
 	"recipeIngredient": [
-		"3 cups heavy cream",
-		"1 cup whole milk",
-		"1/2 cup sugar",
-		"1 vanilla bean, split lengthwise",
-		"8 large egg yolks",
-		"1/2 cup prepared orange marmalade",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "heavy cream",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cups",
+				"value" : "3"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "whole milk",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "sugar",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1/2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "bean  split lengthwise",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "vanilla",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "egg yolks",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "large",
+				"value" : "8"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "prepared orange marmalade",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1/2"
+			}
+		},
 		"An ice cream maker"
 	] 
 },
@@ -1582,14 +3826,26 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT10.0M",
+	"totalTime": "PT10M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://www.delish.com/cooking/recipe-ideas/recipes/a33226/ice-cream-soup-121523/"
 	}, 
 	"recipeIngredient": [
-		"1 pt. slightly softened cherry vanilla ice cream",
-		"¼ c. Fresh fruit"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "slightly softened cherry vanilla ice cream",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pt.",
+				"value" : "1"
+			}
+		},
+		"? c. Fresh fruit"
 	] 
 },
 {
@@ -1622,11 +3878,47 @@
 		"url" : "http://www.goodhousekeeping.com/food-recipes/a12890/almond-macaroon-ice-cream-cake-121911/"
 	}, 
 	"recipeIngredient": [
-		"2 pt. chocolate ice cream",
-		"1 package soft coconut macaroons (such as Archway)",
-		"2 pt. vanilla Swiss almond ice cream (we used Häagen-Dazs)",
-		"½ c. chocolate shell ice cream topping",
-		"1 c. sliced almonds"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "chocolate ice cream",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pt.",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "soft coconut macaroons (such as Archway)",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "package",
+				"value" : "1"
+			}
+		},
+		"2 pt. vanilla Swiss almond ice cream (we used H?agen-Dazs)",
+		"? c. chocolate shell ice cream topping",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "sliced almonds",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "c.",
+				"value" : "1"
+			}
+		}
 	] 
 },
 {
@@ -1653,16 +3945,64 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT0.0M",
+	"totalTime": "PT0M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://www.myrecipes.com/recipe/ice-cream-cake-10000000663086/"
 	}, 
 	"recipeIngredient": [
-		"1 box yellow cake mix",
-		"3 large eggs",
-		"1/3 cup vegetable oil",
-		"2 quarts coffee (or any other flavor) ice cream, softened slightly"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "yellow cake mix",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "box",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "eggs",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "large",
+				"value" : "3"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "vegetable oil",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1/3"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "coffee (or any other flavor) ice cream  softened slightly",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "quarts",
+				"value" : "2"
+			}
+		}
 	] 
 },
 {
@@ -1689,17 +4029,77 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT0.0M",
+	"totalTime": "PT0M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://www.williams-sonoma.com/recipe/chocolate-dipped-ice-cream-cones.html"
 	}, 
 	"recipeIngredient": [
-		"1 quart store-bought or homemade ice cream",
-		"24 mini ice cream cones",
-		"10 oz. high-quality white chocolate, chopped",
-		"2 to 3 tsp. vegetable shortening, if needed",
-		"2 to 3 drops food-coloring paste or gel"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "store-bought or homemade ice cream",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "quart",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "ice cream cones",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "mini",
+				"value" : "24"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "high-quality white chocolate  chopped",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "oz.",
+				"value" : "10"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "3 tsp. vegetable shortening  if needed",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "to",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "3 drops food-coloring paste or gel",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "to",
+				"value" : "2"
+			}
+		}
 	] 
 },
 {
@@ -1726,15 +4126,39 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT0.0M",
+	"totalTime": "PT0M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://www.bbcgoodfood.com/recipes/11804/"
 	}, 
 	"recipeIngredient": [
-		"500 ml toffee ice cream (Häagen Dazs Dulce de leche is good)",
-		"16 ginger or chocolate cookies",
-		"200.0g milk chocolate , chopped"
+		"500 ml toffee ice cream (H?agen Dazs Dulce de leche is good)",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "or chocolate cookies",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "ginger",
+				"value" : "16"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "milk chocolate   chopped",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "g",
+				"value" : "200.0"
+			}
+		}
 	] 
 },
 {
@@ -1769,11 +4193,23 @@
 	"recipeIngredient": [
 		"? 10 cups water",
 		"? 20 teaspoons the best quality coffee",
-		"? ½ a cup sugar",
-		"? ¼ cup coffee liquor",
-		"? ¼ cup vanilla cream liquor",
+		"? ? a cup sugar",
+		"? ? cup coffee liquor",
+		"? ? cup vanilla cream liquor",
 		"? 1pint of coffee ice cream",
-		"1pint vanilla bean ice cream"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "vanilla bean ice cream",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pint",
+				"value" : "1"
+			}
+		}
 	] 
 },
 {
@@ -1800,18 +4236,90 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT0.0M",
+	"totalTime": "PT0M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://www.marthastewart.com/353598/ice-cream-bag"
 	}, 
 	"recipeIngredient": [
-		"1 cup heavy cream",
-		"1/2 cup milk",
-		"1/3 cup sugar",
-		"1/4 teaspoon pure vanilla extract",
-		"2 1/2 pounds ice cubes",
-		"2 1/2 pounds coarse salt"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "heavy cream",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "milk",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1/2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "sugar",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1/3"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "pure vanilla extract",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoon",
+				"value" : "1/4"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "ice cubes",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pounds",
+				"value" : "2 1/2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "coarse salt",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pounds",
+				"value" : "2 1/2"
+			}
+		}
 	] 
 },
 {
@@ -1844,9 +4352,33 @@
 		"url" : "http://www.delish.com/cooking/recipe-ideas/recipes/a33629/peppermint-ice-cream-profiteroles-121773/"
 	}, 
 	"recipeIngredient": [
-		"1 package cream puff–type cookies (we used Stella D’oro Anginetti)",
-		"1 jar milk-chocolate ice cream topping",
-		"2 c. peppermint ice cream"
+		"1 package cream puff?type cookies (we used Stella D?oro Anginetti)",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "milk-chocolate ice cream topping",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "jar",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "peppermint ice cream",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "c.",
+				"value" : "2"
+			}
+		}
 	] 
 },
 {
@@ -1879,11 +4411,35 @@
 		"url" : "http://www.goodhousekeeping.com/food-recipes/a11410/ice-cream-cupcakes-121329/"
 	}, 
 	"recipeIngredient": [
-		"½ c. milk-chocolate chips",
-		"1 pt. Ice cream",
-		".67 c. frozen whipped topping",
+		"? c. milk-chocolate chips",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "Ice cream",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pt.",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "frozen whipped topping",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "c.",
+				"value" : ".67"
+			}
+		},
 		"Liquid food colors (optional)",
-		"Garnish: 4 Keebler Bug Bites cinnamon graham crackers, decorated (directions follow)"
+		"Garnish: 4 Keebler Bug Bites cinnamon graham crackers  decorated (directions follow)"
 	] 
 },
 {
@@ -1910,21 +4466,117 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT0.0M",
+	"totalTime": "PT0M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://www.myrecipes.com/recipe/mont-blanc-ice-cream-bombe-10000001875176/"
 	}, 
 	"recipeIngredient": [
-		"1 pint strawberry ice cream",
-		"2 pints pistachio ice cream",
-		"3 pints coffee ice cream",
-		"1 (9.75 oz.) package fudge brownies",
-		"1 (4.9 oz.) package Italianstyle sandwich cookies (such as Pepperidge Farm Milano cookies), coarsely chopped",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "strawberry ice cream",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pint",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "pistachio ice cream",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pints",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "coffee ice cream",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pints",
+				"value" : "3"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "(9.75 oz.) package fudge brownies",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pcs",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "(4.9 oz.) package Italianstyle sandwich cookies (such as Pepperidge Farm Milano cookies)  coarsely chopped",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pcs",
+				"value" : "1"
+			}
+		},
 		"Whites from 4 large eggs",
-		"1/2 cup sugar",
-		"1 cup heavy cream",
-		"1/4 cup chocolate sprinkles"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "sugar",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1/2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "heavy cream",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "chocolate sprinkles",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1/4"
+			}
+		}
 	] 
 },
 {
@@ -1957,10 +4609,34 @@
 		"url" : "http://www.delish.com/cooking/recipe-ideas/recipes/a33146/cherry-ice-cream-cake-121439/"
 	}, 
 	"recipeIngredient": [
-		"1 box dark-chocolate fudge cake mix",
-		"¼ tsp. almond extract",
-		"6 c. cherry ice cream",
-		"Garnish: chocolate shell ice cream topping, canned whipped cream and maraschino cherries with stems"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "dark-chocolate fudge cake mix",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "box",
+				"value" : "1"
+			}
+		},
+		"? tsp. almond extract",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "cherry ice cream",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "c.",
+				"value" : "6"
+			}
+		},
+		"Garnish: chocolate shell ice cream topping  canned whipped cream and maraschino cherries with stems"
 	] 
 },
 {
@@ -1987,15 +4663,39 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT0.0M",
+	"totalTime": "PT0M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://www.goodhousekeeping.com/food-recipes/a15316/neapolitan-ice-cream-sliders-recipe-ghk0813/"
 	}, 
 	"recipeIngredient": [
-		"4 scoop Neapolitan ice cream",
-		"8 cookies",
-		"½ c. chopped pistachios"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "Neapolitan ice cream",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "scoop",
+				"value" : "4"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "cookies",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pcs",
+				"value" : "8"
+			}
+		},
+		"? c. chopped pistachios"
 	] 
 },
 {
@@ -2010,7 +4710,7 @@
 		"@type": "NutritionInformation",
 		"calories" : "708.0 calories"
 	},
-	"name": "Ice-Cream Crêpes",
+	"name": "Ice-Cream Cr?pes",
 	"recipeYield": {
 		"@type": "QuantitativeValue",
 		"value" : "4.0"
@@ -2018,21 +4718,69 @@
 	"image": {
 		"@type": "ImageObject",
 		"contentUrl" : "https://www.edamam.com/web-img/038/038de9dc7c1bbf7cb41b92bb2042d7a5.jpg", 
-		"caption" : "Ice-Cream Crêpes"
+		"caption" : "Ice-Cream Cr?pes"
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT0.0M",
+	"totalTime": "PT0M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://www.myrecipes.com/recipe/ice-cream-crpes-10000001187121/"
 	}, 
 	"recipeIngredient": [
-		"3 tablespoons light hot fudge topping",
-		"3 (7-inch) prepared French crêpes",
-		"1 cup low-fat chocolate ice cream",
-		"1/2 cup raspberries",
-		"1 tablespoon powdered sugar"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "light hot fudge topping",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoons",
+				"value" : "3"
+			}
+		},
+		"3 (7-inch) prepared French cr?pes",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "low-fat chocolate ice cream",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "raspberries",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1/2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "powdered sugar",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoon",
+				"value" : "1"
+			}
+		}
 	] 
 },
 {
@@ -2059,15 +4807,51 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT0.0M",
+	"totalTime": "PT0M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://www.myrecipes.com/recipe/espresso-drizzled-ice-cream-10000001681257/"
 	}, 
 	"recipeIngredient": [
-		"2 tablespoons instant espresso",
-		"2 pints vanilla ice cream",
-		"2 tablespoons dark chocolate, finely chopped"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "instant espresso",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoons",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "vanilla ice cream",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pints",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "dark chocolate  finely chopped",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoons",
+				"value" : "2"
+			}
+		}
 	] 
 },
 {
@@ -2094,15 +4878,27 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT0.0M",
+	"totalTime": "PT0M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://www.goodhousekeeping.com/food-recipes/a7959/snappy-ice-cream-sandwiches-4214/"
 	}, 
 	"recipeIngredient": [
-		"1½ c. softened vanilla ice cream or frozen yogurt",
-		"¼ c. finely chopped crystallized ginger",
-		"16 gingersnaps"
+		"1? c. softened vanilla ice cream or frozen yogurt",
+		"? c. finely chopped crystallized ginger",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "gingersnaps",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pcs",
+				"value" : "16"
+			}
+		}
 	] 
 },
 {
@@ -2135,13 +4931,49 @@
 		"url" : "http://www.delish.com/cooking/recipe-ideas/recipes/a33916/smores-ice-cream-pie-recipe-122397/"
 	}, 
 	"recipeIngredient": [
-		"12 whole graham crackers (2 squares each)",
-		"5 tbsp. butter",
-		"¼ c. sugar",
-		"2 container vanilla–chocolate chip ice cream",
-		"1¼ c. hot-fudge sauce ice cream topping",
-		"2 container chocolate–chocolate chip ice cream",
-		"1 c. marshmallow cream (such as Marshmallow Fluff or Creme)",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "graham crackers (2 squares each)",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "whole",
+				"value" : "12"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "butter",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tbsp.",
+				"value" : "5"
+			}
+		},
+		"? c. sugar",
+		"2 container vanilla?chocolate chip ice cream",
+		"1? c. hot-fudge sauce ice cream topping",
+		"2 container chocolate?chocolate chip ice cream",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "marshmallow cream (such as Marshmallow Fluff or Creme)",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "c.",
+				"value" : "1"
+			}
+		},
 		"Garnish: chocolate pieces"
 	] 
 },
@@ -2175,12 +5007,84 @@
 		"url" : "http://www.delish.com/cooking/recipe-ideas/recipes/a16946/black-forest-ice-cream-pie-recipe-opr0811/"
 	}, 
 	"recipeIngredient": [
-		"12 sugar ice cream cones",
-		"5 tbsp. butter",
-		"1 pt. chocolate chip ice cream",
-		"1 lb. cherries",
-		"3 tbsp. sugar",
-		"2 tsp. cornstarch"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "ice cream cones",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "sugar",
+				"value" : "12"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "butter",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tbsp.",
+				"value" : "5"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "chocolate chip ice cream",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pt.",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "cherries",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "lb.",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "sugar",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tbsp.",
+				"value" : "3"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "cornstarch",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tsp.",
+				"value" : "2"
+			}
+		}
 	] 
 },
 {
@@ -2213,9 +5117,45 @@
 		"url" : "http://www.goodhousekeeping.com/food-recipes/a12635/pumpkin-ice-cream-pie-121647/"
 	}, 
 	"recipeIngredient": [
-		"2 6-oz ready-to-fill graham cracker crusts",
-		"4 pt. rum raisin ice cream",
-		"1 can pumpkin pie mix"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "ready-to-fill graham cracker crusts",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "oz",
+				"value" : "2 6"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "rum raisin ice cream",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pt.",
+				"value" : "4"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "pumpkin pie mix",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "can",
+				"value" : "1"
+			}
+		}
 	] 
 },
 {
@@ -2242,18 +5182,90 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT0.0M",
+	"totalTime": "PT0M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://www.myrecipes.com/recipe/coffee-ice-cream-punch-10000001980655/"
 	}, 
 	"recipeIngredient": [
-		"2 cups strong brewed coffee or espresso",
-		"1/2 cup 2% reduced-fat milk",
-		"1/4 teaspoon almond extract",
-		"2 cups light, no-sugar-added vanilla ice cream",
-		"2 cups light, no-sugar-added chocolate ice cream",
-		"6 tablespoons frozen fat-free whipped topping, thawed",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "strong brewed coffee or espresso",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cups",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "2% reduced-fat milk",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1/2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "almond extract",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoon",
+				"value" : "1/4"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "light  no-sugar-added vanilla ice cream",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cups",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "light  no-sugar-added chocolate ice cream",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cups",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "frozen fat-free whipped topping  thawed",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoons",
+				"value" : "6"
+			}
+		},
 		"Ground nutmeg (optional)"
 	] 
 },
@@ -2281,14 +5293,38 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT0.0M",
+	"totalTime": "PT0M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://www.delish.com/cooking/recipe-ideas/recipes/a3500/ice-cream-sandwich-easy-desserts/"
 	}, 
 	"recipeIngredient": [
-		"1 or more scoops of your favorite ice cream",
-		"2 extra-large cookies of your choice",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "more scoops of your favorite ice cream",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "or",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "extra-large cookies of your choice",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pcs",
+				"value" : "2"
+			}
+		},
 		"Sprinkles (optional)"
 	] 
 },
@@ -2316,19 +5352,103 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT0.0M",
+	"totalTime": "PT0M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://www.myrecipes.com/recipe/berry-cashew-ice-cream-189329/"
 	}, 
 	"recipeIngredient": [
-		"2 cup(s) French vanilla ice cream, softened",
-		"1/4 cup(s) salted cashews",
-		"1/4 cup(s) fresh raspberries",
-		"1/4 cup(s) fresh blueberries",
-		"1 tablespoon(s) miniature semisweet chocolate chips",
-		"1 tablespoon(s) caramel ice cream topping",
-		"1 individual graham cracker tart shell, broken into large pieces"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "French vanilla ice cream  softened",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup(s)",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "salted cashews",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup(s)",
+				"value" : "1/4"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "fresh raspberries",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup(s)",
+				"value" : "1/4"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "fresh blueberries",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup(s)",
+				"value" : "1/4"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "miniature semisweet chocolate chips",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoon(s)",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "caramel ice cream topping",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoon(s)",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "graham cracker tart shell  broken into large pieces",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "individual",
+				"value" : "1"
+			}
+		}
 	] 
 },
 {
@@ -2361,14 +5481,98 @@
 		"url" : "http://www.goodhousekeeping.com/food-recipes/a13260/chocolate-raspberry-ice-cream-pie-recipe-122398/"
 	}, 
 	"recipeIngredient": [
-		"12 whole chocolate graham crackers",
-		"5 tbsp. butter",
-		"¼ c. sugar",
-		"1 container vanilla ice cream",
-		"1 pt. raspberry sorbet",
-		"1 container chocolate ice cream",
-		"2 baskets red raspberries",
-		"1 tub frozen whipped topping",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "chocolate graham crackers",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "whole",
+				"value" : "12"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "butter",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tbsp.",
+				"value" : "5"
+			}
+		},
+		"? c. sugar",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "vanilla ice cream",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "container",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "raspberry sorbet",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pt.",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "chocolate ice cream",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "container",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "red raspberries",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "baskets",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "frozen whipped topping",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tub",
+				"value" : "1"
+			}
+		},
 		"Garnish: chocolate curls (see Note)"
 	] 
 },
@@ -2396,14 +5600,26 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT15.0M",
+	"totalTime": "PT15M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://www.delish.com/cooking/recipe-ideas/recipes/a16909/fruity-ice-cream-cups-recipe-rs0811/"
 	}, 
 	"recipeIngredient": [
-		"1 c. vanilla ice cream",
-		"½ c. fruit-flavored sorbet"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "vanilla ice cream",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "c.",
+				"value" : "1"
+			}
+		},
+		"? c. fruit-flavored sorbet"
 	] 
 },
 {
@@ -2430,19 +5646,103 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT0.0M",
+	"totalTime": "PT0M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://www.myrecipes.com/recipe/pumpkin-ice-cream-00420000006994/"
 	}, 
 	"recipeIngredient": [
-		"1/2 gallon vanilla ice cream, softened",
-		"1 cup canned pumpkin",
-		"1/2 cup brown sugar, packed",
-		"1/2 teaspoon ground ginger",
-		"1/4 teaspoon cinnamon",
-		"1/4 teaspoon nutmeg",
-		"1 tablespoon orange juice"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "vanilla ice cream  softened",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "gallon",
+				"value" : "1/2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "canned pumpkin",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "brown sugar  packed",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1/2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "ground ginger",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoon",
+				"value" : "1/2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "cinnamon",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoon",
+				"value" : "1/4"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "nutmeg",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoon",
+				"value" : "1/4"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "orange juice",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoon",
+				"value" : "1"
+			}
+		}
 	] 
 },
 {
@@ -2469,15 +5769,51 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT0.0M",
+	"totalTime": "PT0M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://www.myrecipes.com/recipe/malted-chocolate-ice-cream-10000001049364/"
 	}, 
 	"recipeIngredient": [
-		"4 cups chocolate low-fat ice cream",
-		"1 cup chocolate malted milk balls, crushed",
-		"1/2 cup chocolate malted milk powder"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "chocolate low-fat ice cream",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cups",
+				"value" : "4"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "chocolate malted milk balls  crushed",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "chocolate malted milk powder",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1/2"
+			}
+		}
 	] 
 },
 {
@@ -2510,9 +5846,33 @@
 		"url" : "http://www.delish.com/cooking/recipe-ideas/recipes/a32505/mint-chocolate-ice-cream-pie-121518/"
 	}, 
 	"recipeIngredient": [
-		"32 mint creme–filled chocolate sandwich cookies",
-		"1/4 c. plus 2 Tbsp chocolate ice cream topping",
-		"8 c. mint chocolate chip ice cream"
+		"32 mint creme?filled chocolate sandwich cookies",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "plus 2 Tbsp chocolate ice cream topping",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "c.",
+				"value" : "1/4"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "mint chocolate chip ice cream",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "c.",
+				"value" : "8"
+			}
+		}
 	] 
 },
 {
@@ -2539,15 +5899,51 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT25.0M",
+	"totalTime": "PT25M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://www.delish.com/cooking/recipe-ideas/recipes/a47787/donut-ice-cream-sandwiches-recipe/"
 	}, 
 	"recipeIngredient": [
-		"1 c. chocolate chips",
-		"1 old-fashioned donut",
-		"2 scoops strawberry ice cream"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "chocolate chips",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "c.",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "old-fashioned donut",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pcs",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "strawberry ice cream",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "scoops",
+				"value" : "2"
+			}
+		}
 	] 
 },
 {
@@ -2580,11 +5976,47 @@
 		"url" : "http://www.delish.com/cooking/recipe-ideas/recipes/a34262/chocolate-malt-ice-cream-cake-recipe-122586/"
 	}, 
 	"recipeIngredient": [
-		"1 qt. light vanilla ice cream",
-		"¼ c. malted milk powder",
-		"1 qt. light chocolate ice cream",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "light vanilla ice cream",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "qt.",
+				"value" : "1"
+			}
+		},
+		"? c. malted milk powder",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "light chocolate ice cream",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "qt.",
+				"value" : "1"
+			}
+		},
 		"? c. fat-free fudge topping",
-		"1 c. chopped malted milk balls"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "chopped malted milk balls",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "c.",
+				"value" : "1"
+			}
+		}
 	] 
 },
 {
@@ -2611,15 +6043,51 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT0.0M",
+	"totalTime": "PT0M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://www.delish.com/cooking/recipe-ideas/recipes/a35694/smores-ice-cream-sliders-recipe-ghk0813/"
 	}, 
 	"recipeIngredient": [
-		"4 scoop chocolate ice cream",
-		"1 c. mini marshmallows",
-		"8 cookies"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "chocolate ice cream",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "scoop",
+				"value" : "4"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "mini marshmallows",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "c.",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "cookies",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pcs",
+				"value" : "8"
+			}
+		}
 	] 
 },
 {
@@ -2646,16 +6114,40 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT0.0M",
+	"totalTime": "PT0M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://www.delish.com/cooking/recipe-ideas/recipes/a27397/cranberry-chunk-ice-cream-3067/"
 	}, 
 	"recipeIngredient": [
-		"1 pt. vanilla ice cream",
-		"½ c. chocolate-covered cranberries",
-		"3 tbsp. sweet marsala",
-		"½ tsp. ground cinnamon"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "vanilla ice cream",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pt.",
+				"value" : "1"
+			}
+		},
+		"? c. chocolate-covered cranberries",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "sweet marsala",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tbsp.",
+				"value" : "3"
+			}
+		},
+		"? tsp. ground cinnamon"
 	] 
 },
 {
@@ -2682,14 +6174,38 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT35.0M",
+	"totalTime": "PT35M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://www.delish.com/cooking/recipe-ideas/recipes/a47786/cinnamon-roll-ice-cream-sandwiches-recipe/"
 	}, 
 	"recipeIngredient": [
-		"1 tube refrigerated cinnamon rolls",
-		"1 pt. vanilla ice cream"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "refrigerated cinnamon rolls",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tube",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "vanilla ice cream",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pt.",
+				"value" : "1"
+			}
+		}
 	] 
 },
 {
@@ -2716,16 +6232,64 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT0.0M",
+	"totalTime": "PT0M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://www.delish.com/cooking/recipe-ideas/recipes/a19673/walnut-dacquoises-honey-walnut-ice-cream-recipe-mslo0912/"
 	}, 
 	"recipeIngredient": [
-		"3 oz. chopped walnuts",
-		"3 tbsp. honey",
-		".13 tsp. salt",
-		"1 qt. vanilla ice cream or nondairy ice cream or sorbet"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "chopped walnuts",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "oz.",
+				"value" : "3"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "honey",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tbsp.",
+				"value" : "3"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "salt",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tsp.",
+				"value" : ".13"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "vanilla ice cream or nondairy ice cream or sorbet",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "qt.",
+				"value" : "1"
+			}
+		}
 	] 
 },
 {
@@ -2758,15 +6322,63 @@
 		"url" : "http://www.delish.com/cooking/recipe-ideas/recipes/a33248/peach-melba-ice-cream-pie-recipe-121369/"
 	}, 
 	"recipeIngredient": [
-		"¼ c. butterscotch or caramel ice cream topping",
-		"2 tbsp. stick butter",
-		"28 vanilla wafer cookies",
-		"¾ c. peach preserves",
-		"3 pt. vanilla ice cream",
-		"½ c. raspberry pourable fruit",
-		"½ pt. raspberries",
-		"2 ripe medium peaches",
-		"¼ c. raspberry pourable fruit"
+		"? c. butterscotch or caramel ice cream topping",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "stick butter",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tbsp.",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "wafer cookies",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "vanilla",
+				"value" : "28"
+			}
+		},
+		"? c. peach preserves",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "vanilla ice cream",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pt.",
+				"value" : "3"
+			}
+		},
+		"? c. raspberry pourable fruit",
+		"? pt. raspberries",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "medium peaches",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "ripe",
+				"value" : "2"
+			}
+		},
+		"? c. raspberry pourable fruit"
 	] 
 },
 {
@@ -2793,18 +6405,78 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT10.0M",
+	"totalTime": "PT10M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://www.delish.com/cooking/recipe-ideas/recipes/a29065/apple-ginger-ice-cream/"
 	}, 
 	"recipeIngredient": [
-		"2 pt. vanilla ice cream",
-		"1 c. apples",
-		"¼ c. ginger",
-		"1/2 tsp. cinnamon",
-		"4 tbsp. apple liqueur",
-		"4 whole gingersnaps"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "vanilla ice cream",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pt.",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "apples",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "c.",
+				"value" : "1"
+			}
+		},
+		"? c. ginger",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "cinnamon",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tsp.",
+				"value" : "1/2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "apple liqueur",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tbsp.",
+				"value" : "4"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "gingersnaps",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "whole",
+				"value" : "4"
+			}
+		}
 	] 
 },
 {
@@ -2837,16 +6509,52 @@
 		"url" : "http://www.delish.com/cooking/recipe-ideas/recipes/a47616/banana-split-ice-cream-cake-recipe/"
 	}, 
 	"recipeIngredient": [
-		"3 Bananas, sliced",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "sliced",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "Bananas",
+				"value" : "3"
+			}
+		},
 		"15-20 Nilla wafers",
-		"2 pints strawberry ice cream, softened",
-		"2 pints chocolate ice cream, softened",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "strawberry ice cream  softened",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pints",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "chocolate ice cream  softened",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pints",
+				"value" : "2"
+			}
+		},
 		"12-15 Oreo cookies",
-		"chocolate syrup, for serving",
-		"chopped walnuts, for serving",
-		"Sprinkles, for serving",
-		"Whipped cream, for serving",
-		"Maraschino cherries, for serving"
+		"chocolate syrup  for serving",
+		"chopped walnuts  for serving",
+		"Sprinkles  for serving",
+		"Whipped cream  for serving",
+		"Maraschino cherries  for serving"
 	] 
 },
 {
@@ -2873,15 +6581,39 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT0.0M",
+	"totalTime": "PT0M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://www.delish.com/cooking/recipe-ideas/recipes/a27333/confetti-ice-cream-pops-3522/"
 	}, 
 	"recipeIngredient": [
-		"8 piece soft-centered candy bars",
-		"1 pt. vanilla custard-style ice cream",
-		"¾ c. assorted-color candy confetti or sprinkles"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "soft-centered candy bars",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "piece",
+				"value" : "8"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "vanilla custard-style ice cream",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pt.",
+				"value" : "1"
+			}
+		},
+		"? c. assorted-color candy confetti or sprinkles"
 	] 
 },
 {
@@ -2908,16 +6640,64 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT30.0M",
+	"totalTime": "PT30M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://www.delish.com/cooking/recipe-ideas/recipes/a15021/ice-cream-bonbons-recipe-fw0611/"
 	}, 
 	"recipeIngredient": [
-		"10 oz. extra-dark chocolate",
-		"2 oz. good-quality white chocolate from a bar",
-		"1 c. finely crushed chocolate wafer cookies",
-		"1 pt. caramel, strawberry, chocolate, vanilla, or coffee ice cream",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "extra-dark chocolate",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "oz.",
+				"value" : "10"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "good-quality white chocolate from a bar",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "oz.",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "finely crushed chocolate wafer cookies",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "c.",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "caramel  strawberry  chocolate  vanilla  or coffee ice cream",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pt.",
+				"value" : "1"
+			}
+		},
 		"Flaky sea salt"
 	] 
 },
@@ -2945,15 +6725,39 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT10.0M",
+	"totalTime": "PT10M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://www.delish.com/cooking/recipe-ideas/recipes/a17022/chocolate-mint-ice-cream-sandwiches-recipe-rs0811/"
 	}, 
 	"recipeIngredient": [
-		"8 chocolate wafer cookies",
-		"1 c. vanilla ice cream",
-		"¼ c. Crushed peppermint candies"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "wafer cookies",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "chocolate",
+				"value" : "8"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "vanilla ice cream",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "c.",
+				"value" : "1"
+			}
+		},
+		"? c. Crushed peppermint candies"
 	] 
 },
 {
@@ -2980,16 +6784,52 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT15.0M",
+	"totalTime": "PT15M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://www.marthastewart.com/313709/raspberry-ice-cream-cake"
 	}, 
 	"recipeIngredient": [
-		"1 loaf pound cake, sliced horizontally into thirds",
-		"1 1/2 cups raspberries (6 ounces)",
-		"1 pint vanilla ice cream, softened",
-		"Confectioners' sugar, for serving"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "pound cake  sliced horizontally into thirds",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "loaf",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "raspberries (6 ounces)",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cups",
+				"value" : "1 1/2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "vanilla ice cream  softened",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pint",
+				"value" : "1"
+			}
+		},
+		"Confectioners' sugar  for serving"
 	] 
 },
 {
@@ -3016,16 +6856,64 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT25.0M",
+	"totalTime": "PT25M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://www.epicurious.com/recipes/food/views/Margarita-Ice-Pops-107894"
 	}, 
 	"recipeIngredient": [
-		"1/2 cup tequila",
-		"6 tablespoons fresh lime juice",
-		"1/4 cup coarse kosher salt",
-		"6 frozen lime-flavored ice pops or fruit bars, unwrapped"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "tequila",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1/2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "fresh lime juice",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoons",
+				"value" : "6"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "coarse kosher salt",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1/4"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "lime-flavored ice pops or fruit bars  unwrapped",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "frozen",
+				"value" : "6"
+			}
+		}
 	] 
 },
 {
@@ -3052,21 +6940,117 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT45.0M",
+	"totalTime": "PT45M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://www.myrecipes.com/recipe/mont-blanc-ice-cream-bombe"
 	}, 
 	"recipeIngredient": [
-		"1 pint strawberry ice cream",
-		"2 pints pistachio ice cream",
-		"3 pints coffee ice cream",
-		"1 (9.75 oz.) package fudge brownies",
-		"1 (4.9 oz.) package Italianstyle sandwich cookies (such as Pepperidge Farm Milano cookies), coarsely chopped",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "strawberry ice cream",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pint",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "pistachio ice cream",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pints",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "coffee ice cream",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pints",
+				"value" : "3"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "(9.75 oz.) package fudge brownies",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pcs",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "(4.9 oz.) package Italianstyle sandwich cookies (such as Pepperidge Farm Milano cookies)  coarsely chopped",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pcs",
+				"value" : "1"
+			}
+		},
 		"Whites from 4 large eggs",
-		"1/2 cup sugar",
-		"1 cup heavy cream",
-		"1/4 cup chocolate sprinkles"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "sugar",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1/2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "heavy cream",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "chocolate sprinkles",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1/4"
+			}
+		}
 	] 
 },
 {
@@ -3093,16 +7077,64 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT30.0M",
+	"totalTime": "PT30M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://www.delish.com/cooking/recipe-ideas/recipes/a15021/ice-cream-bonbons-recipe-fw0611/"
 	}, 
 	"recipeIngredient": [
-		"10 oz. extra-dark chocolate",
-		"2 oz. good-quality white chocolate from a bar",
-		"1 c. finely crushed chocolate wafer cookies",
-		"1 pt. caramel, strawberry, chocolate, vanilla, or coffee ice cream",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "extra-dark chocolate",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "oz.",
+				"value" : "10"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "good-quality white chocolate from a bar",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "oz.",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "finely crushed chocolate wafer cookies",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "c.",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "caramel  strawberry  chocolate  vanilla  or coffee ice cream",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pt.",
+				"value" : "1"
+			}
+		},
 		"Flaky sea salt"
 	] 
 },
@@ -3130,15 +7162,39 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT10.0M",
+	"totalTime": "PT10M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://www.delish.com/cooking/recipe-ideas/recipes/a17022/chocolate-mint-ice-cream-sandwiches-recipe-rs0811/"
 	}, 
 	"recipeIngredient": [
-		"8 chocolate wafer cookies",
-		"1 c. vanilla ice cream",
-		"¼ c. Crushed peppermint candies"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "wafer cookies",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "chocolate",
+				"value" : "8"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "vanilla ice cream",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "c.",
+				"value" : "1"
+			}
+		},
+		"? c. Crushed peppermint candies"
 	] 
 },
 {
@@ -3165,18 +7221,90 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT0.0M",
+	"totalTime": "PT0M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://www.marthastewart.com/353598/ice-cream-bag"
 	}, 
 	"recipeIngredient": [
-		"1 cup heavy cream",
-		"1/2 cup milk",
-		"1/3 cup sugar",
-		"1/4 teaspoon pure vanilla extract",
-		"2 1/2 pounds ice cubes",
-		"2 1/2 pounds coarse salt"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "heavy cream",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "milk",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1/2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "sugar",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1/3"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "pure vanilla extract",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoon",
+				"value" : "1/4"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "ice cubes",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pounds",
+				"value" : "2 1/2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "coarse salt",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pounds",
+				"value" : "2 1/2"
+			}
+		}
 	] 
 },
 {
@@ -3209,9 +7337,21 @@
 		"url" : "http://www.delish.com/cooking/recipe-ideas/recipes/a17021/caramel-almond-ice-cream-torte-recipe-rs0811/"
 	}, 
 	"recipeIngredient": [
-		"½ gal. softened vanilla ice cream",
-		"1 c. caramel sauce",
-		"½ c. Toasted sliced almonds"
+		"? gal. softened vanilla ice cream",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "caramel sauce",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "c.",
+				"value" : "1"
+			}
+		},
+		"? c. Toasted sliced almonds"
 	] 
 },
 {
@@ -3238,18 +7378,78 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT1.0M",
+	"totalTime": "PT1M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://www.chowhound.com/recipes/drunken-affogato-ice-cream-shots-10747"
 	}, 
 	"recipeIngredient": [
-		"3 cups chocolate ice cream",
-		"3/4 cup coffee-flavored liqueur, such as kahlúa",
-		"24 whole hazelnuts",
-		"3 cups vanilla ice cream",
-		"3/4 cup lemon-flavored liqueur, such as caravella limoncello",
-		"24 whole macadamia nuts"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "chocolate ice cream",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cups",
+				"value" : "3"
+			}
+		},
+		"3/4 cup coffee-flavored liqueur  such as kahl?a",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "hazelnuts",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "whole",
+				"value" : "24"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "vanilla ice cream",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cups",
+				"value" : "3"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "lemon-flavored liqueur  such as caravella limoncello",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "3/4"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "macadamia nuts",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "whole",
+				"value" : "24"
+			}
+		}
 	] 
 },
 {
@@ -3276,17 +7476,77 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT0.0M",
+	"totalTime": "PT0M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://www.myrecipes.com/recipe/croissant-ice-cream-sundaes-10000002001167/"
 	}, 
 	"recipeIngredient": [
-		"4 ounces bittersweet or semisweet chocolate, finely chopped",
-		"1/2 cup heavy cream",
-		"1 tablespoon confectioners' sugar",
-		"2 croissants",
-		"1 pint ice cream"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "bittersweet or semisweet chocolate  finely chopped",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "ounces",
+				"value" : "4"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "heavy cream",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1/2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "confectioners' sugar",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoon",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "croissants",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pcs",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "ice cream",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pint",
+				"value" : "1"
+			}
+		}
 	] 
 },
 {
@@ -3319,16 +7579,124 @@
 		"url" : "https://food52.com/recipes/2232-ginger-snap-ice-cream-sandwiches"
 	}, 
 	"recipeIngredient": [
-		"2 cups sifted flour",
-		"3 teaspoons ginger",
-		"2 teaspoons baking soda",
-		"1/2 teaspoon salt",
-		"1 teaspoon cinnamon",
-		"1/2 cup butter",
-		"1 1/2 cup sugar",
-		"1 large egg",
-		"1/4 cup molasses",
-		"Vanilla ice cream (i also like flavored ice creams with this recipe, but a good vanilla is great)"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "sifted flour",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cups",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "ginger",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoons",
+				"value" : "3"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "baking soda",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoons",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "salt",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoon",
+				"value" : "1/2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "cinnamon",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoon",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "butter",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1/2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "sugar",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1 1/2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "egg",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "large",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "molasses",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1/4"
+			}
+		},
+		"Vanilla ice cream (i also like flavored ice creams with this recipe  but a good vanilla is great)"
 	] 
 },
 {
@@ -3361,9 +7729,45 @@
 		"url" : "http://www.seriouseats.com/recipes/2011/06/homemade-chocolate-covered-ice-cream-bars-recipe.html"
 	}, 
 	"recipeIngredient": [
-		"1 pint good quality ice cream, flavor of your choice",
-		"1 (12oz) package semisweet chocolate chips",
-		"1/2 cup vegetable or mild olive oil",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "good quality ice cream  flavor of your choice",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pint",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "(12oz) package semisweet chocolate chips",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pcs",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "vegetable or mild olive oil",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1/2"
+			}
+		},
 		"Wooden ice pop sticks (optional)",
 		"Sea salt or sprinkles"
 	] 
@@ -3392,15 +7796,39 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT35.0M",
+	"totalTime": "PT35M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://www.marthastewart.com/953629/roasted-apples-ice-cream"
 	}, 
 	"recipeIngredient": [
-		"6 apples, such as gala or golden delicious, cored",
-		"3 tablespoons unsalted butter, cut into 12 pieces",
-		"Vanilla ice cream, for serving"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "such as gala or golden delicious  cored",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "apples",
+				"value" : "6"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "unsalted butter  cut into 12 pieces",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoons",
+				"value" : "3"
+			}
+		},
+		"Vanilla ice cream  for serving"
 	] 
 },
 {
@@ -3427,18 +7855,90 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT10.0M",
+	"totalTime": "PT10M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://www.delish.com/cooking/recipe-ideas/recipes/a16588/berry-ice-cream-shortcakes-recipe-rs0811/"
 	}, 
 	"recipeIngredient": [
-		"1 c. raspberries",
-		"1 c. blueberries",
-		"2 tbsp. sugar",
-		"2 tbsp. orange juice",
-		"4 Biscuits",
-		"1 pt. vanilla ice cream"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "raspberries",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "c.",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "blueberries",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "c.",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "sugar",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tbsp.",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "orange juice",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tbsp.",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "Biscuits",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pcs",
+				"value" : "4"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "vanilla ice cream",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pt.",
+				"value" : "1"
+			}
+		}
 	] 
 },
 {
@@ -3465,16 +7965,64 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT0.0M",
+	"totalTime": "PT0M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://www.myrecipes.com/recipe/ice-cream-cake-1"
 	}, 
 	"recipeIngredient": [
-		"1 box yellow cake mix",
-		"3 large eggs",
-		"1/3 cup vegetable oil",
-		"2 quarts coffee (or any other flavor) ice cream, softened slightly"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "yellow cake mix",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "box",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "eggs",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "large",
+				"value" : "3"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "vegetable oil",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1/3"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "coffee (or any other flavor) ice cream  softened slightly",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "quarts",
+				"value" : "2"
+			}
+		}
 	] 
 },
 {
@@ -3507,13 +8055,85 @@
 		"url" : "http://www.seriouseats.com/recipes/2012/06/banana-split-ice-cream-cake-recipe.html"
 	}, 
 	"recipeIngredient": [
-		"1 1/2 cups (about 8 ounces) chocolate ice cream, softened",
-		"2 1/2 cups (about 16 ounces) cookie or cake crumbs (chocolate preferred)",
-		"1 cup (about 5 ounces) vanilla ice cream, softened",
-		"1 cup (about 5 ounces) strawberry ice cream, softened",
-		"2 medium ripe bananas, sliced into 1/4-inch coins",
-		"1/2 cup hot fudge sauce",
-		"whipped cream, nuts, and a maraschino cherry for garnish (optional)"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "(about 8 ounces) chocolate ice cream  softened",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cups",
+				"value" : "1 1/2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "(about 16 ounces) cookie or cake crumbs (chocolate preferred)",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cups",
+				"value" : "2 1/2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "(about 5 ounces) vanilla ice cream  softened",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "(about 5 ounces) strawberry ice cream  softened",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "ripe bananas  sliced into 1/4-inch coins",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "medium",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "hot fudge sauce",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1/2"
+			}
+		},
+		"whipped cream  nuts  and a maraschino cherry for garnish (optional)"
 	] 
 },
 {
@@ -3540,15 +8160,51 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT20.0M",
+	"totalTime": "PT20M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://www.myrecipes.com/recipe/espresso-drizzled-ice-cream"
 	}, 
 	"recipeIngredient": [
-		"2 tablespoons instant espresso",
-		"2 pints vanilla ice cream",
-		"2 tablespoons dark chocolate, finely chopped"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "instant espresso",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoons",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "vanilla ice cream",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pints",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "dark chocolate  finely chopped",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoons",
+				"value" : "2"
+			}
+		}
 	] 
 },
 {
@@ -3575,15 +8231,51 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT0.0M",
+	"totalTime": "PT0M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://www.myrecipes.com/recipe/ice-cream-with-strawberry-sauce-50400000106999/"
 	}, 
 	"recipeIngredient": [
-		"2 1/2 cups sliced strawberries",
-		"2 tablespoons sugar",
-		"3 3/4 cups light vanilla or strawberry ice cream or frozen yogurt"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "sliced strawberries",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cups",
+				"value" : "2 1/2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "sugar",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoons",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "light vanilla or strawberry ice cream or frozen yogurt",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cups",
+				"value" : "3 3/4"
+			}
+		}
 	] 
 },
 {
@@ -3610,15 +8302,39 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT0.0M",
+	"totalTime": "PT0M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://www.bbcgoodfood.com/recipes/8305/fried-ice-cream-in-puff-pastry"
 	}, 
 	"recipeIngredient": [
-		"1 sheet frozen puff pastry, thawed",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "frozen puff pastry  thawed",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "sheet",
+				"value" : "1"
+			}
+		},
 		"Sunflower oil",
-		"2 scoops vanilla ice cream"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "vanilla ice cream",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "scoops",
+				"value" : "2"
+			}
+		}
 	] 
 },
 {
@@ -3645,14 +8361,38 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT0.0M",
+	"totalTime": "PT0M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://www.thedailymeal.com/guinness-and-ice-cream-recipe"
 	}, 
 	"recipeIngredient": [
-		"1 pint/45 milliliters good-quality vanilla ice cream, softened but not melted",
-		"1 bottle Guinness Stout"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "pint/45 milliliters good-quality vanilla ice cream  softened but not melted",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pcs",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "Guinness Stout",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "bottle",
+				"value" : "1"
+			}
+		}
 	] 
 },
 {
@@ -3679,15 +8419,51 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT0.0M",
+	"totalTime": "PT0M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://www.donnahay.com.au/recipes/sweets/ice-cream/chocolate-coated-ice-cream-bombs"
 	}, 
 	"recipeIngredient": [
-		"500 ml good-quality vanilla ice-cream",
-		"400 g dark chocolate, chopped",
-		"2 tablespoons vegetable oil"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "good-quality vanilla ice-cream",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "ml",
+				"value" : "500"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "dark chocolate  chopped",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "g",
+				"value" : "400"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "vegetable oil",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoons",
+				"value" : "2"
+			}
+		}
 	] 
 }
 ]

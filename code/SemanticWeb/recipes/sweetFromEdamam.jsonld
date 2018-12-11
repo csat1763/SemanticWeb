@@ -23,13 +23,25 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT30.0M",
+	"totalTime": "PT30M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://www.marthastewart.com/313813/sweet-potato-puree"
 	}, 
 	"recipeIngredient": [
-		"3 large sweet potatoes",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "sweet potatoes",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "large",
+				"value" : "3"
+			}
+		},
 		"Coarse salt and ground pepper"
 	] 
 },
@@ -63,8 +75,32 @@
 		"url" : "https://food52.com/recipes/6830-sweet-chili-wings"
 	}, 
 	"recipeIngredient": [
-		"16 pieces chicken",
-		"12 ounces sweet chili sauce"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "chicken",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pieces",
+				"value" : "16"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "sweet chili sauce",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "ounces",
+				"value" : "12"
+			}
+		}
 	] 
 },
 {
@@ -91,13 +127,25 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT25.0M",
+	"totalTime": "PT25M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://www.chezus.com/2009/07/31/sweet-potato-chips/"
 	}, 
 	"recipeIngredient": [
-		"2 sweet potatoes",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "potatoes",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "sweet",
+				"value" : "2"
+			}
+		},
 		"canola oil",
 		"sea salt"
 	] 
@@ -126,16 +174,64 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT5.0M",
+	"totalTime": "PT5M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://www.epicurious.com/recipes/food/views/Sweet-Amigos-51256890"
 	}, 
 	"recipeIngredient": [
-		"1 orange wheel, halved",
-		"2 dark sweet cherries (1 pitted)",
-		"2 oz Casamigos Reposado tequila",
-		"1/4 oz agave nectar",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "wheel  halved",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "orange",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "sweet cherries (1 pitted)",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "dark",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "Casamigos Reposado tequila",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "oz",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "agave nectar",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "oz",
+				"value" : "1/4"
+			}
+		},
 		"pinch of cinnamon"
 	] 
 },
@@ -163,15 +259,39 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT0.0M",
+	"totalTime": "PT0M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://www.saveur.com/article/Recipes/Fried-Sweet-Potatoes"
 	}, 
 	"recipeIngredient": [
-		"3 lbs. lard",
-		"4 sweet potatoes",
-		"4–6 tbsp. sugar",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "lard",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "lbs.",
+				"value" : "3"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "potatoes",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "sweet",
+				"value" : "4"
+			}
+		},
+		"4?6 tbsp. sugar",
 		"Salt"
 	] 
 },
@@ -205,10 +325,22 @@
 		"url" : "http://honestcooking.com/sweet-cherry-pie/"
 	}, 
 	"recipeIngredient": [
-		"6 cups sweet cherries (about 3½ pounds or 1.5 kilos)",
+		"6 cups sweet cherries (about 3? pounds or 1.5 kilos)",
 		"? cup (134g) sugar",
-		"¼ cup (30g) cornstarch",
-		"1 teaspoon vanilla extract",
+		"? cup (30g) cornstarch",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "vanilla extract",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoon",
+				"value" : "1"
+			}
+		},
 		"Juice of one lemon",
 		"Prepared sweet pie crust for 1 double-crust pie."
 	] 
@@ -243,13 +375,61 @@
 		"url" : "http://www.bbc.co.uk/food/recipes/candiedsweetpotatoes_78046"
 	}, 
 	"recipeIngredient": [
-		"3 orange sweet potatoes, washed",
-		"3 white sweet potatoes, washed",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "sweet potatoes  washed",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "orange",
+				"value" : "3"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "sweet potatoes  washed",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "white",
+				"value" : "3"
+			}
+		},
 		"150g/5oz dark brown sugar",
 		"125g/4oz butter",
-		"1 tbsp cinnamon",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "cinnamon",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tbsp",
+				"value" : "1"
+			}
+		},
 		"Vanilla essence",
-		"1 orange, juiced",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "juiced",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "orange",
+				"value" : "1"
+			}
+		},
 		"150g/5oz marshmallows"
 	] 
 },
@@ -277,25 +457,181 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT0.0M",
+	"totalTime": "PT0M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://leitesculinaria.com/82678/recipes-sweet-potato-pie.html"
 	}, 
 	"recipeIngredient": [
-		"1 1/2 pounds sweet potatoes (1 to 2 sweet potatoes) or 2 cups canned sweet potato puree",
-		"1 cup heavy cream",
-		"3 large eggs, lightly beaten",
-		"2 tablespoons blackstrap molasses or sorghum",
-		"1/2 cup granulated sugar",
-		"1/2 cup packed light brown sugar",
-		"1 tablespoon unbleached all-purpose flour",
-		"1/4 teaspoon ground cardamom",
-		"1/4 teaspoon ground cloves",
-		"1/4 teaspoon ground mace",
-		"1/2 teaspoon ground ginger",
-		"1/4 teaspoon sea salt",
-		"1 recipe Shortcut Pie Crust (made with brown sugar and prebaked in a 9-inch deep-dish pie plate)",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "sweet potatoes (1 to 2 sweet potatoes) or 2 cups canned sweet potato puree",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pounds",
+				"value" : "1 1/2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "heavy cream",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "eggs  lightly beaten",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "large",
+				"value" : "3"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "blackstrap molasses or sorghum",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoons",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "granulated sugar",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1/2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "packed light brown sugar",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1/2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "unbleached all-purpose flour",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoon",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "ground cardamom",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoon",
+				"value" : "1/4"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "ground cloves",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoon",
+				"value" : "1/4"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "ground mace",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoon",
+				"value" : "1/4"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "ground ginger",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoon",
+				"value" : "1/2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "sea salt",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoon",
+				"value" : "1/4"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "Shortcut Pie Crust (made with brown sugar and prebaked in a 9-inch deep-dish pie plate)",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "recipe",
+				"value" : "1"
+			}
+		},
 		"Whipped cream (optional)",
 		"Freshly grated nutmeg (optional)"
 	] 
@@ -324,16 +660,52 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT0.0M",
+	"totalTime": "PT0M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://www.bbcgoodfood.com/recipes/2532/sweet-potato-chips"
 	}, 
 	"recipeIngredient": [
-		"4 sweet potatoes , scrubbed and cut into large chips",
-		"2 tbsp olive oil",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "potatoes   scrubbed and cut into large chips",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "sweet",
+				"value" : "4"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "olive oil",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tbsp",
+				"value" : "2"
+			}
+		},
 		"Freshly grated nutmeg (optional)",
-		"2 tbsp light soy sauce"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "light soy sauce",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tbsp",
+				"value" : "2"
+			}
+		}
 	] 
 },
 {
@@ -360,14 +732,38 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT20.0M",
+	"totalTime": "PT20M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://www.simplyrecipes.com/recipes/sweet_potato_hash_browns/"
 	}, 
 	"recipeIngredient": [
-		"1/2 pound sweet potato (about half a large sweet potato), peeled and grated through the large grates of a box grater",
-		"4 Tbsp butter",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "sweet potato (about half a large sweet potato)  peeled and grated through the large grates of a box grater",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pound",
+				"value" : "1/2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "butter",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "Tbsp",
+				"value" : "4"
+			}
+		},
 		"salt",
 		"pepper"
 	] 
@@ -396,15 +792,39 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT0.0M",
+	"totalTime": "PT0M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://thebittenword.typepad.com/thebittenword/2009/01/fajita-sweet-potatoes.html"
 	}, 
 	"recipeIngredient": [
-		"2 large sweet potatoes",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "sweet potatoes",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "large",
+				"value" : "2"
+			}
+		},
 		"Olive oil to coat",
-		"2 tablespoons fajita seasoning"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "fajita seasoning",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoons",
+				"value" : "2"
+			}
+		}
 	] 
 },
 {
@@ -431,16 +851,40 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT0.0M",
+	"totalTime": "PT0M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://www.donnahay.com.au/recipes/snacks_and_sides/vegetables/baked-sweet-potato"
 	}, 
 	"recipeIngredient": [
-		"2 (large) sweet potatoes (kumara)",
-		"12 sage leaves",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "sweet potatoes (kumara)",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "(large)",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "leaves",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "sage",
+				"value" : "12"
+			}
+		},
 		"sea salt",
-		"butter, to serve"
+		"butter  to serve"
 	] 
 },
 {
@@ -473,16 +917,112 @@
 		"url" : "http://thepioneerwoman.com/cooking/soul-sweet-taters-step-by-step-recipe/"
 	}, 
 	"recipeIngredient": [
-		"4 whole medium sweet potatoes",
-		"1 cup sugar",
-		"1 cup milk",
-		"2 whole eggs",
-		"1 teaspoon vanilla extract",
-		"1 teaspoon salt",
-		"1 cup brown sugar",
-		"1 cup pecans",
-		"½ cups flour",
-		"¾ sticks butter"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "medium sweet potatoes",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "whole",
+				"value" : "4"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "sugar",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "milk",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "eggs",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "whole",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "vanilla extract",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoon",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "salt",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoon",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "brown sugar",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "pecans",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1"
+			}
+		},
+		"? cups flour",
+		"? sticks butter"
 	] 
 },
 {
@@ -509,15 +1049,39 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT0.0M",
+	"totalTime": "PT0M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://www.cookstr.com/recipes/candied-sweet-potatoes"
 	}, 
 	"recipeIngredient": [
-		"1½ to 2 cups sugar, depending on the sweetness of the potatoes",
-		"4 pounds sweet potatoes , peeled and quartered",
-		"4 tablespoons butter"
+		"1? to 2 cups sugar  depending on the sweetness of the potatoes",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "sweet potatoes   peeled and quartered",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pounds",
+				"value" : "4"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "butter",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoons",
+				"value" : "4"
+			}
+		}
 	] 
 },
 {
@@ -550,12 +1114,84 @@
 		"url" : "http://www.cookingchanneltv.com/recipes/nigella-lawson/sweet-and-sticky-ribs.html"
 	}, 
 	"recipeIngredient": [
-		"4 fluid ounces (125 ml) thai or chinese sweet chili sauce",
-		"2 fluid ounces (60 ml) cranberry sauce (from a jar)",
-		"2 fluid ounces (60 ml) dark sweet soy sauce",
-		"1 clementine, juice and sliced rind",
-		"1 lime, juice and sliced rind",
-		"15 to 20 pork spare ribs"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "ounces (125 ml) thai or chinese sweet chili sauce",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "fluid",
+				"value" : "4"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "ounces (60 ml) cranberry sauce (from a jar)",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "fluid",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "ounces (60 ml) dark sweet soy sauce",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "fluid",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "juice and sliced rind",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "clementine",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "juice and sliced rind",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "lime",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "20 pork spare ribs",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "to",
+				"value" : "15"
+			}
+		}
 	] 
 },
 {
@@ -582,20 +1218,68 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT35.0M",
+	"totalTime": "PT35M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://www.kitchendaily.com/recipe/sweet-spicy-baked-sweet-potato-fries"
 	}, 
 	"recipeIngredient": [
-		"2 sweet potatoes (about 1 and 1/2 pounds)",
-		"2 Tbsp cornstarch (or arrow root powder)",
-		"¼ cup coconut oil (canola or olive oil works too)",
-		"3 Tbsp light brown sugar",
-		"½ tsp garlic power",
-		"1 tsp red chili pepper",
-		"½ tsp sea salt",
-		"½ tsp smoked sweet paprika"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "potatoes (about 1 and 1/2 pounds)",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "sweet",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "cornstarch (or arrow root powder)",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "Tbsp",
+				"value" : "2"
+			}
+		},
+		"? cup coconut oil (canola or olive oil works too)",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "light brown sugar",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "Tbsp",
+				"value" : "3"
+			}
+		},
+		"? tsp garlic power",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "red chili pepper",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tsp",
+				"value" : "1"
+			}
+		},
+		"? tsp sea salt",
+		"? tsp smoked sweet paprika"
 	] 
 },
 {
@@ -622,15 +1306,27 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT0.0M",
+	"totalTime": "PT0M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://www.goodhousekeeping.com/food-recipes/a9392/sweet-potato-sandwich-recipe-ghk1111/"
 	}, 
 	"recipeIngredient": [
-		"2 De Wafelbakkers sweet potato pancakes",
-		"¼ c. part-skim ricotta",
-		"½ pear",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "Wafelbakkers sweet potato pancakes",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "De",
+				"value" : "2"
+			}
+		},
+		"? c. part-skim ricotta",
+		"? pear",
 		"cinnamon"
 	] 
 },
@@ -664,14 +1360,110 @@
 		"url" : "http://www.pbs.org/food/recipes/sweet-potato-biscuits/"
 	}, 
 	"recipeIngredient": [
-		"2 cups all-purpose flour",
-		"1 tbsp. baking powder",
-		"1 teaspoon salt",
-		"1 cup mashed sweet potato (from 1 - 2 cooked sweet potatoes)",
-		"2 tbsp. firmly packed brown sugar",
-		"1/2 cup butter flavor crisco melted",
-		"1/2 teaspoon baking soda",
-		"3/4 cup buttermilk"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "all-purpose flour",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cups",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "baking powder",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tbsp.",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "salt",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoon",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "mashed sweet potato (from 1 - 2 cooked sweet potatoes)",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "firmly packed brown sugar",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tbsp.",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "butter flavor crisco melted",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1/2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "baking soda",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoon",
+				"value" : "1/2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "buttermilk",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "3/4"
+			}
+		}
 	] 
 },
 {
@@ -698,18 +1490,90 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT0.0M",
+	"totalTime": "PT0M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://glutenfreegoddess.blogspot.com/2008/12/sweet-potato-soup-for-winter-solstice.html"
 	}, 
 	"recipeIngredient": [
-		"2 lb Sweet Potato",
-		"1 x Sweet Onion - Diced Fine",
-		"1 x Ginger root (to taste)",
-		"1 drizzle Olive oil",
-		"2 x Sea salt",
-		"2 pinch Cinnamon or nutmeg"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "Sweet Potato",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "lb",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "Sweet Onion - Diced Fine",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "x",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "Ginger root (to taste)",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "x",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "Olive oil",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "drizzle",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "Sea salt",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "x",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "Cinnamon or nutmeg",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pinch",
+				"value" : "2"
+			}
+		}
 	] 
 },
 {
@@ -736,14 +1600,38 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT0.0M",
+	"totalTime": "PT0M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://www.rachaelray.com/recipe.php?recipe_id=2480"
 	}, 
 	"recipeIngredient": [
-		"2 1/2-3 pounds sweet potatoes",
-		"1 cup buttermilk",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "1/2-3 pounds sweet potatoes",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pcs",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "buttermilk",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1"
+			}
+		},
 		"Salt and freshly ground black pepper"
 	] 
 },
@@ -771,20 +1659,104 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT0.0M",
+	"totalTime": "PT0M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://orangette.blogspot.com/2004/12/another-excuse-to-talk-biscuits.html"
 	}, 
 	"recipeIngredient": [
-		"1 3/4 cup all-purpose flour",
-		"2 tbsp light-brown sugar",
-		"2 1/2 tsp baking powder",
-		"1 tsp salt",
-		"1/2 tsp baking soda",
-		"6 tbsp chilled unsalted butter",
-		"3/4 cup chilled sweet potato puree (read: peeled, boiled, and pureed sweet potatoes)",
-		"1/3 cup buttermilk"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "all-purpose flour",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1 3/4"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "light-brown sugar",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tbsp",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "baking powder",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tsp",
+				"value" : "2 1/2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "salt",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tsp",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "baking soda",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tsp",
+				"value" : "1/2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "chilled unsalted butter",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tbsp",
+				"value" : "6"
+			}
+		},
+		"3/4 cup chilled sweet potato puree (read: peeled  boiled  and pureed sweet potatoes)",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "buttermilk",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1/3"
+			}
+		}
 	] 
 },
 {
@@ -811,15 +1783,51 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT0.0M",
+	"totalTime": "PT0M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://www.myrecipes.com/recipe/okinawa-sweet-potatoes-10000001547053/"
 	}, 
 	"recipeIngredient": [
-		"4 pounds Okinawa (purple) sweet potatoes or white sweet potatoes, scrubbed",
-		"2 limes",
-		"1/4 cup butter",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "Okinawa (purple) sweet potatoes or white sweet potatoes  scrubbed",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pounds",
+				"value" : "4"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "limes",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pcs",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "butter",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1/4"
+			}
+		},
 		"Hawaiian red clay salt or sea salt"
 	] 
 },
@@ -853,14 +1861,110 @@
 		"url" : "http://www.eatingwell.com/recipe/252083/soy-glazed-sweet-potatoes"
 	}, 
 	"recipeIngredient": [
-		"3 large sweet potatoes, scrubbed and quartered lengthwise",
-		"1/4 cup water",
-		"2 tablespoons brown sugar",
-		"3 tablespoons reduced-sodium soy sauce",
-		"2 tablespoons mirin (see note) or sweet sherry",
-		"1 tablespoon toasted sesame oil",
-		"1 tablespoon minced garlic",
-		"1 tablespoon sesame seeds"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "sweet potatoes  scrubbed and quartered lengthwise",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "large",
+				"value" : "3"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "water",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1/4"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "brown sugar",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoons",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "reduced-sodium soy sauce",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoons",
+				"value" : "3"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "mirin (see note) or sweet sherry",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoons",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "toasted sesame oil",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoon",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "minced garlic",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoon",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "sesame seeds",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoon",
+				"value" : "1"
+			}
+		}
 	] 
 },
 {
@@ -887,20 +1991,56 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT30.0M",
+	"totalTime": "PT30M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://www.wholefoodsmarket.com/recipe/sweet-potato-gnocchi"
 	}, 
 	"recipeIngredient": [
-		"2 cups mashed sweet potatoes (from about 1 pound potatoes or 1 (14-ounce) can sweet potato or butternut purée) 1/4 teaspoon ground nutmeg 1/8 teaspoon fine sea salt 3/4 cup whole wheat pastry flour",
-		"2 cups mashed sweet potatoes (from about 1 pound potatoes or 1 (14-ounce) can sweet potato or butternut purée) 1/4 teaspoon ground nutmeg 1/8 teaspoon fine sea salt 3/4 cup whole wheat pastry flour",
-		"2 cups mashed sweet potatoes (from about 1 pound potatoes or 1 (14-ounce) can sweet potato or butternut purée) 1/4 teaspoon ground nutmeg 1/8 teaspoon fine sea salt 3/4 cup whole wheat pastry flour",
-		"2 cups mashed sweet potatoes (from about 1 pound potatoes or 1 (14-ounce) can sweet potato or butternut purée) 1/4 teaspoon ground nutmeg 1/8 teaspoon fine sea salt 3/4 cup whole wheat pastry flour",
-		"2 cups mashed sweet potatoes (from about 1 pound potatoes or 1 (14-ounce) can sweet potato or butternut purée)",
-		"1/4 teaspoon ground nutmeg",
-		"1/8 teaspoon fine sea salt",
-		"3/4 cup whole wheat pastry flour"
+		"2 cups mashed sweet potatoes (from about 1 pound potatoes or 1 (14-ounce) can sweet potato or butternut pur?e) 1/4 teaspoon ground nutmeg 1/8 teaspoon fine sea salt 3/4 cup whole wheat pastry flour",
+		"2 cups mashed sweet potatoes (from about 1 pound potatoes or 1 (14-ounce) can sweet potato or butternut pur?e) 1/4 teaspoon ground nutmeg 1/8 teaspoon fine sea salt 3/4 cup whole wheat pastry flour",
+		"2 cups mashed sweet potatoes (from about 1 pound potatoes or 1 (14-ounce) can sweet potato or butternut pur?e) 1/4 teaspoon ground nutmeg 1/8 teaspoon fine sea salt 3/4 cup whole wheat pastry flour",
+		"2 cups mashed sweet potatoes (from about 1 pound potatoes or 1 (14-ounce) can sweet potato or butternut pur?e) 1/4 teaspoon ground nutmeg 1/8 teaspoon fine sea salt 3/4 cup whole wheat pastry flour",
+		"2 cups mashed sweet potatoes (from about 1 pound potatoes or 1 (14-ounce) can sweet potato or butternut pur?e)",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "ground nutmeg",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoon",
+				"value" : "1/4"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "fine sea salt",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoon",
+				"value" : "1/8"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "whole wheat pastry flour",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "3/4"
+			}
+		}
 	] 
 },
 {
@@ -927,17 +2067,41 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT45.0M",
+	"totalTime": "PT45M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://www.delish.com/cooking/recipe-ideas/recipes/a34180/sweet-n-spicy-sweet-potatoes-recipe-122490/"
 	}, 
 	"recipeIngredient": [
-		"2 lb. medium sweet potatoes",
-		"2 tbsp. butter",
-		"½ c. sugar",
-		"¼ c. orange juice",
-		"¼ tsp. each ground cayenne and ground cinnamon"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "medium sweet potatoes",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "lb.",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "butter",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tbsp.",
+				"value" : "2"
+			}
+		},
+		"? c. sugar",
+		"? c. orange juice",
+		"? tsp. each ground cayenne and ground cinnamon"
 	] 
 },
 {
@@ -964,16 +2128,64 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT0.0M",
+	"totalTime": "PT0M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://leitesculinaria.com/79558/recipes-sweet-potato-wedges.html"
 	}, 
 	"recipeIngredient": [
-		"2 pounds (about 4 small) sweet potatoes, scrubbed and, if desired, peeled",
-		"2 tablespoons olive oil",
-		"1 1/2 teaspoons chili powder",
-		"1 1/2 teaspoons kosher salt"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "(about 4 small) sweet potatoes  scrubbed and  if desired  peeled",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pounds",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "olive oil",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoons",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "chili powder",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoons",
+				"value" : "1 1/2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "kosher salt",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoons",
+				"value" : "1 1/2"
+			}
+		}
 	] 
 },
 {
@@ -1000,13 +2212,25 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT0.0M",
+	"totalTime": "PT0M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://www.saveur.com/article/Recipes/Sweet-Potato-Fries"
 	}, 
 	"recipeIngredient": [
-		"3 lbs. sweet potatoes or yams",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "sweet potatoes or yams",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "lbs.",
+				"value" : "3"
+			}
+		},
 		"Vegetable oil",
 		"Salt",
 		"Freshly ground black pepper (optional)"
@@ -1042,10 +2266,58 @@
 		"url" : "http://www.marthastewart.com/867174/sweet-potato-puree"
 	}, 
 	"recipeIngredient": [
-		"4 tablespoons unsalted butter",
-		"1 1/2 cups 1-inch cubes sweet potato",
-		"1 tablespoon coarse salt",
-		"1 1/4 cups half-and-half"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "unsalted butter",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoons",
+				"value" : "4"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "1-inch cubes sweet potato",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cups",
+				"value" : "1 1/2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "coarse salt",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoon",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "half-and-half",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cups",
+				"value" : "1 1/4"
+			}
+		}
 	] 
 },
 {
@@ -1072,16 +2344,64 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT0.0M",
+	"totalTime": "PT0M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://www.williams-sonoma.com/recipe/sweet-potato-casserole.html"
 	}, 
 	"recipeIngredient": [
-		"1 package (12.2 oz./345 g) sweet potato casserole starter (includes streusel and seasoning mix packets)",
-		"8 Tbs. (1 stick) (4 oz./125 g) cold unsalted butter, finely diced, plus 8 Tbs. (1 stick) (4 oz./125 g) unsalted butter",
-		"4 lb. (2 kg) sweet potatoes, peeled and cut into 1-inch (2.5-cm) cubes",
-		"1 cup (8 fl. oz./250 ml) milk"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "(12.2 oz./345 g) sweet potato casserole starter (includes streusel and seasoning mix packets)",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "package",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "(1 stick) (4 oz./125 g) cold unsalted butter  finely diced  plus 8 Tbs. (1 stick) (4 oz./125 g) unsalted butter",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "Tbs.",
+				"value" : "8"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "(2 kg) sweet potatoes  peeled and cut into 1-inch (2.5-cm) cubes",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "lb.",
+				"value" : "4"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "(8 fl. oz./250 ml) milk",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1"
+			}
+		}
 	] 
 },
 {
@@ -1108,16 +2428,64 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT0.0M",
+	"totalTime": "PT0M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://www.closetcooking.com/2008/07/sweet-potato-wedges.html"
 	}, 
 	"recipeIngredient": [
-		"2 x sweet potatoes , cut into wedges lengthwise",
-		"2 tbs olive oil",
-		"1 tsp gochugaru , Korean red chili flakes, optional",
-		"1 x salt"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "sweet potatoes   cut into wedges lengthwise",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "x",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "olive oil",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tbs",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "gochugaru   Korean red chili flakes  optional",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tsp",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "salt",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "x",
+				"value" : "1"
+			}
+		}
 	] 
 },
 {
@@ -1150,11 +2518,47 @@
 		"url" : "http://www.bbc.co.uk/food/recipes/sweetpotatowedges_83345"
 	}, 
 	"recipeIngredient": [
-		"2 sweet potato, cut into wedges",
-		"4 tbsp olive oil",
-		"1 tbsp thyme leaves",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "potato  cut into wedges",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "sweet",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "olive oil",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tbsp",
+				"value" : "4"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "thyme leaves",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tbsp",
+				"value" : "1"
+			}
+		},
 		"Salt and freshly ground black pepper",
-		"Chervil, to garnish"
+		"Chervil  to garnish"
 	] 
 },
 {
@@ -1181,22 +2585,142 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT0.0M",
+	"totalTime": "PT0M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://www.thedailymeal.com/sweet-potato-gnocchi-recipe"
 	}, 
 	"recipeIngredient": [
-		"3  Cups   cooked sweet potato, from about 3 sweet potatoes",
-		"1 1/2  Cup   ricotta",
-		"1  Cup   Parmesan, plus more for serving",
-		"1/2  Teaspoon   cinnamon",
-		"2  Teaspoons   salt, plus more to taste",
-		"1  Teaspoon   black pepper, plus more to taste",
-		"2  Cups   all-purpose flour, plus more as needed",
-		"2   sticks unsalted butter",
-		"2  Tablespoons   chopped sage",
-		"1/4  Cup   heavy cream"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "Cups   cooked sweet potato  from about 3 sweet potatoes",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pcs",
+				"value" : "3"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "Cup   ricotta",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pcs",
+				"value" : "1 1/2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "Cup   Parmesan  plus more for serving",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pcs",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "Teaspoon   cinnamon",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pcs",
+				"value" : "1/2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "Teaspoons   salt  plus more to taste",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pcs",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "Teaspoon   black pepper  plus more to taste",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pcs",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "Cups   all-purpose flour  plus more as needed",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pcs",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "sticks unsalted butter",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pcs",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "Tablespoons   chopped sage",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pcs",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "Cup   heavy cream",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pcs",
+				"value" : "1/4"
+			}
+		}
 	] 
 },
 {
@@ -1211,7 +2735,7 @@
 		"@type": "NutritionInformation",
 		"calories" : "3091.0 calories"
 	},
-	"name": "Sweet Potato Waffles, Sweet Or Savory",
+	"name": "Sweet Potato Waffles  Sweet Or Savory",
 	"recipeYield": {
 		"@type": "QuantitativeValue",
 		"value" : "12.0"
@@ -1219,27 +2743,159 @@
 	"image": {
 		"@type": "ImageObject",
 		"contentUrl" : "https://www.edamam.com/web-img/773/7733d20024f17f3a5508a5c71c481cd2.jpg", 
-		"caption" : "Sweet Potato Waffles, Sweet Or Savory"
+		"caption" : "Sweet Potato Waffles  Sweet Or Savory"
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT0.0M",
+	"totalTime": "PT0M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://food52.com/recipes/25127-sweet-potato-waffles-sweet-or-savory"
 	}, 
 	"recipeIngredient": [
-		"6 tablespoons unsalted butter, melted",
-		"2 1/2 cups flour",
-		"2 tablespoons brown sugar (increase up to 1/4 or 1/3 cup if you know you want your waffles for something sweet)",
-		"2 1/4 teaspoons baking powder",
-		"1 teaspoon baking soda",
-		"1 teaspoon salt",
-		"1 teaspoon orange zest",
-		"1/2 teaspoon ground ginger",
-		"4 large eggs, lightly beaten",
-		"1 can (13- or 14-ounce) coconut milk",
-		"1 1/4 cup pureed sweet potatoes (or pumpkin, or other winter squash)"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "unsalted butter  melted",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoons",
+				"value" : "6"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "flour",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cups",
+				"value" : "2 1/2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "brown sugar (increase up to 1/4 or 1/3 cup if you know you want your waffles for something sweet)",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoons",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "baking powder",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoons",
+				"value" : "2 1/4"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "baking soda",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoon",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "salt",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoon",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "orange zest",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoon",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "ground ginger",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoon",
+				"value" : "1/2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "eggs  lightly beaten",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "large",
+				"value" : "4"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "(13- or 14-ounce) coconut milk",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "can",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "pureed sweet potatoes (or pumpkin  or other winter squash)",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1 1/4"
+			}
+		}
 	] 
 },
 {
@@ -1266,22 +2922,142 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT0.0M",
+	"totalTime": "PT0M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://thepioneerwoman.com/cooking/2007/11/if_you_think_you_dont_like_sweet_potatoesthink_again/"
 	}, 
 	"recipeIngredient": [
-		"4 whole Medium Sweet Potatoes",
-		"1 cup Sugar",
-		"1 cup Milk",
-		"2 whole Eggs",
-		"1 tsp Vanilla Extract",
-		"1 tsp Salt",
-		"1 cup Brown Sugar",
-		"1 cup Pecans",
-		"1/2 cup Flour",
-		"3/4 cup Butter"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "Medium Sweet Potatoes",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "whole",
+				"value" : "4"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "Sugar",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "Milk",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "Eggs",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "whole",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "Vanilla Extract",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tsp",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "Salt",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tsp",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "Brown Sugar",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "Pecans",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "Flour",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1/2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "Butter",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "3/4"
+			}
+		}
 	] 
 },
 {
@@ -1308,14 +3084,38 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT45.0M",
+	"totalTime": "PT45M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "https://www.donnahay.com.au/recipes/snacks-and-sides/baked-sweet-potato"
 	}, 
 	"recipeIngredient": [
-		"2 (large) sweet potatoes (kumara)",
-		"12 sage leaves",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "sweet potatoes (kumara)",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "(large)",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "leaves",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "sage",
+				"value" : "12"
+			}
+		},
 		"sea salt",
 		"butter"
 	] 
@@ -1344,13 +3144,25 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT30.0M",
+	"totalTime": "PT30M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://www.delish.com/cooking/recipe-ideas/recipes/a23338/sweet-potato-puree-recipe-mslo0914/"
 	}, 
 	"recipeIngredient": [
-		"3 large sweet potatoes",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "sweet potatoes",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "large",
+				"value" : "3"
+			}
+		},
 		"Coarse salt",
 		"ground pepper"
 	] 
@@ -1367,7 +3179,7 @@
 		"@type": "NutritionInformation",
 		"calories" : "784.0 calories"
 	},
-	"name": "Sweet Potato "Fries"",
+	"name": "Sweet Potato Fries",
 	"recipeYield": {
 		"@type": "QuantitativeValue",
 		"value" : "4.0"
@@ -1375,19 +3187,55 @@
 	"image": {
 		"@type": "ImageObject",
 		"contentUrl" : "https://www.edamam.com/web-img/d6e/d6e53dc6b7b5aa62f5cd2f517307b391.jpg", 
-		"caption" : "Sweet Potato "Fries""
+		"caption" : "Sweet Potato Fries"
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT40.0M",
+	"totalTime": "PT40M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://www.cookingchanneltv.com/recipes/ellie-krieger/sweet-potato-fries.html"
 	}, 
 	"recipeIngredient": [
-		"1 1/2 pounds sweet potatoes, peeled (2 medium potatoes)",
-		"1 tablespoon canola oil",
-		"1/2 teaspoon salt, plus more, to taste",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "sweet potatoes  peeled (2 medium potatoes)",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pounds",
+				"value" : "1 1/2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "canola oil",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoon",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "salt  plus more  to taste",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoon",
+				"value" : "1/2"
+			}
+		},
 		"Cooking spray"
 	] 
 },
@@ -1415,15 +3263,39 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT0.0M",
+	"totalTime": "PT0M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://www.kitchendaily.com/recipe/cinnamon-sweet-potato-fries"
 	}, 
 	"recipeIngredient": [
-		"2 large sweet potatoes",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "sweet potatoes",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "large",
+				"value" : "2"
+			}
+		},
 		"? cup olive oil",
-		"3 tsp ground cinnamon",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "ground cinnamon",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tsp",
+				"value" : "3"
+			}
+		},
 		"salt"
 	] 
 },
@@ -1457,9 +3329,45 @@
 		"url" : "http://www.myrecipes.com/recipe/okinawa-sweet-potatoes"
 	}, 
 	"recipeIngredient": [
-		"4 pounds Okinawa (purple) sweet potatoes or white sweet potatoes, scrubbed",
-		"2 limes",
-		"1/4 cup butter",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "Okinawa (purple) sweet potatoes or white sweet potatoes  scrubbed",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pounds",
+				"value" : "4"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "limes",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pcs",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "butter",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1/4"
+			}
+		},
 		"salt"
 	] 
 },
@@ -1487,16 +3395,64 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT30.0M",
+	"totalTime": "PT30M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://www.goodhousekeeping.com/food-recipes/a6915/mashed-sweet-potatoes-ghk1107/"
 	}, 
 	"recipeIngredient": [
-		"4 lb. sweet potatoes",
-		"4 tbsp. margarine or butter",
-		"3 tbsp. soy sauce",
-		"1 green onion"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "sweet potatoes",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "lb.",
+				"value" : "4"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "margarine or butter",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tbsp.",
+				"value" : "4"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "soy sauce",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tbsp.",
+				"value" : "3"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "onion",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "green",
+				"value" : "1"
+			}
+		}
 	] 
 },
 {
@@ -1523,14 +3479,38 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT0.0M",
+	"totalTime": "PT0M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://www.rachaelray.com/recipe/coconut-roasted-sweet-potatoes/"
 	}, 
 	"recipeIngredient": [
-		"2 large sweet potatoes",
-		"1 tablespoon virgin coconut oil",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "sweet potatoes",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "large",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "virgin coconut oil",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoon",
+				"value" : "1"
+			}
+		},
 		"Pinch of salt"
 	] 
 },
@@ -1558,22 +3538,142 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT41.0M",
+	"totalTime": "PT41M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "https://food52.com/recipes/1621-sweet-potato-bake"
 	}, 
 	"recipeIngredient": [
-		"1 pound sweet potato",
-		"1/2 cup maida flour ( refined and finely milled wheat flour).",
-		"1 cup milk",
-		"3 egg",
-		"2 teaspoons butter",
-		"1/2 cup sugar",
-		"1/4 cup seedless sweet cherry plums",
-		"2 teaspoons almond sliced",
-		"1 teaspoon nutmeg powder",
-		"1/2 cup coconut milk"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "sweet potato",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pound",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "maida flour ( refined and finely milled wheat flour).",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1/2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "milk",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "egg",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pcs",
+				"value" : "3"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "butter",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoons",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "sugar",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1/2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "seedless sweet cherry plums",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1/4"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "almond sliced",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoons",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "nutmeg powder",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoon",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "coconut milk",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1/2"
+			}
+		}
 	] 
 },
 {
@@ -1600,14 +3700,38 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT0.0M",
+	"totalTime": "PT0M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://www.thedailymeal.com/sweet-potato-chips-recipe"
 	}, 
 	"recipeIngredient": [
-		"3   sweet potatoes, peeled and sliced 1/8-inch thick, preferably using a mandoline",
-		"3  Tablespoons   olive oil",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "sweet potatoes  peeled and sliced 1/8-inch thick  preferably using a mandoline",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pcs",
+				"value" : "3"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "Tablespoons   olive oil",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pcs",
+				"value" : "3"
+			}
+		},
 		"Dash of   cayenne",
 		"Dash of   seasoned salt"
 	] 
@@ -1636,23 +3760,143 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT0.0M",
+	"totalTime": "PT0M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://www.saveur.com/article/Recipes/Sweet-Potato-Casserole"
 	}, 
 	"recipeIngredient": [
-		"1/2 cup raisins",
-		"1/3 cup sweet sherry",
-		"3 medium sweet potatoes",
-		"2/3 cup brown sugar",
-		"4 tbsp. butter, melted",
-		"1/2 cup fresh orange juice",
-		"1 tsp. finely chopped orange zest",
-		"1 tsp. pumpkin spice (or 2/3 tsp. ground cinnamon,",
-		"1/4 tsp. ground ginger, pinch ground nutmeg,",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "raisins",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1/2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "sweet sherry",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1/3"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "sweet potatoes",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "medium",
+				"value" : "3"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "brown sugar",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "2/3"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "butter  melted",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tbsp.",
+				"value" : "4"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "fresh orange juice",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1/2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "finely chopped orange zest",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tsp.",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "pumpkin spice (or 2/3 tsp. ground cinnamon ",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tsp.",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "ground ginger  pinch ground nutmeg ",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tsp.",
+				"value" : "1/4"
+			}
+		},
 		"and pinch ground allspice)",
-		"1/2 cup coarsely chopped pecans"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "coarsely chopped pecans",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1/2"
+			}
+		}
 	] 
 },
 {
@@ -1679,15 +3923,51 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT0.0M",
+	"totalTime": "PT0M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://www.delish.com/cooking/recipe-ideas/recipes/a15693/sweet-potato-fries-recipe-opr0611/"
 	}, 
 	"recipeIngredient": [
-		"2 large sweet potatoes",
-		"2 tbsp. canola oil",
-		"1 tsp. salt"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "sweet potatoes",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "large",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "canola oil",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tbsp.",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "salt",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tsp.",
+				"value" : "1"
+			}
+		}
 	] 
 },
 {
@@ -1714,22 +3994,142 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT0.0M",
+	"totalTime": "PT0M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://www.myrecipes.com/recipe/sweet-potato-chowder-10000000524357/"
 	}, 
 	"recipeIngredient": [
-		"1/2 pound thick-sliced bacon, cut into 1/2-inch pieces",
-		"1/2 sweet red pepper, diced",
-		"1/2 sweet green pepper, diced",
-		"1/2 large white onion, diced",
-		"2 large sweet potatoes, peeled and cut into 1-inch cubes",
-		"3 13-ounce cans chicken broth",
-		"3 canned chipotle chilies, minced",
-		"2 14-ounce cans corn",
-		"1 cup low-fat milk",
-		"1/2 teaspoon salt"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "thick-sliced bacon  cut into 1/2-inch pieces",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pound",
+				"value" : "1/2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "red pepper  diced",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "sweet",
+				"value" : "1/2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "green pepper  diced",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "sweet",
+				"value" : "1/2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "white onion  diced",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "large",
+				"value" : "1/2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "sweet potatoes  peeled and cut into 1-inch cubes",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "large",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "cans chicken broth",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "ounce",
+				"value" : "3 13"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "chipotle chilies  minced",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "canned",
+				"value" : "3"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "cans corn",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "ounce",
+				"value" : "2 14"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "low-fat milk",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "salt",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoon",
+				"value" : "1/2"
+			}
+		}
 	] 
 },
 {
@@ -1762,12 +4162,60 @@
 		"url" : "http://www.saveur.com/article/Recipes/Sweet-Potato-Tipsy"
 	}, 
 	"recipeIngredient": [
-		"8 medium sweet potatoes",
-		"2 pinches of salt",
-		"7 tbsp. butter",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "sweet potatoes",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "medium",
+				"value" : "8"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "of salt",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pinches",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "butter",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tbsp.",
+				"value" : "7"
+			}
+		},
 		"1?2 cup half and half",
 		"1?4 cup dry sherry",
-		"3 tbsp. brown sugar"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "brown sugar",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tbsp.",
+				"value" : "3"
+			}
+		}
 	] 
 },
 {
@@ -1800,17 +4248,89 @@
 		"url" : "http://www.goodhousekeeping.com/food-recipes/a9751/sweet-potato-pie-recipe-clv1109/"
 	}, 
 	"recipeIngredient": [
-		"2 medium sweet potatoes",
-		"4 tbsp. unsalted butter",
-		"2 tbsp. fresh lemon juice",
-		"½ tsp. freshly grated nutmeg",
-		"½ tsp. ground cinnamon",
-		"½ tsp. Kosher salt",
-		"3 large eggs",
-		"½ c. sugar",
-		"2 tbsp. all-purpose flour",
-		"¾ c. buttermilk",
-		"1 baked Sweet Piecrust shell",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "sweet potatoes",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "medium",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "unsalted butter",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tbsp.",
+				"value" : "4"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "fresh lemon juice",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tbsp.",
+				"value" : "2"
+			}
+		},
+		"? tsp. freshly grated nutmeg",
+		"? tsp. ground cinnamon",
+		"? tsp. Kosher salt",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "eggs",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "large",
+				"value" : "3"
+			}
+		},
+		"? c. sugar",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "all-purpose flour",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tbsp.",
+				"value" : "2"
+			}
+		},
+		"? c. buttermilk",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "Sweet Piecrust shell",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "baked",
+				"value" : "1"
+			}
+		},
 		"Buttermilk Ice Cream"
 	] 
 },
@@ -1838,22 +4358,142 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT0.0M",
+	"totalTime": "PT0M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "https://food52.com/recipes/31470-sweet-potato-pie"
 	}, 
 	"recipeIngredient": [
-		"2 cups mashed sweet potatoes (from about 2 medium sweet potatoes)",
-		"1 1/4 cups sugar",
-		"1/2 cup evaporated milk",
-		"6 tablespoons butter, softened",
-		"1 teaspoon lemon extract",
-		"1 tablespoon vanilla extract",
-		"1 teaspoon cinnamon",
-		"1 teaspoon all-purpose flour",
-		"3 eggs",
-		"1 unbaked 9-inch pie shell"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "mashed sweet potatoes (from about 2 medium sweet potatoes)",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cups",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "sugar",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cups",
+				"value" : "1 1/4"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "evaporated milk",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1/2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "butter  softened",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoons",
+				"value" : "6"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "lemon extract",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoon",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "vanilla extract",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoon",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "cinnamon",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoon",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "all-purpose flour",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoon",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "eggs",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pcs",
+				"value" : "3"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "9-inch pie shell",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "unbaked",
+				"value" : "1"
+			}
+		}
 	] 
 },
 {
@@ -1880,13 +4520,25 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT0.0M",
+	"totalTime": "PT0M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://www.myrecipes.com/recipe/sweet-potato-chips-50400000108687/"
 	}, 
 	"recipeIngredient": [
-		"2 sweet potatoes, peeled (about 2 lb.)",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "potatoes  peeled (about 2 lb.)",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "sweet",
+				"value" : "2"
+			}
+		},
 		"Peanut oil",
 		"Kosher salt"
 	] 
@@ -1915,16 +4567,40 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT0.0M",
+	"totalTime": "PT0M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://www.goodhousekeeping.com/food-recipes/a5006/mashed-sweet-potatoes-1344/"
 	}, 
 	"recipeIngredient": [
-		"2 can sweet potatoes in light syrup",
-		"¼ c. milk",
-		"2 tbsp. margarine or butter",
-		"½ tsp. salt"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "sweet potatoes in light syrup",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "can",
+				"value" : "2"
+			}
+		},
+		"? c. milk",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "margarine or butter",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tbsp.",
+				"value" : "2"
+			}
+		},
+		"? tsp. salt"
 	] 
 },
 {
@@ -1951,18 +4627,90 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT30.0M",
+	"totalTime": "PT30M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://www.delish.com/cooking/recipe-ideas/recipes/a49833/sweet-potato-hash-recipe/"
 	}, 
 	"recipeIngredient": [
-		"1 (10.5-oz.) package frozen diced sweet potatoes",
-		"3/4 c. chopped sweet onion",
-		"3 tbsp. extra-virgin olive oil",
-		"3/4 tsp. smoked paprika",
-		"2 tbsp. grated Parmesan",
-		"2 tbsp. sliced fresh chives",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "(10.5-oz.) package frozen diced sweet potatoes",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pcs",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "chopped sweet onion",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "c.",
+				"value" : "3/4"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "extra-virgin olive oil",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tbsp.",
+				"value" : "3"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "smoked paprika",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tsp.",
+				"value" : "3/4"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "grated Parmesan",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tbsp.",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "sliced fresh chives",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tbsp.",
+				"value" : "2"
+			}
+		},
 		"kosher salt",
 		"Freshly ground black pepper"
 	] 
@@ -1991,17 +4739,77 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT51.0M",
+	"totalTime": "PT51M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "https://food52.com/recipes/15327-sweet-hots"
 	}, 
 	"recipeIngredient": [
-		"4 ounces softened cream cheese",
-		"3 tablespoons sweet chili sauce",
-		"1 teaspoon granulated sugar",
-		"1 large jalapeno pepper, seeded and very finely diced",
-		"20 to 25 square wonton wrappers",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "softened cream cheese",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "ounces",
+				"value" : "4"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "sweet chili sauce",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoons",
+				"value" : "3"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "granulated sugar",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoon",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "jalapeno pepper  seeded and very finely diced",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "large",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "25 square wonton wrappers",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "to",
+				"value" : "20"
+			}
+		},
 		"Vegetable oil for pan frying"
 	] 
 },
@@ -2029,16 +4837,28 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT32.0M",
+	"totalTime": "PT32M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://www.goodhousekeeping.com/food-recipes/a7573/grilled-sweet-potatoes-ghk/"
 	}, 
 	"recipeIngredient": [
-		"2½ lb. sweet potatoes",
-		"1 tbsp. olive oil",
-		"¼ tsp. salt",
-		"¼ tsp. coarsely ground black pepper",
+		"2? lb. sweet potatoes",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "olive oil",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tbsp.",
+				"value" : "1"
+			}
+		},
+		"? tsp. salt",
+		"? tsp. coarsely ground black pepper",
 		"parsley"
 	] 
 },
@@ -2066,16 +4886,64 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT0.0M",
+	"totalTime": "PT0M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://www.myrecipes.com/recipe/baked-sweet-potatoes-10000001537621/"
 	}, 
 	"recipeIngredient": [
-		"6 medium sweet potatoes, unpeeled",
-		"6 tablespoons unsalted butter",
-		"1/2 teaspoon kosher salt",
-		"1/8 teaspoon black pepper"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "sweet potatoes  unpeeled",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "medium",
+				"value" : "6"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "unsalted butter",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoons",
+				"value" : "6"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "kosher salt",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoon",
+				"value" : "1/2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "black pepper",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoon",
+				"value" : "1/8"
+			}
+		}
 	] 
 },
 {
@@ -2108,13 +4976,97 @@
 		"url" : "https://food52.com/recipes/16983-sweet-potato-chocolate-pancake"
 	}, 
 	"recipeIngredient": [
-		"3/4 cups all purpose flour",
-		"1 teaspoon baking powder",
-		"1/2 cup mashed sweet potatoes ( about 1/3 lb sweet potato)",
-		"1 egg, beaten",
-		"1 tablespoon butter, melted",
-		"1/2 cup milk",
-		"1/2 cup chocolate ice cream, melted"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "all purpose flour",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cups",
+				"value" : "3/4"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "baking powder",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoon",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "mashed sweet potatoes ( about 1/3 lb sweet potato)",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1/2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "beaten",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "egg",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "butter  melted",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoon",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "milk",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1/2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "chocolate ice cream  melted",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1/2"
+			}
+		}
 	] 
 },
 {
@@ -2147,14 +5099,50 @@
 		"url" : "http://www.delish.com/cooking/recipe-ideas/recipes/a34634/sweet-spicy-roasted-sweet-potatoes-recipe-124685/"
 	}, 
 	"recipeIngredient": [
-		"¼ c. firmly packed brown sugar",
-		"2 tbsp. olive oil",
-		"½ tsp. ground cinnamon",
-		"1 pinch cayenne",
+		"? c. firmly packed brown sugar",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "olive oil",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tbsp.",
+				"value" : "2"
+			}
+		},
+		"? tsp. ground cinnamon",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "cayenne",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pinch",
+				"value" : "1"
+			}
+		},
 		"kosher salt",
 		"Pepper",
-		"4 lb. small sweet potatoes",
-		"½ c. grated Parmesan"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "small sweet potatoes",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "lb.",
+				"value" : "4"
+			}
+		},
+		"? c. grated Parmesan"
 	] 
 },
 {
@@ -2187,9 +5175,45 @@
 		"url" : "https://food52.com/recipes/13387-sweet-tart-relish"
 	}, 
 	"recipeIngredient": [
-		"1/2 medium sweet onion (walla walla or vidalia)",
-		"2 cups sour cherries, pitted",
-		"1/4 cup chopped fresh sage",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "sweet onion (walla walla or vidalia)",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "medium",
+				"value" : "1/2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "sour cherries  pitted",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cups",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "chopped fresh sage",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1/4"
+			}
+		},
 		"Salt and pepper to taste"
 	] 
 },
@@ -2217,15 +5241,51 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT0.0M",
+	"totalTime": "PT0M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://www.myrecipes.com/recipe/shredded-sweet-potatoes-10000000663030/"
 	}, 
 	"recipeIngredient": [
-		"2 sweet potatoes, peeled and shredded (3 cups)",
-		"2 tablespoons unsalted butter",
-		"1/2 teaspoon kosher salt",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "potatoes  peeled and shredded (3 cups)",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "sweet",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "unsalted butter",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoons",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "kosher salt",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoon",
+				"value" : "1/2"
+			}
+		},
 		"Freshly ground black pepper"
 	] 
 },
@@ -2259,13 +5319,37 @@
 		"url" : "http://www.goodhousekeeping.com/food-recipes/a9148/candied-sweet-potatoes/"
 	}, 
 	"recipeIngredient": [
-		"4 lb. sweet potatoes",
-		"½ c. brown sugar",
-		"4 tbsp. butter",
-		"¾ tsp. salt",
-		"1½ tsp. vanilla extract",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "sweet potatoes",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "lb.",
+				"value" : "4"
+			}
+		},
+		"? c. brown sugar",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "butter",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tbsp.",
+				"value" : "4"
+			}
+		},
+		"? tsp. salt",
+		"1? tsp. vanilla extract",
 		"black pepper",
-		"½ c. Almonds"
+		"? c. Almonds"
 	] 
 },
 {
@@ -2298,15 +5382,63 @@
 		"url" : "http://www.delish.com/cooking/recipe-ideas/recipes/a15207/loaded-sweet-potato-skins-recipe-mslo0311/"
 	}, 
 	"recipeIngredient": [
-		"4 medium sweet potatoes",
-		"1 tbsp. olive oil",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "sweet potatoes",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "medium",
+				"value" : "4"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "olive oil",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tbsp.",
+				"value" : "1"
+			}
+		},
 		"Coarse salt",
 		"ground pepper",
-		"¼ c. low-fat buttermilk",
-		"¼ tsp. sweet paprika",
-		"4 slice bacon",
-		"¼ c. reduced-fat sour cream",
-		"1 scallion"
+		"? c. low-fat buttermilk",
+		"? tsp. sweet paprika",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "bacon",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "slice",
+				"value" : "4"
+			}
+		},
+		"? c. reduced-fat sour cream",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "scallion",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pcs",
+				"value" : "1"
+			}
+		}
 	] 
 },
 {
@@ -2333,15 +5465,15 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT8.0M",
+	"totalTime": "PT8M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://www.delish.com/cooking/recipe-ideas/recipes/a31550/sweet-potato-sandwich-recipe-ghk1111/?click=recipe_sr"
 	}, 
 	"recipeIngredient": [
-		"2  de wafelbakkers sweet potato pancakes",
-		"1/4 cup(s) part-skim ricotta",
-		"1/2  pear, thinly sliced",
+		"2? de wafelbakkers sweet potato pancakes",
+		"1/4?cup(s) part-skim ricotta",
+		"1/2? pear  thinly sliced",
 		"Cinnamon"
 	] 
 },
@@ -2369,17 +5501,77 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT0.0M",
+	"totalTime": "PT0M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://www.myrecipes.com/recipe/vanilla-sweet-potatoes-10000000524256/"
 	}, 
 	"recipeIngredient": [
-		"10 small sweet potatoes",
-		"1 1/2 cups maple syrup",
-		"1 6-inch vanilla bean",
-		"1 teaspoon whole cloves",
-		"1/2 teaspoon kosher salt"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "sweet potatoes",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "small",
+				"value" : "10"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "maple syrup",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cups",
+				"value" : "1 1/2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "vanilla bean",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "inch",
+				"value" : "1 6"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "whole cloves",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoon",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "kosher salt",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoon",
+				"value" : "1/2"
+			}
+		}
 	] 
 },
 {
@@ -2406,19 +5598,55 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT0.0M",
+	"totalTime": "PT0M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://www.goodhousekeeping.com/food-recipes/a10913/grilled-sweet-potatoes-recipe-ghk0411/"
 	}, 
 	"recipeIngredient": [
-		"2 tbsp. olive oil",
-		"1 tsp. paprika",
-		"½ tsp. ground cumin",
-		"½ tsp. ground cinnamon",
-		"½ tsp. salt",
-		"½ tsp. pepper",
-		"3 lb. sweet potatoes"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "olive oil",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tbsp.",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "paprika",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tsp.",
+				"value" : "1"
+			}
+		},
+		"? tsp. ground cumin",
+		"? tsp. ground cinnamon",
+		"? tsp. salt",
+		"? tsp. pepper",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "sweet potatoes",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "lb.",
+				"value" : "3"
+			}
+		}
 	] 
 },
 {
@@ -2451,13 +5679,97 @@
 		"url" : "https://food52.com/recipes/4565-sweet-potato-sinfulness"
 	}, 
 	"recipeIngredient": [
-		"8 sweet potatoes",
-		"3 cups granulated sugar",
-		"2 teaspoons vanilla",
-		"2 large eggs",
-		"1.5 tablespoons cinnamon",
-		"2 sticks unsalted butter, melted",
-		"1 bag miniature marshmallows"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "potatoes",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "sweet",
+				"value" : "8"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "granulated sugar",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cups",
+				"value" : "3"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "vanilla",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoons",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "eggs",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "large",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "cinnamon",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoons",
+				"value" : "1.5"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "unsalted butter  melted",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "sticks",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "miniature marshmallows",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "bag",
+				"value" : "1"
+			}
+		}
 	] 
 },
 {
@@ -2484,17 +5796,77 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT0.0M",
+	"totalTime": "PT0M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://www.myrecipes.com/recipe/maple-sweet-potatoes-10000000524305/"
 	}, 
 	"recipeIngredient": [
-		"3 pounds sweet potatoes",
-		"3 tablespoons maple syrup",
-		"1/3 cup low-fat milk",
-		"2 tablespoons unsalted butter",
-		"1 teaspoon kosher salt"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "sweet potatoes",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pounds",
+				"value" : "3"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "maple syrup",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoons",
+				"value" : "3"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "low-fat milk",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1/3"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "unsalted butter",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoons",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "kosher salt",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoon",
+				"value" : "1"
+			}
+		}
 	] 
 },
 {
@@ -2521,18 +5893,66 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT27.0M",
+	"totalTime": "PT27M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://www.delish.com/cooking/recipe-ideas/recipes/a23935/roasted-sweet-plantains/"
 	}, 
 	"recipeIngredient": [
-		"4 ripe sweet plantains",
-		".67 c. orange juice",
-		"2 tbsp. unsalted butter",
-		"2 tbsp. molasses",
-		"½ tsp. ginger",
-		"½ tsp. ground cinnamon"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "sweet plantains",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "ripe",
+				"value" : "4"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "orange juice",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "c.",
+				"value" : ".67"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "unsalted butter",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tbsp.",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "molasses",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tbsp.",
+				"value" : "2"
+			}
+		},
+		"? tsp. ginger",
+		"? tsp. ground cinnamon"
 	] 
 },
 {
@@ -2565,11 +5985,47 @@
 		"url" : "http://www.goodhousekeeping.com/food-recipes/a10727/spiced-sweet-potatoes-recipe-clx0411/"
 	}, 
 	"recipeIngredient": [
-		"1 stick unsalted butter",
-		"¼ c. Turbinado sugar",
-		"1 tsp. fennel seeds",
-		"¼ tsp. allspice",
-		"3 lb. small sweet potatoes",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "unsalted butter",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "stick",
+				"value" : "1"
+			}
+		},
+		"? c. Turbinado sugar",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "fennel seeds",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tsp.",
+				"value" : "1"
+			}
+		},
+		"? tsp. allspice",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "small sweet potatoes",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "lb.",
+				"value" : "3"
+			}
+		},
 		"Coarse salt",
 		"pepper"
 	] 
@@ -2604,13 +6060,97 @@
 		"url" : "https://food52.com/recipes/1709-jeweled-sweet-potatoes"
 	}, 
 	"recipeIngredient": [
-		"1 medium sweet potato",
-		"1 ounce cranberries",
-		"1/2 cup orange juice",
-		"1 tablespoon brown sugar",
-		"1 tablespoon golden sherry",
-		"1/4 teaspoon cardamom",
-		"2 teaspoons butter"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "sweet potato",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "medium",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "cranberries",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "ounce",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "orange juice",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1/2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "brown sugar",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoon",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "golden sherry",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoon",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "cardamom",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoon",
+				"value" : "1/4"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "butter",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoons",
+				"value" : "2"
+			}
+		}
 	] 
 },
 {
@@ -2637,17 +6177,77 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT0.0M",
+	"totalTime": "PT0M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://www.myrecipes.com/recipe/lime-sweet-potatoes-10000000389673/"
 	}, 
 	"recipeIngredient": [
-		"3 large sweet potatoes, peeled and cubed",
-		"2 tablespoons olive oil",
-		"3 tablespoons honey",
-		"2 tablespoons lime juice",
-		"1/2 teaspoon lime rind"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "sweet potatoes  peeled and cubed",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "large",
+				"value" : "3"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "olive oil",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoons",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "honey",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoons",
+				"value" : "3"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "lime juice",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoons",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "lime rind",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoon",
+				"value" : "1/2"
+			}
+		}
 	] 
 },
 {
@@ -2674,18 +6274,54 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT40.0M",
+	"totalTime": "PT40M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://www.delish.com/cooking/recipe-ideas/recipes/a20706/sweet-potato-wedges-recipe-mslo0313/"
 	}, 
 	"recipeIngredient": [
-		"1½ tbsp. olive oil",
-		"¼ tsp. dried thyme",
-		".13 tsp. crushed red pepper",
-		"¼ tsp. salt",
-		"3 sweet potatoes",
-		"1 clove garlic"
+		"1? tbsp. olive oil",
+		"? tsp. dried thyme",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "crushed red pepper",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tsp.",
+				"value" : ".13"
+			}
+		},
+		"? tsp. salt",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "potatoes",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "sweet",
+				"value" : "3"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "garlic",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "clove",
+				"value" : "1"
+			}
+		}
 	] 
 },
 {
@@ -2712,18 +6348,54 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT0.0M",
+	"totalTime": "PT0M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://www.goodhousekeeping.com/food-recipes/a4485/candied-sweet-potatoes-1690/"
 	}, 
 	"recipeIngredient": [
-		"4 lb. sweet potatoes",
-		"½ c. dark brown sugar",
-		"4 tbsp. margarine or butter",
-		"¾ tsp. salt",
-		"¼ tsp. coarsely ground black pepper",
-		"1 pinch nutmeg"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "sweet potatoes",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "lb.",
+				"value" : "4"
+			}
+		},
+		"? c. dark brown sugar",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "margarine or butter",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tbsp.",
+				"value" : "4"
+			}
+		},
+		"? tsp. salt",
+		"? tsp. coarsely ground black pepper",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "nutmeg",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pinch",
+				"value" : "1"
+			}
+		}
 	] 
 },
 {
@@ -2756,12 +6428,36 @@
 		"url" : "http://www.delish.com/cooking/recipe-ideas/recipes/a22033/bourbon-sweet-potatoes-recipe-mslo1113/"
 	}, 
 	"recipeIngredient": [
-		"3½ lb. sweet potatoes",
-		"½ c. packed dark-brown sugar",
-		"2 tbsp. bourbon",
+		"3? lb. sweet potatoes",
+		"? c. packed dark-brown sugar",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "bourbon",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tbsp.",
+				"value" : "2"
+			}
+		},
 		"Coarse salt",
 		"ground pepper",
-		"3 tbsp. butter, room temperature"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "butter  room temperature",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tbsp.",
+				"value" : "3"
+			}
+		}
 	] 
 },
 {
@@ -2788,19 +6484,67 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT0.0M",
+	"totalTime": "PT0M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://www.goodhousekeeping.com/food-recipes/a11278/spicy-sweet-potatoes-recipe-ghk1211/"
 	}, 
 	"recipeIngredient": [
-		"2 lb. sweet potatoes",
-		"½ c. maple syrup",
-		"1 tbsp. oil",
-		"½ tsp. ground cumin",
-		"½ tsp. salt",
-		"1 pinch salt",
-		"1 chipotle chile in adobo"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "sweet potatoes",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "lb.",
+				"value" : "2"
+			}
+		},
+		"? c. maple syrup",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "oil",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tbsp.",
+				"value" : "1"
+			}
+		},
+		"? tsp. ground cumin",
+		"? tsp. salt",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "salt",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pinch",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "chile in adobo",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "chipotle",
+				"value" : "1"
+			}
+		}
 	] 
 },
 {
@@ -2827,13 +6571,25 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT0.0M",
+	"totalTime": "PT0M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://www.myrecipes.com/recipe/sweet-potato-fries-50400000116267/"
 	}, 
 	"recipeIngredient": [
-		"2 pounds orange-fleshed sweet potatoes (often mislabeled "yams"), cut into 1/2-in.-thick sticks",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "orange-fleshed sweet potatoes (often mislabeled yams)  cut into 1/2-in.-thick sticks",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pounds",
+				"value" : "2"
+			}
+		},
 		"Vegetable oil for frying",
 		"Fine sea salt"
 	] 
@@ -2862,19 +6618,67 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT0.0M",
+	"totalTime": "PT0M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://www.goodhousekeeping.com/food-recipes/a7695/sweet-potato-doughnuts-3673/"
 	}, 
 	"recipeIngredient": [
-		"8 oz. mashed sweet potato",
-		"¼ tsp. allspice",
-		"¼ tsp. mace",
-		"½ tsp. cinnamon",
-		"1 c. maple syrup",
-		"1 tsp. lemon juice",
-		"1 c. toasted, chopped walnuts"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "mashed sweet potato",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "oz.",
+				"value" : "8"
+			}
+		},
+		"? tsp. allspice",
+		"? tsp. mace",
+		"? tsp. cinnamon",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "maple syrup",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "c.",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "lemon juice",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tsp.",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "toasted  chopped walnuts",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "c.",
+				"value" : "1"
+			}
+		}
 	] 
 },
 {
@@ -2901,15 +6705,51 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT0.0M",
+	"totalTime": "PT0M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://www.myrecipes.com/recipe/sweet-potato-mash-10000000663036/"
 	}, 
 	"recipeIngredient": [
-		"3 large sweet potatoes, peeled and cut into 1-inch cubes (about 4 1/2 cups)",
-		"2 tablespoons unsalted butter",
-		"1/4 cup whole milk"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "sweet potatoes  peeled and cut into 1-inch cubes (about 4 1/2 cups)",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "large",
+				"value" : "3"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "unsalted butter",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoons",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "whole milk",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1/4"
+			}
+		}
 	] 
 },
 {
@@ -2936,19 +6776,67 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT0.0M",
+	"totalTime": "PT0M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://www.delish.com/cooking/recipe-ideas/recipes/a13422/sweet-potato-biscuits-recipe-opr1110/"
 	}, 
 	"recipeIngredient": [
-		"2 c. flour",
-		"1 tbsp. baking powder",
-		"¼ tsp. salt",
-		"6 tbsp. cold butter",
-		"¾ c. mashed sweet potatoes",
-		"¼ c. buttermilk",
-		"2 tbsp. sugar"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "flour",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "c.",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "baking powder",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tbsp.",
+				"value" : "1"
+			}
+		},
+		"? tsp. salt",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "cold butter",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tbsp.",
+				"value" : "6"
+			}
+		},
+		"? c. mashed sweet potatoes",
+		"? c. buttermilk",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "sugar",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tbsp.",
+				"value" : "2"
+			}
+		}
 	] 
 },
 {
@@ -2975,22 +6863,118 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT0.0M",
+	"totalTime": "PT0M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://www.myrecipes.com/recipe/manhattan-sweet-potato-mash-10000001585359/"
 	}, 
 	"recipeIngredient": [
-		"2 pounds sweet potatoes, washed and unpeeled",
-		"1/3 cup whipping cream",
-		"2 tablespoons butter",
-		"1/4 cup bourbon",
-		"1 tablespoon sweet vermouth",
-		"1 teaspoon sugar",
-		"1 teaspoon orange zest",
-		"1/2 teaspoon salt",
-		"Pepper, to taste",
-		"Dried cherries, to taste"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "sweet potatoes  washed and unpeeled",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pounds",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "whipping cream",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1/3"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "butter",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoons",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "bourbon",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1/4"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "sweet vermouth",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoon",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "sugar",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoon",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "orange zest",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoon",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "salt",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoon",
+				"value" : "1/2"
+			}
+		},
+		"Pepper  to taste",
+		"Dried cherries  to taste"
 	] 
 },
 {
@@ -3017,19 +7001,103 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT50.0M",
+	"totalTime": "PT50M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://www.myrecipes.com/recipe/sweet-potato-cornbread-0"
 	}, 
 	"recipeIngredient": [
-		"2 cups self-rising white cornmeal mix",
-		"3 tablespoons sugar",
-		"1/4 teaspoon pumpkin pie spice",
-		"5 large eggs",
-		"2 cups cooked mashed sweet potatoes (about 1 1/2 lb. sweet potatoes)",
-		"1 (8-oz.) container sour cream",
-		"1/2 cup butter, melted"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "self-rising white cornmeal mix",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cups",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "sugar",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoons",
+				"value" : "3"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "pumpkin pie spice",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoon",
+				"value" : "1/4"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "eggs",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "large",
+				"value" : "5"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "cooked mashed sweet potatoes (about 1 1/2 lb. sweet potatoes)",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cups",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "(8-oz.) container sour cream",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pcs",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "butter  melted",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1/2"
+			}
+		}
 	] 
 },
 {
@@ -3062,12 +7130,36 @@
 		"url" : "http://www.delish.com/cooking/recipe-ideas/recipes/a26519/sweet-potato-casserole-2359/"
 	}, 
 	"recipeIngredient": [
-		"4 lb. sweet potatoes",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "sweet potatoes",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "lb.",
+				"value" : "4"
+			}
+		},
 		"? c. packed dark brown sugar",
-		"½ tsp. salt",
-		"¼ tsp. coarsely ground black pepper",
-		"4 tbsp. margarine",
-		"½ c. coarsely chopped walnuts"
+		"? tsp. salt",
+		"? tsp. coarsely ground black pepper",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "margarine",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tbsp.",
+				"value" : "4"
+			}
+		},
+		"? c. coarsely chopped walnuts"
 	] 
 },
 {
@@ -3094,17 +7186,53 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT0.0M",
+	"totalTime": "PT0M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "https://food52.com/recipes/32255-coconut-mashed-sweet-potatoes"
 	}, 
 	"recipeIngredient": [
-		"5 to 6 sweet potatoes, peeled and chopped roughly (about 3 1/2 pounds)",
-		"3/4 cup cup coconut milk, full fat",
-		"salt and pepper, to taste",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "6 sweet potatoes  peeled and chopped roughly (about 3 1/2 pounds)",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "to",
+				"value" : "5"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "cup coconut milk  full fat",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "3/4"
+			}
+		},
+		"salt and pepper  to taste",
 		"1 tablespoon maple syrup (optional; add if you like your mashed sweet potatoes to be sweeter)",
-		"1 teaspoon ginger, grated"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "ginger  grated",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoon",
+				"value" : "1"
+			}
+		}
 	] 
 },
 {
@@ -3131,21 +7259,57 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT28.0M",
+	"totalTime": "PT28M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://www.goodhousekeeping.com/food-recipes/a8150/sweet-potato-salad/"
 	}, 
 	"recipeIngredient": [
-		"3 lb. sweet potatoes",
-		"1 lemon",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "sweet potatoes",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "lb.",
+				"value" : "3"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "lemon",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pcs",
+				"value" : "1"
+			}
+		},
 		"? c. buttermilk",
-		"¼ c. mayonnaise",
-		"½ tsp. salt",
-		"¼ tsp. pepper",
-		"3 stalk celery",
-		"¼ c. red onion",
-		"¼ c. fresh parsley"
+		"? c. mayonnaise",
+		"? tsp. salt",
+		"? tsp. pepper",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "celery",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "stalk",
+				"value" : "3"
+			}
+		},
+		"? c. red onion",
+		"? c. fresh parsley"
 	] 
 },
 {
@@ -3178,14 +7342,110 @@
 		"url" : "http://www.seriouseats.com/recipes/2014/07/mildly-sweet-sweet-potato-biscuits-recipe.html"
 	}, 
 	"recipeIngredient": [
-		"2 medium sweet potatoes",
-		"1/4 cup heavy cream",
-		"1/4 cup buttermilk",
-		"1 cup (5 ounces) all-purpose flour",
-		"1 1/2 tablespoons sugar",
-		"1 tablespoon baking powder",
-		"1 teaspoon kosher salt",
-		"1/2 cup (1 stick) cold unsalted butter, cut into 1/4-inch pieces, plus 2 tablespoons melted unsalted butter"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "sweet potatoes",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "medium",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "heavy cream",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1/4"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "buttermilk",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1/4"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "(5 ounces) all-purpose flour",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "sugar",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoons",
+				"value" : "1 1/2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "baking powder",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoon",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "kosher salt",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoon",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "(1 stick) cold unsalted butter  cut into 1/4-inch pieces  plus 2 tablespoons melted unsalted butter",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1/2"
+			}
+		}
 	] 
 },
 {
@@ -3212,16 +7472,64 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT0.0M",
+	"totalTime": "PT0M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://www.bbcgoodfood.com/recipes/11225/barbecue-baked-sweet-potatoes"
 	}, 
 	"recipeIngredient": [
-		"4 tbsp greek yogurt",
-		"8 medium sweet potatoes",
-		"1 spring onion , sliced",
-		"4 tsp olive oil"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "greek yogurt",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tbsp",
+				"value" : "4"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "sweet potatoes",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "medium",
+				"value" : "8"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "onion   sliced",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "spring",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "olive oil",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tsp",
+				"value" : "4"
+			}
+		}
 	] 
 },
 {
@@ -3248,16 +7556,64 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT0.0M",
+	"totalTime": "PT0M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://www.myrecipes.com/recipe/garlicky-sweet-potatoes-10000002012866/"
 	}, 
 	"recipeIngredient": [
-		"4 medium sweet potatoes (about 1 1/2 lb.), cut lengthwise into thick wedges",
-		"1/4 cup olive oil",
-		"1 teaspoon salt",
-		"4 cloves garlic, finely chopped"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "sweet potatoes (about 1 1/2 lb.)  cut lengthwise into thick wedges",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "medium",
+				"value" : "4"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "olive oil",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1/4"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "salt",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoon",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "garlic  finely chopped",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cloves",
+				"value" : "4"
+			}
+		}
 	] 
 },
 {
@@ -3284,17 +7640,77 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT0.0M",
+	"totalTime": "PT0M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://www.myrecipes.com/recipe/sweet-potato-latkes-50400000117923/"
 	}, 
 	"recipeIngredient": [
-		"2 1/2 pounds sweet potatoes, peeled",
-		"6 tablespoons all-purpose flour",
-		"4 large eggs, lightly beaten",
-		"4 green onions, sliced",
-		"1/2 teaspoon salt",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "sweet potatoes  peeled",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pounds",
+				"value" : "2 1/2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "all-purpose flour",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoons",
+				"value" : "6"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "eggs  lightly beaten",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "large",
+				"value" : "4"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "onions  sliced",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "green",
+				"value" : "4"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "salt",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoon",
+				"value" : "1/2"
+			}
+		},
 		"Vegetable oil"
 	] 
 },
@@ -3322,19 +7738,103 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT0.0M",
+	"totalTime": "PT0M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://www.bonappetit.com/recipes/2005/01/roasted_sweet_and_sour_onions"
 	}, 
 	"recipeIngredient": [
-		"4 medium onions, unpeeled",
-		"3 tablespoons Sherry wine vinegar",
-		"2 tablespoons fresh lemon juice",
-		"1/2 cup plus 1 tablespoon sweet vermouth or sweet Sherry",
-		"1/2 cup dried currants",
-		"2 tablespoons olive oil",
-		"1/4 cup pine nuts, toasted"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "onions  unpeeled",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "medium",
+				"value" : "4"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "Sherry wine vinegar",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoons",
+				"value" : "3"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "fresh lemon juice",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoons",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "plus 1 tablespoon sweet vermouth or sweet Sherry",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1/2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "dried currants",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1/2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "olive oil",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoons",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "pine nuts  toasted",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1/4"
+			}
+		}
 	] 
 },
 {
@@ -3361,16 +7861,16 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT0.0M",
+	"totalTime": "PT0M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://www.thekitchn.com/thekitchn/sweet-wine-slushies-1-ingredient-elegant-easy-124954"
 	}, 
 	"recipeIngredient": [
-		"One 750ml bottle sweet, fruity wine, such as moscato or icewine",
+		"One 750ml bottle sweet  fruity wine  such as moscato or icewine",
 		"Fresh orange juice or white grape juice (optional)",
 		"Ice cubes (optional)",
-		"Orange or strawberry slices, to garnish"
+		"Orange or strawberry slices  to garnish"
 	] 
 },
 {
@@ -3403,14 +7903,86 @@
 		"url" : "https://food52.com/recipes/1616-sweet-potato-gnocchi"
 	}, 
 	"recipeIngredient": [
-		"1.5 pounds sweet potato",
-		"1 egg",
-		"2 cups flour",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "sweet potato",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pounds",
+				"value" : "1.5"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "egg",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pcs",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "flour",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cups",
+				"value" : "2"
+			}
+		},
 		"Pinches salt",
 		"Pinches pepper",
-		"1/2 teaspoon nutmeg",
-		"6 tablespoons butter",
-		"1 handful grana padano/italian hard cheese, grated"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "nutmeg",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoon",
+				"value" : "1/2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "butter",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoons",
+				"value" : "6"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "grana padano/italian hard cheese  grated",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "handful",
+				"value" : "1"
+			}
+		}
 	] 
 },
 {
@@ -3446,7 +8018,19 @@
 		"3-6 sweet potatoes",
 		"2-4 tbsp. butter to taste",
 		"2-4 tbsp. pure maple syrup to taste (optional)",
-		"1/4 cup pecans toasted, if desired, and chopped (optional)"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "pecans toasted  if desired  and chopped (optional)",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1/4"
+			}
+		}
 	] 
 },
 {
@@ -3473,15 +8057,27 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT0.0M",
+	"totalTime": "PT0M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://www.catcora.com/recipes/side-dishes/baked-sweet-potato-frites/"
 	}, 
 	"recipeIngredient": [
-		"1 Pound Sweet Potato (Unpeeled)",
-		"½ Teaspoon Coarse Sea Salt",
-		"½ Teaspoon Olive Oil or Sesame Oil"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "Sweet Potato (Unpeeled)",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "Pound",
+				"value" : "1"
+			}
+		},
+		"? Teaspoon Coarse Sea Salt",
+		"? Teaspoon Olive Oil or Sesame Oil"
 	] 
 },
 {
@@ -3508,16 +8104,52 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT0.0M",
+	"totalTime": "PT0M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://www.food52.com/recipes/1625_sweet_potatoes_anna_with_prunes"
 	}, 
 	"recipeIngredient": [
 		"5-6 sweet potatoes",
-		"1/2 pound butter",
-		"1 cup port",
-		"10 pitted prunes"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "butter",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pound",
+				"value" : "1/2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "port",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "prunes",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pitted",
+				"value" : "10"
+			}
+		}
 	] 
 },
 {
@@ -3550,10 +8182,58 @@
 		"url" : "http://www.marthastewart.com/344009/mashed-sweet-potatoes"
 	}, 
 	"recipeIngredient": [
-		"2 medium sweet potatoes, peeled and cut into 2-inch chunks",
-		"1/2 cup half-and-half",
-		"3 tablespoons butter",
-		"2 tablespoons light-brown sugar",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "sweet potatoes  peeled and cut into 2-inch chunks",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "medium",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "half-and-half",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1/2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "butter",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoons",
+				"value" : "3"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "light-brown sugar",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoons",
+				"value" : "2"
+			}
+		},
 		"Coarse salt and ground pepper"
 	] 
 },
@@ -3581,20 +8261,116 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT0.0M",
+	"totalTime": "PT0M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://www.myrecipes.com/recipe/soy-glazed-sweet-potatoes-10000000396511/"
 	}, 
 	"recipeIngredient": [
-		"1/4 cup water",
-		"2 tablespoons brown sugar",
-		"3 tablespoons low-sodium soy sauce",
-		"2 tablespoons mirin (sweet rice wine)",
-		"1 tablespoon dark sesame oil",
-		"4 garlic cloves, minced",
-		"3 sweet potatoes, each cut lengthwise into 4 wedges (about 2 pounds)",
-		"1 tablespoon toasted sesame seeds"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "water",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1/4"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "brown sugar",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoons",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "low-sodium soy sauce",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoons",
+				"value" : "3"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "mirin (sweet rice wine)",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoons",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "dark sesame oil",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoon",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "cloves  minced",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "garlic",
+				"value" : "4"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "potatoes  each cut lengthwise into 4 wedges (about 2 pounds)",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "sweet",
+				"value" : "3"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "toasted sesame seeds",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoon",
+				"value" : "1"
+			}
+		}
 	] 
 },
 {
@@ -3621,18 +8397,78 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT0.0M",
+	"totalTime": "PT0M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://www.delish.com/cooking/recipe-ideas/recipes/a19264/sweet-onion-relish-recipe-mslo0512/"
 	}, 
 	"recipeIngredient": [
-		"1 c. white-wine vinegar",
-		"½ c. sugar",
-		"1 tbsp. Coarse salt",
-		"1 small sweet onion (such as Vidalia)",
-		"1 small red onion",
-		"1 bunch scallions",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "white-wine vinegar",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "c.",
+				"value" : "1"
+			}
+		},
+		"? c. sugar",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "Coarse salt",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tbsp.",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "sweet onion (such as Vidalia)",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "small",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "red onion",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "small",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "scallions",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "bunch",
+				"value" : "1"
+			}
+		},
 		"ground pepper"
 	] 
 },
@@ -3660,18 +8496,78 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT45.0M",
+	"totalTime": "PT45M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://www.goodhousekeeping.com/food-recipes/a5358/sweet-potato-biscuits-2053/"
 	}, 
 	"recipeIngredient": [
-		"2 medium-size sweet potatoes",
-		"4 c. all-purpose flour",
-		"½ c. packed light brown sugar",
-		"5 tsp. baking powder",
-		"1 tsp. salt",
-		"10 tbsp. margarine",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "medium-size sweet potatoes",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pcs",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "all-purpose flour",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "c.",
+				"value" : "4"
+			}
+		},
+		"? c. packed light brown sugar",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "baking powder",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tsp.",
+				"value" : "5"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "salt",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tsp.",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "margarine",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tbsp.",
+				"value" : "10"
+			}
+		},
 		"? c. milk"
 	] 
 },
@@ -3699,16 +8595,52 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT40.0M",
+	"totalTime": "PT40M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://www.marthastewart.com/336731/sweet-potato-fries"
 	}, 
 	"recipeIngredient": [
-		"2 sweet potatoes (about 2 pounds total), peeled and cut into 1/2-by-2-inch sticks",
-		"2 tablespoons olive oil",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "potatoes (about 2 pounds total)  peeled and cut into 1/2-by-2-inch sticks",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "sweet",
+				"value" : "2"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "olive oil",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoons",
+				"value" : "2"
+			}
+		},
 		"Coarse salt and ground pepper",
-		"1 tablespoon fresh lemon juice"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "fresh lemon juice",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoon",
+				"value" : "1"
+			}
+		}
 	] 
 },
 {
@@ -3735,19 +8667,43 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT0.0M",
+	"totalTime": "PT0M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://www.delish.com/cooking/recipe-ideas/recipes/a22177/sweet-potato-latkes-recipe-del1113/"
 	}, 
 	"recipeIngredient": [
-		"2 medium sweet potatoes",
-		"½ c. Spanish onion",
-		"3 c. whole eggs",
-		"½ tsp. cinnamon",
-		"1½ tbsp. brown sugar",
-		"½ c. matzo meal",
-		"¼ c. Vegetable oil for frying"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "sweet potatoes",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "medium",
+				"value" : "2"
+			}
+		},
+		"? c. Spanish onion",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "whole eggs",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "c.",
+				"value" : "3"
+			}
+		},
+		"? tsp. cinnamon",
+		"1? tbsp. brown sugar",
+		"? c. matzo meal",
+		"? c. Vegetable oil for frying"
 	] 
 },
 {
@@ -3774,15 +8730,39 @@
 	}, 
 	"cookTime": "-",
 	"prepTime": "-",
-	"totalTime": "PT0.0M",
+	"totalTime": "PT0M",
 	"recipeInstructions": {
 		"@type": "CreativeWork",
 		"url" : "http://www.williams-sonoma.com/recipe/sweet-potato-chowder.html"
 	}, 
 	"recipeIngredient": [
-		"1 jar sweet potato chowder starter",
-		"2 cups (16 fl. oz./500 ml) vegetable or chicken broth",
-		"Crème fraîche for garnish (optional)",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "sweet potato chowder starter",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "jar",
+				"value" : "1"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "(16 fl. oz./500 ml) vegetable or chicken broth",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cups",
+				"value" : "2"
+			}
+		},
+		"Cr?me fra?che for garnish (optional)",
 		"Pepitas for garnish (optional)"
 	] 
 }

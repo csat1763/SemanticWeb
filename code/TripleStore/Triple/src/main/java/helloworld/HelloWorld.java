@@ -122,7 +122,7 @@ public class HelloWorld extends RecipeBase {
 		// server.start();
 
 		FusekiConnection fc = new FusekiConnection("http://localhost:3030", "food");
-		fc.initFuseki(nameData);
+		// fc.initFuseki(nameData);
 		// fc.deleteAllGraphs();
 		// fc.deleteDefaultModel();
 

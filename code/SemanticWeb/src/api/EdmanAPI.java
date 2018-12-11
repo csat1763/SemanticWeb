@@ -91,50 +91,50 @@ public class EdmanAPI {
 		Collection<String> searchTerms = new ArrayList<String>();
 
 		searchTerms.add("alcohol");
-		// searchTerms.add("american");
-		// searchTerms.add("asian");
-		// searchTerms.add("beef");
-		// searchTerms.add("beer");
-		// searchTerms.add("burger");
-		// searchTerms.add("cake");
-		// searchTerms.add("cheese");
-		// searchTerms.add("chicken");
-		// searchTerms.add("chocolate");
-		// searchTerms.add("fish");
-		// searchTerms.add("fruit");
-		// searchTerms.add("german");
-		// searchTerms.add("greek");
-		// searchTerms.add("hot");
-		// searchTerms.add("ice");
-		// searchTerms.add("italian");
-		// searchTerms.add("korean");
-		// searchTerms.add("mexican");
-		// searchTerms.add("noodle");
-		// searchTerms.add("pizza");
-		// searchTerms.add("pork");
-		// searchTerms.add("potato");
-		// searchTerms.add("rice");
-		// searchTerms.add("salad");
-		// searchTerms.add("soup");
-		// searchTerms.add("sour");
-		// searchTerms.add("sushi");
-		// searchTerms.add("swedish");
-		// searchTerms.add("sweet");
-		// searchTerms.add("african");
-		// searchTerms.add("british");
-		// searchTerms.add("caribbean");
-		// searchTerms.add("chinese");
-		// searchTerms.add("french");
-		// searchTerms.add("indian");
-		// searchTerms.add("irish");
-		// searchTerms.add("japanese");
-		// searchTerms.add("nordic");
-		// searchTerms.add("pakistani");
-		// searchTerms.add("portuguese");
-		// searchTerms.add("spanish");
-		// searchTerms.add("thai");
-		// searchTerms.add("turkish");
-		// searchTerms.add("russian");
+		searchTerms.add("american");
+		searchTerms.add("asian");
+		searchTerms.add("beef");
+		searchTerms.add("beer");
+		searchTerms.add("burger");
+		searchTerms.add("cake");
+		searchTerms.add("cheese");
+		searchTerms.add("chicken");
+		searchTerms.add("chocolate");
+		searchTerms.add("fish");
+		searchTerms.add("fruit");
+		searchTerms.add("german");
+		searchTerms.add("greek");
+		searchTerms.add("hot");
+		searchTerms.add("ice");
+		searchTerms.add("italian");
+		searchTerms.add("korean");
+		searchTerms.add("mexican");
+		searchTerms.add("noodle");
+		searchTerms.add("pizza");
+		searchTerms.add("pork");
+		searchTerms.add("potato");
+		searchTerms.add("rice");
+		searchTerms.add("salad");
+		searchTerms.add("soup");
+		searchTerms.add("sour");
+		searchTerms.add("sushi");
+		searchTerms.add("swedish");
+		searchTerms.add("sweet");
+		searchTerms.add("african");
+		searchTerms.add("british");
+		searchTerms.add("caribbean");
+		searchTerms.add("chinese");
+		searchTerms.add("french");
+		searchTerms.add("indian");
+		searchTerms.add("irish");
+		searchTerms.add("japanese");
+		searchTerms.add("nordic");
+		searchTerms.add("pakistani");
+		searchTerms.add("portuguese");
+		searchTerms.add("spanish");
+		searchTerms.add("thai");
+		searchTerms.add("turkish");
+		searchTerms.add("russian");
 
 		for (String s : searchTerms) {
 
@@ -193,17 +193,52 @@ public class EdmanAPI {
 		Collection<String> searchTerms = new ArrayList<String>();
 
 		searchTerms.add("alcohol");
-		/*
-		 * searchTerms.add("american"); searchTerms.add("asian"); searchTerms.add("beef"); searchTerms.add("beer"); searchTerms.add("burger"); searchTerms.add("cake"); searchTerms.add("cheese");
-		 * searchTerms.add("chicken"); searchTerms.add("chocolate"); searchTerms.add("fish"); searchTerms.add("fruit"); searchTerms.add("german"); searchTerms.add("greek"); searchTerms.add("hot");
-		 * searchTerms.add("ice"); searchTerms.add("italian"); searchTerms.add("korean"); searchTerms.add("mexican"); searchTerms.add("noodle"); searchTerms.add("pizza"); searchTerms.add("pork");
-		 * searchTerms.add("potato"); searchTerms.add("rice"); searchTerms.add("salad"); searchTerms.add("soup"); searchTerms.add("sour"); searchTerms.add("sushi"); searchTerms.add("swedish");
-		 * searchTerms.add("sweet");
-		 * 
-		 * searchTerms.add("african"); searchTerms.add("british"); searchTerms.add("caribbean"); searchTerms.add("chinese"); searchTerms.add("french"); searchTerms.add("indian"); searchTerms.add("irish");
-		 * searchTerms.add("japanese"); searchTerms.add("nordic"); searchTerms.add("pakistani"); searchTerms.add("portuguese"); searchTerms.add("spanish"); searchTerms.add("thai"); searchTerms.add("turkish");
-		 * searchTerms.add("russian");
-		 */
+
+		searchTerms.add("american");
+		searchTerms.add("asian");
+		searchTerms.add("beef");
+		searchTerms.add("beer");
+		searchTerms.add("burger");
+		searchTerms.add("cake");
+		searchTerms.add("cheese");
+		searchTerms.add("chicken");
+		searchTerms.add("chocolate");
+		searchTerms.add("fish");
+		searchTerms.add("fruit");
+		searchTerms.add("german");
+		searchTerms.add("greek");
+		searchTerms.add("hot");
+		searchTerms.add("ice");
+		searchTerms.add("italian");
+		searchTerms.add("korean");
+		searchTerms.add("mexican");
+		searchTerms.add("noodle");
+		searchTerms.add("pizza");
+		searchTerms.add("pork");
+		searchTerms.add("potato");
+		searchTerms.add("rice");
+		searchTerms.add("salad");
+		searchTerms.add("soup");
+		searchTerms.add("sour");
+		searchTerms.add("sushi");
+		searchTerms.add("swedish");
+		searchTerms.add("sweet");
+
+		searchTerms.add("african");
+		searchTerms.add("british");
+		searchTerms.add("caribbean");
+		searchTerms.add("chinese");
+		searchTerms.add("french");
+		searchTerms.add("indian");
+		searchTerms.add("irish");
+		searchTerms.add("japanese");
+		searchTerms.add("nordic");
+		searchTerms.add("pakistani");
+		searchTerms.add("portuguese");
+		searchTerms.add("spanish");
+		searchTerms.add("thai");
+		searchTerms.add("turkish");
+		searchTerms.add("russian");
 
 		for (String s : searchTerms) {
 
@@ -246,9 +281,17 @@ public class EdmanAPI {
 					// TODO: totalNutrients, healthLabels, source(author)
 
 					urlRecipe = (String) recipe.get("url");
+					urlRecipe = urlRecipe.replaceAll("\"", "").replaceAll("\n", " ").replaceAll("\r\n", " ")
+							.replaceAll("\t", " ").replaceAll(",", " ").replaceAll("\\\\", "");
 					label = (String) recipe.get("label");
+					label = label.replaceAll("\"", "").replaceAll("\n", " ").replaceAll("\r\n", " ")
+							.replaceAll("\t", " ").replaceAll(",", " ").replaceAll("\\\\", "");
 					recipeUrl = (String) recipe.get("url");
+					recipeUrl = recipeUrl.replaceAll("\"", "").replaceAll("\n", " ").replaceAll("\r\n", " ")
+							.replaceAll("\t", " ").replaceAll(",", " ").replaceAll("\\\\", "");
 					imageUrl = (String) recipe.get("image");
+					imageUrl = imageUrl.replaceAll("\"", "").replaceAll("\n", " ").replaceAll("\r\n", " ")
+							.replaceAll("\t", " ").replaceAll(",", " ").replaceAll("\\\\", "");
 					yield = (double) recipe.get("yield");
 					calories = (double) recipe.get("calories");
 					totalTime = (double) recipe.get("totalTime");
@@ -265,8 +308,10 @@ public class EdmanAPI {
 					Pattern r = Pattern.compile(pattern);
 
 					for (String i : ingredients) {
+
+						i = i.replaceAll("\"", "").replaceAll("\n", " ").replaceAll("\r\n", " ").replaceAll("\t", " ")
+								.replaceAll(",", " ").replaceAll("\\\\", "");
 						Matcher m = r.matcher(i);
-						i = i.replaceAll("\"", "");
 						if (m.find()) {
 
 							String amount = m.group(1).replaceAll("½", " 1/2").replaceAll("¼", " 1/4")
