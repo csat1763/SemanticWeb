@@ -232,6 +232,7 @@ public class EdmanAPI {
 
 				StringBuilder recipiesAsString = new StringBuilder();
 				recipiesAsString.append("[\n");
+
 				for (LinkedTreeMap<String, Object> hit : hits) {
 
 					StringBuilder ingredientsAsString = new StringBuilder();
@@ -267,6 +268,7 @@ public class EdmanAPI {
 						Matcher m = r.matcher(i);
 						i = i.replaceAll("\"", "");
 						if (m.find()) {
+
 							String amount = m.group(1).replaceAll("½", " 1/2").replaceAll("¼", " 1/4")
 									.replaceAll("¾", " 3/4").replaceAll("  ", " ").replaceAll("^ +", "");
 							String unit = m.group(2);
@@ -274,8 +276,18 @@ public class EdmanAPI {
 								unit = "pcs";
 							}
 							String ingredient = m.group(3);
-							ingredientsAsString.append("\t\t{\"amount\": \"").append(amount).append("\", \"unit\": \"")
-									.append(unit).append("\", \"ingredient\": \"").append(ingredient).append("\"},\n");
+							ingredientsAsString.append("\t\t{\r\n \t\t\t\"@type\" : \"IngredientAddition\",\r\n"
+									+ "\t\t\t\"ingredientName\" : {\r\n" + "\t\t\t\t\"@type\" : \"Ingredient\",\r\n"
+									+ "\t\t\t\t\"name\" : \"" + ingredient + "\",\r\n"
+									+ "\t\t\t\t\"ingridientFullName\" : \"\"\r\n" + " \t\t\t},")
+									.append("\r\n \t\t\t\"ingridientAmount\" : {\r\n"
+											+ "\t\t\t\t\"@type\" : \"QuantitativeValue\",\r\n"
+											+ "\t\t\t\t\"unitText\" : \"" + unit + "\",\r\n" + "\t\t\t\t\"value\" : \""
+											+ amount + "\"\r\n" + "\t\t\t}\r\n")
+
+									// .append("\t\t\"amount\": \"").append(amount).append("\", \"unit\": \"").append(unit)
+									// .append("\", \"ingredient\": \"").append(ingredient)
+									.append("\t\t},\n");
 						} else {
 							ingredientsAsString.append("\t\t\"").append(i).append("\",\n");
 						}
@@ -333,15 +345,7 @@ public class EdmanAPI {
 
 			}
 
-			// Close connection instance
-			// conn.disconnect();
-			try {
-				Thread.sleep(20000);
-			} catch (InterruptedException e) {
-				// TODO Auto-generated catch block
-				e.printStackTrace();
-			}
-			System.out.println(s + " done.");
+			System.out.println("Edamam search term: " + s + " done.");
 		}
 	}
 
