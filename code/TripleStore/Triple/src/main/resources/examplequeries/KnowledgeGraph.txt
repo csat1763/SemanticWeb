@@ -1,5 +1,9 @@
+run fuseki - upload ontology as named graph - upload datagraphs as named graphs - leave default graph empty
+ontology: newOnt2.0.jsonld
+name the ontology graph: ontology
+and the datagraphs: data
 
------------------------------ # triples
+----------------------------- numberOfTriples
 PREFIX schema: <http://schema.org/>
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
@@ -9,72 +13,75 @@ SELECT (COUNT(?s) as ?count) WHERE{
   graph ?g {?s ?p ?o}
 }
 
------------------- # instances per class
+------------------ numberOfTriplesPerClass
 PREFIX schema: <http://schema.org/>
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX owl: <http://www.w3.org/2002/07/owl#>
 
-SELECT ?o (COUNT(?o) as ?instances) WHERE{
+SELECT ?class (COUNT(?class) as ?instances) WHERE{
 	{
-     GRAPH <http://localhost:3030/food/data/data> {?s ?p ?o} .
-    GRAPH <http://localhost:3030/food/data/ontology> {?o a owl:Class } .
+     GRAPH <http://localhost:3030/food/data/data> {?s ?p ?class} .
+    GRAPH <http://localhost:3030/food/data/ontology> {?class a owl:Class } .
 	}
-} GROUP BY ?o
+} GROUP BY ?class
 
------------------ properties
+------------------- numberOfDistinctClasses
 PREFIX schema: <http://schema.org/>
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX owl: <http://www.w3.org/2002/07/owl#>
 
-SELECT DISTINCT ?p WHERE{
-	{
-      GRAPH <http://localhost:3030/food/data/data> {?s ?p ?o} .
-      GRAPH <http://localhost:3030/food/data/ontology> {?p a owl:ObjectProperty } .
-	}
-}
-
------- classes with naming graphs
-PREFIX schema: <http://schema.org/>
-PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
-PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
-PREFIX owl: <http://www.w3.org/2002/07/owl#>
-
-SELECT DISTINCT ?o WHERE{
+SELECT (COUNT(DISTINCT ?o) as ?numberOfClasses) WHERE{
 	{
      GRAPH <http://localhost:3030/food/data/data> {?s ?p ?o} .
     GRAPH <http://localhost:3030/food/data/ontology> {?o a owl:Class } .
 	}
 }
 
------- classes per dataset
+------------ numberOfDistinctProperties
+
+PREFIX schema: <http://schema.org/>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+
+SELECT (COUNT(DISTINCT ?p) as ?numberOfProperties) WHERE{
+	{
+     GRAPH <http://localhost:3030/food/data/data> {?s ?p ?o} .
+    GRAPH <http://localhost:3030/food/data/ontology> {?p a owl:ObjectProperty} .
+	}
+}
+
+
+
+------ classesPerDataSet
 PREFIX schema: <http://schema.org/>
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX owl: <http://www.w3.org/2002/07/owl#>
 
 SELECT
-DISTINCT ?g ?o 
+DISTINCT ?g ?class 
 WHERE{
 	{
-      GRAPH ?g {?s ?p ?o } .
-      GRAPH <http://localhost:3030/food/data/ontology> {?o a owl:Class } . 
+      GRAPH ?g {?s ?p ?class } .
+      GRAPH <http://localhost:3030/food/data/ontology> {?class  a owl:Class } . 
       FILTER(?g != <http://localhost:3030/food/data/ontology>) .
 	}
 }
-------- properties per dataset
+------- propertiesPerDataSet
 PREFIX schema: <http://schema.org/>
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX owl: <http://www.w3.org/2002/07/owl#>
 
 SELECT
-DISTINCT ?g ?p
+DISTINCT ?g ?property
 WHERE{
 	{
-      GRAPH ?g {?s ?p ?o } .
-      GRAPH <http://localhost:3030/food/data/ontology> {?p a owl:ObjectProperty } .
+      GRAPH ?g {?s ?property ?o } .
+      GRAPH <http://localhost:3030/food/data/ontology> {?property a owl:ObjectProperty } .
       FILTER(?g != <http://localhost:3030/food/data/ontology>) .
 	}
   
@@ -89,14 +96,14 @@ PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX owl: <http://www.w3.org/2002/07/owl#>
 
 SELECT
-?g ?o (COUNT(?o) as ?lul)
+?g ?class (COUNT(?class ) as ?instances)
 WHERE{
 	{
-      GRAPH ?g {?s ?p ?o } .
-      GRAPH <http://localhost:3030/food/data/ontology> {?o a owl:Class } . 
+      GRAPH ?g {?s ?p ?class  } .
+      GRAPH <http://localhost:3030/food/data/ontology> {?class  a owl:Class } . 
       FILTER(?g != <http://localhost:3030/food/data/ontology>) .
 	} 
-}GROUP BY ?g ?o
+}GROUP BY ?g ?class 
 
 ------------------ subjectsPerPropertyPerDataSet
 
@@ -106,16 +113,16 @@ PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX owl: <http://www.w3.org/2002/07/owl#>
 
 SELECT
-DISTINCT ?g ?p (COUNT(DISTINCT ?s) as ?subjectss)
+DISTINCT ?g ?property (COUNT(DISTINCT ?s) as ?subjects)
 WHERE{
 	{
-      GRAPH ?g {?s ?p ?o } .
-      GRAPH <http://localhost:3030/food/data/ontology> {?p a owl:ObjectProperty } .
+      GRAPH ?g {?s ?property ?o } .
+      GRAPH <http://localhost:3030/food/data/ontology> {?property a owl:ObjectProperty } .
       FILTER(?g != <http://localhost:3030/food/data/ontology>) .
     
 	}
  
-} GROUP BY ?g ?p
+} GROUP BY ?g ?property
 
 ------------------ objectsPerPropertyPerDataSet
 
@@ -125,16 +132,16 @@ PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX owl: <http://www.w3.org/2002/07/owl#>
 
 SELECT
-DISTINCT ?g ?p (COUNT(DISTINCT ?o) as ?objects)
+DISTINCT ?g ?property (COUNT(DISTINCT ?o) as ?objects)
 WHERE{
 	{
-      GRAPH ?g {?s ?p ?o } .
-      GRAPH <http://localhost:3030/food/data/ontology> {?p a owl:ObjectProperty } .
+      GRAPH ?g {?s ?property ?o } .
+      GRAPH <http://localhost:3030/food/data/ontology> {?property a owl:ObjectProperty } .
       FILTER(?g != <http://localhost:3030/food/data/ontology>) .
     
 	}
  
-} GROUP BY ?g ?p
+} GROUP BY ?g ?property
 
 ------------------------ propertiesInTop5Classes
 
@@ -143,17 +150,75 @@ PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX owl: <http://www.w3.org/2002/07/owl#>
 
-SELECT DISTINCT ?p ?class WHERE {
+SELECT DISTINCT ?property ?class WHERE {
   
-   GRAPH <http://localhost:3030/food/data/data> {?s ?rdftype ?class . ?s ?p ?o} .
-   FILTER(?p != rdf:type) .
+   GRAPH <http://localhost:3030/food/data/data> {?s a ?class . ?s ?property ?o} .
+   FILTER(?property != rdf:type) .
 
 {SELECT ?class (COUNT(?class) as ?instances) WHERE{
 	{
-     GRAPH <http://localhost:3030/food/data/data> {?s ?p ?class} .
+     GRAPH <http://localhost:3030/food/data/data> {?s ?property ?class} .
     GRAPH <http://localhost:3030/food/data/ontology> {?class a owl:Class } .
 	}
     } GROUP BY ?class ORDER BY DESC(?instances) LIMIT 5}}
+
+
+-------------------------------- federatedQuery
+
+PREFIX wds: <http://www.wikidata.org/entity/statement/>
+PREFIX wdv: <http://www.wikidata.org/value/>
+PREFIX wdt: <http://www.wikidata.org/prop/direct/>
+PREFIX wikibase: <http://wikiba.se/ontology#>
+PREFIX p: <http://www.wikidata.org/prop/>
+PREFIX ps: <http://www.wikidata.org/prop/statement/>
+PREFIX pq: <http://www.wikidata.org/prop/qualifier/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX bd: <http://www.bigdata.com/rdf#> 
+PREFIX afn: <http://jena.hpl.hp.com/ARQ/function#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX mw: <http://tools.wmflabs.org/mw2sparql/ontology#>
+PREFIX mwapi: <https://www.mediawiki.org/ontology#API/> 
+PREFIX schema: <http://schema.org/>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+
+SELECT DISTINCT ?item ?itemLabel ?localClass WHERE {    {
+    SELECT DISTINCT ?localClass ?z WHERE {
+     graph ?g { ?s ?p ?localClass . ?localClass a owl:Class . ?s a schema:Recipe . ?localClass rdfs:label ?z }.
+    }   }   SERVICE <https://query.wikidata.org/sparql> { 
+    SERVICE wikibase:mwapi {    bd:serviceParam wikibase:api "EntitySearch" .
+      bd:serviceParam wikibase:endpoint "www.wikidata.org" .
+      bd:serviceParam mwapi:search ?z .    bd:serviceParam mwapi:language "en" .
+      bd:serviceParam mwapi:limit 5 .    ?istem wikibase:apiOutputItem mwapi:item .  
+    }    ?item rdfs:label ?itemLabel .
+    FILTER(LANG(?itemLabel) = "" || LANGMATCHES(LANG(?itemLabel), "en"))      } }
+
+
+
+----------------- all properties
+PREFIX schema: <http://schema.org/>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+
+SELECT DISTINCT ?p WHERE{
+	{
+      GRAPH <http://localhost:3030/food/data/data> {?s ?p ?o} .
+      GRAPH <http://localhost:3030/food/data/ontology> {?p a owl:ObjectProperty } .
+	}
+}
+
+------ all classes
+PREFIX schema: <http://schema.org/>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+
+SELECT DISTINCT ?o WHERE{
+	{
+     GRAPH <http://localhost:3030/food/data/data> {?s ?p ?o} .
+    GRAPH <http://localhost:3030/food/data/ontology> {?o a owl:Class } .
+	}
+}
 
 
 
