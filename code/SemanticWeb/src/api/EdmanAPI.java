@@ -587,10 +587,11 @@ public class EdmanAPI {
 	}
 
 	public static String potentialActionGen(String ingredient) {
-		
+		String ingrStr = ingredient.replaceAll(" ", "+");
 		return "\t\t\t\"potentialAction\" : {\r\n" +
 		       "\t\t\t\t\"@type\": \"SearchAction\",\r\n" + 
-		       "\t\t\t\t\"target\": \"https://www.freshdirect.com/srch.jsp?searchParams=" + ingredient + "\"\r\n}";
+		       "\t\t\t\t\"target\": \"https://www.freshdirect.com/srch.jsp?searchParams=" + ingrStr + "\"\r\n" +
+		       "\t\t\t}\r\n";
 	}
 }
 
