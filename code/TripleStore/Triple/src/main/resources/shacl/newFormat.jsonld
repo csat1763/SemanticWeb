@@ -1,0 +1,62 @@
+{
+    "@context": { "@vocab": "http://schema.org/" },
+
+    "@type": "Recipe",
+	"sameAs": "http://www.edamam.com/ontologies/edamam.owl#recipe_7bf4a371c6884d809682a72808da7dc2",
+	"creator": {
+		"@type": "Person",
+		"name" : "Daniel Kaufmann"
+	},
+	"nutrition": {
+		"@type": "NutritionInformation",
+		"calories" : "2253.0 calories"
+	},
+	"name": "Easter Leftover Sandwich",
+	"recipeYield": {
+		"@type": "QuantitativeValue",
+		"value" : "8"
+	},
+	"image": {
+		"@type": "ImageObject",
+		"contentUrl" : "http://static.thepioneerwoman.com/cooking/files/2013/03/leftoversandwich.jpg",
+		"caption" : "Easter Leftover Sandwich"
+	},
+	"cookTime": "PT5M",
+	"prepTime": "PT15M",
+	"totalTime": "PT20M",
+	"recipeInstructions" : {
+		"@type" : "CreativeWork",
+		"url" : "http://thepioneerwoman.com/cooking/2013/04/easter-leftover-sandwich/"
+			
+	},
+	"recipeIngredient": [
+		{ 
+			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "Mustard",
+				"ingridientFullName" : "Dijon"
+			},
+			"ingredientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "Tablespoons",
+				"value" : "3"
+			}
+
+		},
+		{ 
+			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "Mustard",
+				"ingridientFullName" : "Dijon"
+			},
+			"ingredientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "Tablespoons",
+				"value" : "3"
+			}
+
+		}
+	] 
+}
