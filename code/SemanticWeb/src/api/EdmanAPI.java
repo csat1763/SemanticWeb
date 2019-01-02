@@ -275,11 +275,14 @@ public class EdmanAPI {
 					// Publishing Date (YYYY-MM-DD) begin
 					LinkedTreeMap<String, Object> recipe = (LinkedTreeMap<String, Object>) hit.get("recipe");
 
-					String urlRecipe, label, recipeUrl, imageUrl;
+					String urlRecipe, label, recipeUrl, imageUrl, recipeId;
 					List<String> ingredients = new ArrayList<String>();
 					double calories, yield, totalTime;
 					// TODO: totalNutrients, healthLabels, source(author)
 
+					recipeId = (String) recipe.get("uri");
+					recipeId = recipeId.replaceAll("\"", "").replaceAll("\n", "").replaceAll("\r\n", "")
+							.replaceAll("\t", "").replaceAll(",", "").replaceAll("\\\\", "").replaceAll(" ", "");
 					urlRecipe = (String) recipe.get("url");
 					urlRecipe = urlRecipe.replaceAll("\"", "").replaceAll("\n", " ").replaceAll("\r\n", " ")
 							.replaceAll("\t", " ").replaceAll(",", " ").replaceAll("\\\\", "");
@@ -328,12 +331,15 @@ public class EdmanAPI {
 									.append("\r\n \t\t\t\"ingridientAmount\" : {\r\n"
 											+ "\t\t\t\t\"@type\" : \"QuantitativeValue\",\r\n"
 											+ "\t\t\t\t\"unitText\" : \"" + unit + "\",\r\n" + "\t\t\t\t\"value\" : \""
-											+ amount + "\"\r\n" + "\t\t\t}\r\n")
+											+ amount + "\"\r\n" + "\t\t\t},\r\n")
 
 									// .append("\t\t\"amount\": \"").append(amount).append("\", \"unit\": \"").append(unit)
 									// .append("\", \"ingredient\": \"").append(ingredient)
+									.append(potentialActionGen(ingredient))
 									.append("\t\t},\n");
+									
 						} else {
+							//TODO: if not parsable -> throw away entry, otherwise we cannot generate an action
 							ingredientsAsString.append("\t\t\"").append(i).append("\",\n");
 						}
 					}
@@ -345,6 +351,8 @@ public class EdmanAPI {
 
 					recipiesAsString.append("{\n" + "\t\"@context\": \"http://schema.org\",\n" +
 
+							"\t\"@id\": \"" + recipeId + "\",\n" +
+							
 							"\t\"@type\": \"Recipe\",\n" +
 
 							"\t\"sameAs\": \"" + recipeUrl + "\",\n" +
@@ -485,8 +493,11 @@ public class EdmanAPI {
 				String url = (String) jsonObj.get("url");
 				String imageUrl = (String) jsonObj.get("image");
 				String yield = (String) jsonObj.get("recipeYield");
+				String recipeId = label.replaceAll(" ", "");
 
 				recipiesAsString.append("{\n" + "\t\"@context\": \"http://schema.org\",\n" +
+				
+						"\t\"@id\": \"http://example.com/ns#" + recipeId + "\",\n" +
 
 						"\t\"@type\": \"Recipe\",\n" +
 
@@ -575,6 +586,12 @@ public class EdmanAPI {
 		return convertDoubleToISODuration(totalTime);
 	}
 
+	public static String potentialActionGen(String ingredient) {
+		
+		return "\t\t\t\"potentialAction\" : {\r\n" +
+		       "\t\t\t\t\"@type\": \"SearchAction\",\r\n" + 
+		       "\t\t\t\t\"target\": \"https://www.freshdirect.com/srch.jsp?searchParams=" + ingredient + "\"\r\n}";
+	}
 }
 
 class EdamamCrawler implements Callable<String> {

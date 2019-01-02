@@ -1,6 +1,7 @@
+[
 {
     "@context": { "@vocab": "http://schema.org/" },
-
+	"@id": "http://me.markus-lanthaler.com/",
     "@type": "Recipe",
 	"sameAs": "http://www.edamam.com/ontologies/edamam.owl#recipe_7bf4a371c6884d809682a72808da7dc2",
 	"creator": {
@@ -33,7 +34,7 @@
 		{ 
 			"@type" : "IngredientAddition",
 			"ingredientName" : {
-				"@type" : "Ingredient",
+				"@type" : "QuantitativeValue",
 				"name" : "Mustard",
 				"ingridientFullName" : "Dijon"
 			},
@@ -42,21 +43,55 @@
 				"unitText" : "Tablespoons",
 				"value" : "3"
 			}
-
 		},
+	]
+},
+{
+	"@context": { "@vocab": "http://schema.org/" },
+	"@id": "http://me.markus-lanthaler3.com/",
+    "@type": "Recipe",
+	"sameAs": "http://www.edamam.com/ontologies/edamam.owl#recipe_7bf4a371c6884d809682a72808da7dc2",
+	"creator": {
+		"@type": "Person",
+		"name" : "Daniel Egger"
+	},
+	"nutrition": {
+		"@type": "NutritionInformation",
+		"calories" : "2222.0 calories"
+	},
+	"name": "Chicken",
+	"recipeYield": {
+		"@type": "QuantitativeValue",
+		"value" : "3"
+	},
+	"image": {
+		"@type": "ImageObject",
+		"contentUrl" : "http://static.thepioneerwoman.com/cooking/files/2013/03/chicken.jpg",
+		"caption" : "chicken"
+	},
+	"cookTime": "PT25M",
+	"prepTime": "PT10M",
+	"totalTime": "PT35M",
+	"recipeInstructions" : {
+		"@type" : "CreativeWork",
+		"url" : "http://thepioneerwoman.com/cooking/2013/04/chicken/"
+			
+	},
+	"recipeIngredient": [
 		{ 
 			"@type" : "IngredientAddition",
 			"ingredientName" : {
 				"@type" : "Ingredient",
-				"name" : "Mustard",
+				"name" : "chicken",
 				"ingridientFullName" : "Dijon"
 			},
 			"ingredientAmount" : {
 				"@type" : "QuantitativeValue",
-				"unitText" : "Tablespoons",
-				"value" : "3"
+				"unitText" : "kg",
+				"value" : "1"
 			}
 
 		}
 	] 
 }
+]

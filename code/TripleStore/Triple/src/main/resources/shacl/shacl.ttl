@@ -24,6 +24,10 @@ schema:RecipeShape
     sh:property [
         sh:path schema:recipeInstructions ;
         sh:class schema:CreativeWork ;
+        sh:property [
+        	sh:path schema:url ;
+        	sh:datatype xsd:string ;
+    ];
     ] ;
     sh:property [
         sh:path schema:cookTime ;
@@ -42,26 +46,12 @@ schema:RecipeShape
         sh:class schema:IngredientAddition ;
         sh:maxCount 15 ;
         sh:minCount 2 ;
-    ] .	
-
-
-schema:IngredientAdditionShape
-    a sh:NodeShape ;
-    sh:targetClass schema:IngredientAddition ;
-    sh:property [
-        sh:path schema:ingredientName ;
-        sh:class schema:Ingredient ;
-    ] ;
-    sh:property [
-        sh:path schema:ingredientAmount ;
-        sh:class schema:QuantitativeValue ;
-    ] .
-
-
-schema:RecipeInstructionsShape
-    a sh:NodeShape ;
-    sh:targetClass schema:CreativeWork ;
-    sh:property [
-        sh:path schema:url ;
-        sh:datatype xsd:string ;
+        sh:property[
+        	sh:path schema:ingredientName ;
+        	sh:class schema:Ingredient ;
+        ];
+        sh:property [
+        	sh:path schema:ingredientAmount ;
+        	sh:class schema:QuantitativeValue ;
+        ];
     ] .
