@@ -1,4 +1,4 @@
-package hello;
+package recipeBackend;
 
 public class RecipeResponse {
 
