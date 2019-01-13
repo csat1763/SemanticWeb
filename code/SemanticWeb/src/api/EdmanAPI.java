@@ -277,8 +277,9 @@ public class EdmanAPI {
 
 					String urlRecipe, label, recipeUrl, imageUrl, recipeId;
 					List<String> ingredients = new ArrayList<String>();
+					List<String> tags = new ArrayList<String>();
 					double calories, yield, totalTime;
-					// TODO: totalNutrients, healthLabels, source(author)
+					// TODO: totalNutrients
 
 					recipeId = (String) recipe.get("uri");
 					recipeId = recipeId.replaceAll("\"", "").replaceAll("\n", "").replaceAll("\r\n", "")
@@ -301,7 +302,18 @@ public class EdmanAPI {
 					calories = Math.round(calories);
 
 					ingredients = (ArrayList<String>) recipe.get("ingredientLines");
-
+					if(recipe.get("healthLabels")!=null) {
+						tags.addAll((ArrayList<String>) recipe.get("healthLabels"));
+					}
+					if(recipe.get("dietLabels")!=null) {
+						tags.addAll((ArrayList<String>) recipe.get("dietLabels"));
+					}
+					
+					/*
+					for(String tag: tags) {
+						System.out.println(tag + " ");
+					}
+					*/
 					/*
 					 * System.out.println("\nnew entry:\n" + " uri: " + uri + "\nlabel: " + label + "\nurl: " + recipeUrl + "\ncalories: " + calories + "\ningredients" + ingredients);
 					 */
@@ -363,6 +375,8 @@ public class EdmanAPI {
 							"\t\"nutrition\": {\n" + "\t\t\"@type\": \"NutritionInformation\",\n"
 							+ "\t\t\"calories\" : \"" + calories + " calories\"\n\t},\n" +
 
+							"\t\"keywords\": [ " + generateKeywordString(tags) + " ],\n" +
+							
 							"\t\"name\": \"" + label + "\",\n" +
 
 							"\t\"recipeYield\": {" + "\n" + "\t\t\"@type\": \"QuantitativeValue\",\n"
@@ -592,6 +606,22 @@ public class EdmanAPI {
 		       "\t\t\t\t\"@type\": \"SearchAction\",\r\n" + 
 		       "\t\t\t\t\"target\": \"https://www.freshdirect.com/srch.jsp?searchParams=" + ingrStr + "\"\r\n" +
 		       "\t\t\t}\r\n";
+	}
+	
+	public static String generateKeywordString(List<String> tags) {
+		
+		StringBuilder sb = new StringBuilder();
+		
+		for(String tag: tags) {
+			sb.append("\"").append(tag).append("\"").append(", ");
+		}
+		
+		if(tags.size() > 0) {
+			sb.deleteCharAt(sb.length()-1);
+			sb.deleteCharAt(sb.length()-1);
+		}
+		
+		return sb.toString();
 	}
 }
 
