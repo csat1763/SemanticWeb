@@ -18,7 +18,7 @@ public class Recipe {
     
     private String recipeInstructions;
     
-    private List<String> recipeIngredient;
+    private List<RecipeIngredient> recipeIngredient;
 
 	public long getId() {
 		return id;
@@ -108,11 +108,11 @@ public class Recipe {
 		this.recipeInstructions = recipeInstructions;
 	}
 
-	public List<String> getRecipeIngredient() {
+	public List<RecipeIngredient> getRecipeIngredient() {
 		return recipeIngredient;
 	}
 
-	public void setRecipeIngredient(List<String> recipeIngredient) {
+	public void setRecipeIngredient(List<RecipeIngredient> recipeIngredient) {
 		this.recipeIngredient = recipeIngredient;
 	}
 

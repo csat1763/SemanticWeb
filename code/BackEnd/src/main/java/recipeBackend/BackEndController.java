@@ -64,10 +64,23 @@ public class BackEndController {
 		testRecipe.setCookTime("20 min");
 		testRecipe.setTotalTime("30 min");
 		testRecipe.setSameAs("same as url");
-		List<String> ingredientList = new ArrayList<String>();
-		ingredientList.add("beef");
-		ingredientList.add("salt");
-		ingredientList.add("pepper");
+		List<RecipeIngredient> ingredientList = new ArrayList<RecipeIngredient>();
+		
+		RecipeIngredient newIngredient = new RecipeIngredient();
+		newIngredient.setIngredientAmount("2");
+		newIngredient.setIngredientName("beef");
+		newIngredient.setUnitText("kg");
+		newIngredient.setPotentialAction("potentialActionUrl");
+		
+		RecipeIngredient newIngredient2 = new RecipeIngredient();
+		newIngredient2.setIngredientAmount("1");
+		newIngredient2.setIngredientName("salt");
+		newIngredient2.setUnitText("tbls");
+		newIngredient2.setPotentialAction("potentialActionUrl");
+		
+		ingredientList.add(newIngredient);
+		ingredientList.add(newIngredient2);
+
 		testRecipe.setRecipeIngredient(ingredientList);
 		testRecipe.setRecipeInstructions("instructions");
 		testRecipe.setRecipeYield("yield");
@@ -87,10 +100,10 @@ public class BackEndController {
 		testRecipe2.setCookTime("20 min");
 		testRecipe2.setTotalTime("30 min");
 		testRecipe2.setSameAs("same as url");
-		List<String> ingredientList2 = new ArrayList<String>();
-		ingredientList2.add("beef");
-		ingredientList2.add("salt");
-		ingredientList2.add("pepper");
+		List<RecipeIngredient> ingredientList2 = new ArrayList<RecipeIngredient>();
+		
+		ingredientList2.add(newIngredient);
+		ingredientList2.add(newIngredient2);
 		testRecipe2.setRecipeIngredient(ingredientList2);
 		testRecipe2.setRecipeInstructions("instructions");
 		testRecipe2.setRecipeYield("yield");
