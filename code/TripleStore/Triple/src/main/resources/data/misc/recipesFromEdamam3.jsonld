@@ -1,0 +1,41 @@
+[
+{
+	"@context": "http://schema.org",
+	"@type": "Recipe",
+	"author": "John Smith", 
+	"name": "Teriyaki Chicken",
+	"identifier": "http://www.edamam.com/ontologies/edamam.owl#recipe_7bf4a371c6884d809682a72808da7dc2",
+	"url": "http://www.davidlebovitz.com/2012/12/chicken-teriyaki-recipe-japanese-farm-food/",
+	"image": "https://www.edamam.com/web-img/262/262b4353ca25074178ead2a07cdf7dc1.jpg",
+	"recipeYield": "6.0",
+	"totalTime": "0.0",
+	"nutrition": {
+		"@type": "NutritionInformation",
+		"calories" : "2253.0 calories"
+	},
+	"recipeIngredient": [
+		{
+			"@type": "ingredient",
+			"amount" : "125",
+			"unit" : "ml",
+			"ingridientFood" : "mirin"
+		}
+	] 
+}
+]
+_:Nd1df814235f44e159c7588d967dc1ffa <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Recipe> .
+_:Nd1df814235f44e159c7588d967dc1ffa <http://schema.org/image> <https://www.edamam.com/web-img/262/262b4353ca25074178ead2a07cdf7dc1.jpg> .
+_:N5fc16368aaff42dfb806fc57589fc359 <http://schema.org/calories> "2253.0 calories" .
+_:Nd1df814235f44e159c7588d967dc1ffa <http://schema.org/nutrition> _:N5fc16368aaff42dfb806fc57589fc359 .
+_:Nd1df814235f44e159c7588d967dc1ffa <http://schema.org/identifier> <http://www.edamam.com/ontologies/edamam.owl#recipe_7bf4a371c6884d809682a72808da7dc2> .
+_:Nd1df814235f44e159c7588d967dc1ffa <http://schema.org/recipeIngredient> _:N8f94428642e4489fa4c5a997da9dd7a5 .
+_:Nd1df814235f44e159c7588d967dc1ffa <http://schema.org/name> "Teriyaki Chicken" .
+_:N8f94428642e4489fa4c5a997da9dd7a5 <http://schema.org/amount> "125" .
+_:Nd1df814235f44e159c7588d967dc1ffa <http://schema.org/author> "John Smith" .
+_:N5fc16368aaff42dfb806fc57589fc359 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/NutritionInformation> .
+_:N8f94428642e4489fa4c5a997da9dd7a5 <http://schema.org/unit> "ml" .
+_:Nd1df814235f44e159c7588d967dc1ffa <http://schema.org/url> <http://www.davidlebovitz.com/2012/12/chicken-teriyaki-recipe-japanese-farm-food/> .
+_:N8f94428642e4489fa4c5a997da9dd7a5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ingredient> .
+_:Nd1df814235f44e159c7588d967dc1ffa <http://schema.org/recipeYield> "6.0" .
+_:Nd1df814235f44e159c7588d967dc1ffa <http://schema.org/totalTime> "0.0" .
+_:N8f94428642e4489fa4c5a997da9dd7a5 <http://schema.org/ingridientFood> "mirin" .
