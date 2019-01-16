@@ -18,6 +18,7 @@
 
 package helloworld;
 
+import java.io.File;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Iterator;
@@ -34,6 +35,7 @@ import org.apache.jena.rdfconnection.RDFConnection;
 import org.apache.jena.rdfconnection.RDFConnectionRemote;
 import org.apache.jena.rdfconnection.RDFDatasetConnection;
 import org.apache.jena.sparql.core.DatasetImpl;
+import org.apache.jena.util.FileManager;
 import org.apache.jena.vocabulary.OWL;
 import org.apache.jena.vocabulary.RDF;
 import org.apache.jena.vocabulary.RDFS;
@@ -49,6 +51,9 @@ import example.RecipeBase;
  * </p>
  */
 public class HelloWorld extends RecipeBase {
+
+	private static final String dataSet = "src\\main\\resources\\data\\recipes";
+
 	/***********************************/
 	/* Constants */
 	/***********************************/
@@ -99,6 +104,18 @@ public class HelloWorld extends RecipeBase {
 	@Override
 	public void run() {
 
+		File datafolder = new File(dataSet);
+		Model datamodel = ModelFactory.createDefaultModel();
+
+		for (String datafile : listFilesForFolder(datafolder)) {
+			System.out.println(datafile);
+			FileManager.get().readModel(datamodel, datafile);
+		}
+
+		HashMap<String, Model> nameData = new HashMap<String, Model>();
+		nameData.put("edamam", datamodel);
+		// TODO: very slow loading into java program and pushing to fuseki; push directly to fuseki without java overhead
+
 		// // creates a new, empty in-memory model
 		// Model m = ModelFactory.createDefaultModel();
 		// Model m2 = ModelFactory.createDefaultModel();
@@ -120,21 +137,21 @@ public class HelloWorld extends RecipeBase {
 		// server.start();
 
 		FusekiConnection fc = new FusekiConnection("http://localhost:3030", "food");
-		// fc.initFuseki(nameData); TODO: uncomment for default loading of data
+		fc.initFuseki(nameData); // TODO: uncomment for default loading of data
 		// fc.deleteAllGraphs();
 		// fc.deleteDefaultModel();
 
-		fc.query(numberOfTriples());
-		fc.query(numberOfTriplesPerClass());
-		fc.query(numberOfDistinctClasses());
-		fc.query(numberOfDistinctProperties());
-		fc.query(classesPerDataSet());
-		fc.query(propertiesPerDataSet());
-		fc.query(instancesPerClassPerDataSet());
-		fc.query(subjectsPerPropertyPerDataSet());
-		fc.query(objectsPerPropertyPerDataSet());
-		fc.query(propertiesInTop5Classes());
-		fc.query(federatedQuery());
+		// fc.query(numberOfTriples());
+		// fc.query(numberOfTriplesPerClass());
+		// fc.query(numberOfDistinctClasses());
+		// fc.query(numberOfDistinctProperties());
+		// fc.query(classesPerDataSet());
+		// fc.query(propertiesPerDataSet());
+		// fc.query(instancesPerClassPerDataSet());
+		// fc.query(subjectsPerPropertyPerDataSet());
+		// fc.query(objectsPerPropertyPerDataSet());
+		// fc.query(propertiesInTop5Classes());
+		// fc.query(federatedQuery());
 
 	}
 
@@ -420,6 +437,20 @@ public class HelloWorld extends RecipeBase {
 
 		}
 
+	}
+
+	public ArrayList<String> listFilesForFolder(final File folder) {
+		ArrayList<String> files = new ArrayList<String>();
+		for (final File fileEntry : folder.listFiles()) {
+			if (fileEntry.isDirectory()) {
+				listFilesForFolder(fileEntry);
+			} else {
+				files.add(fileEntry.getPath().replace("\\", "/"));
+			}
+
+		}
+
+		return files;
 	}
 
 }
