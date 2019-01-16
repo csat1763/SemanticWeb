@@ -3,6 +3,8 @@ package recipeBackend;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.atomic.AtomicLong;
+
+import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
@@ -14,6 +16,7 @@ public class BackEndController {
 	private List<String> ingredientList = new ArrayList<String>();
 	private List<String> tagList = new ArrayList<String>();
 
+	@CrossOrigin(origins = "*")
 	@RequestMapping("/recipeRequest")
 	public RecipeResponse recipeRequest(@RequestParam(value = "tags", defaultValue = "none") String tags,
 			@RequestParam(value = "ingredients", defaultValue = "none") String ingredients) {
