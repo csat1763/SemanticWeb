@@ -46,6 +46,7 @@ public class BackEndController {
 		}
 
 		// TODO: SPARQL QUERY STUFF
+		//String queryResponse = queryCreator.createQuery(tagList, ingredientList);
 
 		// build json recipe response
 
