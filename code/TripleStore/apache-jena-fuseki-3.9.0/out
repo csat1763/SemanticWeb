@@ -1,0 +1,102 @@
+[2019-01-18 20:24:24] Server     INFO  Apache Jena Fuseki 3.9.0
+[2019-01-18 20:24:24] Config     INFO  FUSEKI_HOME=D:\Desktop\SemanticWeb\code\TripleStore\apache-jena-fuseki-3.9.0\.
+[2019-01-18 20:24:24] Config     INFO  FUSEKI_BASE=D:\Desktop\SemanticWeb\code\TripleStore\apache-jena-fuseki-3.9.0\run
+[2019-01-18 20:24:24] Config     INFO  Shiro file: file://D:\Desktop\SemanticWeb\code\TripleStore\apache-jena-fuseki-3.9.0\run\shiro.ini
+[2019-01-18 20:24:25] Config     INFO  Configuration file: D:\Desktop\SemanticWeb\code\TripleStore\apache-jena-fuseki-3.9.0\run\config.ttl
+[2019-01-18 20:24:25] riot       WARN  [line: 3, col: 8 ] Bad IRI: <D:\Desktop\SemanticWeb\code\TripleStore\apache-jena-fuseki-3.9.0\run\config.ttl#> Code: 4/UNWISE_CHARACTER in PATH: The character matches no grammar rules of URIs/IRIs. These characters are permitted in RDF URI References, XML system identifiers, and XML Schema anyURIs.
+[2019-01-18 20:24:25] riot       WARN  [line: 13, col: 1 ] Bad IRI: <D:\Desktop\SemanticWeb\code\TripleStore\apache-jena-fuseki-3.9.0\run\config.ttl#service_tdb_all> Code: 4/UNWISE_CHARACTER in PATH: The character matches no grammar rules of URIs/IRIs. These characters are permitted in RDF URI References, XML system identifiers, and XML Schema anyURIs.
+[2019-01-18 20:24:25] riot       WARN  [line: 23, col: 30] Bad IRI: <D:\Desktop\SemanticWeb\code\TripleStore\apache-jena-fuseki-3.9.0\run\config.ttl#books> Code: 4/UNWISE_CHARACTER in PATH: The character matches no grammar rules of URIs/IRIs. These characters are permitted in RDF URI References, XML system identifiers, and XML Schema anyURIs.
+[2019-01-18 20:24:25] riot       WARN  [line: 27, col: 1 ] Bad IRI: <D:\Desktop\SemanticWeb\code\TripleStore\apache-jena-fuseki-3.9.0\run\config.ttl#tdb_dataset_readwrite> Code: 4/UNWISE_CHARACTER in PATH: The character matches no grammar rules of URIs/IRIs. These characters are permitted in RDF URI References, XML system identifiers, and XML Schema anyURIs.
+[2019-01-18 20:24:25] riot       WARN  [line: 32, col: 2 ] Bad IRI: <D:\Desktop\SemanticWeb\code\TripleStore\apache-jena-fuseki-3.9.0\run\config.ttl#books> Code: 4/UNWISE_CHARACTER in PATH: The character matches no grammar rules of URIs/IRIs. These characters are permitted in RDF URI References, XML system identifiers, and XML Schema anyURIs.
+[2019-01-18 20:24:25] riot       WARN  [line: 37, col: 40] Bad IRI: <file:food.jsonld> Code: 57/REQUIRED_COMPONENT_MISSING in AUTHORITY: A component that is required by the scheme is missing.
+[2019-01-18 20:24:25] Server     ERROR Exception in initialization: caught: Not found: file:food.jsonld
+[2019-01-18 20:24:25] WebAppContext WARN  Failed startup of context o.e.j.w.WebAppContext@430fa4ef{Apache Jena Fuseki Server,/,file:///D:/Desktop/SemanticWeb/code/TripleStore/apache-jena-fuseki-3.9.0/webapp/,UNAVAILABLE}
+org.apache.jena.assembler.exceptions.AssemblerException: caught: Not found: file:food.jsonld
+  doing:
+    root: afe97a79d6bed490f0a79f37c6505d03 with type: http://jena.hpl.hp.com/2005/11/Assembler#ContentItem assembler class: class org.apache.jena.assembler.assemblers.ContentAssembler
+    root: 3f1003e4-548a-4917-8b3a-3920ceb57599 with type: http://jena.hpl.hp.com/2005/11/Assembler#Content assembler class: class org.apache.jena.assembler.assemblers.ContentAssembler
+    root: 4de2cd21e0de8a16c0588d5f1c3103b6 with type: http://jena.hpl.hp.com/2005/11/Assembler#MemoryModel assembler class: class org.apache.jena.assembler.assemblers.MemoryModelAssembler
+    root: D:\Desktop\SemanticWeb\code\TripleStore\apache-jena-fuseki-3.9.0\run\config.ttl#books with type: http://jena.hpl.hp.com/2005/11/Assembler#RDFDataset assembler class: class org.apache.jena.sparql.core.assembler.DatasetAssembler
+
+	at org.apache.jena.assembler.assemblers.AssemblerGroup$PlainAssemblerGroup.openBySpecificType(AssemblerGroup.java:165)
+	at org.apache.jena.assembler.assemblers.AssemblerGroup$PlainAssemblerGroup.open(AssemblerGroup.java:144)
+	at org.apache.jena.assembler.assemblers.AssemblerGroup$ExpandingAssemblerGroup.open(AssemblerGroup.java:93)
+	at org.apache.jena.assembler.assemblers.AssemblerBase.open(AssemblerBase.java:39)
+	at org.apache.jena.assembler.assemblers.AssemblerBase.open(AssemblerBase.java:35)
+	at org.apache.jena.assembler.assemblers.ContentAssembler.addIndirectContent(ContentAssembler.java:76)
+	at org.apache.jena.assembler.assemblers.ContentAssembler.loadContent(ContentAssembler.java:69)
+	at org.apache.jena.assembler.assemblers.ContentAssembler.open(ContentAssembler.java:44)
+	at org.apache.jena.assembler.assemblers.AssemblerGroup$PlainAssemblerGroup.openBySpecificType(AssemblerGroup.java:157)
+	at org.apache.jena.assembler.assemblers.AssemblerGroup$PlainAssemblerGroup.open(AssemblerGroup.java:144)
+	at org.apache.jena.assembler.assemblers.AssemblerGroup$ExpandingAssemblerGroup.open(AssemblerGroup.java:93)
+	at org.apache.jena.assembler.assemblers.AssemblerBase.open(AssemblerBase.java:39)
+	at org.apache.jena.assembler.assemblers.ModelAssembler.getContent(ModelAssembler.java:91)
+	at org.apache.jena.assembler.assemblers.ModelAssembler.open(ModelAssembler.java:44)
+	at org.apache.jena.assembler.assemblers.MemoryModelAssembler.open(MemoryModelAssembler.java:35)
+	at org.apache.jena.assembler.assemblers.AssemblerGroup$PlainAssemblerGroup.openBySpecificType(AssemblerGroup.java:157)
+	at org.apache.jena.assembler.assemblers.AssemblerGroup$PlainAssemblerGroup.open(AssemblerGroup.java:144)
+	at org.apache.jena.assembler.assemblers.AssemblerGroup$ExpandingAssemblerGroup.open(AssemblerGroup.java:93)
+	at org.apache.jena.assembler.assemblers.AssemblerBase.open(AssemblerBase.java:39)
+	at org.apache.jena.assembler.assemblers.AssemblerBase.open(AssemblerBase.java:35)
+	at org.apache.jena.assembler.assemblers.AssemblerGroup.openModel(AssemblerGroup.java:47)
+	at org.apache.jena.sparql.core.assembler.DatasetAssembler.createDataset(DatasetAssembler.java:56)
+	at org.apache.jena.sparql.core.assembler.DatasetAssembler.open(DatasetAssembler.java:43)
+	at org.apache.jena.assembler.assemblers.AssemblerGroup$PlainAssemblerGroup.openBySpecificType(AssemblerGroup.java:157)
+	at org.apache.jena.assembler.assemblers.AssemblerGroup$PlainAssemblerGroup.open(AssemblerGroup.java:144)
+	at org.apache.jena.assembler.assemblers.AssemblerGroup$ExpandingAssemblerGroup.open(AssemblerGroup.java:93)
+	at org.apache.jena.assembler.assemblers.AssemblerBase.open(AssemblerBase.java:39)
+	at org.apache.jena.assembler.assemblers.AssemblerBase.open(AssemblerBase.java:35)
+	at org.apache.jena.fuseki.build.FusekiConfig.getDataset(FusekiConfig.java:272)
+	at org.apache.jena.fuseki.build.FusekiConfig.buildDataServiceCustom(FusekiConfig.java:225)
+	at org.apache.jena.fuseki.build.FusekiConfig.buildDataAccessPoint(FusekiConfig.java:217)
+	at org.apache.jena.fuseki.build.FusekiConfig.servicesAndDatasets(FusekiConfig.java:126)
+	at org.apache.jena.fuseki.webapp.FusekiSystem.processServerConfigFile(FusekiSystem.java:285)
+	at org.apache.jena.fuseki.webapp.FusekiSystem.initServerConfiguration(FusekiSystem.java:260)
+	at org.apache.jena.fuseki.webapp.FusekiSystem.initializeDataAccessPoints(FusekiSystem.java:225)
+	at org.apache.jena.fuseki.webapp.FusekiServerListener.serverInitialization(FusekiServerListener.java:98)
+	at org.apache.jena.fuseki.webapp.FusekiServerListener.contextInitialized(FusekiServerListener.java:56)
+	at org.eclipse.jetty.server.handler.ContextHandler.callContextInitialized(ContextHandler.java:952)
+	at org.eclipse.jetty.servlet.ServletContextHandler.callContextInitialized(ServletContextHandler.java:558)
+	at org.eclipse.jetty.server.handler.ContextHandler.startContext(ContextHandler.java:917)
+	at org.eclipse.jetty.servlet.ServletContextHandler.startContext(ServletContextHandler.java:370)
+	at org.eclipse.jetty.webapp.WebAppContext.startWebapp(WebAppContext.java:1497)
+	at org.eclipse.jetty.webapp.WebAppContext.startContext(WebAppContext.java:1459)
+	at org.eclipse.jetty.server.handler.ContextHandler.doStart(ContextHandler.java:847)
+	at org.eclipse.jetty.servlet.ServletContextHandler.doStart(ServletContextHandler.java:287)
+	at org.eclipse.jetty.webapp.WebAppContext.doStart(WebAppContext.java:545)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68)
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.start(ContainerLifeCycle.java:138)
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.doStart(ContainerLifeCycle.java:108)
+	at org.eclipse.jetty.server.handler.AbstractHandler.doStart(AbstractHandler.java:113)
+	at org.eclipse.jetty.server.handler.gzip.GzipHandler.doStart(GzipHandler.java:410)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68)
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.start(ContainerLifeCycle.java:138)
+	at org.eclipse.jetty.server.Server.start(Server.java:416)
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.doStart(ContainerLifeCycle.java:108)
+	at org.eclipse.jetty.server.handler.AbstractHandler.doStart(AbstractHandler.java:113)
+	at org.eclipse.jetty.server.Server.doStart(Server.java:383)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68)
+	at org.apache.jena.fuseki.cmd.JettyFuseki.start(JettyFuseki.java:138)
+	at org.apache.jena.fuseki.cmd.FusekiCmd.runFuseki(FusekiCmd.java:372)
+	at org.apache.jena.fuseki.cmd.FusekiCmd$FusekiCmdInner.exec(FusekiCmd.java:356)
+	at jena.cmd.CmdMain.mainMethod(CmdMain.java:93)
+	at jena.cmd.CmdMain.mainRun(CmdMain.java:58)
+	at jena.cmd.CmdMain.mainRun(CmdMain.java:45)
+	at org.apache.jena.fuseki.cmd.FusekiCmd$FusekiCmdInner.innerMain(FusekiCmd.java:104)
+	at org.apache.jena.fuseki.cmd.FusekiCmd.main(FusekiCmd.java:67)
+Caused by: org.apache.jena.shared.NotFoundException: Not found: file:food.jsonld
+	at org.apache.jena.riot.adapters.AdapterFileManager.readModelWorker(AdapterFileManager.java:293)
+	at org.apache.jena.util.FileManager.loadModelWorker(FileManager.java:306)
+	at org.apache.jena.util.FileManager.loadModel(FileManager.java:259)
+	at org.apache.jena.assembler.assemblers.ContentAssembler.objectAsContent(ContentAssembler.java:154)
+	at org.apache.jena.assembler.assemblers.ContentAssembler.addExternalContents(ContentAssembler.java:82)
+	at org.apache.jena.assembler.assemblers.ContentAssembler.loadContent(ContentAssembler.java:68)
+	at org.apache.jena.assembler.assemblers.ContentAssembler.open(ContentAssembler.java:44)
+	at org.apache.jena.assembler.assemblers.AssemblerGroup$PlainAssemblerGroup.openBySpecificType(AssemblerGroup.java:157)
+	... 65 more
+[2019-01-18 20:24:25] Server     INFO  Started 2019/01/18 20:24:25 MEZ on port 3030
+Batchvorgang abbrechen (J/N)? 
+Batchvorgang abbrechen (J/N)? 
+Batchvorgang abbrechen (J/N)? 
+Batchvorgang abbrechen (J/N)? 
+Batchvorgang abbrechen (J/N)? 
