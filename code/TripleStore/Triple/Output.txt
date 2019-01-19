@@ -1,3 +1,14 @@
-src/main/resources/data/recipes/aa.jsonld
-src/main/resources/data/recipes/africanFromEdamam.jsonld
-src/main/resources/data/recipes/alcoholFromEdamam.jsonld
+D:/Desktop/SemanticWeb/code/TripleStore/Triple/src/main/resources/data/recipes/aa.nt
+false
+application/ld+json
+Exception in thread "main" org.apache.jena.atlas.web.HttpException: 415 - Must be application/sparql-update or application/x-www-form-urlencoded (got application/n-triples)
+	at org.apache.jena.riot.web.HttpOp.exec(HttpOp.java:1084)
+	at org.apache.jena.riot.web.HttpOp.execHttpPost(HttpOp.java:711)
+	at org.apache.jena.riot.web.HttpOp.execHttpPost(HttpOp.java:588)
+	at org.apache.jena.rdfconnection.RDFConnectionRemote.lambda$doPutPost$3(RDFConnectionRemote.java:388)
+	at org.apache.jena.rdfconnection.RDFConnectionRemote.exec(RDFConnectionRemote.java:564)
+	at org.apache.jena.rdfconnection.RDFConnectionRemote.doPutPost(RDFConnectionRemote.java:384)
+	at org.apache.jena.rdfconnection.RDFConnectionRemote.upload(RDFConnectionRemote.java:370)
+	at org.apache.jena.rdfconnection.RDFConnectionRemote.load(RDFConnectionRemote.java:319)
+	at helloworld.HelloWorld.run(HelloWorld.java:131)
+	at helloworld.HelloWorld.main(HelloWorld.java:107)

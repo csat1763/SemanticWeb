@@ -19,9 +19,14 @@
 package helloworld;
 
 import java.io.File;
+import java.io.FileInputStream;
+import java.io.IOException;
+import java.io.InputStream;
+import java.net.URLEncoder;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Iterator;
+import java.util.List;
 import java.util.Map.Entry;
 
 import org.apache.jena.query.Dataset;
@@ -34,8 +39,9 @@ import org.apache.jena.rdf.model.ModelFactory;
 import org.apache.jena.rdfconnection.RDFConnection;
 import org.apache.jena.rdfconnection.RDFConnectionRemote;
 import org.apache.jena.rdfconnection.RDFDatasetConnection;
+import org.apache.jena.riot.Lang;
+import org.apache.jena.riot.RDFLanguages;
 import org.apache.jena.sparql.core.DatasetImpl;
-import org.apache.jena.util.FileManager;
 import org.apache.jena.vocabulary.OWL;
 import org.apache.jena.vocabulary.RDF;
 import org.apache.jena.vocabulary.RDFS;
@@ -104,16 +110,32 @@ public class HelloWorld extends RecipeBase {
 	@Override
 	public void run() {
 
+		String directory = "./SemanticWeb/code/TripleStore/apache-jena-fuseki-3.9.0/datastore";
+		// Dataset tdb = TDBFactory.createDataset(directory);
+		// tdb.begin(ReadWrite.READ);
+
 		File datafolder = new File(dataSet);
-		Model datamodel = ModelFactory.createDefaultModel();
+		List<Model> datamodels = new ArrayList<Model>();
 
 		for (String datafile : listFilesForFolder(datafolder)) {
 			System.out.println(datafile);
-			FileManager.get().readModel(datamodel, datafile);
+			Lang lang = RDFLanguages.filenameToLang(datafile);
+			System.out.println(RDFLanguages.isQuads(lang));
+			// System.out.println(getUrlEncodedFile(datafile));
+
+			// datamodels.add(FileManager.get().loadModel(datafile));
+			System.out.println(Lang.JSONLD.getContentType().getContentType());
+
+			RDFConnectionRemote.create().destination("http://localhost:3030" + "/" + "food" + "/update").build().
+
+					load(datafile);
+
+			break;
+
 		}
 
 		HashMap<String, Model> nameData = new HashMap<String, Model>();
-		nameData.put("edamam", datamodel);
+		// nameData.put("edamam", datamodel);
 		// TODO: very slow loading into java program and pushing to fuseki; push directly to fuseki without java overhead
 
 		// // creates a new, empty in-memory model
@@ -445,12 +467,32 @@ public class HelloWorld extends RecipeBase {
 			if (fileEntry.isDirectory()) {
 				listFilesForFolder(fileEntry);
 			} else {
-				files.add(fileEntry.getPath().replace("\\", "/"));
+				files.add(fileEntry.getAbsolutePath().replace("\\", "/"));
 			}
 
 		}
 
 		return files;
+	}
+
+	public String getUrlEncodedFile(String filename) {
+
+		try {
+			File file = new File(filename);
+			InputStream fileInputStream = new FileInputStream(file);
+
+			byte[] fileContent = new byte[(int) file.length()];
+			fileInputStream.read(fileContent);
+			fileInputStream.close();
+
+			String str = new String(fileContent, "UTF-8");
+
+			return URLEncoder.encode(str, "UTF-8");
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		return null;
 	}
 
 }
