@@ -37,6 +37,6 @@ PREFIX eg:         <http://www.example.org/>
     .
 
 <#graph2> rdf:type ja:MemoryModel ;
-     ja:content [ja:externalContent   <file:run/databases/food.jsonld> ] ;
+     ja:content [ja:externalContent   <file:./run/databases/food.jsonld> ] ;
      .
 	 
