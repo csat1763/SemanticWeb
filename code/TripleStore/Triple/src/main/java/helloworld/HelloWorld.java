@@ -18,10 +18,15 @@
 
 package helloworld;
 
+import java.io.BufferedReader;
+import java.io.DataOutputStream;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStream;
+import java.io.InputStreamReader;
+import java.net.HttpURLConnection;
+import java.net.URL;
 import java.net.URLEncoder;
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -39,8 +44,6 @@ import org.apache.jena.rdf.model.ModelFactory;
 import org.apache.jena.rdfconnection.RDFConnection;
 import org.apache.jena.rdfconnection.RDFConnectionRemote;
 import org.apache.jena.rdfconnection.RDFDatasetConnection;
-import org.apache.jena.riot.Lang;
-import org.apache.jena.riot.RDFLanguages;
 import org.apache.jena.sparql.core.DatasetImpl;
 import org.apache.jena.vocabulary.OWL;
 import org.apache.jena.vocabulary.RDF;
@@ -118,19 +121,11 @@ public class HelloWorld extends RecipeBase {
 		List<Model> datamodels = new ArrayList<Model>();
 
 		for (String datafile : listFilesForFolder(datafolder)) {
-			System.out.println(datafile);
-			Lang lang = RDFLanguages.filenameToLang(datafile);
-			System.out.println(RDFLanguages.isQuads(lang));
-			// System.out.println(getUrlEncodedFile(datafile));
-
-			// datamodels.add(FileManager.get().loadModel(datafile));
-			System.out.println(Lang.JSONLD.getContentType().getContentType());
-
-			RDFConnectionRemote.create().destination("http://localhost:3030" + "/" + "food" + "/update").build().
-
-					load(datafile);
-
-			break;
+			try {
+				uploadFile(datafile);
+			} catch (IOException e) {
+				e.printStackTrace();
+			}
 
 		}
 
@@ -158,8 +153,8 @@ public class HelloWorld extends RecipeBase {
 		// FusekiServer server = FusekiServer.create().add("/rdf", new DatasetImpl(m)).build();
 		// server.start();
 
-		FusekiConnection fc = new FusekiConnection("http://localhost:3030", "food");
-		fc.initFuseki(nameData); // TODO: uncomment for default loading of data
+		// FusekiConnection fc = new FusekiConnection("http://localhost:3030", "food");
+		// fc.initFuseki(nameData); // TODO: uncomment for default loading of data
 		// fc.deleteAllGraphs();
 		// fc.deleteDefaultModel();
 
@@ -493,6 +488,41 @@ public class HelloWorld extends RecipeBase {
 			e.printStackTrace();
 		}
 		return null;
+	}
+
+	public void uploadFile(String filename) throws IOException {
+		URL url = new URL("http://localhost:3030/food/data?graph=" + URLEncoder.encode("<dataset>", "UTF-8"));
+
+		File file = new File(filename);
+		InputStream fileInputStream = new FileInputStream(file);
+
+		byte[] fileContent = new byte[(int) file.length()];
+		fileInputStream.read(fileContent);
+		fileInputStream.close();
+
+		String str = new String(fileContent, "UTF-8");
+		// System.out.println(str);
+
+		HttpURLConnection conn = (HttpURLConnection) url.openConnection();
+		conn.setDoOutput(true);
+		conn.setInstanceFollowRedirects(false);
+		conn.setRequestMethod("POST");
+		conn.setRequestProperty("Accept", "*/*");
+		conn.setRequestProperty("Content-Type", "application/ld+json");
+		conn.setRequestProperty("Content-Length", Integer.toString(str.getBytes("UTF-8").length));
+		conn.setRequestProperty("Expect", "100-continue");
+		try (DataOutputStream wr = new DataOutputStream(conn.getOutputStream())) {
+
+			wr.write(str.getBytes("UTF-8"));
+			wr.flush();
+			wr.close();
+		}
+
+		BufferedReader br = new BufferedReader(new InputStreamReader((conn.getInputStream()), "UTF-8"));
+		String output;
+		while ((output = br.readLine()) != null) {
+			System.out.println(output);
+		}
 	}
 
 }
