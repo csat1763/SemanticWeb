@@ -31,7 +31,6 @@ import java.net.URLEncoder;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Iterator;
-import java.util.List;
 import java.util.Map.Entry;
 
 import org.apache.jena.query.Dataset;
@@ -62,6 +61,8 @@ import example.RecipeBase;
 public class HelloWorld extends RecipeBase {
 
 	private static final String dataSet = "src\\main\\resources\\data\\recipes";
+	private static final String ontology = "src\\main\\resources\\ontologies\\currentOntology";
+	private static final String datasetName = "food";
 
 	/***********************************/
 	/* Constants */
@@ -113,50 +114,7 @@ public class HelloWorld extends RecipeBase {
 	@Override
 	public void run() {
 
-		String directory = "./SemanticWeb/code/TripleStore/apache-jena-fuseki-3.9.0/datastore";
-		// Dataset tdb = TDBFactory.createDataset(directory);
-		// tdb.begin(ReadWrite.READ);
-
-		File datafolder = new File(dataSet);
-		List<Model> datamodels = new ArrayList<Model>();
-
-		for (String datafile : listFilesForFolder(datafolder)) {
-			try {
-				uploadFile(datafile);
-			} catch (IOException e) {
-				e.printStackTrace();
-			}
-
-		}
-
-		HashMap<String, Model> nameData = new HashMap<String, Model>();
-		// nameData.put("edamam", datamodel);
-		// TODO: very slow loading into java program and pushing to fuseki; push directly to fuseki without java overhead
-
-		// // creates a new, empty in-memory model
-		// Model m = ModelFactory.createDefaultModel();
-		// Model m2 = ModelFactory.createDefaultModel();
-		// Model m3 = ModelFactory.createDefaultModel();
-		// OntModel o = ModelFactory.createOntologyModel();
-		//
-		// // load some data into the model
-		// FileManager.get().readModel(m, RECIPE_DATASET1);
-		// FileManager.get().readModel(m2, RECIPE_DATASET2);
-		// FileManager.get().readModel(m3, RECIPE_DATASET3);
-		// FileManager.get().readModel(o, RECIPE_SCHEMA_FILE);
-		//
-		// HashMap<String, Model> nameData = new HashMap<String, Model>();
-		// nameData.put("google", m2);
-		// nameData.put("edamam", m);
-		// nameData.put("ontology", o);
-
-		// FusekiServer server = FusekiServer.create().add("/rdf", new DatasetImpl(m)).build();
-		// server.start();
-
-		// FusekiConnection fc = new FusekiConnection("http://localhost:3030", "food");
-		// fc.initFuseki(nameData); // TODO: uncomment for default loading of data
-		// fc.deleteAllGraphs();
-		// fc.deleteDefaultModel();
+		FusekiConnection fc = new FusekiConnection("http://localhost:3030", datasetName);
 
 		// fc.query(numberOfTriples());
 		// fc.query(numberOfTriplesPerClass());
@@ -370,7 +328,67 @@ public class HelloWorld extends RecipeBase {
 		public FusekiConnection(String connectionUrl, String dataName) {
 			this.dataName = dataName;
 			this.connectionUrl = connectionUrl;
+			loadData();
 
+		}
+
+		public void loadData() {
+
+			File datafolder = new File(dataSet);
+			for (String datafile : listFilesForFolder(datafolder)) {
+				try {
+					uploadFileToGraph(datafile, "data");
+				} catch (IOException e) {
+					e.printStackTrace();
+				}
+
+			}
+
+			File ontologyFolder = new File(ontology);
+			for (String ontFile : listFilesForFolder(ontologyFolder)) {
+				try {
+					uploadFileToGraph(ontFile, "ontology");
+				} catch (IOException e) {
+					e.printStackTrace();
+				}
+
+			}
+
+		}
+
+		public void uploadFileToGraph(String filename, String graphName) throws IOException {
+			URL url = new URL(connectionUrl + "/" + dataName + "/data?graph=" + URLEncoder.encode(graphName, "UTF-8"));
+
+			File file = new File(filename);
+			InputStream fileInputStream = new FileInputStream(file);
+
+			byte[] fileContent = new byte[(int) file.length()];
+			fileInputStream.read(fileContent);
+			fileInputStream.close();
+
+			String str = new String(fileContent, "UTF-8");
+			// System.out.println(str);
+
+			HttpURLConnection conn = (HttpURLConnection) url.openConnection();
+			conn.setDoOutput(true);
+			conn.setInstanceFollowRedirects(false);
+			conn.setRequestMethod("POST");
+			conn.setRequestProperty("Accept", "*/*");
+			conn.setRequestProperty("Content-Type", "application/ld+json");
+			conn.setRequestProperty("Content-Length", Integer.toString(str.getBytes("UTF-8").length));
+			conn.setRequestProperty("Expect", "100-continue");
+			try (DataOutputStream wr = new DataOutputStream(conn.getOutputStream())) {
+
+				wr.write(str.getBytes("UTF-8"));
+				wr.flush();
+				wr.close();
+			}
+
+			BufferedReader br = new BufferedReader(new InputStreamReader((conn.getInputStream()), "UTF-8"));
+			String output;
+			while ((output = br.readLine()) != null) {
+				System.out.println(output);
+			}
 		}
 
 		public void deleteModel(String graphName) {
@@ -488,41 +506,6 @@ public class HelloWorld extends RecipeBase {
 			e.printStackTrace();
 		}
 		return null;
-	}
-
-	public void uploadFile(String filename) throws IOException {
-		URL url = new URL("http://localhost:3030/food/data?graph=" + URLEncoder.encode("<dataset>", "UTF-8"));
-
-		File file = new File(filename);
-		InputStream fileInputStream = new FileInputStream(file);
-
-		byte[] fileContent = new byte[(int) file.length()];
-		fileInputStream.read(fileContent);
-		fileInputStream.close();
-
-		String str = new String(fileContent, "UTF-8");
-		// System.out.println(str);
-
-		HttpURLConnection conn = (HttpURLConnection) url.openConnection();
-		conn.setDoOutput(true);
-		conn.setInstanceFollowRedirects(false);
-		conn.setRequestMethod("POST");
-		conn.setRequestProperty("Accept", "*/*");
-		conn.setRequestProperty("Content-Type", "application/ld+json");
-		conn.setRequestProperty("Content-Length", Integer.toString(str.getBytes("UTF-8").length));
-		conn.setRequestProperty("Expect", "100-continue");
-		try (DataOutputStream wr = new DataOutputStream(conn.getOutputStream())) {
-
-			wr.write(str.getBytes("UTF-8"));
-			wr.flush();
-			wr.close();
-		}
-
-		BufferedReader br = new BufferedReader(new InputStreamReader((conn.getInputStream()), "UTF-8"));
-		String output;
-		while ((output = br.readLine()) != null) {
-			System.out.println(output);
-		}
 	}
 
 }
