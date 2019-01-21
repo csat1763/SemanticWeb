@@ -1,0 +1,977 @@
+{
+  "@graph" : [ {
+    "@id" : "_:b0",
+    "@type" : "schema:Ingredient",
+    "ingridientFullName" : "",
+    "name" : "romaine lettuce  torn"
+  }, {
+    "@id" : "_:b1",
+    "@type" : "schema:Ingredient",
+    "ingridientFullName" : "",
+    "name" : "sugar"
+  }, {
+    "@id" : "_:b10",
+    "@type" : "schema:QuantitativeValue",
+    "unitText" : "tablespoons",
+    "value" : "2"
+  }, {
+    "@id" : "_:b100",
+    "@type" : "schema:Ingredient",
+    "ingridientFullName" : "",
+    "name" : "lite soy sauce"
+  }, {
+    "@id" : "_:b101",
+    "@type" : "schema:Ingredient",
+    "ingridientFullName" : "",
+    "name" : "sesame seeds"
+  }, {
+    "@id" : "_:b102",
+    "@type" : "schema:IngredientAddition",
+    "ingredientName" : "_:b104",
+    "ingridientAmount" : "_:b103"
+  }, {
+    "@id" : "_:b103",
+    "@type" : "schema:QuantitativeValue",
+    "unitText" : "cup",
+    "value" : "1/4"
+  }, {
+    "@id" : "_:b104",
+    "@type" : "schema:Ingredient",
+    "ingridientFullName" : "",
+    "name" : "sour cream"
+  }, {
+    "@id" : "_:b105",
+    "@type" : "schema:Recipe",
+    "cookTime" : "-",
+    "creator" : "_:b109",
+    "image" : "_:b112",
+    "name" : "Noodle Chicken Salad recipes",
+    "nutrition" : "_:b111",
+    "prepTime" : "-",
+    "recipeIngredient" : [ "_:b98", "_:b106", "_:b107", "_:b108", "_:b6", "_:b110", "_:b29", "_:b113", "_:b114", "_:b115", "_:b66", "_:b23", "_:b116" ],
+    "schema:recipeIngredient" : "Optional ingredients: 1 (10-ounce) can mandarin oranges  drained; 1 cup sliced mushrooms; 1/2 cup sliced celery",
+    "recipeInstructions" : "_:b88",
+    "recipeYield" : "_:b85",
+    "sameAs" : "http://www.myrecipes.com/recipe/noodle-chicken-salad",
+    "totalTime" : "PT28M"
+  }, {
+    "@id" : "_:b106",
+    "@type" : "schema:IngredientAddition",
+    "ingredientName" : "_:b17",
+    "ingridientAmount" : "_:b84"
+  }, {
+    "@id" : "_:b107",
+    "@type" : "schema:IngredientAddition",
+    "ingredientName" : "_:b101",
+    "ingridientAmount" : "_:b161"
+  }, {
+    "@id" : "_:b108",
+    "@type" : "schema:IngredientAddition",
+    "ingredientName" : "_:b126",
+    "ingridientAmount" : "_:b125"
+  }, {
+    "@id" : "_:b109",
+    "@type" : "schema:Person",
+    "name" : "not given"
+  }, {
+    "@id" : "_:b11",
+    "@type" : "schema:Ingredient",
+    "ingridientFullName" : "",
+    "name" : "toasted sesame oil"
+  }, {
+    "@id" : "_:b110",
+    "@type" : "schema:IngredientAddition",
+    "ingredientName" : "_:b149",
+    "ingridientAmount" : "_:b18"
+  }, {
+    "@id" : "_:b111",
+    "@type" : "schema:NutritionInformation",
+    "calories" : "4713.0 calories"
+  }, {
+    "@id" : "_:b112",
+    "@type" : "schema:ImageObject",
+    "caption" : "Noodle Chicken Salad recipes",
+    "contentUrl" : "https://www.edamam.com/web-img/69a/69ac5e467d0d5d0d57935c6d7f7c72df"
+  }, {
+    "@id" : "_:b113",
+    "@type" : "schema:IngredientAddition",
+    "ingredientName" : "_:b0",
+    "ingridientAmount" : "_:b138"
+  }, {
+    "@id" : "_:b114",
+    "@type" : "schema:IngredientAddition",
+    "ingredientName" : "_:b68",
+    "ingridientAmount" : "_:b67"
+  }, {
+    "@id" : "_:b115",
+    "@type" : "schema:IngredientAddition",
+    "ingredientName" : "_:b121",
+    "ingridientAmount" : "_:b120"
+  }, {
+    "@id" : "_:b116",
+    "@type" : "schema:IngredientAddition",
+    "ingredientName" : "_:b167",
+    "ingridientAmount" : "_:b157"
+  }, {
+    "@id" : "_:b117",
+    "@type" : "schema:QuantitativeValue",
+    "unitText" : "scant",
+    "value" : "1"
+  }, {
+    "@id" : "_:b118",
+    "@type" : "schema:Ingredient",
+    "ingridientFullName" : "",
+    "name" : "lightly crushed fennel seeds"
+  }, {
+    "@id" : "_:b119",
+    "@type" : "schema:QuantitativeValue",
+    "unitText" : "tsp.",
+    "value" : "�"
+  }, {
+    "@id" : "_:b12",
+    "@type" : "schema:Ingredient",
+    "ingridientFullName" : "",
+    "name" : "of american cheese"
+  }, {
+    "@id" : "_:b120",
+    "@type" : "schema:QuantitativeValue",
+    "unitText" : "pcs",
+    "value" : "2"
+  }, {
+    "@id" : "_:b121",
+    "@type" : "schema:Ingredient",
+    "ingridientFullName" : "",
+    "name" : "(3-ounce) packages chicken-flavored ramen noodle soup mix"
+  }, {
+    "@id" : "_:b122",
+    "@type" : "schema:Ingredient",
+    "ingridientFullName" : "",
+    "name" : "finely chopped scallion (white and light green parts)"
+  }, {
+    "@id" : "_:b123",
+    "@type" : "schema:Ingredient",
+    "ingridientFullName" : "",
+    "name" : "flaked sea salt"
+  }, {
+    "@id" : "_:b124",
+    "@type" : "schema:Person",
+    "name" : "not given"
+  }, {
+    "@id" : "_:b125",
+    "@type" : "schema:QuantitativeValue",
+    "unitText" : "tablespoons",
+    "value" : "2"
+  }, {
+    "@id" : "_:b126",
+    "@type" : "schema:Ingredient",
+    "ingridientFullName" : "",
+    "name" : "sesame oil"
+  }, {
+    "@id" : "_:b127",
+    "@type" : "schema:Ingredient",
+    "ingridientFullName" : "",
+    "name" : "extra-virgin olive oil"
+  }, {
+    "@id" : "_:b128",
+    "@type" : "schema:QuantitativeValue",
+    "unitText" : "pcs",
+    "value" : "1"
+  }, {
+    "@id" : "_:b129",
+    "@type" : "schema:QuantitativeValue",
+    "unitText" : "teaspoon",
+    "value" : "1"
+  }, {
+    "@id" : "_:b13",
+    "@type" : "schema:ImageObject",
+    "caption" : "Clifford Birthday Party: Big Cheesy Dogs",
+    "contentUrl" : "https://www.edamam.com/web-img/616/616102d076c3baa3a26a2616f6745c05.jpg"
+  }, {
+    "@id" : "_:b130",
+    "@type" : "schema:Person",
+    "name" : "not given"
+  }, {
+    "@id" : "_:b131",
+    "@type" : "schema:QuantitativeValue",
+    "unitText" : "garlic",
+    "value" : "2"
+  }, {
+    "@id" : "_:b132",
+    "@type" : "schema:Ingredient",
+    "ingridientFullName" : "",
+    "name" : "cloves  minced"
+  }, {
+    "@id" : "_:b133",
+    "@type" : "schema:Ingredient",
+    "ingridientFullName" : "",
+    "name" : "finely grated Granny Smith apple"
+  }, {
+    "@id" : "_:b134",
+    "@type" : "schema:ImageObject",
+    "caption" : "Quick Beef Stroganoff",
+    "contentUrl" : "https://www.edamam.com/web-img/552/5524f65e427c421bb0127a322da13570.jpg"
+  }, {
+    "@id" : "_:b135",
+    "@type" : "schema:Ingredient",
+    "ingridientFullName" : "",
+    "name" : "chopped thyme"
+  }, {
+    "@id" : "_:b136",
+    "@type" : "schema:Ingredient",
+    "ingridientFullName" : "",
+    "name" : "package active dry yeast"
+  }, {
+    "@id" : "_:b137",
+    "@type" : "schema:QuantitativeValue",
+    "unitText" : "tablespoons",
+    "value" : "2"
+  }, {
+    "@id" : "_:b138",
+    "@type" : "schema:QuantitativeValue",
+    "unitText" : "head",
+    "value" : "1"
+  }, {
+    "@id" : "_:b139",
+    "@type" : "schema:Recipe",
+    "cookTime" : "-",
+    "creator" : "_:b130",
+    "image" : "_:b147",
+    "name" : "Kn?ckebr?d (Swedish Crispbread)",
+    "nutrition" : "_:b146",
+    "prepTime" : "-",
+    "recipeIngredient" : [ "_:b75", "_:b141", "_:b142", "_:b143", "_:b144", "_:b145", "_:b36", "_:b91", "_:b148" ],
+    "schema:recipeIngredient" : [ "??? cup rye flour", "1 cup milk  heated to 115?" ],
+    "recipeInstructions" : "_:b140",
+    "recipeYield" : "_:b74",
+    "sameAs" : "http://www.saveur.com/article/Recipes/Swedish-Crispbread",
+    "totalTime" : "PT0M"
+  }, {
+    "@id" : "_:b14",
+    "@type" : "schema:IngredientAddition",
+    "ingredientName" : "_:b16",
+    "ingridientAmount" : "_:b15"
+  }, {
+    "@id" : "_:b140",
+    "@type" : "schema:CreativeWork",
+    "url" : "http://www.saveur.com/article/Recipes/Swedish-Crispbread"
+  }, {
+    "@id" : "_:b141",
+    "@type" : "schema:IngredientAddition",
+    "ingredientName" : "_:b123",
+    "ingridientAmount" : "_:b40"
+  }, {
+    "@id" : "_:b142",
+    "@type" : "schema:IngredientAddition",
+    "ingredientName" : "_:b166",
+    "ingridientAmount" : "_:b164"
+  }, {
+    "@id" : "_:b143",
+    "@type" : "schema:IngredientAddition",
+    "ingredientName" : "_:b136",
+    "ingridientAmount" : "_:b150"
+  }, {
+    "@id" : "_:b144",
+    "@type" : "schema:IngredientAddition",
+    "ingredientName" : "_:b118",
+    "ingridientAmount" : "_:b165"
+  }, {
+    "@id" : "_:b145",
+    "@type" : "schema:IngredientAddition",
+    "ingredientName" : "_:b151",
+    "ingridientAmount" : "_:b119"
+  }, {
+    "@id" : "_:b146",
+    "@type" : "schema:NutritionInformation",
+    "calories" : "1329.0 calories"
+  }, {
+    "@id" : "_:b147",
+    "@type" : "schema:ImageObject",
+    "caption" : "Kn?ckebr?d (Swedish Crispbread)",
+    "contentUrl" : "https://www.edamam.com/web-img/ab4/ab4a393ca4070fc53684489d4eb7d440.jpg"
+  }, {
+    "@id" : "_:b148",
+    "@type" : "schema:IngredientAddition",
+    "ingredientName" : "_:b159",
+    "ingridientAmount" : "_:b158"
+  }, {
+    "@id" : "_:b149",
+    "@type" : "schema:Ingredient",
+    "ingridientFullName" : "",
+    "name" : "onions  sliced"
+  }, {
+    "@id" : "_:b15",
+    "@type" : "schema:QuantitativeValue",
+    "unitText" : "tablespoons",
+    "value" : "2"
+  }, {
+    "@id" : "_:b150",
+    "@type" : "schema:QuantitativeValue",
+    "unitText" : "oz.",
+    "value" : "1 �"
+  }, {
+    "@id" : "_:b151",
+    "@type" : "schema:Ingredient",
+    "ingridientFullName" : "",
+    "name" : "kosher salt"
+  }, {
+    "@id" : "_:b152",
+    "@type" : "schema:QuantitativeValue",
+    "unitText" : "cup",
+    "value" : "1"
+  }, {
+    "@id" : "_:b153",
+    "@type" : "schema:QuantitativeValue",
+    "unitText" : "ounces",
+    "value" : "8"
+  }, {
+    "@id" : "_:b154",
+    "@type" : "schema:IngredientAddition",
+    "ingredientName" : "_:b31",
+    "ingridientAmount" : "_:b153"
+  }, {
+    "@id" : "_:b155",
+    "@type" : "schema:Ingredient",
+    "ingridientFullName" : "",
+    "name" : "baby arugula"
+  }, {
+    "@id" : "_:b156",
+    "@type" : "schema:QuantitativeValue",
+    "unitText" : "tablespoons",
+    "value" : "1 1/2"
+  }, {
+    "@id" : "_:b157",
+    "@type" : "schema:QuantitativeValue",
+    "unitText" : "cup",
+    "value" : "1/2"
+  }, {
+    "@id" : "_:b158",
+    "@type" : "schema:QuantitativeValue",
+    "unitText" : "cups",
+    "value" : "1 �"
+  }, {
+    "@id" : "_:b159",
+    "@type" : "schema:Ingredient",
+    "ingridientFullName" : "",
+    "name" : "whole wheat graham flour"
+  }, {
+    "@id" : "_:b16",
+    "@type" : "schema:Ingredient",
+    "ingridientFullName" : "",
+    "name" : "extra-virgin olive oil"
+  }, {
+    "@id" : "_:b160",
+    "@type" : "schema:QuantitativeValue",
+    "unitText" : "large",
+    "value" : "4"
+  }, {
+    "@id" : "_:b161",
+    "@type" : "schema:QuantitativeValue",
+    "unitText" : "cup",
+    "value" : "1/4"
+  }, {
+    "@id" : "_:b162",
+    "@type" : "schema:Ingredient",
+    "ingridientFullName" : "",
+    "name" : "mirin (rice wine  available in the Asian section of supermarkets)"
+  }, {
+    "@id" : "_:b163",
+    "@type" : "schema:Ingredient",
+    "ingridientFullName" : "",
+    "name" : "(10 ounce) package of refrigerated biscuit dough"
+  }, {
+    "@id" : "_:b164",
+    "@type" : "schema:QuantitativeValue",
+    "unitText" : "cup",
+    "value" : "�"
+  }, {
+    "@id" : "_:b165",
+    "@type" : "schema:QuantitativeValue",
+    "unitText" : "tsp.",
+    "value" : "1 �"
+  }, {
+    "@id" : "_:b166",
+    "@type" : "schema:Ingredient",
+    "ingridientFullName" : "",
+    "name" : "whole wheat flour"
+  }, {
+    "@id" : "_:b167",
+    "@type" : "schema:Ingredient",
+    "ingridientFullName" : "",
+    "name" : "red wine vinegar"
+  }, {
+    "@id" : "_:b168",
+    "@type" : "schema:IngredientAddition",
+    "ingredientName" : "_:b135",
+    "ingridientAmount" : "_:b129"
+  }, {
+    "@id" : "_:b169",
+    "@type" : "schema:Recipe",
+    "cookTime" : "-",
+    "creator" : "_:b124",
+    "image" : "_:b134",
+    "name" : "Quick Beef Stroganoff",
+    "nutrition" : "_:b93",
+    "prepTime" : "-",
+    "recipeIngredient" : [ "_:b14", "_:b89", "_:b102", "_:b168", "_:b154" ],
+    "schema:recipeIngredient" : [ "Coriander-Dusted Roast Beef", "Buttered noodles  for serving", "Half of the Coriander-Dusted Roast Beef or 12 ounces roast beef  sliced 1/4 inch thick and cut into strips", "Kosher salt and freshly ground pepper" ],
+    "recipeInstructions" : "_:b170",
+    "recipeYield" : "_:b22",
+    "sameAs" : "http://www.foodandwine.com/recipes/quick-beef-stroganoff",
+    "totalTime" : "PT0M"
+  }, {
+    "@id" : "_:b17",
+    "@type" : "schema:Ingredient",
+    "ingridientFullName" : "",
+    "name" : "vegetable oil"
+  }, {
+    "@id" : "_:b170",
+    "@type" : "schema:CreativeWork",
+    "url" : "http://www.foodandwine.com/recipes/quick-beef-stroganoff"
+  }, {
+    "@id" : "_:b18",
+    "@type" : "schema:QuantitativeValue",
+    "unitText" : "green",
+    "value" : "5"
+  }, {
+    "@id" : "_:b19",
+    "@type" : "schema:IngredientAddition",
+    "ingredientName" : "_:b21",
+    "ingridientAmount" : "_:b20"
+  }, {
+    "@id" : "_:b2",
+    "@type" : "schema:IngredientAddition",
+    "ingredientName" : "_:b4",
+    "ingridientAmount" : "_:b3"
+  }, {
+    "@id" : "_:b20",
+    "@type" : "schema:QuantitativeValue",
+    "unitText" : "hot",
+    "value" : "8"
+  }, {
+    "@id" : "_:b21",
+    "@type" : "schema:Ingredient",
+    "ingridientFullName" : "",
+    "name" : "dogs"
+  }, {
+    "@id" : "_:b22",
+    "@type" : "schema:QuantitativeValue",
+    "value" : "10.0"
+  }, {
+    "@id" : "_:b23",
+    "@type" : "schema:IngredientAddition",
+    "ingredientName" : "_:b25",
+    "ingridientAmount" : "_:b24"
+  }, {
+    "@id" : "_:b24",
+    "@type" : "schema:QuantitativeValue",
+    "unitText" : "cup",
+    "value" : "1/2"
+  }, {
+    "@id" : "_:b25",
+    "@type" : "schema:Ingredient",
+    "ingridientFullName" : "",
+    "name" : "sliced almonds"
+  }, {
+    "@id" : "_:b26",
+    "@type" : "schema:QuantitativeValue",
+    "unitText" : "slices",
+    "value" : "8"
+  }, {
+    "@id" : "_:b27",
+    "@type" : "schema:Person",
+    "name" : "not given"
+  }, {
+    "@id" : "_:b28",
+    "@type" : "schema:QuantitativeValue",
+    "unitText" : "teaspoons",
+    "value" : "1 1/2"
+  }, {
+    "@id" : "_:b29",
+    "@type" : "schema:IngredientAddition",
+    "ingredientName" : "_:b1",
+    "ingridientAmount" : "_:b30"
+  }, {
+    "@id" : "_:b3",
+    "@type" : "schema:QuantitativeValue",
+    "unitText" : "cups",
+    "value" : "1 1/2"
+  }, {
+    "@id" : "_:b30",
+    "@type" : "schema:QuantitativeValue",
+    "unitText" : "cup",
+    "value" : "1/4"
+  }, {
+    "@id" : "_:b31",
+    "@type" : "schema:Ingredient",
+    "ingridientFullName" : "",
+    "name" : "cremini mushrooms  thinly sliced"
+  }, {
+    "@id" : "_:b32",
+    "@type" : "schema:Ingredient",
+    "ingridientFullName" : "",
+    "name" : "plus 1 teaspoon canola oil  divided"
+  }, {
+    "@id" : "_:b33",
+    "@type" : "schema:QuantitativeValue",
+    "unitText" : "tablespoon",
+    "value" : "1"
+  }, {
+    "@id" : "_:b34",
+    "@type" : "schema:Ingredient",
+    "ingridientFullName" : "",
+    "name" : "pepper"
+  }, {
+    "@id" : "_:b35",
+    "@type" : "schema:QuantitativeValue",
+    "unitText" : "teaspoon",
+    "value" : "1/2"
+  }, {
+    "@id" : "_:b36",
+    "@type" : "schema:IngredientAddition",
+    "ingredientName" : "_:b38",
+    "ingridientAmount" : "_:b37"
+  }, {
+    "@id" : "_:b37",
+    "@type" : "schema:QuantitativeValue",
+    "unitText" : "tsp.",
+    "value" : "1 �"
+  }, {
+    "@id" : "_:b38",
+    "@type" : "schema:Ingredient",
+    "ingridientFullName" : "",
+    "name" : "barley malt syrup"
+  }, {
+    "@id" : "_:b39",
+    "@type" : "schema:Ingredient",
+    "ingridientFullName" : "",
+    "name" : "spelt flour"
+  }, {
+    "@id" : "_:b4",
+    "@type" : "schema:Ingredient",
+    "ingridientFullName" : "",
+    "name" : "napa cabbage kimchi  coarsely chopped"
+  }, {
+    "@id" : "_:b40",
+    "@type" : "schema:QuantitativeValue",
+    "unitText" : "tsp.",
+    "value" : "1"
+  }, {
+    "@id" : "_:b41",
+    "@type" : "schema:QuantitativeValue",
+    "unitText" : "cup",
+    "value" : "1/4"
+  }, {
+    "@id" : "_:b42",
+    "@type" : "schema:Ingredient",
+    "ingridientFullName" : "",
+    "name" : "light corn syrup"
+  }, {
+    "@id" : "_:b43",
+    "@type" : "schema:Recipe",
+    "cookTime" : "-",
+    "creator" : "_:b56",
+    "image" : "_:b52",
+    "name" : "Cook the Book: Steak and Eggs Korean Style",
+    "nutrition" : "_:b50",
+    "prepTime" : "-",
+    "recipeIngredient" : [ "_:b44", "_:b45", "_:b46", "_:b47", "_:b48", "_:b51", "_:b53", "_:b54", "_:b55", "_:b57", "_:b2", "_:b58", "_:b59", "_:b60", "_:b61", "_:b63", "_:b64" ],
+    "schema:recipeIngredient" : [ "Chopped scallions  for garnish", "Freshly ground black pepper", "Coarse salt", "Four 5-ounce pieces skirt steak", "For the kimchi rice:" ],
+    "recipeInstructions" : "_:b62",
+    "recipeYield" : "_:b49",
+    "sameAs" : "http://www.seriouseats.com/recipes/2010/10/steak-and-eggs-korean-style-recipe.html",
+    "totalTime" : "PT0M"
+  }, {
+    "@id" : "_:b44",
+    "@type" : "schema:IngredientAddition",
+    "ingredientName" : "_:b9",
+    "ingridientAmount" : "_:b160"
+  }, {
+    "@id" : "_:b45",
+    "@type" : "schema:IngredientAddition",
+    "ingredientName" : "_:b42",
+    "ingridientAmount" : "_:b65"
+  }, {
+    "@id" : "_:b46",
+    "@type" : "schema:IngredientAddition",
+    "ingredientName" : "_:b69",
+    "ingridientAmount" : "_:b28"
+  }, {
+    "@id" : "_:b47",
+    "@type" : "schema:IngredientAddition",
+    "ingredientName" : "_:b155",
+    "ingridientAmount" : "_:b152"
+  }, {
+    "@id" : "_:b48",
+    "@type" : "schema:IngredientAddition",
+    "ingredientName" : "_:b70",
+    "ingridientAmount" : "_:b10"
+  }, {
+    "@id" : "_:b49",
+    "@type" : "schema:QuantitativeValue",
+    "value" : "4.0"
+  }, {
+    "@id" : "_:b5",
+    "@type" : "schema:Ingredient",
+    "ingridientFullName" : "",
+    "name" : "tablespoon peeled and minced fresh ginger"
+  }, {
+    "@id" : "_:b50",
+    "@type" : "schema:NutritionInformation",
+    "calories" : "2925.0 calories"
+  }, {
+    "@id" : "_:b51",
+    "@type" : "schema:IngredientAddition",
+    "ingredientName" : "_:b162",
+    "ingridientAmount" : "_:b41"
+  }, {
+    "@id" : "_:b52",
+    "@type" : "schema:ImageObject",
+    "caption" : "Cook the Book: Steak and Eggs Korean Style",
+    "contentUrl" : "https://www.edamam.com/web-img/e07/e0754095b87a22e6e7c7de828c3f1109.jpg"
+  }, {
+    "@id" : "_:b53",
+    "@type" : "schema:IngredientAddition",
+    "ingredientName" : "_:b132",
+    "ingridientAmount" : "_:b131"
+  }, {
+    "@id" : "_:b54",
+    "@type" : "schema:IngredientAddition",
+    "ingredientName" : "_:b5",
+    "ingridientAmount" : "_:b117"
+  }, {
+    "@id" : "_:b55",
+    "@type" : "schema:IngredientAddition",
+    "ingredientName" : "_:b133",
+    "ingridientAmount" : "_:b137"
+  }, {
+    "@id" : "_:b56",
+    "@type" : "schema:Person",
+    "name" : "not given"
+  }, {
+    "@id" : "_:b57",
+    "@type" : "schema:IngredientAddition",
+    "ingredientName" : "_:b32",
+    "ingridientAmount" : "_:b71"
+  }, {
+    "@id" : "_:b58",
+    "@type" : "schema:IngredientAddition",
+    "ingredientName" : "_:b95",
+    "ingridientAmount" : "_:b94"
+  }, {
+    "@id" : "_:b59",
+    "@type" : "schema:IngredientAddition",
+    "ingredientName" : "_:b87",
+    "ingridientAmount" : "_:b86"
+  }, {
+    "@id" : "_:b6",
+    "@type" : "schema:IngredientAddition",
+    "ingredientName" : "_:b8",
+    "ingridientAmount" : "_:b7"
+  }, {
+    "@id" : "_:b60",
+    "@type" : "schema:IngredientAddition",
+    "ingredientName" : "_:b127",
+    "ingridientAmount" : "_:b33"
+  }, {
+    "@id" : "_:b61",
+    "@type" : "schema:IngredientAddition",
+    "ingredientName" : "_:b97",
+    "ingridientAmount" : "_:b96"
+  }, {
+    "@id" : "_:b62",
+    "@type" : "schema:CreativeWork",
+    "url" : "http://www.seriouseats.com/recipes/2010/10/steak-and-eggs-korean-style-recipe.html"
+  }, {
+    "@id" : "_:b63",
+    "@type" : "schema:IngredientAddition",
+    "ingredientName" : "_:b11",
+    "ingridientAmount" : "_:b73"
+  }, {
+    "@id" : "_:b64",
+    "@type" : "schema:IngredientAddition",
+    "ingredientName" : "_:b122",
+    "ingridientAmount" : "_:b156"
+  }, {
+    "@id" : "_:b65",
+    "@type" : "schema:QuantitativeValue",
+    "unitText" : "tablespoons",
+    "value" : "2"
+  }, {
+    "@id" : "_:b66",
+    "@type" : "schema:IngredientAddition",
+    "ingredientName" : "_:b34",
+    "ingridientAmount" : "_:b35"
+  }, {
+    "@id" : "_:b67",
+    "@type" : "schema:QuantitativeValue",
+    "unitText" : "tablespoons",
+    "value" : "2"
+  }, {
+    "@id" : "_:b68",
+    "@type" : "schema:Ingredient",
+    "ingridientFullName" : "",
+    "name" : "butter or margarine  divided"
+  }, {
+    "@id" : "_:b69",
+    "@type" : "schema:Ingredient",
+    "ingridientFullName" : "",
+    "name" : "unseasoned rice wine vinegar"
+  }, {
+    "@id" : "_:b7",
+    "@type" : "schema:QuantitativeValue",
+    "unitText" : "pcs",
+    "value" : "1"
+  }, {
+    "@id" : "_:b70",
+    "@type" : "schema:Ingredient",
+    "ingridientFullName" : "",
+    "name" : "soy sauce"
+  }, {
+    "@id" : "_:b71",
+    "@type" : "schema:QuantitativeValue",
+    "unitText" : "tablespoons",
+    "value" : "2"
+  }, {
+    "@id" : "_:b72",
+    "@type" : "schema:Ingredient",
+    "ingridientFullName" : "",
+    "name" : "honey"
+  }, {
+    "@id" : "_:b73",
+    "@type" : "schema:QuantitativeValue",
+    "unitText" : "teaspoons",
+    "value" : "1 1/2"
+  }, {
+    "@id" : "_:b74",
+    "@type" : "schema:QuantitativeValue",
+    "value" : "6.0"
+  }, {
+    "@id" : "_:b75",
+    "@type" : "schema:IngredientAddition",
+    "ingredientName" : "_:b39",
+    "ingridientAmount" : "_:b76"
+  }, {
+    "@id" : "_:b76",
+    "@type" : "schema:QuantitativeValue",
+    "unitText" : "cup",
+    "value" : "�"
+  }, {
+    "@id" : "_:b77",
+    "@type" : "schema:Ingredient",
+    "ingridientFullName" : "",
+    "name" : "thinly sliced"
+  }, {
+    "@id" : "_:b78",
+    "@type" : "schema:Recipe",
+    "cookTime" : "-",
+    "creator" : "_:b27",
+    "image" : "_:b13",
+    "name" : "Clifford Birthday Party: Big Cheesy Dogs",
+    "nutrition" : "_:b83",
+    "prepTime" : "-",
+    "recipeIngredient" : [ "_:b79", "_:b80", "_:b19" ],
+    "recipeInstructions" : "_:b81",
+    "recipeYield" : "_:b82",
+    "sameAs" : "http://www.pbs.org/food/recipes/clifford-birthday-party-big-cheesy-dogs/",
+    "totalTime" : "PT2H10M"
+  }, {
+    "@id" : "_:b79",
+    "@type" : "schema:IngredientAddition",
+    "ingredientName" : "_:b12",
+    "ingridientAmount" : "_:b26"
+  }, {
+    "@id" : "_:b8",
+    "@type" : "schema:Ingredient",
+    "ingridientFullName" : "",
+    "name" : "(2- to 3-pound) roasted whole chicken"
+  }, {
+    "@id" : "_:b80",
+    "@type" : "schema:IngredientAddition",
+    "ingredientName" : "_:b163",
+    "ingridientAmount" : "_:b128"
+  }, {
+    "@id" : "_:b81",
+    "@type" : "schema:CreativeWork",
+    "url" : "http://www.pbs.org/food/recipes/clifford-birthday-party-big-cheesy-dogs/"
+  }, {
+    "@id" : "_:b82",
+    "@type" : "schema:QuantitativeValue",
+    "value" : "10.0"
+  }, {
+    "@id" : "_:b83",
+    "@type" : "schema:NutritionInformation",
+    "calories" : "2422.0 calories"
+  }, {
+    "@id" : "_:b84",
+    "@type" : "schema:QuantitativeValue",
+    "unitText" : "cup",
+    "value" : "1/3"
+  }, {
+    "@id" : "_:b85",
+    "@type" : "schema:QuantitativeValue",
+    "value" : "5.0"
+  }, {
+    "@id" : "_:b86",
+    "@type" : "schema:QuantitativeValue",
+    "unitText" : "scant",
+    "value" : "1"
+  }, {
+    "@id" : "_:b87",
+    "@type" : "schema:Ingredient",
+    "ingridientFullName" : "",
+    "name" : "tablespoon korean hot pepper paste pepper paste (gochujang or kochujang)"
+  }, {
+    "@id" : "_:b88",
+    "@type" : "schema:CreativeWork",
+    "url" : "http://www.myrecipes.com/recipe/noodle-chicken-salad"
+  }, {
+    "@id" : "_:b89",
+    "@type" : "schema:IngredientAddition",
+    "ingredientName" : "_:b77",
+    "ingridientAmount" : "_:b90"
+  }, {
+    "@id" : "_:b9",
+    "@type" : "schema:Ingredient",
+    "ingridientFullName" : "",
+    "name" : "eggs"
+  }, {
+    "@id" : "_:b90",
+    "@type" : "schema:QuantitativeValue",
+    "unitText" : "onion",
+    "value" : "1"
+  }, {
+    "@id" : "_:b91",
+    "@type" : "schema:IngredientAddition",
+    "ingredientName" : "_:b72",
+    "ingridientAmount" : "_:b92"
+  }, {
+    "@id" : "_:b92",
+    "@type" : "schema:QuantitativeValue",
+    "unitText" : "tsp.",
+    "value" : "1 �"
+  }, {
+    "@id" : "_:b93",
+    "@type" : "schema:NutritionInformation",
+    "calories" : "2274.0 calories"
+  }, {
+    "@id" : "_:b94",
+    "@type" : "schema:QuantitativeValue",
+    "unitText" : "cup",
+    "value" : "1"
+  }, {
+    "@id" : "_:b95",
+    "@type" : "schema:Ingredient",
+    "ingridientFullName" : "",
+    "name" : "sushi rice or other short-grain rice"
+  }, {
+    "@id" : "_:b96",
+    "@type" : "schema:QuantitativeValue",
+    "unitText" : "tablespoons",
+    "value" : "2"
+  }, {
+    "@id" : "_:b97",
+    "@type" : "schema:Ingredient",
+    "ingridientFullName" : "",
+    "name" : "unseasoned rice wine vinegar"
+  }, {
+    "@id" : "_:b98",
+    "@type" : "schema:IngredientAddition",
+    "ingredientName" : "_:b100",
+    "ingridientAmount" : "_:b99"
+  }, {
+    "@id" : "_:b99",
+    "@type" : "schema:QuantitativeValue",
+    "unitText" : "cup",
+    "value" : "1/4"
+  } ],
+  "@context" : {
+    "name" : {
+      "@id" : "http://schema.org/name"
+    },
+    "ingridientFullName" : {
+      "@id" : "http://schema.org/ingridientFullName"
+    },
+    "ingridientAmount" : {
+      "@id" : "http://schema.org/ingridientAmount",
+      "@type" : "@id"
+    },
+    "ingredientName" : {
+      "@id" : "http://schema.org/ingredientName",
+      "@type" : "@id"
+    },
+    "value" : {
+      "@id" : "http://schema.org/value"
+    },
+    "unitText" : {
+      "@id" : "http://schema.org/unitText"
+    },
+    "contentUrl" : {
+      "@id" : "http://schema.org/contentUrl",
+      "@type" : "@id"
+    },
+    "caption" : {
+      "@id" : "http://schema.org/caption"
+    },
+    "recipeIngredient" : {
+      "@id" : "http://schema.org/recipeIngredient",
+      "@type" : "@id"
+    },
+    "recipeYield" : {
+      "@id" : "http://schema.org/recipeYield",
+      "@type" : "@id"
+    },
+    "prepTime" : {
+      "@id" : "http://schema.org/prepTime"
+    },
+    "nutrition" : {
+      "@id" : "http://schema.org/nutrition",
+      "@type" : "@id"
+    },
+    "sameAs" : {
+      "@id" : "http://schema.org/sameAs",
+      "@type" : "@id"
+    },
+    "cookTime" : {
+      "@id" : "http://schema.org/cookTime"
+    },
+    "image" : {
+      "@id" : "http://schema.org/image",
+      "@type" : "@id"
+    },
+    "creator" : {
+      "@id" : "http://schema.org/creator",
+      "@type" : "@id"
+    },
+    "recipeInstructions" : {
+      "@id" : "http://schema.org/recipeInstructions",
+      "@type" : "@id"
+    },
+    "totalTime" : {
+      "@id" : "http://schema.org/totalTime"
+    },
+    "url" : {
+      "@id" : "http://schema.org/url",
+      "@type" : "@id"
+    },
+    "calories" : {
+      "@id" : "http://schema.org/calories"
+    },
+    "schema" : "http://schema.org/",
+    "pq" : "http://www.wikidata.org/prop/qualifier/",
+    "bd" : "http://www.bigdata.com/rdf#",
+    "ps" : "http://www.wikidata.org/prop/statement/",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "wdt" : "http://www.wikidata.org/prop/direct/",
+    "mwapi" : "https://www.mediawiki.org/ontology#API/",
+    "wikibase" : "http://wikiba.se/ontology#",
+    "wds" : "http://www.wikidata.org/entity/statement/",
+    "afn" : "http://jena.hpl.hp.com/ARQ/function#",
+    "wdv" : "http://www.wikidata.org/value/",
+    "mw" : "http://tools.wmflabs.org/mw2sparql/ontology#",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "wd" : "http://www.wikidata.org/entity/",
+    "p" : "http://www.wikidata.org/prop/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

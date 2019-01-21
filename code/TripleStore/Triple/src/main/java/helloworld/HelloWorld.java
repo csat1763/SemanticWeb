@@ -18,31 +18,6 @@
 
 package helloworld;
 
-import java.io.BufferedReader;
-import java.io.DataOutputStream;
-import java.io.File;
-import java.io.FileInputStream;
-import java.io.IOException;
-import java.io.InputStream;
-import java.io.InputStreamReader;
-import java.net.HttpURLConnection;
-import java.net.URL;
-import java.net.URLEncoder;
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.Iterator;
-import java.util.Map.Entry;
-
-import org.apache.jena.query.Dataset;
-import org.apache.jena.query.DatasetAccessorFactory;
-import org.apache.jena.query.Query;
-import org.apache.jena.query.QueryFactory;
-import org.apache.jena.query.ResultSetFormatter;
-import org.apache.jena.rdf.model.Model;
-import org.apache.jena.rdf.model.ModelFactory;
-import org.apache.jena.rdfconnection.RDFConnection;
-import org.apache.jena.rdfconnection.RDFConnectionRemote;
-import org.apache.jena.rdfconnection.RDFDatasetConnection;
 import org.apache.jena.sparql.core.DatasetImpl;
 import org.apache.jena.vocabulary.OWL;
 import org.apache.jena.vocabulary.RDF;
@@ -59,10 +34,6 @@ import example.RecipeBase;
  * </p>
  */
 public class HelloWorld extends RecipeBase {
-
-	private static final String dataSet = "src\\main\\resources\\data\\recipes";
-	private static final String ontology = "src\\main\\resources\\ontologies\\currentOntology";
-	private static final String datasetName = "food";
 
 	/***********************************/
 	/* Constants */
@@ -114,19 +85,21 @@ public class HelloWorld extends RecipeBase {
 	@Override
 	public void run() {
 
-		FusekiConnection fc = new FusekiConnection("http://localhost:3030", datasetName);
+		FusekiConnection fc = new FusekiConnection("http://localhost:3030");
+		// fc.loadData();
+		fc.queryOutput(test());
 
-		// fc.query(numberOfTriples());
-		// fc.query(numberOfTriplesPerClass());
-		// fc.query(numberOfDistinctClasses());
-		// fc.query(numberOfDistinctProperties());
-		// fc.query(classesPerDataSet());
-		// fc.query(propertiesPerDataSet());
-		// fc.query(instancesPerClassPerDataSet());
-		// fc.query(subjectsPerPropertyPerDataSet());
-		// fc.query(objectsPerPropertyPerDataSet());
-		// fc.query(propertiesInTop5Classes());
-		// fc.query(federatedQuery());
+		// fc.queryOutput(numberOfTriples());
+		// fc.queryOutput(numberOfTriplesPerClass());
+		// fc.queryOutput(numberOfDistinctClasses());
+		// fc.queryOutput(numberOfDistinctProperties());
+		// fc.queryOutput(classesPerDataSet());
+		// fc.queryOutput(propertiesPerDataSet());
+		// fc.queryOutput(instancesPerClassPerDataSet());
+		// fc.queryOutput(subjectsPerPropertyPerDataSet());
+		// fc.queryOutput(objectsPerPropertyPerDataSet());
+		// fc.queryOutput(propertiesInTop5Classes());
+		// fc.queryOutput(federatedQuery());
 
 	}
 
@@ -143,6 +116,11 @@ public class HelloWorld extends RecipeBase {
 				+ "PREFIX owl: <http://www.w3.org/2002/07/owl#>\r\n" + "\r\n"
 				+ "SELECT (COUNT(?s) as ?count) WHERE{\r\n" + "  graph ?g {?s ?p ?o}\r\n" + "}";
 
+	}
+
+	public static String test() {
+		return prefix + "DESCRIBE ?s WHERE{\r\n" + "SELECT DISTINCT ?s  \r\n"
+				+ "WHERE{  graph ?g {?s ?p ?o . ?s a schema:Recipe}}\r\n" + "LIMIT 5}";
 	}
 
 	// total number of instantiations
@@ -315,197 +293,6 @@ public class HelloWorld extends RecipeBase {
 				+ "      bd:serviceParam mwapi:limit 5 .    ?item wikibase:apiOutputItem mwapi:item .  \r\n"
 				+ "    }    ?item rdfs:label ?itemLabel .\r\n"
 				+ "    FILTER(LANG(?itemLabel) = \"\" || LANGMATCHES(LANG(?itemLabel), \"en\"))      } }";
-	}
-
-	class FusekiConnection {
-
-		private String connectionUrl;
-
-		private String dataName;
-
-		public Dataset dataset;
-
-		public FusekiConnection(String connectionUrl, String dataName) {
-			this.dataName = dataName;
-			this.connectionUrl = connectionUrl;
-			loadData();
-
-		}
-
-		public void loadData() {
-
-			File datafolder = new File(dataSet);
-			for (String datafile : listFilesForFolder(datafolder)) {
-				try {
-					uploadFileToGraph(datafile, "data");
-				} catch (IOException e) {
-					e.printStackTrace();
-				}
-
-			}
-
-			File ontologyFolder = new File(ontology);
-			for (String ontFile : listFilesForFolder(ontologyFolder)) {
-				try {
-					uploadFileToGraph(ontFile, "ontology");
-				} catch (IOException e) {
-					e.printStackTrace();
-				}
-
-			}
-
-		}
-
-		public void uploadFileToGraph(String filename, String graphName) throws IOException {
-			URL url = new URL(connectionUrl + "/" + dataName + "/data?graph=" + URLEncoder.encode(graphName, "UTF-8"));
-
-			File file = new File(filename);
-			InputStream fileInputStream = new FileInputStream(file);
-
-			byte[] fileContent = new byte[(int) file.length()];
-			fileInputStream.read(fileContent);
-			fileInputStream.close();
-
-			String str = new String(fileContent, "UTF-8");
-			// System.out.println(str);
-
-			HttpURLConnection conn = (HttpURLConnection) url.openConnection();
-			conn.setDoOutput(true);
-			conn.setInstanceFollowRedirects(false);
-			conn.setRequestMethod("POST");
-			conn.setRequestProperty("Accept", "*/*");
-			conn.setRequestProperty("Content-Type", "application/ld+json");
-			conn.setRequestProperty("Content-Length", Integer.toString(str.getBytes("UTF-8").length));
-			conn.setRequestProperty("Expect", "100-continue");
-			try (DataOutputStream wr = new DataOutputStream(conn.getOutputStream())) {
-
-				wr.write(str.getBytes("UTF-8"));
-				wr.flush();
-				wr.close();
-			}
-
-			BufferedReader br = new BufferedReader(new InputStreamReader((conn.getInputStream()), "UTF-8"));
-			String output;
-			while ((output = br.readLine()) != null) {
-				System.out.println(output);
-			}
-		}
-
-		public void deleteModel(String graphName) {
-			DatasetAccessorFactory.createHTTP(connectionUrl + "/" + dataName + "/data").deleteModel(graphName);
-		}
-
-		public void deleteDefaultModel() {
-			DatasetAccessorFactory.createHTTP(connectionUrl + "/" + dataName + "/data").deleteDefault();
-		}
-
-		public void addModel(String graphName, Model model) {
-			DatasetAccessorFactory.createHTTP(connectionUrl + "/" + dataName + "/data").add(graphName, model);
-		}
-
-		public void addDefaultModel(Model model) {
-			DatasetAccessorFactory.createHTTP(connectionUrl + "/" + dataName + "/data").add(model);
-		}
-
-		public ArrayList<String> getGraphNames() {
-			Iterator<String> names = RDFConnectionRemote.create().destination(connectionUrl + "/" + dataName + "/data")
-					.build().fetchDataset().listNames();
-
-			ArrayList<String> namesAsStrings = new ArrayList<String>();
-			while (names.hasNext()) {
-				namesAsStrings.add(names.next());
-			}
-
-			return namesAsStrings;
-
-		}
-
-		public void query(String queryString) {
-
-			Query query = QueryFactory.create(queryString);
-
-			RDFConnection queryConnection = RDFConnectionRemote.create().destination(connectionUrl + "/")
-					.queryEndpoint(dataName + "/sparql")
-					.acceptHeaderSelectQuery("application/sparql-results+json, application/sparql-results+xml;q=0.9")
-					.build();
-			try (RDFConnection conn = queryConnection) {
-				conn.queryResultSet(query, ResultSetFormatter::out);
-
-			}
-
-		}
-
-		public void initFuseki(HashMap<String, Model> nameData) {
-			System.out.println("Initializing dataset...");
-			this.dataset = RDFConnectionRemote.create().destination(connectionUrl + "/" + dataName + "/data").build()
-					.fetchDataset();
-			RDFDatasetConnection a = RDFConnectionRemote.create().destination(connectionUrl + "/" + dataName + "/data")
-					.build();
-			ArrayList<String> graphNames = getGraphNames();
-			for (Entry<String, Model> entry : nameData.entrySet()) {
-
-				if (!graphNames.contains(connectionUrl + "/" + dataName + "/data/" + entry.getKey())
-						&& !dataset.getNamedModel(entry.getKey()).isIsomorphicWith(entry.getValue())) {
-					dataset.addNamedModel(entry.getKey(), entry.getValue());
-					a.load(entry.getKey(), entry.getValue());
-				}
-
-			}
-			if (!dataset.getDefaultModel().isIsomorphicWith(dataset.getUnionModel())) {
-				// System.out.println("Not isomorph");
-				dataset.setDefaultModel(ModelFactory.createDefaultModel());
-				dataset.setDefaultModel(dataset.getUnionModel());
-
-				a.delete();
-				a.load(dataset.getDefaultModel());
-
-			}
-		}
-
-		public void deleteAllGraphs() {
-
-			for (String name : getGraphNames()) {
-				deleteModel(name);
-			}
-			deleteDefaultModel();
-			System.out.println("All graphs deleted!");
-
-		}
-
-	}
-
-	public ArrayList<String> listFilesForFolder(final File folder) {
-		ArrayList<String> files = new ArrayList<String>();
-		for (final File fileEntry : folder.listFiles()) {
-			if (fileEntry.isDirectory()) {
-				listFilesForFolder(fileEntry);
-			} else {
-				files.add(fileEntry.getAbsolutePath().replace("\\", "/"));
-			}
-
-		}
-
-		return files;
-	}
-
-	public String getUrlEncodedFile(String filename) {
-
-		try {
-			File file = new File(filename);
-			InputStream fileInputStream = new FileInputStream(file);
-
-			byte[] fileContent = new byte[(int) file.length()];
-			fileInputStream.read(fileContent);
-			fileInputStream.close();
-
-			String str = new String(fileContent, "UTF-8");
-
-			return URLEncoder.encode(str, "UTF-8");
-		} catch (IOException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
-		return null;
 	}
 
 }
