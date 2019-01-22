@@ -116,8 +116,30 @@
 		"url" : "http://www.bbc.co.uk/food/recipes/greekapricots_72397"
 	}, 
 	"recipeIngredient": [
-		"250ml/8?fl oz cold water",
-		"50g/1?oz caster sugar",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "null",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "null",
+				"value" : "null"
+			},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "null",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "null",
+				"value" : "null"
+			},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -135,7 +157,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=stick"
 			}
 		},
-		"Small pinch saffron strands",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "stick",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cinnamon",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=stick"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -170,8 +208,40 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=halved"
 			}
 		},
-		"150g/5?oz tub greek yoghurt",
-		"50g/1?oz pistachios  crushed"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "halved",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "apricots",
+				"value" : "12"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=halved"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "halved",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "apricots",
+				"value" : "12"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=halved"
+			}
+		}
 	] 
 },
 {
@@ -240,9 +310,57 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=chopped+cilantro"
 			}
 		},
-		"1 chile (such as jalape?o)  minced",
-		"Juice of 1 lemon",
-		"Salt and Pepper  to taste",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "chopped cilantro",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=chopped+cilantro"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "chopped cilantro",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=chopped+cilantro"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "chopped cilantro",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=chopped+cilantro"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -328,12 +446,108 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=ready-made+panini+rolls"
 			}
 		},
-		"? cup mozzarella  grated or sliced",
-		"? cup feta cheese  sliced or crumbled",
-		"? bell pepper (i used ? orange and ? yellow)  sliced",
-		"Handful (8-12) kalamata olives  pitted and halved",
-		"Pinch of oregano (greek if you can get it)",
-		"Oil for the grill"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "ready-made panini rolls",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pcs",
+				"value" : "4"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=ready-made+panini+rolls"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "ready-made panini rolls",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pcs",
+				"value" : "4"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=ready-made+panini+rolls"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "ready-made panini rolls",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pcs",
+				"value" : "4"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=ready-made+panini+rolls"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "ready-made panini rolls",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pcs",
+				"value" : "4"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=ready-made+panini+rolls"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "ready-made panini rolls",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pcs",
+				"value" : "4"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=ready-made+panini+rolls"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "ready-made panini rolls",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pcs",
+				"value" : "4"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=ready-made+panini+rolls"
+			}
+		}
 	] 
 },
 {
@@ -470,7 +684,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=vine+tomatoes+++cut+into+irregular+wedges"
 			}
 		},
-		"? a red onion   thinly sliced"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "vine tomatoes   cut into irregular wedges",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "large",
+				"value" : "4"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=vine+tomatoes+++cut+into+irregular+wedges"
+			}
+		}
 	] 
 },
 {
@@ -879,7 +1109,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=cucumber"
 			}
 		},
-		"? red onion  finely diced",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "cucumber",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "english",
+				"value" : "2"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=cucumber"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -931,7 +1177,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=clove++minced"
 			}
 		},
-		"? cup whole-milk greek yogurt",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "clove  minced",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "garlic",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=clove++minced"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -949,7 +1211,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=freshly+squeezed+lemon+juice"
 			}
 		},
-		"Sea salt and pepper"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "freshly squeezed lemon juice",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tbsps",
+				"value" : "3"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=freshly+squeezed+lemon+juice"
+			}
+		}
 	] 
 },
 {
@@ -1018,7 +1296,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=garlic++minced"
 			}
 		},
-		"1 jalape?o  seeded and minced",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "garlic  minced",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "clove",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=garlic++minced"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -1070,7 +1364,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=salt+pork++ground+or+finely+minced"
 			}
 		},
-		"Zest of 1 orange",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "salt pork  ground or finely minced",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "ounces",
+				"value" : "4"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=salt+pork++ground+or+finely+minced"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -1088,8 +1398,40 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=chopped+mint"
 			}
 		},
-		"Freshly ground black pepper",
-		"Greek yogurt for dipping"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "chopped mint",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoons",
+				"value" : "2"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=chopped+mint"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "chopped mint",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoons",
+				"value" : "2"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=chopped+mint"
+			}
+		}
 	] 
 },
 {
@@ -1209,7 +1551,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=whole-milk+Greek-style+yogurt"
 			}
 		},
-		"Pinch of salt"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "whole-milk Greek-style yogurt",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=whole-milk+Greek-style+yogurt"
+			}
+		}
 	] 
 },
 {
@@ -1329,7 +1687,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=Dried+Oregano++Preferably+Greek+Oregano"
 			}
 		},
-		"kosher salt"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "Dried Oregano  Preferably Greek Oregano",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "Tablespoon",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=Dried+Oregano++Preferably+Greek+Oregano"
+			}
+		}
 	] 
 },
 {
@@ -1772,8 +2146,40 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=honey"
 			}
 		},
-		"A few mint leaves",
-		"ground pepper"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "honey",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoons",
+				"value" : "2"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=honey"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "honey",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoons",
+				"value" : "2"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=honey"
+			}
+		}
 	] 
 },
 {
@@ -1825,7 +2231,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=cucumber++peeled++seeded+and+coarsely+chopped"
 			}
 		},
-		"? cup plain whole-milk Greek yogurt or Homemade Greek Yogurt",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "cucumber  peeled  seeded and coarsely chopped",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "medium",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=cucumber++peeled++seeded+and+coarsely+chopped"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -1894,8 +2316,40 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=red+wine+vinegar"
 			}
 		},
-		"salt",
-		"freshly ground black pepper",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "red wine vinegar",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "Tbsp",
+				"value" : "3"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=red+wine+vinegar"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "red wine vinegar",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "Tbsp",
+				"value" : "3"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=red+wine+vinegar"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -1913,7 +2367,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=extra+virgin+olive+oil"
 			}
 		},
-		"? tsp dried Greek oregano",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "extra virgin olive oil",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "Tbsp",
+				"value" : "2"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=extra+virgin+olive+oil"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -2016,7 +2486,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=thinly+sliced+mustard+greens+or+kale"
 			}
 		},
-		"? small red onion  thinly sliced",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "thinly sliced mustard greens or kale",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=thinly+sliced+mustard+greens+or+kale"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -2238,7 +2724,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=extra-virgin+olive+oil"
 			}
 		},
-		"Kosher salt and freshly ground pepper",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "extra-virgin olive oil",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1/4"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=extra-virgin+olive+oil"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -2341,7 +2843,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=bone-in+lamb+shoulder++lamb+shank++or+a+combination+of+the+two++cut+into+3-+to+4-inch+pieces"
 			}
 		},
-		"Freshly ground black pepper",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "bone-in lamb shoulder  lamb shank  or a combination of the two  cut into 3- to 4-inch pieces",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pounds",
+				"value" : "6"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=bone-in+lamb+shoulder++lamb+shank++or+a+combination+of+the+two++cut+into+3-+to+4-inch+pieces"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -2546,8 +3064,40 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=cornstarch"
 			}
 		},
-		"Salt",
-		"1 pound #5 greek macaroni  such as misko",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "cornstarch",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoons",
+				"value" : "2"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=cornstarch"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "cornstarch",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoons",
+				"value" : "2"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=cornstarch"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -2616,8 +3166,30 @@
 		"url" : "http://www.latimes.com/food/la-fo-sos-greeklemonchix-20110825-story.html"
 	}, 
 	"recipeIngredient": [
-		"1 (3?- to 4?-pound) chicken",
-		"Salt and pepper",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "null",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "null",
+				"value" : "null"
+			},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "null",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "null",
+				"value" : "null"
+			},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -2652,7 +3224,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=lemons"
 			}
 		},
-		"Heaping tablespoon greek oregano",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "lemons",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "large",
+				"value" : "2"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=lemons"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -2721,7 +3309,18 @@
 		"url" : "http://catcora.com/recipes/appetizers/greek-style-nachos/"
 	}, 
 	"recipeIngredient": [
-		"? cup roasted red peppers",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "null",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "null",
+				"value" : "null"
+			},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -2739,9 +3338,57 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=garlic+(minced)"
 			}
 		},
-		"Pinch kosher salt",
-		"1 ? tsp fresh oregano (minced)",
-		"1 ? tsp extra virgin olive oil",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "garlic (minced)",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tsp",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=garlic+(minced)"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "garlic (minced)",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tsp",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=garlic+(minced)"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "garlic (minced)",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tsp",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=garlic+(minced)"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -2793,10 +3440,74 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=mild+feta+cheese+(crumbled)"
 			}
 		},
-		"? cup green greek olives (pitted and sliced)",
-		"? cup kalamata olives (pitted and sliced)",
-		"? cup cherry tomatoes (quartered)",
-		"? cup non-fat greek-style yogurt"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "mild feta cheese (crumbled)",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "oz",
+				"value" : "8"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=mild+feta+cheese+(crumbled)"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "mild feta cheese (crumbled)",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "oz",
+				"value" : "8"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=mild+feta+cheese+(crumbled)"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "mild feta cheese (crumbled)",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "oz",
+				"value" : "8"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=mild+feta+cheese+(crumbled)"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "mild feta cheese (crumbled)",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "oz",
+				"value" : "8"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=mild+feta+cheese+(crumbled)"
+			}
+		}
 	] 
 },
 {
@@ -2967,7 +3678,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=extra-virgin+olive+oil"
 			}
 		},
-		"salt  preferably a good finishing salt but Kosher is ok",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "extra-virgin olive oil",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoons",
+				"value" : "3"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=extra-virgin+olive+oil"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -3019,7 +3746,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=minced+fresh+oregano+leaves"
 			}
 		},
-		"Zest of 1 lemon  minced",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "minced fresh oregano leaves",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoon",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=minced+fresh+oregano+leaves"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -3037,7 +3780,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=red+onion++minced"
 			}
 		},
-		"Fresh ground black pepper"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "red onion  minced",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1/4"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=red+onion++minced"
+			}
+		}
 	] 
 },
 {
@@ -3208,7 +3967,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=vanilla+extract"
 			}
 		},
-		"4 cups grapes (recommended: corinthian)",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "vanilla extract",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoon",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=vanilla+extract"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -3328,7 +4103,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=Cup+++baby+spinach"
 			}
 		},
-		"Salt and freshly ground pepper  to taste",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "Cup   baby spinach",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pcs",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=Cup+++baby+spinach"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -3499,7 +4290,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=prepared+horseradish"
 			}
 		},
-		"Juice of 1/2 lemon  plus 1 teaspoon zest",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "prepared horseradish",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoons",
+				"value" : "3"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=prepared+horseradish"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -3517,7 +4324,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=garlic++grated+or+pasted"
 			}
 		},
-		"Black pepper  to taste",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "garlic  grated or pasted",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "clove",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=garlic++grated+or+pasted"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -3569,9 +4392,57 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=deli-sliced+roast+beef+or+1+1/2+pounds+flank+steak++grilled+and+sliced"
 			}
 		},
-		"Thinly sliced tomato  red onion and English (seedless) cucumber",
-		"Sliced Greek hot peppers or banana pepper rings",
-		"A handful of flat leaf parsley tops or watercress leaves  coarsely chopped"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "deli-sliced roast beef or 1 1/2 pounds flank steak  grilled and sliced",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pounds",
+				"value" : "1 1/4"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=deli-sliced+roast+beef+or+1+1/2+pounds+flank+steak++grilled+and+sliced"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "deli-sliced roast beef or 1 1/2 pounds flank steak  grilled and sliced",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pounds",
+				"value" : "1 1/4"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=deli-sliced+roast+beef+or+1+1/2+pounds+flank+steak++grilled+and+sliced"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "deli-sliced roast beef or 1 1/2 pounds flank steak  grilled and sliced",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pounds",
+				"value" : "1 1/4"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=deli-sliced+roast+beef+or+1+1/2+pounds+flank+steak++grilled+and+sliced"
+			}
+		}
 	] 
 },
 {
@@ -3793,7 +4664,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=pine+nuts"
 			}
 		},
-		"Sea salt to taste"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "pine nuts",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoons",
+				"value" : "2"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=pine+nuts"
+			}
+		}
 	] 
 },
 {
@@ -3896,8 +4783,40 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=finely+grated+lemon+zest"
 			}
 		},
-		"ground black pepper",
-		"kosher salt"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "finely grated lemon zest",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoon",
+				"value" : "1/2"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=finely+grated+lemon+zest"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "finely grated lemon zest",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoon",
+				"value" : "1/2"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=finely+grated+lemon+zest"
+			}
+		}
 	] 
 },
 {
@@ -4034,7 +4953,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=yolks"
 			}
 		},
-		"Black pepper"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "yolks",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "egg",
+				"value" : "2"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=yolks"
+			}
+		}
 	] 
 },
 {
@@ -4392,7 +5327,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=chopped+fresh+mint"
 			}
 		},
-		"flour and olive oil for frying"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "chopped fresh mint",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tbsp",
+				"value" : "3"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=chopped+fresh+mint"
+			}
+		}
 	] 
 },
 {
@@ -4495,7 +5446,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=cloves+++finely+chopped"
 			}
 		},
-		"2 t. tomato pur?e",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "cloves   finely chopped",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "garlic",
+				"value" : "2"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=cloves+++finely+chopped"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -4547,7 +5514,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=dried+oregano"
 			}
 		},
-		"Pinch ground cinnamon",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "dried oregano",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "t.",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=dried+oregano"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -4565,7 +5548,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=chopped+flat-leaf+parsley+++plus+extra+to+serve"
 			}
 		},
-		"Salt and pepper to taste"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "chopped flat-leaf parsley   plus extra to serve",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "t.",
+				"value" : "2"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=chopped+flat-leaf+parsley+++plus+extra+to+serve"
+			}
+		}
 	] 
 },
 {
@@ -4736,8 +5735,30 @@
 		"url" : "http://www.kitchendaily.com/recipe/papaya-and-greek-yogurt-smoothie"
 	}, 
 	"recipeIngredient": [
-		"? large papaya's fruit",
-		"? cup cranberry 100% juice blend (we used cran-grape)",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "null",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "null",
+				"value" : "null"
+			},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "null",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "null",
+				"value" : "null"
+			},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -4772,7 +5793,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=ice"
 			}
 		},
-		"? cup Greek yogurt"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "ice",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "2"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=ice"
+			}
+		}
 	] 
 },
 {
@@ -4909,8 +5946,40 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=olives+++preferably+kalamata"
 			}
 		},
-		"Pitta bread   to serve  optional",
-		"Handful each of flatleaf parsley and mint leaves  kept whole"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "olives   preferably kalamata",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "black",
+				"value" : "20"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=olives+++preferably+kalamata"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "olives   preferably kalamata",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "black",
+				"value" : "20"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=olives+++preferably+kalamata"
+			}
+		}
 	] 
 },
 {
@@ -5183,7 +6252,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=cucumber"
 			}
 		},
-		"? c. plain whole-milk Greek yogurt or Homemade Greek Yogurt",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "cucumber",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "medium",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=cucumber"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -5252,8 +6337,40 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=red+wine+vinegar"
 			}
 		},
-		"salt",
-		"Freshly ground pepper",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "red wine vinegar",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tbsp.",
+				"value" : "3"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=red+wine+vinegar"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "red wine vinegar",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tbsp.",
+				"value" : "3"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=red+wine+vinegar"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -5271,7 +6388,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=extra-virgin+olive+oil"
 			}
 		},
-		"? tsp. dried Greek oregano",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "extra-virgin olive oil",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tbsp.",
+				"value" : "2"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=extra-virgin+olive+oil"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -5374,7 +6507,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=thinly+sliced+mustard+greens+or+kale"
 			}
 		},
-		"? small red onion",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "thinly sliced mustard greens or kale",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "c.",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=thinly+sliced+mustard+greens+or+kale"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -5511,7 +6660,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=Ounces+++Greek+feta++diced"
 			}
 		},
-		"Juice of 1/2 lemon",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "Ounces   Greek feta  diced",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pcs",
+				"value" : "4"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=Ounces+++Greek+feta++diced"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -5546,7 +6711,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=Teaspoon+++dried+oregano"
 			}
 		},
-		"Salt and black pepper  to taste"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "Teaspoon   dried oregano",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pcs",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=Teaspoon+++dried+oregano"
+			}
+		}
 	] 
 },
 {
@@ -5598,8 +6779,40 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=dry+white+wine+(like+chenin+blanc+or+Chardonnay)"
 			}
 		},
-		"? c. orange liqueur (like Cointreau or triple sec)",
-		"? c. Greek brandy (like Metaxa)",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "dry white wine (like chenin blanc or Chardonnay)",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "bottle",
+				"value" : "2"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=dry+white+wine+(like+chenin+blanc+or+Chardonnay)"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "dry white wine (like chenin blanc or Chardonnay)",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "bottle",
+				"value" : "2"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=dry+white+wine+(like+chenin+blanc+or+Chardonnay)"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -5617,7 +6830,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=apricot+nectar"
 			}
 		},
-		"? c. superfine sugar",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "apricot nectar",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "c.",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=apricot+nectar"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -5686,7 +6915,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=club+soda"
 			}
 		},
-		"Fresh mint sprigs"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "club soda",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "c.",
+				"value" : "2"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=club+soda"
+			}
+		}
 	] 
 },
 {
@@ -5891,8 +7136,40 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=pure+vanilla+extract"
 			}
 		},
-		"Walnuts for garnish (optional)",
-		"Sour cherries in syrup for garnish (optional)"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "pure vanilla extract",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoon",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=pure+vanilla+extract"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "pure vanilla extract",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoon",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=pure+vanilla+extract"
+			}
+		}
 	] 
 },
 {
@@ -5995,8 +7272,40 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=finely+grated+lemon+zest"
 			}
 		},
-		"kosher salt",
-		"freshly ground black pepper"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "finely grated lemon zest",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoon",
+				"value" : "1/2"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=finely+grated+lemon+zest"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "finely grated lemon zest",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoon",
+				"value" : "1/2"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=finely+grated+lemon+zest"
+			}
+		}
 	] 
 },
 {
@@ -6048,8 +7357,40 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=breasts"
 			}
 		},
-		"Poultry seasoning",
-		"Salt and pepper",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "breasts",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "chicken",
+				"value" : "4"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=breasts"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "breasts",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "chicken",
+				"value" : "4"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=breasts"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -6067,7 +7408,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=1+sliced++2+halved+for+juicing++divided"
 			}
 		},
-		"3-4 cloves garlic  2 chopped  1 clove pasted or grated",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "1 sliced  2 halved for juicing  divided",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "lemons",
+				"value" : "3"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=1+sliced++2+halved+for+juicing++divided"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -6187,10 +7544,74 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=Greek+feta+crumbles"
 			}
 		},
-		"A small handful of dill",
-		"A small handful of parsley",
-		"Greek vegetable salad (use a combo of all or some!): diced seeded tomatoes  cucumber  red onions  bell peppers  light green small Greek pickled hot peppers  parsley tops",
-		"Flat bread  pita or Naan bread"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "Greek feta crumbles",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1/2"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=Greek+feta+crumbles"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "Greek feta crumbles",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1/2"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=Greek+feta+crumbles"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "Greek feta crumbles",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1/2"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=Greek+feta+crumbles"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "Greek feta crumbles",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1/2"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=Greek+feta+crumbles"
+			}
+		}
 	] 
 },
 {
@@ -6225,7 +7646,18 @@
 		"url" : "http://www.kitchendaily.com/recipe/oats-and-greek-yogurt"
 	}, 
 	"recipeIngredient": [
-		"? cup rolled oat",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "null",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "null",
+				"value" : "null"
+			},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -6277,8 +7709,40 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=3+packets+of+stevia+(or+your+preferred+sweetener)"
 			}
 		},
-		"? tsp cinnamon",
-		"Optional toppings: granola  peanut butter  cranberries  chia seeds  bananas  mangoes  blueberries  strawberries  almonds  pecans  walnuts etc."
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "3 packets of stevia (or your preferred sweetener)",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "or",
+				"value" : "2"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=3+packets+of+stevia+(or+your+preferred+sweetener)"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "3 packets of stevia (or your preferred sweetener)",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "or",
+				"value" : "2"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=3+packets+of+stevia+(or+your+preferred+sweetener)"
+			}
+		}
 	] 
 },
 {
@@ -6483,7 +7947,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=pitted+Kalamata+olives++halved+lengthwise"
 			}
 		},
-		"Mixed greens"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "pitted Kalamata olives  halved lengthwise",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1/2"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=pitted+Kalamata+olives++halved+lengthwise"
+			}
+		}
 	] 
 },
 {
@@ -6654,7 +8134,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=kalamata+olives++chopped"
 			}
 		},
-		"black pepper",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "kalamata olives  chopped",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoon",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=kalamata+olives++chopped"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -6910,7 +8406,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=cayenne+pepper"
 			}
 		},
-		"cracked black pepper",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "cayenne pepper",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoon",
+				"value" : "1/2"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=cayenne+pepper"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -7064,7 +8576,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=oil"
 			}
 		},
-		"? tsp. each salt and pepper",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "oil",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tbsp.",
+				"value" : "2"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=oil"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -7150,7 +8678,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=bottled+Greek+seasoning"
 			}
 		},
-		"Garnish: fresh mint"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "bottled Greek seasoning",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tbsp.",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=bottled+Greek+seasoning"
+			}
+		}
 	] 
 },
 {
@@ -7185,7 +8729,18 @@
 		"url" : "http://www.seriouseats.com/recipes/2013/06/easy-grilled-cornish-hen-zucchini-greek-marinade-tzatziki-greek-salad-recipe.html"
 	}, 
 	"recipeIngredient": [
-		"For the Tzatziki:",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "null",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "null",
+				"value" : "null"
+			},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -7271,7 +8826,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=extra+virgin+olive+oil"
 			}
 		},
-		"Kosher salt and freshly ground black pepper",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "extra virgin olive oil",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1/2"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=extra+virgin+olive+oil"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -7544,9 +9115,57 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=cilantro"
 			}
 		},
-		"Zest of 1 lemon",
-		"Juice of 1 lemon",
-		"Salt and pepper to taste"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "cilantro",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "bunch",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=cilantro"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "cilantro",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "bunch",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=cilantro"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "cilantro",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "bunch",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=cilantro"
+			}
+		}
 	] 
 },
 {
@@ -7632,8 +9251,40 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=garlic++pasted"
 			}
 		},
-		"About 1 teaspoon Worcestershire sauce",
-		"About 2 teaspoons lemon juice",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "garlic  pasted",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "clove",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=garlic++pasted"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "garlic  pasted",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "clove",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=garlic++pasted"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -7651,7 +9302,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=dried+oregano"
 			}
 		},
-		"Salt and pepper",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "dried oregano",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoon",
+				"value" : "1/2"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=dried+oregano"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -7771,7 +9438,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=finely+chopped+flat-leaf+parsley"
 			}
 		},
-		"undefined"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "finely chopped flat-leaf parsley",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoons",
+				"value" : "2"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=finely+chopped+flat-leaf+parsley"
+			}
+		}
 	] 
 },
 {
@@ -7806,8 +9489,30 @@
 		"url" : "http://www.delish.com/cooking/recipe-ideas/recipes/a35567/pina-colada-greek-yogurt-recipe-ghk0613/"
 	}, 
 	"recipeIngredient": [
-		"? c. sweetened shredded coconut",
-		"? c. chopped pineapple",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "null",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "null",
+				"value" : "null"
+			},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "null",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "null",
+				"value" : "null"
+			},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -8012,7 +9717,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=red+wine+vinegar"
 			}
 		},
-		"Sea salt and freshly ground pepper"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "red wine vinegar",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1/4"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=red+wine+vinegar"
+			}
+		}
 	] 
 },
 {
@@ -8319,7 +10040,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=chicken+breast++cut+into+small+dice"
 			}
 		},
-		"Salt and pepper  to taste",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "chicken breast  cut into small dice",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "large",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=chicken+breast++cut+into+small+dice"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -8371,7 +10108,18 @@
 		"url" : "http://www.rachaelray.com/recipe/greek-salad-with-yogurt-dressing/"
 	}, 
 	"recipeIngredient": [
-		"Juice of 1 lemon",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "null",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "null",
+				"value" : "null"
+			},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -8423,7 +10171,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=extra+virgin+olive+oil+(EVOO)"
 			}
 		},
-		"Salt and freshly ground black pepper",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "extra virgin olive oil (EVOO)",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1/4"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=extra+virgin+olive+oil+(EVOO)"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -8526,7 +10290,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=pitted+kalamata+olives"
 			}
 		},
-		"4-5 Greek hot peppers  chopped"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "pitted kalamata olives",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1/2"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=pitted+kalamata+olives"
+			}
+		}
 	] 
 },
 {
@@ -8612,7 +10392,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=dill+leaves"
 			}
 		},
-		"? tsp. ground cumin",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "dill leaves",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tbsp.",
+				"value" : "2"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=dill+leaves"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -8630,7 +10426,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=garlic"
 			}
 		},
-		"salt",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "garlic",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "clove",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=garlic"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -8665,7 +10477,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=extra+virgin+olive+oil"
 			}
 		},
-		"? tsp. dried oregano",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "extra virgin olive oil",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tsp.",
+				"value" : "4"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=extra+virgin+olive+oil"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -8683,7 +10511,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=chicken-breast+tenders"
 			}
 		},
-		"? English (seedless) cucumber",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "chicken-breast tenders",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "lb.",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=chicken-breast+tenders"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -8905,8 +10749,40 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=patties"
 			}
 		},
-		"kosher salt",
-		"Freshly ground black pepper",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "patties",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "hamburger",
+				"value" : "4"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=patties"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "patties",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "hamburger",
+				"value" : "4"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=patties"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -8941,7 +10817,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=plain+Greek+yogurt"
 			}
 		},
-		"Juice of 1/2 lemon",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "plain Greek yogurt",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "c.",
+				"value" : "1/2"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=plain+Greek+yogurt"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -9010,7 +10902,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=sliced"
 			}
 		},
-		"Fresh dill  for serving"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "sliced",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cucumber",
+				"value" : "1/2"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=sliced"
+			}
+		}
 	] 
 },
 {
@@ -9147,8 +11055,40 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=chicken+breast++cut+into+small+dice"
 			}
 		},
-		"salt",
-		"pepper",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "chicken breast  cut into small dice",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "large",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=chicken+breast++cut+into+small+dice"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "chicken breast  cut into small dice",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "large",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=chicken+breast++cut+into+small+dice"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -9234,7 +11174,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=diced+tomatoes"
 			}
 		},
-		"? c. chopped onion",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "diced tomatoes",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "can",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=diced+tomatoes"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -9252,8 +11208,40 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=minced+garlic"
 			}
 		},
-		"? tsp. each Greek herb seasoning and salt",
-		"? tsp. pepper",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "minced garlic",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tbsp.",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=minced+garlic"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "minced garlic",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tbsp.",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=minced+garlic"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -9322,7 +11310,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=grated+lemon+zest"
 			}
 		},
-		"Topping: crumbled feta cheese"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "grated lemon zest",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tsp.",
+				"value" : "2"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=grated+lemon+zest"
+			}
+		}
 	] 
 },
 {
@@ -9425,7 +11429,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=plain++unsweetened+Greek+yogurt"
 			}
 		},
-		"black pepper (to taste)"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "plain  unsweetened Greek yogurt",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "c.",
+				"value" : "1 1/4"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=plain++unsweetened+Greek+yogurt"
+			}
+		}
 	] 
 },
 {
@@ -9460,7 +11480,18 @@
 		"url" : "http://www.myrecipes.com/recipe/greek-yogurt-parfaits-10000001995695/"
 	}, 
 	"recipeIngredient": [
-		"",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "null",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "null",
+				"value" : "null"
+			},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -9716,7 +11747,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=salt-free+Greek+seasoning+(such+as+Cavender's)"
 			}
 		},
-		"Fresh oregano sprigs"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "salt-free Greek seasoning (such as Cavender's)",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoons",
+				"value" : "4"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=salt-free+Greek+seasoning+(such+as+Cavender's)"
+			}
+		}
 	] 
 },
 {
@@ -9785,9 +11832,57 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=tomatoes"
 			}
 		},
-		"? c. olive oil",
-		"? c. water",
-		"2? tbsp. lemon juice",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "tomatoes",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "c.",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=tomatoes"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "tomatoes",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "c.",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=tomatoes"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "tomatoes",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "c.",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=tomatoes"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -9839,7 +11934,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=salt"
 			}
 		},
-		"? tsp. Pepper",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "salt",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tsp.",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=salt"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -9857,7 +11968,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=cucumber"
 			}
 		},
-		"? c. red onion",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "cucumber",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "c.",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=cucumber"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -9875,7 +12002,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=feta+cheese"
 			}
 		},
-		"? c. Greek or other ripe olives"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "feta cheese",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "c.",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=feta+cheese"
+			}
+		}
 	] 
 },
 {
@@ -10029,7 +12172,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=finely+crumbled+feta+cheese"
 			}
 		},
-		"2% reduced-fat Greek yogurt"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "finely crumbled feta cheese",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "3/4"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=finely+crumbled+feta+cheese"
+			}
+		}
 	] 
 },
 {
@@ -10115,8 +12274,40 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=minced+fresh+oregano+leaves"
 			}
 		},
-		"? tsp. salt",
-		"? tsp. Freshly ground pepper",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "minced fresh oregano leaves",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tsp.",
+				"value" : "2"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=minced+fresh+oregano+leaves"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "minced fresh oregano leaves",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tsp.",
+				"value" : "2"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=minced+fresh+oregano+leaves"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -10253,8 +12444,30 @@
 		"url" : "http://www.delish.com/cooking/recipe-ideas/recipes/a35533/blueberry-graham-cracker-greek-yogurt-recipe-ghk0613/"
 	}, 
 	"recipeIngredient": [
-		"? c. blueberries",
-		"? c. crushed cinnamon-flavored graham crackers",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "null",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "null",
+				"value" : "null"
+			},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "null",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "null",
+				"value" : "null"
+			},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -10272,7 +12485,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=honey"
 			}
 		},
-		"? tsp. vanilla extract",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "honey",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tbsp.",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=honey"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -10511,7 +12740,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=chopped+fresh+dill"
 			}
 		},
-		"Freshly ground black pepper"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "chopped fresh dill",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoons",
+				"value" : "2"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=chopped+fresh+dill"
+			}
+		}
 	] 
 },
 {
@@ -10648,7 +12893,18 @@
 		"url" : "http://www.delish.com/cooking/recipe-ideas/recipes/a12839/greek-goddess-smoothie-recipe-opr0810/"
 	}, 
 	"recipeIngredient": [
-		"? c. low-fat Greek yogurt",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "null",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "null",
+				"value" : "null"
+			},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -10666,8 +12922,40 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=organic+or+English+or+hothouse+cucumber"
 			}
 		},
-		"? c. frozen green grapes",
-		"? c. chopped green or spring onions",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "organic or English or hothouse cucumber",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "c.",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=organic+or+English+or+hothouse+cucumber"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "organic or English or hothouse cucumber",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "c.",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=organic+or+English+or+hothouse+cucumber"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -10702,8 +12990,40 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=fresh+lemon+juice"
 			}
 		},
-		"? tsp. Sea salt",
-		"? c. filtered water",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "fresh lemon juice",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tbsp.",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=fresh+lemon+juice"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "fresh lemon juice",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tbsp.",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=fresh+lemon+juice"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -10721,7 +13041,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=Chopped+green+apple"
 			}
 		},
-		"? c. cottage cheese"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "Chopped green apple",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "c.",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=Chopped+green+apple"
+			}
+		}
 	] 
 },
 {
@@ -10807,8 +13143,40 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=fresh+thyme+leaves"
 			}
 		},
-		"kosher salt",
-		"Freshly ground pepper",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "fresh thyme leaves",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tsp.",
+				"value" : "2"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=fresh+thyme+leaves"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "fresh thyme leaves",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tsp.",
+				"value" : "2"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=fresh+thyme+leaves"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -10843,8 +13211,40 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=Greek+yogurt"
 			}
 		},
-		"Carrot sticks  for serving",
-		"Crackers  for serving"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "Greek yogurt",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "c.",
+				"value" : "2"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=Greek+yogurt"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "Greek yogurt",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "c.",
+				"value" : "2"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=Greek+yogurt"
+			}
+		}
 	] 
 },
 {
@@ -11236,7 +13636,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=Greek+yogurt"
 			}
 		},
-		"Juice of 1 lemon",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "Greek yogurt",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "c.",
+				"value" : "2"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=Greek+yogurt"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -11305,7 +13721,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=Chopped+flat-leaf+parsley"
 			}
 		},
-		"Pita chips  for serving"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "Chopped flat-leaf parsley",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "c.",
+				"value" : "1/4"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=Chopped+flat-leaf+parsley"
+			}
+		}
 	] 
 },
 {
@@ -11374,7 +13806,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=unsalted+butter"
 			}
 		},
-		"? c. heavy cream",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "unsalted butter",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "oz.",
+				"value" : "4"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=unsalted+butter"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -11409,8 +13857,40 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=minced+fresh+chives"
 			}
 		},
-		"Coarse salt",
-		"Freshly ground pepper"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "minced fresh chives",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tbsp.",
+				"value" : "2"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=minced+fresh+chives"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "minced fresh chives",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tbsp.",
+				"value" : "2"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=minced+fresh+chives"
+			}
+		}
 	] 
 },
 {
@@ -12159,7 +14639,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=2+percent+Greek+yogurt"
 			}
 		},
-		"2 tablespoons hazelnuts  toasted in the oven at 375? for 7 minutes  chopped",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "2 percent Greek yogurt",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1/2"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=2+percent+Greek+yogurt"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -12228,7 +14724,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=Greek-style+whole-milk+yogurt"
 			}
 		},
-		"Pinch of saffron threads  crumbled",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "Greek-style whole-milk yogurt",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1/4"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=Greek-style+whole-milk+yogurt"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -12246,7 +14758,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=rice+vinegar"
 			}
 		},
-		"Sea salt and freshly ground pepper",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "rice vinegar",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoons",
+				"value" : "1 1/2"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=rice+vinegar"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -12264,7 +14792,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=black+plum++thinly+sliced"
 			}
 		},
-		"Extra-virgin olive oil",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "black plum  thinly sliced",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "small",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=black+plum++thinly+sliced"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -12384,7 +14928,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=red+wine+vinegar"
 			}
 		},
-		"Juice of 1 small lemon",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "red wine vinegar",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoon",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=red+wine+vinegar"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -12419,7 +14979,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=olive+oil"
 			}
 		},
-		"Freshly ground black pepper",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "olive oil",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1/4"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=olive+oil"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -12658,7 +15234,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=white+or+black+pepper"
 			}
 		},
-		"Dash of hot sauce  optional",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "white or black pepper",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoon",
+				"value" : "1/2"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=white+or+black+pepper"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -12914,7 +15506,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=buckwheat+or+clover+honey"
 			}
 		},
-		"sea salt flakes"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "buckwheat or clover honey",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1/3"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=buckwheat+or+clover+honey"
+			}
+		}
 	] 
 },
 {
@@ -13051,8 +15659,40 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=ouzo+(optional)"
 			}
 		},
-		"pepper",
-		"salt"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "ouzo (optional)",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "splash",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=ouzo+(optional)"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "ouzo (optional)",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "splash",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=ouzo+(optional)"
+			}
+		}
 	] 
 },
 {
@@ -13223,8 +15863,40 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=feta++crumbled"
 			}
 		},
-		"Kosher salt and freshly cracked black pepper to taste",
-		"Greek yogurt dip for dipping as needed"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "feta  crumbled",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoons",
+				"value" : "2"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=feta++crumbled"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "feta  crumbled",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoons",
+				"value" : "2"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=feta++crumbled"
+			}
+		}
 	] 
 },
 {
@@ -13616,7 +16288,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=single+serving+of+fage+total+0%+greek+yogurt"
 			}
 		},
-		"Grated parmesan cheese",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "single serving of fage total 0% greek yogurt",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "ounce",
+				"value" : "6"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=single+serving+of+fage+total+0%+greek+yogurt"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -13719,8 +16407,40 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=of+extra+virgin+olive+oil"
 			}
 		},
-		"Sea salt",
-		"Freshly cracked black pepper"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "of extra virgin olive oil",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoon",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=of+extra+virgin+olive+oil"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "of extra virgin olive oil",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoon",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=of+extra+virgin+olive+oil"
+			}
+		}
 	] 
 },
 {
@@ -13857,7 +16577,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=garlic++minced"
 			}
 		},
-		"kosher salt"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "garlic  minced",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cloves",
+				"value" : "2"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=garlic++minced"
+			}
+		}
 	] 
 },
 {
@@ -13892,7 +16628,18 @@
 		"url" : "https://food52.com/recipes/26565-greek-chicken-meatballs"
 	}, 
 	"recipeIngredient": [
-		"Nonstick cooking spray",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "null",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "null",
+				"value" : "null"
+			},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -14029,8 +16776,40 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=ground+chicken+(I+like+a+mix+of+white+and+dark+meat+for+a+moist+meatball)"
 			}
 		},
-		"Crumbled feta cheese  for garnish",
-		"Finely chopped English cucumber  for garnish",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "ground chicken (I like a mix of white and dark meat for a moist meatball)",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pound",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=ground+chicken+(I+like+a+mix+of+white+and+dark+meat+for+a+moist+meatball)"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "ground chicken (I like a mix of white and dark meat for a moist meatball)",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pound",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=ground+chicken+(I+like+a+mix+of+white+and+dark+meat+for+a+moist+meatball)"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -14218,7 +16997,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=garlic++crushed+with+press"
 			}
 		},
-		"Salt",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "garlic  crushed with press",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "clove(s)",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=garlic++crushed+with+press"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -14389,7 +17184,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=cherry+tomatoes++halved"
 			}
 		},
-		"2-3 cucumbers  preferably English or Kirby  quartered and diced",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "cherry tomatoes  halved",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pint",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=cherry+tomatoes++halved"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -14407,8 +17218,40 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=Bulgarian+or+Greek+feta++stored+in+brine++then+crumbled+with+a+fork"
 			}
 		},
-		"? red onion  thinly sliced",
-		"4-5 Kalamata olives  pitted and sliced",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "Bulgarian or Greek feta  stored in brine  then crumbled with a fork",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1/3"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=Bulgarian+or+Greek+feta++stored+in+brine++then+crumbled+with+a+fork"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "Bulgarian or Greek feta  stored in brine  then crumbled with a fork",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1/3"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=Bulgarian+or+Greek+feta++stored+in+brine++then+crumbled+with+a+fork"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -14443,8 +17286,40 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=dried+oregano"
 			}
 		},
-		"1 clove garlic  smashed with a chef?s knife or pushed through a garlic press",
-		"Salt and freshly ground black pepper  to taste",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "dried oregano",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoon",
+				"value" : "1/8"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=dried+oregano"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "dried oregano",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoon",
+				"value" : "1/8"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=dried+oregano"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -14462,7 +17337,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=fresh+lemon+juice"
 			}
 		},
-		"2 ? tablespoons extra-virgin olive oil"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "fresh lemon juice",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoons",
+				"value" : "2"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=fresh+lemon+juice"
+			}
+		}
 	] 
 },
 {
@@ -15041,7 +17932,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=clove++minced"
 			}
 		},
-		"Salt and freshly ground black pepper to taste",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "clove  minced",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "garlic",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=clove++minced"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -15195,9 +18102,42 @@
 		"url" : "http://www.delish.com/cooking/recipe-ideas/recipes/a21901/greek-style-fish-yogurt-lemon-recipe-del0114/"
 	}, 
 	"recipeIngredient": [
-		"1? lb. piece skinless thick  white flaky fish  such as halibut  cod  or mahimahi",
-		"olive oil",
-		"salt and pepper",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "null",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "null",
+				"value" : "null"
+			},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "null",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "null",
+				"value" : "null"
+			},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "null",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "null",
+				"value" : "null"
+			},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -15215,8 +18155,40 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=lemon++thinly+sliced"
 			}
 		},
-		"? c. Greek yogurt",
-		"Handful of fresh dill  roughly chopped"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "lemon  thinly sliced",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "large",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=lemon++thinly+sliced"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "lemon  thinly sliced",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "large",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=lemon++thinly+sliced"
+			}
+		}
 	] 
 },
 {
@@ -15251,7 +18223,18 @@
 		"url" : "http://www.kitchendaily.com/recipe/healthy-greek-yogurt-berry-granola-parfait"
 	}, 
 	"recipeIngredient": [
-		"1 ? cup heavy cream",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "null",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "null",
+				"value" : "null"
+			},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {

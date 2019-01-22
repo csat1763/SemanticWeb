@@ -150,7 +150,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=lemons"
 			}
 		},
-		"salt"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "lemons",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "x",
+				"value" : "2"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=lemons"
+			}
+		}
 	] 
 },
 {
@@ -185,7 +201,18 @@
 		"url" : "http://norecipes.com/north-african-stewed-veggies"
 	}, 
 	"recipeIngredient": [
-		"Olive oil",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "null",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "null",
+				"value" : "null"
+			},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -390,7 +417,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=pitted+green+olives+sliced+in+half"
 			}
 		},
-		"Salt to taste"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "pitted green olives sliced in half",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "c",
+				"value" : "1/4"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=pitted+green+olives+sliced+in+half"
+			}
+		}
 	] 
 },
 {
@@ -442,9 +485,57 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=12+oz.+beef+medallions++each+about+3/4+inch+thick"
 			}
 		},
-		"cracked black pepper",
-		"sea salt",
-		"canola oil",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "12 oz. beef medallions  each about 3/4 inch thick",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "to",
+				"value" : "10"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=12+oz.+beef+medallions++each+about+3/4+inch+thick"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "12 oz. beef medallions  each about 3/4 inch thick",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "to",
+				"value" : "10"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=12+oz.+beef+medallions++each+about+3/4+inch+thick"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "12 oz. beef medallions  each about 3/4 inch thick",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "to",
+				"value" : "10"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=12+oz.+beef+medallions++each+about+3/4+inch+thick"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -581,7 +672,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=medium-large+yellow+bell+peppers"
 			}
 		},
-		"2 teaspoons harissa (north african chili sauce; igourmet.com)",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "medium-large yellow bell peppers",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "seeded",
+				"value" : "3"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=medium-large+yellow+bell+peppers"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -616,7 +723,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=coarse+salt"
 			}
 		},
-		"Very thinly sliced yellow bell pepper (optional)"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "coarse salt",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoon",
+				"value" : "1/2"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=coarse+salt"
+			}
+		}
 	] 
 },
 {
@@ -651,8 +774,30 @@
 		"url" : "http://chocolateandzucchini.com/archives/2004/05/cauliflower_semolina_with_dried_fruits.php"
 	}, 
 	"recipeIngredient": [
-		"one head of cauliflower",
-		"a quarter of a preserved lemon",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "null",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "null",
+				"value" : "null"
+			},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "null",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "null",
+				"value" : "null"
+			},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -755,7 +900,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=butter++diced"
 			}
 		},
-		"salt  pepper",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "butter  diced",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "g",
+				"value" : "20"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=butter++diced"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -807,7 +968,18 @@
 		"url" : "http://leitesculinaria.com/97024/recipes-north-african-chicken-soup.html"
 	}, 
 	"recipeIngredient": [
-		"Extra-virgin olive oil  for the pan",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "null",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "null",
+				"value" : "null"
+			},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -842,7 +1014,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=clove++finely+chopped"
 			}
 		},
-		"Sea salt and freshly ground black pepper",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "clove  finely chopped",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "garlic",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=clove++finely+chopped"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -911,7 +1099,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=homemade+chicken+stock+or+canned+chicken+broth"
 			}
 		},
-		"Pinch granulated sugar",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "homemade chicken stock or canned chicken broth",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cups",
+				"value" : "1 2/3"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=homemade+chicken+stock+or+canned+chicken+broth"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -1116,8 +1320,40 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=jerry+thomas+bitters"
 			}
 		},
-		"Sweet and spicy plantain chip  to garnish",
-		"Fresh mint  to garnish"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "jerry thomas bitters",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "dashes",
+				"value" : "2"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=jerry+thomas+bitters"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "jerry thomas bitters",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "dashes",
+				"value" : "2"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=jerry+thomas+bitters"
+			}
+		}
 	] 
 },
 {
@@ -1203,7 +1439,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=fresh+lemon+juice"
 			}
 		},
-		"1 1/4 teaspoons harissa* (spicy North African condiment)",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "fresh lemon juice",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoons",
+				"value" : "1 1/2"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=fresh+lemon+juice"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -1476,7 +1728,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=(28+oz)+can+diced+tomatoes"
 			}
 		},
-		"chicken stock",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "(28 oz) can diced tomatoes",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pcs",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=(28+oz)+can+diced+tomatoes"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -1494,9 +1762,57 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=kale++thick+veins+removed+and+roughly+chopped"
 			}
 		},
-		"salt",
-		"pepper",
-		"sour cream"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "kale  thick veins removed and roughly chopped",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "bn",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=kale++thick+veins+removed+and+roughly+chopped"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "kale  thick veins removed and roughly chopped",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "bn",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=kale++thick+veins+removed+and+roughly+chopped"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "kale  thick veins removed and roughly chopped",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "bn",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=kale++thick+veins+removed+and+roughly+chopped"
+			}
+		}
 	] 
 },
 {
@@ -1582,7 +1898,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=of+celery++sliced+diagonally"
 			}
 		},
-		"2 medium sweet potatoes or yams?peeled and 1/2 inch dice",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "of celery  sliced diagonally",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "stalks",
+				"value" : "2"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=of+celery++sliced+diagonally"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -1600,7 +1932,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=water"
 			}
 		},
-		"1 28-ounce can diced tomatoes?juice included",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "water",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cups",
+				"value" : "4"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=water"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -1890,7 +2238,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=diced+shallots"
 			}
 		},
-		"Kosher salt",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "diced shallots",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoons",
+				"value" : "2"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=diced+shallots"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -1942,7 +2306,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=tomato++finely+diced++for+garnishing"
 			}
 		},
-		"1 recipe Sweet Potato Crisps (minus the Jalape?o-Cilantro Yogurt Spread)"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "tomato  finely diced  for garnishing",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "Roma",
+				"value" : "1/2"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=tomato++finely+diced++for+garnishing"
+			}
+		}
 	] 
 },
 {
@@ -1977,7 +2357,18 @@
 		"url" : "http://www.saveur.com/article/Recipes/Classic-West-African-Peanut-Stew"
 	}, 
 	"recipeIngredient": [
-		"? cup canola oil",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "null",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "null",
+				"value" : "null"
+			},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -1995,8 +2386,40 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=bone-in+chicken+thighs++skinned"
 			}
 		},
-		"Kosher salt  to taste",
-		"? cup finely chopped ginger",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "bone-in chicken thighs  skinned",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "lb.",
+				"value" : "2"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=bone-in+chicken+thighs++skinned"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "bone-in chicken thighs  skinned",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "lb.",
+				"value" : "2"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=bone-in+chicken+thighs++skinned"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -2065,10 +2488,74 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=turmeric"
 			}
 		},
-		"? tsp. ground cumin",
-		"? tsp. ground black pepper",
-		"? tsp. ground cinnamon",
-		"? tsp. fenugreek seeds",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "turmeric",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tsp.",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=turmeric"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "turmeric",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tsp.",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=turmeric"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "turmeric",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tsp.",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=turmeric"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "turmeric",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tsp.",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=turmeric"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -2103,7 +2590,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=tomato+paste"
 			}
 		},
-		"? cup peanut butter",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "tomato paste",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tbsp.",
+				"value" : "2"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=tomato+paste"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -2121,8 +2624,40 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=diced+plum+tomatoes"
 			}
 		},
-		"1 lb. eggplant  peeled and cut into 1? cubes",
-		"4 oz. okra  cut into 1?-thick pieces",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "diced plum tomatoes",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=diced+plum+tomatoes"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "diced plum tomatoes",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=diced+plum+tomatoes"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -2140,8 +2675,40 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=red+chile++sliced"
 			}
 		},
-		"Roasted  chopped peanuts  for garnish",
-		"Cooked white rice  for serving"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "red chile  sliced",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "fresh",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=red+chile++sliced"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "red chile  sliced",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "fresh",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=red+chile++sliced"
+			}
+		}
 	] 
 },
 {
@@ -2618,8 +3185,40 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=to+3/4+cup+chunky+natural+peanut+butter"
 			}
 		},
-		"salt",
-		"pepper"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "to 3/4 cup chunky natural peanut butter",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1/2"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=to+3/4+cup+chunky+natural+peanut+butter"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "to 3/4 cup chunky natural peanut butter",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1/2"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=to+3/4+cup+chunky+natural+peanut+butter"
+			}
+		}
 	] 
 },
 {
@@ -2654,7 +3253,18 @@
 		"url" : "http://honestcooking.com/african-chicken-peanut-soup/"
 	}, 
 	"recipeIngredient": [
-		"Olive oil",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "null",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "null",
+				"value" : "null"
+			},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -2689,7 +3299,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=garlic++minced"
 			}
 		},
-		"Salt  to taste",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "garlic  minced",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cloves",
+				"value" : "2"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=garlic++minced"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -2792,7 +3418,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=or+2+cups+crushed+tomatoes+(canned+or+homemade)"
 			}
 		},
-		"? cup peanut butter  preferably natural",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "or 2 cups crushed tomatoes (canned or homemade)",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "ounces",
+				"value" : "16"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=or+2+cups+crushed+tomatoes+(canned+or+homemade)"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -2895,7 +3537,18 @@
 		"url" : "http://simplyrecipes.com/recipes/african_chicken_peanut_stew/"
 	}, 
 	"recipeIngredient": [
-		"2-3 pounds chicken legs  thighs and/or wings",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "null",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "null",
+				"value" : "null"
+			},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -2930,9 +3583,57 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=yellow+or+white+onion++sliced"
 			}
 		},
-		"A 3-inch piece of ginger  peeled and minced",
-		"6-8 garlic cloves  chopped roughly",
-		"2-3 pounds sweet potatoes  peeled and cut into chunks",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "yellow or white onion  sliced",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "large",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=yellow+or+white+onion++sliced"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "yellow or white onion  sliced",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "large",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=yellow+or+white+onion++sliced"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "yellow or white onion  sliced",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "large",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=yellow+or+white+onion++sliced"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -3035,7 +3736,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=cayenne++or+to+taste"
 			}
 		},
-		"Salt and black pepper",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "cayenne  or to taste",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoon",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=cayenne++or+to+taste"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -3138,7 +3855,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=cloves++finely+chopped"
 			}
 		},
-		"4 red bell peppers  cored  cut lengthwise into 1/2?-wide strips",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "cloves  finely chopped",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "garlic",
+				"value" : "2"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=cloves++finely+chopped"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -3224,8 +3957,40 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=white+wine+vinegar+or+apple+cider+vinegar"
 			}
 		},
-		"Flaky sea salt  such as maldon",
-		"Harissa  a spicy north african red chile paste  is available at middle eastern markets  some specialty foods stores  and mustaphas.com."
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "white wine vinegar or apple cider vinegar",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoon",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=white+wine+vinegar+or+apple+cider+vinegar"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "white wine vinegar or apple cider vinegar",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoon",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=white+wine+vinegar+or+apple+cider+vinegar"
+			}
+		}
 	] 
 },
 {
@@ -3260,7 +4025,18 @@
 		"url" : "http://www.cookstr.com/Ethnic-Food/African-Peanut-Soup"
 	}, 
 	"recipeIngredient": [
-		"1? tbsp (22 ml) olive oil  divided",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "null",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "null",
+				"value" : "null"
+			},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -3295,7 +4071,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=(5+ml)+salt++divided"
 			}
 		},
-		"? tsp (1 ml) freshly ground black pepper",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "(5 ml) salt  divided",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tsp",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=(5+ml)+salt++divided"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -3347,7 +4139,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=(10+ml)+minced+gingerroot"
 			}
 		},
-		"? tsp (1 ml) hot pepper flakes",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "(10 ml) minced gingerroot",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tsp",
+				"value" : "2"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=(10+ml)+minced+gingerroot"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -3501,7 +4309,18 @@
 		"url" : "http://www.biggirlssmallkitchen.com/2011/12/vegetarian-african-peanut-stew.html"
 	}, 
 	"recipeIngredient": [
-		"olive oil",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "null",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "null",
+				"value" : "null"
+			},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -3519,7 +4338,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=red+onion"
 			}
 		},
-		"1 poblano pepper  seeded and ribs removed  finely chopped (you can use 1 green bell pepper if you can?t find poblano)",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "red onion",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "medium",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=red+onion"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -3588,8 +4423,40 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=curry+powder"
 			}
 		},
-		"One 15-ounce can diced tomatoes",
-		"? teaspoon salt",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "curry powder",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoons",
+				"value" : "2"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=curry+powder"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "curry powder",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoons",
+				"value" : "2"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=curry+powder"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -3641,7 +4508,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=crunchy+peanut+butter"
 			}
 		},
-		"? cup shelled edamame",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "crunchy peanut butter",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoons",
+				"value" : "3"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=crunchy+peanut+butter"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -3676,7 +4559,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=cilantro+leaves++chopped"
 			}
 		},
-		"roasted peanuts"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "cilantro leaves  chopped",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1/4"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=cilantro+leaves++chopped"
+			}
+		}
 	] 
 },
 {
@@ -3728,8 +4627,40 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=couscous"
 			}
 		},
-		"6 zucchini and/or yellow squash (about 2 1?2 lbs total)  sliced 1?4 inch thick",
-		"1 large eggplant (about 1 lb)  sliced 1?4 inch thick",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "couscous",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cups",
+				"value" : "2"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=couscous"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "couscous",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cups",
+				"value" : "2"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=couscous"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -3781,8 +4712,40 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=olive+oil"
 			}
 		},
-		"Kosher salt and black pepper",
-		"Spiced chili oil or store-bought harissa (north african chili sauce  found in the international aisle)"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "olive oil",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1/2"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=olive+oil"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "olive oil",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1/2"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=olive+oil"
+			}
+		}
 	] 
 },
 {
@@ -4021,7 +4984,18 @@
 		"url" : "http://www.foodandwine.com/recipes/west-african-chicken-soup"
 	}, 
 	"recipeIngredient": [
-		"One 3-pound chicken  neck reserved",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "null",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "null",
+				"value" : "null"
+			},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -4039,9 +5013,57 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=water"
 			}
 		},
-		"2 medium onions?1 unpeeled and quartered  1 thinly sliced",
-		"4 carrots?2 coarsely chopped  2 sliced 1/4 inch thick",
-		"4 celery ribs?2 coarsely chopped  2 sliced 1/4 inch thick",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "water",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "quarts",
+				"value" : "3 1/2"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=water"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "water",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "quarts",
+				"value" : "3 1/2"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=water"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "water",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "quarts",
+				"value" : "3 1/2"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=water"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -4127,7 +5149,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=sprigs"
 			}
 		},
-		"Kosher salt",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "sprigs",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "thyme",
+				"value" : "2"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=sprigs"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -4434,7 +5472,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=chili+powder"
 			}
 		},
-		"Peanut butter",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "chili powder",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoon",
+				"value" : "1/2"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=chili+powder"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -4809,11 +5863,91 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=tomato++coarsely+chopped+(about+2+cups)"
 			}
 		},
-		"? cup raisin",
-		"? tsp ground cinnamon",
-		"? tsp crushed red pepper",
-		"1 can (10 1/2 ounces) Campbell's? Condensed Chicken Broth",
-		"? cup water",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "tomato  coarsely chopped (about 2 cups)",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "large",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=tomato++coarsely+chopped+(about+2+cups)"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "tomato  coarsely chopped (about 2 cups)",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "large",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=tomato++coarsely+chopped+(about+2+cups)"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "tomato  coarsely chopped (about 2 cups)",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "large",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=tomato++coarsely+chopped+(about+2+cups)"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "tomato  coarsely chopped (about 2 cups)",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "large",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=tomato++coarsely+chopped+(about+2+cups)"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "tomato  coarsely chopped (about 2 cups)",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "large",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=tomato++coarsely+chopped+(about+2+cups)"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -4848,7 +5982,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=chopped+fresh+spinach+leaves"
 			}
 		},
-		"hot cooked rice or couscous"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "chopped fresh spinach leaves",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "coarsely",
+				"value" : "4"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=chopped+fresh+spinach+leaves"
+			}
+		}
 	] 
 },
 {
@@ -5206,7 +6356,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=kosher+salt"
 			}
 		},
-		"Freshly ground black pepper",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "kosher salt",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoons",
+				"value" : "1 1/2"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=kosher+salt"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -5292,7 +6458,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=baking+powder"
 			}
 		},
-		"? tsp salt",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "baking powder",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tsp",
+				"value" : "4"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=baking+powder"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -5378,7 +6560,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=water"
 			}
 		},
-		"? tsp cream of tartar",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "water",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cups",
+				"value" : "2"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=water"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -5532,8 +6730,40 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=skinless++boneless+chicken+(about+2+thighs+or+breasts)+cut+into+chunks"
 			}
 		},
-		"Pinch of cayenne",
-		"Salt and freshly ground black pepper",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "skinless  boneless chicken (about 2 thighs or breasts) cut into chunks",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pound",
+				"value" : "1/2"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=skinless++boneless+chicken+(about+2+thighs+or+breasts)+cut+into+chunks"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "skinless  boneless chicken (about 2 thighs or breasts) cut into chunks",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pound",
+				"value" : "1/2"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=skinless++boneless+chicken+(about+2+thighs+or+breasts)+cut+into+chunks"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -5568,7 +6798,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=potatoes+or+yams+(about+1+pound)++peeled+and+cut+into+thick+slices"
 			}
 		},
-		"8 plum tomatoes  cored and halved (canned are fine; drain and reserve liquid for another use)",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "potatoes or yams (about 1 pound)  peeled and cut into thick slices",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "sweet",
+				"value" : "2"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=potatoes+or+yams+(about+1+pound)++peeled+and+cut+into+thick+slices"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -5688,7 +6934,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=diced+tomatoes"
 			}
 		},
-		"? c. creamy or chunky peanut butter",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "diced tomatoes",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "can",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=diced+tomatoes"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -5706,9 +6968,57 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=ground+cumin"
 			}
 		},
-		"? tsp. ground cinnamon",
-		"? tsp. ground red pepper (cayenne)",
-		"salt",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "ground cumin",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tsp.",
+				"value" : "2"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=ground+cumin"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "ground cumin",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tsp.",
+				"value" : "2"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=ground+cumin"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "ground cumin",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tsp.",
+				"value" : "2"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=ground+cumin"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -5845,7 +7155,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=square+white+sandwich+bread"
 			}
 		},
-		"? cup milk",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "square white sandwich bread",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "slices",
+				"value" : "2"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=square+white+sandwich+bread"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -5965,7 +7291,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=sugar"
 			}
 		},
-		"? cup sliced almonds",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "sugar",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tbsp.",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=sugar"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -6034,7 +7376,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=eggs"
 			}
 		},
-		"Kosher salt and freshly ground black pepper  to taste"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "eggs",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pcs",
+				"value" : "2"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=eggs"
+			}
+		}
 	] 
 },
 {
@@ -6120,7 +7478,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=medium-hot+red+chilli+peppers++seeds+and+ribs+removed"
 			}
 		},
-		"2 piri piri  malagueta  or African bird?s eye chillies  seeds and ribs removed",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "medium-hot red chilli peppers  seeds and ribs removed",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "large",
+				"value" : "2"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=medium-hot+red+chilli+peppers++seeds+and+ribs+removed"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -6257,7 +7631,18 @@
 		"url" : "http://www.marthastewart.com/908789/harissa-spiced-roast-pork"
 	}, 
 	"recipeIngredient": [
-		"10 ounces harissa (North African chili sauce; about 1 1/4 cups)",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "null",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "null",
+				"value" : "null"
+			},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -6394,7 +7779,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=skin-on++bone-in+pork+picnic+shoulder+(about+11+pounds)++butterflied"
 			}
 		},
-		"barbecue sauce"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "skin-on  bone-in pork picnic shoulder (about 11 pounds)  butterflied",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pcs",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=skin-on++bone-in+pork+picnic+shoulder+(about+11+pounds)++butterflied"
+			}
+		}
 	] 
 },
 {
@@ -6480,7 +7881,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=paprika+++preferably+hot+Hungarian"
 			}
 		},
-		"4 (1?-pound) Cornish game hens",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "paprika   preferably hot Hungarian",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoons",
+				"value" : "2"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=paprika+++preferably+hot+Hungarian"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -6498,7 +7915,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=cloves++crushed+through+a+garlic+press"
 			}
 		},
-		"1? teaspoons salt   preferably coarse (kosher)",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "cloves  crushed through a garlic press",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "garlic",
+				"value" : "5"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=cloves++crushed+through+a+garlic+press"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -6516,8 +7949,40 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=quartered"
 			}
 		},
-		"? cup olive oil",
-		"? teaspoon cayenne pepper (optional)",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "quartered",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "orange",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=quartered"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "quartered",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "orange",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=quartered"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -7113,9 +8578,57 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=whole+milk+ricotta+cheese"
 			}
 		},
-		"1 tablespoon fresh mint; finely chopped",
-		"1/2 cup dates; finely chopped",
-		"3-4 shallots; finely chopped",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "whole milk ricotta cheese",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "ounces",
+				"value" : "7"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=whole+milk+ricotta+cheese"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "whole milk ricotta cheese",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "ounces",
+				"value" : "7"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=whole+milk+ricotta+cheese"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "whole milk ricotta cheese",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "ounces",
+				"value" : "7"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=whole+milk+ricotta+cheese"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -7133,7 +8646,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=harissa"
 			}
 		},
-		"Salt and freshly ground black pepper; to taste",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "harissa",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoon",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=harissa"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -7168,8 +8697,40 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=olive+oil"
 			}
 		},
-		"1 medium sized onion; finely chopped",
-		"2 cloves garlic; minced",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "olive oil",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoon",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=olive+oil"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "olive oil",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoon",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=olive+oil"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -7187,9 +8748,57 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=red+wine"
 			}
 		},
-		"1 can of crushed tomatoes; 28 oz.",
-		"1 tablespoon fresh oregano; finely chopped (or 1 tsp. of dried oregano)",
-		"2 teaspoons ceylon cinnamon (or start with 1 tsp. of cassia and add more until you can taste the cinnamon without it being overwhelming. you want the people eating it to say oh  there's cinnamon in that?.",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "red wine",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "ounces",
+				"value" : "3"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=red+wine"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "red wine",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "ounces",
+				"value" : "3"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=red+wine"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "red wine",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "ounces",
+				"value" : "3"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=red+wine"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -7207,7 +8816,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=salt"
 			}
 		},
-		"Freshly ground black pepper; to taste",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "salt",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoon",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=salt"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -7225,8 +8850,40 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=almond+milk"
 			}
 		},
-		"1/2 cup pine nuts; toasted",
-		"4 ounces feta cheese; crumbled"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "almond milk",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=almond+milk"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "almond milk",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=almond+milk"
+			}
+		}
 	] 
 },
 {
@@ -7652,8 +9309,40 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=challah++or+kaiser+rolls+(about+4+inches+in+diameter)"
 			}
 		},
-		"Special equipment: an electric coffee/spice grinder",
-		"Accompaniments: extra-virgin olive oil; harissa (spicy North African condiment) or cayenne (optional)"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "challah  or kaiser rolls (about 4 inches in diameter)",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "Portuguese",
+				"value" : "4"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=challah++or+kaiser+rolls+(about+4+inches+in+diameter)"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "challah  or kaiser rolls (about 4 inches in diameter)",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "Portuguese",
+				"value" : "4"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=challah++or+kaiser+rolls+(about+4+inches+in+diameter)"
+			}
+		}
 	] 
 },
 {
@@ -7892,7 +9581,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=chicken+broth"
 			}
 		},
-		"ground black pepper"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "chicken broth",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cups",
+				"value" : "5"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=chicken+broth"
+			}
+		}
 	] 
 },
 {
@@ -8029,7 +9734,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=bell+pepper++thinly+sliced"
 			}
 		},
-		"4 medium tomatoes?peeled  seeded and sliced crosswise 1 inch thick",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "bell pepper  thinly sliced",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "yellow",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=bell+pepper++thinly+sliced"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -8081,8 +9802,40 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=catfish+or+tilapia+fillets++cut+into+1+1/2-inch+cubes"
 			}
 		},
-		"salt",
-		"freshly ground pepper",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "catfish or tilapia fillets  cut into 1 1/2-inch cubes",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pounds",
+				"value" : "1 1/2"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=catfish+or+tilapia+fillets++cut+into+1+1/2-inch+cubes"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "catfish or tilapia fillets  cut into 1 1/2-inch cubes",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pounds",
+				"value" : "1 1/2"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=catfish+or+tilapia+fillets++cut+into+1+1/2-inch+cubes"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -8372,7 +10125,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=teaspoon+++mild+curry+powder"
 			}
 		},
-		"1  tablespoon   yellow miso paste*",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "teaspoon   mild curry powder",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pcs",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=teaspoon+++mild+curry+powder"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -8424,7 +10193,18 @@
 		"url" : "http://www.myrecipes.com/recipe/west-african-peanut-stew-10000001935471/"
 	}, 
 	"recipeIngredient": [
-		"Cooking spray",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "null",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "null",
+				"value" : "null"
+			},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -8646,8 +10426,40 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=T-bone+beef+steaks"
 			}
 		},
-		"? tsp. olive oil",
-		"? tsp. salt",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "T-bone beef steaks",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pcs",
+				"value" : "2"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=T-bone+beef+steaks"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "T-bone beef steaks",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pcs",
+				"value" : "2"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=T-bone+beef+steaks"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -8716,9 +10528,57 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=dried+rosemary"
 			}
 		},
-		"? tsp. fresh-ground black pepper",
-		"? tsp. ground cinnamon",
-		"? tsp. turmeric",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "dried rosemary",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tsp.",
+				"value" : "2"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=dried+rosemary"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "dried rosemary",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tsp.",
+				"value" : "2"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=dried+rosemary"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "dried rosemary",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tsp.",
+				"value" : "2"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=dried+rosemary"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -8838,7 +10698,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=thinly+sliced+shallots+(2+to+3+small)"
 			}
 		},
-		"coarse salt",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "thinly sliced shallots (2 to 3 small)",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1/2"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=thinly+sliced+shallots+(2+to+3+small)"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -8856,7 +10732,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=ground+cumin"
 			}
 		},
-		"2 tablespoons harissa (North African hot-chile paste; kalustyans.com)",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "ground cumin",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoon",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=ground+cumin"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -8891,7 +10783,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=(15.5+ounces)+chickpeas++drained+and+rinsed"
 			}
 		},
-		"Pinch of saffron threads",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "(15.5 ounces) chickpeas  drained and rinsed",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "can",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=(15.5+ounces)+chickpeas++drained+and+rinsed"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -8909,7 +10817,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=Israeli+couscous"
 			}
 		},
-		"chopped cilantro"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "Israeli couscous",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cups",
+				"value" : "1 1/2"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=Israeli+couscous"
+			}
+		}
 	] 
 },
 {
@@ -8944,11 +10868,66 @@
 		"url" : "http://honestcooking.com/african-chicken-in-peanut-sauce/"
 	}, 
 	"recipeIngredient": [
-		"? teaspoon(s) salt",
-		"? teaspoon(s) ground black pepper",
-		"1? teaspoon(s) chopped garlic",
-		"1? teaspoon(s) onion powder",
-		"? teaspoon(s) ground cayenne pepper",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "null",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "null",
+				"value" : "null"
+			},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "null",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "null",
+				"value" : "null"
+			},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "null",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "null",
+				"value" : "null"
+			},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "null",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "null",
+				"value" : "null"
+			},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "null",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "null",
+				"value" : "null"
+			},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -9085,7 +11064,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=(950+ml)+chicken+broth"
 			}
 		},
-		"? cup(s) (120 ml) smooth peanut butter",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "(950 ml) chicken broth",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup(s)",
+				"value" : "4"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=(950+ml)+chicken+broth"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -9103,13 +11098,125 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=tomato+paste"
 			}
 		},
-		"? tomato  seeded and diced",
-		"1 teaspoon(s) chopped fresh thyme leaves (or ? tsp. dried)",
-		"? teaspoon(s) peeled  grated fresh ginger",
-		"? cup(s) (120 ml) well-mixed coconut milk",
-		"? teaspoon(s) salt",
-		"? teaspoon(s) finely ground black pepper",
-		"? cup(s) (60 ml) chopped parsley  for garnish"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "tomato paste",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoon(s)",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=tomato+paste"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "tomato paste",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoon(s)",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=tomato+paste"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "tomato paste",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoon(s)",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=tomato+paste"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "tomato paste",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoon(s)",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=tomato+paste"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "tomato paste",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoon(s)",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=tomato+paste"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "tomato paste",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoon(s)",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=tomato+paste"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "tomato paste",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoon(s)",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=tomato+paste"
+			}
+		}
 	] 
 },
 {
@@ -9161,8 +11268,40 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=strongly+brewed+hot+black+tea"
 			}
 		},
-		"? cup raisins",
-		"? cup chopped dried apricots",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "strongly brewed hot black tea",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=strongly+brewed+hot+black+tea"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "strongly brewed hot black tea",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=strongly+brewed+hot+black+tea"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -9265,11 +11404,91 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=cayenne+pepper"
 			}
 		},
-		"? sp. ground cumin",
-		"? sp. ground fenugreek (available at Indian Foods Company)",
-		"? sp. ground black pepper",
-		"? sp. ground fennel",
-		"Kosher salt  to taste",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "cayenne pepper",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tsp.",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=cayenne+pepper"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "cayenne pepper",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tsp.",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=cayenne+pepper"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "cayenne pepper",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tsp.",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=cayenne+pepper"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "cayenne pepper",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tsp.",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=cayenne+pepper"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "cayenne pepper",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tsp.",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=cayenne+pepper"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -9321,7 +11540,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=ground+lamb"
 			}
 		},
-		"? cup sliced almonds"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "ground lamb",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "oz.",
+				"value" : "8"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=ground+lamb"
+			}
+		}
 	] 
 },
 {
@@ -9458,7 +11693,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=garlic++minced"
 			}
 		},
-		"Freshly ground pepper  to taste",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "garlic  minced",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cloves",
+				"value" : "3"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=garlic++minced"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -9714,7 +11965,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=chopped+fresh+parsley"
 			}
 		},
-		"Freshly ground pepper to taste",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "chopped fresh parsley",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1/4"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=chopped+fresh+parsley"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -9834,7 +12101,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=minced+shallot"
 			}
 		},
-		"1/4 cup cr?me fra?che",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "minced shallot",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1/4"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=minced+shallot"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -9852,7 +12135,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=plus+1+tablespoon+extra-virgin+olive+oil"
 			}
 		},
-		"Salt and freshly ground black pepper",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "plus 1 tablespoon extra-virgin olive oil",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1/2"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=plus+1+tablespoon+extra-virgin+olive+oil"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -9904,7 +12203,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=shrimp++butterflied+in+their+shells"
 			}
 		},
-		"Three 8-ounce frozen raw South African lobster tails  thawed and halved lengthwise",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "shrimp  butterflied in their shells",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "jumbo",
+				"value" : "6"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=shrimp++butterflied+in+their+shells"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -9939,7 +12254,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=sea+scallops++2+to+3+ounces+each"
 			}
 		},
-		"Garlic toast  for serving"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "sea scallops  2 to 3 ounces each",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "large",
+				"value" : "6"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=sea+scallops++2+to+3+ounces+each"
+			}
+		}
 	] 
 },
 {
@@ -10093,9 +12424,57 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=minced+garlic+(about+3+good-sized+cloves)"
 			}
 		},
-		"1 ? teaspoons salt",
-		"Freshly ground black pepper",
-		"Lime wedges  for garnish"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "minced garlic (about 3 good-sized cloves)",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoon",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=minced+garlic+(about+3+good-sized+cloves)"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "minced garlic (about 3 good-sized cloves)",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoon",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=minced+garlic+(about+3+good-sized+cloves)"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "minced garlic (about 3 good-sized cloves)",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoon",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=minced+garlic+(about+3+good-sized+cloves)"
+			}
+		}
 	] 
 },
 {
@@ -10776,7 +13155,18 @@
 		"url" : "http://www.saveur.com/article/Recipes/Paraguayan-Chipa-Easter-Breakfast-Bread"
 	}, 
 	"recipeIngredient": [
-		"2 ½ cups yucca flour*  plus extra for rolling",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "null",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "null",
+				"value" : "null"
+			},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -10930,7 +13320,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=grated+parmesan"
 			}
 		},
-		"??? cup crumbled feta",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "grated parmesan",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "¼"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=grated+parmesan"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -10948,8 +13354,40 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=shredded+cheddar"
 			}
 		},
-		"Flake sea salt  to garnish",
-		"*Also called cassava or manioc  yucca flour or starch can be found in many South American  African  Caribbean and Southeast Asian specialty markets."
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "shredded cheddar",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "½"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=shredded+cheddar"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "shredded cheddar",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "½"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=shredded+cheddar"
+			}
+		}
 	] 
 },
 {
@@ -11137,8 +13575,40 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=pepper++cut+in+squares"
 			}
 		},
-		"Tsp cumin seeds",
-		"Tsp turmeric powder",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "pepper  cut in squares",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "green",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=pepper++cut+in+squares"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "pepper  cut in squares",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "green",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=pepper++cut+in+squares"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -11224,7 +13694,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=olive+oil"
 			}
 		},
-		"Salt to taste"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "olive oil",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tbsp",
+				"value" : "2"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=olive+oil"
+			}
+		}
 	] 
 },
 {
@@ -11599,7 +14085,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=caraway+seeds"
 			}
 		},
-		"Pinch of salt",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "caraway seeds",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoon",
+				"value" : "1/2"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=caraway+seeds"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -11702,7 +14204,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=extra-virgin+olive+oil"
 			}
 		},
-		"Freshly ground pepper to taste",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "extra-virgin olive oil",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoons",
+				"value" : "2"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=extra-virgin+olive+oil"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -11890,7 +14408,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=olive+oil"
 			}
 		},
-		"3 lb. (1.5 kg) boneless  skinless chicken breasts  cut into_x000d_   1 1/2-inch (4-cm) cubes",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "olive oil",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "Tbs.",
+				"value" : "3"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=olive+oil"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -11976,8 +14510,40 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=extra-virgin+olive+oil"
 			}
 		},
-		"1/2 cup (3/4 oz./20 g) chopped mixed fresh herbs  such as_x000d_   parsley  cilantro and mint",
-		"Salt and freshly ground pepper  to taste"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "extra-virgin olive oil",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "Tbs.",
+				"value" : "3"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=extra-virgin+olive+oil"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "extra-virgin olive oil",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "Tbs.",
+				"value" : "3"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=extra-virgin+olive+oil"
+			}
+		}
 	] 
 },
 {
@@ -12709,7 +15275,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=salt++or+to+taste"
 			}
 		},
-		"freshly ground pepper",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "salt  or to taste",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoon",
+				"value" : "1/4"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=salt++or+to+taste"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -13254,7 +15836,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=harissa"
 			}
 		},
-		"Sea salt and freshly ground pepper  to taste",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "harissa",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tsp.",
+				"value" : "3/4"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=harissa"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -13731,7 +16329,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=ground+cardamom"
 			}
 		},
-		"Pinch of ground turmeric",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "ground cardamom",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoon",
+				"value" : "1/4"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=ground+cardamom"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -13800,7 +16414,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=(15-oz.)+cans+chickpeas++drained+and+rinsed"
 			}
 		},
-		"crushed red pepper"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "(15-oz.) cans chickpeas  drained and rinsed",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pcs",
+				"value" : "2"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=(15-oz.)+cans+chickpeas++drained+and+rinsed"
+			}
+		}
 	] 
 },
 {
@@ -14005,7 +16635,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=(28-ounce)+can+diced+tomatoes++undrained"
 			}
 		},
-		"Flat-leaf parsley sprigs (optional)"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "(28-ounce) can diced tomatoes  undrained",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pcs",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=(28-ounce)+can+diced+tomatoes++undrained"
+			}
+		}
 	] 
 },
 {
@@ -14261,8 +16907,40 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=chicken+broth/stock"
 			}
 		},
-		"Salt and pepper",
-		"Olive oil"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "chicken broth/stock",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1/4"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=chicken+broth/stock"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "chicken broth/stock",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1/4"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=chicken+broth/stock"
+			}
+		}
 	] 
 },
 {
@@ -14297,7 +16975,18 @@
 		"url" : "https://food52.com/recipes/7517-smoked-turkey-stewed-in-west-african-gravy"
 	}, 
 	"recipeIngredient": [
-		"Oil",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "null",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "null",
+				"value" : "null"
+			},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -14434,7 +17123,18 @@
 		"url" : "http://www.myrecipes.com/recipe/north-african-lamb-stew-00420000003554/"
 	}, 
 	"recipeIngredient": [
-		"Cooking spray",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "null",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "null",
+				"value" : "null"
+			},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -14911,7 +17611,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=seedless+raisins"
 			}
 		},
-		"4 strips of lemon rind  about 1/2? wide",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "seedless raisins",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1/2"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=seedless+raisins"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -14929,7 +17645,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=lean++coarsely+ground+lamb+(or+beef++chicken+or+pork)"
 			}
 		},
-		"1-2 dash sriracha chili sauce (optional)",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "lean  coarsely ground lamb (or beef  chicken or pork)",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pounds",
+				"value" : "2"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=lean++coarsely+ground+lamb+(or+beef++chicken+or+pork)"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -15117,7 +17849,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=Roma+tomatoes++rinsed++cored++and+chopped"
 			}
 		},
-		"2 tablespoons minced fresh jalape?o chilies",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "Roma tomatoes  rinsed  cored  and chopped",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pounds",
+				"value" : "1 1/4"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=Roma+tomatoes++rinsed++cored++and+chopped"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -15152,11 +17900,91 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=firm-ripe+banana+(about+5+oz.)++peeled+and+thinly+sliced"
 			}
 		},
-		"About 1/2 cup mango chutney",
-		"About 1/3 cup sweetened shredded dried coconut",
-		"Cucumber Yogurt Sauce",
-		"About 6 cups hot cooked rice",
-		"Salt"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "firm-ripe banana (about 5 oz.)  peeled and thinly sliced",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pcs",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=firm-ripe+banana+(about+5+oz.)++peeled+and+thinly+sliced"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "firm-ripe banana (about 5 oz.)  peeled and thinly sliced",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pcs",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=firm-ripe+banana+(about+5+oz.)++peeled+and+thinly+sliced"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "firm-ripe banana (about 5 oz.)  peeled and thinly sliced",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pcs",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=firm-ripe+banana+(about+5+oz.)++peeled+and+thinly+sliced"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "firm-ripe banana (about 5 oz.)  peeled and thinly sliced",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pcs",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=firm-ripe+banana+(about+5+oz.)++peeled+and+thinly+sliced"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "firm-ripe banana (about 5 oz.)  peeled and thinly sliced",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pcs",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=firm-ripe+banana+(about+5+oz.)++peeled+and+thinly+sliced"
+			}
+		}
 	] 
 },
 {
@@ -15225,8 +18053,40 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=olive+oil++divided"
 			}
 		},
-		"salt",
-		"pepper",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "olive oil  divided",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoons",
+				"value" : "6"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=olive+oil++divided"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "olive oil  divided",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoons",
+				"value" : "6"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=olive+oil++divided"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -15261,7 +18121,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=pitted+Castelvetrano+or+other+mild+green+olives"
 			}
 		},
-		"2 to 3 tbsp. harissa* (North African chile-and-spice paste)",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "pitted Castelvetrano or other mild green olives",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1/4"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=pitted+Castelvetrano+or+other+mild+green+olives"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -15602,7 +18478,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=chopped+fresh+cilantro"
 			}
 		},
-		"Sliced green onions (optional)"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "chopped fresh cilantro",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1/2"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=chopped+fresh+cilantro"
+			}
+		}
 	] 
 },
 {
@@ -15807,7 +18699,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=(28-ounce)+can+diced+tomatoes++undrained"
 			}
 		},
-		"parsley sprigs"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "(28-ounce) can diced tomatoes  undrained",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pcs",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=(28-ounce)+can+diced+tomatoes++undrained"
+			}
+		}
 	] 
 },
 {
@@ -16199,7 +19107,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=Roma+tomatoes++rinsed++cored++and+chopped"
 			}
 		},
-		"2 tablespoons minced fresh jalape?o chilies",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "Roma tomatoes  rinsed  cored  and chopped",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pounds",
+				"value" : "1 1/4"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=Roma+tomatoes++rinsed++cored++and+chopped"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -16234,11 +19158,91 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=firm-ripe+banana+(about+5+oz.)++peeled+and+thinly+sliced"
 			}
 		},
-		"About 1/2 cup mango chutney",
-		"About 1/3 cup sweetened shredded dried coconut",
-		"",
-		"About 6 cups hot cooked rice",
-		"salt"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "firm-ripe banana (about 5 oz.)  peeled and thinly sliced",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pcs",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=firm-ripe+banana+(about+5+oz.)++peeled+and+thinly+sliced"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "firm-ripe banana (about 5 oz.)  peeled and thinly sliced",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pcs",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=firm-ripe+banana+(about+5+oz.)++peeled+and+thinly+sliced"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "firm-ripe banana (about 5 oz.)  peeled and thinly sliced",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pcs",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=firm-ripe+banana+(about+5+oz.)++peeled+and+thinly+sliced"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "firm-ripe banana (about 5 oz.)  peeled and thinly sliced",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pcs",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=firm-ripe+banana+(about+5+oz.)++peeled+and+thinly+sliced"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "firm-ripe banana (about 5 oz.)  peeled and thinly sliced",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pcs",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=firm-ripe+banana+(about+5+oz.)++peeled+and+thinly+sliced"
+			}
+		}
 	] 
 },
 {
@@ -16562,7 +19566,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=fresh+lemon+juice"
 			}
 		},
-		"Fresh cilantro sprigs"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "fresh lemon juice",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoons",
+				"value" : "2"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=fresh+lemon+juice"
+			}
+		}
 	] 
 },
 {
@@ -16597,7 +19617,18 @@
 		"url" : "http://www.myrecipes.com/recipe/north-african-veal-shanks"
 	}, 
 	"recipeIngredient": [
-		"marinade",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "null",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "null",
+				"value" : "null"
+			},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -16666,9 +19697,57 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=reduced-sodium+soy+sauce"
 			}
 		},
-		"3 whole veal shanks (about 8 lbs. total)  preferably free-raised*  cross-cut by your butcher into 2-in.-thick slices; or 7 lbs. short ribs  cut crosswise into 4-in. pieces",
-		"3 whole veal shanks (about 8 lbs. total)  preferably free-raised*  cross-cut by your butcher into 2-in.-thick slices; or 7 lbs. short ribs  cut crosswise into 4-in. pieces",
-		"2 jalape?o chiles  cut lengthwise into quarters and seeded if very hot",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "reduced-sodium soy sauce",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1/2"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=reduced-sodium+soy+sauce"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "reduced-sodium soy sauce",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1/2"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=reduced-sodium+soy+sauce"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "reduced-sodium soy sauce",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1/2"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=reduced-sodium+soy+sauce"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -16771,7 +19850,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=reduced-sodium+beef+broth"
 			}
 		},
-		"1 tablespoon harissa*",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "reduced-sodium beef broth",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "qts.",
+				"value" : "1 1/2"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=reduced-sodium+beef+broth"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -17010,7 +20105,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=salt++divided"
 			}
 		},
-		"Cooking spray",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "salt  divided",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoon",
+				"value" : "3/4"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=salt++divided"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -17538,7 +20649,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=fresh+lemon+juice"
 			}
 		},
-		"cilantro sprigs"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "fresh lemon juice",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoons",
+				"value" : "2"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=fresh+lemon+juice"
+			}
+		}
 	] 
 },
 {
@@ -17726,7 +20853,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=cream"
 			}
 		},
-		"Juice of 1/2 lime (about 1 -1 1/2 teaspoons)",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "cream",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=cream"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -17744,7 +20887,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=fresh+chopped+cilantro++plus+extra+for+garnish"
 			}
 		},
-		"Sea salt  to taste",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "fresh chopped cilantro  plus extra for garnish",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1/4"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=fresh+chopped+cilantro++plus+extra+for+garnish"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -18289,7 +21448,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=eggplant"
 			}
 		},
-		"Salt for sprinkling",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "eggplant",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "large",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=eggplant"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -18358,7 +21533,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=large+eggs"
 			}
 		},
-		"A handful (about 1/2 cup packed) chopped fresh parsley or coriander/cilantro leaves  or a mixture (i use coriander)",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "large eggs",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "x",
+				"value" : "8"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=large+eggs"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -18444,8 +21635,40 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=fine+salt"
 			}
 		},
-		"Harissa (north african hot pepper paste) or cayenne pepper  to taste (optional)",
-		"Lemon wedges"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "fine salt",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tsp",
+				"value" : "3/4"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=fine+salt"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "fine salt",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tsp",
+				"value" : "3/4"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=fine+salt"
+			}
+		}
 	] 
 },
 {
@@ -18497,8 +21720,40 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=boneless+sirloin+steak++cut+into+1+1/4-inch+pieces"
 			}
 		},
-		"freshly ground pepper",
-		"coarse salt",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "boneless sirloin steak  cut into 1 1/4-inch pieces",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pounds",
+				"value" : "1 1/4"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=boneless+sirloin+steak++cut+into+1+1/4-inch+pieces"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "boneless sirloin steak  cut into 1 1/4-inch pieces",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pounds",
+				"value" : "1 1/4"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=boneless+sirloin+steak++cut+into+1+1/4-inch+pieces"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -18635,7 +21890,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=fresh+mint+leaves++sliced+if+large++for+serving"
 			}
 		},
-		"couscous"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "fresh mint leaves  sliced if large  for serving",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1/4"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=fresh+mint+leaves++sliced+if+large++for+serving"
+			}
+		}
 	] 
 },
 {
@@ -18993,7 +22264,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=chilli++roughly+chopped"
 			}
 		},
-		"? lemon  juice only",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "chilli  roughly chopped",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "dried",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=chilli++roughly+chopped"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -19079,7 +22366,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=sea+salt"
 			}
 		},
-		"? tsp freshly ground black pepper",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "sea salt",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tsp",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=sea+salt"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -19097,8 +22400,40 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=large+african+prawns++shells+removed+but+tails+left+on++cleaned"
 			}
 		},
-		"200g/7oz wholegrain couscous",
-		"400ml/14fl oz boiling water",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "large african prawns  shells removed but tails left on  cleaned",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "very",
+				"value" : "12"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=large+african+prawns++shells+removed+but+tails+left+on++cleaned"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "large african prawns  shells removed but tails left on  cleaned",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "very",
+				"value" : "12"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=large+african+prawns++shells+removed+but+tails+left+on++cleaned"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -19150,7 +22485,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=baharat+spice+mix+(available+from+middle+eastern+stores+and+some+supermarkets)"
 			}
 		},
-		"? lemon  juice only",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "baharat spice mix (available from middle eastern stores and some supermarkets)",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tsp",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=baharat+spice+mix+(available+from+middle+eastern+stores+and+some+supermarkets)"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -20596,7 +23947,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=unsalted+smooth+natural+peanut+butter"
 			}
 		},
-		"Chopped peanuts for garnish"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "unsalted smooth natural peanut butter",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1/2"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=unsalted+smooth+natural+peanut+butter"
+			}
+		}
 	] 
 },
 {
@@ -20682,7 +24049,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=knob+of+peeled+fresh+ginger++thinly+sliced"
 			}
 		},
-		"-- Grated zest of 1 orange",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "knob of peeled fresh ginger  thinly sliced",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "inch",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=knob+of+peeled+fresh+ginger++thinly+sliced"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -20700,7 +24083,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=sea+salt"
 			}
 		},
-		"Spice Blend:",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "sea salt",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoon",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=sea+salt"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -21364,8 +24763,40 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=1+small+preserved+lemon++skin+only++thinly+sliced+(pith+removed)"
 			}
 		},
-		"Kosher salt",
-		"Lemon juice as needed",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "1 small preserved lemon  skin only  thinly sliced (pith removed)",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "to",
+				"value" : "1/2"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=1+small+preserved+lemon++skin+only++thinly+sliced+(pith+removed)"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "1 small preserved lemon  skin only  thinly sliced (pith removed)",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "to",
+				"value" : "1/2"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=1+small+preserved+lemon++skin+only++thinly+sliced+(pith+removed)"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -21383,8 +24814,40 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=16+eggs+(1+or+2+eggs+per+serving++as+desired)"
 			}
 		},
-		"Crumbled sheep's milk cheese like ricotta salata (optional)",
-		"Soft flatbread or lightly toasted artisan bread for serving  if desired"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "16 eggs (1 or 2 eggs per serving  as desired)",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "to",
+				"value" : "6"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=16+eggs+(1+or+2+eggs+per+serving++as+desired)"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "16 eggs (1 or 2 eggs per serving  as desired)",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "to",
+				"value" : "6"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=16+eggs+(1+or+2+eggs+per+serving++as+desired)"
+			}
+		}
 	] 
 },
 {
@@ -21640,7 +25103,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=roasted+unsalted+peanuts"
 			}
 		},
-		"1-2 limes (juice only)"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "roasted unsalted peanuts",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "handfuls",
+				"value" : "2"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=roasted+unsalted+peanuts"
+			}
+		}
 	] 
 },
 {
@@ -21845,7 +25324,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=water"
 			}
 		},
-		"1 to 1 1/2 tablespoons harissa sauce* or other chile paste (such as sambal oelek)**",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "water",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1/2"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=water"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -21897,8 +25392,40 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=all-beef+hot+dogs"
 			}
 		},
-		"*a spicy north african red chile paste; available at some specialty foods stores and at middle eastern markets.",
-		"**available in the asian foods section of many supermarkets and at asian markets."
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "all-beef hot dogs",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "grilled",
+				"value" : "6"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=all-beef+hot+dogs"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "all-beef hot dogs",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "grilled",
+				"value" : "6"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=all-beef+hot+dogs"
+			}
+		}
 	] 
 },
 {
@@ -22086,7 +25613,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=olive+oil"
 			}
 		},
-		"One 5-to 6-pound bone-in leg of lamb",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "olive oil",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1/4"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=olive+oil"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -22121,7 +25664,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=dry+white+wine++or+more+if+needed"
 			}
 		},
-		"1? pounds medium or small red onions  peeled and halved or quartered",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "dry white wine  or more if needed",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1/3"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=dry+white+wine++or+more+if+needed"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -22224,7 +25783,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=red+pepper+(bell+pepper+for+milder+heat++or+a+hotter+variety++such+as+red+horned+pepper++depending+on+your+heat+preference)++stems++seeds++and+ribs+removed++thinly+sliced"
 			}
 		},
-		"1 fresh small hot chili (such as jalape?o  serrano  or Fresno)  stems  seeds  and ribs removed  thinly sliced",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "red pepper (bell pepper for milder heat  or a hotter variety  such as red horned pepper  depending on your heat preference)  stems  seeds  and ribs removed  thinly sliced",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "large",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=red+pepper+(bell+pepper+for+milder+heat++or+a+hotter+variety++such+as+red+horned+pepper++depending+on+your+heat+preference)++stems++seeds++and+ribs+removed++thinly+sliced"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -22276,9 +25851,57 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=(8g)+whole+or+ground+cumin+seed"
 			}
 		},
-		"1 (28-ounce; 800g) can whole peeled tomatoes  crushed by squeezing between your fingers or with a pastry blender (see note above)",
-		"Kosher salt and freshly ground black pepper",
-		"Large handful minced cilantro  parsley  or a mix",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "(8g) whole or ground cumin seed",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoons",
+				"value" : "2"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=(8g)+whole+or+ground+cumin+seed"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "(8g) whole or ground cumin seed",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoons",
+				"value" : "2"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=(8g)+whole+or+ground+cumin+seed"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "(8g) whole or ground cumin seed",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoons",
+				"value" : "2"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=(8g)+whole+or+ground+cumin+seed"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -22296,8 +25919,40 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=eggs"
 			}
 		},
-		"Sliced oil-cured black olives  feta cheese  or artichoke hearts  for serving (all optional)",
-		"Crusty bread  for serving"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "eggs",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pcs",
+				"value" : "6"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=eggs"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "eggs",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pcs",
+				"value" : "6"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=eggs"
+			}
+		}
 	] 
 },
 {
@@ -22349,7 +26004,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=Cups+++strong+Rooibos+tea++cooled"
 			}
 		},
-		"4-6  Ounces   shots brandy (depending on the time of day)",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "Cups   strong Rooibos tea  cooled",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pcs",
+				"value" : "4"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=Cups+++strong+Rooibos+tea++cooled"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -22401,7 +26072,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=lemon+(sliced)"
 			}
 		},
-		"Large handful of fresh mint leaves"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "lemon (sliced)",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pcs",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=lemon+(sliced)"
+			}
+		}
 	] 
 },
 {
@@ -22572,7 +26259,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=Yellow+bell+pepper+-diced"
 			}
 		},
-		"1 x Jalape?o pepper - diced fine",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "Yellow bell pepper -diced",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "x",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=Yellow+bell+pepper+-diced"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {

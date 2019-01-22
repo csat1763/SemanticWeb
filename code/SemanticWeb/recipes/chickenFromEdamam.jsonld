@@ -167,7 +167,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=dried+oregano"
 			}
 		},
-		"Salt and pepper",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "dried oregano",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoon",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=dried+oregano"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -270,7 +286,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=black+pepper"
 			}
 		},
-		"1 tablespoon butter ? cultured unsalted (or olive oil)",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "black pepper",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoon",
+				"value" : "1/4"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=black+pepper"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -373,7 +405,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=sour+cream"
 			}
 		},
-		"1 tablespoon flour ? all-purpose"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "sour cream",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1/2"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=sour+cream"
+			}
+		}
 	] 
 },
 {
@@ -493,7 +541,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=fresh+thyme+leaves"
 			}
 		},
-		"Coarse salt and freshly ground black pepper"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "fresh thyme leaves",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoon",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=fresh+thyme+leaves"
+			}
+		}
 	] 
 },
 {
@@ -596,7 +660,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=peeled++rinds+thinly+sliced+and+reserved"
 			}
 		},
-		"? cup Banyuls or another fortified dessert wine",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "peeled  rinds thinly sliced and reserved",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "lemons",
+				"value" : "3"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=peeled++rinds+thinly+sliced+and+reserved"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -716,7 +796,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=or+clementine"
 			}
 		},
-		"Kosher salt",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "or clementine",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tangerine",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=or+clementine"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -904,7 +1000,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=cream"
 			}
 		},
-		"small bunch of parsley",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "cream",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "ml",
+				"value" : "200"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=cream"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -956,10 +1068,54 @@
 		"url" : "https://www.tastingtable.com/entry_detail/chefs_recipes/10154/Matzo_balls_watch_your_back.htm"
 	}, 
 	"recipeIngredient": [
-		"1? teaspoons canola oil",
-		"? small shallot  finely chopped",
-		"1 cup (about ? pound) raw  boneless chicken meat (preferably from 3 boneless chicken thighs)  roughly chopped",
-		"? cup (about ? pound) chicken skin and fat (reserved from the 3 chicken thighs)",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "null",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "null",
+				"value" : "null"
+			},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "null",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "null",
+				"value" : "null"
+			},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "null",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "null",
+				"value" : "null"
+			},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "null",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "null",
+				"value" : "null"
+			},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -994,9 +1150,57 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=cloves++finely+chopped"
 			}
 		},
-		"? cup finely chopped chives  plus extra for serving",
-		"1? teaspoons kosher salt",
-		"? teaspoon freshly ground black pepper",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "cloves  finely chopped",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "garlic",
+				"value" : "2"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=cloves++finely+chopped"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "cloves  finely chopped",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "garlic",
+				"value" : "2"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=cloves++finely+chopped"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "cloves  finely chopped",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "garlic",
+				"value" : "2"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=cloves++finely+chopped"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -1099,7 +1303,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=whites"
 			}
 		},
-		"juice from ? lemon",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "whites",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "egg",
+				"value" : "2"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=whites"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -1151,7 +1371,18 @@
 		"url" : "http://simplyrecipes.com/recipes/chicken_piccata/"
 	}, 
 	"recipeIngredient": [
-		"2-4 boneless  skinless chicken breast halves (1 1/2 pound total)",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "null",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "null",
+				"value" : "null"
+			},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -1186,7 +1417,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=flour"
 			}
 		},
-		"Salt and pepper",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "flour",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1/3"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=flour"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -1340,7 +1587,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=chicken++about+3-4+pounds"
 			}
 		},
-		"-- Salt and fresh-ground pepper  to taste",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "chicken  about 3-4 pounds",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "whole",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=chicken++about+3-4+pounds"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -1358,8 +1621,40 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=4+sprigs+thyme++or+other+herbs"
 			}
 		},
-		"-- Olive oil  to taste",
-		"-- Chicken stock (optional)"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "4 sprigs thyme  or other herbs",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "to",
+				"value" : "3"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=4+sprigs+thyme++or+other+herbs"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "4 sprigs thyme  or other herbs",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "to",
+				"value" : "3"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=4+sprigs+thyme++or+other+herbs"
+			}
+		}
 	] 
 },
 {
@@ -1479,9 +1774,57 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=breasts++or+chicken+thighs++bones+removed"
 			}
 		},
-		"175ml/6fl oz white wine",
-		"3 tbsp tomato pur?e",
-		"500ml/17 fl oz chicken stock",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "breasts  or chicken thighs  bones removed",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "chicken",
+				"value" : "6"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=breasts++or+chicken+thighs++bones+removed"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "breasts  or chicken thighs  bones removed",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "chicken",
+				"value" : "6"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=breasts++or+chicken+thighs++bones+removed"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "breasts  or chicken thighs  bones removed",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "chicken",
+				"value" : "6"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=breasts++or+chicken+thighs++bones+removed"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -1499,7 +1842,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=leaves"
 			}
 		},
-		"2-3 sage leaves",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "leaves",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "bay",
+				"value" : "2"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=leaves"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -1517,9 +1876,57 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=sprig"
 			}
 		},
-		"250g/9oz easy-cook polenta",
-		"Knob of butter",
-		"25g/1oz parmesan"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "sprig",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "rosemary",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=sprig"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "sprig",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "rosemary",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=sprig"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "sprig",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "rosemary",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=sprig"
+			}
+		}
 	] 
 },
 {
@@ -1775,9 +2182,57 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=garlic++crushed+and+peeled"
 			}
 		},
-		"2? cups dry vermouth",
-		"? cup fresh lime juice",
-		"? cup fresh tarragon leaves and a few sprigs for garnish",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "garlic  crushed and peeled",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cloves",
+				"value" : "6"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=garlic++crushed+and+peeled"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "garlic  crushed and peeled",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cloves",
+				"value" : "6"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=garlic++crushed+and+peeled"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "garlic  crushed and peeled",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cloves",
+				"value" : "6"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=garlic++crushed+and+peeled"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -1846,8 +2301,40 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=heavy+cream"
 			}
 		},
-		"Salt and freshly ground white pepper",
-		"? lb. butter  chilled and cubed",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "heavy cream",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=heavy+cream"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "heavy cream",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=heavy+cream"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -1899,7 +2386,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=fettuccine++cooked+INSTRUCTIONS+1.+Mix+together+garlic++1+cup+of+the+vermouth++3+tbsp.of+the+lime+juice++and+3+tbsp.+of+the+tarragon+in+a+medium+bowl.+Add+chicken++turning+to+coat+well++cover++and+refrigerate+overnight."
 			}
 		},
-		"2. Mix together remaining 1 ? cups vermouth  1 tbsp. lime juice  and 2 tbsp. tarragon in a medium saucepan. Add scallions  chicken broth  and heavy cream  season to taste with salt and pepper  and bring to a boil over medium heat. Cook until reduced by ab",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "fettuccine  cooked INSTRUCTIONS 1. Mix together garlic  1 cup of the vermouth  3 tbsp.of the lime juice  and 3 tbsp. of the tarragon in a medium bowl. Add chicken  turning to coat well  cover  and refrigerate overnight.",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "lb.",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=fettuccine++cooked+INSTRUCTIONS+1.+Mix+together+garlic++1+cup+of+the+vermouth++3+tbsp.of+the+lime+juice++and+3+tbsp.+of+the+tarragon+in+a+medium+bowl.+Add+chicken++turning+to+coat+well++cover++and+refrigerate+overnight."
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -1917,7 +2420,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=oil+in+a+large+heavy+skillet+over+medium+heat.+Remove+chicken+from+marinade++and+shake+off+excess.+Lay+chicken+in+hot+skillet++weigh+down+with+a+heavy+pan++and+cook+until+crisp+and+golden++about+7+minutes.+Turn+chicken+over++weigh+down+again++and"
 			}
 		},
-		"4. Serve chicken over fettuccine; spoon sauce over both and garnish with tarragon sprigs."
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "oil in a large heavy skillet over medium heat. Remove chicken from marinade  and shake off excess. Lay chicken in hot skillet  weigh down with a heavy pan  and cook until crisp and golden  about 7 minutes. Turn chicken over  weigh down again  and",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "Heat",
+				"value" : "3."
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=oil+in+a+large+heavy+skillet+over+medium+heat.+Remove+chicken+from+marinade++and+shake+off+excess.+Lay+chicken+in+hot+skillet++weigh+down+with+a+heavy+pan++and+cook+until+crisp+and+golden++about+7+minutes.+Turn+chicken+over++weigh+down+again++and"
+			}
+		}
 	] 
 },
 {
@@ -1952,7 +2471,18 @@
 		"url" : "http://www.foodandwine.com/recipes/roast-chicken-with-chicken-livers"
 	}, 
 	"recipeIngredient": [
-		"One 3 3/4- to 4-pound chicken",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "null",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "null",
+				"value" : "null"
+			},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -1970,7 +2500,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=coarsely+chopped+thyme"
 			}
 		},
-		"Salt",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "coarsely chopped thyme",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoon",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=coarsely+chopped+thyme"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -2039,7 +2585,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=chicken+livers++trimmed+and+cut+into+1-inch+pieces"
 			}
 		},
-		"Freshly ground pepper",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "chicken livers  trimmed and cut into 1-inch pieces",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pound",
+				"value" : "1/4"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=chicken+livers++trimmed+and+cut+into+1-inch+pieces"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -2261,8 +2823,30 @@
 		"url" : "http://thestonesoup.com/blog/2012/05/the-1-thing-you-should-never-do-when-combining-flavours/"
 	}, 
 	"recipeIngredient": [
-		"4-6 chicken drumsticks",
-		"2-3 large red capsicum (bell peppers)  chopped"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "null",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "null",
+				"value" : "null"
+			},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "null",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "null",
+				"value" : "null"
+			},
 	] 
 },
 {
@@ -2433,7 +3017,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=instant+brown+rice+(see+tip)"
 			}
 		},
-		"1/8-1/4 teaspoon cayenne pepper"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "instant brown rice (see tip)",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "3/4"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=instant+brown+rice+(see+tip)"
+			}
+		}
 	] 
 },
 {
@@ -2519,8 +3119,40 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=kosher+salt"
 			}
 		},
-		"? tsp freshly ground black pepper",
-		"? cup olive oil",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "kosher salt",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tsp",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=kosher+salt"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "kosher salt",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tsp",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=kosher+salt"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -2555,8 +3187,40 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=whole+mushrooms++halved+or+quartered"
 			}
 		},
-		"? cup Marsala wine",
-		"? cup low-sodium chicken stock",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "whole mushrooms  halved or quartered",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "oz",
+				"value" : "8"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=whole+mushrooms++halved+or+quartered"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "whole mushrooms  halved or quartered",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "oz",
+				"value" : "8"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=whole+mushrooms++halved+or+quartered"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -2574,7 +3238,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=unsalted+butter"
 			}
 		},
-		"? cup fresh flat-leaf parsley  chopped finely"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "unsalted butter",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "Tbsp",
+				"value" : "2"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=unsalted+butter"
+			}
+		}
 	] 
 },
 {
@@ -3238,7 +3918,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=all-purpose+flour"
 			}
 		},
-		"Coarse salt",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "all-purpose flour",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1/4"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=all-purpose+flour"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -3613,7 +4309,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=tomato+puree"
 			}
 		},
-		"salt and pepper",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "tomato puree",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=tomato+puree"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -3835,8 +4547,40 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=basil"
 			}
 		},
-		"Salt and pepper to taste",
-		"Olive oil for frying chicken"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "basil",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tsp",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=basil"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "basil",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tsp",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=basil"
+			}
+		}
 	] 
 },
 {
@@ -3956,7 +4700,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=black+pepper++divided"
 			}
 		},
-		"Cooking spray",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "black pepper  divided",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoon",
+				"value" : "1/2"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=black+pepper++divided"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -4127,9 +4887,57 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=sweet+onion"
 			}
 		},
-		"salt",
-		"Pepper",
-		"1? lb. fennel",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "sweet onion",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "jumbo",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=sweet+onion"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "sweet onion",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "jumbo",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=sweet+onion"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "sweet onion",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "jumbo",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=sweet+onion"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -4198,8 +5006,40 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=leaf"
 			}
 		},
-		"1? lb. bone-in chicken thighs",
-		"1? lb. bone-in chicken breasts",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "leaf",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "bay",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=leaf"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "leaf",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "bay",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=leaf"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -4285,8 +5125,40 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=fresh++stems+trimmed+&+separated+or+2+(10+oz.)+pkgs.+frozen+broccoli"
 			}
 		},
-		"? c. butter",
-		"? c. flour",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "fresh  stems trimmed & separated or 2 (10 oz.) pkgs. frozen broccoli",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "bunches",
+				"value" : "2"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=fresh++stems+trimmed+&+separated+or+2+(10+oz.)+pkgs.+frozen+broccoli"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "fresh  stems trimmed & separated or 2 (10 oz.) pkgs. frozen broccoli",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "bunches",
+				"value" : "2"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=fresh++stems+trimmed+&+separated+or+2+(10+oz.)+pkgs.+frozen+broccoli"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -4355,9 +5227,57 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=garlic+powder"
 			}
 		},
-		"Salt to taste",
-		"? tsp nutmeg",
-		"White pepper  to taste",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "garlic powder",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tsp",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=garlic+powder"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "garlic powder",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tsp",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=garlic+powder"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "garlic powder",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tsp",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=garlic+powder"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -4375,7 +5295,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=grated/shredded+Parmesan+or+Romano+cheese"
 			}
 		},
-		"4-5 boneless  skinless chicken breasts  cooked or approx. 3-4 c. any leftover chicken  de-boned  skin removed. (Chicken may be cooked by whichever method you choose. I prefer grilled or roasted.)"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "grated/shredded Parmesan or Romano cheese",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "c.",
+				"value" : "1/4"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=grated/shredded+Parmesan+or+Romano+cheese"
+			}
+		}
 	] 
 },
 {
@@ -4461,8 +5397,40 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=rendered+chicken+fat+or+unsalted+butter"
 			}
 		},
-		"? medium yellow onion  minced",
-		"1? tbsp. cognac or brandy",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "rendered chicken fat or unsalted butter",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tbsp.",
+				"value" : "2"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=rendered+chicken+fat+or+unsalted+butter"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "rendered chicken fat or unsalted butter",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tbsp.",
+				"value" : "2"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=rendered+chicken+fat+or+unsalted+butter"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -4480,8 +5448,40 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=hard-boiled+eggs"
 			}
 		},
-		"Kosher salt and freshly ground black pepper  to taste",
-		"Toast points  for serving"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "hard-boiled eggs",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pcs",
+				"value" : "2"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=hard-boiled+eggs"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "hard-boiled eggs",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pcs",
+				"value" : "2"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=hard-boiled+eggs"
+			}
+		}
 	] 
 },
 {
@@ -4567,9 +5567,57 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=flour"
 			}
 		},
-		"Sea salt",
-		"Olive oil",
-		"Juice of 1/4 to 1/2 lemon",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "flour",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=flour"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "flour",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=flour"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "flour",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=flour"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -4587,9 +5635,57 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=1/2+cups+low-sodium+chicken+broth"
 			}
 		},
-		"Freshly cracked black pepper",
-		"Flat-leaf parsley for garnish",
-		"Lemon slices for garnish"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "1/2 cups low-sodium chicken broth",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "to",
+				"value" : "1/4"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=1/2+cups+low-sodium+chicken+broth"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "1/2 cups low-sodium chicken broth",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "to",
+				"value" : "1/4"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=1/2+cups+low-sodium+chicken+broth"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "1/2 cups low-sodium chicken broth",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "to",
+				"value" : "1/4"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=1/2+cups+low-sodium+chicken+broth"
+			}
+		}
 	] 
 },
 {
@@ -4641,7 +5737,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=olive+oil"
 			}
 		},
-		"salt and pepper",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "olive oil",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoon",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=olive+oil"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -4812,7 +5924,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=short-grain+rice"
 			}
 		},
-		"about 4 cups chicken stock",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "short-grain rice",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=short-grain+rice"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -4881,7 +6009,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=8+Tbs.+all-purpose+flour"
 			}
 		},
-		"4 skinless chicken breast halves  each about_x000d_   1/2 lb.",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "8 Tbs. all-purpose flour",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "to",
+				"value" : "6"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=8+Tbs.+all-purpose+flour"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -4899,7 +6043,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=chicken+thighs++each+about+6+oz."
 			}
 		},
-		"4 skinless chicken drumsticks  each about_x000d_   1/4 lb.",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "chicken thighs  each about 6 oz.",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "skinless",
+				"value" : "4"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=chicken+thighs++each+about+6+oz."
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -5019,7 +6179,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=coconut+milk"
 			}
 		},
-		"Salt and freshly ground pepper  to taste",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "coconut milk",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cups",
+				"value" : "1 1/2"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=coconut+milk"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -5173,10 +6349,74 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=grated+Parmesan+cheese"
 			}
 		},
-		"? cup heavy cream",
-		"12 savory cr?pes",
-		"2 cups white and dark meat from poached chicken   cut into ?-inch cubes",
-		"2 cups Sauce Supr?me  made with chicken broth (recipe below)"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "grated Parmesan cheese",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoons",
+				"value" : "3"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=grated+Parmesan+cheese"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "grated Parmesan cheese",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoons",
+				"value" : "3"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=grated+Parmesan+cheese"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "grated Parmesan cheese",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoons",
+				"value" : "3"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=grated+Parmesan+cheese"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "grated Parmesan cheese",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoons",
+				"value" : "3"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=grated+Parmesan+cheese"
+			}
+		}
 	] 
 },
 {
@@ -5398,7 +6638,18 @@
 		"url" : "http://www.bbc.co.uk/food/recipes/chickenbiriyani_89035"
 	}, 
 	"recipeIngredient": [
-		"200g/7?oz basmati rice",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "null",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "null",
+				"value" : "null"
+			},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -5569,10 +6820,74 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=ground+coriander"
 			}
 		},
-		"? tsp ground cinnamon",
-		"? tsp ground turmeric",
-		"Generous pinch freshly grated nutmeg",
-		"? cup plain yoghurt",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "ground coriander",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tsp",
+				"value" : "2"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=ground+coriander"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "ground coriander",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tsp",
+				"value" : "2"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=ground+coriander"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "ground coriander",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tsp",
+				"value" : "2"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=ground+coriander"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "ground coriander",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tsp",
+				"value" : "2"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=ground+coriander"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -5862,9 +7177,57 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=garlic"
 			}
 		},
-		"? c. low-sodium chicken broth",
-		"? tsp. dried thyme",
-		"? c. Kalamata olives"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "garlic",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "clove",
+				"value" : "2"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=garlic"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "garlic",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "clove",
+				"value" : "2"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=garlic"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "garlic",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "clove",
+				"value" : "2"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=garlic"
+			}
+		}
 	] 
 },
 {
@@ -5933,7 +7296,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=chicken++trimmed++skin+pierced+with+a+fork"
 			}
 		},
-		"? cup Teriyaki Sauce"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "chicken  trimmed  skin pierced with a fork",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pieces",
+				"value" : "4"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=chicken++trimmed++skin+pierced+with+a+fork"
+			}
+		}
 	] 
 },
 {
@@ -5968,8 +7347,30 @@
 		"url" : "http://www.delish.com/cooking/recipe-ideas/recipes/a9072/chicken-crunch-recipe-campbells-1109/"
 	}, 
 	"recipeIngredient": [
-		"1 can Campbell's? Condensed Cream of Chicken Soup",
-		"? c. milk",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "null",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "null",
+				"value" : "null"
+			},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "null",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "null",
+				"value" : "null"
+			},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -6004,7 +7405,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=all-purpose+flour"
 			}
 		},
-		"1? c. Pepperidge Farm? Herb Seasoned Stuffing",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "all-purpose flour",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tbsp.",
+				"value" : "2"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=all-purpose+flour"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -6447,7 +7864,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=or+leek"
 			}
 		},
-		"Olive oil"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "or leek",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "onion",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=or+leek"
+			}
+		}
 	] 
 },
 {
@@ -6482,7 +7915,18 @@
 		"url" : "http://www.bbcgoodfood.com/recipes/6077/chicken-makhani"
 	}, 
 	"recipeIngredient": [
-		"2-3 cm piece grated root ginger",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "null",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "null",
+				"value" : "null"
+			},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -6517,7 +7961,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=reduced+fat+butter"
 			}
 		},
-		"Del real shredded chicken or beef 1 200g pack of cooked chicken tikka fillets (i use tesco)",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "reduced fat butter",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tbsp",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=reduced+fat+butter"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -6569,8 +8029,40 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=sugar"
 			}
 		},
-		"Bunch fresh coriander",
-		"1-2 green chillis  deseeded (or leave them in if you like it hot!)",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "sugar",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tsp",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=sugar"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "sugar",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tsp",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=sugar"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -6673,7 +8165,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=chicken++jointed+(or+use+2+large+chicken+legs+and+2+breasts++halved)"
 			}
 		},
-		"Salt",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "chicken  jointed (or use 2 large chicken legs and 2 breasts  halved)",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "large",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=chicken++jointed+(or+use+2+large+chicken+legs+and+2+breasts++halved)"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -6691,7 +8199,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=olive+oil"
 			}
 		},
-		"Knob butter",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "olive oil",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tbsp",
+				"value" : "2"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=olive+oil"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -6709,7 +8233,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=chopped"
 			}
 		},
-		"2-3 cloves garlic  chopped",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "chopped",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "onion",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=chopped"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -6761,7 +8301,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=flour"
 			}
 		},
-		"285ml/?pint chicken stock",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "flour",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tbsp",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=flour"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -6813,7 +8369,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=ripe+tomatoes++roughly+chopped"
 			}
 		},
-		"250ml/8fl oz sour cream"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "ripe tomatoes  roughly chopped",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "large",
+				"value" : "4"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=ripe+tomatoes++roughly+chopped"
+			}
+		}
 	] 
 },
 {
@@ -6882,8 +8454,40 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=extra-virgin+olive+oil"
 			}
 		},
-		"All-purpose flour  for dredging",
-		"Salt and freshly ground black pepper",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "extra-virgin olive oil",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoons",
+				"value" : "3"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=extra-virgin+olive+oil"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "extra-virgin olive oil",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoons",
+				"value" : "3"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=extra-virgin+olive+oil"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -6918,7 +8522,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=capers++drained"
 			}
 		},
-		"Juice of 1/2 lemon",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "capers  drained",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoon",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=capers++drained"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -6953,7 +8573,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=homemade+chicken+stock+or+canned+low-sodium+chicken+broth++skimmed+of+fat"
 			}
 		},
-		"Sauteed zucchini and tomatoes"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "homemade chicken stock or canned low-sodium chicken broth  skimmed of fat",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1/4"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=homemade+chicken+stock+or+canned+low-sodium+chicken+broth++skimmed+of+fat"
+			}
+		}
 	] 
 },
 {
@@ -7124,12 +8760,78 @@
 		"url" : "http://www.myrecipes.com/recipe/ultimate-roast-chicken-50400000109843/"
 	}, 
 	"recipeIngredient": [
-		"1 chicken  3* to 4 1/2 lbs.  lumps of fat and tail removed  rinsed and patted very dry",
-		"Fine sea salt (1 1/2 tsp. for a 3- to 3 3/4-lb. chicken or 2 tsp. for a 4- to 4 1/2-lb. chicken)",
-		"Pepper (3/4 tsp. for a smaller chicken or 1 tsp. for a larger one)",
-		"French Herb Seasoning Rub or",
-		"Mediterranean Coriander Seasoning Rub (optional)",
-		"About 1 tbsp. olive oil (for plain or French Herb chicken)"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "null",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "null",
+				"value" : "null"
+			},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "null",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "null",
+				"value" : "null"
+			},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "null",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "null",
+				"value" : "null"
+			},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "null",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "null",
+				"value" : "null"
+			},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "null",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "null",
+				"value" : "null"
+			},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "null",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "null",
+				"value" : "null"
+			},
 	] 
 },
 {
@@ -7232,7 +8934,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=thighs++skin+removed"
 			}
 		},
-		"Salt and freshly ground black pepper",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "thighs  skin removed",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "chicken",
+				"value" : "4"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=thighs++skin+removed"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -7335,7 +9053,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=dry+white+wine"
 			}
 		},
-		"1? cups chicken stock",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "dry white wine",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "2/3"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=dry+white+wine"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -7557,8 +9291,40 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=frozen+green+peas"
 			}
 		},
-		"? c. dry white wine or chicken broth",
-		"1 jar Bertolli? Creamy Alfredo Sauce"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "frozen green peas",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "c.",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=frozen+green+peas"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "frozen green peas",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "c.",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=frozen+green+peas"
+			}
+		}
 	] 
 },
 {
@@ -7678,8 +9444,40 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=finely+grated+Parmesan+cheese"
 			}
 		},
-		"salt",
-		"freshly ground pepper",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "finely grated Parmesan cheese",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1/2"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=finely+grated+Parmesan+cheese"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "finely grated Parmesan cheese",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1/2"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=finely+grated+Parmesan+cheese"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -7782,9 +9580,42 @@
 		"url" : "http://www.saveur.com/classic-chicken-marsala-recipe"
 	}, 
 	"recipeIngredient": [
-		"1? lb. chicken cutlets  pounded until ? thick (about 8)",
-		"Kosher salt and freshly ground black pepper  to taste",
-		"? cup flour",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "null",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "null",
+				"value" : "null"
+			},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "null",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "null",
+				"value" : "null"
+			},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "null",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "null",
+				"value" : "null"
+			},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -7870,8 +9701,40 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=garlic++minced"
 			}
 		},
-		"? cup dry marsala wine",
-		"? cup chicken stock"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "garlic  minced",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "clove",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=garlic++minced"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "garlic  minced",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "clove",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=garlic++minced"
+			}
+		}
 	] 
 },
 {
@@ -7906,7 +9769,18 @@
 		"url" : "http://www.bbc.co.uk/food/recipes/chickensoup_1918"
 	}, 
 	"recipeIngredient": [
-		"55g/2oz butter",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "null",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "null",
+				"value" : "null"
+			},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -7958,7 +9832,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=peeled+and+finely+diced"
 			}
 		},
-		"25g/2oz plain flour",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "peeled and finely diced",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "carrots",
+				"value" : "2"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=peeled+and+finely+diced"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -7976,7 +9866,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=litres/2+pints+chicken+stock"
 			}
 		},
-		"450g/1lb cooked chicken  skinned and shredded",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "litres/2 pints chicken stock",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pcs",
+				"value" : "1.2"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=litres/2+pints+chicken+stock"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -7994,7 +9900,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=freshly+chopped+parsley"
 			}
 		},
-		"Salt and freshly ground black pepper"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "freshly chopped parsley",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tbsp",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=freshly+chopped+parsley"
+			}
+		}
 	] 
 },
 {
@@ -8046,7 +9968,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=chicken+(3-4+lbs.)"
 			}
 		},
-		"3-4 carrots  peeled and sliced",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "chicken (3-4 lbs.)",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "whole",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=chicken+(3-4+lbs.)"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -8149,7 +10087,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=dried+sage"
 			}
 		},
-		"Salt and pepper",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "dried sage",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoon",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=dried+sage"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -8235,7 +10189,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=softened+butter"
 			}
 		},
-		"and 1 Tb good cooking oil",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "softened butter",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "Tb",
+				"value" : "2"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=softened+butter"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -8253,7 +10223,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=minced+shallot+or+green+onion"
 			}
 		},
-		"For basting: a small saucepan containing 2 Tb melted butter",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "minced shallot or green onion",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "Tb",
+				"value" : "1/2"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=minced+shallot+or+green+onion"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -8271,7 +10257,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=brown+chicken+stock+++canned+chicken+broth+++or+beef+bouillon"
 			}
 		},
-		"A 3-lb.  ready-to-cook roasting or frying chicken",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "brown chicken stock   canned chicken broth   or beef bouillon",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=brown+chicken+stock+++canned+chicken+broth+++or+beef+bouillon"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -8306,8 +10308,40 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=2+Tb+softened+butter"
 			}
 		},
-		"To flavor the sauce: a small sliced carrot and onion",
-		"Salt and pepper"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "2 Tb softened butter",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "to",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=2+Tb+softened+butter"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "2 Tb softened butter",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "to",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=2+Tb+softened+butter"
+			}
+		}
 	] 
 },
 {
@@ -8529,7 +10563,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=skinless+chicken+thighs"
 			}
 		},
-		"? tsp. salt",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "skinless chicken thighs",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "large",
+				"value" : "8"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=skinless+chicken+thighs"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -8547,8 +10597,40 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=onions"
 			}
 		},
-		"? c. chicken broth",
-		"? c. Kalamata olives",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "onions",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "small",
+				"value" : "2"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=onions"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "onions",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "small",
+				"value" : "2"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=onions"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -8651,7 +10733,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=unsalted+butter"
 			}
 		},
-		"Salt and freshly ground black pepper",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "unsalted butter",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoons",
+				"value" : "2"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=unsalted+butter"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -8805,8 +10903,40 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=olive+oil"
 			}
 		},
-		"Salt - a sprinkling",
-		"Pepper - a sprinkling",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "olive oil",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoon",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=olive+oil"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "olive oil",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoon",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=olive+oil"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -8909,7 +11039,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=can+organic+diced+tomatoes+-+drained"
 			}
 		},
-		"Salt and pepper to taste",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "can organic diced tomatoes - drained",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "oz.",
+				"value" : "1 14"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=can+organic+diced+tomatoes+-+drained"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -8961,12 +11107,78 @@
 		"url" : "http://www.goodhousekeeping.com/food-recipes/a14374/chicken-fricassee-recipe-ghk0313/"
 	}, 
 	"recipeIngredient": [
-		"2? lb. bone-in skinless chicken thighs",
-		"? tsp. salt",
-		"? tsp. pepper",
-		"? tsp. grated lemon peel",
-		"? tsp. dried thyme",
-		"? c. chicken broth",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "null",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "null",
+				"value" : "null"
+			},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "null",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "null",
+				"value" : "null"
+			},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "null",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "null",
+				"value" : "null"
+			},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "null",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "null",
+				"value" : "null"
+			},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "null",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "null",
+				"value" : "null"
+			},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "null",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "null",
+				"value" : "null"
+			},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -8984,7 +11196,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=chicken-broth+base/demi-glace"
 			}
 		},
-		"1? lb. red potatoes",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "chicken-broth base/demi-glace",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tsp.",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=chicken-broth+base/demi-glace"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -9036,7 +11264,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=garlic"
 			}
 		},
-		"? c. whole milk",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "garlic",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "clove",
+				"value" : "2"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=garlic"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -9054,10 +11298,74 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=butter"
 			}
 		},
-		"? tsp. salt",
-		"1? c. frozen peas",
-		"? c. light sour cream",
-		"Chopped parsley"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "butter",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tbsp.",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=butter"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "butter",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tbsp.",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=butter"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "butter",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tbsp.",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=butter"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "butter",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tbsp.",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=butter"
+			}
+		}
 	] 
 },
 {
@@ -9279,8 +11587,40 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=boneless++skinless+chicken+thighs"
 			}
 		},
-		"Chile dry rub",
-		"olive oil"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "boneless  skinless chicken thighs",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "lb.",
+				"value" : "2"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=boneless++skinless+chicken+thighs"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "boneless  skinless chicken thighs",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "lb.",
+				"value" : "2"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=boneless++skinless+chicken+thighs"
+			}
+		}
 	] 
 },
 {
@@ -9553,7 +11893,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=cognac+(optional)"
 			}
 		},
-		"Parsley"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "cognac (optional)",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1/8"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=cognac+(optional)"
+			}
+		}
 	] 
 },
 {
@@ -9826,7 +12182,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=chicken+broth"
 			}
 		},
-		"? lb. green beans",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "chicken broth",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "c.",
+				"value" : "2"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=chicken+broth"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -9844,8 +12216,40 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=diced+cooked+chicken"
 			}
 		},
-		"salt",
-		"Pepper",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "diced cooked chicken",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "c.",
+				"value" : "2"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=diced+cooked+chicken"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "diced cooked chicken",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "c.",
+				"value" : "2"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=diced+cooked+chicken"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -9931,7 +12335,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=plain+nonfat+yogurt"
 			}
 		},
-		"3? cups ice water",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "plain nonfat yogurt",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=plain+nonfat+yogurt"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -9949,7 +12369,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=drumsticks+++skin+removed"
 			}
 		},
-		"Light vegetable oil cooking spray",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "drumsticks   skin removed",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "chicken",
+				"value" : "6"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=drumsticks+++skin+removed"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -10035,10 +12471,74 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=boneless+chicken+breast+halves"
 			}
 		},
-		"1 box Pepperidge Farm? One Step Stuffing Chicken Mix",
-		"1 can Campbell's? Condensed Cream of Chicken Soup",
-		"? c. milk",
-		"? c. Cheddar cheese"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "boneless chicken breast halves",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "skinless",
+				"value" : "4"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=boneless+chicken+breast+halves"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "boneless chicken breast halves",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "skinless",
+				"value" : "4"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=boneless+chicken+breast+halves"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "boneless chicken breast halves",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "skinless",
+				"value" : "4"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=boneless+chicken+breast+halves"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "boneless chicken breast halves",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "skinless",
+				"value" : "4"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=boneless+chicken+breast+halves"
+			}
+		}
 	] 
 },
 {
@@ -10073,7 +12573,18 @@
 		"url" : "http://www.goodhousekeeping.com/food-recipes/a11427/chicken-roulades-recipe-ghk0113/"
 	}, 
 	"recipeIngredient": [
-		"? c. Gruy?re cheese",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "null",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "null",
+				"value" : "null"
+			},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -10176,7 +12687,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=olive+oil"
 			}
 		},
-		"? c. lower-sodium chicken broth",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "olive oil",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tbsp.",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=olive+oil"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -10194,7 +12721,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=fresh+lemon+juice"
 			}
 		},
-		"? tsp. freshly grated lemon peel"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "fresh lemon juice",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tbsp.",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=fresh+lemon+juice"
+			}
+		}
 	] 
 },
 {
@@ -10297,7 +12840,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=shredded+skinless+cooked+chicken++from+a+rotisserie+chicken"
 			}
 		},
-		"Salt",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "shredded skinless cooked chicken  from a rotisserie chicken",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cups",
+				"value" : "3"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=shredded+skinless+cooked+chicken++from+a+rotisserie+chicken"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -10434,7 +12993,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=Grill+Shakers+Poultry+Seasoning+Blend+(or+your+favorite+chicken+seasoning+or+rub)"
 			}
 		},
-		"1 4- to 4 1?2-lb chicken",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "Grill Shakers Poultry Seasoning Blend (or your favorite chicken seasoning or rub)",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tbsp.",
+				"value" : "3"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=Grill+Shakers+Poultry+Seasoning+Blend+(or+your+favorite+chicken+seasoning+or+rub)"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -10503,7 +13078,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=boneless++skinless+chicken+breasts+(1+1/2+lb.)++rinsed++patted+dry"
 			}
 		},
-		"Salt and pepper",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "boneless  skinless chicken breasts (1 1/2 lb.)  rinsed  patted dry",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "whole",
+				"value" : "2"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=boneless++skinless+chicken+breasts+(1+1/2+lb.)++rinsed++patted+dry"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -10657,8 +13248,40 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=olive+oil"
 			}
 		},
-		"1? lb. chicken-breast tenders",
-		"salt and pepper",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "olive oil",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tsp.",
+				"value" : "3"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=olive+oil"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "olive oil",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tsp.",
+				"value" : "3"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=olive+oil"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -10693,8 +13316,40 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=artichoke+hearts"
 			}
 		},
-		"? c. dry white wine",
-		"? c. chicken broth",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "artichoke hearts",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "can",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=artichoke+hearts"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "artichoke hearts",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "can",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=artichoke+hearts"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -10814,8 +13469,40 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=chicken"
 			}
 		},
-		"1? tbsp. unsalted butter",
-		"1? c. champagne or sparkling wine",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "chicken",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "whole",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=chicken"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "chicken",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "whole",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=chicken"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -10833,8 +13520,40 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=low-sodium+chicken+broth"
 			}
 		},
-		"salt",
-		"pepper"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "low-sodium chicken broth",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "c.",
+				"value" : "2"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=low-sodium+chicken+broth"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "low-sodium chicken broth",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "c.",
+				"value" : "2"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=low-sodium+chicken+broth"
+			}
+		}
 	] 
 },
 {
@@ -10869,7 +13588,18 @@
 		"url" : "http://www.delish.com/cooking/recipe-ideas/recipes/a27681/chicken-birds-4134/"
 	}, 
 	"recipeIngredient": [
-		"? c. dried Chinese black mushrooms",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "null",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "null",
+				"value" : "null"
+			},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -10921,7 +13651,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=hoisin+sauce"
 			}
 		},
-		"? tsp. ground ginger",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "hoisin sauce",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tbsp.",
+				"value" : "3"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=hoisin+sauce"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -10939,7 +13685,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=boneless+chicken+thighs"
 			}
 		},
-		"? tsp. salt",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "boneless chicken thighs",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "skinless",
+				"value" : "8"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=boneless+chicken+thighs"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -10974,8 +13736,40 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=vegetable+oil"
 			}
 		},
-		"? c. chicken broth",
-		"1? tsp. cornstarch",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "vegetable oil",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tbsp.",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=vegetable+oil"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "vegetable oil",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tbsp.",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=vegetable+oil"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -11265,8 +14059,30 @@
 		"url" : "http://www.delish.com/cooking/recipe-ideas/recipes/a8376/chicken-noodles-recipe-campbells-1109/"
 	}, 
 	"recipeIngredient": [
-		"1 can Campbell's? Condensed Cream of Chicken Soup",
-		"? c. milk",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "null",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "null",
+				"value" : "null"
+			},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "null",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "null",
+				"value" : "null"
+			},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -11284,7 +14100,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=black+pepper"
 			}
 		},
-		"? c. grated Parmesan cheese",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "black pepper",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "ground",
+				"value" : ".13"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=black+pepper"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -11319,7 +14151,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=cooked+medium+egg+noodles"
 			}
 		},
-		"fresh parsley"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "cooked medium egg noodles",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "c.",
+				"value" : "3"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=cooked+medium+egg+noodles"
+			}
+		}
 	] 
 },
 {
@@ -11388,7 +14236,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=chopped+onion"
 			}
 		},
-		"? c. diced carrot",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "chopped onion",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "c.",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=chopped+onion"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -11406,7 +14270,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=minced+garlic"
 			}
 		},
-		"1? c. rotisserie or other cooked chicken"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "minced garlic",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tsp.",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=minced+garlic"
+			}
+		}
 	] 
 },
 {
@@ -11441,8 +14321,30 @@
 		"url" : "http://www.delish.com/cooking/recipe-ideas/recipes/a21870/roasted-chicken-recipe-mslo1113/"
 	}, 
 	"recipeIngredient": [
-		"4? lb. chicken thighs and legs",
-		"Coarse salt and ground pepper",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "null",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "null",
+				"value" : "null"
+			},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "null",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "null",
+				"value" : "null"
+			},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -11613,9 +14515,57 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=chicken+stock"
 			}
 		},
-		"Salt & pepper",
-		"Penne noodles",
-		"Parsley (garnish)"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "chicken stock",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "ounces",
+				"value" : "4"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=chicken+stock"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "chicken stock",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "ounces",
+				"value" : "4"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=chicken+stock"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "chicken stock",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "ounces",
+				"value" : "4"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=chicken+stock"
+			}
+		}
 	] 
 },
 {
@@ -11667,8 +14617,40 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=2+1/2+pounds+of+chicken+pieces++preferably+thighs+and+legs"
 			}
 		},
-		"Salt",
-		"2-3 Tbsp unsalted butter",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "2 1/2 pounds of chicken pieces  preferably thighs and legs",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "to",
+				"value" : "2"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=2+1/2+pounds+of+chicken+pieces++preferably+thighs+and+legs"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "2 1/2 pounds of chicken pieces  preferably thighs and legs",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "to",
+				"value" : "2"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=2+1/2+pounds+of+chicken+pieces++preferably+thighs+and+legs"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -11686,7 +14668,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=yellow+onions++(about+2-3+large+onions)"
 			}
 		},
-		"Black pepper to taste",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "yellow onions  (about 2-3 large onions)",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pounds",
+				"value" : "2"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=yellow+onions++(about+2-3+large+onions)"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -11891,8 +14889,40 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=salt"
 			}
 		},
-		"Dash of black pepper",
-		"Cooking spray",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "salt",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoon",
+				"value" : "1/8"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=salt"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "salt",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoon",
+				"value" : "1/8"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=salt"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -11995,7 +15025,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=paprika"
 			}
 		},
-		"1 ? cups chopped walnuts",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "paprika",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoons",
+				"value" : "4"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=paprika"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -12098,9 +15144,57 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=chicken+stock"
 			}
 		},
-		"Salt",
-		"Black pepper",
-		"The juice of a lemon"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "chicken stock",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "quart",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=chicken+stock"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "chicken stock",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "quart",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=chicken+stock"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "chicken stock",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "quart",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=chicken+stock"
+			}
+		}
 	] 
 },
 {
@@ -12203,7 +15297,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=reduced-sodium+soy+sauce"
 			}
 		},
-		"? c. low-sodium chicken broth",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "reduced-sodium soy sauce",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tbsp.",
+				"value" : "2"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=reduced-sodium+soy+sauce"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -12289,7 +15399,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=breasts++cut+in+half+and+flattened"
 			}
 		},
-		"Salt and pepper to taste",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "breasts  cut in half and flattened",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "chicken",
+				"value" : "4"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=breasts++cut+in+half+and+flattened"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -12460,7 +15586,18 @@
 		"url" : "http://www.marthastewart.com/318865/roast-chicken"
 	}, 
 	"recipeIngredient": [
-		"One 6-pound roasting chicken",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "null",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "null",
+				"value" : "null"
+			},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -12478,7 +15615,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=unsalted+butter"
 			}
 		},
-		"Coarse salt and freshly ground pepper",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "unsalted butter",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoons",
+				"value" : "2"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=unsalted+butter"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -12615,9 +15768,42 @@
 		"url" : "http://www.cookstr.com/recipes/chicken-pie"
 	}, 
 	"recipeIngredient": [
-		"Basic Pastry Dough",
-		"? cup diced celery",
-		"? cup peas",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "null",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "null",
+				"value" : "null"
+			},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "null",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "null",
+				"value" : "null"
+			},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "null",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "null",
+				"value" : "null"
+			},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -12652,8 +15838,40 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=chicken+broth"
 			}
 		},
-		"? cup diced peeled carrots",
-		"6 tablespoons (? stick) butter",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "chicken broth",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cups",
+				"value" : "2"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=chicken+broth"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "chicken broth",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cups",
+				"value" : "2"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=chicken+broth"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -12705,8 +15923,40 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=medium+chunks+of+cooked+chicken+(see+Note)"
 			}
 		},
-		"Salt",
-		"? teaspoon black pepper"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "medium chunks of cooked chicken (see Note)",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cups",
+				"value" : "4"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=medium+chunks+of+cooked+chicken+(see+Note)"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "medium chunks of cooked chicken (see Note)",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cups",
+				"value" : "4"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=medium+chunks+of+cooked+chicken+(see+Note)"
+			}
+		}
 	] 
 },
 {
@@ -12996,7 +16246,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=broccoli+rabe"
 			}
 		},
-		"? lb. hot Italian sausage",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "broccoli rabe",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "bunch",
+				"value" : "2"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=broccoli+rabe"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -13048,7 +16314,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=chicken+broth"
 			}
 		},
-		"? c. Grated Parmesan cheese"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "chicken broth",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "can",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=chicken+broth"
+			}
+		}
 	] 
 },
 {
@@ -13253,7 +16535,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=cinnamon"
 			}
 		},
-		"Salt and pepper",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "cinnamon",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tsp",
+				"value" : "1/4"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=cinnamon"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -13458,7 +16756,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=skinless+chicken+breast+halves++(1-1+1/4+pounds)"
 			}
 		},
-		"Freshly ground pepper  to taste",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "skinless chicken breast halves  (1-1 1/4 pounds)",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "boneless",
+				"value" : "4"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=skinless+chicken+breast+halves++(1-1+1/4+pounds)"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -13493,7 +16807,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=anchovy+paste++(optional)"
 			}
 		},
-		"Chicken",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "anchovy paste  (optional)",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoon",
+				"value" : "1/2"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=anchovy+paste++(optional)"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -13562,7 +16892,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=boneless+chicken+breast+halves"
 			}
 		},
-		"Salt and freshly ground pepper",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "boneless chicken breast halves",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "skinless",
+				"value" : "4"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=boneless+chicken+breast+halves"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -13597,7 +16943,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=Prosciutto+di+Parma"
 			}
 		},
-		"all-purpose flour",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "Prosciutto di Parma",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "slice",
+				"value" : "4"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=Prosciutto+di+Parma"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -13632,7 +16994,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=unsalted+butter"
 			}
 		},
-		"? c. plus 2 tablespoons dry white wine",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "unsalted butter",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tbsp.",
+				"value" : "4"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=unsalted+butter"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -14041,7 +17419,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=3+big+lettuce+leaves"
 			}
 		},
-		"? c. chopped cooked chicken"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "3 big lettuce leaves",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "or",
+				"value" : "2"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=3+big+lettuce+leaves"
+			}
+		}
 	] 
 },
 {
@@ -14093,7 +17487,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=Roma+tomatoes+(about+2+pounds)++rinsed"
 			}
 		},
-		"2-3 tomatillos (about 1/4 pound)  husks removed  rinsed",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "Roma tomatoes (about 2 pounds)  rinsed",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "ripe",
+				"value" : "8"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=Roma+tomatoes+(about+2+pounds)++rinsed"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -14332,9 +17742,57 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=breast+cutlets++pounded+very+thin+(whole+breasts+butterflied+and+pounded)"
 			}
 		},
-		"Salt and pepper",
-		"Flour  for dredging",
-		"4-5 tablespoons extra virgin olive oil (EVOO)",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "breast cutlets  pounded very thin (whole breasts butterflied and pounded)",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "chicken",
+				"value" : "8"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=breast+cutlets++pounded+very+thin+(whole+breasts+butterflied+and+pounded)"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "breast cutlets  pounded very thin (whole breasts butterflied and pounded)",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "chicken",
+				"value" : "8"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=breast+cutlets++pounded+very+thin+(whole+breasts+butterflied+and+pounded)"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "breast cutlets  pounded very thin (whole breasts butterflied and pounded)",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "chicken",
+				"value" : "8"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=breast+cutlets++pounded+very+thin+(whole+breasts+butterflied+and+pounded)"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -14454,7 +17912,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=flat+leaf+parsley++finely+chopped"
 			}
 		},
-		"Warm bread  for mopping"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "flat leaf parsley  finely chopped",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1/4"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=flat+leaf+parsley++finely+chopped"
+			}
+		}
 	] 
 },
 {
@@ -14506,9 +17980,57 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=chicken+breasts++boneless++skinless+and+pounded+thin"
 			}
 		},
-		"salt",
-		"pepper",
-		"8+ sage leaves",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "chicken breasts  boneless  skinless and pounded thin",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "small",
+				"value" : "4"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=chicken+breasts++boneless++skinless+and+pounded+thin"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "chicken breasts  boneless  skinless and pounded thin",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "small",
+				"value" : "4"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=chicken+breasts++boneless++skinless+and+pounded+thin"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "chicken breasts  boneless  skinless and pounded thin",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "small",
+				"value" : "4"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=chicken+breasts++boneless++skinless+and+pounded+thin"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -14713,7 +18235,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=skinless++boneless+chicken+breasts"
 			}
 		},
-		"? tsp. ground black pepper",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "skinless  boneless chicken breasts",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "lb.",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=skinless++boneless+chicken+breasts"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -14765,9 +18303,57 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=reduced-sodium+chicken+broth"
 			}
 		},
-		"? c. unsifted all-purpose flour",
-		"? c. half-and-half",
-		"? c. grated Parmesan cheese",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "reduced-sodium chicken broth",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "can",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=reduced-sodium+chicken+broth"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "reduced-sodium chicken broth",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "can",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=reduced-sodium+chicken+broth"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "reduced-sodium chicken broth",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "can",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=reduced-sodium+chicken+broth"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {

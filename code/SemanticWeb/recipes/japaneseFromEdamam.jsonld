@@ -31,9 +31,42 @@
 		"url" : "http://norecipes.com/blog/2009/07/27/tonkatsu-recipe/"
 	}, 
 	"recipeIngredient": [
-		"4 center cut pork chops (1? thick)",
-		"all-purpose flour for dredging",
-		"salt and pepper to taste",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "null",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "null",
+				"value" : "null"
+			},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "null",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "null",
+				"value" : "null"
+			},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "null",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "null",
+				"value" : "null"
+			},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -68,7 +101,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=panko+(Japanese+breadcrumbs)"
 			}
 		},
-		"oil for frying",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "panko (Japanese breadcrumbs)",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "C",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=panko+(Japanese+breadcrumbs)"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -86,7 +135,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=of+cabbage+shredded+on+a+mandoline+(optional)"
 			}
 		},
-		"Tonkatsu sauce for serving (Worcestershire sauce can be substituted)"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "of cabbage shredded on a mandoline (optional)",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "head",
+				"value" : "1/4"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=of+cabbage+shredded+on+a+mandoline+(optional)"
+			}
+		}
 	] 
 },
 {
@@ -240,7 +305,18 @@
 		"url" : "http://www.seriouseats.com/recipes/2016/06/japanese-turnips-saute-easy-side-dish-recipe.html"
 	}, 
 	"recipeIngredient": [
-		"Kosher salt",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "null",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "null",
+				"value" : "null"
+			},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -275,7 +351,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=(45ml)+extra-virgin+olive+oil++plus+more+for+drizzling"
 			}
 		},
-		"Freshly ground black pepper"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "(45ml) extra-virgin olive oil  plus more for drizzling",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoons",
+				"value" : "3"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=(45ml)+extra-virgin+olive+oil++plus+more+for+drizzling"
+			}
+		}
 	] 
 },
 {
@@ -378,7 +470,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=eggplants+(12+inches+each)++trimmed"
 			}
 		},
-		"Grapeseed oil  for frying",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "eggplants (12 inches each)  trimmed",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "japanese",
+				"value" : "2"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=eggplants+(12+inches+each)++trimmed"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -464,7 +572,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=(+0.33+lbs+)+shredded+beef"
 			}
 		},
-		"? white onion",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "( 0.33 lbs ) shredded beef",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "g",
+				"value" : "150"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=(+0.33+lbs+)+shredded+beef"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -499,9 +623,57 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=curry+powder"
 			}
 		},
-		"? tsp salt",
-		"? tsp soy sauce",
-		"? tbsp mirin ( japanese sweet cooking wine )",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "curry powder",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tsp",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=curry+powder"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "curry powder",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tsp",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=curry+powder"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "curry powder",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tsp",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=curry+powder"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -604,8 +776,40 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=chilli++seeds+removed++very+finely+chopped"
 			}
 		},
-		"100g/4oz good-quality mayonnaise",
-		"2-3 tsp ready-made wasabi paste  or to taste (available from supermarkets and japanese stores)",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "chilli  seeds removed  very finely chopped",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "red",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=chilli++seeds+removed++very+finely+chopped"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "chilli  seeds removed  very finely chopped",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "red",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=chilli++seeds+removed++very+finely+chopped"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -623,8 +827,40 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=onions++finely+chopped"
 			}
 		},
-		"1-2 tbsp japanese rice wine",
-		"1 lime  zest only  plus juice from ? the lime"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "onions  finely chopped",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "spring",
+				"value" : "2"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=onions++finely+chopped"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "onions  finely chopped",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "spring",
+				"value" : "2"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=onions++finely+chopped"
+			}
+		}
 	] 
 },
 {
@@ -693,7 +929,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=cucumber++chopped"
 			}
 		},
-		"2-3 tablespoons cilantro  chopped",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "cucumber  chopped",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "japanese",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=cucumber++chopped"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -728,7 +980,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=seasoned+rice+vinegar"
 			}
 		},
-		"Salt"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "seasoned rice vinegar",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoons",
+				"value" : "3"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=seasoned+rice+vinegar"
+			}
+		}
 	] 
 },
 {
@@ -763,7 +1031,18 @@
 		"url" : "http://herbivoracious.com/2012/03/kinoko-gohan-japanese-mushroom-rice-recipe.html"
 	}, 
 	"recipeIngredient": [
-		"3 tablespoons shoyu (Japanese soy sauce; look for a gluten-free tamari if needed)",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "null",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "null",
+				"value" : "null"
+			},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -815,7 +1094,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=shiitake+mushrooms"
 			}
 		},
-		"One piece of dried kombu  approximately 6? by 1 1/2 ?",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "shiitake mushrooms",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "dried",
+				"value" : "5"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=shiitake+mushrooms"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -867,7 +1162,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=toasted+sesame+oil"
 			}
 		},
-		"kosher salt"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "toasted sesame oil",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoon",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=toasted+sesame+oil"
+			}
+		}
 	] 
 },
 {
@@ -919,7 +1230,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=Japanese-style+dried+anchovies+(iriko)++heads+removed"
 			}
 		},
-		"? (2x15) piece kombu",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "Japanese-style dried anchovies (iriko)  heads removed",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pcs",
+				"value" : "2"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=Japanese-style+dried+anchovies+(iriko)++heads+removed"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -937,7 +1264,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=dried+bonito+flakes"
 			}
 		},
-		"1 boneless  skinless chicken breast  cut crosswise into ?-thick slices  1? long",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "dried bonito flakes",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tbsp.",
+				"value" : "2"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=dried+bonito+flakes"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -955,8 +1298,40 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=shrimp++heads+removed++peeled++and+deveined++halved+lengthwise"
 			}
 		},
-		"1? tsp. soy sauce",
-		"1? tsp. mirin",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "shrimp  heads removed  peeled  and deveined  halved lengthwise",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "medium",
+				"value" : "4"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=shrimp++heads+removed++peeled++and+deveined++halved+lengthwise"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "shrimp  heads removed  peeled  and deveined  halved lengthwise",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "medium",
+				"value" : "4"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=shrimp++heads+removed++peeled++and+deveined++halved+lengthwise"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -1008,7 +1383,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=of+parsley+sprigs++tied+into+a+knot"
 			}
 		},
-		"Zest of ? lemon"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "of parsley sprigs  tied into a knot",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tops",
+				"value" : "4"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=of+parsley+sprigs++tied+into+a+knot"
+			}
+		}
 	] 
 },
 {
@@ -1298,7 +1689,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=stalks++bottom+third+only++tough+outer+layers+removed++finely+grated"
 			}
 		},
-		"? cup vegetable oil",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "stalks  bottom third only  tough outer layers removed  finely grated",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "lemongrass",
+				"value" : "2"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=stalks++bottom+third+only++tough+outer+layers+removed++finely+grated"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -1333,7 +1740,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=ground+cumin"
 			}
 		},
-		"? teaspoon sugar",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "ground cumin",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoon",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=ground+cumin"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -1572,7 +1995,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=Kosher+salt"
 			}
 		},
-		"Thai basil for garnish"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "Kosher salt",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoon",
+				"value" : "1/2"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=Kosher+salt"
+			}
+		}
 	] 
 },
 {
@@ -1692,8 +2131,40 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=lemongrass++outer+leaves+removed++inner+ones+finely+chopped+(optional)"
 			}
 		},
-		"Sea salt and freshly ground black pepper   to taste",
-		"A few drops of soy sauce  to taste",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "lemongrass  outer leaves removed  inner ones finely chopped (optional)",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "stick",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=lemongrass++outer+leaves+removed++inner+ones+finely+chopped+(optional)"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "lemongrass  outer leaves removed  inner ones finely chopped (optional)",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "stick",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=lemongrass++outer+leaves+removed++inner+ones+finely+chopped+(optional)"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -1711,8 +2182,40 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=cucumbers+or+1+large+cucumber++unpeeled+but+rinsed"
 			}
 		},
-		"A handful of fresh cilantro leaves  roughly chopped or left whole",
-		"A handful of fresh mint leaves  roughly chopped or ripped into pieces"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "cucumbers or 1 large cucumber  unpeeled but rinsed",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "kirby",
+				"value" : "3"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=cucumbers+or+1+large+cucumber++unpeeled+but+rinsed"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "cucumbers or 1 large cucumber  unpeeled but rinsed",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "kirby",
+				"value" : "3"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=cucumbers+or+1+large+cucumber++unpeeled+but+rinsed"
+			}
+		}
 	] 
 },
 {
@@ -1798,7 +2301,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=coarse+salt"
 			}
 		},
-		"? cup rice wine vinegar",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "coarse salt",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoons",
+				"value" : "2"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=coarse+salt"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -1833,8 +2352,40 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=cucumber+or+2+regular+cucumbers++peeled"
 			}
 		},
-		"? cup water",
-		"? cup loosely packed bonito flakes (optional)",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "cucumber or 2 regular cucumbers  peeled",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "hothouse",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=cucumber+or+2+regular+cucumbers++peeled"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "cucumber or 2 regular cucumbers  peeled",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "hothouse",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=cucumber+or+2+regular+cucumbers++peeled"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -2005,10 +2556,74 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=chili+paste++chili+garlic+sauce+or+chili+flakes"
 			}
 		},
-		"green onions for garnish",
-		"water to dilute the sauce if it?s too salty (optional)",
-		"steamed vegetables (optional)",
-		"grilled meat (optional)"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "chili paste  chili garlic sauce or chili flakes",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tsp",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=chili+paste++chili+garlic+sauce+or+chili+flakes"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "chili paste  chili garlic sauce or chili flakes",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tsp",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=chili+paste++chili+garlic+sauce+or+chili+flakes"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "chili paste  chili garlic sauce or chili flakes",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tsp",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=chili+paste++chili+garlic+sauce+or+chili+flakes"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "chili paste  chili garlic sauce or chili flakes",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tsp",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=chili+paste++chili+garlic+sauce+or+chili+flakes"
+			}
+		}
 	] 
 },
 {
@@ -2179,7 +2794,18 @@
 		"url" : "http://steamykitchen.com/3169-japanese-noodles-with-shimeji-mushroom.html"
 	}, 
 	"recipeIngredient": [
-		"7 ozs dried japanese style noodles (udon or soba?or you could use spaghetti)",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "null",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "null",
+				"value" : "null"
+			},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -2265,7 +2891,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=miso+paste"
 			}
 		},
-		"Salt and pepper",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "miso paste",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tsps",
+				"value" : "2"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=miso+paste"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -2470,7 +3112,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=salt"
 			}
 		},
-		"chives"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "salt",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoon",
+				"value" : "1/4"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=salt"
+			}
+		}
 	] 
 },
 {
@@ -2590,8 +3248,40 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=seasoned+rice+vinegar"
 			}
 		},
-		"? tsp. Asian sesame oil",
-		"? tsp. cornstarch",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "seasoned rice vinegar",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tbsp.",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=seasoned+rice+vinegar"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "seasoned rice vinegar",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tbsp.",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=seasoned+rice+vinegar"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -2694,8 +3384,40 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=3+cloves+garlic++smashed+and+coarsely+chopped"
 			}
 		},
-		"Extra virgin olive oil (i use the stuff that comes in 3-liter cans at whole foods for cooking)",
-		"Coarse sea salt and freshly ground pepper to taste",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "3 cloves garlic  smashed and coarsely chopped",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "to",
+				"value" : "2"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=3+cloves+garlic++smashed+and+coarsely+chopped"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "3 cloves garlic  smashed and coarsely chopped",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "to",
+				"value" : "2"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=3+cloves+garlic++smashed+and+coarsely+chopped"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -2713,7 +3435,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=dried+herbes+de+provence"
 			}
 		},
-		"A variety of liquid seasonings to taste (see last step)"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "dried herbes de provence",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoon",
+				"value" : "1/2"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=dried+herbes+de+provence"
+			}
+		}
 	] 
 },
 {
@@ -2799,7 +3537,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=sake+(Japanese+rice+wine)"
 			}
 		},
-		"1/4 cup mirin* (Japanese sweet rice wine)",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "sake (Japanese rice wine)",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1/4"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=sake+(Japanese+rice+wine)"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -2885,7 +3639,18 @@
 		"url" : "http://www.latartinegourmande.com/2009/10/15/homemade-baby-food/"
 	}, 
 	"recipeIngredient": [
-		"Japanese white sweet potato (3 oz; 90 g peeled and diced)",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "null",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "null",
+				"value" : "null"
+			},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -2954,7 +3719,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=thyme+twig"
 			}
 		},
-		"Olive oil  to drizzle"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "thyme twig",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "x",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=thyme+twig"
+			}
+		}
 	] 
 },
 {
@@ -2989,7 +3770,18 @@
 		"url" : "http://www.delish.com/cooking/recipe-ideas/recipes/a20668/japanese-cucumber-salad-sesame-miso-dressing-recipe-fw0313/"
 	}, 
 	"recipeIngredient": [
-		"? c. Japanese sesame paste or tahini",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "null",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "null",
+				"value" : "null"
+			},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -3075,7 +3867,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=toasted+sesame+oil"
 			}
 		},
-		"? c. pine nuts",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "toasted sesame oil",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tsp.",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=toasted+sesame+oil"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -3093,7 +3901,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=Japanese++Persian++or+kirby+cucumbers"
 			}
 		},
-		"kosher salt",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "Japanese  Persian  or kirby cucumbers",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "oz.",
+				"value" : "12"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=Japanese++Persian++or+kirby+cucumbers"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -3196,7 +4020,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=russet+potatoes++about+3+large+potatoes++peeled+and+quartered"
 			}
 		},
-		"Kosher salt",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "russet potatoes  about 3 large potatoes  peeled and quartered",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pounds",
+				"value" : "1 1/2"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=russet+potatoes++about+3+large+potatoes++peeled+and+quartered"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -3367,7 +4207,18 @@
 		"url" : "http://www.sfgate.com/food/recipes/detail.html?rid=15421&sorig=qs"
 	}, 
 	"recipeIngredient": [
-		"5-6 dried shiitake mushrooms",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "null",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "null",
+				"value" : "null"
+			},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -3606,7 +4457,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=Italian+parsley++chopped"
 			}
 		},
-		"Salt and pepper",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "Italian parsley  chopped",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoons",
+				"value" : "2"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=Italian+parsley++chopped"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -3777,11 +4644,91 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=raisins"
 			}
 		},
-		"olive oil",
-		"1-2 Tbs (or more  depending on how hot you want it) curry powder",
-		"salt",
-		"pepper",
-		"4-5 cups cooked Japanese rice",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "raisins",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "Tbs.",
+				"value" : "2"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=raisins"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "raisins",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "Tbs.",
+				"value" : "2"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=raisins"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "raisins",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "Tbs.",
+				"value" : "2"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=raisins"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "raisins",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "Tbs.",
+				"value" : "2"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=raisins"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "raisins",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "Tbs.",
+				"value" : "2"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=raisins"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -4173,7 +5120,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=unrefined+brown+cane+sugar"
 			}
 		},
-		"A pinch of ground chili"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "unrefined brown cane sugar",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoon",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=unrefined+brown+cane+sugar"
+			}
+		}
 	] 
 },
 {
@@ -4225,7 +5188,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=soy+sauce"
 			}
 		},
-		"teaspoon English mustard powder",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "soy sauce",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoons",
+				"value" : "3"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=soy+sauce"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -4243,7 +5222,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=grapeseed+oil"
 			}
 		},
-		"sea salt and freshly ground black pepper",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "grapeseed oil",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoon",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=grapeseed+oil"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -4261,7 +5256,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=rice+vinegar"
 			}
 		},
-		"teaspoon granulated sugar",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "rice vinegar",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoons",
+				"value" : "2"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=rice+vinegar"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -4398,7 +5409,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=grated+fresh+ginger"
 			}
 		},
-		"kosher salt",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "grated fresh ginger",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoon",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=grated+fresh+ginger"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -4501,7 +5528,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=low-sodium+chicken+broth"
 			}
 		},
-		"1 can coconut milk*  shaken well",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "low-sodium chicken broth",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cups",
+				"value" : "2"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=low-sodium+chicken+broth"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -4519,7 +5562,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=skinless+chicken+breast+halves+(each+about+6+ounces)++pounded+to+1/2-inch+thickness"
 			}
 		},
-		"kosher salt",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "skinless chicken breast halves (each about 6 ounces)  pounded to 1/2-inch thickness",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "boneless",
+				"value" : "6"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=skinless+chicken+breast+halves+(each+about+6+ounces)++pounded+to+1/2-inch+thickness"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -4588,7 +5647,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=canola+oil"
 			}
 		},
-		"steamed rice"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "canola oil",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=canola+oil"
+			}
+		}
 	] 
 },
 {
@@ -4759,7 +5834,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=water"
 			}
 		},
-		"canola oil",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "water",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoons",
+				"value" : "1 1/2"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=water"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -5015,7 +6106,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=fluffy+potatoes(about+650g)++peel+and+diced+into+even-sized+pieces"
 			}
 		},
-		"(for the sauce)",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "fluffy potatoes(about 650g)  peel and diced into even-sized pieces",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "medium",
+				"value" : "4"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=fluffy+potatoes(about+650g)++peel+and+diced+into+even-sized+pieces"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -5254,8 +6361,40 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=of+French+Trimmed+Green+Beans"
 			}
 		},
-		"Vegetable Oil",
-		"Steamed plain rice to serve"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "of French Trimmed Green Beans",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "grams",
+				"value" : "100"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=of+French+Trimmed+Green+Beans"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "of French Trimmed Green Beans",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "grams",
+				"value" : "100"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=of+French+Trimmed+Green+Beans"
+			}
+		}
 	] 
 },
 {
@@ -5426,7 +6565,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=thinly+sliced+fresh+shiso+leaves+or+mint"
 			}
 		},
-		"freshly ground pepper"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "thinly sliced fresh shiso leaves or mint",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "Tbs.",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=thinly+sliced+fresh+shiso+leaves+or+mint"
+			}
+		}
 	] 
 },
 {
@@ -5529,8 +6684,40 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=oil"
 			}
 		},
-		"14 grams garlic grated (~2 large cloves)",
-		"14 grams ginger grated (~1/2-inch piece)",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "oil",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoon",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=oil"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "oil",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoon",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=oil"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -5582,7 +6769,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=chicken+stock"
 			}
 		},
-		"300 grams carrots cut into chunks (~ 2 carrots)",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "chicken stock",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cups",
+				"value" : "3"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=chicken+stock"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -5685,7 +6888,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=leaf"
 			}
 		},
-		"350 grams potatoes cut into large chunks (~2 medium potatoes)",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "leaf",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "bay",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=leaf"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -5822,7 +7041,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=Onion++small"
 			}
 		},
-		"1 x Naan Flatbread  about 8?14 inches",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "Onion  small",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "x",
+				"value" : "1/2"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=Onion++small"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -6435,7 +7670,18 @@
 		"url" : "http://www.delish.com/cooking/recipe-ideas/recipes/a16092/japanese-sour-cherry-green-tea-sorbet-recipe-del0511/"
 	}, 
 	"recipeIngredient": [
-		"1? c. sugar",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "null",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "null",
+				"value" : "null"
+			},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -6453,7 +7699,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=water"
 			}
 		},
-		"? c. loose Japanese sour cherry-flavored green tea",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "water",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "c.",
+				"value" : "3"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=water"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -6641,7 +7903,18 @@
 		"url" : "http://www.cookstr.com/recipes/yokorsquos-japanese-salad-dressing"
 	}, 
 	"recipeIngredient": [
-		"? teaspoon toasted sesame seeds   smashed in a mortar with a pestle",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "null",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "null",
+				"value" : "null"
+			},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -6676,7 +7949,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=grated+carrot"
 			}
 		},
-		"? teaspoon dried red pepper flakes",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "grated carrot",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoon",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=grated+carrot"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -6694,10 +7983,74 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=rice+wine+vinegar"
 			}
 		},
-		"? teaspoon grated fresh ginger",
-		"? teaspoon sugar",
-		"? teaspoon wasahi (Japanese horseradish paste)",
-		"? teaspoon white miso paste",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "rice wine vinegar",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoons",
+				"value" : "3"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=rice+wine+vinegar"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "rice wine vinegar",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoons",
+				"value" : "3"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=rice+wine+vinegar"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "rice wine vinegar",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoons",
+				"value" : "3"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=rice+wine+vinegar"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "rice wine vinegar",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoons",
+				"value" : "3"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=rice+wine+vinegar"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -6953,8 +8306,40 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=ground+chicken+(preferably+dark+meat)"
 			}
 		},
-		"? teaspoon coarse sea salt",
-		"? teaspoon freshly ground black pepper",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "ground chicken (preferably dark meat)",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pound",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=ground+chicken+(preferably+dark+meat)"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "ground chicken (preferably dark meat)",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pound",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=ground+chicken+(preferably+dark+meat)"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -7040,7 +8425,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=neutral+oil+(like+canola++grapeseed++or+safflower+oil)"
 			}
 		},
-		"Lee's hoisin sauce for serving"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "neutral oil (like canola  grapeseed  or safflower oil)",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoons",
+				"value" : "2"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=neutral+oil+(like+canola++grapeseed++or+safflower+oil)"
+			}
+		}
 	] 
 },
 {
@@ -7075,9 +8476,42 @@
 		"url" : "http://www.pbs.org/food/recipes/japanese-pot-stickers/"
 	}, 
 	"recipeIngredient": [
-		"3-1/2 ounces cake flour",
-		"3-1/2 ounces bread flour",
-		"Additional flour for dusting",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "null",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "null",
+				"value" : "null"
+			},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "null",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "null",
+				"value" : "null"
+			},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "null",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "null",
+				"value" : "null"
+			},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -7095,7 +8529,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=salt"
 			}
 		},
-		"Stuffing ingredients",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "salt",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoon",
+				"value" : "1/4"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=salt"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -7130,7 +8580,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=shoyu+(soy+sauce)+plus+more+for+dipping"
 			}
 		},
-		"3-1/2 ounces spinach leaf part only  chopped",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "shoyu (soy sauce) plus more for dipping",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoon",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=shoyu+(soy+sauce)+plus+more+for+dipping"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -7216,7 +8682,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=chopped+garlic+chives"
 			}
 		},
-		"Pinch of sugar",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "chopped garlic chives",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoons",
+				"value" : "2"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=chopped+garlic+chives"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -7234,7 +8716,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=sesame+or+vegetable+oil"
 			}
 		},
-		"Japanese hot mustard paste or french smooth mustard paste"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "sesame or vegetable oil",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoons",
+				"value" : "4"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=sesame+or+vegetable+oil"
+			}
+		}
 	] 
 },
 {
@@ -7303,7 +8801,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=hot+red+chili+peppers"
 			}
 		},
-		"salt",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "hot red chili peppers",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "small",
+				"value" : "2"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=hot+red+chili+peppers"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -7338,8 +8852,40 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=sugar+(For+the+sugar-wary++a+sugar+substitute+should+work+fine)"
 			}
 		},
-		"vegetable oil",
-		"sesame oil"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "sugar (For the sugar-wary  a sugar substitute should work fine)",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoons",
+				"value" : "1 1/2"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=sugar+(For+the+sugar-wary++a+sugar+substitute+should+work+fine)"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "sugar (For the sugar-wary  a sugar substitute should work fine)",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoons",
+				"value" : "1 1/2"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=sugar+(For+the+sugar-wary++a+sugar+substitute+should+work+fine)"
+			}
+		}
 	] 
 },
 {
@@ -7374,7 +8920,18 @@
 		"url" : "http://chubbyhubby.net/recipes/katsudon/"
 	}, 
 	"recipeIngredient": [
-		"1? cups Japanese short-grain rice (more if you prefer to have more rice)",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "null",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "null",
+				"value" : "null"
+			},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -7443,7 +9000,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=leaves++julienned+(optional)"
 			}
 		},
-		"salt and pepper",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "leaves  julienned (optional)",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "shiso",
+				"value" : "2"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=leaves++julienned+(optional)"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -7495,12 +9068,108 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=panko+(Japanese+breadcrumbs)"
 			}
 		},
-		"oil for deep-frying",
-		"1? cups dashi",
-		"3? tablespoons mirin",
-		"1? tablespoons light Japanese soy sauce",
-		"1? tablespoons dark Japanese soy sauce",
-		"? medium onion  peeled and sliced into rings or crescents",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "panko (Japanese breadcrumbs)",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cups",
+				"value" : "2"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=panko+(Japanese+breadcrumbs)"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "panko (Japanese breadcrumbs)",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cups",
+				"value" : "2"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=panko+(Japanese+breadcrumbs)"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "panko (Japanese breadcrumbs)",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cups",
+				"value" : "2"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=panko+(Japanese+breadcrumbs)"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "panko (Japanese breadcrumbs)",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cups",
+				"value" : "2"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=panko+(Japanese+breadcrumbs)"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "panko (Japanese breadcrumbs)",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cups",
+				"value" : "2"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=panko+(Japanese+breadcrumbs)"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "panko (Japanese breadcrumbs)",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cups",
+				"value" : "2"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=panko+(Japanese+breadcrumbs)"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -7688,7 +9357,18 @@
 		"url" : "http://www.foodandwine.com/recipes/japanese-frites"
 	}, 
 	"recipeIngredient": [
-		"Vegetable oil  for frying",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "null",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "null",
+				"value" : "null"
+			},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -7740,7 +9420,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=kosher+salt"
 			}
 		},
-		"Pinch of freshly ground pepper",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "kosher salt",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoons",
+				"value" : "2"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=kosher+salt"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -8200,7 +9896,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=separated"
 			}
 		},
-		"1.0 tbsp tomato pur?e",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "separated",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "eggs",
+				"value" : "2"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=separated"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -8320,7 +10032,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=chilli+++cut+into+thin+slices+(keep+some+to+decorate)"
 			}
 		},
-		"DIPPING SAUCE",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "chilli   cut into thin slices (keep some to decorate)",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "red",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=chilli+++cut+into+thin+slices+(keep+some+to+decorate)"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -8474,7 +10202,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=(56g)+unsalted+butter++at+room+temperature"
 			}
 		},
-		"finely grated zest from one medium lemon",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "(56g) unsalted butter  at room temperature",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1/4"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=(56g)+unsalted+butter++at+room+temperature"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -9121,7 +10865,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=sake"
 			}
 		},
-		"1? piece of ginger sliced",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "sake",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tbs",
+				"value" : "2"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=sake"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -9428,7 +11188,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=3+scallions+++thinly+sliced"
 			}
 		},
-		"Freshly ground pepper to taste",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "3 scallions   thinly sliced",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "to",
+				"value" : "2"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=3+scallions+++thinly+sliced"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -9446,7 +11222,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=8+ounces+fresh+shiitake++cremini++or+baby+bella+mushrooms+++stemmed+and+sliced"
 			}
 		},
-		"One 8-ounce package soba (Japanese buckwheat noodles ) or somen2 tablespoons light olive oil",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "8 ounces fresh shiitake  cremini  or baby bella mushrooms   stemmed and sliced",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "to",
+				"value" : "6"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=8+ounces+fresh+shiitake++cremini++or+baby+bella+mushrooms+++stemmed+and+sliced"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -9600,7 +11392,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=Ginger+Soy+Grilling+Sauce"
 			}
 		},
-		"Ginger Sesame Dipping Sauce for serving (optional)"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "Ginger Soy Grilling Sauce",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1/2"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=Ginger+Soy+Grilling+Sauce"
+			}
+		}
 	] 
 },
 {
@@ -9635,7 +11443,18 @@
 		"url" : "http://www.pbs.org/food/fresh-tastes/japanese-ratatouille/"
 	}, 
 	"recipeIngredient": [
-		"6 ounces Japanese eggplant (~2 eggplants)  cut into 1/2-inch slices",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "null",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "null",
+				"value" : "null"
+			},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -9670,9 +11489,57 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=cherry+tomatoes"
 			}
 		},
-		"6 ounces kabocha pumpkin (~1/8 pumpkin)  cut into 1/4-inch wedges",
-		"6 ounces red bell pepper (~1 pepper)  cut into triangles",
-		"6 ounces onion (~1 small onion)  cut into 1/4 slices",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "cherry tomatoes",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "ounces",
+				"value" : "9.9"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=cherry+tomatoes"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "cherry tomatoes",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "ounces",
+				"value" : "9.9"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=cherry+tomatoes"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "cherry tomatoes",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "ounces",
+				"value" : "9.9"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=cherry+tomatoes"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -9962,7 +11829,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=1/2+lemon"
 			}
 		},
-		"Sugar to taste"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "1/2 lemon",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "squeeze",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=1/2+lemon"
+			}
+		}
 	] 
 },
 {
@@ -9997,7 +11880,18 @@
 		"url" : "http://www.seriouseats.com/recipes/2011/07/japanese-burgers-with-wasabi-ketchup-recipe.html"
 	}, 
 	"recipeIngredient": [
-		"Wasabi Ketchup:",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "null",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "null",
+				"value" : "null"
+			},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -10049,7 +11943,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=wasabi"
 			}
 		},
-		"Japanese Burgers:",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "wasabi",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoon",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=wasabi"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -10186,7 +12096,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=salt"
 			}
 		},
-		"Sesame oil  for coating hands"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "salt",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoon",
+				"value" : "1/2"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=salt"
+			}
+		}
 	] 
 },
 {
@@ -10748,7 +12674,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=lemon+peel"
 			}
 		},
-		"? tsp. crushed red pepper",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "lemon peel",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "strip",
+				"value" : "3"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=lemon+peel"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -10800,7 +12742,18 @@
 		"url" : "http://justhungry.com/hambaagu-or-hambaagaa-japanese-hamburgers"
 	}, 
 	"recipeIngredient": [
-		"200g/ about 7 oz. ground beef (from a cut that has a fair amount of fat in it - very lean beef will not work because it will be too dry.)",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "null",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "null",
+				"value" : "null"
+			},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -10852,8 +12805,40 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=salt"
 			}
 		},
-		"About 1/2 tsp. ground black pepper",
-		"About 1/4 tsp. ground nutmeg",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "salt",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tsp.",
+				"value" : "3/4"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=salt"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "salt",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tsp.",
+				"value" : "3/4"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=salt"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -10871,7 +12856,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=soft+white+breadcrumbs+(Make+the+breadcrumbs+from+regular+white+bread+slices+with+the+crusts+off.+The+crumb+of+a+baguette+is+really+good+for+this.)"
 			}
 		},
-		"2-3 Tbs. milk",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "soft white breadcrumbs (Make the breadcrumbs from regular white bread slices with the crusts off. The crumb of a baguette is really good for this.)",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=soft+white+breadcrumbs+(Make+the+breadcrumbs+from+regular+white+bread+slices+with+the+crusts+off.+The+crumb+of+a+baguette+is+really+good+for+this.)"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -10889,7 +12890,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=egg"
 			}
 		},
-		"oil",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "egg",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pcs",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=egg"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -10975,9 +12992,42 @@
 		"url" : "http://www.pbs.org/food/recipes/japanese-potato-salad/"
 	}, 
 	"recipeIngredient": [
-		"5 Yukon Gold potatoes (800g)  peeled and cut into 1/2? cubes",
-		"1 large carrot  peeled  quartered lengthwise  then cut into ?? pieces",
-		"1 Japanese or Lebanese cucumber* (100g)  thinly sliced",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "null",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "null",
+				"value" : "null"
+			},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "null",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "null",
+				"value" : "null"
+			},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "null",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "null",
+				"value" : "null"
+			},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -11063,8 +13113,40 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=sugar+or+honey"
 			}
 		},
-		"black pepper",
-		"4-5 slices ham (80g)  chopped"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "sugar or honey",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoon",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=sugar+or+honey"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "sugar or honey",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoon",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=sugar+or+honey"
+			}
+		}
 	] 
 },
 {
@@ -11694,7 +13776,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=globe+eggplant++cut+crosswise+into+4+(1/2+inch+thick)+rounds+(see+note+above)"
 			}
 		},
-		"Vegetable oil  for brushing",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "globe eggplant  cut crosswise into 4 (1/2 inch thick) rounds (see note above)",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "large",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=globe+eggplant++cut+crosswise+into+4+(1/2+inch+thick)+rounds+(see+note+above)"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -11780,9 +13878,57 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=freshly+ground+beef+chuck++preferably+about+80+percent+lean++formed+into+4+(4+1/2+inch+wide)+patties"
 			}
 		},
-		"Freshly ground black pepper",
-		"Mayonaise  preferably Kewpie  for serving",
-		"Sriracha  for serving",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "freshly ground beef chuck  preferably about 80 percent lean  formed into 4 (4 1/2 inch wide) patties",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pounds",
+				"value" : "1 1/2"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=freshly+ground+beef+chuck++preferably+about+80+percent+lean++formed+into+4+(4+1/2+inch+wide)+patties"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "freshly ground beef chuck  preferably about 80 percent lean  formed into 4 (4 1/2 inch wide) patties",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pounds",
+				"value" : "1 1/2"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=freshly+ground+beef+chuck++preferably+about+80+percent+lean++formed+into+4+(4+1/2+inch+wide)+patties"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "freshly ground beef chuck  preferably about 80 percent lean  formed into 4 (4 1/2 inch wide) patties",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pounds",
+				"value" : "1 1/2"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=freshly+ground+beef+chuck++preferably+about+80+percent+lean++formed+into+4+(4+1/2+inch+wide)+patties"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -11834,7 +13980,18 @@
 		"url" : "http://www.delish.com/cooking/recipe-ideas/recipes/a22417/japanese-pizza-recipe-fw0214/"
 	}, 
 	"recipeIngredient": [
-		"2? oz. shiitake mushrooms",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "null",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "null",
+				"value" : "null"
+			},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -11869,7 +14026,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=canola+oil"
 			}
 		},
-		"? tsp. toasted sesame oil",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "canola oil",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tbsp.",
+				"value" : "2"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=canola+oil"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -11921,7 +14094,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=unagi+sauce"
 			}
 		},
-		"? c. edamame",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "unagi sauce",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tsp.",
+				"value" : "2"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=unagi+sauce"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -11939,9 +14128,57 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=Manchego+cheese"
 			}
 		},
-		"? c. soy bean sprouts",
-		"kosher salt",
-		"Togarashi and toasted white and black sesame seeds",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "Manchego cheese",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "oz.",
+				"value" : "5"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=Manchego+cheese"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "Manchego cheese",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "oz.",
+				"value" : "5"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=Manchego+cheese"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "Manchego cheese",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "oz.",
+				"value" : "5"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=Manchego+cheese"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -11976,7 +14213,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=leaves"
 			}
 		},
-		"? c. Cilantro leaves"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "leaves",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "shiso",
+				"value" : "6"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=leaves"
+			}
+		}
 	] 
 },
 {
@@ -12079,7 +14332,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=reduced-sodium+soy+sauce"
 			}
 		},
-		"? c. low-sodium chicken broth",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "reduced-sodium soy sauce",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tbsp.",
+				"value" : "2"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=reduced-sodium+soy+sauce"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -12165,9 +14434,57 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=(2-inches)+fresh+ginger++peeled+and+cut+into+disks"
 			}
 		},
-		"1 shallot  minced  or ? cup minced onion",
-		"3 tablespoons unseasoned rice vinegar  or 1? tablespoons white wine vinegar",
-		"? cup canola  peanut  or vegetable oil",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "(2-inches) fresh ginger  peeled and cut into disks",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "piece",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=(2-inches)+fresh+ginger++peeled+and+cut+into+disks"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "(2-inches) fresh ginger  peeled and cut into disks",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "piece",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=(2-inches)+fresh+ginger++peeled+and+cut+into+disks"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "(2-inches) fresh ginger  peeled and cut into disks",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "piece",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=(2-inches)+fresh+ginger++peeled+and+cut+into+disks"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -12219,11 +14536,91 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=miso+paste+(optional++but+recommended)"
 			}
 		},
-		"2 teaspoons mirin (optional; see notes)",
-		"6 to 7 cups thinly sliced romaine lettuce (about 1? heads lettuce or 2 hearts of romaine)",
-		"? cup shredded peeled carrots",
-		"? cucumber (preferably seedless or english)  peeled  cut in half lengthwise  and thinly sliced crosswise",
-		"Handful of cherry or grape tomatoes",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "miso paste (optional  but recommended)",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoons",
+				"value" : "4"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=miso+paste+(optional++but+recommended)"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "miso paste (optional  but recommended)",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoons",
+				"value" : "4"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=miso+paste+(optional++but+recommended)"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "miso paste (optional  but recommended)",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoons",
+				"value" : "4"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=miso+paste+(optional++but+recommended)"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "miso paste (optional  but recommended)",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoons",
+				"value" : "4"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=miso+paste+(optional++but+recommended)"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "miso paste (optional  but recommended)",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoons",
+				"value" : "4"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=miso+paste+(optional++but+recommended)"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -12530,7 +14927,18 @@
 		"url" : "https://food52.com/recipes/6805-japanese-mayo-dip-with-yuzu-chicken-wings"
 	}, 
 	"recipeIngredient": [
-		"For the wings",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "null",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "null",
+				"value" : "null"
+			},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -12650,7 +15058,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=chicken+stock"
 			}
 		},
-		"Mix of 1 tablespoon cornflour & 2 tablespoons water",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "chicken stock",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1/2"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=chicken+stock"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -12668,7 +15092,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=mine+were+tipless+(i+cut+into+flats+and+drumettes++making+10+pieces)"
 			}
 		},
-		"For the yuzukosho",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "mine were tipless (i cut into flats and drumettes  making 10 pieces)",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "wings",
+				"value" : "5"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=mine+were+tipless+(i+cut+into+flats+and+drumettes++making+10+pieces)"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -12720,7 +15160,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=maldon/sea+salt"
 			}
 		},
-		"For the japanese mayo",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "maldon/sea salt",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teapsoon",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=maldon/sea+salt"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -12789,7 +15245,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=mirin"
 			}
 		},
-		"Salt & pepper to taste/garnish"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "mirin",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoon",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=mirin"
+			}
+		}
 	] 
 },
 {
@@ -13113,7 +15585,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=thinly+sliced+English+cucumber"
 			}
 		},
-		"1 jalape?o pepper  thinly sliced",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "thinly sliced English cucumber",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=thinly+sliced+English+cucumber"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -13250,7 +15738,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=nori-based+furikake+(japanese+rice+seasoning)++preferably+nori+komi+or+aji+nori"
 			}
 		},
-		"Salt to taste"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "nori-based furikake (japanese rice seasoning)  preferably nori komi or aji nori",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoons",
+				"value" : "5"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=nori-based+furikake+(japanese+rice+seasoning)++preferably+nori+komi+or+aji+nori"
+			}
+		}
 	] 
 },
 {
@@ -13506,9 +16010,57 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=fillets+(bluefish++mackerel++or+other+oily+fish)++about+6+ounces+each"
 			}
 		},
-		"Olive oil",
-		"Kosher or sea salt and freshly ground black pepper to taste",
-		"Lemon slices for serving"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "fillets (bluefish  mackerel  or other oily fish)  about 6 ounces each",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "fish",
+				"value" : "4"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=fillets+(bluefish++mackerel++or+other+oily+fish)++about+6+ounces+each"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "fillets (bluefish  mackerel  or other oily fish)  about 6 ounces each",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "fish",
+				"value" : "4"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=fillets+(bluefish++mackerel++or+other+oily+fish)++about+6+ounces+each"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "fillets (bluefish  mackerel  or other oily fish)  about 6 ounces each",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "fish",
+				"value" : "4"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=fillets+(bluefish++mackerel++or+other+oily+fish)++about+6+ounces+each"
+			}
+		}
 	] 
 },
 {
@@ -13713,7 +16265,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=of+garlic++finely+minced"
 			}
 		},
-		"Vegetable oil  for frying"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "of garlic  finely minced",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cloves",
+				"value" : "4"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=of+garlic++finely+minced"
+			}
+		}
 	] 
 },
 {
@@ -14326,7 +16894,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=potato+starch"
 			}
 		},
-		"vegetable oil for frying"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "potato starch",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoon",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=potato+starch"
+			}
+		}
 	] 
 },
 {
@@ -14446,8 +17030,40 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=ripe+avocados+++sliced"
 			}
 		},
-		"juice 1 lemon",
-		"small handful coriander leaves",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "ripe avocados   sliced",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "small",
+				"value" : "2"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=ripe+avocados+++sliced"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "ripe avocados   sliced",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "small",
+				"value" : "2"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=ripe+avocados+++sliced"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -14720,8 +17336,40 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=dashi+stock+(you+can+find+it+in+asian+grocery+stores)"
 			}
 		},
-		"? baking powder",
-		"Salt",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "dashi stock (you can find it in asian grocery stores)",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "ml",
+				"value" : "140"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=dashi+stock+(you+can+find+it+in+asian+grocery+stores)"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "dashi stock (you can find it in asian grocery stores)",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "ml",
+				"value" : "140"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=dashi+stock+(you+can+find+it+in+asian+grocery+stores)"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -14773,8 +17421,40 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=shrimps"
 			}
 		},
-		"Tenkasu (little beads of tempura fried batter ? optional)",
-		"Beni shoga (pickled ginger)",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "shrimps",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pcs",
+				"value" : "8"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=shrimps"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "shrimps",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pcs",
+				"value" : "8"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=shrimps"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -14996,7 +17676,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=chopped+cilantro"
 			}
 		},
-		"gari"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "chopped cilantro",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoons",
+				"value" : "2"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=chopped+cilantro"
+			}
+		}
 	] 
 },
 {
@@ -15116,7 +17812,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=Japanese+kewpie+mayonnaise"
 			}
 		},
-		"furikake (Japanese seasoning)  nori and wasabi peas"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "Japanese kewpie mayonnaise",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoons",
+				"value" : "2"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=Japanese+kewpie+mayonnaise"
+			}
+		}
 	] 
 },
 {
@@ -15236,7 +17948,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=poached"
 			}
 		},
-		"1-2 chopped scallions"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "poached",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "egg",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=poached"
+			}
+		}
 	] 
 },
 {
@@ -15373,8 +18101,40 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=rice+vinegar"
 			}
 		},
-		"oil for frying",
-		"DRESSING",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "rice vinegar",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tbsp",
+				"value" : "1.0"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=rice+vinegar"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "rice vinegar",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tbsp",
+				"value" : "1.0"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=rice+vinegar"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -15868,7 +18628,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=ground+pork"
 			}
 		},
-		"14 ounce pack of silken tofu  drained and sliced into 1? cubes"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "ground pork",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pound",
+				"value" : "1/2"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=ground+pork"
+			}
+		}
 	] 
 },
 {
@@ -15954,7 +18730,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=whole+wheat+pastry+flour+(or+apf+flour)"
 			}
 		},
-		"a couple pinches of fine grain sea salt",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "whole wheat pastry flour (or apf flour)",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "2/3"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=whole+wheat+pastry+flour+(or+apf+flour)"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -15972,8 +18764,40 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=beaten"
 			}
 		},
-		"1+ tablespoon olive oil",
-		"Garnish: toasted slivered almonds  chives/herbs"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "beaten",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "eggs",
+				"value" : "2"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=beaten"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "beaten",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "eggs",
+				"value" : "2"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=beaten"
+			}
+		}
 	] 
 },
 {
@@ -16042,8 +18866,40 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=cornstarch"
 			}
 		},
-		"1 can Campbell's? Condensed Beef Broth",
-		"? c. soy sauce",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "cornstarch",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tbsp.",
+				"value" : "3"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=cornstarch"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "cornstarch",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tbsp.",
+				"value" : "3"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=cornstarch"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -16163,7 +19019,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=green+onion"
 			}
 		},
-		"hot cooked regular long-grain white rice"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "green onion",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "medium",
+				"value" : "2"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=green+onion"
+			}
+		}
 	] 
 },
 {
@@ -16606,7 +19478,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=vegetable+broth"
 			}
 		},
-		"vegetable oil"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "vegetable broth",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "2/3"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=vegetable+broth"
+			}
+		}
 	] 
 },
 {
@@ -16879,8 +19767,40 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=black+pepper+++more+to+taste"
 			}
 		},
-		"-- Vegetable oil for deep frying",
-		"-- Fresh lemon wedges"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "black pepper + more to taste",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoon",
+				"value" : "1/8"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=black+pepper+++more+to+taste"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "black pepper + more to taste",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoon",
+				"value" : "1/8"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=black+pepper+++more+to+taste"
+			}
+		}
 	] 
 }
 ]

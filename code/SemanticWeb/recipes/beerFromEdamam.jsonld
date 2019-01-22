@@ -48,7 +48,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=good++wheaty+or+malty+beer"
 			}
 		},
-		"Vinegar mother (optional)"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "good  wheaty or malty beer",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "gallon",
+				"value" : "1/2"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=good++wheaty+or+malty+beer"
+			}
+		}
 	] 
 },
 {
@@ -151,7 +167,18 @@
 		"url" : "http://www.seriouseats.com/recipes/2010/06/beer-profiteroles-with-chocolate-beer-sauce-recipe.html"
 	}, 
 	"recipeIngredient": [
-		"For the beer ice cream:",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "null",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "null",
+				"value" : "null"
+			},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -271,7 +298,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=(8+ounces)+chocolate+stout++or+other+dark+beer"
 			}
 		},
-		"For the profiteroles:",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "(8 ounces) chocolate stout  or other dark beer",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=(8+ounces)+chocolate+stout++or+other+dark+beer"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -357,7 +400,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=eggs"
 			}
 		},
-		"For the chocolate-beer sauce:",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "eggs",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "large",
+				"value" : "3"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=eggs"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -494,7 +553,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=beer"
 			}
 		},
-		"fresh or dried herbs",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "beer",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "bottle",
+				"value" : "1/2"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=beer"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -699,9 +774,57 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=all-purpose+flour"
 			}
 		},
-		"1? tablespoons baking powder",
-		"? teaspoon salt",
-		"? cup light brown sugar",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "all-purpose flour",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cups",
+				"value" : "3"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=all-purpose+flour"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "all-purpose flour",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cups",
+				"value" : "3"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=all-purpose+flour"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "all-purpose flour",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cups",
+				"value" : "3"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=all-purpose+flour"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -1110,7 +1233,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=freshly+shredded+Swiss+cheese"
 			}
 		},
-		"Fresh Baked Pretzels or freshly popped popcorn  for serving"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "freshly shredded Swiss cheese",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cups",
+				"value" : "2"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=freshly+shredded+Swiss+cheese"
+			}
+		}
 	] 
 },
 {
@@ -1842,7 +1981,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=vanilla+ice+cream"
 			}
 		},
-		"Two 12-ounce bottles root beer"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "vanilla ice cream",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "scoops",
+				"value" : "6"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=vanilla+ice+cream"
+			}
+		}
 	] 
 },
 {
@@ -1996,7 +2151,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=tomato+juice"
 			}
 		},
-		"About 3 tablespoons hot sauce (i like frank's)",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "tomato juice",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cups",
+				"value" : "3"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=tomato+juice"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -2048,7 +2219,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=celery+salt"
 			}
 		},
-		"Juice of 4 limes",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "celery salt",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoon",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=celery+salt"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -2066,7 +2253,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=sliced+into+rings"
 			}
 		},
-		"Salt and freshly ground black pepper",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "sliced into rings",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "jalapenos",
+				"value" : "2"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=sliced+into+rings"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -2101,7 +2304,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=beer+(ipa+or+wheat+beer)"
 			}
 		},
-		"Celery sticks  for serving"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "beer (ipa or wheat beer)",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "ounces",
+				"value" : "8"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=beer+(ipa+or+wheat+beer)"
+			}
+		}
 	] 
 },
 {
@@ -2136,8 +2355,30 @@
 		"url" : "http://honestcooking.com/soft-beer-pretzels-with-beer-mustard/"
 	}, 
 	"recipeIngredient": [
-		"? cup (60ml) warm water (about 100-110?f or 38-43?c)",
-		"1 (1/4 oz) pkge active dry yeast or 2? tsp (1/4 oz)",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "null",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "null",
+				"value" : "null"
+			},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "null",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "null",
+				"value" : "null"
+			},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -2206,7 +2447,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=(240ml)+beer+at+room+temperature"
 			}
 		},
-		"3? to 4 cups (469g-500g) all purpose flour",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "(240ml) beer at room temperature",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=(240ml)+beer+at+room+temperature"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -2258,7 +2515,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=beaten"
 			}
 		},
-		"Kosher salt",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "beaten",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "egg",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=beaten"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -2293,7 +2566,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=black+mustard+seeds"
 			}
 		},
-		"6tb + 2?tsp (100ml) beer",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "black mustard seeds",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tb",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=black+mustard+seeds"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -2311,8 +2600,40 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=(75ml)+cider+vinegar"
 			}
 		},
-		"? tsp onion powder",
-		"? tsp garlic powder",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "(75ml) cider vinegar",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tb",
+				"value" : "5"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=(75ml)+cider+vinegar"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "(75ml) cider vinegar",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tb",
+				"value" : "5"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=(75ml)+cider+vinegar"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -2347,9 +2668,57 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=dark+muscovado+sugar+(or+other+dark+brown+sugar)"
 			}
 		},
-		"? tsp turmeric",
-		"? tsp nutmeg",
-		"? tsp fine salt"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "dark muscovado sugar (or other dark brown sugar)",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tb",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=dark+muscovado+sugar+(or+other+dark+brown+sugar)"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "dark muscovado sugar (or other dark brown sugar)",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tb",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=dark+muscovado+sugar+(or+other+dark+brown+sugar)"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "dark muscovado sugar (or other dark brown sugar)",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tb",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=dark+muscovado+sugar+(or+other+dark+brown+sugar)"
+			}
+		}
 	] 
 },
 {
@@ -2877,8 +3246,40 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=beef+chuck++cut+into+1-inch+chunks"
 			}
 		},
-		"salt and freshly ground black pepper",
-		"olive oil",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "beef chuck  cut into 1-inch chunks",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "lb",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=beef+chuck++cut+into+1-inch+chunks"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "beef chuck  cut into 1-inch chunks",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "lb",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=beef+chuck++cut+into+1-inch+chunks"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -2930,7 +3331,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=garlic++minced"
 			}
 		},
-		"1 ? tsp sprigs thyme",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "garlic  minced",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "clove",
+				"value" : "3"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=garlic++minced"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -3339,7 +3756,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=wedges"
 			}
 		},
-		"coarse salt",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "wedges",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "lime",
+				"value" : "5"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=wedges"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -3544,8 +3977,30 @@
 		"url" : "http://honestcooking.com/oktoberfest-recipe-beer-creme-brulee/"
 	}, 
 	"recipeIngredient": [
-		"? cups heavy cream",
-		"? cup german style wheat beer",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "null",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "null",
+				"value" : "null"
+			},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "null",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "null",
+				"value" : "null"
+			},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -3563,7 +4018,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=yolks"
 			}
 		},
-		"? cup sugar  plus another ? cup for the topping"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "yolks",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "egg",
+				"value" : "5"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=yolks"
+			}
+		}
 	] 
 },
 {
@@ -3598,7 +4069,18 @@
 		"url" : "http://www.goodhousekeeping.com/food-recipes/a15628/root-beer-glazed-ham-recipe-wdy0414/"
 	}, 
 	"recipeIngredient": [
-		"? fully-cooked bone-in ham",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "null",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "null",
+				"value" : "null"
+			},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -3616,7 +4098,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=cloves"
 			}
 		},
-		"? c. Dijon mustard",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "cloves",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "whole",
+				"value" : "40"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=cloves"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -3634,9 +4132,57 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=cider+vinegar"
 			}
 		},
-		"? c. firmly packed brown sugar",
-		"Kosher salt",
-		"pepper",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "cider vinegar",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tbsp.",
+				"value" : "2"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=cider+vinegar"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "cider vinegar",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tbsp.",
+				"value" : "2"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=cider+vinegar"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "cider vinegar",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tbsp.",
+				"value" : "2"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=cider+vinegar"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -3705,7 +4251,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=PHILADELPHIA+Cream+Cheese++softened"
 			}
 		},
-		"? cup KRAFT classic ranch dressing",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "PHILADELPHIA Cream Cheese  softened",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "oz",
+				"value" : "8"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=PHILADELPHIA+Cream+Cheese++softened"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -3723,7 +4285,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=KRAFT+shredded+cheddar+cheese"
 			}
 		},
-		"? cup beer",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "KRAFT shredded cheddar cheese",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=KRAFT+shredded+cheddar+cheese"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -3843,7 +4421,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=broken+dry+ice"
 			}
 		},
-		"Vanilla ice cream  for serving"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "broken dry ice",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pound",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=broken+dry+ice"
+			}
+		}
 	] 
 },
 {
@@ -3980,7 +4574,18 @@
 		"url" : "http://www.cookstr.com/recipes/bavarian-beer-fondue"
 	}, 
 	"recipeIngredient": [
-		"1?  cups beer or dark ale",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "null",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "null",
+				"value" : "null"
+			},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -4219,7 +4824,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=lime"
 			}
 		},
-		"Coarse salt",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "lime",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pcs",
+				"value" : "1/2"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=lime"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -4747,7 +5368,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=olive+oil"
 			}
 		},
-		"salt and freshly ground black pepper",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "olive oil",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoons",
+				"value" : "2"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=olive+oil"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -4816,7 +5453,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=Cup+++onion++chopped+and+refrigerated"
 			}
 		},
-		"cooking spray",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "Cup   onion  chopped and refrigerated",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pcs",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=Cup+++onion++chopped+and+refrigerated"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -4834,7 +5487,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=Pound+++boneless+top+round+steak++trimmed"
 			}
 		},
-		"One   14.5-ounce can diced tomatoes with basil  garlic  and oregano  undrained",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "Pound   boneless top round steak  trimmed",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pcs",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=Pound+++boneless+top+round+steak++trimmed"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -4954,8 +5623,40 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=center-cut++bone-in+pork+chops"
 			}
 		},
-		"Salt  to taste",
-		"Freshly ground pepper  to taste",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "center-cut  bone-in pork chops",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pcs",
+				"value" : "4"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=center-cut++bone-in+pork+chops"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "center-cut  bone-in pork chops",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pcs",
+				"value" : "4"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=center-cut++bone-in+pork+chops"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -4990,7 +5691,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=lager+beer"
 			}
 		},
-		"? tsp. dried sage"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "lager beer",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "bottle",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=lager+beer"
+			}
+		}
 	] 
 },
 {
@@ -5025,7 +5742,18 @@
 		"url" : "http://www.kitchendaily.com/recipe/beer-chili-granita"
 	}, 
 	"recipeIngredient": [
-		"2 small piqu?n or ?rbol chili",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "null",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "null",
+				"value" : "null"
+			},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -5043,7 +5771,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=water"
 			}
 		},
-		"? cup sugar",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "water",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "3"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=water"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -5061,8 +5805,40 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=limes"
 			}
 		},
-		"? cup chili powder",
-		"? tsp salt",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "limes",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pcs",
+				"value" : "3"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=limes"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "limes",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pcs",
+				"value" : "3"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=limes"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -5131,10 +5907,74 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=of+cod"
 			}
 		},
-		"? cups of flour",
-		"? cup of cornstarch",
-		"? tsp cayenne pepper",
-		"? tsp paprika",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "of cod",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pieces",
+				"value" : "3"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=of+cod"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "of cod",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pieces",
+				"value" : "3"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=of+cod"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "of cod",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pieces",
+				"value" : "3"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=of+cod"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "of cod",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pieces",
+				"value" : "3"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=of+cod"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -5169,9 +6009,57 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=of+baking+powder"
 			}
 		},
-		"? cup of lager beer",
-		"Vegetable oil",
-		"Lemon"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "of baking powder",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tsp",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=of+baking+powder"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "of baking powder",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tsp",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=of+baking+powder"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "of baking powder",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tsp",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=of+baking+powder"
+			}
+		}
 	] 
 },
 {
@@ -5206,9 +6094,42 @@
 		"url" : "http://www.delish.com/cooking/recipe-ideas/recipes/a32053/beer-mustard-recipe-120504/"
 	}, 
 	"recipeIngredient": [
-		"? c. sugar",
-		"? c. dry mustard",
-		"? c. whole mustard seeds",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "null",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "null",
+				"value" : "null"
+			},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "null",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "null",
+				"value" : "null"
+			},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "null",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "null",
+				"value" : "null"
+			},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -5226,7 +6147,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=all-purpose+flour"
 			}
 		},
-		"? tsp. salt",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "all-purpose flour",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tbsp.",
+				"value" : "2"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=all-purpose+flour"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -5244,7 +6181,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=beer"
 			}
 		},
-		"? c. cider vinegar",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "beer",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "oz.",
+				"value" : "12"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=beer"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -5415,7 +6368,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=hot+sauce"
 			}
 		},
-		"Kosher salt  to taste"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "hot sauce",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoon",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=hot+sauce"
+			}
+		}
 	] 
 },
 {
@@ -5484,7 +6453,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=sugar"
 			}
 		},
-		"1 (12-ounce) bottle beer*",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "sugar",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1/2"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=sugar"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -5944,7 +6929,18 @@
 		"url" : "http://www.seriouseats.com/recipes/2012/03/drinking-in-season-rhubarb-beer-cocktail-recipe.html"
 	}, 
 	"recipeIngredient": [
-		"For the Rhubarb Syrup:",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "null",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "null",
+				"value" : "null"
+			},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -5996,7 +6992,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=sugar"
 			}
 		},
-		"For the Cocktail:",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "sugar",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=sugar"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -6082,7 +7094,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=Philadelphia+Cream+Cheese"
 			}
 		},
-		"? c. KRAFT Classic Ranch Dressing",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "Philadelphia Cream Cheese",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "package",
+				"value" : "2"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=Philadelphia+Cream+Cheese"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -6100,7 +7128,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=KRAFT+Shredded+Cheddar+Cheese"
 			}
 		},
-		"? c. beer",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "KRAFT Shredded Cheddar Cheese",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "c.",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=KRAFT+Shredded+Cheddar+Cheese"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -6152,7 +7196,18 @@
 		"url" : "https://food52.com/recipes/13331-spicy-beer-rita"
 	}, 
 	"recipeIngredient": [
-		"Juice of 1 1/2 fresh limes",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "null",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "null",
+				"value" : "null"
+			},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -6187,7 +7242,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=silver+tequila"
 			}
 		},
-		"Splash of cointreau",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "silver tequila",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1/8"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=silver+tequila"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -6222,7 +7293,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=slices+serrano+pepper"
 			}
 		},
-		"Turbinado sugar on glass rim"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "slices serrano pepper",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "thin",
+				"value" : "4"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=slices+serrano+pepper"
+			}
+		}
 	] 
 },
 {
@@ -6257,7 +7344,18 @@
 		"url" : "http://www.kitchendaily.com/recipe/honey-spice-beer-cake"
 	}, 
 	"recipeIngredient": [
-		"3 ? all-purpose flour",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "null",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "null",
+				"value" : "null"
+			},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -6292,7 +7390,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=baking+powder"
 			}
 		},
-		"? tsp salt",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "baking powder",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tsp",
+				"value" : "2"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=baking+powder"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -6361,7 +7475,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=nutmeg"
 			}
 		},
-		"? cup salted butter",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "nutmeg",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tsp",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=nutmeg"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -6413,7 +7543,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=eggs"
 			}
 		},
-		"1 ? cup honey",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "eggs",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pcs",
+				"value" : "4"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=eggs"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -6448,9 +7594,57 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=honey+beer"
 			}
 		},
-		"? cup salted butter",
-		"3 ? cup confectioners' sugar",
-		"? cup honey beer",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "honey beer",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "oz",
+				"value" : "12"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=honey+beer"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "honey beer",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "oz",
+				"value" : "12"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=honey+beer"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "honey beer",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "oz",
+				"value" : "12"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=honey+beer"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -6519,7 +7713,18 @@
 		"url" : "http://www.myrecipes.com/recipe/raspberry-beer-cocktail-10000001704105/"
 	}, 
 	"recipeIngredient": [
-		"3/4 cup fresh raspberries*",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "null",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "null",
+				"value" : "null"
+			},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -6639,7 +7844,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=Grill+Shakers+Poultry+Seasoning+Blend+(or+your+favorite+chicken+seasoning+or+rub)"
 			}
 		},
-		"1 4- to 4 1?2-lb chicken",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "Grill Shakers Poultry Seasoning Blend (or your favorite chicken seasoning or rub)",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tbsp.",
+				"value" : "3"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=Grill+Shakers+Poultry+Seasoning+Blend+(or+your+favorite+chicken+seasoning+or+rub)"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -6946,7 +8167,18 @@
 		"url" : "http://www.myrecipes.com/recipe/raspberry-beer-cocktail-10000001975699/"
 	}, 
 	"recipeIngredient": [
-		"3/4 cup frozen raspberries*",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "null",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "null",
+				"value" : "null"
+			},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -6998,7 +8230,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=vodka"
 			}
 		},
-		"Garnish: lemon and lime slices"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "vodka",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1/2"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=vodka"
+			}
+		}
 	] 
 },
 {
@@ -7033,7 +8281,18 @@
 		"url" : "http://www.delish.com/cooking/recipe-ideas/recipes/a17644/beer-mustard-recipe-top1011/"
 	}, 
 	"recipeIngredient": [
-		"? c. yellow mustard seeds",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "null",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "null",
+				"value" : "null"
+			},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -7068,7 +8327,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=good+beer"
 			}
 		},
-		"? c. sherry vinegar",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "good beer",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "oz.",
+				"value" : "12"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=good+beer"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -7103,8 +8378,40 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=honey"
 			}
 		},
-		"salt",
-		"Pepper"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "honey",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tsp.",
+				"value" : "2"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=honey"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "honey",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tsp.",
+				"value" : "2"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=honey"
+			}
+		}
 	] 
 },
 {
@@ -7632,7 +8939,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=dried+thyme"
 			}
 		},
-		"Salt and pepper",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "dried thyme",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoon",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=dried+thyme"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -7854,8 +9177,30 @@
 		"url" : "http://www.delish.com/cooking/recipe-ideas/recipes/a32783/tangy-beer-mustard-recipe-121268/"
 	}, 
 	"recipeIngredient": [
-		"? c. each sugar and dry mustard",
-		"? c. whole mustard seeds",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "null",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "null",
+				"value" : "null"
+			},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "null",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "null",
+				"value" : "null"
+			},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -7873,7 +9218,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=flour"
 			}
 		},
-		"? tsp. salt",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "flour",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tbsp.",
+				"value" : "2"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=flour"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -7891,7 +9252,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=beer"
 			}
 		},
-		"? c. cider vinegar",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "beer",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "oz.",
+				"value" : "12"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=beer"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -8147,7 +9524,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=bacon"
 			}
 		},
-		"2 to 3 jalape?os (depending on heat level -- ours are pretty hot right now so I used 2)",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "bacon",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "strips",
+				"value" : "5"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=bacon"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -8301,7 +9694,18 @@
 		"url" : "http://www.delish.com/cooking/recipe-ideas/recipes/a13940/clams-recipe-top1110/"
 	}, 
 	"recipeIngredient": [
-		"1? lb. clams",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "null",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "null",
+				"value" : "null"
+			},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -8387,7 +9791,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=sliced+salami"
 			}
 		},
-		"Juice of 1 lemon",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "sliced salami",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "oz.",
+				"value" : "2"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=sliced+salami"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -8575,7 +9995,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=unsalted+butter++melted"
 			}
 		},
-		"Guinness Beer",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "unsalted butter  melted",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoons",
+				"value" : "7"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=unsalted+butter++melted"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -8984,7 +10420,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=lager-style+beer"
 			}
 		},
-		"1? c. water",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "lager-style beer",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "bottle",
+				"value" : "2"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=lager-style+beer"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -9121,14 +10573,102 @@
 		"url" : "http://www.delish.com/cooking/recipe-ideas/recipes/a17644/beer-mustard-recipe-top1011/?click=recipe_sr"
 	}, 
 	"recipeIngredient": [
-		".5?cup(s) yellow mustard seeds",
-		".256?cup(s) brown mustard seeds",
-		"12?ounce(s) good beer",
-		".25?cup(s) sherry vinegar",
-		"2?teaspoon(s) sugar",
-		"2?teaspoon(s) honey",
-		"Salt  to taste",
-		"Pepper  to taste"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "null",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "null",
+				"value" : "null"
+			},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "null",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "null",
+				"value" : "null"
+			},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "null",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "null",
+				"value" : "null"
+			},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "null",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "null",
+				"value" : "null"
+			},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "null",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "null",
+				"value" : "null"
+			},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "null",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "null",
+				"value" : "null"
+			},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "null",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "null",
+				"value" : "null"
+			},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "null",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "null",
+				"value" : "null"
+			},
 	] 
 },
 {
@@ -9333,9 +10873,42 @@
 		"url" : "http://www.delish.com/cooking/recipe-ideas/recipes/a15864/spicy-beer-mustard-recipe-fw0611/"
 	}, 
 	"recipeIngredient": [
-		"? c. black mustard seeds",
-		"? c. yellow mustard seeds",
-		"1? c. malt vinegar",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "null",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "null",
+				"value" : "null"
+			},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "null",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "null",
+				"value" : "null"
+			},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "null",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "null",
+				"value" : "null"
+			},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -9370,7 +10943,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=honey"
 			}
 		},
-		"? c. dark brown sugar",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "honey",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tbsp.",
+				"value" : "5"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=honey"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -9405,7 +10994,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=ground+allspice"
 			}
 		},
-		"? tsp. turmeric",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "ground allspice",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tsp.",
+				"value" : "2"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=ground+allspice"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -9474,7 +11079,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=refrigerated+prechopped+onion"
 			}
 		},
-		"Cooking spray",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "refrigerated prechopped onion",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=refrigerated+prechopped+onion"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -9645,7 +11266,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=ice"
 			}
 		},
-		"Whipped cream (optional)"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "ice",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "handful",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=ice"
+			}
+		}
 	] 
 },
 {
@@ -9731,9 +11368,57 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=pork+and+beans"
 			}
 		},
-		"? c. root beer (not diet)",
-		"? c. hickory-smoked barbecue sauce",
-		"? tsp. dry mustard",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "pork and beans",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "can",
+				"value" : "2"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=pork+and+beans"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "pork and beans",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "can",
+				"value" : "2"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=pork+and+beans"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "pork and beans",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "can",
+				"value" : "2"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=pork+and+beans"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -9802,8 +11487,40 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=baby+Yukon+gold+potatoes"
 			}
 		},
-		"Coarse salt",
-		"Freshly ground pepper",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "baby Yukon gold potatoes",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "lb.",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=baby+Yukon+gold+potatoes"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "baby Yukon gold potatoes",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "lb.",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=baby+Yukon+gold+potatoes"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -10127,7 +11844,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=hot+dog+buns"
 			}
 		},
-		"Mustard"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "hot dog buns",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "grilled",
+				"value" : "6"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=hot+dog+buns"
+			}
+		}
 	] 
 },
 {
@@ -10264,7 +11997,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=all-purpose+flour"
 			}
 		},
-		"Vegetable oil"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "all-purpose flour",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cups",
+				"value" : "1 1/2"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=all-purpose+flour"
+			}
+		}
 	] 
 },
 {
@@ -10299,7 +12048,18 @@
 		"url" : "http://www.goodhousekeeping.com/food-recipes/a7468/beer-braised-pot-roast-3643/"
 	}, 
 	"recipeIngredient": [
-		"? lb. bacon",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "null",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "null",
+				"value" : "null"
+			},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -10334,7 +12094,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=salt"
 			}
 		},
-		"? tsp. fresh-ground pepper",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "salt",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tsp.",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=salt"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -10522,7 +12298,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=onions++diced+(about+2+cups)"
 			}
 		},
-		"1-1/2 tsp. freshly ground black pepper",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "onions  diced (about 2 cups)",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "yellow",
+				"value" : "2"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=onions++diced+(about+2+cups)"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -10557,7 +12349,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=apple+cider"
 			}
 		},
-		"1-1/2 cups dark beer",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "apple cider",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1/2"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=apple+cider"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -10592,7 +12400,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=sweet+paprika"
 			}
 		},
-		"2-1/4 cups dark beer",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "sweet paprika",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "Tbs.",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=sweet+paprika"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -10661,7 +12485,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=dry+mustard"
 			}
 		},
-		"One 4- to 5-lb. boneless rib-eye beef roast",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "dry mustard",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "Tbs.",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=dry+mustard"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -10815,7 +12655,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=potato"
 			}
 		},
-		"? tsp. white pepper",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "potato",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "large",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=potato"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -10850,8 +12706,40 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=nonalcoholic+beer"
 			}
 		},
-		"Salt to taste",
-		"? c. snipped fresh chives for garnish"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "nonalcoholic beer",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "c.",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=nonalcoholic+beer"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "nonalcoholic beer",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "c.",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=nonalcoholic+beer"
+			}
+		}
 	] 
 },
 {
@@ -10886,9 +12774,42 @@
 		"url" : "http://www.bbc.co.uk/food/recipes/homemade_beer_mustard_55981"
 	}, 
 	"recipeIngredient": [
-		"175g/6oz yellow mustard seeds",
-		"175g/6oz black mustard seeds",
-		"500ml/18fl oz beer or ale",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "null",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "null",
+				"value" : "null"
+			},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "null",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "null",
+				"value" : "null"
+			},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "null",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "null",
+				"value" : "null"
+			},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -10906,8 +12827,40 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=sea+salt"
 			}
 		},
-		"Pinch crushed chilli flakes",
-		"175ml/6fl oz cider vinegar or white wine vinegar",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "sea salt",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tbsp",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=sea+salt"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "sea salt",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tbsp",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=sea+salt"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -11146,8 +13099,30 @@
 		"url" : "http://www.epicurious.com/recipes/food/views/root-beer-pudding-51222410"
 	}, 
 	"recipeIngredient": [
-		"1 cup root beer candies (about 14 candies total)*",
-		"2 tablespoons nonfat milk powder*",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "null",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "null",
+				"value" : "null"
+			},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "null",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "null",
+				"value" : "null"
+			},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -11250,7 +13225,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=egg+yolks"
 			}
 		},
-		"vegetable oil spray",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "egg yolks",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "large",
+				"value" : "3"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=egg+yolks"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -11268,7 +13259,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=plus+2+tablespoons+sugar"
 			}
 		},
-		"1/4 cup glucose syrup*",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "plus 2 tablespoons sugar",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "3/4"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=plus+2+tablespoons+sugar"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -11592,8 +13599,40 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=very+cold+old-fashioned+root+beer"
 			}
 		},
-		"Splash bourbon (optional)",
-		"Freshly whipped cream"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "very cold old-fashioned root beer",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "bottle",
+				"value" : "2"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=very+cold+old-fashioned+root+beer"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "very cold old-fashioned root beer",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "bottle",
+				"value" : "2"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=very+cold+old-fashioned+root+beer"
+			}
+		}
 	] 
 },
 {
@@ -11628,7 +13667,18 @@
 		"url" : "http://www.myrecipes.com/recipe/pillsbury-salted-beer-pretzel-crescents"
 	}, 
 	"recipeIngredient": [
-		"1 can (8 oz) pillsbury? refrigerated crescent dinner rolls",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "null",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "null",
+				"value" : "null"
+			},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -11782,7 +13832,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=fresh+carrot+juice"
 			}
 		},
-		"? c. hoppy beer",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "fresh carrot juice",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "c.",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=fresh+carrot+juice"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -11817,7 +13883,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=unsalted+butter"
 			}
 		},
-		"salt"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "unsalted butter",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tbsp.",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=unsalted+butter"
+			}
+		}
 	] 
 },
 {
@@ -11852,7 +13934,18 @@
 		"url" : "http://www.joythebaker.com/blog/2009/05/root-beer-float-cake/"
 	}, 
 	"recipeIngredient": [
-		"2 cups root beer (don?t use diet)",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "null",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "null",
+				"value" : "null"
+			},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -12023,7 +14116,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=unsalted+butter++softened"
 			}
 		},
-		"1 teaspoon salt (you may want to use less? maybe just 1/2 teaspoon)",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "unsalted butter  softened",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "stick",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=unsalted+butter++softened"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -12245,7 +14354,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=ground+cloves"
 			}
 		},
-		"zest and juice of 1 lemon",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "ground cloves",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tsp",
+				"value" : "1/2"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=ground+cloves"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -12399,11 +14524,91 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=onions"
 			}
 		},
-		"? c. all-purpose flour",
-		"? tsp. salt",
-		"? tsp. paprika",
-		"? tsp. Freshly ground black pepper",
-		"? c. flat beer",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "onions",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "large",
+				"value" : "2"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=onions"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "onions",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "large",
+				"value" : "2"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=onions"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "onions",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "large",
+				"value" : "2"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=onions"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "onions",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "large",
+				"value" : "2"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=onions"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "onions",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "large",
+				"value" : "2"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=onions"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -12421,9 +14626,57 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=egg+white"
 			}
 		},
-		"1? tbsp. vegetable oil",
-		"Cooking spray",
-		"? c. ketchup"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "egg white",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "large",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=egg+white"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "egg white",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "large",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=egg+white"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "egg white",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "large",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=egg+white"
+			}
+		}
 	] 
 },
 {
@@ -12475,7 +14728,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=bread+or+unbleached+all-purpose+flour"
 			}
 		},
-		"? cup granulated sugar",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "bread or unbleached all-purpose flour",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "3"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=bread+or+unbleached+all-purpose+flour"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -12493,7 +14762,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=baking+powder"
 			}
 		},
-		"1 ? tsp salt",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "baking powder",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "Tbsp",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=baking+powder"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -12511,7 +14796,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=beer"
 			}
 		},
-		"1 cup shredded Gruy?re cheese",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "beer",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "oz",
+				"value" : "12"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=beer"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -12682,8 +14983,40 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=baby+Yukon+Gold+potatoes"
 			}
 		},
-		"freshly ground pepper",
-		"coarse salt",
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "baby Yukon Gold potatoes",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pound",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=baby+Yukon+Gold+potatoes"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "baby Yukon Gold potatoes",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pound",
+				"value" : "1"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=baby+Yukon+Gold+potatoes"
+			}
+		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
@@ -12820,7 +15153,23 @@
 				"target": "https://www.freshdirect.com/srch.jsp?searchParams=(60+ml)+fresh+lime+juice"
 			}
 		},
-		"32 oz (95 cl) Berliner Weisse (Berlin White)  gueuze  lambic or any other unflavored sour beer ? chilled (alternatively  use a Belgian-style white beer)"
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "(60 ml) fresh lime juice",
+				"ingridientFullName" : ""
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1/4"
+			},
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=(60+ml)+fresh+lime+juice"
+			}
+		}
 	] 
 }
 ]

@@ -200,13 +200,12 @@ public class FusekiConnection {
 			for (String field : fieldsToReplace) {
 				b.put(field, idEntries.get(b.get(field)));
 			}
-			HashSet<LinkedTreeMap<String, Object>> ingredients = new HashSet<LinkedTreeMap<String, Object>>(
-					(ArrayList<LinkedTreeMap<String, Object>>) b.get("recipeIngredient"));
-			// no ings as text, need as class
-			ArrayList<LinkedTreeMap<String, Object>> toAdd = new ArrayList<LinkedTreeMap<String, Object>>();
-			for (LinkedTreeMap<String, Object> id : ingredients) {
+			HashSet<String> ingredients = new HashSet<String>((ArrayList<String>) b.get("recipeIngredient"));
 
-				toAdd.add(idEntries.get(id.get("@id")));
+			ArrayList<LinkedTreeMap<String, Object>> toAdd = new ArrayList<LinkedTreeMap<String, Object>>();
+			for (String id : ingredients) {
+
+				toAdd.add(idEntries.get(id));
 
 			}
 			b.put("recipeIngredient", toAdd);

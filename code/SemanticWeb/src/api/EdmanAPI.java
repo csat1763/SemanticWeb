@@ -188,7 +188,7 @@ public class EdmanAPI {
 	public static void translateRawDataToRDF() throws IOException {
 
 		String searchTerm = "";
-		String filename = "recipes/" + searchTerm + "FromEdamam.jsonld";
+		String filename = "./TripleStore/Triple/src/main/resources/data/recipes/" + searchTerm + "FromEdamam.jsonld";
 
 		Collection<String> searchTerms = new ArrayList<String>();
 
@@ -243,7 +243,7 @@ public class EdmanAPI {
 		for (String s : searchTerms) {
 
 			searchTerm = s;
-			filename = "recipes/" + searchTerm + "FromEdamam.jsonld";
+			filename = "../TripleStore/Triple/src/main/resources/data/recipes/" + searchTerm + "FromEdamam.jsonld";
 
 			File rawData = new File("rawRecipes/" + searchTerm + ".json");
 			InputStream rawDataStream = new FileInputStream(rawData);
@@ -302,18 +302,16 @@ public class EdmanAPI {
 					calories = Math.round(calories);
 
 					ingredients = (ArrayList<String>) recipe.get("ingredientLines");
-					if(recipe.get("healthLabels")!=null) {
+					if (recipe.get("healthLabels") != null) {
 						tags.addAll((ArrayList<String>) recipe.get("healthLabels"));
 					}
-					if(recipe.get("dietLabels")!=null) {
+					if (recipe.get("dietLabels") != null) {
 						tags.addAll((ArrayList<String>) recipe.get("dietLabels"));
 					}
-					
+
 					/*
-					for(String tag: tags) {
-						System.out.println(tag + " ");
-					}
-					*/
+					 * for(String tag: tags) { System.out.println(tag + " "); }
+					 */
 					/*
 					 * System.out.println("\nnew entry:\n" + " uri: " + uri + "\nlabel: " + label + "\nurl: " + recipeUrl + "\ncalories: " + calories + "\ningredients" + ingredients);
 					 */
@@ -321,38 +319,45 @@ public class EdmanAPI {
 					ingredientsAsString.append("[\n");
 					String pattern = "^\\*? ?([0-9\\.\\/½¼¾]* ?[0-9\\.\\/½¼¾]+)[ \\-]?([a-zA-Z\\.\\(\\)]+)? +([a-zA-Z0-9 \\+\\-\\,\\/\\.\\(\\)®%\\'éèîñ&]+)$";
 					Pattern r = Pattern.compile(pattern);
-
+					String amount = null;
+					String unit = null;
+					String ingredient = null;
 					for (String i : ingredients) {
 
 						i = i.replaceAll("\"", "").replaceAll("\n", " ").replaceAll("\r\n", " ").replaceAll("\t", " ")
 								.replaceAll(",", " ").replaceAll("\\\\", "");
 						Matcher m = r.matcher(i);
+
 						if (m.find()) {
 
-							String amount = m.group(1).replaceAll("½", " 1/2").replaceAll("¼", " 1/4")
+							amount = m.group(1).replaceAll("½", " 1/2").replaceAll("¼", " 1/4")
 									.replaceAll("¾", " 3/4").replaceAll("  ", " ").replaceAll("^ +", "");
-							String unit = m.group(2);
+							unit = m.group(2);
 							if (unit == null) {
 								unit = "pcs";
 							}
-							String ingredient = m.group(3);
-							ingredientsAsString.append("\t\t{\r\n \t\t\t\"@type\" : \"IngredientAddition\",\r\n"
-									+ "\t\t\t\"ingredientName\" : {\r\n" + "\t\t\t\t\"@type\" : \"Ingredient\",\r\n"
-									+ "\t\t\t\t\"name\" : \"" + ingredient + "\",\r\n"
-									+ "\t\t\t\t\"ingridientFullName\" : \"\"\r\n" + " \t\t\t},")
-									.append("\r\n \t\t\t\"ingridientAmount\" : {\r\n"
-											+ "\t\t\t\t\"@type\" : \"QuantitativeValue\",\r\n"
-											+ "\t\t\t\t\"unitText\" : \"" + unit + "\",\r\n" + "\t\t\t\t\"value\" : \""
-											+ amount + "\"\r\n" + "\t\t\t},\r\n")
+							ingredient = m.group(3);
 
-									// .append("\t\t\"amount\": \"").append(amount).append("\", \"unit\": \"").append(unit)
-									// .append("\", \"ingredient\": \"").append(ingredient)
-									.append(potentialActionGen(ingredient))
-									.append("\t\t},\n");
-									
 						} else {
-							//TODO: if not parsable -> throw away entry, otherwise we cannot generate an action
-							ingredientsAsString.append("\t\t\"").append(i).append("\",\n");
+							// TODO: if not parsable -> throw away entry, otherwise we cannot generate an action - DONE, ahmet
+							// ingredientsAsString.append("\t\t\"").append(i).append("\",\n");
+						}
+						ingredientsAsString
+								.append("\t\t{\r\n \t\t\t\"@type\" : \"IngredientAddition\",\r\n"
+										+ "\t\t\t\"ingredientName\" : {\r\n" + "\t\t\t\t\"@type\" : \"Ingredient\",\r\n"
+										+ "\t\t\t\t\"name\" : \"" + ingredient + "\",\r\n"
+										+ "\t\t\t\t\"ingridientFullName\" : \"\"\r\n" + " \t\t\t},")
+								.append("\r\n \t\t\t\"ingridientAmount\" : {\r\n"
+										+ "\t\t\t\t\"@type\" : \"QuantitativeValue\",\r\n" + "\t\t\t\t\"unitText\" : \""
+										+ unit + "\",\r\n" + "\t\t\t\t\"value\" : \"" + amount + "\"\r\n" + "\t\t\t}");
+
+						// .append("\t\t\"amount\": \"").append(amount).append("\", \"unit\": \"").append(unit)
+						// .append("\", \"ingredient\": \"").append(ingredient)
+						if (ingredient != null)
+							ingredientsAsString.append("\t\t\t,\r\n").append(potentialActionGen(ingredient))
+									.append("\t\t},\n");
+						else {
+							ingredientsAsString.append("\r\n\t\t},\n");
 						}
 					}
 					ingredientsAsString.delete(ingredientsAsString.length() - 2, ingredientsAsString.length() - 1);
@@ -364,7 +369,7 @@ public class EdmanAPI {
 					recipiesAsString.append("{\n" + "\t\"@context\": \"http://schema.org\",\n" +
 
 							"\t\"@id\": \"" + recipeId + "\",\n" +
-							
+
 							"\t\"@type\": \"Recipe\",\n" +
 
 							"\t\"sameAs\": \"" + recipeUrl + "\",\n" +
@@ -376,7 +381,7 @@ public class EdmanAPI {
 							+ "\t\t\"calories\" : \"" + calories + " calories\"\n\t},\n" +
 
 							"\t\"keywords\": [ " + generateKeywordString(tags) + " ],\n" +
-							
+
 							"\t\"name\": \"" + label + "\",\n" +
 
 							"\t\"recipeYield\": {" + "\n" + "\t\t\"@type\": \"QuantitativeValue\",\n"
@@ -510,7 +515,7 @@ public class EdmanAPI {
 				String recipeId = label.replaceAll(" ", "");
 
 				recipiesAsString.append("{\n" + "\t\"@context\": \"http://schema.org\",\n" +
-				
+
 						"\t\"@id\": \"http://example.com/ns#" + recipeId + "\",\n" +
 
 						"\t\"@type\": \"Recipe\",\n" +
@@ -601,26 +606,27 @@ public class EdmanAPI {
 	}
 
 	public static String potentialActionGen(String ingredient) {
+		if (ingredient == null)
+			return null;
 		String ingrStr = ingredient.replaceAll(" ", "+");
-		return "\t\t\t\"potentialAction\" : {\r\n" +
-		       "\t\t\t\t\"@type\": \"SearchAction\",\r\n" + 
-		       "\t\t\t\t\"target\": \"https://www.freshdirect.com/srch.jsp?searchParams=" + ingrStr + "\"\r\n" +
-		       "\t\t\t}\r\n";
+		return "\t\t\t\"potentialAction\" : {\r\n" + "\t\t\t\t\"@type\": \"SearchAction\",\r\n"
+				+ "\t\t\t\t\"target\": \"https://www.freshdirect.com/srch.jsp?searchParams=" + ingrStr + "\"\r\n"
+				+ "\t\t\t}\r\n";
 	}
-	
+
 	public static String generateKeywordString(List<String> tags) {
-		
+
 		StringBuilder sb = new StringBuilder();
-		
-		for(String tag: tags) {
+
+		for (String tag : tags) {
 			sb.append("\"").append(tag).append("\"").append(", ");
 		}
-		
-		if(tags.size() > 0) {
-			sb.deleteCharAt(sb.length()-1);
-			sb.deleteCharAt(sb.length()-1);
+
+		if (tags.size() > 0) {
+			sb.deleteCharAt(sb.length() - 1);
+			sb.deleteCharAt(sb.length() - 1);
 		}
-		
+
 		return sb.toString();
 	}
 }
