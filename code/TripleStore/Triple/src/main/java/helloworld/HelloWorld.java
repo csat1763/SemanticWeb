@@ -120,7 +120,7 @@ public class HelloWorld extends RecipeBase {
 
 	public static String test() {
 		return prefix + "DESCRIBE ?s WHERE{\r\n" + "SELECT DISTINCT ?s  \r\n"
-				+ "WHERE{  graph ?g {?s ?p ?o . ?s a schema:Recipe}}\r\n" + "LIMIT 5}";
+				+ "WHERE{  graph ?g {?s ?p ?o . ?s a schema:Recipe}}\r\n" + "LIMIT 10}";
 	}
 
 	// total number of instantiations

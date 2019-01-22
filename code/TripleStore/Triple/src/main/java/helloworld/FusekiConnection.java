@@ -1,6 +1,8 @@
 package helloworld;
 
 import java.io.BufferedReader;
+import java.io.ByteArrayInputStream;
+import java.io.ByteArrayOutputStream;
 import java.io.DataOutputStream;
 import java.io.File;
 import java.io.FileInputStream;
@@ -14,8 +16,11 @@ import java.net.URL;
 import java.net.URLEncoder;
 import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.HashSet;
 import java.util.Iterator;
+import java.util.List;
 import java.util.Map.Entry;
+import java.util.Set;
 
 import org.apache.jena.query.Dataset;
 import org.apache.jena.query.DatasetAccessorFactory;
@@ -27,6 +32,10 @@ import org.apache.jena.rdf.model.Model;
 import org.apache.jena.rdf.model.ModelFactory;
 import org.apache.jena.rdfconnection.RDFConnectionRemote;
 import org.apache.jena.rdfconnection.RDFDatasetConnection;
+
+import com.google.gson.Gson;
+import com.google.gson.GsonBuilder;
+import com.google.gson.internal.LinkedTreeMap;
 
 public class FusekiConnection {
 	private static final String dataSet = "src\\main\\resources\\data\\recipes";
@@ -139,12 +148,79 @@ public class FusekiConnection {
 		QueryExecution q = QueryExecutionFactory.sparqlService(connectionUrl + "/" + dataName + "/sparql", query);
 
 		Model model = q.execDescribe();
-		File testFile = new File("testFileaa.jsonld");
+		// File testFile = new File("testFileaa.jsonld");
+		ByteArrayOutputStream bos = new ByteArrayOutputStream();
+		model.write(bos, "JSONLD");
+		StringBuilder rep = new StringBuilder();
+		BufferedReader br;
 		try {
-			model.write(new FileOutputStream(testFile), "JSONLD");
-		} catch (FileNotFoundException e) {
+			br = new BufferedReader(new InputStreamReader((new ByteArrayInputStream(bos.toByteArray())), "UTF-8"));
+
+			String output = "";
+			while ((output = br.readLine()) != null) {
+				rep.append(output).append("\n");
+			}
+
+		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
+		}
+
+		System.out.println(rep.toString());
+
+		// Transform output to json
+		LinkedTreeMap<String, Object> jsonResult = new Gson().fromJson(rep.toString(), LinkedTreeMap.class);
+		// System.out.println(jsonResult.toString());
+
+		List<LinkedTreeMap<String, Object>> graph = (ArrayList<LinkedTreeMap<String, Object>>) jsonResult.get("@graph");
+		HashMap<String, LinkedTreeMap<String, Object>> idEntries = new HashMap<String, LinkedTreeMap<String, Object>>();
+		HashMap<String, ArrayList<LinkedTreeMap<String, Object>>> map = new HashMap<String, ArrayList<LinkedTreeMap<String, Object>>>();
+		String type;
+		for (LinkedTreeMap<String, Object> a : graph) {
+			idEntries.put((String) a.get("@id"), a);
+			type = (String) a.get("@type");
+			if (!map.containsKey(type)) {
+				map.put(type, new ArrayList<LinkedTreeMap<String, Object>>());
+				System.out.println(type);
+			}
+			map.get(type).add(a);
+
+		}
+		// System.out.println(idEntries);
+		// System.out.println(map);
+		// System.out.println(map.get("schema:Recipe"));
+		ArrayList<String> fieldsToReplace = new ArrayList<String>();
+		fieldsToReplace.add("creator");
+		fieldsToReplace.add("image");
+		fieldsToReplace.add("nutrition");
+		fieldsToReplace.add("recipeInstructions");
+		fieldsToReplace.add("recipeYield");
+
+		for (LinkedTreeMap<String, Object> b : map.get("schema:Recipe")) {
+			for (String field : fieldsToReplace) {
+				b.put(field, idEntries.get(b.get(field)));
+			}
+			HashSet<LinkedTreeMap<String, Object>> ingredients = new HashSet<LinkedTreeMap<String, Object>>(
+					(ArrayList<LinkedTreeMap<String, Object>>) b.get("recipeIngredient"));
+			// no ings as text, need as class
+			ArrayList<LinkedTreeMap<String, Object>> toAdd = new ArrayList<LinkedTreeMap<String, Object>>();
+			for (LinkedTreeMap<String, Object> id : ingredients) {
+
+				toAdd.add(idEntries.get(id.get("@id")));
+
+			}
+			b.put("recipeIngredient", toAdd);
+
+			for (LinkedTreeMap<String, Object> ingred : (ArrayList<LinkedTreeMap<String, Object>>) b
+					.get("recipeIngredient")) {
+
+				ingred.put("ingredientName", idEntries.get(ingred.get("ingredientName")));
+				ingred.put("ingridientAmount", idEntries.get(ingred.get("ingridientAmount")));
+
+			}
+
+			System.out.println(new GsonBuilder().setPrettyPrinting().create().toJson(b));
+
 		}
 
 		// File testFile = new File("testFile.jsonld");
@@ -157,6 +233,16 @@ public class FusekiConnection {
 		//
 		// // System.out.println(it.toString());
 
+	}
+
+	public void replaceIdByContent(LinkedTreeMap<String, Object> entry,
+			HashMap<String, LinkedTreeMap<String, Object>> idEntries) {
+		Set<String> keys = entry.keySet();
+		for (String key : keys) {
+			System.out.println(entry.get(key).toString());
+			if (entry.get(key).toString().contains("_:"))
+				entry.put("recipeInstructions", idEntries.get(entry.get("recipeInstructions")));
+		}
 	}
 
 	public void queryOutput1(String query) {

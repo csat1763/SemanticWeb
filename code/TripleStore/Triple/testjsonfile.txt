@@ -1,0 +1,935 @@
+{
+  "@graph" : [ {
+    "@id" : "_:b0",
+    "@type" : "schema:QuantitativeValue",
+    "unitText" : "pcs",
+    "value" : "1"
+  }, {
+    "@id" : "_:b1",
+    "@type" : "schema:Ingredient",
+    "ingridientFullName" : "",
+    "name" : "bacon"
+  }, {
+    "@id" : "_:b10",
+    "@type" : "schema:QuantitativeValue",
+    "unitText" : "teaspoon",
+    "value" : "1"
+  }, {
+    "@id" : "_:b100",
+    "@type" : "schema:QuantitativeValue",
+    "value" : "1.0"
+  }, {
+    "@id" : "_:b101",
+    "@type" : "schema:QuantitativeValue",
+    "unitText" : "celery",
+    "value" : "3"
+  }, {
+    "@id" : "_:b102",
+    "@type" : "schema:Ingredient",
+    "ingridientFullName" : "",
+    "name" : "skin-on  bone-in pork picnic shoulder (about 11 pounds)  butterflied"
+  }, {
+    "@id" : "_:b103",
+    "@type" : "schema:Ingredient",
+    "ingridientFullName" : "",
+    "name" : "roughly chopped"
+  }, {
+    "@id" : "_:b104",
+    "@type" : "schema:QuantitativeValue",
+    "unitText" : "pcs",
+    "value" : "6"
+  }, {
+    "@id" : "_:b105",
+    "@type" : "schema:Ingredient",
+    "ingridientFullName" : "",
+    "name" : "self-rising flour"
+  }, {
+    "@id" : "_:b106",
+    "@type" : "schema:Ingredient",
+    "ingridientFullName" : "",
+    "name" : "jamon serrano or spanish cured ham"
+  }, {
+    "@id" : "_:b107",
+    "@type" : "schema:Recipe",
+    "cookTime" : "-",
+    "creator" : "_:b59",
+    "image" : "_:b61",
+    "name" : "Alcachofas con Huevos de Codorniz y Jam?n",
+    "nutrition" : "_:b108",
+    "prepTime" : "-",
+    "recipeIngredient" : [ {
+      "@id" : "_:b28"
+    }, "spanish extra-virgin olive oil", {
+      "@id" : "_:b30"
+    }, "Sea salt", {
+      "@id" : "_:b109"
+    } ],
+    "recipeInstructions" : "_:b110",
+    "recipeYield" : "_:b74",
+    "sameAs" : "http://www.delish.com/cooking/recipe-ideas/recipes/a3106/alcachofas-huevos-codorniz-jamon-1/",
+    "totalTime" : "PT0M"
+  }, {
+    "@id" : "_:b108",
+    "@type" : "schema:NutritionInformation",
+    "calories" : "169.0 calories"
+  }, {
+    "@id" : "_:b109",
+    "@type" : "schema:IngredientAddition",
+    "ingredientName" : "_:b106",
+    "ingridientAmount" : "_:b23"
+  }, {
+    "@id" : "_:b11",
+    "@type" : "schema:Ingredient",
+    "ingridientFullName" : "",
+    "name" : "dried sage"
+  }, {
+    "@id" : "_:b110",
+    "@type" : "schema:CreativeWork",
+    "url" : "http://www.delish.com/cooking/recipe-ideas/recipes/a3106/alcachofas-huevos-codorniz-jamon-1/"
+  }, {
+    "@id" : "_:b111",
+    "@type" : "schema:QuantitativeValue",
+    "unitText" : "tablespoons",
+    "value" : "4"
+  }, {
+    "@id" : "_:b112",
+    "@type" : "schema:Ingredient",
+    "ingridientFullName" : "",
+    "name" : "(I used Abita Amber which gave it a nice but not overpowering beer flavor)"
+  }, {
+    "@id" : "_:b113",
+    "@type" : "schema:Ingredient",
+    "ingridientFullName" : "",
+    "name" : "herbs de provence"
+  }, {
+    "@id" : "_:b114",
+    "@type" : "schema:Ingredient",
+    "ingridientFullName" : "",
+    "name" : "paprika"
+  }, {
+    "@id" : "_:b115",
+    "@type" : "schema:QuantitativeValue",
+    "unitText" : "cup",
+    "value" : "1/3"
+  }, {
+    "@id" : "_:b116",
+    "@type" : "schema:Ingredient",
+    "ingridientFullName" : "",
+    "name" : "black pepper"
+  }, {
+    "@id" : "_:b117",
+    "@type" : "schema:QuantitativeValue",
+    "unitText" : "tablespoons",
+    "value" : "2"
+  }, {
+    "@id" : "_:b118",
+    "@type" : "schema:QuantitativeValue",
+    "unitText" : "cup",
+    "value" : "1/4"
+  }, {
+    "@id" : "_:b119",
+    "@type" : "schema:CreativeWork",
+    "url" : "https://food52.com/recipes/32017-texas-breakfast-beer-bread"
+  }, {
+    "@id" : "_:b12",
+    "@type" : "schema:QuantitativeValue",
+    "unitText" : "bunch",
+    "value" : "1"
+  }, {
+    "@id" : "_:b120",
+    "@type" : "schema:Ingredient",
+    "ingridientFullName" : "",
+    "name" : "olive oil"
+  }, {
+    "@id" : "_:b121",
+    "@type" : "schema:QuantitativeValue",
+    "unitText" : "onion",
+    "value" : "1"
+  }, {
+    "@id" : "_:b122",
+    "@type" : "schema:Recipe",
+    "cookTime" : "-",
+    "creator" : "_:b82",
+    "image" : "_:b13",
+    "name" : "Texas Breakfast Beer Bread",
+    "nutrition" : "_:b77",
+    "prepTime" : "-",
+    "recipeIngredient" : [ "2 to 3 jalape?os (depending on heat level -- ours are pretty hot right now so I used 2)", {
+      "@id" : "_:b33"
+    }, {
+      "@id" : "_:b123"
+    }, {
+      "@id" : "_:b124"
+    }, {
+      "@id" : "_:b125"
+    }, {
+      "@id" : "_:b126"
+    }, {
+      "@id" : "_:b2"
+    }, {
+      "@id" : "_:b56"
+    }, {
+      "@id" : "_:b127"
+    } ],
+    "recipeInstructions" : "_:b119",
+    "recipeYield" : "_:b100",
+    "sameAs" : "https://food52.com/recipes/32017-texas-breakfast-beer-bread",
+    "totalTime" : "PT0M"
+  }, {
+    "@id" : "_:b123",
+    "@type" : "schema:IngredientAddition",
+    "ingredientName" : "_:b1",
+    "ingridientAmount" : "_:b76"
+  }, {
+    "@id" : "_:b124",
+    "@type" : "schema:IngredientAddition",
+    "ingredientName" : "_:b24",
+    "ingridientAmount" : "_:b141"
+  }, {
+    "@id" : "_:b125",
+    "@type" : "schema:IngredientAddition",
+    "ingredientName" : "_:b105",
+    "ingridientAmount" : "_:b146"
+  }, {
+    "@id" : "_:b126",
+    "@type" : "schema:IngredientAddition",
+    "ingredientName" : "_:b112",
+    "ingridientAmount" : "_:b144"
+  }, {
+    "@id" : "_:b127",
+    "@type" : "schema:IngredientAddition",
+    "ingredientName" : "_:b93",
+    "ingridientAmount" : "_:b111"
+  }, {
+    "@id" : "_:b128",
+    "@type" : "schema:Recipe",
+    "cookTime" : "-",
+    "creator" : "_:b131",
+    "image" : "_:b78",
+    "name" : "Roasted Chicken",
+    "nutrition" : "_:b5",
+    "prepTime" : "-",
+    "recipeIngredient" : [ {
+      "@id" : "_:b69"
+    }, {
+      "@id" : "_:b130"
+    }, {
+      "@id" : "_:b9"
+    }, {
+      "@id" : "_:b17"
+    }, "Salt and pepper", {
+      "@id" : "_:b132"
+    }, {
+      "@id" : "_:b95"
+    }, {
+      "@id" : "_:b133"
+    }, {
+      "@id" : "_:b134"
+    }, {
+      "@id" : "_:b135"
+    }, "3-4 carrots  peeled and sliced" ],
+    "recipeInstructions" : "_:b75",
+    "recipeYield" : "_:b129",
+    "sameAs" : "https://food52.com/recipes/4527-roasted-chicken",
+    "totalTime" : "PT2H56M"
+  }, {
+    "@id" : "_:b129",
+    "@type" : "schema:QuantitativeValue",
+    "value" : "2.0"
+  }, {
+    "@id" : "_:b13",
+    "@type" : "schema:ImageObject",
+    "caption" : "Texas Breakfast Beer Bread",
+    "contentUrl" : "https://www.edamam.com/web-img/136/1360d25edb0956019c576ad7bfdc3884.jpg"
+  }, {
+    "@id" : "_:b130",
+    "@type" : "schema:IngredientAddition",
+    "ingredientName" : "_:b139",
+    "ingridientAmount" : "_:b14"
+  }, {
+    "@id" : "_:b131",
+    "@type" : "schema:Person",
+    "name" : "not given"
+  }, {
+    "@id" : "_:b132",
+    "@type" : "schema:IngredientAddition",
+    "ingredientName" : "_:b113",
+    "ingridientAmount" : "_:b137"
+  }, {
+    "@id" : "_:b133",
+    "@type" : "schema:IngredientAddition",
+    "ingredientName" : "_:b143",
+    "ingridientAmount" : "_:b101"
+  }, {
+    "@id" : "_:b134",
+    "@type" : "schema:IngredientAddition",
+    "ingredientName" : "_:b103",
+    "ingridientAmount" : "_:b121"
+  }, {
+    "@id" : "_:b135",
+    "@type" : "schema:IngredientAddition",
+    "ingredientName" : "_:b120",
+    "ingridientAmount" : "_:b142"
+  }, {
+    "@id" : "_:b136",
+    "@type" : "schema:Ingredient",
+    "ingridientFullName" : "",
+    "name" : "- 9 slices of bacon - depends on how many burgers you will make (3 strips per burger)"
+  }, {
+    "@id" : "_:b137",
+    "@type" : "schema:QuantitativeValue",
+    "unitText" : "teaspoons",
+    "value" : "2"
+  }, {
+    "@id" : "_:b138",
+    "@type" : "schema:Ingredient",
+    "ingridientFullName" : "",
+    "name" : "red-wine vinegar"
+  }, {
+    "@id" : "_:b139",
+    "@type" : "schema:Ingredient",
+    "ingridientFullName" : "",
+    "name" : "chicken stock"
+  }, {
+    "@id" : "_:b14",
+    "@type" : "schema:QuantitativeValue",
+    "unitText" : "cups",
+    "value" : "2"
+  }, {
+    "@id" : "_:b140",
+    "@type" : "schema:Ingredient",
+    "ingridientFullName" : "",
+    "name" : "- 3 slices of cheddar cheese"
+  }, {
+    "@id" : "_:b141",
+    "@type" : "schema:QuantitativeValue",
+    "unitText" : "tablespoons",
+    "value" : "2"
+  }, {
+    "@id" : "_:b142",
+    "@type" : "schema:QuantitativeValue",
+    "unitText" : "tablespoons",
+    "value" : "3"
+  }, {
+    "@id" : "_:b143",
+    "@type" : "schema:Ingredient",
+    "ingridientFullName" : "",
+    "name" : "ribs  sliced"
+  }, {
+    "@id" : "_:b144",
+    "@type" : "schema:QuantitativeValue",
+    "unitText" : "beer",
+    "value" : "1"
+  }, {
+    "@id" : "_:b145",
+    "@type" : "schema:QuantitativeValue",
+    "unitText" : "pcs",
+    "value" : "2"
+  }, {
+    "@id" : "_:b146",
+    "@type" : "schema:QuantitativeValue",
+    "unitText" : "cups",
+    "value" : "3"
+  }, {
+    "@id" : "_:b15",
+    "@type" : "schema:Ingredient",
+    "ingridientFullName" : "",
+    "name" : "eggs"
+  }, {
+    "@id" : "_:b16",
+    "@type" : "schema:Ingredient",
+    "ingridientFullName" : "",
+    "name" : "dill  minced"
+  }, {
+    "@id" : "_:b17",
+    "@type" : "schema:IngredientAddition",
+    "ingredientName" : "_:b19",
+    "ingridientAmount" : "_:b18"
+  }, {
+    "@id" : "_:b18",
+    "@type" : "schema:QuantitativeValue",
+    "unitText" : "sliced",
+    "value" : "5"
+  }, {
+    "@id" : "_:b19",
+    "@type" : "schema:Ingredient",
+    "ingridientFullName" : "",
+    "name" : "wheat bread  cubed"
+  }, {
+    "@id" : "_:b2",
+    "@type" : "schema:IngredientAddition",
+    "ingredientName" : "_:b4",
+    "ingridientAmount" : "_:b3"
+  }, {
+    "@id" : "_:b20",
+    "@type" : "schema:QuantitativeValue",
+    "value" : "2.0"
+  }, {
+    "@id" : "_:b21",
+    "@type" : "schema:QuantitativeValue",
+    "unitText" : "teaspoon",
+    "value" : "1"
+  }, {
+    "@id" : "_:b22",
+    "@type" : "schema:QuantitativeValue",
+    "unitText" : "pcs",
+    "value" : "2"
+  }, {
+    "@id" : "_:b23",
+    "@type" : "schema:QuantitativeValue",
+    "unitText" : "slice",
+    "value" : "1"
+  }, {
+    "@id" : "_:b24",
+    "@type" : "schema:Ingredient",
+    "ingridientFullName" : "",
+    "name" : "maple sugar"
+  }, {
+    "@id" : "_:b25",
+    "@type" : "schema:IngredientAddition",
+    "ingredientName" : "_:b26",
+    "ingridientAmount" : "_:b22"
+  }, {
+    "@id" : "_:b26",
+    "@type" : "schema:Ingredient",
+    "ingridientFullName" : "",
+    "name" : "- 3 cloves of the roasted garlic - save the rest for the burger"
+  }, {
+    "@id" : "_:b27",
+    "@type" : "schema:QuantitativeValue",
+    "unitText" : "tablespoon",
+    "value" : "1"
+  }, {
+    "@id" : "_:b28",
+    "@type" : "schema:IngredientAddition",
+    "ingredientName" : "_:b15",
+    "ingridientAmount" : "_:b29"
+  }, {
+    "@id" : "_:b29",
+    "@type" : "schema:QuantitativeValue",
+    "unitText" : "quail",
+    "value" : "6"
+  }, {
+    "@id" : "_:b3",
+    "@type" : "schema:QuantitativeValue",
+    "unitText" : "cup",
+    "value" : "1"
+  }, {
+    "@id" : "_:b30",
+    "@type" : "schema:IngredientAddition",
+    "ingredientName" : "_:b32",
+    "ingridientAmount" : "_:b31"
+  }, {
+    "@id" : "_:b31",
+    "@type" : "schema:QuantitativeValue",
+    "unitText" : "can",
+    "value" : "1"
+  }, {
+    "@id" : "_:b32",
+    "@type" : "schema:Ingredient",
+    "ingridientFullName" : "",
+    "name" : "whole artichoke hearts in olive oil"
+  }, {
+    "@id" : "_:b33",
+    "@type" : "schema:IngredientAddition",
+    "ingredientName" : "_:b35",
+    "ingridientAmount" : "_:b34"
+  }, {
+    "@id" : "_:b34",
+    "@type" : "schema:QuantitativeValue",
+    "unitText" : "ounces",
+    "value" : "4"
+  }, {
+    "@id" : "_:b35",
+    "@type" : "schema:Ingredient",
+    "ingridientFullName" : "",
+    "name" : "cream cheese"
+  }, {
+    "@id" : "_:b36",
+    "@type" : "schema:QuantitativeValue",
+    "unitText" : "large",
+    "value" : "1"
+  }, {
+    "@id" : "_:b37",
+    "@type" : "schema:IngredientAddition",
+    "ingredientName" : "_:b39",
+    "ingridientAmount" : "_:b38"
+  }, {
+    "@id" : "_:b38",
+    "@type" : "schema:QuantitativeValue",
+    "unitText" : "cup",
+    "value" : "1/4"
+  }, {
+    "@id" : "_:b39",
+    "@type" : "schema:Ingredient",
+    "ingridientFullName" : "",
+    "name" : "fresh lemon zest  plus 1/3 cup lemon juice (from 3 lemons)"
+  }, {
+    "@id" : "_:b4",
+    "@type" : "schema:Ingredient",
+    "ingridientFullName" : "",
+    "name" : "finely shredded sharp cheddar"
+  }, {
+    "@id" : "_:b40",
+    "@type" : "schema:QuantitativeValue",
+    "unitText" : "tablespoons",
+    "value" : "2"
+  }, {
+    "@id" : "_:b41",
+    "@type" : "schema:Recipe",
+    "cookTime" : "-",
+    "creator" : "_:b50",
+    "image" : "_:b42",
+    "name" : "All Beef Cheddar Bacon Burger with Roasted Garlic Ranch recipes",
+    "nutrition" : "_:b52",
+    "prepTime" : "-",
+    "recipeIngredient" : [ "? teaspoon salt", "? cup buttermilk", {
+      "@id" : "_:b25"
+    }, "? cup mayo", {
+      "@id" : "_:b43"
+    }, {
+      "@id" : "_:b44"
+    }, {
+      "@id" : "_:b45"
+    }, {
+      "@id" : "_:b46"
+    }, "? small shallot", {
+      "@id" : "_:b47"
+    }, {
+      "@id" : "_:b48"
+    }, {
+      "@id" : "_:b49"
+    }, "iceberg lettuce", "? teaspoon red vinegar", {
+      "@id" : "_:b51"
+    }, "? cup olive oil", {
+      "@id" : "_:b54"
+    }, {
+      "@id" : "_:b55"
+    } ],
+    "recipeInstructions" : "_:b53",
+    "recipeYield" : "_:b20",
+    "sameAs" : "http://chezus.com/2016/05/28/all-beef-cheddar-bacon-burger-with-roasted-garlic-ranch/",
+    "totalTime" : "PT1H20M"
+  }, {
+    "@id" : "_:b42",
+    "@type" : "schema:ImageObject",
+    "caption" : "All Beef Cheddar Bacon Burger with Roasted Garlic Ranch recipes",
+    "contentUrl" : "https://www.edamam.com/web-img/72d/72d2db14ed8cccb292072f687f53af2d"
+  }, {
+    "@id" : "_:b43",
+    "@type" : "schema:IngredientAddition",
+    "ingredientName" : "_:b99",
+    "ingridientAmount" : "_:b117"
+  }, {
+    "@id" : "_:b44",
+    "@type" : "schema:IngredientAddition",
+    "ingredientName" : "_:b140",
+    "ingridientAmount" : "_:b72"
+  }, {
+    "@id" : "_:b45",
+    "@type" : "schema:IngredientAddition",
+    "ingredientName" : "_:b136",
+    "ingridientAmount" : "_:b104"
+  }, {
+    "@id" : "_:b46",
+    "@type" : "schema:IngredientAddition",
+    "ingredientName" : "_:b16",
+    "ingridientAmount" : "_:b27"
+  }, {
+    "@id" : "_:b47",
+    "@type" : "schema:IngredientAddition",
+    "ingredientName" : "_:b116",
+    "ingridientAmount" : "_:b21"
+  }, {
+    "@id" : "_:b48",
+    "@type" : "schema:IngredientAddition",
+    "ingredientName" : "_:b7",
+    "ingridientAmount" : "_:b145"
+  }, {
+    "@id" : "_:b49",
+    "@type" : "schema:IngredientAddition",
+    "ingredientName" : "_:b66",
+    "ingridientAmount" : "_:b8"
+  }, {
+    "@id" : "_:b5",
+    "@type" : "schema:NutritionInformation",
+    "calories" : "8182.0 calories"
+  }, {
+    "@id" : "_:b50",
+    "@type" : "schema:Person",
+    "name" : "not given"
+  }, {
+    "@id" : "_:b51",
+    "@type" : "schema:IngredientAddition",
+    "ingredientName" : "_:b64",
+    "ingridientAmount" : "_:b36"
+  }, {
+    "@id" : "_:b52",
+    "@type" : "schema:NutritionInformation",
+    "calories" : "3841.0 calories"
+  }, {
+    "@id" : "_:b53",
+    "@type" : "schema:CreativeWork",
+    "url" : "http://chezus.com/2016/05/28/all-beef-cheddar-bacon-burger-with-roasted-garlic-ranch/"
+  }, {
+    "@id" : "_:b54",
+    "@type" : "schema:IngredientAddition",
+    "ingredientName" : "_:b63",
+    "ingridientAmount" : "_:b62"
+  }, {
+    "@id" : "_:b55",
+    "@type" : "schema:IngredientAddition",
+    "ingredientName" : "_:b65",
+    "ingridientAmount" : "_:b68"
+  }, {
+    "@id" : "_:b56",
+    "@type" : "schema:IngredientAddition",
+    "ingredientName" : "_:b58",
+    "ingridientAmount" : "_:b57"
+  }, {
+    "@id" : "_:b57",
+    "@type" : "schema:QuantitativeValue",
+    "unitText" : "cup",
+    "value" : "1/4"
+  }, {
+    "@id" : "_:b58",
+    "@type" : "schema:Ingredient",
+    "ingridientFullName" : "",
+    "name" : "maple syrup (preferably grade B)"
+  }, {
+    "@id" : "_:b59",
+    "@type" : "schema:Person",
+    "name" : "not given"
+  }, {
+    "@id" : "_:b6",
+    "@type" : "schema:QuantitativeValue",
+    "unitText" : "tablespoons",
+    "value" : "1 1/2"
+  }, {
+    "@id" : "_:b60",
+    "@type" : "schema:Person",
+    "name" : "not given"
+  }, {
+    "@id" : "_:b61",
+    "@type" : "schema:ImageObject",
+    "caption" : "Alcachofas con Huevos de Codorniz y Jam?n",
+    "contentUrl" : "https://www.edamam.com/web-img/ed5/ed50b03d0900b5b71484d5451da5b93c.jpg"
+  }, {
+    "@id" : "_:b62",
+    "@type" : "schema:QuantitativeValue",
+    "unitText" : "tomato",
+    "value" : "1"
+  }, {
+    "@id" : "_:b63",
+    "@type" : "schema:Ingredient",
+    "ingridientFullName" : "",
+    "name" : "sliced thin"
+  }, {
+    "@id" : "_:b64",
+    "@type" : "schema:Ingredient",
+    "ingridientFullName" : "",
+    "name" : "head of garlic"
+  }, {
+    "@id" : "_:b65",
+    "@type" : "schema:Ingredient",
+    "ingridientFullName" : "",
+    "name" : "whole milk greek yogurt"
+  }, {
+    "@id" : "_:b66",
+    "@type" : "schema:Ingredient",
+    "ingridientFullName" : "",
+    "name" : "grass-fed ground beef"
+  }, {
+    "@id" : "_:b67",
+    "@type" : "schema:CreativeWork",
+    "url" : "http://www.marthastewart.com/908789/harissa-spiced-roast-pork"
+  }, {
+    "@id" : "_:b68",
+    "@type" : "schema:QuantitativeValue",
+    "unitText" : "tablespoon",
+    "value" : "1"
+  }, {
+    "@id" : "_:b69",
+    "@type" : "schema:IngredientAddition",
+    "ingredientName" : "_:b71",
+    "ingridientAmount" : "_:b70"
+  }, {
+    "@id" : "_:b7",
+    "@type" : "schema:Ingredient",
+    "ingridientFullName" : "",
+    "name" : "- 3 hamburger buns"
+  }, {
+    "@id" : "_:b70",
+    "@type" : "schema:QuantitativeValue",
+    "unitText" : "teaspoons",
+    "value" : "2"
+  }, {
+    "@id" : "_:b71",
+    "@type" : "schema:Ingredient",
+    "ingridientFullName" : "",
+    "name" : "dried thyme"
+  }, {
+    "@id" : "_:b72",
+    "@type" : "schema:QuantitativeValue",
+    "unitText" : "pcs",
+    "value" : "2"
+  }, {
+    "@id" : "_:b73",
+    "@type" : "schema:Ingredient",
+    "ingridientFullName" : "",
+    "name" : "fresh lemon zest  plus 1/3 cup lemon juice (from 3 lemons)"
+  }, {
+    "@id" : "_:b74",
+    "@type" : "schema:QuantitativeValue",
+    "value" : "4.0"
+  }, {
+    "@id" : "_:b75",
+    "@type" : "schema:CreativeWork",
+    "url" : "https://food52.com/recipes/4527-roasted-chicken"
+  }, {
+    "@id" : "_:b76",
+    "@type" : "schema:QuantitativeValue",
+    "unitText" : "strips",
+    "value" : "5"
+  }, {
+    "@id" : "_:b77",
+    "@type" : "schema:NutritionInformation",
+    "calories" : "3274.0 calories"
+  }, {
+    "@id" : "_:b78",
+    "@type" : "schema:ImageObject",
+    "caption" : "Roasted Chicken",
+    "contentUrl" : "https://www.edamam.com/web-img/530/53086a28442e65f61bd8e68abd7f58f7.jpg"
+  }, {
+    "@id" : "_:b79",
+    "@type" : "schema:IngredientAddition",
+    "ingredientName" : "_:b81",
+    "ingridientAmount" : "_:b80"
+  }, {
+    "@id" : "_:b8",
+    "@type" : "schema:QuantitativeValue",
+    "unitText" : "lb",
+    "value" : "1"
+  }, {
+    "@id" : "_:b80",
+    "@type" : "schema:QuantitativeValue",
+    "unitText" : "cup",
+    "value" : "1/2"
+  }, {
+    "@id" : "_:b81",
+    "@type" : "schema:Ingredient",
+    "ingridientFullName" : "",
+    "name" : "coarse salt"
+  }, {
+    "@id" : "_:b82",
+    "@type" : "schema:Person",
+    "name" : "not given"
+  }, {
+    "@id" : "_:b83",
+    "@type" : "schema:Recipe",
+    "cookTime" : "-",
+    "creator" : "_:b60",
+    "image" : "_:b88",
+    "name" : "Harissa-Spiced Roast Pork recipes",
+    "nutrition" : "_:b92",
+    "prepTime" : "-",
+    "recipeIngredient" : [ {
+      "@id" : "_:b84"
+    }, {
+      "@id" : "_:b79"
+    }, {
+      "@id" : "_:b85"
+    }, {
+      "@id" : "_:b86"
+    }, {
+      "@id" : "_:b87"
+    }, "10 ounces harissa (North African chili sauce; about 1 1/4 cups)", "barbecue sauce", {
+      "@id" : "_:b37"
+    }, {
+      "@id" : "_:b89"
+    }, {
+      "@id" : "_:b90"
+    } ],
+    "recipeInstructions" : "_:b67",
+    "recipeYield" : "_:b91",
+    "sameAs" : "http://www.marthastewart.com/908789/harissa-spiced-roast-pork",
+    "totalTime" : "PT17H0M"
+  }, {
+    "@id" : "_:b84",
+    "@type" : "schema:IngredientAddition",
+    "ingredientName" : "_:b114",
+    "ingridientAmount" : "_:b40"
+  }, {
+    "@id" : "_:b85",
+    "@type" : "schema:IngredientAddition",
+    "ingredientName" : "_:b102",
+    "ingridientAmount" : "_:b0"
+  }, {
+    "@id" : "_:b86",
+    "@type" : "schema:IngredientAddition",
+    "ingredientName" : "_:b138",
+    "ingridientAmount" : "_:b115"
+  }, {
+    "@id" : "_:b87",
+    "@type" : "schema:IngredientAddition",
+    "ingredientName" : "_:b94",
+    "ingridientAmount" : "_:b12"
+  }, {
+    "@id" : "_:b88",
+    "@type" : "schema:ImageObject",
+    "caption" : "Harissa-Spiced Roast Pork recipes",
+    "contentUrl" : "https://www.edamam.com/web-img/280/280204de0a4255913d5f560ee01798e2"
+  }, {
+    "@id" : "_:b89",
+    "@type" : "schema:IngredientAddition",
+    "ingredientName" : "_:b98",
+    "ingridientAmount" : "_:b6"
+  }, {
+    "@id" : "_:b9",
+    "@type" : "schema:IngredientAddition",
+    "ingredientName" : "_:b11",
+    "ingridientAmount" : "_:b10"
+  }, {
+    "@id" : "_:b90",
+    "@type" : "schema:IngredientAddition",
+    "ingredientName" : "_:b73",
+    "ingridientAmount" : "_:b118"
+  }, {
+    "@id" : "_:b91",
+    "@type" : "schema:QuantitativeValue",
+    "value" : "12.0"
+  }, {
+    "@id" : "_:b92",
+    "@type" : "schema:NutritionInformation",
+    "calories" : "7707.0 calories"
+  }, {
+    "@id" : "_:b93",
+    "@type" : "schema:Ingredient",
+    "ingridientFullName" : "",
+    "name" : "melted unsalted butter"
+  }, {
+    "@id" : "_:b94",
+    "@type" : "schema:Ingredient",
+    "ingridientFullName" : "",
+    "name" : "fresh thyme leaves  roughly chopped (1/4 cup)"
+  }, {
+    "@id" : "_:b95",
+    "@type" : "schema:IngredientAddition",
+    "ingredientName" : "_:b97",
+    "ingridientAmount" : "_:b96"
+  }, {
+    "@id" : "_:b96",
+    "@type" : "schema:QuantitativeValue",
+    "unitText" : "whole",
+    "value" : "1"
+  }, {
+    "@id" : "_:b97",
+    "@type" : "schema:Ingredient",
+    "ingridientFullName" : "",
+    "name" : "chicken (3-4 lbs.)"
+  }, {
+    "@id" : "_:b98",
+    "@type" : "schema:Ingredient",
+    "ingridientFullName" : "",
+    "name" : "freshly ground pepper"
+  }, {
+    "@id" : "_:b99",
+    "@type" : "schema:Ingredient",
+    "ingridientFullName" : "",
+    "name" : "parsley  minced"
+  } ],
+  "@context" : {
+    "value" : {
+      "@id" : "http://schema.org/value"
+    },
+    "unitText" : {
+      "@id" : "http://schema.org/unitText"
+    },
+    "name" : {
+      "@id" : "http://schema.org/name"
+    },
+    "ingridientFullName" : {
+      "@id" : "http://schema.org/ingridientFullName"
+    },
+    "ingridientAmount" : {
+      "@id" : "http://schema.org/ingridientAmount",
+      "@type" : "@id"
+    },
+    "ingredientName" : {
+      "@id" : "http://schema.org/ingredientName",
+      "@type" : "@id"
+    },
+    "calories" : {
+      "@id" : "http://schema.org/calories"
+    },
+    "contentUrl" : {
+      "@id" : "http://schema.org/contentUrl",
+      "@type" : "@id"
+    },
+    "caption" : {
+      "@id" : "http://schema.org/caption"
+    },
+    "recipeIngredient" : {
+      "@id" : "http://schema.org/recipeIngredient"
+    },
+    "image" : {
+      "@id" : "http://schema.org/image",
+      "@type" : "@id"
+    },
+    "totalTime" : {
+      "@id" : "http://schema.org/totalTime"
+    },
+    "sameAs" : {
+      "@id" : "http://schema.org/sameAs",
+      "@type" : "@id"
+    },
+    "prepTime" : {
+      "@id" : "http://schema.org/prepTime"
+    },
+    "creator" : {
+      "@id" : "http://schema.org/creator",
+      "@type" : "@id"
+    },
+    "cookTime" : {
+      "@id" : "http://schema.org/cookTime"
+    },
+    "recipeYield" : {
+      "@id" : "http://schema.org/recipeYield",
+      "@type" : "@id"
+    },
+    "nutrition" : {
+      "@id" : "http://schema.org/nutrition",
+      "@type" : "@id"
+    },
+    "recipeInstructions" : {
+      "@id" : "http://schema.org/recipeInstructions",
+      "@type" : "@id"
+    },
+    "url" : {
+      "@id" : "http://schema.org/url",
+      "@type" : "@id"
+    },
+    "schema" : "http://schema.org/",
+    "pq" : "http://www.wikidata.org/prop/qualifier/",
+    "bd" : "http://www.bigdata.com/rdf#",
+    "ps" : "http://www.wikidata.org/prop/statement/",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "wdt" : "http://www.wikidata.org/prop/direct/",
+    "mwapi" : "https://www.mediawiki.org/ontology#API/",
+    "wikibase" : "http://wikiba.se/ontology#",
+    "wds" : "http://www.wikidata.org/entity/statement/",
+    "afn" : "http://jena.hpl.hp.com/ARQ/function#",
+    "wdv" : "http://www.wikidata.org/value/",
+    "mw" : "http://tools.wmflabs.org/mw2sparql/ontology#",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "wd" : "http://www.wikidata.org/entity/",
+    "p" : "http://www.wikidata.org/prop/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}
+
+Exception in thread "main" java.lang.NullPointerException
+	at helloworld.FusekiConnection.queryOutput(FusekiConnection.java:174)
+	at helloworld.HelloWorld.run(HelloWorld.java:90)
+	at helloworld.HelloWorld.main(HelloWorld.java:82)
