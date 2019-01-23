@@ -1,0 +1,26 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div style="text-align:center">
+	<h1>
+	Welcome to {{ title }}!
+	</h1>
+	<label *ngFor="let tag of tags">
+		<input type="checkbox" name="tags" value="{{tag.value}}" [(ngModel)]="tag.checked" />
+		{{tag.name}}
+	</label>
+	<input type="text" [(ngModel)]="search_text" />
+	<input type="submit" value="Add" (click)="add_ingredient()" />
+	<ul>
+		<li *ngFor="let ingredient of search_ingredients; let i = index">
+			{{ingredient}} <input type="submit" value="Remove" (click)="remove_ingredient(i)" />
+		</li>
+	</ul>
+	<input type="submit" value="Search" (click)="search()" />
+</div>
+<div *ngFor="let recipe of results?.recipes">
+	<a href="{{recipe.sameAs}}">{{recipe.name}}</a>
+	<ul>
+		<li *ngFor="let ingredient of recipe.recipeIngredient">{{ingredient}}</li>
+	</ul>
+	{{recipe.recipeInstructions}}
+</div>
+<router-outlet></router-outlet>
