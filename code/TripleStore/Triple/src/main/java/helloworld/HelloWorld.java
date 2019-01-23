@@ -35,6 +35,27 @@ import example.RecipeBase;
  */
 public class HelloWorld extends RecipeBase {
 
+	@Override
+	public void run() {
+
+		FusekiConnection fc = new FusekiConnection("http://localhost:3030");
+		// fc.loadData();
+		fc.queryOutput(test(), "https://httpbin.org/post");
+
+		// fc.queryOutput(numberOfTriples());
+		// fc.queryOutput(numberOfTriplesPerClass());
+		// fc.queryOutput(numberOfDistinctClasses());
+		// fc.queryOutput(numberOfDistinctProperties());
+		// fc.queryOutput(classesPerDataSet());
+		// fc.queryOutput(propertiesPerDataSet());
+		// fc.queryOutput(instancesPerClassPerDataSet());
+		// fc.queryOutput(subjectsPerPropertyPerDataSet());
+		// fc.queryOutput(objectsPerPropertyPerDataSet());
+		// fc.queryOutput(propertiesInTop5Classes());
+		// fc.queryOutput(federatedQuery());
+
+	}
+
 	/***********************************/
 	/* Constants */
 	/***********************************/
@@ -80,27 +101,6 @@ public class HelloWorld extends RecipeBase {
 	 */
 	public static void main(String[] args) {
 		new HelloWorld().setArgs(args).run();
-	}
-
-	@Override
-	public void run() {
-
-		FusekiConnection fc = new FusekiConnection("http://localhost:3030");
-		// fc.loadData();
-		fc.queryOutput(test());
-
-		// fc.queryOutput(numberOfTriples());
-		// fc.queryOutput(numberOfTriplesPerClass());
-		// fc.queryOutput(numberOfDistinctClasses());
-		// fc.queryOutput(numberOfDistinctProperties());
-		// fc.queryOutput(classesPerDataSet());
-		// fc.queryOutput(propertiesPerDataSet());
-		// fc.queryOutput(instancesPerClassPerDataSet());
-		// fc.queryOutput(subjectsPerPropertyPerDataSet());
-		// fc.queryOutput(objectsPerPropertyPerDataSet());
-		// fc.queryOutput(propertiesInTop5Classes());
-		// fc.queryOutput(federatedQuery());
-
 	}
 
 	/***********************************/

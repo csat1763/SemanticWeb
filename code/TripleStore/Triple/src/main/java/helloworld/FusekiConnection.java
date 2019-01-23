@@ -35,7 +35,10 @@ import org.apache.jena.rdfconnection.RDFDatasetConnection;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
+import com.google.gson.JsonArray;
+import com.google.gson.JsonElement;
 import com.google.gson.internal.LinkedTreeMap;
+import com.google.gson.reflect.TypeToken;
 
 public class FusekiConnection {
 	private static final String dataSet = "src\\main\\resources\\data\\recipes";
@@ -144,7 +147,7 @@ public class FusekiConnection {
 
 	}
 
-	public void queryOutput(String query) {
+	public void queryOutput(String query, String address) {
 		QueryExecution q = QueryExecutionFactory.sparqlService(connectionUrl + "/" + dataName + "/sparql", query);
 
 		Model model = q.execDescribe();
@@ -166,7 +169,7 @@ public class FusekiConnection {
 			e.printStackTrace();
 		}
 
-		System.out.println(rep.toString());
+		// System.out.println(rep.toString());
 
 		// Transform output to json
 		LinkedTreeMap<String, Object> jsonResult = new Gson().fromJson(rep.toString(), LinkedTreeMap.class);
@@ -181,7 +184,7 @@ public class FusekiConnection {
 			type = (String) a.get("@type");
 			if (!map.containsKey(type)) {
 				map.put(type, new ArrayList<LinkedTreeMap<String, Object>>());
-				System.out.println(type);
+				// System.out.println(type);
 			}
 			map.get(type).add(a);
 
@@ -218,19 +221,44 @@ public class FusekiConnection {
 
 			}
 
-			System.out.println(new GsonBuilder().setPrettyPrinting().create().toJson(b));
+			// System.out.println(new GsonBuilder().setPrettyPrinting().create().toJson(b));
 
 		}
 
-		// File testFile = new File("testFile.jsonld");
-		// try {
-		// RDFDataMgr.write(new FileOutputStream(testFile), model, RDFFormat.JSONLD);
-		// } catch (FileNotFoundException e) {
-		// // TODO Auto-generated catch block
-		// e.printStackTrace();
-		// }
-		//
-		// // System.out.println(it.toString());
+		try {
+			ArrayList<LinkedTreeMap<String, Object>> b = map.get("schema:Recipe");
+			URL url = new URL(address);
+
+			JsonElement element = new Gson().toJsonTree(b, new TypeToken<ArrayList<LinkedTreeMap<String, Object>>>() {
+			}.getType());
+			JsonArray jsonArray = element.getAsJsonArray();
+
+			HttpURLConnection conn = (HttpURLConnection) url.openConnection();
+			conn.setDoOutput(true);
+			conn.setInstanceFollowRedirects(false);
+			conn.setRequestMethod("POST");
+			conn.setRequestProperty("Accept", "*/*");
+			conn.setRequestProperty("Content-Type", "application/ld+json");
+			conn.setRequestProperty("Content-Length", Integer.toString(jsonArray.toString().getBytes("UTF-8").length));
+			conn.setRequestProperty("Expect", "100-continue");
+			try (DataOutputStream wr = new DataOutputStream(conn.getOutputStream())) {
+
+				wr.write(new GsonBuilder().setPrettyPrinting().create().toJson(jsonArray).getBytes("UTF-8"));
+				wr.flush();
+				wr.close();
+			}
+
+			BufferedReader brr = new BufferedReader(new InputStreamReader((conn.getInputStream()), "UTF-8"));
+			String output;
+			while ((output = brr.readLine()) != null) {
+				System.out.println(output);
+			}
+
+			brr.close();
+
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
 
 	}
 
