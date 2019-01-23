@@ -43,8 +43,6 @@ public class FusekiConnection {
 
 	private String connectionUrl;
 
-	private String dataName = datasetName;
-
 	private Dataset dataset;
 
 	public FusekiConnection(String connectionUrl) {
@@ -77,9 +75,10 @@ public class FusekiConnection {
 	}
 
 	public void uploadFileToGraph(String filename, String graphName) throws IOException {
-		URL url = new URL(connectionUrl + "/" + dataName + "/data?graph=" + URLEncoder.encode(graphName, "UTF-8"));
+		URL url = new URL(connectionUrl + "/" + datasetName + "/data?graph=" + URLEncoder.encode(graphName, "UTF-8"));
 
 		File file = new File(filename);
+
 		InputStream fileInputStream = new FileInputStream(file);
 
 		byte[] fileContent = new byte[(int) file.length()];
@@ -106,6 +105,7 @@ public class FusekiConnection {
 
 		BufferedReader br = new BufferedReader(new InputStreamReader((conn.getInputStream()), "UTF-8"));
 		String output;
+		System.out.println("Triplstore RESPONSE: ");
 		while ((output = br.readLine()) != null) {
 			System.out.println(output);
 		}
@@ -115,23 +115,23 @@ public class FusekiConnection {
 	}
 
 	public void deleteModel(String graphName) {
-		DatasetAccessorFactory.createHTTP(connectionUrl + "/" + dataName + "/data").deleteModel(graphName);
+		DatasetAccessorFactory.createHTTP(connectionUrl + "/" + datasetName + "/data").deleteModel(graphName);
 	}
 
 	public void deleteDefaultModel() {
-		DatasetAccessorFactory.createHTTP(connectionUrl + "/" + dataName + "/data").deleteDefault();
+		DatasetAccessorFactory.createHTTP(connectionUrl + "/" + datasetName + "/data").deleteDefault();
 	}
 
 	public void addModel(String graphName, Model model) {
-		DatasetAccessorFactory.createHTTP(connectionUrl + "/" + dataName + "/data").add(graphName, model);
+		DatasetAccessorFactory.createHTTP(connectionUrl + "/" + datasetName + "/data").add(graphName, model);
 	}
 
 	public void addDefaultModel(Model model) {
-		DatasetAccessorFactory.createHTTP(connectionUrl + "/" + dataName + "/data").add(model);
+		DatasetAccessorFactory.createHTTP(connectionUrl + "/" + datasetName + "/data").add(model);
 	}
 
 	public ArrayList<String> getGraphNames() {
-		Iterator<String> names = RDFConnectionRemote.create().destination(connectionUrl + "/" + dataName + "/data")
+		Iterator<String> names = RDFConnectionRemote.create().destination(connectionUrl + "/" + datasetName + "/data")
 				.build().fetchDataset().listNames();
 
 		ArrayList<String> namesAsStrings = new ArrayList<String>();
@@ -144,7 +144,7 @@ public class FusekiConnection {
 	}
 
 	public void sendQueryResultsToAdr(String query, String address) {
-		QueryExecution q = QueryExecutionFactory.sparqlService(connectionUrl + "/" + dataName + "/sparql", query);
+		QueryExecution q = QueryExecutionFactory.sparqlService(connectionUrl + "/" + datasetName + "/sparql", query);
 
 		Model model = q.execDescribe();
 		// File testFile = new File("testFileaa.jsonld");
@@ -246,6 +246,7 @@ public class FusekiConnection {
 
 			BufferedReader brr = new BufferedReader(new InputStreamReader((conn.getInputStream()), "UTF-8"));
 			String output;
+			System.out.println("Frontend RESPONSE: ");
 			while ((output = brr.readLine()) != null) {
 				System.out.println(output);
 			}
@@ -270,14 +271,14 @@ public class FusekiConnection {
 
 	public void initFuseki(HashMap<String, Model> nameData) {
 		System.out.println("Initializing dataset...");
-		this.dataset = RDFConnectionRemote.create().destination(connectionUrl + "/" + dataName + "/data").build()
+		this.dataset = RDFConnectionRemote.create().destination(connectionUrl + "/" + datasetName + "/data").build()
 				.fetchDataset();
-		RDFDatasetConnection a = RDFConnectionRemote.create().destination(connectionUrl + "/" + dataName + "/data")
+		RDFDatasetConnection a = RDFConnectionRemote.create().destination(connectionUrl + "/" + datasetName + "/data")
 				.build();
 		ArrayList<String> graphNames = getGraphNames();
 		for (Entry<String, Model> entry : nameData.entrySet()) {
 
-			if (!graphNames.contains(connectionUrl + "/" + dataName + "/data/" + entry.getKey())
+			if (!graphNames.contains(connectionUrl + "/" + datasetName + "/data/" + entry.getKey())
 					&& !dataset.getNamedModel(entry.getKey()).isIsomorphicWith(entry.getValue())) {
 				dataset.addNamedModel(entry.getKey(), entry.getValue());
 				a.load(entry.getKey(), entry.getValue());
