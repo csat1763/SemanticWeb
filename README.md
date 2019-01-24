@@ -1,4 +1,4 @@
-Application for recipe search based on ingredients and healthlabels
+Application for recipe search based on ingredients and healthlabels.
 
 ## Run
 1. in *\TripleStore\apache-jena-fuseki-3.9.0* either run
