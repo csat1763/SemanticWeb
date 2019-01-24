@@ -172,6 +172,9 @@ public class FusekiConnection {
 		// System.out.println(jsonResult.toString());
 
 		List<LinkedTreeMap<String, Object>> graph = (ArrayList<LinkedTreeMap<String, Object>>) jsonResult.get("@graph");
+		if (graph == null || graph.isEmpty()) {
+			return "{No Results!}";
+		}
 		HashMap<String, LinkedTreeMap<String, Object>> idEntries = new HashMap<String, LinkedTreeMap<String, Object>>();
 		HashMap<String, ArrayList<LinkedTreeMap<String, Object>>> map = new HashMap<String, ArrayList<LinkedTreeMap<String, Object>>>();
 		String type;
@@ -228,6 +231,7 @@ public class FusekiConnection {
 		JsonElement element = new Gson().toJsonTree(b, new TypeToken<ArrayList<LinkedTreeMap<String, Object>>>() {
 		}.getType());
 		JsonArray jsonArray = element.getAsJsonArray();
+
 		return new GsonBuilder().setPrettyPrinting().create().toJson(jsonArray);
 
 		// HttpURLConnection conn = (HttpURLConnection) url.openConnection();

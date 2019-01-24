@@ -3,7 +3,9 @@ Application for recipe search based on ingredients and healthlabels.
 ## Run
 Either run
 
-	$ ./run.sh
+	$ ./runWindows.bat
+	
+	$ ./runLinux.sh
 
 or follow these steps:
 
