@@ -1,4 +1,4 @@
-Application for recipe search based on ingredients and healthlabels
+Application for recipe search based on ingredients and healthlabels.
 
 ## Run
 Either run
@@ -9,23 +9,21 @@ or follow these steps:
 
 1. in *\TripleStore\apache-jena-fuseki-3.9.0* either run 
 	
-	$ fuseki-server.bat 
-			
-			OR 
-			
-	$ fuseki-server.jar
+		$ fuseki-server.bat 
+				
+		$ fuseki-server.jar
 	
 2. in *\SemanticWeb\code\BackEnd*
-	
-	$ java -jar floader.jar
+
+		$ java -jar floader.jar
 	
 3.  in *\SemanticWeb\code\BackEnd\target*
 	
-	$ java -jar gs-rest-service-0.1.0.jar
+		$ java -jar gs-rest-service-0.1.0.jar
 	
 4.  in *\SemanticWeb\sw*
 	
-	$ node_modules/.bin/ng serve
+		$ node_modules/.bin/ng serve
 	
 ## Application
 
