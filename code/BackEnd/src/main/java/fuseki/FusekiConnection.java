@@ -143,7 +143,7 @@ public class FusekiConnection {
 
 	}
 
-	public void sendQueryResultsToAdr(String query, String address) {
+	public String sendQueryResultsToAdr(String query) {
 		QueryExecution q = QueryExecutionFactory.sparqlService(connectionUrl + "/" + datasetName + "/sparql", query);
 
 		Model model = q.execDescribe();
@@ -221,41 +221,42 @@ public class FusekiConnection {
 
 		}
 
-		try {
-			ArrayList<LinkedTreeMap<String, Object>> b = map.get("schema:Recipe");
-			URL url = new URL(address);
+		// try {
+		ArrayList<LinkedTreeMap<String, Object>> b = map.get("schema:Recipe");
+		// URL url = new URL(address);
 
-			JsonElement element = new Gson().toJsonTree(b, new TypeToken<ArrayList<LinkedTreeMap<String, Object>>>() {
-			}.getType());
-			JsonArray jsonArray = element.getAsJsonArray();
+		JsonElement element = new Gson().toJsonTree(b, new TypeToken<ArrayList<LinkedTreeMap<String, Object>>>() {
+		}.getType());
+		JsonArray jsonArray = element.getAsJsonArray();
+		return new GsonBuilder().setPrettyPrinting().create().toJson(jsonArray);
 
-			HttpURLConnection conn = (HttpURLConnection) url.openConnection();
-			conn.setDoOutput(true);
-			conn.setInstanceFollowRedirects(false);
-			conn.setRequestMethod("POST");
-			conn.setRequestProperty("Accept", "*/*");
-			conn.setRequestProperty("Content-Type", "application/ld+json");
-			conn.setRequestProperty("Content-Length", Integer.toString(jsonArray.toString().getBytes("UTF-8").length));
-			conn.setRequestProperty("Expect", "100-continue");
-			try (DataOutputStream wr = new DataOutputStream(conn.getOutputStream())) {
-
-				wr.write(new GsonBuilder().setPrettyPrinting().create().toJson(jsonArray).getBytes("UTF-8"));
-				wr.flush();
-				wr.close();
-			}
-
-			BufferedReader brr = new BufferedReader(new InputStreamReader((conn.getInputStream()), "UTF-8"));
-			String output;
-			System.out.println("Frontend RESPONSE: ");
-			while ((output = brr.readLine()) != null) {
-				System.out.println(output);
-			}
-
-			brr.close();
-
-		} catch (Exception e) {
-			e.printStackTrace();
-		}
+		// HttpURLConnection conn = (HttpURLConnection) url.openConnection();
+		// conn.setDoOutput(true);
+		// conn.setInstanceFollowRedirects(false);
+		// conn.setRequestMethod("POST");
+		// conn.setRequestProperty("Accept", "*/*");
+		// conn.setRequestProperty("Content-Type", "application/ld+json");
+		// conn.setRequestProperty("Content-Length", Integer.toString(jsonArray.toString().getBytes("UTF-8").length));
+		// conn.setRequestProperty("Expect", "100-continue");
+		// try (DataOutputStream wr = new DataOutputStream(conn.getOutputStream())) {
+		//
+		// wr.write(new GsonBuilder().setPrettyPrinting().create().toJson(jsonArray).getBytes("UTF-8"));
+		// wr.flush();
+		// wr.close();
+		// }
+		//
+		// BufferedReader brr = new BufferedReader(new InputStreamReader((conn.getInputStream()), "UTF-8"));
+		// String output;
+		// System.out.println("Frontend RESPONSE: ");
+		// while ((output = brr.readLine()) != null) {
+		// System.out.println(output);
+		// }
+		//
+		// brr.close();
+		//
+		// } catch (Exception e) {
+		// e.printStackTrace();
+		// }
 
 	}
 

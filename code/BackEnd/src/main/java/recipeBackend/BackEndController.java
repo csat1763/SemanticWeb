@@ -18,7 +18,30 @@ public class BackEndController {
 
 	@CrossOrigin(origins = "*")
 	@RequestMapping("/recipeRequest")
-	public RecipeResponse recipeRequest(@RequestParam(value = "tags", defaultValue = "none") String tags,
+	public String recipeRequest(@RequestParam(value = "tags", defaultValue = "Alcohol-Free") String tags,
+			@RequestParam(value = "ingredients", defaultValue = "salt") String ingredients) {
+
+		ingredientList.clear();
+		tagList.clear();
+
+		String[] tagSplit = tags.split(" ");
+		String[] ingredientSplit = ingredients.split(",");
+
+		for (String tag : tagSplit) {
+			// System.out.println(tag);
+			tagList.add(tag);
+		}
+
+		for (String ingredient : ingredientSplit) {
+			// System.out.println(ingredient);
+			ingredientList.add(ingredient);
+		}
+		// System.out.println(ingredientList);
+		// System.out.println(tagList);
+		return FusekiEndpoint.getResutlsFromFuseki(ingredientList, tagList);
+	}
+
+	public RecipeResponse recipeRequestOld(@RequestParam(value = "tags", defaultValue = "none") String tags,
 			@RequestParam(value = "ingredients", defaultValue = "none") String ingredients) {
 
 		ingredientList.clear();
@@ -46,15 +69,15 @@ public class BackEndController {
 		}
 
 		// TODO: SPARQL QUERY STUFF
-		//String queryResponse = queryCreator.createQuery(tagList, ingredientList);
+		// String queryResponse = queryCreator.createQuery(tagList, ingredientList);
 
 		// build json recipe response
 
 		List<Recipe> recipes = new ArrayList<Recipe>();
-		
+
 		Recipe testRecipe = new Recipe();
 		testRecipe.setId(0);
-		testRecipe.setName("beef");
+		testRecipe.setName("beefy soup");
 		testRecipe.setImage("img url");
 		List<String> keywordList = new ArrayList<String>();
 		keywordList.add("keyword 1");
@@ -66,31 +89,31 @@ public class BackEndController {
 		testRecipe.setTotalTime("30 min");
 		testRecipe.setSameAs("same as url");
 		List<RecipeIngredient> ingredientList = new ArrayList<RecipeIngredient>();
-		
+
 		RecipeIngredient newIngredient = new RecipeIngredient();
 		newIngredient.setIngredientAmount("2");
-		newIngredient.setIngredientName("beef");
+		newIngredient.setIngredientName("beefy");
 		newIngredient.setUnitText("kg");
 		newIngredient.setPotentialAction("potentialActionUrl");
-		
+
 		RecipeIngredient newIngredient2 = new RecipeIngredient();
 		newIngredient2.setIngredientAmount("1");
 		newIngredient2.setIngredientName("salt");
 		newIngredient2.setUnitText("tbls");
 		newIngredient2.setPotentialAction("potentialActionUrl");
-		
+
 		ingredientList.add(newIngredient);
 		ingredientList.add(newIngredient2);
 
 		testRecipe.setRecipeIngredient(ingredientList);
 		testRecipe.setRecipeInstructions("instructions");
 		testRecipe.setRecipeYield("yield");
-		
+
 		recipes.add(testRecipe);
-		
+
 		Recipe testRecipe2 = new Recipe();
 		testRecipe2.setId(0);
-		testRecipe2.setName("beef");
+		testRecipe2.setName("beefo");
 		testRecipe2.setImage("img url");
 		List<String> keywordList2 = new ArrayList<String>();
 		keywordList2.add("keyword 1");
@@ -102,15 +125,15 @@ public class BackEndController {
 		testRecipe2.setTotalTime("30 min");
 		testRecipe2.setSameAs("same as url");
 		List<RecipeIngredient> ingredientList2 = new ArrayList<RecipeIngredient>();
-		
+
 		ingredientList2.add(newIngredient);
 		ingredientList2.add(newIngredient2);
 		testRecipe2.setRecipeIngredient(ingredientList2);
 		testRecipe2.setRecipeInstructions("instructions");
 		testRecipe2.setRecipeYield("yield");
-		
+
 		recipes.add(testRecipe2);
-		
+
 		return new RecipeResponse(counter.incrementAndGet(),
 				"TAGS:" + tagBuilder.toString() + "INGREDIENTS:" + ingredientBuilder.toString(), recipes);
 	}
