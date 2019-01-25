@@ -173,7 +173,7 @@ public class FusekiConnection {
 
 		List<LinkedTreeMap<String, Object>> graph = (ArrayList<LinkedTreeMap<String, Object>>) jsonResult.get("@graph");
 		if (graph == null || graph.isEmpty()) {
-			return "{No Results!}";
+			return "{[]}";
 		}
 		HashMap<String, LinkedTreeMap<String, Object>> idEntries = new HashMap<String, LinkedTreeMap<String, Object>>();
 		HashMap<String, ArrayList<LinkedTreeMap<String, Object>>> map = new HashMap<String, ArrayList<LinkedTreeMap<String, Object>>>();

@@ -347,6 +347,7 @@ public class EdmanAPI {
 										+ "\t\t\t\"ingredientName\" : {\r\n" + "\t\t\t\t\"@type\" : \"Ingredient\",\r\n"
 										+ "\t\t\t\t\"name\" : \"" + ingredient + "\",\r\n"
 										+ "\t\t\t\t\"ingridientFullName\" : \"\"\r\n" + " \t\t\t},")
+								// TODO add i to ingfullName
 								.append("\r\n \t\t\t\"ingridientAmount\" : {\r\n"
 										+ "\t\t\t\t\"@type\" : \"QuantitativeValue\",\r\n" + "\t\t\t\t\"unitText\" : \""
 										+ unit + "\",\r\n" + "\t\t\t\t\"value\" : \"" + amount + "\"\r\n" + "\t\t\t}");
