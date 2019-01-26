@@ -55,7 +55,7 @@ public class FusekiConnection {
 		File datafolder = new File(dataSet);
 		for (String datafile : listFilesForFolder(datafolder)) {
 			try {
-				uploadFileToGraph(datafile, "data");
+				uploadFileToGraph(datafile, "http://uibk.org/data");
 			} catch (IOException e) {
 				e.printStackTrace();
 			}
@@ -65,7 +65,7 @@ public class FusekiConnection {
 		File ontologyFolder = new File(ontology);
 		for (String ontFile : listFilesForFolder(ontologyFolder)) {
 			try {
-				uploadFileToGraph(ontFile, "ontology");
+				uploadFileToGraph(ontFile, "http://uibk.org/ontology");
 			} catch (IOException e) {
 				e.printStackTrace();
 			}
@@ -143,6 +143,7 @@ public class FusekiConnection {
 
 	}
 
+	@SuppressWarnings("unchecked")
 	public String sendQueryResultsToAdr(String query) {
 		QueryExecution q = QueryExecutionFactory.sparqlService(connectionUrl + "/" + datasetName + "/sparql", query);
 
@@ -217,6 +218,7 @@ public class FusekiConnection {
 
 				ingred.put("ingredientName", idEntries.get(ingred.get("ingredientName")));
 				ingred.put("ingridientAmount", idEntries.get(ingred.get("ingridientAmount")));
+				ingred.put("potentialAction", idEntries.get(ingred.get("potentialAction")));
 
 			}
 

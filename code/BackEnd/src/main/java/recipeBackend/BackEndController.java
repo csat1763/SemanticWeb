@@ -38,7 +38,7 @@ public class BackEndController {
 		}
 		// System.out.println(ingredientList);
 		// System.out.println(tagList);
-		return FusekiEndpoint.getResutlsFromFuseki(ingredientList, tagList);
+		return FusekiEndpoint.getResutlsFromFusekiFor(ingredientList, tagList);
 	}
 
 	public RecipeResponse recipeRequestOld(@RequestParam(value = "tags", defaultValue = "none") String tags,
@@ -67,11 +67,6 @@ public class BackEndController {
 		for (String tag : tagList) {
 			tagBuilder.append("Tag: ").append(tag).append(", ");
 		}
-
-		// TODO: SPARQL QUERY STUFF
-		// String queryResponse = queryCreator.createQuery(tagList, ingredientList);
-
-		// build json recipe response
 
 		List<Recipe> recipes = new ArrayList<Recipe>();
 

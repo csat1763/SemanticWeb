@@ -1,6 +1,5 @@
 package recipeBackend;
 
-import java.util.ArrayList;
 import java.util.List;
 
 import org.apache.commons.codec.digest.DigestUtils;
@@ -16,27 +15,10 @@ public class FusekiEndpoint {
 	public static String fusekiAdr = "http://localhost:3030";
 	public static String frontEntAdr2 = "https://httpbin.org/post";
 	public static String frontEntAdr = "http://localhost:4200";
-	public static String fusekiDataGraphName = "<http://localhost:3030/food/data/data>";
-	public static String fusekiOntGraphName = "<http://localhost:3030/food/data/ontology>";
+	public static String fusekiDataGraphName = "<http://uibk.org/data>";
+	public static String fusekiOntGraphName = "<http://uibk.org/ontology>";
 
-	public static void main(String args[]) {
-		runExample();
-	}
-
-	public static void runExample() {
-		FusekiConnection fc = genDefaultFuseki();
-		ArrayList<String> ings = new ArrayList<String>();
-		ings.add("salt");
-		ings.add("pepper");
-		ings.add("butter");
-		ArrayList<String> keys = new ArrayList<String>();
-		keys.add("Alcohol-Free");
-		// System.out.println(query(ings, keys));
-		// fc.sendQueryResultsToAdr(generateQuery(ings, keys), frontEntAdr);
-
-	}
-
-	public static String getResutlsFromFuseki(List<String> ings, List<String> keys) {
+	public static String getResutlsFromFusekiFor(List<String> ings, List<String> keys) {
 		FusekiConnection fc = genDefaultFuseki();
 		return fc.sendQueryResultsToAdr(generateQuery(ings, keys));
 
