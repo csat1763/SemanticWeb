@@ -1,0 +1,42 @@
+_:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Recipe> .
+_:genid1 <http://schema.org/cookTime> "PT"^^<http://www.w3.org/2001/XMLSchema#string> .
+_:genid1 <http://schema.org/creator> _:genid2 .
+_:genid1 <http://schema.org/image> _:genid3 .
+_:genid1 <http://schema.org/name> "Easter Leftover Sandwich"^^<http://www.w3.org/2001/XMLSchema#string> .
+_:genid1 <http://schema.org/nutrition> _:genid4 .
+_:genid1 <http://schema.org/prepTime> "PT15M"^^<http://www.w3.org/2001/XMLSchema#string> .
+_:genid1 <http://schema.org/recipeIngredient> _:genid5 .
+_:genid1 <http://schema.org/recipeIngredient> _:genid6 .
+_:genid1 <http://schema.org/recipeInstructions> _:genid7 .
+_:genid1 <http://schema.org/recipeYield> _:genid8 .
+_:genid1 <http://schema.org/sameAs> <http://www.edamam.com/ontologies/edamam.owl#recipe_7bf4a371c6884d809682a72808da7dc2> .
+_:genid1 <http://schema.org/totalTime> "0.0"^^<http://www.w3.org/2001/XMLSchema#string> .
+_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+_:genid2 <http://schema.org/name> "Daniel Kaufmann"^^<http://www.w3.org/2001/XMLSchema#string> .
+_:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ImageObject> .
+_:genid3 <http://schema.org/caption> "Easter Leftover Sandwich"^^<http://www.w3.org/2001/XMLSchema#string> .
+_:genid3 <http://schema.org/contentUrl> <http://static.thepioneerwoman.com/cooking/files/2013/03/leftoversandwich.jpg> .
+_:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/NutritionInformation> .
+_:genid4 <http://schema.org/calories> "2253.0 calories"^^<http://www.w3.org/2001/XMLSchema#string> .
+_:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/IngredientAddition> .
+_:genid5 <http://schema.org/ingridientAmount> _:genid9 .
+_:genid5 <http://schema.org/ingridientName> _:genid10 .
+_:genid9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/QuantitativeValue> .
+_:genid9 <http://schema.org/unitText> "Tablespoons"^^<http://www.w3.org/2001/XMLSchema#string> .
+_:genid9 <http://schema.org/value> "3"^^<http://www.w3.org/2001/XMLSchema#string> .
+_:genid10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Ingredient> .
+_:genid10 <http://schema.org/ingridientFullName> "Dijon"^^<http://www.w3.org/2001/XMLSchema#string> .
+_:genid10 <http://schema.org/name> "Mustard"^^<http://www.w3.org/2001/XMLSchema#string> .
+_:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/IngredientAddition> .
+_:genid6 <http://schema.org/ingridientAmount> _:genid11 .
+_:genid6 <http://schema.org/ingridientName> _:genid12 .
+_:genid11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/QuantitativeValue> .
+_:genid11 <http://schema.org/unitText> "Tablespoons"^^<http://www.w3.org/2001/XMLSchema#string> .
+_:genid11 <http://schema.org/value> "3"^^<http://www.w3.org/2001/XMLSchema#string> .
+_:genid12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Ingredient> .
+_:genid12 <http://schema.org/ingridientFullName> "Dijon"^^<http://www.w3.org/2001/XMLSchema#string> .
+_:genid12 <http://schema.org/name> "Mustard"^^<http://www.w3.org/2001/XMLSchema#string> .
+_:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+_:genid7 <http://schema.org/url> <http://thepioneerwoman.com/cooking/2013/04/easter-leftover-sandwich/> .
+_:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/QuantitativeValue> .
+_:genid8 <http://schema.org/value> "8"^^<http://www.w3.org/2001/XMLSchema#string> .
