@@ -4,15 +4,19 @@ import java.io.BufferedReader;
 import java.io.DataOutputStream;
 import java.io.File;
 import java.io.FileInputStream;
+import java.io.FileOutputStream;
 import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
+import java.io.OutputStreamWriter;
 import java.io.PrintWriter;
+import java.io.UnsupportedEncodingException;
 import java.net.HttpURLConnection;
 import java.net.URL;
 import java.net.URLEncoder;
+import java.nio.charset.StandardCharsets;
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.List;
@@ -32,6 +36,7 @@ public class DataCrawler {
 	private static Collection<String> searchTerms = new ArrayList<String>();
 
 	public static void main(String[] args) throws IOException, InterruptedException, ExecutionException {
+		initSearchTerms();
 		// getRawData();
 		translateRawDataToRDF();
 		// translateJsonLdToN3();
@@ -75,20 +80,24 @@ public class DataCrawler {
 
 			File recipesFromEdamam = new File(filename);
 
-			PrintWriter tempWriter = new PrintWriter(recipesFromEdamam);
-			tempWriter.print(rep.toString());
-			tempWriter.flush();
-			tempWriter.close();
+			try (OutputStreamWriter writer = new OutputStreamWriter(new FileOutputStream(recipesFromEdamam),
+					StandardCharsets.UTF_8)) {
+				writer.write(rep.toString());
+				writer.flush();
+				writer.close();
+
+			}
 
 			// Close connection instance
 			conn.disconnect();
+			System.out.println(s + " done.");
 			try {
 				Thread.sleep(20000);
 			} catch (InterruptedException e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
 			}
-			System.out.println(s + " done.");
+
 		}
 	}
 
@@ -252,15 +261,19 @@ public class DataCrawler {
 
 				File recipesFromEdamam = new File(filename);
 
-				PrintWriter tempWriter = new PrintWriter(recipesFromEdamam);
-				tempWriter.print(recipiesAsString.toString());
-				tempWriter.flush();
-				tempWriter.close();
+				try (OutputStreamWriter writer = new OutputStreamWriter(new FileOutputStream(recipesFromEdamam),
+						StandardCharsets.UTF_8)) {
+					writer.write(recipiesAsString.toString());
+					writer.flush();
+					writer.close();
+
+				}
 
 			}
 
 			System.out.println("Edamam search term: " + s + " done.");
 		}
+
 	}
 
 	public static void translateJsonLdToN3() throws IOException {
@@ -471,52 +484,31 @@ public class DataCrawler {
 		return sb.toString();
 	}
 
-	public static void initSearchTerms() {
-		searchTerms.add("alcohol");
-		searchTerms.add("american");
-		searchTerms.add("asian");
-		searchTerms.add("beef");
-		searchTerms.add("beer");
-		searchTerms.add("burger");
-		searchTerms.add("cake");
-		searchTerms.add("cheese");
-		searchTerms.add("chicken");
-		searchTerms.add("chocolate");
-		searchTerms.add("fish");
-		searchTerms.add("fruit");
-		searchTerms.add("german");
-		searchTerms.add("greek");
-		searchTerms.add("hot");
-		searchTerms.add("ice");
-		searchTerms.add("italian");
-		searchTerms.add("korean");
-		searchTerms.add("mexican");
-		searchTerms.add("noodle");
-		searchTerms.add("pizza");
-		searchTerms.add("pork");
-		searchTerms.add("potato");
-		searchTerms.add("rice");
-		searchTerms.add("salad");
-		searchTerms.add("soup");
-		searchTerms.add("sour");
-		searchTerms.add("sushi");
-		searchTerms.add("swedish");
-		searchTerms.add("sweet");
-		searchTerms.add("african");
-		searchTerms.add("british");
-		searchTerms.add("caribbean");
-		searchTerms.add("chinese");
-		searchTerms.add("french");
-		searchTerms.add("indian");
-		searchTerms.add("irish");
-		searchTerms.add("japanese");
-		searchTerms.add("nordic");
-		searchTerms.add("pakistani");
-		searchTerms.add("portuguese");
-		searchTerms.add("spanish");
-		searchTerms.add("thai");
-		searchTerms.add("turkish");
-		searchTerms.add("russian");
+	public static void initSearchTerms() throws UnsupportedEncodingException {
+
+		String cusines = "Ainu\r\n" + "Albanian\r\n" + "Argentina\r\n" + "Andhra\r\n" + "Anglo-Indian\r\n" + "Arab\r\n"
+				+ "Armenian\r\n" + "Assyrian\r\n" + "Awadhi\r\n" + "Azerbaijani\r\n" + "Balochi\r\n" + "Belarusian\r\n"
+				+ "Bangladeshi\r\n" + "Bengali\r\n" + "Berber\r\n" + "Buddhist\r\n" + "Bulgarian\r\n" + "Cajun\r\n"
+				+ "Chechen\r\n" + "Chinese cuisine\r\n" + "Chinese Islamic\r\n" + "Circassian\r\n" + "Crimean Tatar\r\n"
+				+ "Danish\r\n" + "Estonian\r\n" + "French\r\n" + "Filipino\r\n" + "Georgian\r\n" + "Goan\r\n"
+				+ "Goan Catholic\r\n" + "Greek\r\n" + "Gujarati\r\n" + "Hyderabad\r\n" + "Indian cuisine\r\n"
+				+ "Indian Chinese\r\n" + "Indian Singaporean cuisine\r\n" + "Indonesian\r\n" + "Inuit\r\n"
+				+ "Italian American\r\n" + "Italian cuisine\r\n" + "Japanese\r\n" + "Jewish\r\n" + "Karnataka\r\n"
+				+ "Kazakh\r\n" + "Keralite\r\n" + "Korean\r\n" + "Kurdish\r\n" + "Laotian\r\n" + "Latvian\r\n"
+				+ "Lithuanian\r\n" + "Louisiana Creole\r\n" + "Maharashtrian\r\n" + "Mangalorean\r\n" + "Malay\r\n"
+				+ "Malaysian Chinese cuisine\r\n" + "Malaysian Indian cuisine\r\n" + "Mediterranean cuisine\r\n"
+				+ "Mexican\r\n" + "Mordovian\r\n" + "Mughal\r\n" + "Native American\r\n" + "Nepalese\r\n"
+				+ "New Mexican\r\n" + "Odia\r\n" + "Parsi\r\n" + "Pashtun\r\n" + "Polish\r\n" + "Pennsylvania Dutch\r\n"
+				+ "Pakistani\r\n" + "Peranakan\r\n" + "Persian\r\n" + "Peruvian\r\n" + "Portuguese\r\n" + "Punjabi\r\n"
+				+ "Rajasthani\r\n" + "Romanian\r\n" + "Russian\r\n" + "Sami\r\n" + "Serbian\r\n" + "Sindhi\r\n"
+				+ "Slovak\r\n" + "Slovenian\r\n" + "Somali\r\n" + "South Indian\r\n" + "Sri Lankan\r\n" + "Tatar\r\n"
+				+ "Thai\r\n" + "Turkish\r\n" + "Tamil\r\n" + "Udupi\r\n" + "Ukrainian\r\n" + "Yamal\r\n" + "Zanzibari";
+
+		String cus[] = cusines.split("\r\n");
+		for (String cusi : cus) {
+			searchTerms.add(URLEncoder.encode(cusi, "UTF-8"));
+		}
+
 	}
 
 }

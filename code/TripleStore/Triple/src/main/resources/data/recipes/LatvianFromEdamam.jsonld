@@ -1,0 +1,3604 @@
+[
+{
+	"@context": "http://schema.org",
+	"@id": "http://www.edamam.com/ontologies/edamam.owl#recipe_9ff19e75b99fdf0790ca3e5e01bc0c36",
+	"@type": "Recipe",
+	"sameAs": "http://www.saveur.com/article/Recipes/Maizes-Zupa-Rye-Bread-Pudding",
+	"creator": {
+		"@type": "Person",
+		"name": "not given"
+	},
+	"nutrition": {
+		"@type": "NutritionInformation",
+		"calories" : "1695.0 calories"
+	},
+	"keywords": [ "Vegetarian", "Peanut-Free", "Tree-Nut-Free", "Alcohol-Free", "Low-Fat" ],
+	"name": "Maizes Zupa (Rye Bread Pudding)",
+	"recipeYield": {
+		"@type": "QuantitativeValue",
+		"value" : "6.0"
+	}, 
+	"image": {
+		"@type": "ImageObject",
+		"contentUrl" : "https://www.edamam.com/web-img/f1a/f1a9c32df9aff371c44db9fbee2d7aa1.jpg", 
+		"caption" : "Maizes Zupa (Rye Bread Pudding)"
+	}, 
+	"cookTime": "-",
+	"prepTime": "-",
+	"totalTime": "PT0M",
+	"recipeInstructions": {
+		"@type": "CreativeWork",
+		"url" : "http://www.saveur.com/article/Recipes/Maizes-Zupa-Rye-Bread-Pudding"
+	}, 
+	"recipeIngredient": [
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "null",
+				"ingridientFullName" : "10 oz. Latvian or dark rye bread  cut into 1″ cubes (about 3½ cups)"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "null",
+				"value" : "null"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "minced dried apricots",
+				"ingridientFullName" : "1 cup minced dried apricots"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=minced+dried+apricots"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "minced dried prunes",
+				"ingridientFullName" : "¾ cup minced dried prunes"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "¾"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=minced+dried+prunes"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "sugar  plus more to taste",
+				"ingridientFullName" : "¼ cup sugar  plus more to taste"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "¼"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=sugar++plus+more+to+taste"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "packed dark brown sugar",
+				"ingridientFullName" : "2 tbsp. packed dark brown sugar"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tbsp.",
+				"value" : "2"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=packed+dark+brown+sugar"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "fresh lemon juice",
+				"ingridientFullName" : "2 tbsp. fresh lemon juice"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tbsp.",
+				"value" : "2"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=fresh+lemon+juice"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "ground cinnamon",
+				"ingridientFullName" : "1 tsp. ground cinnamon"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tsp.",
+				"value" : "1"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=ground+cinnamon"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "ground cloves",
+				"ingridientFullName" : "¼ tsp. ground cloves"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tsp.",
+				"value" : "¼"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=ground+cloves"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "kosher salt",
+				"ingridientFullName" : "¼ tsp. kosher salt"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tsp.",
+				"value" : "¼"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=kosher+salt"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "kosher salt",
+				"ingridientFullName" : "Sweetened whipped cream  to garnish"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tsp.",
+				"value" : "¼"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=kosher+salt"
+			}
+		}
+	] 
+},
+{
+	"@context": "http://schema.org",
+	"@id": "http://www.edamam.com/ontologies/edamam.owl#recipe_c77bbcc003d99575be82524459a59504",
+	"@type": "Recipe",
+	"sameAs": "http://www.saveur.com/article/Recipes/Karbonade-Pork-Cutlets-With-Chanterelle-Cream-Sauce",
+	"creator": {
+		"@type": "Person",
+		"name": "not given"
+	},
+	"nutrition": {
+		"@type": "NutritionInformation",
+		"calories" : "4364.0 calories"
+	},
+	"keywords": [ "Sugar-Conscious", "Peanut-Free", "Tree-Nut-Free", "Alcohol-Free", "Low-Carb" ],
+	"name": "Karbonāde (Pork Cutlets With Chanterelle Cream Sauce)",
+	"recipeYield": {
+		"@type": "QuantitativeValue",
+		"value" : "8.0"
+	}, 
+	"image": {
+		"@type": "ImageObject",
+		"contentUrl" : "https://www.edamam.com/web-img/7e0/7e0bc1d86809d2164d973a844e3d21ad.jpg", 
+		"caption" : "Karbonāde (Pork Cutlets With Chanterelle Cream Sauce)"
+	}, 
+	"cookTime": "-",
+	"prepTime": "-",
+	"totalTime": "PT1H54M",
+	"recipeInstructions": {
+		"@type": "CreativeWork",
+		"url" : "http://www.saveur.com/article/Recipes/Karbonade-Pork-Cutlets-With-Chanterelle-Cream-Sauce"
+	}, 
+	"recipeIngredient": [
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "canola oil  plus more as needed",
+				"ingridientFullName" : "1/4 cup canola oil  plus more as needed"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1/4"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=canola+oil++plus+more+as+needed"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "flour",
+				"ingridientFullName" : "1 cup flour"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=flour"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "eggs",
+				"ingridientFullName" : "5 eggs"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pcs",
+				"value" : "5"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=eggs"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "eggs",
+				"ingridientFullName" : "10 3–4-oz. pork cutlets  pounded to 1/4″-thick"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pcs",
+				"value" : "5"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=eggs"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "eggs",
+				"ingridientFullName" : "Kosher salt and freshly ground black pepper  to taste"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pcs",
+				"value" : "5"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=eggs"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "unsalted butter",
+				"ingridientFullName" : "2 tbsp. unsalted butter"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tbsp.",
+				"value" : "2"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=unsalted+butter"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "yellow onion  minced",
+				"ingridientFullName" : "1 small yellow onion  minced"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "small",
+				"value" : "1"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=yellow+onion++minced"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "roughly chopped chanterelle mushrooms",
+				"ingridientFullName" : "4 cups roughly chopped chanterelle mushrooms"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cups",
+				"value" : "4"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=roughly+chopped+chanterelle+mushrooms"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "heavy cream",
+				"ingridientFullName" : "1 cup heavy cream"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=heavy+cream"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "fresh lemon juice",
+				"ingridientFullName" : "1 tbsp. fresh lemon juice"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tbsp.",
+				"value" : "1"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=fresh+lemon+juice"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "chopped fresh parsley",
+				"ingridientFullName" : "2 tbsp. chopped fresh parsley"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tbsp.",
+				"value" : "2"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=chopped+fresh+parsley"
+			}
+		}
+	] 
+},
+{
+	"@context": "http://schema.org",
+	"@id": "http://www.edamam.com/ontologies/edamam.owl#recipe_ee565deb52c1ee158afe2b02e3dab7a8",
+	"@type": "Recipe",
+	"sameAs": "http://allrecipes.com/Recipe/Latvian-Honey-Cake/Detail.aspx",
+	"creator": {
+		"@type": "Person",
+		"name": "not given"
+	},
+	"nutrition": {
+		"@type": "NutritionInformation",
+		"calories" : "4650.0 calories"
+	},
+	"keywords": [ "Vegetarian", "Peanut-Free", "Tree-Nut-Free", "Alcohol-Free" ],
+	"name": "Latvian Honey Cake",
+	"recipeYield": {
+		"@type": "QuantitativeValue",
+		"value" : "12.0"
+	}, 
+	"image": {
+		"@type": "ImageObject",
+		"contentUrl" : "https://www.edamam.com/web-img/727/727d582412a154540ccafa151feba963.jpg", 
+		"caption" : "Latvian Honey Cake"
+	}, 
+	"cookTime": "-",
+	"prepTime": "-",
+	"totalTime": "PT0M",
+	"recipeInstructions": {
+		"@type": "CreativeWork",
+		"url" : "http://allrecipes.com/Recipe/Latvian-Honey-Cake/Detail.aspx"
+	}, 
+	"recipeIngredient": [
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "honey",
+				"ingridientFullName" : "1 cup honey"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=honey"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "baking soda",
+				"ingridientFullName" : "2 teaspoons baking soda"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoons",
+				"value" : "2"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=baking+soda"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "white sugar",
+				"ingridientFullName" : "1 cup white sugar"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=white+sugar"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "eggs",
+				"ingridientFullName" : "3 eggs"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pcs",
+				"value" : "3"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=eggs"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "(16 ounce) containers sour cream",
+				"ingridientFullName" : "2 (16 ounce) containers sour cream"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pcs",
+				"value" : "2"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=(16+ounce)+containers+sour+cream"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "all-purpose flour",
+				"ingridientFullName" : "2 cups all-purpose flour"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cups",
+				"value" : "2"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=all-purpose+flour"
+			}
+		}
+	] 
+},
+{
+	"@context": "http://schema.org",
+	"@id": "http://www.edamam.com/ontologies/edamam.owl#recipe_3ed6f9dbd4df56c5f827e189d8c9ff93",
+	"@type": "Recipe",
+	"sameAs": "http://www.food.com/recipe/latvian-style-baked-onions-462237",
+	"creator": {
+		"@type": "Person",
+		"name": "not given"
+	},
+	"nutrition": {
+		"@type": "NutritionInformation",
+		"calories" : "1089.0 calories"
+	},
+	"keywords": [ "Peanut-Free", "Tree-Nut-Free", "Alcohol-Free" ],
+	"name": "Latvian Style Baked Onions",
+	"recipeYield": {
+		"@type": "QuantitativeValue",
+		"value" : "4.0"
+	}, 
+	"image": {
+		"@type": "ImageObject",
+		"contentUrl" : "https://www.edamam.com/web-img/c98/c98dfcd75563c3aeae8894b5eac3d204.jpg", 
+		"caption" : "Latvian Style Baked Onions"
+	}, 
+	"cookTime": "-",
+	"prepTime": "-",
+	"totalTime": "PT25M",
+	"recipeInstructions": {
+		"@type": "CreativeWork",
+		"url" : "http://www.food.com/recipe/latvian-style-baked-onions-462237"
+	}, 
+	"recipeIngredient": [
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "tablespoons bacon drippings",
+				"ingridientFullName" : "2  tablespoons bacon drippings"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pcs",
+				"value" : "2"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=tablespoons+bacon+drippings"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "large onions  sliced medium-thick",
+				"ingridientFullName" : "5  large onions  sliced medium-thick"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pcs",
+				"value" : "5"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=large+onions++sliced+medium-thick"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "large onions  sliced medium-thick",
+				"ingridientFullName" : "1⁄2 cup toasted breadcrumbs"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pcs",
+				"value" : "5"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=large+onions++sliced+medium-thick"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "large onions  sliced medium-thick",
+				"ingridientFullName" : "melted butter"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pcs",
+				"value" : "5"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=large+onions++sliced+medium-thick"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "large onions  sliced medium-thick",
+				"ingridientFullName" : "1⁄2 cup grated mild cheese"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pcs",
+				"value" : "5"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=large+onions++sliced+medium-thick"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "large onions  sliced medium-thick",
+				"ingridientFullName" : "salt"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pcs",
+				"value" : "5"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=large+onions++sliced+medium-thick"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "large onions  sliced medium-thick",
+				"ingridientFullName" : "pepper"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pcs",
+				"value" : "5"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=large+onions++sliced+medium-thick"
+			}
+		}
+	] 
+},
+{
+	"@context": "http://schema.org",
+	"@id": "http://www.edamam.com/ontologies/edamam.owl#recipe_57f915fd9dde5310f9230db611144a45",
+	"@type": "Recipe",
+	"sameAs": "http://www.internationalcuisine.com/latvian-piragi/",
+	"creator": {
+		"@type": "Person",
+		"name": "not given"
+	},
+	"nutrition": {
+		"@type": "NutritionInformation",
+		"calories" : "3504.0 calories"
+	},
+	"keywords": [ "Sugar-Conscious", "Peanut-Free", "Tree-Nut-Free", "Alcohol-Free", "Balanced" ],
+	"name": "Latvian Piragi (Bacon Turnovers)",
+	"recipeYield": {
+		"@type": "QuantitativeValue",
+		"value" : "12.0"
+	}, 
+	"image": {
+		"@type": "ImageObject",
+		"contentUrl" : "https://www.edamam.com/web-img/7cf/7cf6a30c20186efacc861ab9a0961d74.jpg", 
+		"caption" : "Latvian Piragi (Bacon Turnovers)"
+	}, 
+	"cookTime": "-",
+	"prepTime": "-",
+	"totalTime": "PT0M",
+	"recipeInstructions": {
+		"@type": "CreativeWork",
+		"url" : "http://www.internationalcuisine.com/latvian-piragi/"
+	}, 
+	"recipeIngredient": [
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "finely chopped",
+				"ingridientFullName" : "* 1 onion  finely chopped"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "onion",
+				"value" : "1"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=finely+chopped"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "bacon  finely diced",
+				"ingridientFullName" : "* 1/2 lb bacon  finely diced"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "lb",
+				"value" : "1/2"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=bacon++finely+diced"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "bacon  finely diced",
+				"ingridientFullName" : "* salt and pepper to taste"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "lb",
+				"value" : "1/2"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=bacon++finely+diced"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "bacon  finely diced",
+				"ingridientFullName" : "* for the dough:"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "lb",
+				"value" : "1/2"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=bacon++finely+diced"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "milk",
+				"ingridientFullName" : "* 3/4 cup milk"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "3/4"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=milk"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "butter",
+				"ingridientFullName" : "* 1/4 cup butter"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1/4"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=butter"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "salt",
+				"ingridientFullName" : "* 2 teaspoon salt"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoon",
+				"value" : "2"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=salt"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "sugar",
+				"ingridientFullName" : "* 2 tablespoon sugar"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoon",
+				"value" : "2"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=sugar"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "dry yeast",
+				"ingridientFullName" : "* 1 package dry yeast"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "package",
+				"value" : "1"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=dry+yeast"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "warm water",
+				"ingridientFullName" : "* 1/4 cup warm water"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1/4"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=warm+water"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "egg",
+				"ingridientFullName" : "* 1 beaten egg"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "beaten",
+				"value" : "1"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=egg"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "flour",
+				"ingridientFullName" : "* 3 1/2 cup flour"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "3 1/2"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=flour"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "sour cream",
+				"ingridientFullName" : "* 2 tablespoon sour cream"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoon",
+				"value" : "2"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=sour+cream"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "sour cream",
+				"ingridientFullName" : "* for the glaze:"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoon",
+				"value" : "2"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=sour+cream"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "egg",
+				"ingridientFullName" : "* 1 beaten egg"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "beaten",
+				"value" : "1"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=egg"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "water",
+				"ingridientFullName" : "* 1 teaspoon water"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoon",
+				"value" : "1"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=water"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "sugar",
+				"ingridientFullName" : "* 1/4 teaspoon sugar"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoon",
+				"value" : "1/4"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=sugar"
+			}
+		}
+	] 
+},
+{
+	"@context": "http://schema.org",
+	"@id": "http://www.edamam.com/ontologies/edamam.owl#recipe_9c121316872d291f679a6005b264f056",
+	"@type": "Recipe",
+	"sameAs": "https://www.allrecipes.com/recipe/184203/latvian-honey-cake/",
+	"creator": {
+		"@type": "Person",
+		"name": "not given"
+	},
+	"nutrition": {
+		"@type": "NutritionInformation",
+		"calories" : "5415.0 calories"
+	},
+	"keywords": [ "Vegetarian", "Peanut-Free", "Alcohol-Free" ],
+	"name": "Latvian Honey Cake",
+	"recipeYield": {
+		"@type": "QuantitativeValue",
+		"value" : "12.0"
+	}, 
+	"image": {
+		"@type": "ImageObject",
+		"contentUrl" : "https://www.edamam.com/web-img/79d/79dee224bcd5b97eb18a5e5a45a5116a.jpg", 
+		"caption" : "Latvian Honey Cake"
+	}, 
+	"cookTime": "-",
+	"prepTime": "-",
+	"totalTime": "PT9H55M",
+	"recipeInstructions": {
+		"@type": "CreativeWork",
+		"url" : "https://www.allrecipes.com/recipe/184203/latvian-honey-cake/"
+	}, 
+	"recipeIngredient": [
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "null",
+				"ingridientFullName" : "Cake:"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "null",
+				"value" : "null"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "eggs",
+				"ingridientFullName" : "3 eggs"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pcs",
+				"value" : "3"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=eggs"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "honey",
+				"ingridientFullName" : "1 cup honey"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=honey"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "all-purpose flour",
+				"ingridientFullName" : "2 cups all-purpose flour"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cups",
+				"value" : "2"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=all-purpose+flour"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "baking soda",
+				"ingridientFullName" : "2 teaspoons baking soda"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoons",
+				"value" : "2"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=baking+soda"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "baking soda",
+				"ingridientFullName" : "Filling:"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoons",
+				"value" : "2"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=baking+soda"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "(16 ounce) containers sour cream",
+				"ingridientFullName" : "2 (16 ounce) containers sour cream"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pcs",
+				"value" : "2"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=(16+ounce)+containers+sour+cream"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "white sugar",
+				"ingridientFullName" : "1 cup white sugar"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=white+sugar"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "chopped walnuts",
+				"ingridientFullName" : "1 cup chopped walnuts"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=chopped+walnuts"
+			}
+		}
+	] 
+},
+{
+	"@context": "http://schema.org",
+	"@id": "http://www.edamam.com/ontologies/edamam.owl#recipe_6e70d3c68764eed44d8c89be92a24210",
+	"@type": "Recipe",
+	"sameAs": "http://bellyrumbles.com/latvian-apple-pancakes/",
+	"creator": {
+		"@type": "Person",
+		"name": "not given"
+	},
+	"nutrition": {
+		"@type": "NutritionInformation",
+		"calories" : "2114.0 calories"
+	},
+	"keywords": [ "Vegetarian", "Peanut-Free", "Tree-Nut-Free", "Alcohol-Free" ],
+	"name": "Abolu Pankukas (Latvian Apple Pancakes)",
+	"recipeYield": {
+		"@type": "QuantitativeValue",
+		"value" : "10.0"
+	}, 
+	"image": {
+		"@type": "ImageObject",
+		"contentUrl" : "https://www.edamam.com/web-img/adf/adf8010c6bd13725b0c56980d699212b.jpg", 
+		"caption" : "Abolu Pankukas (Latvian Apple Pancakes)"
+	}, 
+	"cookTime": "-",
+	"prepTime": "-",
+	"totalTime": "PT0M",
+	"recipeInstructions": {
+		"@type": "CreativeWork",
+		"url" : "http://bellyrumbles.com/latvian-apple-pancakes/"
+	}, 
+	"recipeIngredient": [
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "plain flour",
+				"ingridientFullName" : "* 200 gram plain flour"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "gram",
+				"value" : "200"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=plain+flour"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "pouring cream",
+				"ingridientFullName" : "* 300ml pouring cream"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "ml",
+				"value" : "300"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=pouring+cream"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "separated",
+				"ingridientFullName" : "* 2 egg  separated"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "egg",
+				"value" : "2"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=separated"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "caster sugar",
+				"ingridientFullName" : "* 30g caster sugar"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "g",
+				"value" : "30"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=caster+sugar"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "caster sugar",
+				"ingridientFullName" : "* pinch of salt"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "g",
+				"value" : "30"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=caster+sugar"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "apple  grated (around 3 medium apple)",
+				"ingridientFullName" : "* 200 gram apple  grated (around 3 medium apple)"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "gram",
+				"value" : "200"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=apple++grated+(around+3+medium+apple)"
+			}
+		}
+	] 
+},
+{
+	"@context": "http://schema.org",
+	"@id": "http://www.edamam.com/ontologies/edamam.owl#recipe_fe366b09e9d8a377af6547f92ae864e4",
+	"@type": "Recipe",
+	"sameAs": "http://www.internationalcuisine.com/latvian-cranberry-mousse/",
+	"creator": {
+		"@type": "Person",
+		"name": "not given"
+	},
+	"nutrition": {
+		"@type": "NutritionInformation",
+		"calories" : "531.0 calories"
+	},
+	"keywords": [ "Vegetarian", "Peanut-Free", "Tree-Nut-Free", "Alcohol-Free", "Low-Fat" ],
+	"name": "Latvian Cranberry Mousse (Debesmanna)",
+	"recipeYield": {
+		"@type": "QuantitativeValue",
+		"value" : "4.0"
+	}, 
+	"image": {
+		"@type": "ImageObject",
+		"contentUrl" : "https://www.edamam.com/web-img/559/5592c1eace5146e417e5baed9ebadbcd.jpg", 
+		"caption" : "Latvian Cranberry Mousse (Debesmanna)"
+	}, 
+	"cookTime": "-",
+	"prepTime": "-",
+	"totalTime": "PT0M",
+	"recipeInstructions": {
+		"@type": "CreativeWork",
+		"url" : "http://www.internationalcuisine.com/latvian-cranberry-mousse/"
+	}, 
+	"recipeIngredient": [
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "cranberry juice  unsweetened",
+				"ingridientFullName" : "* 1 1/2 cup cranberry juice  unsweetened"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1 1/2"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=cranberry+juice++unsweetened"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "sugar",
+				"ingridientFullName" : "* 1/4 cup sugar"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1/4"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=sugar"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "cream of wheat or farina",
+				"ingridientFullName" : "* 1/4 cup cream of wheat or farina"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1/4"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=cream+of+wheat+or+farina"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "of milk for pouring over the top (optional)",
+				"ingridientFullName" : "* 1 cup of milk for pouring over the top (optional)"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=of+milk+for+pouring+over+the+top+(optional)"
+			}
+		}
+	] 
+},
+{
+	"@context": "http://schema.org",
+	"@id": "http://www.edamam.com/ontologies/edamam.owl#recipe_f56837d9a7b461e9a715d3515a152964",
+	"@type": "Recipe",
+	"sameAs": "http://www.foodista.com/recipe/7FPHJ5X2/canadian-latvian-bacon-buns",
+	"creator": {
+		"@type": "Person",
+		"name": "not given"
+	},
+	"nutrition": {
+		"@type": "NutritionInformation",
+		"calories" : "6273.0 calories"
+	},
+	"keywords": [ "Sugar-Conscious", "Peanut-Free", "Tree-Nut-Free", "Alcohol-Free" ],
+	"name": "Canadian Latvian Bacon Buns",
+	"recipeYield": {
+		"@type": "QuantitativeValue",
+		"value" : "76.0"
+	}, 
+	"image": {
+		"@type": "ImageObject",
+		"contentUrl" : "https://www.edamam.com/web-img/a23/a23cd921744dd8acad69236e9c85cb9d.jpg", 
+		"caption" : "Canadian Latvian Bacon Buns"
+	}, 
+	"cookTime": "-",
+	"prepTime": "-",
+	"totalTime": "PT0M",
+	"recipeInstructions": {
+		"@type": "CreativeWork",
+		"url" : "http://www.foodista.com/recipe/7FPHJ5X2/canadian-latvian-bacon-buns"
+	}, 
+	"recipeIngredient": [
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "null",
+				"ingridientFullName" : "Ingredients for the Dough:"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "null",
+				"value" : "null"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "warm water",
+				"ingridientFullName" : "1/2 cup warm water"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1/2"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=warm+water"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "yeast",
+				"ingridientFullName" : "2 tablespoons yeast"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoons",
+				"value" : "2"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=yeast"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "sugar",
+				"ingridientFullName" : "1 teaspoon sugar"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoon",
+				"value" : "1"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=sugar"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "sugar",
+				"ingridientFullName" : "580 grams whole milk (2 ½ cups)"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoon",
+				"value" : "1"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=sugar"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "sugar",
+				"ingridientFullName" : "220 grams (½ pound) unsalted butter"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoon",
+				"value" : "1"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=sugar"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "sugar",
+				"ingridientFullName" : "50 grams sugar (¼ cup)"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoon",
+				"value" : "1"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=sugar"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "salt (1 tsp.)",
+				"ingridientFullName" : "5 grams salt (1 tsp.)"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "grams",
+				"value" : "5"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=salt+(1+tsp.)"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "range organic eggs (with beautiful dark yellow yolks)",
+				"ingridientFullName" : "2 free range organic eggs (with beautiful dark yellow yolks)"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "free",
+				"value" : "2"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=range+organic+eggs+(with+beautiful+dark+yellow+yolks)"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "range organic eggs (with beautiful dark yellow yolks)",
+				"ingridientFullName" : "or two or three of cardoman"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "free",
+				"value" : "2"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=range+organic+eggs+(with+beautiful+dark+yellow+yolks)"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "of white flour",
+				"ingridientFullName" : "6 cups of white flour"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cups",
+				"value" : "6"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=of+white+flour"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "of white flour",
+				"ingridientFullName" : "Ingredients for the Filling:"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cups",
+				"value" : "6"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=of+white+flour"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "(one generous kilo) of really good double smoked Canadian bacon  cut into lardo",
+				"ingridientFullName" : "1 kilo (one generous kilo) of really good double smoked Canadian bacon  cut into lardo"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "kilo",
+				"value" : "1"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=(one+generous+kilo)+of+really+good+double+smoked+Canadian+bacon++cut+into+lardo"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "white or yellow onion  minced",
+				"ingridientFullName" : "1 large white or yellow onion  minced"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "large",
+				"value" : "1"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=white+or+yellow+onion++minced"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "white or yellow onion  minced",
+				"ingridientFullName" : "pepper to taste (quite a bit)"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "large",
+				"value" : "1"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=white+or+yellow+onion++minced"
+			}
+		}
+	] 
+},
+{
+	"@context": "http://schema.org",
+	"@id": "http://www.edamam.com/ontologies/edamam.owl#recipe_34f0f8757d1346ff53f3ef80bc38870d",
+	"@type": "Recipe",
+	"sameAs": "http://www.food.com/recipe/latvian-christmas-gingerbread-141311",
+	"creator": {
+		"@type": "Person",
+		"name": "not given"
+	},
+	"nutrition": {
+		"@type": "NutritionInformation",
+		"calories" : "4441.0 calories"
+	},
+	"keywords": [ "Peanut-Free", "Tree-Nut-Free", "Alcohol-Free" ],
+	"name": "Latvian Christmas Gingerbread",
+	"recipeYield": {
+		"@type": "QuantitativeValue",
+		"value" : "14.0"
+	}, 
+	"image": {
+		"@type": "ImageObject",
+		"contentUrl" : "https://www.edamam.com/web-img/d69/d699c209a9a7efe3fe57f3c93a6c43cc.jpg", 
+		"caption" : "Latvian Christmas Gingerbread"
+	}, 
+	"cookTime": "-",
+	"prepTime": "-",
+	"totalTime": "PT50M",
+	"recipeInstructions": {
+		"@type": "CreativeWork",
+		"url" : "http://www.food.com/recipe/latvian-christmas-gingerbread-141311"
+	}, 
+	"recipeIngredient": [
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "null",
+				"ingridientFullName" : "1⁄3 cup molasses (doesn't matter whether light or dark)"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "null",
+				"value" : "null"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "null",
+				"ingridientFullName" : "1⁄3 cup brown sugar (ditto)"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "null",
+				"value" : "null"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "null",
+				"ingridientFullName" : "1⁄3 cup honey"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "null",
+				"value" : "null"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "null",
+				"ingridientFullName" : "1⁄2 cup butter"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "null",
+				"value" : "null"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "tablespoons lard",
+				"ingridientFullName" : "3  tablespoons lard"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pcs",
+				"value" : "3"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=tablespoons+lard"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "cups flour",
+				"ingridientFullName" : "5  cups flour"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pcs",
+				"value" : "5"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=cups+flour"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "teaspoon cinnamon",
+				"ingridientFullName" : "1  teaspoon cinnamon"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pcs",
+				"value" : "1"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=teaspoon+cinnamon"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "teaspoon ginger",
+				"ingridientFullName" : "1  teaspoon ginger"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pcs",
+				"value" : "1"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=teaspoon+ginger"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "teaspoon ginger",
+				"ingridientFullName" : "1⁄2 teaspoon black pepper"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pcs",
+				"value" : "1"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=teaspoon+ginger"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "teaspoon ginger",
+				"ingridientFullName" : "1⁄2 teaspoon clove"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pcs",
+				"value" : "1"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=teaspoon+ginger"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "teaspoon ginger",
+				"ingridientFullName" : "1⁄2 teaspoon nutmeg"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pcs",
+				"value" : "1"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=teaspoon+ginger"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "teaspoon ginger",
+				"ingridientFullName" : "1⁄2 teaspoon cardamom"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pcs",
+				"value" : "1"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=teaspoon+ginger"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "teaspoon ginger",
+				"ingridientFullName" : "1⁄2 teaspoon coriander"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pcs",
+				"value" : "1"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=teaspoon+ginger"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "eggs",
+				"ingridientFullName" : "2  eggs"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pcs",
+				"value" : "2"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=eggs"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "eggs",
+				"ingridientFullName" : "1⁄2 teaspoon baking soda"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pcs",
+				"value" : "2"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=eggs"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "eggs",
+				"ingridientFullName" : "1 1⁄2 teaspoons baking powder"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pcs",
+				"value" : "2"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=eggs"
+			}
+		}
+	] 
+},
+{
+	"@context": "http://schema.org",
+	"@id": "http://www.edamam.com/ontologies/edamam.owl#recipe_0adcf65e95536fc28cbae4596d6fd063",
+	"@type": "Recipe",
+	"sameAs": "http://jaquo.com/bacon-and-onions/",
+	"creator": {
+		"@type": "Person",
+		"name": "not given"
+	},
+	"nutrition": {
+		"@type": "NutritionInformation",
+		"calories" : "2120.0 calories"
+	},
+	"keywords": [ "Peanut-Free", "Tree-Nut-Free", "Alcohol-Free", "Balanced" ],
+	"name": "Piradzini or Latvian Bacon and Onion Stuffed Rolls recipes",
+	"recipeYield": {
+		"@type": "QuantitativeValue",
+		"value" : "4.0"
+	}, 
+	"image": {
+		"@type": "ImageObject",
+		"contentUrl" : "https://www.edamam.com/web-img/d60/d60a401aea2934471d3419ed3ad89dad", 
+		"caption" : "Piradzini or Latvian Bacon and Onion Stuffed Rolls recipes"
+	}, 
+	"cookTime": "-",
+	"prepTime": "-",
+	"totalTime": "PT0M",
+	"recipeInstructions": {
+		"@type": "CreativeWork",
+		"url" : "http://jaquo.com/bacon-and-onions/"
+	}, 
+	"recipeIngredient": [
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "potato peeled and diced into small cubes",
+				"ingridientFullName" : "1 medium potato peeled and diced into small cubes"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "medium",
+				"value" : "1"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=potato+peeled+and+diced+into+small+cubes"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "(250 ml) of water",
+				"ingridientFullName" : "1 cup (250 ml) of water"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=(250+ml)+of+water"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "(5 ml) salt",
+				"ingridientFullName" : "1 teaspoon (5 ml) salt"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoon",
+				"value" : "1"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=(5+ml)+salt"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "(15ml) of sugar",
+				"ingridientFullName" : "1 Tablespoon (15ml) of sugar"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "Tablespoon",
+				"value" : "1"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=(15ml)+of+sugar"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "(30 ml) of Butter",
+				"ingridientFullName" : "2 Tablespoons (30 ml) of Butter"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "Tablespoons",
+				"value" : "2"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=(30+ml)+of+Butter"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "2 cups (375-500 ml) all purpose flour",
+				"ingridientFullName" : "1½ to 2 cups (375-500 ml) all purpose flour"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "to",
+				"value" : "1½"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=2+cups+(375-500+ml)+all+purpose+flour"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "(10 ml) of dry yeast",
+				"ingridientFullName" : "2 teaspoons (10 ml) of dry yeast"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoons",
+				"value" : "2"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=(10+ml)+of+dry+yeast"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "(110 g) lean side bacon  finely diced",
+				"ingridientFullName" : "¼ lb. (110 g) lean side bacon  finely diced"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "lb.",
+				"value" : "¼"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=(110+g)+lean+side+bacon++finely+diced"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "onions  finely minced",
+				"ingridientFullName" : "2 small onions  finely minced"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "small",
+				"value" : "2"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=onions++finely+minced"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "onion   minced",
+				"ingridientFullName" : "1 green onion   minced"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "green",
+				"value" : "1"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=onion+++minced"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "(125 ml) finely diced ham",
+				"ingridientFullName" : "½ cup (125 ml) finely diced ham"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "½"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=(125+ml)+finely+diced+ham"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "(2 ml) freshly ground pepper",
+				"ingridientFullName" : "½ teaspoon (2 ml) freshly ground pepper"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoon",
+				"value" : "½"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=(2+ml)+freshly+ground+pepper"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "yolk",
+				"ingridientFullName" : "1 egg yolk"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "egg",
+				"value" : "1"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=yolk"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "(60 ml) milk",
+				"ingridientFullName" : "¼ cup (60 ml) milk"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "¼"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=(60+ml)+milk"
+			}
+		}
+	] 
+},
+{
+	"@context": "http://schema.org",
+	"@id": "http://www.edamam.com/ontologies/edamam.owl#recipe_5e53c85ad94e059b9f672fc6c4fc024c",
+	"@type": "Recipe",
+	"sameAs": "http://www.foodista.com/recipe/CML4H3QJ/rupjmaizes-kartojums-layered-latvian-rye-bread-dessert",
+	"creator": {
+		"@type": "Person",
+		"name": "not given"
+	},
+	"nutrition": {
+		"@type": "NutritionInformation",
+		"calories" : "1433.0 calories"
+	},
+	"keywords": [ "Vegetarian", "Peanut-Free", "Tree-Nut-Free", "Alcohol-Free" ],
+	"name": "Rūpjmaizes Kārtojums (Layered Latvian Rye Bread Dessert)",
+	"recipeYield": {
+		"@type": "QuantitativeValue",
+		"value" : "4.0"
+	}, 
+	"image": {
+		"@type": "ImageObject",
+		"contentUrl" : "https://www.edamam.com/web-img/0b5/0b59cd14fb1b44333d6ed483db8ab1d8.jpg", 
+		"caption" : "Rūpjmaizes Kārtojums (Layered Latvian Rye Bread Dessert)"
+	}, 
+	"cookTime": "-",
+	"prepTime": "-",
+	"totalTime": "PT0M",
+	"recipeInstructions": {
+		"@type": "CreativeWork",
+		"url" : "http://www.foodista.com/recipe/CML4H3QJ/rupjmaizes-kartojums-layered-latvian-rye-bread-dessert"
+	}, 
+	"recipeIngredient": [
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "coarse rye bread (about 350g total)  slightly dried and crust removed",
+				"ingridientFullName" : "10 slices coarse rye bread (about 350g total)  slightly dried and crust removed"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "slices",
+				"value" : "10"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=coarse+rye+bread+(about+350g+total)++slightly+dried+and+crust+removed"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "mascarpone cheese",
+				"ingridientFullName" : "250 grams mascarpone cheese"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "grams",
+				"value" : "250"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=mascarpone+cheese"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "sugar",
+				"ingridientFullName" : "4 tablespoons sugar"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoons",
+				"value" : "4"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=sugar"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "ground cinnamon",
+				"ingridientFullName" : "1 tablespoon ground cinnamon"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoon",
+				"value" : "1"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=ground+cinnamon"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "vanilla sugar",
+				"ingridientFullName" : "1/2 teaspoon vanilla sugar"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoon",
+				"value" : "1/2"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=vanilla+sugar"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "mashed cranberries (with sugar)",
+				"ingridientFullName" : "6 tablespoons mashed cranberries (with sugar)"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoons",
+				"value" : "6"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=mashed+cranberries+(with+sugar)"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "cream",
+				"ingridientFullName" : "3 tablespoons cream"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoons",
+				"value" : "3"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=cream"
+			}
+		}
+	] 
+},
+{
+	"@context": "http://schema.org",
+	"@id": "http://www.edamam.com/ontologies/edamam.owl#recipe_929b85c1330875b85980a8a0e14483c8",
+	"@type": "Recipe",
+	"sameAs": "http://www.internationalcuisine.com/latvian-pork-cutlets/",
+	"creator": {
+		"@type": "Person",
+		"name": "not given"
+	},
+	"nutrition": {
+		"@type": "NutritionInformation",
+		"calories" : "3413.0 calories"
+	},
+	"keywords": [ "Sugar-Conscious", "Peanut-Free", "Tree-Nut-Free", "Alcohol-Free", "Low-Carb" ],
+	"name": "Latvian Pork Cutlets (Karbonade)",
+	"recipeYield": {
+		"@type": "QuantitativeValue",
+		"value" : "12.0"
+	}, 
+	"image": {
+		"@type": "ImageObject",
+		"contentUrl" : "https://www.edamam.com/web-img/529/5297dfadebface7bdde442e63bf45801.jpg", 
+		"caption" : "Latvian Pork Cutlets (Karbonade)"
+	}, 
+	"cookTime": "-",
+	"prepTime": "-",
+	"totalTime": "PT0M",
+	"recipeInstructions": {
+		"@type": "CreativeWork",
+		"url" : "http://www.internationalcuisine.com/latvian-pork-cutlets/"
+	}, 
+	"recipeIngredient": [
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "pork cutlet",
+				"ingridientFullName" : "* 8 thin pork cutlet"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "thin",
+				"value" : "8"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=pork+cutlet"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "egg",
+				"ingridientFullName" : "* 2 egg"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pcs",
+				"value" : "2"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=egg"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "flour",
+				"ingridientFullName" : "* 1/2 cup flour"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1/2"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=flour"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "flour",
+				"ingridientFullName" : "* canola oil or vegetable oil for frying"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1/2"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=flour"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "flour",
+				"ingridientFullName" : "* salt and pepper to taste"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1/2"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=flour"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "butter",
+				"ingridientFullName" : "* 2 tablespoon butter"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoon",
+				"value" : "2"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=butter"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "onion yellow or white  chopped",
+				"ingridientFullName" : "* 1 small onion yellow or white  chopped"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "small",
+				"value" : "1"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=onion+yellow+or+white++chopped"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "mushroom chanterelle or crimini or combination",
+				"ingridientFullName" : "* 2 cup mushroom chanterelle or crimini or combination"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "2"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=mushroom+chanterelle+or+crimini+or+combination"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "heavy cream",
+				"ingridientFullName" : "* 2/3 cup heavy cream"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "2/3"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=heavy+cream"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "fresh lemon juice",
+				"ingridientFullName" : "* 1 tablespoon fresh lemon juice"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoon",
+				"value" : "1"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=fresh+lemon+juice"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "fresh dill  chopped",
+				"ingridientFullName" : "* 2 tablespoon fresh dill  chopped"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoon",
+				"value" : "2"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=fresh+dill++chopped"
+			}
+		}
+	] 
+},
+{
+	"@context": "http://schema.org",
+	"@id": "http://www.edamam.com/ontologies/edamam.owl#recipe_a5931f105f0a9d63a53126b572218b55",
+	"@type": "Recipe",
+	"sameAs": "http://www.food.com/recipe/latvian-barley-and-smoked-pork-porridge-498335",
+	"creator": {
+		"@type": "Person",
+		"name": "not given"
+	},
+	"nutrition": {
+		"@type": "NutritionInformation",
+		"calories" : "1145.0 calories"
+	},
+	"keywords": [ "Peanut-Free", "Tree-Nut-Free", "Alcohol-Free" ],
+	"name": "Latvian Barley and Smoked Pork Porridge",
+	"recipeYield": {
+		"@type": "QuantitativeValue",
+		"value" : "1.0"
+	}, 
+	"image": {
+		"@type": "ImageObject",
+		"contentUrl" : "https://www.edamam.com/web-img/c1c/c1c530578952ab8ea228e548a38d9c1b.jpg", 
+		"caption" : "Latvian Barley and Smoked Pork Porridge"
+	}, 
+	"cookTime": "-",
+	"prepTime": "-",
+	"totalTime": "PT12H45M",
+	"recipeInstructions": {
+		"@type": "CreativeWork",
+		"url" : "http://www.food.com/recipe/latvian-barley-and-smoked-pork-porridge-498335"
+	}, 
+	"recipeIngredient": [
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "cup pearl barley",
+				"ingridientFullName" : "1  cup pearl barley"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pcs",
+				"value" : "1"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=cup+pearl+barley"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "g smoked pork",
+				"ingridientFullName" : "150  g smoked pork"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pcs",
+				"value" : "150"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=g+smoked+pork"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "g smoked pork",
+				"ingridientFullName" : "1⁄2 brown onion"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pcs",
+				"value" : "150"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=g+smoked+pork"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "potato",
+				"ingridientFullName" : "1  potato"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pcs",
+				"value" : "1"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=potato"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "teaspoon salt",
+				"ingridientFullName" : "1  teaspoon salt"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pcs",
+				"value" : "1"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=teaspoon+salt"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "teaspoon cumin",
+				"ingridientFullName" : "1  teaspoon cumin"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pcs",
+				"value" : "1"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=teaspoon+cumin"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "teaspoon cumin",
+				"ingridientFullName" : "1 1⁄2 liters water (for cooking)"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pcs",
+				"value" : "1"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=teaspoon+cumin"
+			}
+		}
+	] 
+},
+{
+	"@context": "http://schema.org",
+	"@id": "http://www.edamam.com/ontologies/edamam.owl#recipe_a4b9e80ad3bd6f1c15964a2ffd181c37",
+	"@type": "Recipe",
+	"sameAs": "http://www.internationalcuisine.com/latvian-dill-potatoes/",
+	"creator": {
+		"@type": "Person",
+		"name": "not given"
+	},
+	"nutrition": {
+		"@type": "NutritionInformation",
+		"calories" : "672.0 calories"
+	},
+	"keywords": [ "Sugar-Conscious", "Vegetarian", "Peanut-Free", "Tree-Nut-Free", "Alcohol-Free" ],
+	"name": "Latvian Dill Potatoes (Kartupeli ar Dillem",
+	"recipeYield": {
+		"@type": "QuantitativeValue",
+		"value" : "4.0"
+	}, 
+	"image": {
+		"@type": "ImageObject",
+		"contentUrl" : "https://www.edamam.com/web-img/947/9476f226181a2ffa28cb29b1531bb8ee.jpg", 
+		"caption" : "Latvian Dill Potatoes (Kartupeli ar Dillem"
+	}, 
+	"cookTime": "-",
+	"prepTime": "-",
+	"totalTime": "PT0M",
+	"recipeInstructions": {
+		"@type": "CreativeWork",
+		"url" : "http://www.internationalcuisine.com/latvian-dill-potatoes/"
+	}, 
+	"recipeIngredient": [
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "small potato like yukon gold or baby red's",
+				"ingridientFullName" : "* 1 1lb small potato like yukon gold or baby red's"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "lb",
+				"value" : "1 1"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=small+potato+like+yukon+gold+or+baby+red's"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "sour cream",
+				"ingridientFullName" : "* 1/4 cup sour cream"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1/4"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=sour+cream"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "butter",
+				"ingridientFullName" : "* 2 tablespoon butter"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoon",
+				"value" : "2"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=butter"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "fresh dill  minced",
+				"ingridientFullName" : "* 3 tablespoon fresh dill  minced"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoon",
+				"value" : "3"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=fresh+dill++minced"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "fresh dill  minced",
+				"ingridientFullName" : "* salt and pepper to taste"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoon",
+				"value" : "3"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=fresh+dill++minced"
+			}
+		}
+	] 
+},
+{
+	"@context": "http://schema.org",
+	"@id": "http://www.edamam.com/ontologies/edamam.owl#recipe_549e7e5ae153606047c0087b5eb2050b",
+	"@type": "Recipe",
+	"sameAs": "http://www.foodista.com/recipe/GV4DBJ75/fluffy-vanilla-custard-floating-in-cranberry-kisel",
+	"creator": {
+		"@type": "Person",
+		"name": "not given"
+	},
+	"nutrition": {
+		"@type": "NutritionInformation",
+		"calories" : "5979.0 calories"
+	},
+	"keywords": [ "Vegetarian", "Peanut-Free", "Tree-Nut-Free", "Alcohol-Free", "Low-Fat" ],
+	"name": "Fluffy Vanilla Custard Floating In Cranberry Kisel",
+	"recipeYield": {
+		"@type": "QuantitativeValue",
+		"value" : "6.0"
+	}, 
+	"image": {
+		"@type": "ImageObject",
+		"contentUrl" : "https://www.edamam.com/web-img/709/7095cbff147753e6af563a74f742b6db.jpg", 
+		"caption" : "Fluffy Vanilla Custard Floating In Cranberry Kisel"
+	}, 
+	"cookTime": "-",
+	"prepTime": "-",
+	"totalTime": "PT0M",
+	"recipeInstructions": {
+		"@type": "CreativeWork",
+		"url" : "http://www.foodista.com/recipe/GV4DBJ75/fluffy-vanilla-custard-floating-in-cranberry-kisel"
+	}, 
+	"recipeIngredient": [
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "null",
+				"ingridientFullName" : "For Custard:"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "null",
+				"value" : "null"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "whole milk",
+				"ingridientFullName" : "1/2 liter whole milk"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "liter",
+				"value" : "1/2"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=whole+milk"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "cooled and yolks/whites separated",
+				"ingridientFullName" : "2 eggs  cooled and yolks/whites separated"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "eggs",
+				"value" : "2"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=cooled+and+yolks/whites+separated"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "wheat flour",
+				"ingridientFullName" : "1/2 cup wheat flour"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1/2"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=wheat+flour"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "white sugar",
+				"ingridientFullName" : "1/2 cup white sugar"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1/2"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=white+sugar"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "vanilla sugar",
+				"ingridientFullName" : "2/3 teaspoon vanilla sugar"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoon",
+				"value" : "2/3"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=vanilla+sugar"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "vanilla sugar",
+				"ingridientFullName" : "For Kisel:"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoon",
+				"value" : "2/3"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=vanilla+sugar"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "wild cranberries",
+				"ingridientFullName" : "5 1/2 cups wild cranberries"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cups",
+				"value" : "5 1/2"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=wild+cranberries"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "sugar",
+				"ingridientFullName" : "5 1/2 cups sugar"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cups",
+				"value" : "5 1/2"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=sugar"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "potato starch",
+				"ingridientFullName" : "100 grams potato starch"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "grams",
+				"value" : "100"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=potato+starch"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "filtered water + 100 ml cold water",
+				"ingridientFullName" : "1 liter filtered water + 100 ml cold water"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "liter",
+				"value" : "1"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=filtered+water+++100+ml+cold+water"
+			}
+		}
+	] 
+},
+{
+	"@context": "http://schema.org",
+	"@id": "http://www.edamam.com/ontologies/edamam.owl#recipe_01f3a743e2bb9421b6d1b76102096405",
+	"@type": "Recipe",
+	"sameAs": "http://www.foodista.com/recipe/QPZP6WW8/rabarberu-rausis",
+	"creator": {
+		"@type": "Person",
+		"name": "not given"
+	},
+	"nutrition": {
+		"@type": "NutritionInformation",
+		"calories" : "5677.0 calories"
+	},
+	"keywords": [ "Vegetarian", "Peanut-Free", "Tree-Nut-Free", "Alcohol-Free" ],
+	"name": "Rabarberu Rausis",
+	"recipeYield": {
+		"@type": "QuantitativeValue",
+		"value" : "4.0"
+	}, 
+	"image": {
+		"@type": "ImageObject",
+		"contentUrl" : "https://www.edamam.com/web-img/1c3/1c346d63b2ba7e8f670ca09cefb4c709.jpg", 
+		"caption" : "Rabarberu Rausis"
+	}, 
+	"cookTime": "-",
+	"prepTime": "-",
+	"totalTime": "PT0M",
+	"recipeInstructions": {
+		"@type": "CreativeWork",
+		"url" : "http://www.foodista.com/recipe/QPZP6WW8/rabarberu-rausis"
+	}, 
+	"recipeIngredient": [
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "null",
+				"ingridientFullName" : "Batter:"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "null",
+				"value" : "null"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "all purpose flour",
+				"ingridientFullName" : "1 1/2 cups all purpose flour"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cups",
+				"value" : "1 1/2"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=all+purpose+flour"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "whole wheat flour",
+				"ingridientFullName" : "1/2 cup whole wheat flour"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1/2"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=whole+wheat+flour"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "sour cream",
+				"ingridientFullName" : "1 cup sour cream"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=sour+cream"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "sugar",
+				"ingridientFullName" : "1 cup sugar"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=sugar"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "eggs",
+				"ingridientFullName" : "3 eggs"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pcs",
+				"value" : "3"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=eggs"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "baking soda",
+				"ingridientFullName" : "1/4 teaspoon baking soda"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoon",
+				"value" : "1/4"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=baking+soda"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "baking powder",
+				"ingridientFullName" : "1/2 teaspoon baking powder"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoon",
+				"value" : "1/2"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=baking+powder"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "of salt",
+				"ingridientFullName" : "1 pinch of salt"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pinch",
+				"value" : "1"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=of+salt"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "vanilla sugar",
+				"ingridientFullName" : "1 teaspoon vanilla sugar"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoon",
+				"value" : "1"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=vanilla+sugar"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "semolina",
+				"ingridientFullName" : "2 tablespoons semolina"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoons",
+				"value" : "2"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=semolina"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "semolina",
+				"ingridientFullName" : "Little cube of butter"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoons",
+				"value" : "2"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=semolina"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "semolina",
+				"ingridientFullName" : "Filling:"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoons",
+				"value" : "2"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=semolina"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "thick rhubarb stalks  trimmed and peeled",
+				"ingridientFullName" : "3 very thick rhubarb stalks  trimmed and peeled"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "very",
+				"value" : "3"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=thick+rhubarb+stalks++trimmed+and+peeled"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "white sugar",
+				"ingridientFullName" : "1 cup white sugar"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=white+sugar"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "brown sugar (I used Farinsocker by Dansukker)",
+				"ingridientFullName" : "1/2 cup brown sugar (I used Farinsocker by Dansukker)"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1/2"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=brown+sugar+(I+used+Farinsocker+by+Dansukker)"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "starch",
+				"ingridientFullName" : "1 tablespoon starch"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoon",
+				"value" : "1"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=starch"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "cream",
+				"ingridientFullName" : "1/2 cup cream"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1/2"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=cream"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "egg",
+				"ingridientFullName" : "1 egg"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pcs",
+				"value" : "1"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=egg"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "egg",
+				"ingridientFullName" : "Streusel:"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pcs",
+				"value" : "1"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=egg"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "egg",
+				"ingridientFullName" : "cup AP flour"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pcs",
+				"value" : "1"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=egg"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "egg",
+				"ingridientFullName" : "50 grams butter (less than ½ stick)  softened"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pcs",
+				"value" : "1"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=egg"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "egg",
+				"ingridientFullName" : "cup white sugar"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pcs",
+				"value" : "1"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=egg"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "cinnamon",
+				"ingridientFullName" : "1/4 teaspoon cinnamon"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoon",
+				"value" : "1/4"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=cinnamon"
+			}
+		}
+	] 
+}
+]

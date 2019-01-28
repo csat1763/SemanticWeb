@@ -9,6 +9,7 @@
 @prefix ja:      <http://jena.hpl.hp.com/2005/11/Assembler#> .
 
 [] rdf:type fuseki:Server ;
+
    # Example::
    # Server-wide query timeout.   
    # 
@@ -24,7 +25,10 @@
 
    # Add any custom classes you want to load.
    # Must have a "public static void init()" method.
-   # ja:loadClass "your.code.Class" ;   
+   #   
 
    # End triples.
+   
    .
+
+   

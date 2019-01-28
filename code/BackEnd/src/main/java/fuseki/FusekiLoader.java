@@ -17,6 +17,7 @@ public class FusekiLoader {
 		fc.ontology = ontology;
 		fc.datasetName = datasetName;
 		fc.loadData();
+
 	}
 
 }

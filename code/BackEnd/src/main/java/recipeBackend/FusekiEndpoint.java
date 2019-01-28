@@ -55,11 +55,13 @@ public class FusekiEndpoint {
 			for (String key : keywords) {
 				String keyw = DigestUtils.sha256Hex(key);
 				query.append("?s schema:keywords ?" + keyw + ".\r\n")
-						.append("FILTER regex(?" + keyw + ",\"" + key + "\") .\r\n");
+						// .append("FILTER regex(?" + keyw + ",\"" + key + "\") .\r\n")
+						.append("FILTER(<java:fusekic.LevenshteinFilter>(?" + keyw + ", \"" + key + "\") < 6) .\r\n");
 
 			}
 		}
 		query.append("  \r\n" + "  } LIMIT 5}");
+		System.out.println(query.toString());
 		return query.toString();
 	}
 

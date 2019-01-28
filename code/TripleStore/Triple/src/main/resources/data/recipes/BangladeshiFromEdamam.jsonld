@@ -1,0 +1,2816 @@
+[
+{
+	"@context": "http://schema.org",
+	"@id": "http://www.edamam.com/ontologies/edamam.owl#recipe_d776d9f7eede1aa108463341ea1c5ede",
+	"@type": "Recipe",
+	"sameAs": "http://honestcooking.com/bangladeshi-lamb-rice-recipe/",
+	"creator": {
+		"@type": "Person",
+		"name": "not given"
+	},
+	"nutrition": {
+		"@type": "NutritionInformation",
+		"calories" : "12230.0 calories"
+	},
+	"keywords": [ "Peanut-Free", "Tree-Nut-Free", "Alcohol-Free" ],
+	"name": "Bangladeshi Lamb with Rice",
+	"recipeYield": {
+		"@type": "QuantitativeValue",
+		"value" : "8.0"
+	}, 
+	"image": {
+		"@type": "ImageObject",
+		"contentUrl" : "https://www.edamam.com/web-img/e38/e38c6a29a32aaf44be5988bd163d6db4.jpg", 
+		"caption" : "Bangladeshi Lamb with Rice"
+	}, 
+	"cookTime": "-",
+	"prepTime": "-",
+	"totalTime": "PT2H0M",
+	"recipeInstructions": {
+		"@type": "CreativeWork",
+		"url" : "http://honestcooking.com/bangladeshi-lamb-rice-recipe/"
+	}, 
+	"recipeIngredient": [
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "null",
+				"ingridientFullName" : "1 kilogram lamb – cut into medium sized pieces"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "null",
+				"value" : "null"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "onions",
+				"ingridientFullName" : "2 large onions"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "large",
+				"value" : "2"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=onions"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "unsalted butter",
+				"ingridientFullName" : "175 grams unsalted butter"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "grams",
+				"value" : "175"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=unsalted+butter"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "cinnamon sticks",
+				"ingridientFullName" : "4 medium cinnamon sticks"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "medium",
+				"value" : "4"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=cinnamon+sticks"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "cardamons",
+				"ingridientFullName" : "10 green cardamons"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "green",
+				"value" : "10"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=cardamons"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "tablespoon whole black peppercorns",
+				"ingridientFullName" : "1 heaped tablespoon whole black peppercorns"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "heaped",
+				"value" : "1"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=tablespoon+whole+black+peppercorns"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "cloves",
+				"ingridientFullName" : "10 cloves"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pcs",
+				"value" : "10"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=cloves"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "cumin seeds",
+				"ingridientFullName" : "0.5 tablespoon cumin seeds"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoon",
+				"value" : "0.5"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=cumin+seeds"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "cardamons",
+				"ingridientFullName" : "3 black cardamons"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "black",
+				"value" : "3"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=cardamons"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "cardamons",
+				"ingridientFullName" : "Pinch of grated nutmeg"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "black",
+				"value" : "3"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=cardamons"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "cardamons",
+				"ingridientFullName" : "Pinch of ground mace"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "black",
+				"value" : "3"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=cardamons"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "coriander-cumin powder",
+				"ingridientFullName" : "5 teaspoons coriander-cumin powder"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoons",
+				"value" : "5"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=coriander-cumin+powder"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "turmeric powder",
+				"ingridientFullName" : "1 teaspoon turmeric powder"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoon",
+				"value" : "1"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=turmeric+powder"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "chilli powder",
+				"ingridientFullName" : "2 teaspoons chilli powder"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoons",
+				"value" : "2"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=chilli+powder"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "natural yoghurt (not greek style  not fat-free)",
+				"ingridientFullName" : "375 grams natural yoghurt (not greek style  not fat-free)"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "grams",
+				"value" : "375"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=natural+yoghurt+(not+greek+style++not+fat-free)"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "kewra water",
+				"ingridientFullName" : "150 millilitres kewra water"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "millilitres",
+				"value" : "150"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=kewra+water"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "kewra water",
+				"ingridientFullName" : "3 cloves garlic – peeled and finely chopped"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "millilitres",
+				"value" : "150"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=kewra+water"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "kewra water",
+				"ingridientFullName" : "35 grams root ginger – peeled and finely chopped"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "millilitres",
+				"value" : "150"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=kewra+water"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "saffron",
+				"ingridientFullName" : "1 gram saffron"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "gram",
+				"value" : "1"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=saffron"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "light tasting vegetable oil",
+				"ingridientFullName" : "2 tablespoons light tasting vegetable oil"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoons",
+				"value" : "2"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=light+tasting+vegetable+oil"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "light tasting vegetable oil",
+				"ingridientFullName" : "20 baby potatoes – washed"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoons",
+				"value" : "2"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=light+tasting+vegetable+oil"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "pitted prunes",
+				"ingridientFullName" : "500 grams pitted prunes"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "grams",
+				"value" : "500"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=pitted+prunes"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "pitted prunes",
+				"ingridientFullName" : "8 green chillies – washed"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "grams",
+				"value" : "500"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=pitted+prunes"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "rice",
+				"ingridientFullName" : "300 grams rice"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "grams",
+				"value" : "300"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=rice"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "salt",
+				"ingridientFullName" : "1.5 tablespoons salt"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoons",
+				"value" : "1.5"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=salt"
+			}
+		}
+	] 
+},
+{
+	"@context": "http://schema.org",
+	"@id": "http://www.edamam.com/ontologies/edamam.owl#recipe_4b5679ab450397d40446a57d396651f9",
+	"@type": "Recipe",
+	"sameAs": "http://honestcooking.com/potato-bhorta-bangladeshi-comfort-food-recipe/",
+	"creator": {
+		"@type": "Person",
+		"name": "not given"
+	},
+	"nutrition": {
+		"@type": "NutritionInformation",
+		"calories" : "695.0 calories"
+	},
+	"keywords": [ "Vegan", "Vegetarian", "Peanut-Free", "Tree-Nut-Free", "Alcohol-Free" ],
+	"name": "Potato Bhorta - Bangladeshi Comfort Food",
+	"recipeYield": {
+		"@type": "QuantitativeValue",
+		"value" : "1.0"
+	}, 
+	"image": {
+		"@type": "ImageObject",
+		"contentUrl" : "https://www.edamam.com/web-img/4b1/4b142a25a26d3eb58de4a276e4a9ea3d.png", 
+		"caption" : "Potato Bhorta - Bangladeshi Comfort Food"
+	}, 
+	"cookTime": "-",
+	"prepTime": "-",
+	"totalTime": "PT20M",
+	"recipeInstructions": {
+		"@type": "CreativeWork",
+		"url" : "http://honestcooking.com/potato-bhorta-bangladeshi-comfort-food-recipe/"
+	}, 
+	"recipeIngredient": [
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "null",
+				"ingridientFullName" : "2-3 medium size potatoes"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "null",
+				"value" : "null"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "mustard oil",
+				"ingridientFullName" : "2 tbsp mustard oil"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tbsp",
+				"value" : "2"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=mustard+oil"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "mustard oil",
+				"ingridientFullName" : "4-5 garlic cloves"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tbsp",
+				"value" : "2"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=mustard+oil"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "mustard oil",
+				"ingridientFullName" : "2-3 red chilies"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tbsp",
+				"value" : "2"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=mustard+oil"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "thinly sliced",
+				"ingridientFullName" : "¼ onion  thinly sliced"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "onion",
+				"value" : "¼"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=thinly+sliced"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "thinly sliced",
+				"ingridientFullName" : "Salt to taste"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "onion",
+				"value" : "¼"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=thinly+sliced"
+			}
+		}
+	] 
+},
+{
+	"@context": "http://schema.org",
+	"@id": "http://www.edamam.com/ontologies/edamam.owl#recipe_6b037dc9441615916ee75f6b5e656130",
+	"@type": "Recipe",
+	"sameAs": "https://food52.com/recipes/9196-bangladeshi-style-creamy-chicken-korma-w-cardamom-crispy-shallots-almonds-golden-raisans",
+	"creator": {
+		"@type": "Person",
+		"name": "not given"
+	},
+	"nutrition": {
+		"@type": "NutritionInformation",
+		"calories" : "3516.0 calories"
+	},
+	"keywords": [ "Peanut-Free", "Alcohol-Free", "Low-Carb" ],
+	"name": "Bangladeshi Style Creamy Chicken Korma w/Cardamom  Crispy Shallots  Almonds & Golden Raisans",
+	"recipeYield": {
+		"@type": "QuantitativeValue",
+		"value" : "6.0"
+	}, 
+	"image": {
+		"@type": "ImageObject",
+		"contentUrl" : "https://www.edamam.com/web-img/953/95337d445dbbe37da0df9334250cd992.jpg", 
+		"caption" : "Bangladeshi Style Creamy Chicken Korma w/Cardamom  Crispy Shallots  Almonds & Golden Raisans"
+	}, 
+	"cookTime": "-",
+	"prepTime": "-",
+	"totalTime": "PT7H48M",
+	"recipeInstructions": {
+		"@type": "CreativeWork",
+		"url" : "https://food52.com/recipes/9196-bangladeshi-style-creamy-chicken-korma-w-cardamom-crispy-shallots-almonds-golden-raisans"
+	}, 
+	"recipeIngredient": [
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "skinless chicken  cut into 10 pieces",
+				"ingridientFullName" : "1 whole skinless chicken  cut into 10 pieces"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "whole",
+				"value" : "1"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=skinless+chicken++cut+into+10+pieces"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "pods",
+				"ingridientFullName" : "8 cardamom pods"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cardamom",
+				"value" : "8"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=pods"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "pods",
+				"ingridientFullName" : "3 tablespoons ghee {clarified butter}"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cardamom",
+				"value" : "8"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=pods"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "olive oil",
+				"ingridientFullName" : "4 tablespoons olive oil"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoons",
+				"value" : "4"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=olive+oil"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "onions  thinly sliced",
+				"ingridientFullName" : "2 large onions  thinly sliced"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "large",
+				"value" : "2"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=onions++thinly+sliced"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "fresh ginger paste",
+				"ingridientFullName" : "1 tablespoon fresh ginger paste"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoon",
+				"value" : "1"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=fresh+ginger+paste"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "fresh garlic paste",
+				"ingridientFullName" : "1 teaspoon fresh garlic paste"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoon",
+				"value" : "1"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=fresh+garlic+paste"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "plain greek yogurt  beaten well",
+				"ingridientFullName" : "1 cup plain greek yogurt  beaten well"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=plain+greek+yogurt++beaten+well"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "sticks",
+				"ingridientFullName" : "2 cinamon sticks"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cinamon",
+				"value" : "2"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=sticks"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "leaf",
+				"ingridientFullName" : "1 bay leaf"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "bay",
+				"value" : "1"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=leaf"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "salt",
+				"ingridientFullName" : "2 tablespoons salt"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoons",
+				"value" : "2"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=salt"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "sugar",
+				"ingridientFullName" : "1 tablespoon sugar"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoon",
+				"value" : "1"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=sugar"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "fresh lemon juice",
+				"ingridientFullName" : "1 tablespoon fresh lemon juice"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoon",
+				"value" : "1"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=fresh+lemon+juice"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "bird chiles",
+				"ingridientFullName" : "4 thai bird chiles"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "thai",
+				"value" : "4"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=bird+chiles"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "ground almonds",
+				"ingridientFullName" : "2 tablespoons ground almonds"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoons",
+				"value" : "2"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=ground+almonds"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "ground almonds",
+				"ingridientFullName" : "2-3 tablespoons slivered almonds"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoons",
+				"value" : "2"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=ground+almonds"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "golden raisins",
+				"ingridientFullName" : "2 tablespoons golden raisins"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoons",
+				"value" : "2"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=golden+raisins"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "golden raisins",
+				"ingridientFullName" : "Boiling water"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoons",
+				"value" : "2"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=golden+raisins"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "golden raisins",
+				"ingridientFullName" : "2-3 garnish ~shallots  thinly sliced & friend crisp"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoons",
+				"value" : "2"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=golden+raisins"
+			}
+		}
+	] 
+},
+{
+	"@context": "http://schema.org",
+	"@id": "http://www.edamam.com/ontologies/edamam.owl#recipe_2d159efdf18e9499331dfdcf61d96fc8",
+	"@type": "Recipe",
+	"sameAs": "http://www.seriouseats.com/recipes/2010/08/french-in-a-flash-roasted-shrimp-cocktail-with-chermoula-recipe.html",
+	"creator": {
+		"@type": "Person",
+		"name": "not given"
+	},
+	"nutrition": {
+		"@type": "NutritionInformation",
+		"calories" : "92.0 calories"
+	},
+	"keywords": [ "Sugar-Conscious", "Peanut-Free", "Tree-Nut-Free", "Alcohol-Free" ],
+	"name": "French in a Flash: Roasted Shrimp Cocktail with Chermoula",
+	"recipeYield": {
+		"@type": "QuantitativeValue",
+		"value" : "2.0"
+	}, 
+	"image": {
+		"@type": "ImageObject",
+		"contentUrl" : "https://www.edamam.com/web-img/f01/f010bb4dbed8383ec4d14d785ba451b3.jpg", 
+		"caption" : "French in a Flash: Roasted Shrimp Cocktail with Chermoula"
+	}, 
+	"cookTime": "-",
+	"prepTime": "-",
+	"totalTime": "PT1H28M",
+	"recipeInstructions": {
+		"@type": "CreativeWork",
+		"url" : "http://www.seriouseats.com/recipes/2010/08/french-in-a-flash-roasted-shrimp-cocktail-with-chermoula-recipe.html"
+	}, 
+	"recipeIngredient": [
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "shrimp  shell on",
+				"ingridientFullName" : "6 jumbo shrimp  shell on"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "jumbo",
+				"value" : "6"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=shrimp++shell+on"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "shrimp  shell on",
+				"ingridientFullName" : "A drizzle of extra virgin olive oil  plus 1/4 cup"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "jumbo",
+				"value" : "6"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=shrimp++shell+on"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "cilantro",
+				"ingridientFullName" : "1/2 bunch cilantro"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "bunch",
+				"value" : "1/2"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=cilantro"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "flat-leaf parsley",
+				"ingridientFullName" : "1/2 bunch flat-leaf parsley"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "bunch",
+				"value" : "1/2"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=flat-leaf+parsley"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "garlic",
+				"ingridientFullName" : "2 cloves garlic"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cloves",
+				"value" : "2"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=garlic"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "(whites and greens)",
+				"ingridientFullName" : "1 1/2 scallions (whites and greens)"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "scallions",
+				"value" : "1 1/2"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=(whites+and+greens)"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "seeded",
+				"ingridientFullName" : "1/2 jalapeno  seeded"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "jalapeno",
+				"value" : "1/2"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=seeded"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "seeded",
+				"ingridientFullName" : "Juice of 1 lemon"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "jalapeno",
+				"value" : "1/2"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=seeded"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "ground coriander",
+				"ingridientFullName" : "1/8 teaspoon ground coriander"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoon",
+				"value" : "1/8"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=ground+coriander"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "ground cumin",
+				"ingridientFullName" : "1/8 teaspoon ground cumin"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoon",
+				"value" : "1/8"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=ground+cumin"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "paprika",
+				"ingridientFullName" : "1/8 teaspoon paprika"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoon",
+				"value" : "1/8"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=paprika"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "paprika",
+				"ingridientFullName" : "Salt and freshly cracked black pepper"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoon",
+				"value" : "1/8"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=paprika"
+			}
+		}
+	] 
+},
+{
+	"@context": "http://schema.org",
+	"@id": "http://www.edamam.com/ontologies/edamam.owl#recipe_45e5ac46e0c7443f641407fd9ed07e87",
+	"@type": "Recipe",
+	"sameAs": "http://www.greatcurryrecipes.net/2013/03/12/bangladeshi-bhaja-mackerel/",
+	"creator": {
+		"@type": "Person",
+		"name": "not given"
+	},
+	"nutrition": {
+		"@type": "NutritionInformation",
+		"calories" : "928.0 calories"
+	},
+	"keywords": [ "Peanut-Free", "Tree-Nut-Free", "Alcohol-Free" ],
+	"name": "Bangladeshi Bhaja Mackerel",
+	"recipeYield": {
+		"@type": "QuantitativeValue",
+		"value" : "6.0"
+	}, 
+	"image": {
+		"@type": "ImageObject",
+		"contentUrl" : "https://www.edamam.com/web-img/f67/f6756be3f84407e5e5f52a9bb871b8f4.jpg", 
+		"caption" : "Bangladeshi Bhaja Mackerel"
+	}, 
+	"cookTime": "-",
+	"prepTime": "-",
+	"totalTime": "PT0M",
+	"recipeInstructions": {
+		"@type": "CreativeWork",
+		"url" : "http://www.greatcurryrecipes.net/2013/03/12/bangladeshi-bhaja-mackerel/"
+	}, 
+	"recipeIngredient": [
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "smoked mackerel",
+				"ingridientFullName" : "* 250g smoked mackerel"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "g",
+				"value" : "250"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=smoked+mackerel"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "rapeseed oil",
+				"ingridientFullName" : "* 2 tablespoon rapeseed oil"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoon",
+				"value" : "2"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=rapeseed+oil"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "finely chopped",
+				"ingridientFullName" : "* 1/2 onion finely chopped"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "onion",
+				"value" : "1/2"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=finely+chopped"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "green chillie finely chopped",
+				"ingridientFullName" : "* 3 fresh green chillie finely chopped"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "fresh",
+				"value" : "3"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=green+chillie+finely+chopped"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "chopped tomato",
+				"ingridientFullName" : "* 200ml chopped tomato"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "ml",
+				"value" : "200"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=chopped+tomato"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "egg",
+				"ingridientFullName" : "* 1 egg"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pcs",
+				"value" : "1"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=egg"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "finely chopped coriander",
+				"ingridientFullName" : "* 3 tablespoon finely chopped coriander"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoon",
+				"value" : "3"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=finely+chopped+coriander"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "cumin",
+				"ingridientFullName" : "* 1/2 teaspoon cumin"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoon",
+				"value" : "1/2"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=cumin"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "coriander powder",
+				"ingridientFullName" : "* 1/2 teaspoon coriander powder"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoon",
+				"value" : "1/2"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=coriander+powder"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "paprika",
+				"ingridientFullName" : "* 1/2 teaspoon paprika"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoon",
+				"value" : "1/2"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=paprika"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "paprika",
+				"ingridientFullName" : "* salt and pepper to taste"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoon",
+				"value" : "1/2"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=paprika"
+			}
+		}
+	] 
+},
+{
+	"@context": "http://schema.org",
+	"@id": "http://www.edamam.com/ontologies/edamam.owl#recipe_2250403c03ec6eb43226cd156de58d8a",
+	"@type": "Recipe",
+	"sameAs": "http://allrecipes.com/Recipe/Authentic-Bangladeshi-Beef-Curry/Detail.aspx",
+	"creator": {
+		"@type": "Person",
+		"name": "not given"
+	},
+	"nutrition": {
+		"@type": "NutritionInformation",
+		"calories" : "1757.0 calories"
+	},
+	"keywords": [ "Sugar-Conscious", "Peanut-Free", "Tree-Nut-Free", "Alcohol-Free", "Low-Carb" ],
+	"name": "Authentic Bangladeshi Beef Curry",
+	"recipeYield": {
+		"@type": "QuantitativeValue",
+		"value" : "6.0"
+	}, 
+	"image": {
+		"@type": "ImageObject",
+		"contentUrl" : "https://www.edamam.com/web-img/dda/ddab593353724226bdbed07850644a23.jpg", 
+		"caption" : "Authentic Bangladeshi Beef Curry"
+	}, 
+	"cookTime": "-",
+	"prepTime": "-",
+	"totalTime": "PT0M",
+	"recipeInstructions": {
+		"@type": "CreativeWork",
+		"url" : "http://allrecipes.com/Recipe/Authentic-Bangladeshi-Beef-Curry/Detail.aspx"
+	}, 
+	"recipeIngredient": [
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "cayenne pepper",
+				"ingridientFullName" : "1 teaspoon cayenne pepper"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoon",
+				"value" : "1"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=cayenne+pepper"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "olive oil",
+				"ingridientFullName" : "3 tablespoons olive oil"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoons",
+				"value" : "3"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=olive+oil"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "cloves",
+				"ingridientFullName" : "2 whole cloves"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "whole",
+				"value" : "2"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=cloves"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "sticks",
+				"ingridientFullName" : "1 1/2 cinnamon sticks"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cinnamon",
+				"value" : "1 1/2"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=sticks"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "water",
+				"ingridientFullName" : "1 cup water"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=water"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "ground cumin",
+				"ingridientFullName" : "1 teaspoon ground cumin"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoon",
+				"value" : "1"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=ground+cumin"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "chile peppers  finely sliced",
+				"ingridientFullName" : "5 green chile peppers  finely sliced"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "green",
+				"value" : "5"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=chile+peppers++finely+sliced"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "boneless beef chuck  cut into 1-1/2-inch pieces",
+				"ingridientFullName" : "2 pounds boneless beef chuck  cut into 1-1/2-inch pieces"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pounds",
+				"value" : "2"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=boneless+beef+chuck++cut+into+1-1/2-inch+pieces"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "garlic  minced",
+				"ingridientFullName" : "6 cloves garlic  minced"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cloves",
+				"value" : "6"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=garlic++minced"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "pods",
+				"ingridientFullName" : "3 cardamom pods"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cardamom",
+				"value" : "3"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=pods"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "ground coriander",
+				"ingridientFullName" : "1 teaspoon ground coriander"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoon",
+				"value" : "1"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=ground+coriander"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "fresh ginger root - peeled  sliced  and ground into a paste",
+				"ingridientFullName" : "1 teaspoon fresh ginger root - peeled  sliced  and ground into a paste"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoon",
+				"value" : "1"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=fresh+ginger+root+-+peeled++sliced++and+ground+into+a+paste"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "ground turmeric",
+				"ingridientFullName" : "1 teaspoon ground turmeric"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoon",
+				"value" : "1"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=ground+turmeric"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "chopped",
+				"ingridientFullName" : "1 onion  chopped"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "onion",
+				"value" : "1"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=chopped"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "garlic powder",
+				"ingridientFullName" : "1 teaspoon garlic powder"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoon",
+				"value" : "1"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=garlic+powder"
+			}
+		}
+	] 
+},
+{
+	"@context": "http://schema.org",
+	"@id": "http://www.edamam.com/ontologies/edamam.owl#recipe_71962141552ad59fe180527a6bb34c56",
+	"@type": "Recipe",
+	"sameAs": "https://www.plattershare.com/recipe/moong-potli-bangladeshi",
+	"creator": {
+		"@type": "Person",
+		"name": "not given"
+	},
+	"nutrition": {
+		"@type": "NutritionInformation",
+		"calories" : "147.0 calories"
+	},
+	"keywords": [ "Vegan", "Vegetarian", "Peanut-Free", "Tree-Nut-Free", "Alcohol-Free" ],
+	"name": "Moong potli (Bangladeshi) recipes",
+	"recipeYield": {
+		"@type": "QuantitativeValue",
+		"value" : "2.0"
+	}, 
+	"image": {
+		"@type": "ImageObject",
+		"contentUrl" : "https://www.edamam.com/web-img/028/0283f3a8ad61c9968a63ddd327c6ac5c", 
+		"caption" : "Moong potli (Bangladeshi) recipes"
+	}, 
+	"cookTime": "-",
+	"prepTime": "-",
+	"totalTime": "PT3H0M",
+	"recipeInstructions": {
+		"@type": "CreativeWork",
+		"url" : "https://www.plattershare.com/recipe/moong-potli-bangladeshi"
+	}, 
+	"recipeIngredient": [
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "roasted soaked moong dal",
+				"ingridientFullName" : "100 gms roasted soaked moong dal"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "gms",
+				"value" : "100"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=roasted+soaked+moong+dal"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "raw mustered oil",
+				"ingridientFullName" : "2 tsp raw mustered oil"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tsp",
+				"value" : "2"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=raw+mustered+oil"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "fresh green chilli",
+				"ingridientFullName" : "2 chopped fresh green chilli"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "chopped",
+				"value" : "2"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=fresh+green+chilli"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "chopped fresh coriander",
+				"ingridientFullName" : "1/2 cup chopped fresh coriander"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1/2"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=chopped+fresh+coriander"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "chopped fresh coriander",
+				"ingridientFullName" : "salt"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1/2"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=chopped+fresh+coriander"
+			}
+		}
+	] 
+},
+{
+	"@context": "http://schema.org",
+	"@id": "http://www.edamam.com/ontologies/edamam.owl#recipe_53ed829ca534113deb65b52395f61f06",
+	"@type": "Recipe",
+	"sameAs": "http://www.withaspin.com/2013/03/21/chapri-bangladeshi-savory-pancake/",
+	"creator": {
+		"@type": "Person",
+		"name": "not given"
+	},
+	"nutrition": {
+		"@type": "NutritionInformation",
+		"calories" : "841.0 calories"
+	},
+	"keywords": [ "Sugar-Conscious", "Vegetarian", "Peanut-Free", "Tree-Nut-Free", "Alcohol-Free", "Low-Fat" ],
+	"name": "Chapri : Bangladeshi Savory Pancake",
+	"recipeYield": {
+		"@type": "QuantitativeValue",
+		"value" : "4.0"
+	}, 
+	"image": {
+		"@type": "ImageObject",
+		"contentUrl" : "https://www.edamam.com/web-img/588/5887554277e08bc5e515a61284e516ab.jpg", 
+		"caption" : "Chapri : Bangladeshi Savory Pancake"
+	}, 
+	"cookTime": "-",
+	"prepTime": "-",
+	"totalTime": "PT0M",
+	"recipeInstructions": {
+		"@type": "CreativeWork",
+		"url" : "http://www.withaspin.com/2013/03/21/chapri-bangladeshi-savory-pancake/"
+	}, 
+	"recipeIngredient": [
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "whole wheat flour",
+				"ingridientFullName" : "* 1 cup whole wheat flour"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=whole+wheat+flour"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "rice flour",
+				"ingridientFullName" : "* 1/2 cup rice flour"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1/2"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=rice+flour"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "egg",
+				"ingridientFullName" : "* 1 egg"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pcs",
+				"value" : "1"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=egg"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "garlic paste",
+				"ingridientFullName" : "* 1/2 teaspoon garlic paste"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoon",
+				"value" : "1/2"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=garlic+paste"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "turmeric",
+				"ingridientFullName" : "* 1/2 teaspoon turmeric"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoon",
+				"value" : "1/2"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=turmeric"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "cumin powder",
+				"ingridientFullName" : "* 1/2 teaspoon cumin powder"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoon",
+				"value" : "1/2"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=cumin+powder"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "cilantro  chopped",
+				"ingridientFullName" : "* 1 cup cilantro  chopped"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=cilantro++chopped"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "onion  chopped",
+				"ingridientFullName" : "* 1/2 cup onion  chopped"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1/2"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=onion++chopped"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "chili  chopped",
+				"ingridientFullName" : "* 2 green chili  chopped"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "green",
+				"value" : "2"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=chili++chopped"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "water",
+				"ingridientFullName" : "* 1 1/2 cup water"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1 1/2"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=water"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "water",
+				"ingridientFullName" : "* salt  according to taste"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1 1/2"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=water"
+			}
+		}
+	] 
+},
+{
+	"@context": "http://schema.org",
+	"@id": "http://www.edamam.com/ontologies/edamam.owl#recipe_7dba5cfb0845e3c81aaf951b8997fe78",
+	"@type": "Recipe",
+	"sameAs": "https://www.allrecipes.com/recipe/193585/authentic-bangladeshi-beef-curry/",
+	"creator": {
+		"@type": "Person",
+		"name": "not given"
+	},
+	"nutrition": {
+		"@type": "NutritionInformation",
+		"calories" : "1757.0 calories"
+	},
+	"keywords": [ "Sugar-Conscious", "Peanut-Free", "Tree-Nut-Free", "Alcohol-Free", "Low-Carb" ],
+	"name": "Authentic Bangladeshi Beef Curry",
+	"recipeYield": {
+		"@type": "QuantitativeValue",
+		"value" : "6.0"
+	}, 
+	"image": {
+		"@type": "ImageObject",
+		"contentUrl" : "https://www.edamam.com/web-img/468/468cd953b39f5595b8e62ace708fef69.jpg", 
+		"caption" : "Authentic Bangladeshi Beef Curry"
+	}, 
+	"cookTime": "-",
+	"prepTime": "-",
+	"totalTime": "PT2H15M",
+	"recipeInstructions": {
+		"@type": "CreativeWork",
+		"url" : "https://www.allrecipes.com/recipe/193585/authentic-bangladeshi-beef-curry/"
+	}, 
+	"recipeIngredient": [
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "olive oil",
+				"ingridientFullName" : "3 tablespoons olive oil"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoons",
+				"value" : "3"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=olive+oil"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "chopped",
+				"ingridientFullName" : "1 onion  chopped"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "onion",
+				"value" : "1"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=chopped"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "garlic  minced",
+				"ingridientFullName" : "6 cloves garlic  minced"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cloves",
+				"value" : "6"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=garlic++minced"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "chile peppers  finely sliced",
+				"ingridientFullName" : "5 green chile peppers  finely sliced"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "green",
+				"value" : "5"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=chile+peppers++finely+sliced"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "ginger paste",
+				"ingridientFullName" : "1 teaspoon ginger paste"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoon",
+				"value" : "1"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=ginger+paste"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "cardamom seeds",
+				"ingridientFullName" : "3 whole cardamom seeds"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "whole",
+				"value" : "3"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=cardamom+seeds"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "cloves",
+				"ingridientFullName" : "2 whole cloves"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "whole",
+				"value" : "2"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=cloves"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "(2 inch) cinnamon sticks",
+				"ingridientFullName" : "1 1/2 (2 inch) cinnamon sticks"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pcs",
+				"value" : "1 1/2"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=(2+inch)+cinnamon+sticks"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "ground cumin",
+				"ingridientFullName" : "1 teaspoon ground cumin"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoon",
+				"value" : "1"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=ground+cumin"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "ground coriander",
+				"ingridientFullName" : "1 teaspoon ground coriander"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoon",
+				"value" : "1"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=ground+coriander"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "ground turmeric",
+				"ingridientFullName" : "1 teaspoon ground turmeric"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoon",
+				"value" : "1"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=ground+turmeric"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "garlic powder",
+				"ingridientFullName" : "1 teaspoon garlic powder"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoon",
+				"value" : "1"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=garlic+powder"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "cayenne pepper",
+				"ingridientFullName" : "1 teaspoon cayenne pepper"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoon",
+				"value" : "1"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=cayenne+pepper"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "water",
+				"ingridientFullName" : "1 cup water"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=water"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "boneless beef chuck  cut into 1-1/2-inch pieces",
+				"ingridientFullName" : "2 pounds boneless beef chuck  cut into 1-1/2-inch pieces"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pounds",
+				"value" : "2"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=boneless+beef+chuck++cut+into+1-1/2-inch+pieces"
+			}
+		}
+	] 
+},
+{
+	"@context": "http://schema.org",
+	"@id": "http://www.edamam.com/ontologies/edamam.owl#recipe_7de18520db9cc4d426462d0078feb560",
+	"@type": "Recipe",
+	"sameAs": "https://www.plattershare.com/recipe/scramble-eggs-with-bottle-gourdbangladeshi",
+	"creator": {
+		"@type": "Person",
+		"name": "not given"
+	},
+	"nutrition": {
+		"@type": "NutritionInformation",
+		"calories" : "485.0 calories"
+	},
+	"keywords": [ "Vegetarian", "Peanut-Free", "Tree-Nut-Free", "Alcohol-Free" ],
+	"name": "Scramble eggs with bottle gourd(Bangladeshi) recipes",
+	"recipeYield": {
+		"@type": "QuantitativeValue",
+		"value" : "2.0"
+	}, 
+	"image": {
+		"@type": "ImageObject",
+		"contentUrl" : "https://www.edamam.com/web-img/240/2405b7b6b0c8a6bdc508236ef63a2227", 
+		"caption" : "Scramble eggs with bottle gourd(Bangladeshi) recipes"
+	}, 
+	"cookTime": "-",
+	"prepTime": "-",
+	"totalTime": "PT3H0M",
+	"recipeInstructions": {
+		"@type": "CreativeWork",
+		"url" : "https://www.plattershare.com/recipe/scramble-eggs-with-bottle-gourdbangladeshi"
+	}, 
+	"recipeIngredient": [
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "grated bottle gourd",
+				"ingridientFullName" : "2 cup grated bottle gourd"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "2"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=grated+bottle+gourd"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "eggs",
+				"ingridientFullName" : "2 raw eggs"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "raw",
+				"value" : "2"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=eggs"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "chopped onion",
+				"ingridientFullName" : "1 cup chopped onion"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=chopped+onion"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "garlic paste",
+				"ingridientFullName" : "2 tsp garlic paste"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tsp",
+				"value" : "2"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=garlic+paste"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "ginger paste",
+				"ingridientFullName" : "1 tsp ginger paste"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tsp",
+				"value" : "1"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=ginger+paste"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "green chilli",
+				"ingridientFullName" : "2 tsp green chilli"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tsp",
+				"value" : "2"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=green+chilli"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "red chilli powder",
+				"ingridientFullName" : "1 tsp red chilli powder"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tsp",
+				"value" : "1"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=red+chilli+powder"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "garam masala powder",
+				"ingridientFullName" : "1 tsp garam masala powder"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tsp",
+				"value" : "1"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=garam+masala+powder"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "tomato",
+				"ingridientFullName" : "2 grated tomato"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "grated",
+				"value" : "2"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=tomato"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "onion seeds",
+				"ingridientFullName" : "1/2 tsp onion seeds"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tsp",
+				"value" : "1/2"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=onion+seeds"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "turmeric powder",
+				"ingridientFullName" : "1/2 tsp turmeric powder"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tsp",
+				"value" : "1/2"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=turmeric+powder"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "deshi ghee",
+				"ingridientFullName" : "2 tsp deshi ghee"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tsp",
+				"value" : "2"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=deshi+ghee"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "deshi ghee",
+				"ingridientFullName" : "salt"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tsp",
+				"value" : "2"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=deshi+ghee"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "deshi ghee",
+				"ingridientFullName" : "oil"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tsp",
+				"value" : "2"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=deshi+ghee"
+			}
+		}
+	] 
+},
+{
+	"@context": "http://schema.org",
+	"@id": "http://www.edamam.com/ontologies/edamam.owl#recipe_828a28e29c73c5a47010633fe8069130",
+	"@type": "Recipe",
+	"sameAs": "https://www.allrecipes.com/recipe/254367/shami-kebab/",
+	"creator": {
+		"@type": "Person",
+		"name": "not given"
+	},
+	"nutrition": {
+		"@type": "NutritionInformation",
+		"calories" : "2016.0 calories"
+	},
+	"keywords": [ "Peanut-Free", "Tree-Nut-Free", "Alcohol-Free" ],
+	"name": "Shami Kebab",
+	"recipeYield": {
+		"@type": "QuantitativeValue",
+		"value" : "4.0"
+	}, 
+	"image": {
+		"@type": "ImageObject",
+		"contentUrl" : "https://www.edamam.com/web-img/a88/a8857f796e79e6e9c3c0607a5f03997c.jpg", 
+		"caption" : "Shami Kebab"
+	}, 
+	"cookTime": "-",
+	"prepTime": "-",
+	"totalTime": "PT1H31M",
+	"recipeInstructions": {
+		"@type": "CreativeWork",
+		"url" : "https://www.allrecipes.com/recipe/254367/shami-kebab/"
+	}, 
+	"recipeIngredient": [
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "yellow lentils",
+				"ingridientFullName" : "1 1/4 cups yellow lentils"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cups",
+				"value" : "1 1/4"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=yellow+lentils"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "water",
+				"ingridientFullName" : "4 1/4 cups water"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cups",
+				"value" : "4 1/4"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=water"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "ground chicken",
+				"ingridientFullName" : "1 pound ground chicken"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pound",
+				"value" : "1"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=ground+chicken"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "diced",
+				"ingridientFullName" : "1 onion  diced"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "onion",
+				"value" : "1"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=diced"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "chile peppers  finely chopped  or more to taste",
+				"ingridientFullName" : "4 green chile peppers  finely chopped  or more to taste"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "green",
+				"value" : "4"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=chile+peppers++finely+chopped++or+more+to+taste"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "ginger-garlic paste",
+				"ingridientFullName" : "2 tablespoons ginger-garlic paste"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoons",
+				"value" : "2"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=ginger-garlic+paste"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "garam masala",
+				"ingridientFullName" : "1 tablespoon garam masala"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoon",
+				"value" : "1"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=garam+masala"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "salt  or more to taste",
+				"ingridientFullName" : "1 tablespoon salt  or more to taste"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoon",
+				"value" : "1"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=salt++or+more+to+taste"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "cilantro  chopped",
+				"ingridientFullName" : "1/2 bunch cilantro  chopped"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "bunch",
+				"value" : "1/2"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=cilantro++chopped"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "beaten",
+				"ingridientFullName" : "2 eggs  beaten"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "eggs",
+				"value" : "2"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=beaten"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "vegetable oil  or as needed",
+				"ingridientFullName" : "2 tablespoons vegetable oil  or as needed"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tablespoons",
+				"value" : "2"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=vegetable+oil++or+as+needed"
+			}
+		}
+	] 
+}
+]

@@ -28,7 +28,7 @@ public class BackEndController {
 		String[] ingredientSplit = ingredients.split(",");
 
 		for (String tag : tagSplit) {
-			// System.out.println(tag);
+			System.out.println(tag);
 			tagList.add(tag);
 		}
 

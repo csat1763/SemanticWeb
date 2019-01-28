@@ -1,0 +1,155 @@
+[
+{
+	"@context": "http://schema.org",
+	"@id": "http://www.edamam.com/ontologies/edamam.owl#recipe_33b0ea0ef7b3493ca06852e4da208beb",
+	"@type": "Recipe",
+	"sameAs": "http://honestcooking.com/salted-duck-eggs/",
+	"creator": {
+		"@type": "Person",
+		"name": "not given"
+	},
+	"nutrition": {
+		"@type": "NutritionInformation",
+		"calories" : "747.0 calories"
+	},
+	"keywords": [ "Sugar-Conscious", "Peanut-Free", "Tree-Nut-Free", "Low-Carb" ],
+	"name": "Salted Duck Eggs",
+	"recipeYield": {
+		"@type": "QuantitativeValue",
+		"value" : "3.0"
+	}, 
+	"image": {
+		"@type": "ImageObject",
+		"contentUrl" : "https://www.edamam.com/web-img/b20/b203686006852e7eed168b040d8f6a72.jpg", 
+		"caption" : "Salted Duck Eggs"
+	}, 
+	"cookTime": "-",
+	"prepTime": "-",
+	"totalTime": "PT10M",
+	"recipeInstructions": {
+		"@type": "CreativeWork",
+		"url" : "http://honestcooking.com/salted-duck-eggs/"
+	}, 
+	"recipeIngredient": [
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "eggs (or chicken eggs)",
+				"ingridientFullName" : "3 duck eggs (or chicken eggs)"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "duck",
+				"value" : "3"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=eggs+(or+chicken+eggs)"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "sea salt (or rock salt)",
+				"ingridientFullName" : "¼ cup sea salt (or rock salt)"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "¼"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=sea+salt+(or+rock+salt)"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "(250ml) water",
+				"ingridientFullName" : "1 cup (250ml) water"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=(250ml)+water"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "shaoxing wine",
+				"ingridientFullName" : "1 teaspoon shaoxing wine"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoon",
+				"value" : "1"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=shaoxing+wine"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "anise",
+				"ingridientFullName" : "½ star anise"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "star",
+				"value" : "½"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=anise"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "sichuan peppercorns",
+				"ingridientFullName" : "½ teaspoon sichuan peppercorns"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoon",
+				"value" : "½"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=sichuan+peppercorns"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "sichuan peppercorns",
+				"ingridientFullName" : "*clean glass container/jar that fits the eggs snugly."
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "teaspoon",
+				"value" : "½"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=sichuan+peppercorns"
+			}
+		}
+	] 
+}
+]

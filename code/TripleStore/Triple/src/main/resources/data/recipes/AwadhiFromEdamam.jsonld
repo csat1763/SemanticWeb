@@ -1,0 +1,427 @@
+[
+{
+	"@context": "http://schema.org",
+	"@id": "http://www.edamam.com/ontologies/edamam.owl#recipe_bf18aa98755e16e8391470cc43302911",
+	"@type": "Recipe",
+	"sameAs": "http://www.faskitchen.com/lucknowi-mutton-biryani-recipe-awadhi-biryani/",
+	"creator": {
+		"@type": "Person",
+		"name": "not given"
+	},
+	"nutrition": {
+		"@type": "NutritionInformation",
+		"calories" : "326.0 calories"
+	},
+	"keywords": [ "Vegetarian", "Peanut-Free", "Tree-Nut-Free", "Alcohol-Free", "Balanced" ],
+	"name": "Lucknowi Mutton Biryani Recipe-Awadhi Biry",
+	"recipeYield": {
+		"@type": "QuantitativeValue",
+		"value" : "2.0"
+	}, 
+	"image": {
+		"@type": "ImageObject",
+		"contentUrl" : "https://www.edamam.com/web-img/6a0/6a0a66ec4a3c22387188f1579dd8bead.jpg", 
+		"caption" : "Lucknowi Mutton Biryani Recipe-Awadhi Biry"
+	}, 
+	"cookTime": "-",
+	"prepTime": "-",
+	"totalTime": "PT0M",
+	"recipeInstructions": {
+		"@type": "CreativeWork",
+		"url" : "http://www.faskitchen.com/lucknowi-mutton-biryani-recipe-awadhi-biryani/"
+	}, 
+	"recipeIngredient": [
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "very finely chopped",
+				"ingridientFullName" : "* 2 onion  very finely chopped"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "onion",
+				"value" : "2"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=very+finely+chopped"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "ginger garlic paste",
+				"ingridientFullName" : "* 3 tbsp ginger garlic paste"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tbsp",
+				"value" : "3"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=ginger+garlic+paste"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "coriander powder",
+				"ingridientFullName" : "* 1 tsp coriander powder"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tsp",
+				"value" : "1"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=coriander+powder"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "red chili powder",
+				"ingridientFullName" : "* 1 tsp red chili powder"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tsp",
+				"value" : "1"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=red+chili+powder"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "garam masala powder",
+				"ingridientFullName" : "* 1 tsp garam masala powder"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tsp",
+				"value" : "1"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=garam+masala+powder"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "garam masala powder",
+				"ingridientFullName" : "* juice of 1 lime"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tsp",
+				"value" : "1"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=garam+masala+powder"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "yogurt",
+				"ingridientFullName" : "* 1 cup yogurt"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=yogurt"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "yogurt",
+				"ingridientFullName" : "* salt to taste"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "1"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=yogurt"
+			}
+		}
+	] 
+},
+{
+	"@context": "http://schema.org",
+	"@id": "http://www.edamam.com/ontologies/edamam.owl#recipe_87341a2ef5f771e2f1e3810f8af4e61e",
+	"@type": "Recipe",
+	"sameAs": "http://www.vegrecipesofindia.com/dhingri-dolma-recipe-awadhi-mushroom-paneer-recipe/",
+	"creator": {
+		"@type": "Person",
+		"name": "not given"
+	},
+	"nutrition": {
+		"@type": "NutritionInformation",
+		"calories" : "534.0 calories"
+	},
+	"keywords": [ "Vegetarian", "Peanut-Free", "Tree-Nut-Free", "Alcohol-Free" ],
+	"name": "Dhingri Dolma Recipe: Awadhi Mushroom Paneer Recipe",
+	"recipeYield": {
+		"@type": "QuantitativeValue",
+		"value" : "4.0"
+	}, 
+	"image": {
+		"@type": "ImageObject",
+		"contentUrl" : "https://www.edamam.com/web-img/f59/f5924dc781a98058726b15c66399417a.jpg", 
+		"caption" : "Dhingri Dolma Recipe: Awadhi Mushroom Paneer Recipe"
+	}, 
+	"cookTime": "-",
+	"prepTime": "-",
+	"totalTime": "PT45M",
+	"recipeInstructions": {
+		"@type": "CreativeWork",
+		"url" : "http://www.vegrecipesofindia.com/dhingri-dolma-recipe-awadhi-mushroom-paneer-recipe/"
+	}, 
+	"recipeIngredient": [
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "of button mushrooms",
+				"ingridientFullName" : "200 gms of button mushrooms"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "gms",
+				"value" : "200"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=of+button+mushrooms"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "paneer (cottage cheese)",
+				"ingridientFullName" : "175 gms paneer (cottage cheese)"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "gms",
+				"value" : "175"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=paneer+(cottage+cheese)"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "shahjeera (black cumin seeds/caraway seeds)",
+				"ingridientFullName" : "½ tsp shahjeera (black cumin seeds/caraway seeds)"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tsp",
+				"value" : "½"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=shahjeera+(black+cumin+seeds/caraway+seeds)"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "onion",
+				"ingridientFullName" : "1 onion"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pcs",
+				"value" : "1"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=onion"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "tomato",
+				"ingridientFullName" : "1 tomato"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "pcs",
+				"value" : "1"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=tomato"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "ginger",
+				"ingridientFullName" : "½ inch ginger"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "inch",
+				"value" : "½"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=ginger"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "2 tsp ginger garlic paste",
+				"ingridientFullName" : "1 or 2 tsp ginger garlic paste"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "or",
+				"value" : "1"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=2+tsp+ginger+garlic+paste"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "white pepper powder ( as an alternative you can use black pepper powder as i have done)",
+				"ingridientFullName" : "½ tsp white pepper powder ( as an alternative you can use black pepper powder as i have done)"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tsp",
+				"value" : "½"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=white+pepper+powder+(+as+an+alternative+you+can+use+black+pepper+powder+as+i+have+done)"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "red chili powder",
+				"ingridientFullName" : "¼ tsp red chili powder"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tsp",
+				"value" : "¼"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=red+chili+powder"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "garam masala powder",
+				"ingridientFullName" : "¼ tsp garam masala powder"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tsp",
+				"value" : "¼"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=garam+masala+powder"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "coriander leaves/cilantro leaves",
+				"ingridientFullName" : "¼ cup coriander leaves/cilantro leaves"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "cup",
+				"value" : "¼"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=coriander+leaves/cilantro+leaves"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "ghee or oil",
+				"ingridientFullName" : "2 tbsp ghee or oil"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tbsp",
+				"value" : "2"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=ghee+or+oil"
+			}
+		},
+		{
+ 			"@type" : "IngredientAddition",
+			"ingredientName" : {
+				"@type" : "Ingredient",
+				"name" : "ghee or oil",
+				"ingridientFullName" : "Salt"
+ 			},
+ 			"ingridientAmount" : {
+				"@type" : "QuantitativeValue",
+				"unitText" : "tbsp",
+				"value" : "2"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=ghee+or+oil"
+			}
+		}
+	] 
+}
+]

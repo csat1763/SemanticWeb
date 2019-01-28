@@ -17,11 +17,14 @@
 	<input type="submit" value="Search" (click)="search()" />
 </div>
 <div *ngFor="let recipe of results">
-	<a href="{{recipe.sameAs}}">{{recipe.name}}</a>
+	<h2><a href="{{recipe.sameAs}}">{{recipe.name}}</a></h2>
 	<ul>
 		<li *ngFor="let ingredient of recipe.recipeIngredient">{{ingredient.ingredientName.ingridientFullName}}</li>
 	</ul>
 	<img src="{{recipe.image.contentUrl}}">
+	<ul>
+		<li *ngFor="let keyword of recipe.keywords">{{keyword}}</li>
+	</ul>
 
 </div>
 <router-outlet></router-outlet>

@@ -592,17 +592,17 @@
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
 				"@type" : "Ingredient",
-				"name" : "light muscovado sugar",
-				"ingridientFullName" : "? lime  juice only"
+				"name" : "juice only",
+				"ingridientFullName" : "½ lime  juice only"
  			},
  			"ingridientAmount" : {
 				"@type" : "QuantitativeValue",
-				"unitText" : "tsp",
-				"value" : "2"
+				"unitText" : "lime",
+				"value" : "½"
 			}			,
 			"potentialAction" : {
 				"@type": "SearchAction",
-				"target": "https://www.freshdirect.com/srch.jsp?searchParams=light+muscovado+sugar"
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=juice+only"
 			}
 		},
 		{
@@ -627,7 +627,7 @@
 			"ingredientName" : {
 				"@type" : "Ingredient",
 				"name" : "thai fish sauce or light soy sauce",
-				"ingridientFullName" : "800g/1?lb lean pork (fillets are particularly tender or you could use pork steaks or thick boneless chops)"
+				"ingridientFullName" : "800g/1¾lb lean pork (fillets are particularly tender or you could use pork steaks or thick boneless chops)"
  			},
  			"ingridientAmount" : {
 				"@type" : "QuantitativeValue",
@@ -712,7 +712,7 @@
 			"ingredientName" : {
 				"@type" : "Ingredient",
 				"name" : "null",
-				"ingridientFullName" : "Chicken stock : 1? cup"
+				"ingridientFullName" : "Chicken stock : 1½ cup"
  			},
  			"ingridientAmount" : {
 				"@type" : "QuantitativeValue",
@@ -777,7 +777,7 @@
 			"ingredientName" : {
 				"@type" : "Ingredient",
 				"name" : "null",
-				"ingridientFullName" : "Thai bird?s eye chili : 3-4 fresh red color"
+				"ingridientFullName" : "Thai bird’s eye chili : 3-4 fresh red color"
  			},
  			"ingridientAmount" : {
 				"@type" : "QuantitativeValue",
@@ -803,7 +803,7 @@
 			"ingredientName" : {
 				"@type" : "Ingredient",
 				"name" : "null",
-				"ingridientFullName" : "Coconut milk : ? cup"
+				"ingridientFullName" : "Coconut milk : ½ cup"
  			},
  			"ingridientAmount" : {
 				"@type" : "QuantitativeValue",
@@ -1032,39 +1032,51 @@
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
 				"@type" : "Ingredient",
-				"name" : "null",
-				"ingridientFullName" : "2? cups canned unsweetened coconut milk"
+				"name" : "canned unsweetened coconut milk",
+				"ingridientFullName" : "2½ cups canned unsweetened coconut milk"
  			},
  			"ingridientAmount" : {
 				"@type" : "QuantitativeValue",
-				"unitText" : "null",
-				"value" : "null"
+				"unitText" : "cups",
+				"value" : "2½"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=canned+unsweetened+coconut+milk"
 			}
 		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
 				"@type" : "Ingredient",
-				"name" : "null",
-				"ingridientFullName" : "? cup Thai red curry paste  such as Mae Ploy brand"
+				"name" : "Thai red curry paste  such as Mae Ploy brand",
+				"ingridientFullName" : "¼ cup Thai red curry paste  such as Mae Ploy brand"
  			},
  			"ingridientAmount" : {
 				"@type" : "QuantitativeValue",
-				"unitText" : "null",
-				"value" : "null"
+				"unitText" : "cup",
+				"value" : "¼"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=Thai+red+curry+paste++such+as+Mae+Ploy+brand"
 			}
 		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
 				"@type" : "Ingredient",
-				"name" : "null",
-				"ingridientFullName" : "? Chinese roasted duck  cut into 2 pieces"
+				"name" : "roasted duck  cut into 2 pieces",
+				"ingridientFullName" : "½ Chinese roasted duck  cut into 2 pieces"
  			},
  			"ingridientAmount" : {
 				"@type" : "QuantitativeValue",
-				"unitText" : "null",
-				"value" : "null"
+				"unitText" : "Chinese",
+				"value" : "½"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=roasted+duck++cut+into+2+pieces"
 			}
 		},
 		{
@@ -1105,17 +1117,17 @@
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
 				"@type" : "Ingredient",
-				"name" : "fresh pineapple  peeled  cored  and cut into 1 chunks",
-				"ingridientFullName" : "1? tbsp. fish sauce"
+				"name" : "fish sauce",
+				"ingridientFullName" : "1½ tbsp. fish sauce"
  			},
  			"ingridientAmount" : {
 				"@type" : "QuantitativeValue",
-				"unitText" : "cup",
-				"value" : "1"
+				"unitText" : "tbsp.",
+				"value" : "1½"
 			}			,
 			"potentialAction" : {
 				"@type": "SearchAction",
-				"target": "https://www.freshdirect.com/srch.jsp?searchParams=fresh+pineapple++peeled++cored++and+cut+into+1+chunks"
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=fish+sauce"
 			}
 		},
 		{
@@ -1820,7 +1832,7 @@
 			"ingredientName" : {
 				"@type" : "Ingredient",
 				"name" : "shallot",
-				"ingridientFullName" : "6 red Bird?s eye chillies"
+				"ingridientFullName" : "6 red Bird’s eye chillies"
  			},
  			"ingridientAmount" : {
 				"@type" : "QuantitativeValue",
@@ -1836,34 +1848,34 @@
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
 				"@type" : "Ingredient",
-				"name" : "shallot",
-				"ingridientFullName" : "? a bunch of fresh coriander"
+				"name" : "bunch of fresh coriander",
+				"ingridientFullName" : "½ a bunch of fresh coriander"
  			},
  			"ingridientAmount" : {
 				"@type" : "QuantitativeValue",
-				"unitText" : "pcs",
-				"value" : "1"
+				"unitText" : "a",
+				"value" : "½"
 			}			,
 			"potentialAction" : {
 				"@type": "SearchAction",
-				"target": "https://www.freshdirect.com/srch.jsp?searchParams=shallot"
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=bunch+of+fresh+coriander"
 			}
 		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
 				"@type" : "Ingredient",
-				"name" : "shallot",
+				"name" : "bunch of fresh coriander",
 				"ingridientFullName" : "olive oil"
  			},
  			"ingridientAmount" : {
 				"@type" : "QuantitativeValue",
-				"unitText" : "pcs",
-				"value" : "1"
+				"unitText" : "a",
+				"value" : "½"
 			}			,
 			"potentialAction" : {
 				"@type": "SearchAction",
-				"target": "https://www.freshdirect.com/srch.jsp?searchParams=shallot"
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=bunch+of+fresh+coriander"
 			}
 		},
 		{
@@ -2006,17 +2018,17 @@
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
 				"@type" : "Ingredient",
-				"name" : "firm tofu",
-				"ingridientFullName" : "? cup chopped fresh Thai basil (optional)"
+				"name" : "chopped fresh Thai basil (optional)",
+				"ingridientFullName" : "¼ cup chopped fresh Thai basil (optional)"
  			},
  			"ingridientAmount" : {
 				"@type" : "QuantitativeValue",
-				"unitText" : "ounces",
-				"value" : "8"
+				"unitText" : "cup",
+				"value" : "¼"
 			}			,
 			"potentialAction" : {
 				"@type": "SearchAction",
-				"target": "https://www.freshdirect.com/srch.jsp?searchParams=firm+tofu"
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=chopped+fresh+Thai+basil+(optional)"
 			}
 		},
 		{
@@ -2125,17 +2137,17 @@
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
 				"@type" : "Ingredient",
-				"name" : "6 Thai chiles   stems removed  chopped",
-				"ingridientFullName" : "? pound dried rice stick noodles (ban pho noodles)  available in Asian markets"
+				"name" : "dried rice stick noodles (ban pho noodles)  available in Asian markets",
+				"ingridientFullName" : "½ pound dried rice stick noodles (ban pho noodles)  available in Asian markets"
  			},
  			"ingridientAmount" : {
 				"@type" : "QuantitativeValue",
-				"unitText" : "to",
-				"value" : "4"
+				"unitText" : "pound",
+				"value" : "½"
 			}			,
 			"potentialAction" : {
 				"@type": "SearchAction",
-				"target": "https://www.freshdirect.com/srch.jsp?searchParams=6+Thai+chiles+++stems+removed++chopped"
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=dried+rice+stick+noodles+(ban+pho+noodles)++available+in+Asian+markets"
 			}
 		},
 		{
@@ -2227,17 +2239,17 @@
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
 				"@type" : "Ingredient",
-				"name" : "thinly sliced",
-				"ingridientFullName" : "? cup chopped peanuts"
+				"name" : "chopped peanuts",
+				"ingridientFullName" : "¼ cup chopped peanuts"
  			},
  			"ingridientAmount" : {
 				"@type" : "QuantitativeValue",
-				"unitText" : "shallots",
-				"value" : "3"
+				"unitText" : "cup",
+				"value" : "¼"
 			}			,
 			"potentialAction" : {
 				"@type": "SearchAction",
-				"target": "https://www.freshdirect.com/srch.jsp?searchParams=thinly+sliced"
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=chopped+peanuts"
 			}
 		}
 	] 
@@ -2397,51 +2409,51 @@
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
 				"@type" : "Ingredient",
-				"name" : "cans unsweetened coconut milk",
-				"ingridientFullName" : "? 12oz can chicken stock"
+				"name" : "can chicken stock",
+				"ingridientFullName" : "½ 12oz can chicken stock"
  			},
  			"ingridientAmount" : {
 				"@type" : "QuantitativeValue",
 				"unitText" : "oz",
-				"value" : "2 15"
+				"value" : "½ 12"
 			}			,
 			"potentialAction" : {
 				"@type": "SearchAction",
-				"target": "https://www.freshdirect.com/srch.jsp?searchParams=cans+unsweetened+coconut+milk"
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=can+chicken+stock"
 			}
 		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
 				"@type" : "Ingredient",
-				"name" : "cans unsweetened coconut milk",
-				"ingridientFullName" : "? stalk lemongrass (or 1 lime  juiced)"
+				"name" : "lemongrass (or 1 lime  juiced)",
+				"ingridientFullName" : "½ stalk lemongrass (or 1 lime  juiced)"
  			},
  			"ingridientAmount" : {
 				"@type" : "QuantitativeValue",
-				"unitText" : "oz",
-				"value" : "2 15"
+				"unitText" : "stalk",
+				"value" : "½"
 			}			,
 			"potentialAction" : {
 				"@type": "SearchAction",
-				"target": "https://www.freshdirect.com/srch.jsp?searchParams=cans+unsweetened+coconut+milk"
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=lemongrass+(or+1+lime++juiced)"
 			}
 		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
 				"@type" : "Ingredient",
-				"name" : "cans unsweetened coconut milk",
-				"ingridientFullName" : "2 ? lb boneless skinless chicken breasts (about 3 large breasts)  cut into strips"
+				"name" : "boneless skinless chicken breasts (about 3 large breasts)  cut into strips",
+				"ingridientFullName" : "2 ½ lb boneless skinless chicken breasts (about 3 large breasts)  cut into strips"
  			},
  			"ingridientAmount" : {
 				"@type" : "QuantitativeValue",
-				"unitText" : "oz",
-				"value" : "2 15"
+				"unitText" : "lb",
+				"value" : "2 ½"
 			}			,
 			"potentialAction" : {
 				"@type": "SearchAction",
-				"target": "https://www.freshdirect.com/srch.jsp?searchParams=cans+unsweetened+coconut+milk"
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=boneless+skinless+chicken+breasts+(about+3+large+breasts)++cut+into+strips"
 			}
 		},
 		{
@@ -3044,7 +3056,7 @@
 			"ingredientName" : {
 				"@type" : "Ingredient",
 				"name" : "null",
-				"ingridientFullName" : "3 Thai bird chiles or 1 jalape?o  seeded and finely diced"
+				"ingridientFullName" : "3 Thai bird chiles or 1 jalapeño  seeded and finely diced"
  			},
  			"ingridientAmount" : {
 				"@type" : "QuantitativeValue",
@@ -3923,17 +3935,17 @@
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
 				"@type" : "Ingredient",
-				"name" : "chicken breast tenders",
-				"ingridientFullName" : "? lb. medium shrimp"
+				"name" : "medium shrimp",
+				"ingridientFullName" : "½ lb. medium shrimp"
  			},
  			"ingridientAmount" : {
 				"@type" : "QuantitativeValue",
-				"unitText" : "oz.",
-				"value" : "8"
+				"unitText" : "lb.",
+				"value" : "½"
 			}			,
 			"potentialAction" : {
 				"@type": "SearchAction",
-				"target": "https://www.freshdirect.com/srch.jsp?searchParams=chicken+breast+tenders"
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=medium+shrimp"
 			}
 		},
 		{
@@ -3957,17 +3969,17 @@
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
 				"@type" : "Ingredient",
-				"name" : "garlic",
-				"ingridientFullName" : "? c. bottled pad thai sauce or thai marinade sauce"
+				"name" : "bottled pad thai sauce or thai marinade sauce",
+				"ingridientFullName" : "½ c. bottled pad thai sauce or thai marinade sauce"
  			},
  			"ingridientAmount" : {
 				"@type" : "QuantitativeValue",
-				"unitText" : "tsp.",
-				"value" : "2"
+				"unitText" : "c.",
+				"value" : "½"
 			}			,
 			"potentialAction" : {
 				"@type": "SearchAction",
-				"target": "https://www.freshdirect.com/srch.jsp?searchParams=garlic"
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=bottled+pad+thai+sauce+or+thai+marinade+sauce"
 			}
 		},
 		{
@@ -4042,51 +4054,51 @@
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
 				"@type" : "Ingredient",
-				"name" : "scallions",
-				"ingridientFullName" : "? c. fresh cilantro leaves"
+				"name" : "fresh cilantro leaves",
+				"ingridientFullName" : "¼ c. fresh cilantro leaves"
  			},
  			"ingridientAmount" : {
 				"@type" : "QuantitativeValue",
-				"unitText" : "pcs",
-				"value" : "5"
+				"unitText" : "c.",
+				"value" : "¼"
 			}			,
 			"potentialAction" : {
 				"@type": "SearchAction",
-				"target": "https://www.freshdirect.com/srch.jsp?searchParams=scallions"
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=fresh+cilantro+leaves"
 			}
 		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
 				"@type" : "Ingredient",
-				"name" : "scallions",
-				"ingridientFullName" : "? c. salted roasted peanuts"
+				"name" : "salted roasted peanuts",
+				"ingridientFullName" : "¼ c. salted roasted peanuts"
  			},
  			"ingridientAmount" : {
 				"@type" : "QuantitativeValue",
-				"unitText" : "pcs",
-				"value" : "5"
+				"unitText" : "c.",
+				"value" : "¼"
 			}			,
 			"potentialAction" : {
 				"@type": "SearchAction",
-				"target": "https://www.freshdirect.com/srch.jsp?searchParams=scallions"
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=salted+roasted+peanuts"
 			}
 		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
 				"@type" : "Ingredient",
-				"name" : "scallions",
+				"name" : "salted roasted peanuts",
 				"ingridientFullName" : "Lime wedges"
  			},
  			"ingridientAmount" : {
 				"@type" : "QuantitativeValue",
-				"unitText" : "pcs",
-				"value" : "5"
+				"unitText" : "c.",
+				"value" : "¼"
 			}			,
 			"potentialAction" : {
 				"@type": "SearchAction",
-				"target": "https://www.freshdirect.com/srch.jsp?searchParams=scallions"
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=salted+roasted+peanuts"
 			}
 		}
 	] 
@@ -4757,7 +4769,7 @@
 			"ingredientName" : {
 				"@type" : "Ingredient",
 				"name" : "canola oil",
-				"ingridientFullName" : "3 tbsp red thai curry paste (not sauce?paste)"
+				"ingridientFullName" : "3 tbsp red thai curry paste (not sauce…paste)"
  			},
  			"ingridientAmount" : {
 				"@type" : "QuantitativeValue",
@@ -4910,7 +4922,7 @@
 			"ingredientName" : {
 				"@type" : "Ingredient",
 				"name" : "null",
-				"ingridientFullName" : "1 14-ounce can ?lite? coconut milk  divided"
+				"ingridientFullName" : "1 14-ounce can “lite” coconut milk  divided"
  			},
  			"ingridientAmount" : {
 				"@type" : "QuantitativeValue",
@@ -6466,7 +6478,7 @@
 			"ingredientName" : {
 				"@type" : "Ingredient",
 				"name" : "brown sugar 150g (5oz) sugar snap peas",
-				"ingridientFullName" : "100 g (31?2oz) baby corn  sliced lengthways"
+				"ingridientFullName" : "100 g (31⁄2oz) baby corn  sliced lengthways"
  			},
  			"ingridientAmount" : {
 				"@type" : "QuantitativeValue",
@@ -6483,7 +6495,7 @@
 			"ingredientName" : {
 				"@type" : "Ingredient",
 				"name" : "brown sugar 150g (5oz) sugar snap peas",
-				"ingridientFullName" : "3?4 fish fillets (600g/1lb 5oz in total)  cut into 2.5cm (1in) cubes"
+				"ingridientFullName" : "3–4 fish fillets (600g/1lb 5oz in total)  cut into 2.5cm (1in) cubes"
  			},
  			"ingridientAmount" : {
 				"@type" : "QuantitativeValue",
@@ -7040,7 +7052,7 @@
 			"ingredientName" : {
 				"@type" : "Ingredient",
 				"name" : "boxes of frozen baby peas",
-				"ingridientFullName" : "Some or all of one thai bird?s-eye pepper  minced"
+				"ingridientFullName" : "Some or all of one thai bird’s-eye pepper  minced"
  			},
  			"ingridientAmount" : {
 				"@type" : "QuantitativeValue",
@@ -7107,17 +7119,17 @@
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
 				"@type" : "Ingredient",
-				"name" : "zest one and reserve the zest",
-				"ingridientFullName" : "? can of full fat coconut milk. i like thai kitchen brand."
+				"name" : "of full fat coconut milk. i like thai kitchen brand.",
+				"ingridientFullName" : "½ can of full fat coconut milk. i like thai kitchen brand."
  			},
  			"ingridientAmount" : {
 				"@type" : "QuantitativeValue",
-				"unitText" : "limes",
-				"value" : "2"
+				"unitText" : "can",
+				"value" : "½"
 			}			,
 			"potentialAction" : {
 				"@type": "SearchAction",
-				"target": "https://www.freshdirect.com/srch.jsp?searchParams=zest+one+and+reserve+the+zest"
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=of+full+fat+coconut+milk.+i+like+thai+kitchen+brand."
 			}
 		},
 		{
@@ -8341,7 +8353,7 @@
 			"ingredientName" : {
 				"@type" : "Ingredient",
 				"name" : "thighs  skin and bones removed  meat cut into strips",
-				"ingridientFullName" : "1 x 400ml/14?fl oz can coconut milk"
+				"ingridientFullName" : "1 x 400ml/14½fl oz can coconut milk"
  			},
  			"ingridientAmount" : {
 				"@type" : "QuantitativeValue",
@@ -9016,52 +9028,68 @@
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
 				"@type" : "Ingredient",
-				"name" : "null",
-				"ingridientFullName" : "? cup Thai tea powder"
+				"name" : "Thai tea powder",
+				"ingridientFullName" : "¾ cup Thai tea powder"
  			},
  			"ingridientAmount" : {
 				"@type" : "QuantitativeValue",
-				"unitText" : "null",
-				"value" : "null"
+				"unitText" : "cup",
+				"value" : "¾"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=Thai+tea+powder"
 			}
 		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
 				"@type" : "Ingredient",
-				"name" : "null",
-				"ingridientFullName" : "? cup sugar"
+				"name" : "sugar",
+				"ingridientFullName" : "¾ cup sugar"
  			},
  			"ingridientAmount" : {
 				"@type" : "QuantitativeValue",
-				"unitText" : "null",
-				"value" : "null"
+				"unitText" : "cup",
+				"value" : "¾"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=sugar"
 			}
 		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
 				"@type" : "Ingredient",
-				"name" : "null",
-				"ingridientFullName" : "1 to 1? cups evaporated milk or half-and-half (3 to 4 tablespoons per glass)"
+				"name" : "sugar",
+				"ingridientFullName" : "1 to 1½ cups evaporated milk or half-and-half (3 to 4 tablespoons per glass)"
  			},
  			"ingridientAmount" : {
 				"@type" : "QuantitativeValue",
-				"unitText" : "null",
-				"value" : "null"
+				"unitText" : "cup",
+				"value" : "¾"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=sugar"
 			}
 		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
 				"@type" : "Ingredient",
-				"name" : "null",
-				"ingridientFullName" : "4? cups water"
+				"name" : "water",
+				"ingridientFullName" : "4½ cups water"
  			},
  			"ingridientAmount" : {
 				"@type" : "QuantitativeValue",
-				"unitText" : "null",
-				"value" : "null"
+				"unitText" : "cups",
+				"value" : "4½"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=water"
 			}
 		}
 	] 
@@ -9829,17 +9857,17 @@
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
 				"@type" : "Ingredient",
-				"name" : "fresh lemon juice",
-				"ingridientFullName" : "? cup fish sauce"
+				"name" : "fish sauce",
+				"ingridientFullName" : "½ cup fish sauce"
  			},
  			"ingridientAmount" : {
 				"@type" : "QuantitativeValue",
-				"unitText" : "cups",
-				"value" : "2"
+				"unitText" : "cup",
+				"value" : "½"
 			}			,
 			"potentialAction" : {
 				"@type": "SearchAction",
-				"target": "https://www.freshdirect.com/srch.jsp?searchParams=fresh+lemon+juice"
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=fish+sauce"
 			}
 		}
 	] 
@@ -10068,7 +10096,7 @@
 			"ingredientName" : {
 				"@type" : "Ingredient",
 				"name" : "bell pepper",
-				"ingridientFullName" : "3 fresh jalape?o or serrano chiles"
+				"ingridientFullName" : "3 fresh jalapeño or serrano chiles"
  			},
  			"ingridientAmount" : {
 				"@type" : "QuantitativeValue",
@@ -10101,34 +10129,34 @@
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
 				"@type" : "Ingredient",
-				"name" : "minced garlic",
-				"ingridientFullName" : "1? c. roasted shredded chicken"
+				"name" : "roasted shredded chicken",
+				"ingridientFullName" : "1½ c. roasted shredded chicken"
  			},
  			"ingridientAmount" : {
 				"@type" : "QuantitativeValue",
-				"unitText" : "tsp.",
-				"value" : "2"
+				"unitText" : "c.",
+				"value" : "1½"
 			}			,
 			"potentialAction" : {
 				"@type": "SearchAction",
-				"target": "https://www.freshdirect.com/srch.jsp?searchParams=minced+garlic"
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=roasted+shredded+chicken"
 			}
 		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
 				"@type" : "Ingredient",
-				"name" : "minced garlic",
-				"ingridientFullName" : "? c. pad thai sauce"
+				"name" : "roasted shredded chicken",
+				"ingridientFullName" : "⅓ c. pad thai sauce"
  			},
  			"ingridientAmount" : {
 				"@type" : "QuantitativeValue",
-				"unitText" : "tsp.",
-				"value" : "2"
+				"unitText" : "c.",
+				"value" : "1½"
 			}			,
 			"potentialAction" : {
 				"@type": "SearchAction",
-				"target": "https://www.freshdirect.com/srch.jsp?searchParams=minced+garlic"
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=roasted+shredded+chicken"
 			}
 		},
 		{
@@ -10203,51 +10231,51 @@
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
 				"@type" : "Ingredient",
-				"name" : "scallions",
-				"ingridientFullName" : "? c. fresh cilantro leaves"
+				"name" : "fresh cilantro leaves",
+				"ingridientFullName" : "¼ c. fresh cilantro leaves"
  			},
  			"ingridientAmount" : {
 				"@type" : "QuantitativeValue",
-				"unitText" : "pcs",
-				"value" : "2"
+				"unitText" : "c.",
+				"value" : "¼"
 			}			,
 			"potentialAction" : {
 				"@type": "SearchAction",
-				"target": "https://www.freshdirect.com/srch.jsp?searchParams=scallions"
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=fresh+cilantro+leaves"
 			}
 		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
 				"@type" : "Ingredient",
-				"name" : "scallions",
-				"ingridientFullName" : "? c. dry-roasted peanuts"
+				"name" : "dry-roasted peanuts",
+				"ingridientFullName" : "¼ c. dry-roasted peanuts"
  			},
  			"ingridientAmount" : {
 				"@type" : "QuantitativeValue",
-				"unitText" : "pcs",
-				"value" : "2"
+				"unitText" : "c.",
+				"value" : "¼"
 			}			,
 			"potentialAction" : {
 				"@type": "SearchAction",
-				"target": "https://www.freshdirect.com/srch.jsp?searchParams=scallions"
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=dry-roasted+peanuts"
 			}
 		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
 				"@type" : "Ingredient",
-				"name" : "scallions",
+				"name" : "dry-roasted peanuts",
 				"ingridientFullName" : "Lime wedges"
  			},
  			"ingridientAmount" : {
 				"@type" : "QuantitativeValue",
-				"unitText" : "pcs",
-				"value" : "2"
+				"unitText" : "c.",
+				"value" : "¼"
 			}			,
 			"potentialAction" : {
 				"@type": "SearchAction",
-				"target": "https://www.freshdirect.com/srch.jsp?searchParams=scallions"
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=dry-roasted+peanuts"
 			}
 		}
 	] 
@@ -10408,7 +10436,7 @@
 			"ingredientName" : {
 				"@type" : "Ingredient",
 				"name" : "canola oil",
-				"ingridientFullName" : "3 tbsp red thai curry paste (not sauce?paste)"
+				"ingridientFullName" : "3 tbsp red thai curry paste (not sauce…paste)"
  			},
  			"ingridientAmount" : {
 				"@type" : "QuantitativeValue",
@@ -11202,51 +11230,51 @@
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
 				"@type" : "Ingredient",
-				"name" : "sprig fresh Thai basil or regular basil",
-				"ingridientFullName" : "? lime   cut into 4 wedges"
+				"name" : "cut into 4 wedges",
+				"ingridientFullName" : "½ lime   cut into 4 wedges"
  			},
  			"ingridientAmount" : {
 				"@type" : "QuantitativeValue",
-				"unitText" : "small",
-				"value" : "1"
+				"unitText" : "lime",
+				"value" : "½"
 			}			,
 			"potentialAction" : {
 				"@type": "SearchAction",
-				"target": "https://www.freshdirect.com/srch.jsp?searchParams=sprig+fresh+Thai+basil+or+regular+basil"
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=cut+into+4+wedges"
 			}
 		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
 				"@type" : "Ingredient",
-				"name" : "sprig fresh Thai basil or regular basil",
-				"ingridientFullName" : "? ounce Triple Sec"
+				"name" : "Triple Sec",
+				"ingridientFullName" : "½ ounce Triple Sec"
  			},
  			"ingridientAmount" : {
 				"@type" : "QuantitativeValue",
-				"unitText" : "small",
-				"value" : "1"
+				"unitText" : "ounce",
+				"value" : "½"
 			}			,
 			"potentialAction" : {
 				"@type": "SearchAction",
-				"target": "https://www.freshdirect.com/srch.jsp?searchParams=sprig+fresh+Thai+basil+or+regular+basil"
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=Triple+Sec"
 			}
 		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
 				"@type" : "Ingredient",
-				"name" : "sprig fresh Thai basil or regular basil",
-				"ingridientFullName" : "? ounce vodka"
+				"name" : "vodka",
+				"ingridientFullName" : "¾ ounce vodka"
  			},
  			"ingridientAmount" : {
 				"@type" : "QuantitativeValue",
-				"unitText" : "small",
-				"value" : "1"
+				"unitText" : "ounce",
+				"value" : "¾"
 			}			,
 			"potentialAction" : {
 				"@type": "SearchAction",
-				"target": "https://www.freshdirect.com/srch.jsp?searchParams=sprig+fresh+Thai+basil+or+regular+basil"
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=vodka"
 			}
 		}
 	] 
@@ -11823,13 +11851,17 @@
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
 				"@type" : "Ingredient",
-				"name" : "null",
-				"ingridientFullName" : "? c. cream of coconut (such as Coco Goya)"
+				"name" : "cream of coconut (such as Coco Goya)",
+				"ingridientFullName" : "½ c. cream of coconut (such as Coco Goya)"
  			},
  			"ingridientAmount" : {
 				"@type" : "QuantitativeValue",
-				"unitText" : "null",
-				"value" : "null"
+				"unitText" : "c.",
+				"value" : "½"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=cream+of+coconut+(such+as+Coco+Goya)"
 			}
 		},
 		{
@@ -12109,7 +12141,7 @@
 			"ingredientName" : {
 				"@type" : "Ingredient",
 				"name" : "ground chicken or turkey",
-				"ingridientFullName" : "? c. cooked jasmine rice (like Uncle Ben?s Ready Rice)"
+				"ingridientFullName" : "½ c. cooked jasmine rice (like Uncle Ben’s Ready Rice)"
  			},
  			"ingridientAmount" : {
 				"@type" : "QuantitativeValue",
@@ -12210,17 +12242,17 @@
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
 				"@type" : "Ingredient",
-				"name" : "tender lemongrass",
-				"ingridientFullName" : "? c. Chopped cilantro"
+				"name" : "Chopped cilantro",
+				"ingridientFullName" : "¼ c. Chopped cilantro"
  			},
  			"ingridientAmount" : {
 				"@type" : "QuantitativeValue",
-				"unitText" : "stalk",
-				"value" : "1"
+				"unitText" : "c.",
+				"value" : "¼"
 			}			,
 			"potentialAction" : {
 				"@type": "SearchAction",
-				"target": "https://www.freshdirect.com/srch.jsp?searchParams=tender+lemongrass"
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=Chopped+cilantro"
 			}
 		},
 		{
@@ -12245,7 +12277,7 @@
 			"ingredientName" : {
 				"@type" : "Ingredient",
 				"name" : "shallot",
-				"ingridientFullName" : "2 red Fresno or jalape?o chiles"
+				"ingridientFullName" : "2 red Fresno or jalapeño chiles"
  			},
  			"ingridientAmount" : {
 				"@type" : "QuantitativeValue",
@@ -12431,17 +12463,17 @@
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
 				"@type" : "Ingredient",
-				"name" : "vegetable or chicken stock",
-				"ingridientFullName" : "? small bunch coriander   roughly chopped"
+				"name" : "bunch coriander   roughly chopped",
+				"ingridientFullName" : "½ small bunch coriander   roughly chopped"
  			},
  			"ingridientAmount" : {
 				"@type" : "QuantitativeValue",
-				"unitText" : "ml",
-				"value" : "200.0"
+				"unitText" : "small",
+				"value" : "½"
 			}			,
 			"potentialAction" : {
 				"@type": "SearchAction",
-				"target": "https://www.freshdirect.com/srch.jsp?searchParams=vegetable+or+chicken+stock"
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=bunch+coriander+++roughly+chopped"
 			}
 		},
 		{
@@ -12839,34 +12871,34 @@
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
 				"@type" : "Ingredient",
-				"name" : "garlic clove  minced",
-				"ingridientFullName" : "1? tbsp Thai red curry paste"
+				"name" : "Thai red curry paste",
+				"ingridientFullName" : "1½ tbsp Thai red curry paste"
  			},
  			"ingridientAmount" : {
 				"@type" : "QuantitativeValue",
-				"unitText" : "large",
-				"value" : "1"
+				"unitText" : "tbsp",
+				"value" : "1½"
 			}			,
 			"potentialAction" : {
 				"@type": "SearchAction",
-				"target": "https://www.freshdirect.com/srch.jsp?searchParams=garlic+clove++minced"
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=Thai+red+curry+paste"
 			}
 		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
 				"@type" : "Ingredient",
-				"name" : "garlic clove  minced",
-				"ingridientFullName" : "1? tbsp Asian fish sauce"
+				"name" : "Asian fish sauce",
+				"ingridientFullName" : "1½ tbsp Asian fish sauce"
  			},
  			"ingridientAmount" : {
 				"@type" : "QuantitativeValue",
-				"unitText" : "large",
-				"value" : "1"
+				"unitText" : "tbsp",
+				"value" : "1½"
 			}			,
 			"potentialAction" : {
 				"@type": "SearchAction",
-				"target": "https://www.freshdirect.com/srch.jsp?searchParams=garlic+clove++minced"
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=Asian+fish+sauce"
 			}
 		},
 		{
@@ -12975,17 +13007,17 @@
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
 				"@type" : "Ingredient",
-				"name" : "shredded Thai basil leaves",
-				"ingridientFullName" : "? onion   thinly sliced"
+				"name" : "thinly sliced",
+				"ingridientFullName" : "½ onion   thinly sliced"
  			},
  			"ingridientAmount" : {
 				"@type" : "QuantitativeValue",
-				"unitText" : "tbsp",
-				"value" : "3"
+				"unitText" : "onion",
+				"value" : "½"
 			}			,
 			"potentialAction" : {
 				"@type": "SearchAction",
-				"target": "https://www.freshdirect.com/srch.jsp?searchParams=shredded+Thai+basil+leaves"
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=thinly+sliced"
 			}
 		},
 		{
@@ -13740,39 +13772,51 @@
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
 				"@type" : "Ingredient",
-				"name" : "null",
-				"ingridientFullName" : "2? lb. bone-in skinless chicken thighs"
+				"name" : "bone-in skinless chicken thighs",
+				"ingridientFullName" : "2½ lb. bone-in skinless chicken thighs"
  			},
  			"ingridientAmount" : {
 				"@type" : "QuantitativeValue",
-				"unitText" : "null",
-				"value" : "null"
+				"unitText" : "lb.",
+				"value" : "2½"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=bone-in+skinless+chicken+thighs"
 			}
 		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
 				"@type" : "Ingredient",
-				"name" : "null",
-				"ingridientFullName" : "? tsp. salt"
+				"name" : "salt",
+				"ingridientFullName" : "½ tsp. salt"
  			},
  			"ingridientAmount" : {
 				"@type" : "QuantitativeValue",
-				"unitText" : "null",
-				"value" : "null"
+				"unitText" : "tsp.",
+				"value" : "½"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=salt"
 			}
 		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
 				"@type" : "Ingredient",
-				"name" : "null",
-				"ingridientFullName" : "? tsp. pepper"
+				"name" : "pepper",
+				"ingridientFullName" : "½ tsp. pepper"
  			},
  			"ingridientAmount" : {
 				"@type" : "QuantitativeValue",
-				"unitText" : "null",
-				"value" : "null"
+				"unitText" : "tsp.",
+				"value" : "½"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=pepper"
 			}
 		},
 		{
@@ -13796,17 +13840,17 @@
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
 				"@type" : "Ingredient",
-				"name" : "Thai red curry paste",
-				"ingridientFullName" : "? tsp. freshly grated lime peel"
+				"name" : "freshly grated lime peel",
+				"ingridientFullName" : "½ tsp. freshly grated lime peel"
  			},
  			"ingridientAmount" : {
 				"@type" : "QuantitativeValue",
-				"unitText" : "tbsp.",
-				"value" : "1"
+				"unitText" : "tsp.",
+				"value" : "½"
 			}			,
 			"potentialAction" : {
 				"@type": "SearchAction",
-				"target": "https://www.freshdirect.com/srch.jsp?searchParams=Thai+red+curry+paste"
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=freshly+grated+lime+peel"
 			}
 		},
 		{
@@ -13830,17 +13874,17 @@
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
 				"@type" : "Ingredient",
-				"name" : "coconut milk",
-				"ingridientFullName" : "? c. peanut butter"
+				"name" : "peanut butter",
+				"ingridientFullName" : "¼ c. peanut butter"
  			},
  			"ingridientAmount" : {
 				"@type" : "QuantitativeValue",
-				"unitText" : "can",
-				"value" : "1"
+				"unitText" : "c.",
+				"value" : "¼"
 			}			,
 			"potentialAction" : {
 				"@type": "SearchAction",
-				"target": "https://www.freshdirect.com/srch.jsp?searchParams=coconut+milk"
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=peanut+butter"
 			}
 		},
 		{
@@ -14323,68 +14367,68 @@
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
 				"@type" : "Ingredient",
-				"name" : "flat rice noodles",
-				"ingridientFullName" : "1? tbsp. skin-on peanuts"
+				"name" : "skin-on peanuts",
+				"ingridientFullName" : "1½ tbsp. skin-on peanuts"
  			},
  			"ingridientAmount" : {
 				"@type" : "QuantitativeValue",
-				"unitText" : "oz.",
-				"value" : "2"
+				"unitText" : "tbsp.",
+				"value" : "1½"
 			}			,
 			"potentialAction" : {
 				"@type": "SearchAction",
-				"target": "https://www.freshdirect.com/srch.jsp?searchParams=flat+rice+noodles"
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=skin-on+peanuts"
 			}
 		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
 				"@type" : "Ingredient",
-				"name" : "flat rice noodles",
-				"ingridientFullName" : "? c. tamarind concentrate"
+				"name" : "tamarind concentrate",
+				"ingridientFullName" : "¼ c. tamarind concentrate"
  			},
  			"ingridientAmount" : {
 				"@type" : "QuantitativeValue",
-				"unitText" : "oz.",
-				"value" : "2"
+				"unitText" : "c.",
+				"value" : "¼"
 			}			,
 			"potentialAction" : {
 				"@type": "SearchAction",
-				"target": "https://www.freshdirect.com/srch.jsp?searchParams=flat+rice+noodles"
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=tamarind+concentrate"
 			}
 		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
 				"@type" : "Ingredient",
-				"name" : "flat rice noodles",
-				"ingridientFullName" : "? c. Asian fish sauce"
+				"name" : "Asian fish sauce",
+				"ingridientFullName" : "¼ c. Asian fish sauce"
  			},
  			"ingridientAmount" : {
 				"@type" : "QuantitativeValue",
-				"unitText" : "oz.",
-				"value" : "2"
+				"unitText" : "c.",
+				"value" : "¼"
 			}			,
 			"potentialAction" : {
 				"@type": "SearchAction",
-				"target": "https://www.freshdirect.com/srch.jsp?searchParams=flat+rice+noodles"
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=Asian+fish+sauce"
 			}
 		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
 				"@type" : "Ingredient",
-				"name" : "flat rice noodles",
-				"ingridientFullName" : "1? oz. palm sugar"
+				"name" : "palm sugar",
+				"ingridientFullName" : "1½ oz. palm sugar"
  			},
  			"ingridientAmount" : {
 				"@type" : "QuantitativeValue",
 				"unitText" : "oz.",
-				"value" : "2"
+				"value" : "1½"
 			}			,
 			"potentialAction" : {
 				"@type": "SearchAction",
-				"target": "https://www.freshdirect.com/srch.jsp?searchParams=flat+rice+noodles"
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=palm+sugar"
 			}
 		},
 		{
@@ -14408,34 +14452,34 @@
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
 				"@type" : "Ingredient",
-				"name" : "distilled white vinegar",
-				"ingridientFullName" : "? tsp. shrimp paste in oil"
+				"name" : "shrimp paste in oil",
+				"ingridientFullName" : "¼ tsp. shrimp paste in oil"
  			},
  			"ingridientAmount" : {
 				"@type" : "QuantitativeValue",
-				"unitText" : "tbsp.",
-				"value" : "1"
+				"unitText" : "tsp.",
+				"value" : "¼"
 			}			,
 			"potentialAction" : {
 				"@type": "SearchAction",
-				"target": "https://www.freshdirect.com/srch.jsp?searchParams=distilled+white+vinegar"
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=shrimp+paste+in+oil"
 			}
 		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
 				"@type" : "Ingredient",
-				"name" : "distilled white vinegar",
-				"ingridientFullName" : "? tsp. Thai chile powder"
+				"name" : "Thai chile powder",
+				"ingridientFullName" : "¼ tsp. Thai chile powder"
  			},
  			"ingridientAmount" : {
 				"@type" : "QuantitativeValue",
-				"unitText" : "tbsp.",
-				"value" : "1"
+				"unitText" : "tsp.",
+				"value" : "¼"
 			}			,
 			"potentialAction" : {
 				"@type": "SearchAction",
-				"target": "https://www.freshdirect.com/srch.jsp?searchParams=distilled+white+vinegar"
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=Thai+chile+powder"
 			}
 		},
 		{
@@ -14731,17 +14775,17 @@
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
 				"@type" : "Ingredient",
-				"name" : "fresh or frozen raw shrimp",
-				"ingridientFullName" : "? c. fresh lime juice"
+				"name" : "fresh lime juice",
+				"ingridientFullName" : "¼ c. fresh lime juice"
  			},
  			"ingridientAmount" : {
 				"@type" : "QuantitativeValue",
-				"unitText" : "oz.",
-				"value" : "12"
+				"unitText" : "c.",
+				"value" : "¼"
 			}			,
 			"potentialAction" : {
 				"@type": "SearchAction",
-				"target": "https://www.freshdirect.com/srch.jsp?searchParams=fresh+or+frozen+raw+shrimp"
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=fresh+lime+juice"
 			}
 		},
 		{
@@ -15275,17 +15319,17 @@
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
 				"@type" : "Ingredient",
-				"name" : "light brown sugar",
-				"ingridientFullName" : "? c. fresh lime juice"
+				"name" : "fresh lime juice",
+				"ingridientFullName" : "¼ c. fresh lime juice"
  			},
  			"ingridientAmount" : {
 				"@type" : "QuantitativeValue",
-				"unitText" : "tbsp.",
-				"value" : "3"
+				"unitText" : "c.",
+				"value" : "¼"
 			}			,
 			"potentialAction" : {
 				"@type": "SearchAction",
-				"target": "https://www.freshdirect.com/srch.jsp?searchParams=light+brown+sugar"
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=fresh+lime+juice"
 			}
 		},
 		{
@@ -15309,17 +15353,17 @@
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
 				"@type" : "Ingredient",
-				"name" : "bird chiles",
-				"ingridientFullName" : "? c. canola oil"
+				"name" : "canola oil",
+				"ingridientFullName" : "¼ c. canola oil"
  			},
  			"ingridientAmount" : {
 				"@type" : "QuantitativeValue",
-				"unitText" : "Thai",
-				"value" : "2"
+				"unitText" : "c.",
+				"value" : "¼"
 			}			,
 			"potentialAction" : {
 				"@type": "SearchAction",
-				"target": "https://www.freshdirect.com/srch.jsp?searchParams=bird+chiles"
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=canola+oil"
 			}
 		},
 		{
@@ -15496,17 +15540,17 @@
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
 				"@type" : "Ingredient",
-				"name" : "lite or regular coconut milk (not cream of coconut)",
-				"ingridientFullName" : "? c. flour"
+				"name" : "flour",
+				"ingridientFullName" : "¼ c. flour"
  			},
  			"ingridientAmount" : {
 				"@type" : "QuantitativeValue",
-				"unitText" : "can",
-				"value" : "1"
+				"unitText" : "c.",
+				"value" : "¼"
 			}			,
 			"potentialAction" : {
 				"@type": "SearchAction",
-				"target": "https://www.freshdirect.com/srch.jsp?searchParams=lite+or+regular+coconut+milk+(not+cream+of+coconut)"
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=flour"
 			}
 		},
 		{
@@ -15565,7 +15609,7 @@
 			"ingredientName" : {
 				"@type" : "Ingredient",
 				"name" : "salt",
-				"ingridientFullName" : "4 each chicken drumsticks and thighs (about 2 1?2 lb)"
+				"ingridientFullName" : "4 each chicken drumsticks and thighs (about 2 1⁄2 lb)"
  			},
  			"ingridientAmount" : {
 				"@type" : "QuantitativeValue",
@@ -16160,7 +16204,7 @@
 			"ingredientName" : {
 				"@type" : "Ingredient",
 				"name" : "null",
-				"ingridientFullName" : "1?pound(s) ground chicken or turkey"
+				"ingridientFullName" : "1 pound(s) ground chicken or turkey"
  			},
  			"ingridientAmount" : {
 				"@type" : "QuantitativeValue",
@@ -16173,7 +16217,7 @@
 			"ingredientName" : {
 				"@type" : "Ingredient",
 				"name" : "null",
-				"ingridientFullName" : "1/2?cup(s) cooked jasmine rice (like uncle ben?s ready rice)  chopped"
+				"ingridientFullName" : "1/2 cup(s) cooked jasmine rice (like uncle bens ready rice)  chopped"
  			},
  			"ingridientAmount" : {
 				"@type" : "QuantitativeValue",
@@ -16186,7 +16230,7 @@
 			"ingredientName" : {
 				"@type" : "Ingredient",
 				"name" : "null",
-				"ingridientFullName" : "2?tablespoon(s) fish sauce"
+				"ingridientFullName" : "2 tablespoon(s) fish sauce"
  			},
  			"ingridientAmount" : {
 				"@type" : "QuantitativeValue",
@@ -16199,7 +16243,7 @@
 			"ingredientName" : {
 				"@type" : "Ingredient",
 				"name" : "null",
-				"ingridientFullName" : "2?tablespoon(s) thai oyster sauce"
+				"ingridientFullName" : "2 tablespoon(s) thai oyster sauce"
  			},
  			"ingridientAmount" : {
 				"@type" : "QuantitativeValue",
@@ -16212,7 +16256,7 @@
 			"ingredientName" : {
 				"@type" : "Ingredient",
 				"name" : "null",
-				"ingridientFullName" : "1?tablespoon(s) minced garlic"
+				"ingridientFullName" : "1 tablespoon(s) minced garlic"
  			},
  			"ingridientAmount" : {
 				"@type" : "QuantitativeValue",
@@ -16225,7 +16269,7 @@
 			"ingredientName" : {
 				"@type" : "Ingredient",
 				"name" : "null",
-				"ingridientFullName" : "1?tablespoon(s) grated ginger"
+				"ingridientFullName" : "1 tablespoon(s) grated ginger"
  			},
  			"ingridientAmount" : {
 				"@type" : "QuantitativeValue",
@@ -16238,7 +16282,7 @@
 			"ingredientName" : {
 				"@type" : "Ingredient",
 				"name" : "null",
-				"ingridientFullName" : "1?stalk(s) (1 tablespoon) tender lemongrass  finely minced"
+				"ingridientFullName" : "1 stalk(s) (1 tablespoon) tender lemongrass  finely minced"
  			},
  			"ingridientAmount" : {
 				"@type" : "QuantitativeValue",
@@ -16251,7 +16295,7 @@
 			"ingredientName" : {
 				"@type" : "Ingredient",
 				"name" : "null",
-				"ingridientFullName" : "1/4?cup(s) chopped cilantro"
+				"ingridientFullName" : "1/4 cup(s) chopped cilantro"
  			},
  			"ingridientAmount" : {
 				"@type" : "QuantitativeValue",
@@ -16264,7 +16308,7 @@
 			"ingredientName" : {
 				"@type" : "Ingredient",
 				"name" : "null",
-				"ingridientFullName" : "1?small shallot  minced"
+				"ingridientFullName" : "1 small shallot  minced"
  			},
  			"ingridientAmount" : {
 				"@type" : "QuantitativeValue",
@@ -16277,7 +16321,7 @@
 			"ingredientName" : {
 				"@type" : "Ingredient",
 				"name" : "null",
-				"ingridientFullName" : "2? red fresno or jalape?o chiles  seeded  minced"
+				"ingridientFullName" : "2  red fresno or jalapeño chiles  seeded  minced"
  			},
  			"ingridientAmount" : {
 				"@type" : "QuantitativeValue",
@@ -16290,7 +16334,7 @@
 			"ingredientName" : {
 				"@type" : "Ingredient",
 				"name" : "null",
-				"ingridientFullName" : "3?tablespoon(s) peanut or vegetable oil"
+				"ingridientFullName" : "3 tablespoon(s) peanut or vegetable oil"
  			},
  			"ingridientAmount" : {
 				"@type" : "QuantitativeValue",
@@ -16303,7 +16347,7 @@
 			"ingredientName" : {
 				"@type" : "Ingredient",
 				"name" : "null",
-				"ingridientFullName" : "24?small (2 heads) bibb or boston lettuce leaves"
+				"ingridientFullName" : "24 small (2 heads) bibb or boston lettuce leaves"
  			},
  			"ingridientAmount" : {
 				"@type" : "QuantitativeValue",
@@ -16329,7 +16373,7 @@
 			"ingredientName" : {
 				"@type" : "Ingredient",
 				"name" : "null",
-				"ingridientFullName" : "1?small (1 cup) seedless cucumber  halved  very thinly sliced"
+				"ingridientFullName" : "1 small (1 cup) seedless cucumber  halved  very thinly sliced"
  			},
  			"ingridientAmount" : {
 				"@type" : "QuantitativeValue",
@@ -16342,7 +16386,7 @@
 			"ingredientName" : {
 				"@type" : "Ingredient",
 				"name" : "null",
-				"ingridientFullName" : "1?cup(s) fresh mint or cilantro leaves"
+				"ingridientFullName" : "1 cup(s) fresh mint or cilantro leaves"
  			},
  			"ingridientAmount" : {
 				"@type" : "QuantitativeValue",
@@ -16558,34 +16602,34 @@
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
 				"@type" : "Ingredient",
-				"name" : "rice noodles",
-				"ingridientFullName" : "? c. Thai fish sauce"
+				"name" : "Thai fish sauce",
+				"ingridientFullName" : "¼ c. Thai fish sauce"
  			},
  			"ingridientAmount" : {
 				"@type" : "QuantitativeValue",
-				"unitText" : "oz.",
-				"value" : "12"
+				"unitText" : "c.",
+				"value" : "¼"
 			}			,
 			"potentialAction" : {
 				"@type": "SearchAction",
-				"target": "https://www.freshdirect.com/srch.jsp?searchParams=rice+noodles"
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=Thai+fish+sauce"
 			}
 		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
 				"@type" : "Ingredient",
-				"name" : "rice noodles",
-				"ingridientFullName" : "? c. rice vinegar"
+				"name" : "rice vinegar",
+				"ingridientFullName" : "¼ c. rice vinegar"
  			},
  			"ingridientAmount" : {
 				"@type" : "QuantitativeValue",
-				"unitText" : "oz.",
-				"value" : "12"
+				"unitText" : "c.",
+				"value" : "¼"
 			}			,
 			"potentialAction" : {
 				"@type": "SearchAction",
-				"target": "https://www.freshdirect.com/srch.jsp?searchParams=rice+noodles"
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=rice+vinegar"
 			}
 		},
 		{
@@ -16609,17 +16653,17 @@
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
 				"@type" : "Ingredient",
-				"name" : "sugar",
-				"ingridientFullName" : "1? tbsp. low-sodium soy sauce"
+				"name" : "low-sodium soy sauce",
+				"ingridientFullName" : "1½ tbsp. low-sodium soy sauce"
  			},
  			"ingridientAmount" : {
 				"@type" : "QuantitativeValue",
 				"unitText" : "tbsp.",
-				"value" : "3"
+				"value" : "1½"
 			}			,
 			"potentialAction" : {
 				"@type": "SearchAction",
-				"target": "https://www.freshdirect.com/srch.jsp?searchParams=sugar"
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=low-sodium+soy+sauce"
 			}
 		},
 		{
@@ -16762,34 +16806,34 @@
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
 				"@type" : "Ingredient",
-				"name" : "scallions",
-				"ingridientFullName" : "? c. fresh mint leaves"
+				"name" : "fresh mint leaves",
+				"ingridientFullName" : "¾ c. fresh mint leaves"
  			},
  			"ingridientAmount" : {
 				"@type" : "QuantitativeValue",
-				"unitText" : "pcs",
-				"value" : "4"
+				"unitText" : "c.",
+				"value" : "¾"
 			}			,
 			"potentialAction" : {
 				"@type": "SearchAction",
-				"target": "https://www.freshdirect.com/srch.jsp?searchParams=scallions"
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=fresh+mint+leaves"
 			}
 		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
 				"@type" : "Ingredient",
-				"name" : "scallions",
+				"name" : "fresh mint leaves",
 				"ingridientFullName" : "Lime wedges and Thai-style chili sauce  for serving"
  			},
  			"ingridientAmount" : {
 				"@type" : "QuantitativeValue",
-				"unitText" : "pcs",
-				"value" : "4"
+				"unitText" : "c.",
+				"value" : "¾"
 			}			,
 			"potentialAction" : {
 				"@type": "SearchAction",
-				"target": "https://www.freshdirect.com/srch.jsp?searchParams=scallions"
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=fresh+mint+leaves"
 			}
 		}
 	] 
@@ -17489,17 +17533,17 @@
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
 				"@type" : "Ingredient",
-				"name" : "coriander seeds",
-				"ingridientFullName" : "? tsp Thai fish sauce or soy sauce"
+				"name" : "Thai fish sauce or soy sauce",
+				"ingridientFullName" : "¼ tsp Thai fish sauce or soy sauce"
  			},
  			"ingridientAmount" : {
 				"@type" : "QuantitativeValue",
 				"unitText" : "tsp",
-				"value" : "2.0"
+				"value" : "¼"
 			}			,
 			"potentialAction" : {
 				"@type": "SearchAction",
-				"target": "https://www.freshdirect.com/srch.jsp?searchParams=coriander+seeds"
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=Thai+fish+sauce+or+soy+sauce"
 			}
 		},
 		{
@@ -17558,7 +17602,7 @@
 			"ingredientName" : {
 				"@type" : "Ingredient",
 				"name" : "12-15cm wooden skewer s",
-				"ingridientFullName" : "2.0 tsp tomato pur?e"
+				"ingridientFullName" : "2.0 tsp tomato purée"
  			},
  			"ingridientAmount" : {
 				"@type" : "QuantitativeValue",
@@ -17574,17 +17618,17 @@
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
 				"@type" : "Ingredient",
-				"name" : "12-15cm wooden skewer s",
-				"ingridientFullName" : "? lime   juice only"
+				"name" : "juice only",
+				"ingridientFullName" : "½ lime   juice only"
  			},
  			"ingridientAmount" : {
 				"@type" : "QuantitativeValue",
-				"unitText" : "x",
-				"value" : "24"
+				"unitText" : "lime",
+				"value" : "½"
 			}			,
 			"potentialAction" : {
 				"@type": "SearchAction",
-				"target": "https://www.freshdirect.com/srch.jsp?searchParams=12-15cm+wooden+skewer+s"
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=juice+only"
 			}
 		},
 		{
@@ -18573,13 +18617,17 @@
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
 				"@type" : "Ingredient",
-				"name" : "null",
-				"ingridientFullName" : "? c. lime juice"
+				"name" : "lime juice",
+				"ingridientFullName" : "¼ c. lime juice"
  			},
  			"ingridientAmount" : {
 				"@type" : "QuantitativeValue",
-				"unitText" : "null",
-				"value" : "null"
+				"unitText" : "c.",
+				"value" : "¼"
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=lime+juice"
 			}
 		},
 		{
@@ -18705,51 +18753,51 @@
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
 				"@type" : "Ingredient",
-				"name" : "Chopped cilantro",
-				"ingridientFullName" : "? c. salted roasted peanuts"
+				"name" : "salted roasted peanuts",
+				"ingridientFullName" : "½ c. salted roasted peanuts"
  			},
  			"ingridientAmount" : {
 				"@type" : "QuantitativeValue",
 				"unitText" : "c.",
-				"value" : "1"
+				"value" : "½"
 			}			,
 			"potentialAction" : {
 				"@type": "SearchAction",
-				"target": "https://www.freshdirect.com/srch.jsp?searchParams=Chopped+cilantro"
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=salted+roasted+peanuts"
 			}
 		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
 				"@type" : "Ingredient",
-				"name" : "Chopped cilantro",
-				"ingridientFullName" : "? red onion"
+				"name" : "onion",
+				"ingridientFullName" : "½ red onion"
  			},
  			"ingridientAmount" : {
 				"@type" : "QuantitativeValue",
-				"unitText" : "c.",
-				"value" : "1"
+				"unitText" : "red",
+				"value" : "½"
 			}			,
 			"potentialAction" : {
 				"@type": "SearchAction",
-				"target": "https://www.freshdirect.com/srch.jsp?searchParams=Chopped+cilantro"
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=onion"
 			}
 		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
 				"@type" : "Ingredient",
-				"name" : "Chopped cilantro",
+				"name" : "onion",
 				"ingridientFullName" : "kosher salt"
  			},
  			"ingridientAmount" : {
 				"@type" : "QuantitativeValue",
-				"unitText" : "c.",
-				"value" : "1"
+				"unitText" : "red",
+				"value" : "½"
 			}			,
 			"potentialAction" : {
 				"@type": "SearchAction",
-				"target": "https://www.freshdirect.com/srch.jsp?searchParams=Chopped+cilantro"
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=onion"
 			}
 		}
 	] 
@@ -18977,17 +19025,17 @@
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
 				"@type" : "Ingredient",
-				"name" : "lime juice",
-				"ingridientFullName" : "? tsp dried chilli flakes or cayenne"
+				"name" : "dried chilli flakes or cayenne",
+				"ingridientFullName" : "½ tsp dried chilli flakes or cayenne"
  			},
  			"ingridientAmount" : {
 				"@type" : "QuantitativeValue",
-				"unitText" : "tbsp",
-				"value" : "2"
+				"unitText" : "tsp",
+				"value" : "½"
 			}			,
 			"potentialAction" : {
 				"@type": "SearchAction",
-				"target": "https://www.freshdirect.com/srch.jsp?searchParams=lime+juice"
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams=dried+chilli+flakes+or+cayenne"
 			}
 		},
 		{
@@ -19573,7 +19621,7 @@
 			"ingredientName" : {
 				"@type" : "Ingredient",
 				"name" : "null",
-				"ingridientFullName" : "1 14-ounce can ?lite? coconut milk  divided"
+				"ingridientFullName" : "1 14-ounce can “lite” coconut milk  divided"
  			},
  			"ingridientAmount" : {
 				"@type" : "QuantitativeValue",
@@ -20691,7 +20739,7 @@
 			"ingredientName" : {
 				"@type" : "Ingredient",
 				"name" : "lime leaves   cut into fine shreds",
-				"ingridientFullName" : "2 small green or red Thai ?bird? chiles or 4 jalapeno chiles"
+				"ingridientFullName" : "2 small green or red Thai “bird” chiles or 4 jalapeno chiles"
  			},
  			"ingridientAmount" : {
 				"@type" : "QuantitativeValue",
@@ -20725,7 +20773,7 @@
 			"ingredientName" : {
 				"@type" : "Ingredient",
 				"name" : "water",
-				"ingridientFullName" : "? to ? cup Thai fish sauce"
+				"ingridientFullName" : "¼ to ½ cup Thai fish sauce"
  			},
  			"ingridientAmount" : {
 				"@type" : "QuantitativeValue",
@@ -20810,7 +20858,7 @@
 			"ingredientName" : {
 				"@type" : "Ingredient",
 				"name" : "garlic   chopped fine",
-				"ingridientFullName" : "2 shallots  minced two ?-inch-thick slices of galangal or fresh ginger"
+				"ingridientFullName" : "2 shallots  minced two ¼-inch-thick slices of galangal or fresh ginger"
  			},
  			"ingridientAmount" : {
 				"@type" : "QuantitativeValue",
@@ -21337,7 +21385,7 @@
 			"ingredientName" : {
 				"@type" : "Ingredient",
 				"name" : "low-sodium chicken broth",
-				"ingridientFullName" : "1-2 red Thai (or jalape�o) peppers  seeded and finely chopped (plus slices for garnish)"
+				"ingridientFullName" : "1-2 red Thai (or jalapeÃ±o) peppers  seeded and finely chopped (plus slices for garnish)"
  			},
  			"ingridientAmount" : {
 				"@type" : "QuantitativeValue",
