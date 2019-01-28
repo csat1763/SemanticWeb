@@ -21,7 +21,6 @@ import java.util.ArrayList;
 import java.util.Collection;
 import java.util.List;
 import java.util.concurrent.ExecutionException;
-import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 import org.json.simple.JSONArray;
@@ -107,6 +106,8 @@ public class DataCrawler {
 		String searchTerm = "";
 		String filename = "./TripleStore/Triple/src/main/resources/data/recipes/" + searchTerm + "FromEdamam.jsonld";
 
+		initSearchTerms();
+
 		for (String s : searchTerms) {
 
 			searchTerm = s;
@@ -179,26 +180,23 @@ public class DataCrawler {
 					ingredientsAsString.append("[\n");
 					String pattern = "^\\*? ?([0-9\\.\\/½¼¾]* ?[0-9\\.\\/½¼¾]+)[ \\-]?([a-zA-Z\\.\\(\\)]+)? +([a-zA-Z0-9 \\+\\-\\,\\/\\.\\(\\)®%\\'éèîñ&]+)$";
 					Pattern r = Pattern.compile(pattern);
-					String amount = null;
-					String unit = null;
-					String ingredient = null;
+					String amount = "";
+					String unit = "";
+					String ingredient = "";
 					for (String i : ingredients) {
 
 						i = i.replaceAll("\"", "").replaceAll("\n", " ").replaceAll("\r\n", " ").replaceAll("\t", " ")
 								.replaceAll(",", " ").replaceAll("\\\\", "");
-						Matcher m = r.matcher(i);
-
-						if (m.find()) {
-
-							amount = m.group(1).replaceAll("½", " 1/2").replaceAll("¼", " 1/4")
-									.replaceAll("¾", " 3/4").replaceAll("  ", " ").replaceAll("^ +", "");
-							unit = m.group(2);
-							if (unit == null) {
-								unit = "pcs";
-							}
-							ingredient = m.group(3);
-
-						}
+						/*
+						 * Matcher m = r.matcher(i);
+						 * 
+						 * if (m.find()) {
+						 * 
+						 * amount = m.group(1).replaceAll("½", " 1/2").replaceAll("¼", " 1/4") .replaceAll("¾", " 3/4").replaceAll("  ", " ").replaceAll("^ +", ""); unit = m.group(2); if (unit == null) { unit = "pcs"; }
+						 * ingredient = m.group(3);
+						 * 
+						 * }
+						 */
 						ingredientsAsString
 								.append("\t\t{\r\n \t\t\t\"@type\" : \"IngredientAddition\",\r\n"
 										+ "\t\t\t\"ingredientName\" : {\r\n" + "\t\t\t\t\"@type\" : \"Ingredient\",\r\n"
@@ -219,7 +217,7 @@ public class DataCrawler {
 
 					ingredientsAsString.append("\t]");
 
-					recipiesAsString.append("{\n" + "\t\"@context\": \"http://schema.org\",\n" +
+					recipiesAsString.append("{\n" + "\t\"@context\": { \"@vocab\": \"http://schema.org/\" },\n" +
 
 							"\t\"@id\": \"" + recipeId + "\",\n" +
 
@@ -464,8 +462,12 @@ public class DataCrawler {
 			return null;
 		String ingrStr = ingredient.replaceAll(" ", "+");
 		return "\t\t\t\"potentialAction\" : {\r\n" + "\t\t\t\t\"@type\": \"SearchAction\",\r\n"
-				+ "\t\t\t\t\"target\": \"https://www.freshdirect.com/srch.jsp?searchParams=" + ingrStr + "\"\r\n"
+				+ "\t\t\t\t\"target\": \"https://www.freshdirect.com/srch.jsp?searchParams=" + "" + "\"\r\n"
 				+ "\t\t\t}\r\n";
+		/*
+		 * return "\t\t\t\"potentialAction\" : {\r\n" + "\t\t\t\t\"@type\": \"SearchAction\",\r\n" + "\t\t\t\t\"target\": \"https://www.freshdirect.com/srch.jsp?searchParams=" + ingrStr + "\"\r\n" +
+		 * "\t\t\t}\r\n";
+		 */
 	}
 
 	public static String generateKeywordString(List<String> tags) {
