@@ -106,8 +106,6 @@ public class DataCrawler {
 		String searchTerm = "";
 		String filename = "./TripleStore/Triple/src/main/resources/data/recipes/" + searchTerm + "FromEdamam.jsonld";
 
-		initSearchTerms();
-
 		for (String s : searchTerms) {
 
 			searchTerm = s;

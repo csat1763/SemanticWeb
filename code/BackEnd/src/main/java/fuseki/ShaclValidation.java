@@ -5,6 +5,7 @@ import java.io.FileOutputStream;
 import java.io.OutputStream;
 import java.nio.file.Path;
 import java.nio.file.Paths;
+
 import org.apache.jena.rdf.model.Model;
 import org.apache.jena.rdf.model.Resource;
 import org.apache.jena.riot.RDFDataMgr;
@@ -19,32 +20,39 @@ import org.topbraid.spin.util.JenaUtil;
 
 public class ShaclValidation {
 	private static Logger logger = LoggerFactory.getLogger(ShaclValidation.class);
-	
+
 	// Why This Failure marker
 	private static final Marker WTF_MARKER = MarkerFactory.getMarker("WTF");
 
 	public static void main(String[] args) {
+
 		try {
 			Path path = Paths.get(".").toAbsolutePath().normalize();
-			
-			//TODO: do for all recipes
-			String data = "file:" + path.toFile().getAbsolutePath() + "/src/main/resources/shacl/###TODO###FromEdamam.jsonld";
+
+			// TODO: do for all recipes
+			for (String filenamex : FusekiConnection
+					.listFilesForFolder(new File("../TripleStore/Triple/src/main/resources/data/recipes"))) {
+				System.out.println(filenamex);
+			}
+			// TODO: you mean like this?
+			String data = "file:" + path.toFile().getAbsolutePath()
+					+ "/src/main/resources/shacl/###TODO###FromEdamam.jsonld";
 			String shape = "file:" + path.toFile().getAbsolutePath() + "/src/main/resources/shacl/shacl.ttl";
-			
+
 			Model dataModel = JenaUtil.createDefaultModel();
 			dataModel.read(data);
-			
+
 			Model shapeModel = JenaUtil.createDefaultModel();
 			shapeModel.read(shape);
-			
+
 			Resource reportResource = ValidationUtil.validateModel(dataModel, shapeModel, true);
 			boolean conforms = reportResource.getProperty(SH.conforms).getBoolean();
 			logger.trace("Conforms = " + conforms);
-			
+
 			if (!conforms) {
-				String report = path.toFile().getAbsolutePath() + "/src/main/resources/shacl/report.ttl";
+				String report = path.toFile().getAbsolutePath() + "/src/main/resources/shacl/" + data + "report.ttl";
 				File reportFile = new File(report);
-				
+
 				reportFile.createNewFile();
 				OutputStream reportOutputStream = new FileOutputStream(reportFile);
 				RDFDataMgr.write(reportOutputStream, reportResource.getModel(), RDFFormat.TURTLE);
@@ -55,5 +63,6 @@ public class ShaclValidation {
 		} catch (Throwable t) {
 			logger.error(WTF_MARKER, t.getMessage(), t);
 		}
+
 	}
 }

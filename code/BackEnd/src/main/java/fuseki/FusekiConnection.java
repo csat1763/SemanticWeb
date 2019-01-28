@@ -313,9 +313,9 @@ public class FusekiConnection {
 
 	}
 
-	public ArrayList<String> listFilesForFolder(final File folder) {
+	public static ArrayList<String> listFilesForFolder(File folder) {
 		ArrayList<String> files = new ArrayList<String>();
-		for (final File fileEntry : folder.listFiles()) {
+		for (File fileEntry : folder.listFiles()) {
 			if (fileEntry.isDirectory()) {
 				listFilesForFolder(fileEntry);
 			} else {
