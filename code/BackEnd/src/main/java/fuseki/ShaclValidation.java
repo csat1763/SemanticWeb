@@ -27,7 +27,8 @@ public class ShaclValidation {
 		try {
 			Path path = Paths.get(".").toAbsolutePath().normalize();
 			
-			String data = "file:" + path.toFile().getAbsolutePath() + "/src/main/resources/shacl/newFormat.jsonld";
+			//TODO: do for all recipes
+			String data = "file:" + path.toFile().getAbsolutePath() + "/src/main/resources/shacl/###TODO###FromEdamam.jsonld";
 			String shape = "file:" + path.toFile().getAbsolutePath() + "/src/main/resources/shacl/shacl.ttl";
 			
 			Model dataModel = JenaUtil.createDefaultModel();

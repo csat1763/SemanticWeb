@@ -212,7 +212,7 @@ public class DataCrawler {
 
 					ingredientsAsString.append("\t]");
 
-					recipiesAsString.append("{\n" + "\t\"@context\": \"http://schema.org\",\n" +
+					recipiesAsString.append("{\n" + "\t\"@context\": { \"@vocab\": \"http://schema.org/\" },\n" +
 
 							"\t\"@id\": \"" + recipeId + "\",\n" +
 
