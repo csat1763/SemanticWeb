@@ -1,11 +1,14 @@
 Application for recipe search based on ingredients and healthlabels.
 
 ## Run
-Either run
+To start the application do following:
 
-	$ ./runWindows.bat
+	$ ./run.sh
 	
-	$ ./runLinux.sh
+To gather data do following:
+
+	$ ./gather
+	
 
 or follow these steps:
 
