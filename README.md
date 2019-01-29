@@ -1,5 +1,13 @@
 Application for recipe search based on ingredients and healthlabels.
 
+## Prerequisite
+You need Node.JS. See https://nodejs.org/en/download/ .
+When installed go into the folder *SemanticWeb/sw/* and execute the command
+
+	$ npm install
+	
+in a shell.
+
 ## Run
 To start the application do following:
 
@@ -8,7 +16,9 @@ To start the application do following:
 To gather data do following:
 
 	$ ./gather
-	
+
+The crawling is done based on the file *SemanticWeb/code/SemanticWeb/src/Cuisines.txt*.
+Edit the entries as you wish.
 
 or follow these steps:
 
