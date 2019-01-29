@@ -1,6 +1,6 @@
 #!/bin/bash
 cd ../../sw/node_modules/.bin
-ng.cmd serve &
+ng serve &
 read w
 if [ "$w" = "q" ]
 then
