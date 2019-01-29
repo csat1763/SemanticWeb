@@ -1,6 +1,7 @@
 [
 {
-	"@context": { "@vocab": "http://schema.org/" },
+	"@context": [{ "@vocab": "http://schema.org/" },{"fo": "http://purl.org/ontology/fo/"}],
+	"fo:cuisine" : "Zanzibari",
 	"@id": "http://www.edamam.com/ontologies/edamam.owl#recipe_283a3667692657ac876789d64ca8cfcc",
 	"@type": "Recipe",
 	"sameAs": "http://www.food.com/recipe/zanzibari-prawn-460378",
@@ -238,7 +239,8 @@
 	] 
 },
 {
-	"@context": { "@vocab": "http://schema.org/" },
+	"@context": [{ "@vocab": "http://schema.org/" },{"fo": "http://purl.org/ontology/fo/"}],
+	"fo:cuisine" : "Zanzibari",
 	"@id": "http://www.edamam.com/ontologies/edamam.owl#recipe_a2909ff2e8a8161da22ff9b53654e425",
 	"@type": "Recipe",
 	"sameAs": "http://www.food.com/recipe/zanzibari-chutney-part-of-zanzibari-pulao-pilaf-400284",
@@ -442,7 +444,8 @@
 	] 
 },
 {
-	"@context": { "@vocab": "http://schema.org/" },
+	"@context": [{ "@vocab": "http://schema.org/" },{"fo": "http://purl.org/ontology/fo/"}],
+	"fo:cuisine" : "Zanzibari",
 	"@id": "http://www.edamam.com/ontologies/edamam.owl#recipe_696a75d57ab9039b650efbf493be1e42",
 	"@type": "Recipe",
 	"sameAs": "http://www.food.com/recipe/zanzibari-beans-with-coconut-and-cilantro-305011",

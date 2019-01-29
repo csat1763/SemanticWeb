@@ -1,6 +1,7 @@
 [
 {
-	"@context": { "@vocab": "http://schema.org/" },
+	"@context": [{ "@vocab": "http://schema.org/" },{"fo": "http://purl.org/ontology/fo/"}],
+	"fo:cuisine" : "Pashtun",
 	"@id": "http://www.edamam.com/ontologies/edamam.owl#recipe_42ebc298689aade6a3242a68adb13a5c",
 	"@type": "Recipe",
 	"sameAs": "http://www.foodista.com/recipe/D4MMDSZJ/chapli-kabab",

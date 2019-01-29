@@ -1,6 +1,7 @@
 [
 {
-	"@context": { "@vocab": "http://schema.org/" },
+	"@context": [{ "@vocab": "http://schema.org/" },{"fo": "http://purl.org/ontology/fo/"}],
+	"fo:cuisine" : "Chinese Islamic",
 	"@id": "http://www.edamam.com/ontologies/edamam.owl#recipe_c8d4d8f77450da6169e060a88623b3f0",
 	"@type": "Recipe",
 	"sameAs": "http://www.seriouseats.com/recipes/2009/09/lamb-dumplings-recipe-asian-cooking.html",

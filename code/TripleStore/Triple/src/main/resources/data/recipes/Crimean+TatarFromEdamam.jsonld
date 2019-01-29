@@ -1,6 +1,7 @@
 [
 {
-	"@context": { "@vocab": "http://schema.org/" },
+	"@context": [{ "@vocab": "http://schema.org/" },{"fo": "http://purl.org/ontology/fo/"}],
+	"fo:cuisine" : "Crimean Tatar",
 	"@id": "http://www.edamam.com/ontologies/edamam.owl#recipe_ba457f0d75dbe04339a6c26ea5cae8da",
 	"@type": "Recipe",
 	"sameAs": "http://www.foodista.com/recipe/WMTKZV23/fried-tortillas-with-beef",

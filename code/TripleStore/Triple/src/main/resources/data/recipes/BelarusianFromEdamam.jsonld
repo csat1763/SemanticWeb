@@ -1,6 +1,7 @@
 [
 {
-	"@context": { "@vocab": "http://schema.org/" },
+	"@context": [{ "@vocab": "http://schema.org/" },{"fo": "http://purl.org/ontology/fo/"}],
+	"fo:cuisine" : "Belarusian",
 	"@id": "http://www.edamam.com/ontologies/edamam.owl#recipe_0e9e3f5748e0e6bf7ebe424bcd3735a3",
 	"@type": "Recipe",
 	"sameAs": "http://www.bigoven.com/recipe/Russian-Borscht-(Beet-Soup)/178217",

@@ -1,6 +1,7 @@
 [
 {
-	"@context": { "@vocab": "http://schema.org/" },
+	"@context": [{ "@vocab": "http://schema.org/" },{"fo": "http://purl.org/ontology/fo/"}],
+	"fo:cuisine" : "Awadhi",
 	"@id": "http://www.edamam.com/ontologies/edamam.owl#recipe_bf18aa98755e16e8391470cc43302911",
 	"@type": "Recipe",
 	"sameAs": "http://www.faskitchen.com/lucknowi-mutton-biryani-recipe-awadhi-biryani/",
@@ -170,7 +171,8 @@
 	] 
 },
 {
-	"@context": { "@vocab": "http://schema.org/" },
+	"@context": [{ "@vocab": "http://schema.org/" },{"fo": "http://purl.org/ontology/fo/"}],
+	"fo:cuisine" : "Awadhi",
 	"@id": "http://www.edamam.com/ontologies/edamam.owl#recipe_87341a2ef5f771e2f1e3810f8af4e61e",
 	"@type": "Recipe",
 	"sameAs": "http://www.vegrecipesofindia.com/dhingri-dolma-recipe-awadhi-mushroom-paneer-recipe/",

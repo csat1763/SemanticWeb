@@ -1,6 +1,7 @@
 [
 {
-	"@context": { "@vocab": "http://schema.org/" },
+	"@context": [{ "@vocab": "http://schema.org/" },{"fo": "http://purl.org/ontology/fo/"}],
+	"fo:cuisine" : "Hyderabad",
 	"@id": "http://www.edamam.com/ontologies/edamam.owl#recipe_7cac9cd61e83e463760aac4a63c89886",
 	"@type": "Recipe",
 	"sameAs": "https://www.allrecipes.com/recipe/246558/hyderabad-dum-biryani/",
@@ -459,7 +460,8 @@
 	] 
 },
 {
-	"@context": { "@vocab": "http://schema.org/" },
+	"@context": [{ "@vocab": "http://schema.org/" },{"fo": "http://purl.org/ontology/fo/"}],
+	"fo:cuisine" : "Hyderabad",
 	"@id": "http://www.edamam.com/ontologies/edamam.owl#recipe_e7e77480402d63c822cb4658de6f82f3",
 	"@type": "Recipe",
 	"sameAs": "http://www.food.com/recipe/simple-hyderabad-curried-chicken-201342",
@@ -731,7 +733,8 @@
 	] 
 },
 {
-	"@context": { "@vocab": "http://schema.org/" },
+	"@context": [{ "@vocab": "http://schema.org/" },{"fo": "http://purl.org/ontology/fo/"}],
+	"fo:cuisine" : "Hyderabad",
 	"@id": "http://www.edamam.com/ontologies/edamam.owl#recipe_2342fa5c62bf2464cc63fa68a19e15f7",
 	"@type": "Recipe",
 	"sameAs": "http://www.foodista.com/recipe/K3SHR5WS/celery-ginger-juice",
@@ -850,7 +853,8 @@
 	] 
 },
 {
-	"@context": { "@vocab": "http://schema.org/" },
+	"@context": [{ "@vocab": "http://schema.org/" },{"fo": "http://purl.org/ontology/fo/"}],
+	"fo:cuisine" : "Hyderabad",
 	"@id": "http://www.edamam.com/ontologies/edamam.owl#recipe_3a2a8ef27b4a7e105095c0ee47fe7036",
 	"@type": "Recipe",
 	"sameAs": "http://saffronstreaks.com/recipes/hyderabadi-mirchi-ka-salan/",

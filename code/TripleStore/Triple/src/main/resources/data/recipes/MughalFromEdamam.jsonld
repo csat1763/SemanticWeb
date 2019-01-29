@@ -1,6 +1,7 @@
 [
 {
-	"@context": { "@vocab": "http://schema.org/" },
+	"@context": [{ "@vocab": "http://schema.org/" },{"fo": "http://purl.org/ontology/fo/"}],
+	"fo:cuisine" : "Mughal",
 	"@id": "http://www.edamam.com/ontologies/edamam.owl#recipe_5db18b1ab8b86b3bfd4b90101484e870",
 	"@type": "Recipe",
 	"sameAs": "http://www.foodista.com/recipe/CTPH26D5/ghurum-masala",
@@ -357,7 +358,8 @@
 	] 
 },
 {
-	"@context": { "@vocab": "http://schema.org/" },
+	"@context": [{ "@vocab": "http://schema.org/" },{"fo": "http://purl.org/ontology/fo/"}],
+	"fo:cuisine" : "Mughal",
 	"@id": "http://www.edamam.com/ontologies/edamam.owl#recipe_4a99b3a6a2a35e65a84422ed27f2dd35",
 	"@type": "Recipe",
 	"sameAs": "https://www.allrecipes.com/recipe/256594/vegetable-biryani-tehri/",
@@ -646,7 +648,8 @@
 	] 
 },
 {
-	"@context": { "@vocab": "http://schema.org/" },
+	"@context": [{ "@vocab": "http://schema.org/" },{"fo": "http://purl.org/ontology/fo/"}],
+	"fo:cuisine" : "Mughal",
 	"@id": "http://www.edamam.com/ontologies/edamam.owl#recipe_44ce71554062cba17d9f5fae60160b64",
 	"@type": "Recipe",
 	"sameAs": "http://www.foodista.com/recipe/T56N4FHF/dumpakht",

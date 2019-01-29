@@ -1,6 +1,7 @@
 [
 {
-	"@context": { "@vocab": "http://schema.org/" },
+	"@context": [{ "@vocab": "http://schema.org/" },{"fo": "http://purl.org/ontology/fo/"}],
+	"fo:cuisine" : "Kazakh",
 	"@id": "http://www.edamam.com/ontologies/edamam.owl#recipe_3b6707e96f59e70f4ae6db09528b5d9c",
 	"@type": "Recipe",
 	"sameAs": "http://www.food.com/recipe/kazakh-chai-kazakh-tea-420426",
@@ -136,7 +137,8 @@
 	] 
 },
 {
-	"@context": { "@vocab": "http://schema.org/" },
+	"@context": [{ "@vocab": "http://schema.org/" },{"fo": "http://purl.org/ontology/fo/"}],
+	"fo:cuisine" : "Kazakh",
 	"@id": "http://www.edamam.com/ontologies/edamam.owl#recipe_67defcf8599117fc7601c60ec75c4e53",
 	"@type": "Recipe",
 	"sameAs": "http://whattocooktoday.com/kazakh-noodles-with-laghman-sauce.html",
@@ -425,7 +427,8 @@
 	] 
 },
 {
-	"@context": { "@vocab": "http://schema.org/" },
+	"@context": [{ "@vocab": "http://schema.org/" },{"fo": "http://purl.org/ontology/fo/"}],
+	"fo:cuisine" : "Kazakh",
 	"@id": "http://www.edamam.com/ontologies/edamam.owl#recipe_4c7907028a47d02059d9c4074022edff",
 	"@type": "Recipe",
 	"sameAs": "http://www.internationalcuisine.com/kazakh-baursak/",
@@ -612,7 +615,8 @@
 	] 
 },
 {
-	"@context": { "@vocab": "http://schema.org/" },
+	"@context": [{ "@vocab": "http://schema.org/" },{"fo": "http://purl.org/ontology/fo/"}],
+	"fo:cuisine" : "Kazakh",
 	"@id": "http://www.edamam.com/ontologies/edamam.owl#recipe_02acb56f80d229b354962a573ce6180f",
 	"@type": "Recipe",
 	"sameAs": "http://www.internationalcuisine.com/kazakh-shalgam/",
