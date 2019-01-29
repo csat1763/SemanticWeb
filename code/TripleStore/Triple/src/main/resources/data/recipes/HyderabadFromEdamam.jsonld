@@ -1,6 +1,6 @@
 [
 {
-	"@context": "http://schema.org",
+	"@context": { "@vocab": "http://schema.org/" },
 	"@id": "http://www.edamam.com/ontologies/edamam.owl#recipe_7cac9cd61e83e463760aac4a63c89886",
 	"@type": "Recipe",
 	"sameAs": "https://www.allrecipes.com/recipe/246558/hyderabad-dum-biryani/",
@@ -35,427 +35,431 @@
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
 				"@type" : "Ingredient",
-				"name" : "null",
+				"name" : "",
 				"ingridientFullName" : "Marinade:"
  			},
  			"ingridientAmount" : {
 				"@type" : "QuantitativeValue",
-				"unitText" : "null",
-				"value" : "null"
+				"unitText" : "",
+				"value" : ""
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams="
 			}
 		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
 				"@type" : "Ingredient",
-				"name" : "peppercorns",
+				"name" : "",
 				"ingridientFullName" : "10 black peppercorns"
  			},
  			"ingridientAmount" : {
 				"@type" : "QuantitativeValue",
-				"unitText" : "black",
-				"value" : "10"
+				"unitText" : "",
+				"value" : ""
 			}			,
 			"potentialAction" : {
 				"@type": "SearchAction",
-				"target": "https://www.freshdirect.com/srch.jsp?searchParams=peppercorns"
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams="
 			}
 		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
 				"@type" : "Ingredient",
-				"name" : "cloves",
+				"name" : "",
 				"ingridientFullName" : "6 whole cloves"
  			},
  			"ingridientAmount" : {
 				"@type" : "QuantitativeValue",
-				"unitText" : "whole",
-				"value" : "6"
+				"unitText" : "",
+				"value" : ""
 			}			,
 			"potentialAction" : {
 				"@type": "SearchAction",
-				"target": "https://www.freshdirect.com/srch.jsp?searchParams=cloves"
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams="
 			}
 		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
 				"@type" : "Ingredient",
-				"name" : "pods",
+				"name" : "",
 				"ingridientFullName" : "5 cardamom pods"
  			},
  			"ingridientAmount" : {
 				"@type" : "QuantitativeValue",
-				"unitText" : "cardamom",
-				"value" : "5"
+				"unitText" : "",
+				"value" : ""
 			}			,
 			"potentialAction" : {
 				"@type": "SearchAction",
-				"target": "https://www.freshdirect.com/srch.jsp?searchParams=pods"
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams="
 			}
 		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
 				"@type" : "Ingredient",
-				"name" : "sticks",
+				"name" : "",
 				"ingridientFullName" : "2 cinnamon sticks"
  			},
  			"ingridientAmount" : {
 				"@type" : "QuantitativeValue",
-				"unitText" : "cinnamon",
-				"value" : "2"
+				"unitText" : "",
+				"value" : ""
 			}			,
 			"potentialAction" : {
 				"@type": "SearchAction",
-				"target": "https://www.freshdirect.com/srch.jsp?searchParams=sticks"
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams="
 			}
 		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
 				"@type" : "Ingredient",
-				"name" : "star anise pods",
+				"name" : "",
 				"ingridientFullName" : "2 whole star anise pods"
  			},
  			"ingridientAmount" : {
 				"@type" : "QuantitativeValue",
-				"unitText" : "whole",
-				"value" : "2"
+				"unitText" : "",
+				"value" : ""
 			}			,
 			"potentialAction" : {
 				"@type": "SearchAction",
-				"target": "https://www.freshdirect.com/srch.jsp?searchParams=star+anise+pods"
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams="
 			}
 		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
 				"@type" : "Ingredient",
-				"name" : "kala jeera (black cumin seeds)",
+				"name" : "",
 				"ingridientFullName" : "1/2 teaspoon kala jeera (black cumin seeds)"
  			},
  			"ingridientAmount" : {
 				"@type" : "QuantitativeValue",
-				"unitText" : "teaspoon",
-				"value" : "1/2"
+				"unitText" : "",
+				"value" : ""
 			}			,
 			"potentialAction" : {
 				"@type": "SearchAction",
-				"target": "https://www.freshdirect.com/srch.jsp?searchParams=kala+jeera+(black+cumin+seeds)"
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams="
 			}
 		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
 				"@type" : "Ingredient",
-				"name" : "fresh cilantro leaves",
+				"name" : "",
 				"ingridientFullName" : "1 bunch fresh cilantro leaves"
  			},
  			"ingridientAmount" : {
 				"@type" : "QuantitativeValue",
-				"unitText" : "bunch",
-				"value" : "1"
+				"unitText" : "",
+				"value" : ""
 			}			,
 			"potentialAction" : {
 				"@type": "SearchAction",
-				"target": "https://www.freshdirect.com/srch.jsp?searchParams=fresh+cilantro+leaves"
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams="
 			}
 		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
 				"@type" : "Ingredient",
-				"name" : "fresh mint leaves",
+				"name" : "",
 				"ingridientFullName" : "1 bunch fresh mint leaves"
  			},
  			"ingridientAmount" : {
 				"@type" : "QuantitativeValue",
-				"unitText" : "bunch",
-				"value" : "1"
+				"unitText" : "",
+				"value" : ""
 			}			,
 			"potentialAction" : {
 				"@type": "SearchAction",
-				"target": "https://www.freshdirect.com/srch.jsp?searchParams=fresh+mint+leaves"
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams="
 			}
 		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
 				"@type" : "Ingredient",
-				"name" : "plain yogurt",
+				"name" : "",
 				"ingridientFullName" : "1 cup plain yogurt"
  			},
  			"ingridientAmount" : {
 				"@type" : "QuantitativeValue",
-				"unitText" : "cup",
-				"value" : "1"
+				"unitText" : "",
+				"value" : ""
 			}			,
 			"potentialAction" : {
 				"@type": "SearchAction",
-				"target": "https://www.freshdirect.com/srch.jsp?searchParams=plain+yogurt"
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams="
 			}
 		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
 				"@type" : "Ingredient",
-				"name" : "lemon juice",
+				"name" : "",
 				"ingridientFullName" : "2 teaspoons lemon juice"
  			},
  			"ingridientAmount" : {
 				"@type" : "QuantitativeValue",
-				"unitText" : "teaspoons",
-				"value" : "2"
+				"unitText" : "",
+				"value" : ""
 			}			,
 			"potentialAction" : {
 				"@type": "SearchAction",
-				"target": "https://www.freshdirect.com/srch.jsp?searchParams=lemon+juice"
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams="
 			}
 		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
 				"@type" : "Ingredient",
-				"name" : "ginger-garlic paste",
+				"name" : "",
 				"ingridientFullName" : "2 teaspoons ginger-garlic paste"
  			},
  			"ingridientAmount" : {
 				"@type" : "QuantitativeValue",
-				"unitText" : "teaspoons",
-				"value" : "2"
+				"unitText" : "",
+				"value" : ""
 			}			,
 			"potentialAction" : {
 				"@type": "SearchAction",
-				"target": "https://www.freshdirect.com/srch.jsp?searchParams=ginger-garlic+paste"
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams="
 			}
 		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
 				"@type" : "Ingredient",
-				"name" : "chile powder",
+				"name" : "",
 				"ingridientFullName" : "2 teaspoons chile powder"
  			},
  			"ingridientAmount" : {
 				"@type" : "QuantitativeValue",
-				"unitText" : "teaspoons",
-				"value" : "2"
+				"unitText" : "",
+				"value" : ""
 			}			,
 			"potentialAction" : {
 				"@type": "SearchAction",
-				"target": "https://www.freshdirect.com/srch.jsp?searchParams=chile+powder"
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams="
 			}
 		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
 				"@type" : "Ingredient",
-				"name" : "biryani masala powder (such as Dunya®)",
+				"name" : "",
 				"ingridientFullName" : "1 teaspoon biryani masala powder (such as Dunya®)"
  			},
  			"ingridientAmount" : {
 				"@type" : "QuantitativeValue",
-				"unitText" : "teaspoon",
-				"value" : "1"
+				"unitText" : "",
+				"value" : ""
 			}			,
 			"potentialAction" : {
 				"@type": "SearchAction",
-				"target": "https://www.freshdirect.com/srch.jsp?searchParams=biryani+masala+powder+(such+as+Dunya®)"
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams="
 			}
 		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
 				"@type" : "Ingredient",
-				"name" : "ground turmeric",
+				"name" : "",
 				"ingridientFullName" : "1/4 teaspoon ground turmeric"
  			},
  			"ingridientAmount" : {
 				"@type" : "QuantitativeValue",
-				"unitText" : "teaspoon",
-				"value" : "1/4"
+				"unitText" : "",
+				"value" : ""
 			}			,
 			"potentialAction" : {
 				"@type": "SearchAction",
-				"target": "https://www.freshdirect.com/srch.jsp?searchParams=ground+turmeric"
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams="
 			}
 		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
 				"@type" : "Ingredient",
-				"name" : "chicken thighs",
+				"name" : "",
 				"ingridientFullName" : "1 pound chicken thighs"
  			},
  			"ingridientAmount" : {
 				"@type" : "QuantitativeValue",
-				"unitText" : "pound",
-				"value" : "1"
+				"unitText" : "",
+				"value" : ""
 			}			,
 			"potentialAction" : {
 				"@type": "SearchAction",
-				"target": "https://www.freshdirect.com/srch.jsp?searchParams=chicken+thighs"
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams="
 			}
 		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
 				"@type" : "Ingredient",
-				"name" : "chicken thighs",
+				"name" : "",
 				"ingridientFullName" : "Biryani:"
  			},
  			"ingridientAmount" : {
 				"@type" : "QuantitativeValue",
-				"unitText" : "pound",
-				"value" : "1"
+				"unitText" : "",
+				"value" : ""
 			}			,
 			"potentialAction" : {
 				"@type": "SearchAction",
-				"target": "https://www.freshdirect.com/srch.jsp?searchParams=chicken+thighs"
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams="
 			}
 		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
 				"@type" : "Ingredient",
-				"name" : "water",
+				"name" : "",
 				"ingridientFullName" : "3 1/2 cups water"
  			},
  			"ingridientAmount" : {
 				"@type" : "QuantitativeValue",
-				"unitText" : "cups",
-				"value" : "3 1/2"
+				"unitText" : "",
+				"value" : ""
 			}			,
 			"potentialAction" : {
 				"@type": "SearchAction",
-				"target": "https://www.freshdirect.com/srch.jsp?searchParams=water"
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams="
 			}
 		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
 				"@type" : "Ingredient",
-				"name" : "basmati rice",
+				"name" : "",
 				"ingridientFullName" : "2 1/3 cups basmati rice"
  			},
  			"ingridientAmount" : {
 				"@type" : "QuantitativeValue",
-				"unitText" : "cups",
-				"value" : "2 1/3"
+				"unitText" : "",
+				"value" : ""
 			}			,
 			"potentialAction" : {
 				"@type": "SearchAction",
-				"target": "https://www.freshdirect.com/srch.jsp?searchParams=basmati+rice"
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams="
 			}
 		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
 				"@type" : "Ingredient",
-				"name" : "leaves  divided",
+				"name" : "",
 				"ingridientFullName" : "4 bay leaves  divided"
  			},
  			"ingridientAmount" : {
 				"@type" : "QuantitativeValue",
-				"unitText" : "bay",
-				"value" : "4"
+				"unitText" : "",
+				"value" : ""
 			}			,
 			"potentialAction" : {
 				"@type": "SearchAction",
-				"target": "https://www.freshdirect.com/srch.jsp?searchParams=leaves++divided"
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams="
 			}
 		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
 				"@type" : "Ingredient",
-				"name" : "warm milk",
+				"name" : "",
 				"ingridientFullName" : "1/2 cup warm milk"
  			},
  			"ingridientAmount" : {
 				"@type" : "QuantitativeValue",
-				"unitText" : "cup",
-				"value" : "1/2"
+				"unitText" : "",
+				"value" : ""
 			}			,
 			"potentialAction" : {
 				"@type": "SearchAction",
-				"target": "https://www.freshdirect.com/srch.jsp?searchParams=warm+milk"
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams="
 			}
 		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
 				"@type" : "Ingredient",
-				"name" : "saffron threads",
+				"name" : "",
 				"ingridientFullName" : "1 pinch saffron threads"
  			},
  			"ingridientAmount" : {
 				"@type" : "QuantitativeValue",
-				"unitText" : "pinch",
-				"value" : "1"
+				"unitText" : "",
+				"value" : ""
 			}			,
 			"potentialAction" : {
 				"@type": "SearchAction",
-				"target": "https://www.freshdirect.com/srch.jsp?searchParams=saffron+threads"
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams="
 			}
 		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
 				"@type" : "Ingredient",
-				"name" : "ghee (clarified butter)  divided",
+				"name" : "",
 				"ingridientFullName" : "1/4 cup ghee (clarified butter)  divided"
  			},
  			"ingridientAmount" : {
 				"@type" : "QuantitativeValue",
-				"unitText" : "cup",
-				"value" : "1/4"
+				"unitText" : "",
+				"value" : ""
 			}			,
 			"potentialAction" : {
 				"@type": "SearchAction",
-				"target": "https://www.freshdirect.com/srch.jsp?searchParams=ghee+(clarified+butter)++divided"
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams="
 			}
 		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
 				"@type" : "Ingredient",
-				"name" : "thinly sliced",
+				"name" : "",
 				"ingridientFullName" : "2 onions  thinly sliced"
  			},
  			"ingridientAmount" : {
 				"@type" : "QuantitativeValue",
-				"unitText" : "onions",
-				"value" : "2"
+				"unitText" : "",
+				"value" : ""
 			}			,
 			"potentialAction" : {
 				"@type": "SearchAction",
-				"target": "https://www.freshdirect.com/srch.jsp?searchParams=thinly+sliced"
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams="
 			}
 		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
 				"@type" : "Ingredient",
-				"name" : "chile peppers  chopped",
+				"name" : "",
 				"ingridientFullName" : "2 green chile peppers  chopped"
  			},
  			"ingridientAmount" : {
 				"@type" : "QuantitativeValue",
-				"unitText" : "green",
-				"value" : "2"
+				"unitText" : "",
+				"value" : ""
 			}			,
 			"potentialAction" : {
 				"@type": "SearchAction",
-				"target": "https://www.freshdirect.com/srch.jsp?searchParams=chile+peppers++chopped"
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams="
 			}
 		}
 	] 
 },
 {
-	"@context": "http://schema.org",
+	"@context": { "@vocab": "http://schema.org/" },
 	"@id": "http://www.edamam.com/ontologies/edamam.owl#recipe_e7e77480402d63c822cb4658de6f82f3",
 	"@type": "Recipe",
 	"sameAs": "http://www.food.com/recipe/simple-hyderabad-curried-chicken-201342",
@@ -490,244 +494,244 @@
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
 				"@type" : "Ingredient",
-				"name" : "ounces butter",
+				"name" : "",
 				"ingridientFullName" : "2  ounces butter"
  			},
  			"ingridientAmount" : {
 				"@type" : "QuantitativeValue",
-				"unitText" : "pcs",
-				"value" : "2"
+				"unitText" : "",
+				"value" : ""
 			}			,
 			"potentialAction" : {
 				"@type": "SearchAction",
-				"target": "https://www.freshdirect.com/srch.jsp?searchParams=ounces+butter"
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams="
 			}
 		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
 				"@type" : "Ingredient",
-				"name" : "large onion  sliced",
+				"name" : "",
 				"ingridientFullName" : "1  large onion  sliced"
  			},
  			"ingridientAmount" : {
 				"@type" : "QuantitativeValue",
-				"unitText" : "pcs",
-				"value" : "1"
+				"unitText" : "",
+				"value" : ""
 			}			,
 			"potentialAction" : {
 				"@type": "SearchAction",
-				"target": "https://www.freshdirect.com/srch.jsp?searchParams=large+onion++sliced"
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams="
 			}
 		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
 				"@type" : "Ingredient",
-				"name" : "garlic cloves  crushed",
+				"name" : "",
 				"ingridientFullName" : "2  garlic cloves  crushed"
  			},
  			"ingridientAmount" : {
 				"@type" : "QuantitativeValue",
-				"unitText" : "pcs",
-				"value" : "2"
+				"unitText" : "",
+				"value" : ""
 			}			,
 			"potentialAction" : {
 				"@type": "SearchAction",
-				"target": "https://www.freshdirect.com/srch.jsp?searchParams=garlic+cloves++crushed"
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams="
 			}
 		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
 				"@type" : "Ingredient",
-				"name" : "green cardamoms  open at one end",
+				"name" : "",
 				"ingridientFullName" : "2  green cardamoms  open at one end"
  			},
  			"ingridientAmount" : {
 				"@type" : "QuantitativeValue",
-				"unitText" : "pcs",
-				"value" : "2"
+				"unitText" : "",
+				"value" : ""
 			}			,
 			"potentialAction" : {
 				"@type": "SearchAction",
-				"target": "https://www.freshdirect.com/srch.jsp?searchParams=green+cardamoms++open+at+one+end"
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams="
 			}
 		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
 				"@type" : "Ingredient",
-				"name" : "cloves",
+				"name" : "",
 				"ingridientFullName" : "2  cloves"
  			},
  			"ingridientAmount" : {
 				"@type" : "QuantitativeValue",
-				"unitText" : "pcs",
-				"value" : "2"
+				"unitText" : "",
+				"value" : ""
 			}			,
 			"potentialAction" : {
 				"@type": "SearchAction",
-				"target": "https://www.freshdirect.com/srch.jsp?searchParams=cloves"
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams="
 			}
 		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
 				"@type" : "Ingredient",
-				"name" : "inches cinnamon sticks  broken into pieces",
+				"name" : "",
 				"ingridientFullName" : "2  inches cinnamon sticks  broken into pieces"
  			},
  			"ingridientAmount" : {
 				"@type" : "QuantitativeValue",
-				"unitText" : "pcs",
-				"value" : "2"
+				"unitText" : "",
+				"value" : ""
 			}			,
 			"potentialAction" : {
 				"@type": "SearchAction",
-				"target": "https://www.freshdirect.com/srch.jsp?searchParams=inches+cinnamon+sticks++broken+into+pieces"
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams="
 			}
 		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
 				"@type" : "Ingredient",
-				"name" : "teaspoons garam masala",
+				"name" : "",
 				"ingridientFullName" : "2  teaspoons garam masala"
  			},
  			"ingridientAmount" : {
 				"@type" : "QuantitativeValue",
-				"unitText" : "pcs",
-				"value" : "2"
+				"unitText" : "",
+				"value" : ""
 			}			,
 			"potentialAction" : {
 				"@type": "SearchAction",
-				"target": "https://www.freshdirect.com/srch.jsp?searchParams=teaspoons+garam+masala"
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams="
 			}
 		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
 				"@type" : "Ingredient",
-				"name" : "teaspoon chili powder",
+				"name" : "",
 				"ingridientFullName" : "1  teaspoon chili powder"
  			},
  			"ingridientAmount" : {
 				"@type" : "QuantitativeValue",
-				"unitText" : "pcs",
-				"value" : "1"
+				"unitText" : "",
+				"value" : ""
 			}			,
 			"potentialAction" : {
 				"@type": "SearchAction",
-				"target": "https://www.freshdirect.com/srch.jsp?searchParams=teaspoon+chili+powder"
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams="
 			}
 		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
 				"@type" : "Ingredient",
-				"name" : "lbs skinless chicken  and cubed",
+				"name" : "",
 				"ingridientFullName" : "3  lbs skinless chicken  and cubed"
  			},
  			"ingridientAmount" : {
 				"@type" : "QuantitativeValue",
-				"unitText" : "pcs",
-				"value" : "3"
+				"unitText" : "",
+				"value" : ""
 			}			,
 			"potentialAction" : {
 				"@type": "SearchAction",
-				"target": "https://www.freshdirect.com/srch.jsp?searchParams=lbs+skinless+chicken++and+cubed"
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams="
 			}
 		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
 				"@type" : "Ingredient",
-				"name" : "ounces tomato puree",
+				"name" : "",
 				"ingridientFullName" : "4  ounces tomato puree"
  			},
  			"ingridientAmount" : {
 				"@type" : "QuantitativeValue",
-				"unitText" : "pcs",
-				"value" : "4"
+				"unitText" : "",
+				"value" : ""
 			}			,
 			"potentialAction" : {
 				"@type": "SearchAction",
-				"target": "https://www.freshdirect.com/srch.jsp?searchParams=ounces+tomato+puree"
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams="
 			}
 		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
 				"@type" : "Ingredient",
-				"name" : "ounces tomato puree",
+				"name" : "",
 				"ingridientFullName" : "1⁄2 pint water"
  			},
  			"ingridientAmount" : {
 				"@type" : "QuantitativeValue",
-				"unitText" : "pcs",
-				"value" : "4"
+				"unitText" : "",
+				"value" : ""
 			}			,
 			"potentialAction" : {
 				"@type": "SearchAction",
-				"target": "https://www.freshdirect.com/srch.jsp?searchParams=ounces+tomato+puree"
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams="
 			}
 		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
 				"@type" : "Ingredient",
-				"name" : "tablespoons desiccated coconut",
+				"name" : "",
 				"ingridientFullName" : "2  tablespoons desiccated coconut"
  			},
  			"ingridientAmount" : {
 				"@type" : "QuantitativeValue",
-				"unitText" : "pcs",
-				"value" : "2"
+				"unitText" : "",
+				"value" : ""
 			}			,
 			"potentialAction" : {
 				"@type": "SearchAction",
-				"target": "https://www.freshdirect.com/srch.jsp?searchParams=tablespoons+desiccated+coconut"
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams="
 			}
 		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
 				"@type" : "Ingredient",
-				"name" : "chicken stock cube  crumbled",
+				"name" : "",
 				"ingridientFullName" : "1  chicken stock cube  crumbled"
  			},
  			"ingridientAmount" : {
 				"@type" : "QuantitativeValue",
-				"unitText" : "pcs",
-				"value" : "1"
+				"unitText" : "",
+				"value" : ""
 			}			,
 			"potentialAction" : {
 				"@type": "SearchAction",
-				"target": "https://www.freshdirect.com/srch.jsp?searchParams=chicken+stock+cube++crumbled"
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams="
 			}
 		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
 				"@type" : "Ingredient",
-				"name" : "lemon",
+				"name" : "",
 				"ingridientFullName" : "1  lemon"
  			},
  			"ingridientAmount" : {
 				"@type" : "QuantitativeValue",
-				"unitText" : "pcs",
-				"value" : "1"
+				"unitText" : "",
+				"value" : ""
 			}			,
 			"potentialAction" : {
 				"@type": "SearchAction",
-				"target": "https://www.freshdirect.com/srch.jsp?searchParams=lemon"
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams="
 			}
 		}
 	] 
 },
 {
-	"@context": "http://schema.org",
+	"@context": { "@vocab": "http://schema.org/" },
 	"@id": "http://www.edamam.com/ontologies/edamam.owl#recipe_2342fa5c62bf2464cc63fa68a19e15f7",
 	"@type": "Recipe",
 	"sameAs": "http://www.foodista.com/recipe/K3SHR5WS/celery-ginger-juice",
@@ -762,91 +766,91 @@
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
 				"@type" : "Ingredient",
-				"name" : "celery",
+				"name" : "",
 				"ingridientFullName" : "1 bunch celery"
  			},
  			"ingridientAmount" : {
 				"@type" : "QuantitativeValue",
-				"unitText" : "bunch",
-				"value" : "1"
+				"unitText" : "",
+				"value" : ""
 			}			,
 			"potentialAction" : {
 				"@type": "SearchAction",
-				"target": "https://www.freshdirect.com/srch.jsp?searchParams=celery"
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams="
 			}
 		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
 				"@type" : "Ingredient",
-				"name" : "water",
+				"name" : "",
 				"ingridientFullName" : "2 cups water"
  			},
  			"ingridientAmount" : {
 				"@type" : "QuantitativeValue",
-				"unitText" : "cups",
-				"value" : "2"
+				"unitText" : "",
+				"value" : ""
 			}			,
 			"potentialAction" : {
 				"@type": "SearchAction",
-				"target": "https://www.freshdirect.com/srch.jsp?searchParams=water"
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams="
 			}
 		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
 				"@type" : "Ingredient",
-				"name" : "water",
+				"name" : "",
 				"ingridientFullName" : "3 smalls piece ginger (½ inch piece )"
  			},
  			"ingridientAmount" : {
 				"@type" : "QuantitativeValue",
-				"unitText" : "cups",
-				"value" : "2"
+				"unitText" : "",
+				"value" : ""
 			}			,
 			"potentialAction" : {
 				"@type": "SearchAction",
-				"target": "https://www.freshdirect.com/srch.jsp?searchParams=water"
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams="
 			}
 		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
 				"@type" : "Ingredient",
-				"name" : "key limes or approximately 2 lime juice",
+				"name" : "",
 				"ingridientFullName" : "2 tablespoons key limes or approximately 2 lime juice"
  			},
  			"ingridientAmount" : {
 				"@type" : "QuantitativeValue",
-				"unitText" : "tablespoons",
-				"value" : "2"
+				"unitText" : "",
+				"value" : ""
 			}			,
 			"potentialAction" : {
 				"@type": "SearchAction",
-				"target": "https://www.freshdirect.com/srch.jsp?searchParams=key+limes+or+approximately+2+lime+juice"
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams="
 			}
 		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
 				"@type" : "Ingredient",
-				"name" : "honey or 4 teaspoon sugar",
+				"name" : "",
 				"ingridientFullName" : "6 tablespoons honey or 4 teaspoon sugar"
  			},
  			"ingridientAmount" : {
 				"@type" : "QuantitativeValue",
-				"unitText" : "tablespoons",
-				"value" : "6"
+				"unitText" : "",
+				"value" : ""
 			}			,
 			"potentialAction" : {
 				"@type": "SearchAction",
-				"target": "https://www.freshdirect.com/srch.jsp?searchParams=honey+or+4+teaspoon+sugar"
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams="
 			}
 		}
 	] 
 },
 {
-	"@context": "http://schema.org",
+	"@context": { "@vocab": "http://schema.org/" },
 	"@id": "http://www.edamam.com/ontologies/edamam.owl#recipe_3a2a8ef27b4a7e105095c0ee47fe7036",
 	"@type": "Recipe",
 	"sameAs": "http://saffronstreaks.com/recipes/hyderabadi-mirchi-ka-salan/",
@@ -881,260 +885,340 @@
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
 				"@type" : "Ingredient",
-				"name" : "null",
+				"name" : "",
 				"ingridientFullName" : "Green chillies : 250 g"
  			},
  			"ingridientAmount" : {
 				"@type" : "QuantitativeValue",
-				"unitText" : "null",
-				"value" : "null"
+				"unitText" : "",
+				"value" : ""
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams="
 			}
 		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
 				"@type" : "Ingredient",
-				"name" : "null",
+				"name" : "",
 				"ingridientFullName" : "Cumin seeds: 2½ tsp"
  			},
  			"ingridientAmount" : {
 				"@type" : "QuantitativeValue",
-				"unitText" : "null",
-				"value" : "null"
+				"unitText" : "",
+				"value" : ""
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams="
 			}
 		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
 				"@type" : "Ingredient",
-				"name" : "null",
+				"name" : "",
 				"ingridientFullName" : "Curry leaves : few"
  			},
  			"ingridientAmount" : {
 				"@type" : "QuantitativeValue",
-				"unitText" : "null",
-				"value" : "null"
+				"unitText" : "",
+				"value" : ""
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams="
 			}
 		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
 				"@type" : "Ingredient",
-				"name" : "null",
+				"name" : "",
 				"ingridientFullName" : "Mustard seeds: ½ tsp"
  			},
  			"ingridientAmount" : {
 				"@type" : "QuantitativeValue",
-				"unitText" : "null",
-				"value" : "null"
+				"unitText" : "",
+				"value" : ""
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams="
 			}
 		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
 				"@type" : "Ingredient",
-				"name" : "null",
+				"name" : "",
 				"ingridientFullName" : "Nigella seeds: ⅓ tsp"
  			},
  			"ingridientAmount" : {
 				"@type" : "QuantitativeValue",
-				"unitText" : "null",
-				"value" : "null"
+				"unitText" : "",
+				"value" : ""
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams="
 			}
 		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
 				"@type" : "Ingredient",
-				"name" : "null",
+				"name" : "",
 				"ingridientFullName" : "Fenugreek seeds: ⅛ tsp"
  			},
  			"ingridientAmount" : {
 				"@type" : "QuantitativeValue",
-				"unitText" : "null",
-				"value" : "null"
+				"unitText" : "",
+				"value" : ""
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams="
 			}
 		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
 				"@type" : "Ingredient",
-				"name" : "null",
+				"name" : "",
 				"ingridientFullName" : "Poppy seeds : 1 tbsp"
  			},
  			"ingridientAmount" : {
 				"@type" : "QuantitativeValue",
-				"unitText" : "null",
-				"value" : "null"
+				"unitText" : "",
+				"value" : ""
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams="
 			}
 		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
 				"@type" : "Ingredient",
-				"name" : "null",
+				"name" : "",
 				"ingridientFullName" : "White sesame seeds :2 tbsp"
  			},
  			"ingridientAmount" : {
 				"@type" : "QuantitativeValue",
-				"unitText" : "null",
-				"value" : "null"
+				"unitText" : "",
+				"value" : ""
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams="
 			}
 		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
 				"@type" : "Ingredient",
-				"name" : "null",
+				"name" : "",
 				"ingridientFullName" : "Groundnuts/peanuts : ½ cup"
  			},
  			"ingridientAmount" : {
 				"@type" : "QuantitativeValue",
-				"unitText" : "null",
-				"value" : "null"
+				"unitText" : "",
+				"value" : ""
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams="
 			}
 		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
 				"@type" : "Ingredient",
-				"name" : "null",
+				"name" : "",
 				"ingridientFullName" : "Freshly scraped coconut : ¾ cup"
  			},
  			"ingridientAmount" : {
 				"@type" : "QuantitativeValue",
-				"unitText" : "null",
-				"value" : "null"
+				"unitText" : "",
+				"value" : ""
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams="
 			}
 		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
 				"@type" : "Ingredient",
-				"name" : "null",
+				"name" : "",
 				"ingridientFullName" : "Dry roasted coriander seed : 1 tsp"
  			},
  			"ingridientAmount" : {
 				"@type" : "QuantitativeValue",
-				"unitText" : "null",
-				"value" : "null"
+				"unitText" : "",
+				"value" : ""
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams="
 			}
 		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
 				"@type" : "Ingredient",
-				"name" : "null",
+				"name" : "",
 				"ingridientFullName" : "Cumin seeds: 1½ tsp"
  			},
  			"ingridientAmount" : {
 				"@type" : "QuantitativeValue",
-				"unitText" : "null",
-				"value" : "null"
+				"unitText" : "",
+				"value" : ""
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams="
 			}
 		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
 				"@type" : "Ingredient",
-				"name" : "null",
+				"name" : "",
 				"ingridientFullName" : "Dried and crushed curry leaves : 1 tsp"
  			},
  			"ingridientAmount" : {
 				"@type" : "QuantitativeValue",
-				"unitText" : "null",
-				"value" : "null"
+				"unitText" : "",
+				"value" : ""
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams="
 			}
 		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
 				"@type" : "Ingredient",
-				"name" : "null",
+				"name" : "",
 				"ingridientFullName" : "Vegetable oil : 2-3 tbsp"
  			},
  			"ingridientAmount" : {
 				"@type" : "QuantitativeValue",
-				"unitText" : "null",
-				"value" : "null"
+				"unitText" : "",
+				"value" : ""
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams="
 			}
 		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
 				"@type" : "Ingredient",
-				"name" : "null",
+				"name" : "",
 				"ingridientFullName" : "Onions – 2  large "
  			},
  			"ingridientAmount" : {
 				"@type" : "QuantitativeValue",
-				"unitText" : "null",
-				"value" : "null"
+				"unitText" : "",
+				"value" : ""
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams="
 			}
 		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
 				"@type" : "Ingredient",
-				"name" : "null",
+				"name" : "",
 				"ingridientFullName" : "Ginger garlic paste:2 tsp"
  			},
  			"ingridientAmount" : {
 				"@type" : "QuantitativeValue",
-				"unitText" : "null",
-				"value" : "null"
+				"unitText" : "",
+				"value" : ""
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams="
 			}
 		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
 				"@type" : "Ingredient",
-				"name" : "null",
+				"name" : "",
 				"ingridientFullName" : "Turmeric powder– ½ tsp"
  			},
  			"ingridientAmount" : {
 				"@type" : "QuantitativeValue",
-				"unitText" : "null",
-				"value" : "null"
+				"unitText" : "",
+				"value" : ""
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams="
 			}
 		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
 				"@type" : "Ingredient",
-				"name" : "null",
+				"name" : "",
 				"ingridientFullName" : "Cilantro/coriander leaves – 3 tbsp  finely chopped"
  			},
  			"ingridientAmount" : {
 				"@type" : "QuantitativeValue",
-				"unitText" : "null",
-				"value" : "null"
+				"unitText" : "",
+				"value" : ""
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams="
 			}
 		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
 				"@type" : "Ingredient",
-				"name" : "null",
+				"name" : "",
 				"ingridientFullName" : "Thick tamarind pulp – 3 tbsp"
  			},
  			"ingridientAmount" : {
 				"@type" : "QuantitativeValue",
-				"unitText" : "null",
-				"value" : "null"
+				"unitText" : "",
+				"value" : ""
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams="
 			}
 		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
 				"@type" : "Ingredient",
-				"name" : "null",
+				"name" : "",
 				"ingridientFullName" : "Salt to taste"
  			},
  			"ingridientAmount" : {
 				"@type" : "QuantitativeValue",
-				"unitText" : "null",
-				"value" : "null"
+				"unitText" : "",
+				"value" : ""
+			}			,
+			"potentialAction" : {
+				"@type": "SearchAction",
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams="
 			}
 		}
 	] 

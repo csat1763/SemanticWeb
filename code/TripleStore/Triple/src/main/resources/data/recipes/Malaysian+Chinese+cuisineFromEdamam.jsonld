@@ -1,6 +1,6 @@
 [
 {
-	"@context": "http://schema.org",
+	"@context": { "@vocab": "http://schema.org/" },
 	"@id": "http://www.edamam.com/ontologies/edamam.owl#recipe_33b0ea0ef7b3493ca06852e4da208beb",
 	"@type": "Recipe",
 	"sameAs": "http://honestcooking.com/salted-duck-eggs/",
@@ -35,119 +35,119 @@
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
 				"@type" : "Ingredient",
-				"name" : "eggs (or chicken eggs)",
+				"name" : "",
 				"ingridientFullName" : "3 duck eggs (or chicken eggs)"
  			},
  			"ingridientAmount" : {
 				"@type" : "QuantitativeValue",
-				"unitText" : "duck",
-				"value" : "3"
+				"unitText" : "",
+				"value" : ""
 			}			,
 			"potentialAction" : {
 				"@type": "SearchAction",
-				"target": "https://www.freshdirect.com/srch.jsp?searchParams=eggs+(or+chicken+eggs)"
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams="
 			}
 		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
 				"@type" : "Ingredient",
-				"name" : "sea salt (or rock salt)",
+				"name" : "",
 				"ingridientFullName" : "¼ cup sea salt (or rock salt)"
  			},
  			"ingridientAmount" : {
 				"@type" : "QuantitativeValue",
-				"unitText" : "cup",
-				"value" : "¼"
+				"unitText" : "",
+				"value" : ""
 			}			,
 			"potentialAction" : {
 				"@type": "SearchAction",
-				"target": "https://www.freshdirect.com/srch.jsp?searchParams=sea+salt+(or+rock+salt)"
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams="
 			}
 		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
 				"@type" : "Ingredient",
-				"name" : "(250ml) water",
+				"name" : "",
 				"ingridientFullName" : "1 cup (250ml) water"
  			},
  			"ingridientAmount" : {
 				"@type" : "QuantitativeValue",
-				"unitText" : "cup",
-				"value" : "1"
+				"unitText" : "",
+				"value" : ""
 			}			,
 			"potentialAction" : {
 				"@type": "SearchAction",
-				"target": "https://www.freshdirect.com/srch.jsp?searchParams=(250ml)+water"
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams="
 			}
 		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
 				"@type" : "Ingredient",
-				"name" : "shaoxing wine",
+				"name" : "",
 				"ingridientFullName" : "1 teaspoon shaoxing wine"
  			},
  			"ingridientAmount" : {
 				"@type" : "QuantitativeValue",
-				"unitText" : "teaspoon",
-				"value" : "1"
+				"unitText" : "",
+				"value" : ""
 			}			,
 			"potentialAction" : {
 				"@type": "SearchAction",
-				"target": "https://www.freshdirect.com/srch.jsp?searchParams=shaoxing+wine"
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams="
 			}
 		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
 				"@type" : "Ingredient",
-				"name" : "anise",
+				"name" : "",
 				"ingridientFullName" : "½ star anise"
  			},
  			"ingridientAmount" : {
 				"@type" : "QuantitativeValue",
-				"unitText" : "star",
-				"value" : "½"
+				"unitText" : "",
+				"value" : ""
 			}			,
 			"potentialAction" : {
 				"@type": "SearchAction",
-				"target": "https://www.freshdirect.com/srch.jsp?searchParams=anise"
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams="
 			}
 		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
 				"@type" : "Ingredient",
-				"name" : "sichuan peppercorns",
+				"name" : "",
 				"ingridientFullName" : "½ teaspoon sichuan peppercorns"
  			},
  			"ingridientAmount" : {
 				"@type" : "QuantitativeValue",
-				"unitText" : "teaspoon",
-				"value" : "½"
+				"unitText" : "",
+				"value" : ""
 			}			,
 			"potentialAction" : {
 				"@type": "SearchAction",
-				"target": "https://www.freshdirect.com/srch.jsp?searchParams=sichuan+peppercorns"
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams="
 			}
 		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
 				"@type" : "Ingredient",
-				"name" : "sichuan peppercorns",
+				"name" : "",
 				"ingridientFullName" : "*clean glass container/jar that fits the eggs snugly."
  			},
  			"ingridientAmount" : {
 				"@type" : "QuantitativeValue",
-				"unitText" : "teaspoon",
-				"value" : "½"
+				"unitText" : "",
+				"value" : ""
 			}			,
 			"potentialAction" : {
 				"@type": "SearchAction",
-				"target": "https://www.freshdirect.com/srch.jsp?searchParams=sichuan+peppercorns"
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams="
 			}
 		}
 	] 

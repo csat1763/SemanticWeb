@@ -1,6 +1,6 @@
 [
 {
-	"@context": "http://schema.org",
+	"@context": { "@vocab": "http://schema.org/" },
 	"@id": "http://www.edamam.com/ontologies/edamam.owl#recipe_42ebc298689aade6a3242a68adb13a5c",
 	"@type": "Recipe",
 	"sameAs": "http://www.foodista.com/recipe/D4MMDSZJ/chapli-kabab",
@@ -35,136 +35,136 @@
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
 				"@type" : "Ingredient",
-				"name" : "meat (finely minced) 1 kilogram",
+				"name" : "",
 				"ingridientFullName" : "1 Minced meat (finely minced) 1 kilogram"
  			},
  			"ingridientAmount" : {
 				"@type" : "QuantitativeValue",
-				"unitText" : "Minced",
-				"value" : "1"
+				"unitText" : "",
+				"value" : ""
 			}			,
 			"potentialAction" : {
 				"@type": "SearchAction",
-				"target": "https://www.freshdirect.com/srch.jsp?searchParams=meat+(finely+minced)+1+kilogram"
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams="
 			}
 		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
 				"@type" : "Ingredient",
-				"name" : "2 nos",
+				"name" : "",
 				"ingridientFullName" : "2 Egg 2 nos"
  			},
  			"ingridientAmount" : {
 				"@type" : "QuantitativeValue",
-				"unitText" : "Egg",
-				"value" : "2"
+				"unitText" : "",
+				"value" : ""
 			}			,
 			"potentialAction" : {
 				"@type": "SearchAction",
-				"target": "https://www.freshdirect.com/srch.jsp?searchParams=2+nos"
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams="
 			}
 		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
 				"@type" : "Ingredient",
-				"name" : "Oil/fat for frying",
+				"name" : "",
 				"ingridientFullName" : "3 Oil/fat for frying"
  			},
  			"ingridientAmount" : {
 				"@type" : "QuantitativeValue",
-				"unitText" : "pcs",
-				"value" : "3"
+				"unitText" : "",
+				"value" : ""
 			}			,
 			"potentialAction" : {
 				"@type": "SearchAction",
-				"target": "https://www.freshdirect.com/srch.jsp?searchParams=Oil/fat+for+frying"
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams="
 			}
 		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
 				"@type" : "Ingredient",
-				"name" : "finely chopped cubes one medium size",
+				"name" : "",
 				"ingridientFullName" : "4 Onion finely chopped cubes one medium size"
  			},
  			"ingridientAmount" : {
 				"@type" : "QuantitativeValue",
-				"unitText" : "Onion",
-				"value" : "4"
+				"unitText" : "",
+				"value" : ""
 			}			,
 			"potentialAction" : {
 				"@type": "SearchAction",
-				"target": "https://www.freshdirect.com/srch.jsp?searchParams=finely+chopped+cubes+one+medium+size"
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams="
 			}
 		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
 				"@type" : "Ingredient",
-				"name" : "finely crushed one medium size",
+				"name" : "",
 				"ingridientFullName" : "5 Garlic finely crushed one medium size"
  			},
  			"ingridientAmount" : {
 				"@type" : "QuantitativeValue",
-				"unitText" : "Garlic",
-				"value" : "5"
+				"unitText" : "",
+				"value" : ""
 			}			,
 			"potentialAction" : {
 				"@type": "SearchAction",
-				"target": "https://www.freshdirect.com/srch.jsp?searchParams=finely+crushed+one+medium+size"
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams="
 			}
 		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
 				"@type" : "Ingredient",
-				"name" : "2 inch long piece",
+				"name" : "",
 				"ingridientFullName" : "6 Ginger 2 inch long piece"
  			},
  			"ingridientAmount" : {
 				"@type" : "QuantitativeValue",
-				"unitText" : "Ginger",
-				"value" : "6"
+				"unitText" : "",
+				"value" : ""
 			}			,
 			"potentialAction" : {
 				"@type": "SearchAction",
-				"target": "https://www.freshdirect.com/srch.jsp?searchParams=2+inch+long+piece"
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams="
 			}
 		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
 				"@type" : "Ingredient",
-				"name" : "(finely chopped)",
+				"name" : "",
 				"ingridientFullName" : "7 Tomatoes (finely chopped)"
  			},
  			"ingridientAmount" : {
 				"@type" : "QuantitativeValue",
-				"unitText" : "Tomatoes",
-				"value" : "7"
+				"unitText" : "",
+				"value" : ""
 			}			,
 			"potentialAction" : {
 				"@type": "SearchAction",
-				"target": "https://www.freshdirect.com/srch.jsp?searchParams=(finely+chopped)"
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams="
 			}
 		},
 		{
  			"@type" : "IngredientAddition",
 			"ingredientName" : {
 				"@type" : "Ingredient",
-				"name" : "(finely chopped)",
+				"name" : "",
 				"ingridientFullName" : "8 Spices: Salt to taste  chilli cutter 1- 2 teaspoon "
  			},
  			"ingridientAmount" : {
 				"@type" : "QuantitativeValue",
-				"unitText" : "Tomatoes",
-				"value" : "7"
+				"unitText" : "",
+				"value" : ""
 			}			,
 			"potentialAction" : {
 				"@type": "SearchAction",
-				"target": "https://www.freshdirect.com/srch.jsp?searchParams=(finely+chopped)"
+				"target": "https://www.freshdirect.com/srch.jsp?searchParams="
 			}
 		}
 	] 

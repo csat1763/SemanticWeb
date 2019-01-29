@@ -205,7 +205,8 @@ public class Queries {
 				+ "      bd:serviceParam mwapi:search ?z .    bd:serviceParam mwapi:language \"en\" .\r\n"
 				+ "      bd:serviceParam mwapi:limit 5 .    ?item wikibase:apiOutputItem mwapi:item .  \r\n"
 				+ "    }    ?item rdfs:label ?itemLabel .\r\n"
-				+ "    FILTER(LANG(?itemLabel) = \"\" || LANGMATCHES(LANG(?itemLabel), \"en\"))      } }";
+				+ "    FILTER(LANG(?itemLabel) = \"\" || LANGMATCHES(LANG(?itemLabel), \"en\")).\r\n"
+				+ "  					?item <http://www.wikidata.org/prop/direct/P1709> schema:Recipe      } }";
 	}
 
 }

@@ -28,16 +28,14 @@ public class BackEndController {
 		String[] ingredientSplit = ingredients.split(",");
 
 		for (String tag : tagSplit) {
-			System.out.println(tag);
 			tagList.add(tag);
 		}
 
 		for (String ingredient : ingredientSplit) {
-			// System.out.println(ingredient);
 			ingredientList.add(ingredient);
 		}
-		// System.out.println(ingredientList);
-		// System.out.println(tagList);
+		System.out.println(
+				"Request received for:\r\n\tingredientList" + ingredientList.toString() + "\r\n\ttagList: " + tagList);
 		return FusekiEndpoint.getResutlsFromFusekiFor(ingredientList, tagList);
 	}
 

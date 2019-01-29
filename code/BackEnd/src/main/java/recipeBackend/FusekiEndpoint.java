@@ -44,8 +44,9 @@ public class FusekiEndpoint {
 				String ing = DigestUtils.sha256Hex(inge);
 				query.append("?s schema:recipeIngredient ?" + ing + ".\r\n")
 						.append("?" + ing + " schema:ingredientName ?" + ing + "1 .\r\n")
-						.append("?" + ing + "1 schema:name ?" + ing + "2 .\r\n")
-						.append("FILTER regex(?" + ing + "2,\"" + inge + "\") .");
+						.append("?" + ing + "1 schema:ingridientFullName ?" + ing + "2 .\r\n")
+						// .append("FILTER regex(?" + ing + "2,\"" + inge + "\") .")
+						.append("FILTER(<java:fuseki.LevenshteinFilter>(?" + ing + "2,\"" + inge + "\") < 5) .");
 
 			}
 		} else {
@@ -56,12 +57,12 @@ public class FusekiEndpoint {
 				String keyw = DigestUtils.sha256Hex(key);
 				query.append("?s schema:keywords ?" + keyw + ".\r\n")
 						// .append("FILTER regex(?" + keyw + ",\"" + key + "\") .\r\n")
-						.append("FILTER(<java:fusekic.LevenshteinFilter>(?" + keyw + ", \"" + key + "\") < 6) .\r\n");
+						.append("FILTER(<java:fuseki.LevenshteinFilter>(?" + keyw + ", \"" + key + "\") < 5) .\r\n");
 
 			}
 		}
 		query.append("  \r\n" + "  } LIMIT 5}");
-		System.out.println(query.toString());
+		// System.out.println(query.toString());
 		return query.toString();
 	}
 

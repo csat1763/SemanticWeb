@@ -2,10 +2,10 @@ Merge all Jar files: The Class you want to add, fuseki, and all external libs in
 
 $ mkdir tmp
 $ (cd tmp; unzip -uo ../fuseki-server.jar)
-$ (cd tmp; unzip -uo ../LevenSheteinBsp.jar)
+$ (cd tmp; unzip -uo ../udf.jar)
 $ (cd tmp; unzip -uo ../commons-text-1.6.jar)
 $ jar -cvf combined.jar -C tmp  .
-$ rm tmp
-$ jar umf Manifest.txt fuseki-server.jar
+$ rm tmp -r
+$ jar umf Manifest.txt combined.jar
 
 where Manifest.txt is the default manifest of the original fuseki-server.jar.
