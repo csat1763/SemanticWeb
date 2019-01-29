@@ -111,8 +111,9 @@ public class ShaclValidation {
 	public static void removeCorruptEntriesFromFile(String dataFileName, String reportFileName, String cuisine) {
 		try {
 			/* Read datafile first */
-			BufferedReader br = new BufferedReader(
-					new InputStreamReader(new FileInputStream(new File(dataFileName)), "UTF-8"));
+
+			File datafile = new File(dataFileName);
+			BufferedReader br = new BufferedReader(new InputStreamReader(new FileInputStream(datafile), "UTF-8"));
 			StringBuilder rep = new StringBuilder();
 			String output = "";
 			while ((output = br.readLine()) != null) {
@@ -155,6 +156,9 @@ public class ShaclValidation {
 				writer.close();
 
 			}
+
+			datafile.renameTo(
+					new File("../TripleStore/Triple/src/main/resources/data/invalidRecipes/" + datafile.getName()));
 
 		} catch (
 

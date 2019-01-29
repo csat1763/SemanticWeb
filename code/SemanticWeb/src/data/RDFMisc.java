@@ -225,28 +225,17 @@ public class RDFMisc {
 
 	public static void initSearchTerms(Collection<String> searchTerms) throws UnsupportedEncodingException {
 
-		String cusines = "Ainu\r\n" + "Albanian\r\n" + "Argentina\r\n" + "Andhra\r\n" + "Anglo-Indian\r\n" + "Arab\r\n"
-				+ "Armenian\r\n" + "Assyrian\r\n" + "Awadhi\r\n" + "Azerbaijani\r\n" + "Balochi\r\n" + "Belarusian\r\n"
-				+ "Bangladeshi\r\n" + "Bengali\r\n" + "Berber\r\n" + "Buddhist\r\n" + "Bulgarian\r\n" + "Cajun\r\n"
-				+ "Chechen\r\n" + "Chinese cuisine\r\n" + "Chinese Islamic\r\n" + "Circassian\r\n" + "Crimean Tatar\r\n"
-				+ "Danish\r\n" + "Estonian\r\n" + "French\r\n" + "Filipino\r\n" + "Georgian\r\n" + "Goan\r\n"
-				+ "Goan Catholic\r\n" + "Greek\r\n" + "Gujarati\r\n" + "Hyderabad\r\n" + "Indian cuisine\r\n"
-				+ "Indian Chinese\r\n" + "Indian Singaporean cuisine\r\n" + "Indonesian\r\n" + "Inuit\r\n"
-				+ "Italian American\r\n" + "Italian cuisine\r\n" + "Japanese\r\n" + "Jewish\r\n" + "Karnataka\r\n"
-				+ "Kazakh\r\n" + "Keralite\r\n" + "Korean\r\n" + "Kurdish\r\n" + "Laotian\r\n" + "Latvian\r\n"
-				+ "Lithuanian\r\n" + "Louisiana Creole\r\n" + "Maharashtrian\r\n" + "Mangalorean\r\n" + "Malay\r\n"
-				+ "Malaysian Chinese cuisine\r\n" + "Malaysian Indian cuisine\r\n" + "Mediterranean cuisine\r\n"
-				+ "Mexican\r\n" + "Mordovian\r\n" + "Mughal\r\n" + "Native American\r\n" + "Nepalese\r\n"
-				+ "New Mexican\r\n" + "Odia\r\n" + "Parsi\r\n" + "Pashtun\r\n" + "Polish\r\n" + "Pennsylvania Dutch\r\n"
-				+ "Pakistani\r\n" + "Peranakan\r\n" + "Persian\r\n" + "Peruvian\r\n" + "Portuguese\r\n" + "Punjabi\r\n"
-				+ "Rajasthani\r\n" + "Romanian\r\n" + "Russian\r\n" + "Sami\r\n" + "Serbian\r\n" + "Sindhi\r\n"
-				+ "Slovak\r\n" + "Slovenian\r\n" + "Somali\r\n" + "South Indian\r\n" + "Sri Lankan\r\n" + "Tatar\r\n"
-				+ "Thai\r\n" + "Turkish\r\n" + "Tamil\r\n" + "Udupi\r\n" + "Ukrainian\r\n" + "Yamal\r\n" + "Zanzibari";
+		BufferedReader br;
+		try {
+			br = new BufferedReader(new InputStreamReader(new FileInputStream(new File("src/Cuisines.txt")), "UTF-8"));
 
-		String cus[] = cusines.split("\r\n");
-		for (String cusi : cus) {
-			searchTerms.add(URLEncoder.encode(cusi, "UTF-8"));
+			String output = "";
+			while ((output = br.readLine()) != null) {
+				searchTerms.add(URLEncoder.encode(output, "UTF-8"));
+			}
 
+		} catch (IOException e) {
+			e.printStackTrace();
 		}
 
 	}
