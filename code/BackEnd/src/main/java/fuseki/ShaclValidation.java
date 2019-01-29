@@ -159,6 +159,7 @@ public class ShaclValidation {
 
 			datafile.renameTo(
 					new File("../TripleStore/Triple/src/main/resources/data/invalidRecipes/" + datafile.getName()));
+			datafile.delete();
 
 		} catch (
 

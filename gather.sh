@@ -1,8 +1,9 @@
 #!/bin/bash
+echo "collecting data..."
 cd code/SemanticWeb
 java -jar dataCrawler.jar
+echo "transforming data..."
 java -jar dataTranslator.jar
-read -p "Press enter to continue"
 cd ../../
 cp "code/TripleStore/Triple/src/main/resources/data/misc/AAdummyForShacl.jsonld" "code/TripleStore/Triple/src/main/resources/data/recipes"
 rm -rf "code/TripleStore/Triple/src/main/resources/shaclReports/*"
