@@ -1,0 +1,55 @@
+{
+  "@graph" : [ {
+    "@id" : "_:b0",
+    "@type" : "http://www.w3.org/ns/shacl#ValidationReport",
+    "http://www.w3.org/ns/shacl#conforms" : false,
+    "result" : "_:b1"
+  }, {
+    "@id" : "_:b1",
+    "@type" : "http://www.w3.org/ns/shacl#ValidationResult",
+    "focusNode" : "http://www.edamam.com/ontologies/edamam.owl#recipe_2da19ec421bf23047ed8535fe34d3121",
+    "resultMessage" : "Less than 2 values",
+    "resultPath" : "http://schema.org/recipeIngredient",
+    "resultSeverity" : "http://www.w3.org/ns/shacl#Violation",
+    "sourceConstraintComponent" : "http://www.w3.org/ns/shacl#MinCountConstraintComponent",
+    "sourceShape" : "_:b2"
+  } ],
+  "@context" : {
+    "conforms" : {
+      "@id" : "http://www.w3.org/ns/shacl#conforms",
+      "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
+    },
+    "result" : {
+      "@id" : "http://www.w3.org/ns/shacl#result",
+      "@type" : "@id"
+    },
+    "resultPath" : {
+      "@id" : "http://www.w3.org/ns/shacl#resultPath",
+      "@type" : "@id"
+    },
+    "resultMessage" : {
+      "@id" : "http://www.w3.org/ns/shacl#resultMessage"
+    },
+    "focusNode" : {
+      "@id" : "http://www.w3.org/ns/shacl#focusNode",
+      "@type" : "@id"
+    },
+    "sourceShape" : {
+      "@id" : "http://www.w3.org/ns/shacl#sourceShape",
+      "@type" : "@id"
+    },
+    "sourceConstraintComponent" : {
+      "@id" : "http://www.w3.org/ns/shacl#sourceConstraintComponent",
+      "@type" : "@id"
+    },
+    "resultSeverity" : {
+      "@id" : "http://www.w3.org/ns/shacl#resultSeverity",
+      "@type" : "@id"
+    },
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "xsd" : "http://www.w3.org/2001/XMLSchema#",
+    "fo" : "http://purl.org/ontology/fo/",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
+  }
+}
