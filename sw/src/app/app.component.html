@@ -1,30 +1,82 @@
-<!--The content below is only a placeholder and can be replaced.-->
-<div style="text-align:center">
-	<h1>
-	Welcome to {{ title }}!
-	</h1>
-	<label *ngFor="let tag of tags">
-		<input type="checkbox" name="tags" value="{{tag.value}}" [(ngModel)]="tag.checked" />
-		{{tag.name}}
-	</label>
-	<input type="text" [(ngModel)]="search_text" />
-	<input type="submit" value="Add" (click)="add_ingredient()" />
-	<ul>
-		<li *ngFor="let ingredient of search_ingredients; let i = index">
-			{{ingredient}} <input type="submit" value="Remove" (click)="remove_ingredient(i)" />
-		</li>
-	</ul>
-	<input type="submit" value="Search" (click)="search()" />
-</div>
-<div *ngFor="let recipe of results">
-	<h2><a href="{{recipe.sameAs}}">{{recipe.name}}</a></h2>
-	<ul>
-		<li *ngFor="let ingredient of recipe.recipeIngredient">{{ingredient.ingredientName.ingridientFullName}}</li>
-	</ul>
-	<img src="{{recipe.image.contentUrl}}">
-	<ul>
-		<li *ngFor="let keyword of recipe.keywords">{{keyword}}</li>
-	</ul>
-
-</div>
+<mat-sidenav-container>
+	<mat-sidenav-content>
+		<mat-toolbar color="primary">
+			<span>SW Eats</span>
+		</mat-toolbar>
+				<mat-card class="form-container">
+					<mat-card-header>
+						<mat-card-title>Tags</mat-card-title>
+						<mat-card-subtitle>Search for any combination</mat-card-subtitle>
+					</mat-card-header>
+					<mat-card-content>
+						<mat-grid-list cols="7" rowHeight="4.5em">
+							<mat-grid-tile class="tag" *ngFor="let tag of tags">
+								<mat-checkbox [(ngModel)]="tag.checked">{{tag.name}}</mat-checkbox>
+							</mat-grid-tile>
+						</mat-grid-list>
+					</mat-card-content>
+				</mat-card>
+				<mat-card class="form-container">
+					<mat-card-header>
+						<mat-card-title>Ingredients</mat-card-title>
+						<mat-card-subtitle>Add any free-text ingredients you like</mat-card-subtitle>
+					</mat-card-header>
+					<mat-card-content>
+						<mat-list style="width: 100%">
+							<mat-list-item>
+								<mat-form-field style="width: calc(100% - 3.3em)">
+									<input matInput placeholder="Search for ingredients" [(ngModel)]="search_text" (keyup.enter)="add_ingredient()" (blur)="add_ingredient()"/>
+								</mat-form-field>
+								&nbsp;
+								<button mat-icon-button (click)="add_ingredient()">
+									<mat-icon aria-label="Add ingredient">add</mat-icon>
+								</button>
+							</mat-list-item>
+							<mat-list-item *ngFor="let ingredient of search_ingredients; let i = index">
+								{{ingredient}}
+								&nbsp;
+								<button mat-icon-button (click)="remove_ingredient(i)">
+									<mat-icon aria-label="Remove ingredient">remove</mat-icon>
+								</button>
+							</mat-list-item>
+						</mat-list>
+					</mat-card-content>
+				</mat-card>
+		<div style="text-align: center">
+			<button mat-flat-button [disabled]="loading" (click)="search()">Search</button>
+		</div>
+		<mat-progress-bar class="loading-recipes" mode="indeterminate" *ngIf="loading"></mat-progress-bar>
+		<div class="no-results" *ngIf="!loading && results !== undefined && results.length == 0">
+			<mat-icon>blur_on</mat-icon>
+			<br/>
+			Sorry! We came up short. There are no results for your parameters at all.
+		</div>
+		<mat-card class="recipe-card" *ngFor="let recipe of results">
+			<mat-card-header>
+				<mat-card-title><a href="{{recipe.sameAs}}">{{recipe.name}}</a></mat-card-title>
+				<mat-card-subtitle>
+					<mat-chip-list>
+						<mat-chip *ngFor="let keyword of recipe.keywords" [disabled]="find_tag(keyword).checked" (click)="add_tag_search(find_tag(keyword))">{{find_tag(keyword).name}}</mat-chip>
+					</mat-chip-list>
+					<br/>
+				</mat-card-subtitle>
+			</mat-card-header>
+			<a href="{{recipe.sameAs}}"><img mat-card-image src="{{recipe.image.contentUrl}}" alt="{{recipe.name}}"></a>
+			<mat-card-content>
+				<mat-list>
+					<mat-list-item *ngFor="let ingredient of recipe.recipeIngredient" class="ingredient">
+						<div>
+							<p class="ingredient-line">{{ingredient.ingredientName.ingridientFullName}}</p>
+						</div>
+						<a mat-icon-button href="{{ingredient.potentialAction.target}}"><mat-icon>shopping_cart</mat-icon></a>
+					</mat-list-item>
+				</mat-list>
+			</mat-card-content>
+			<mat-card-actions>
+				<a href="{{recipe.sameAs}}" mat-button>More</a>
+			</mat-card-actions>
+		</mat-card>
+		<div style="height: 70px"></div>
+	</mat-sidenav-content>
+</mat-sidenav-container>
 <router-outlet></router-outlet>
