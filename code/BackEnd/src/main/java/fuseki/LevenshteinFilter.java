@@ -7,8 +7,11 @@ import org.apache.jena.sparql.function.FunctionBase2;
 public class LevenshteinFilter extends FunctionBase2 {
 	@Override
 	public NodeValue exec(NodeValue value1, NodeValue value2) {
-		return NodeValue
-				.makeInteger(LevenshteinDistance.getDefaultInstance().apply(value1.asString(), value2.asString()));
+		String a = value1.asString();
+		String b = value2.asString();
+		int ld = LevenshteinDistance.getDefaultInstance().apply(a, b);
+		ld -= Math.abs(a.length() - b.length());
+		return NodeValue.makeInteger(ld);
 
 	}
 
