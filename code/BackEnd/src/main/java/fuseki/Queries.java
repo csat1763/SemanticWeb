@@ -5,6 +5,12 @@ import org.apache.jena.vocabulary.RDF;
 import org.apache.jena.vocabulary.RDFS;
 
 public class Queries {
+	public static void main(String[] argss) {
+		System.out.println(numberOfDistinctClasses());
+	}
+
+	public static String dataGraph = "GRAPH <http://localhost:3030/food/data/data>";
+	public static String ontologyGraph = "GRAPH <http://localhost:3030/food/data/ontology>";
 
 	public static String prefix = "prefix rdfs: <" + RDFS.getURI() + ">\n" + "prefix rdf: <" + RDF.getURI() + ">\n"
 			+ "prefix owl: <" + OWL.getURI() + ">\n" + "PREFIX wd: <http://www.wikidata.org/entity/>\r\n"
@@ -43,9 +49,8 @@ public class Queries {
 				+ "PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>\r\n"
 				+ "PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>\r\n"
 				+ "PREFIX owl: <http://www.w3.org/2002/07/owl#>\r\n" + "\r\n"
-				+ "SELECT ?class (COUNT(?class) as ?instances) WHERE{\r\n" + "	{\r\n"
-				+ "     GRAPH <http://localhost:3030/food/data/data> {?s ?p ?class} .\r\n"
-				+ "    GRAPH <http://localhost:3030/food/data/ontology> {?class a owl:Class } .\r\n" + "	}\r\n"
+				+ "SELECT ?class (COUNT(?class) as ?instances) WHERE{\r\n" + "	{\r\n" + "     " + dataGraph
+				+ " {?s ?p ?class} .\r\n" + "    " + ontologyGraph + " {?class a owl:Class } .\r\n" + "	}\r\n"
 				+ "} GROUP BY ?class ";
 
 	}
@@ -64,9 +69,8 @@ public class Queries {
 				+ "PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>\r\n"
 				+ "PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>\r\n"
 				+ "PREFIX owl: <http://www.w3.org/2002/07/owl#>\r\n" + "\r\n"
-				+ "SELECT (COUNT(DISTINCT ?o) as ?numberOfClasses) WHERE{\r\n" + "	{\r\n"
-				+ "     GRAPH <http://localhost:3030/food/data/data> {?s ?p ?o} .\r\n"
-				+ "    GRAPH <http://localhost:3030/food/data/ontology> {?o a owl:Class } .\r\n" + "	}\r\n" + "}";
+				+ "SELECT (COUNT(DISTINCT ?o) as ?numberOfClasses) WHERE{\r\n" + "	{\r\n" + "     " + dataGraph
+				+ " {?s ?p ?o} .\r\n" + "    " + ontologyGraph + " {?o a owl:Class } .\r\n" + "	}\r\n" + "}";
 	}
 
 	// total number of distinct properties
@@ -76,10 +80,9 @@ public class Queries {
 				+ "PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>\r\n"
 				+ "PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>\r\n"
 				+ "PREFIX owl: <http://www.w3.org/2002/07/owl#>\r\n" + "\r\n"
-				+ "SELECT (COUNT(DISTINCT ?p) as ?numberOfProperties) WHERE{\r\n" + "	{\r\n"
-				+ "     GRAPH <http://localhost:3030/food/data/data> {?s ?p ?o} .\r\n"
-				+ "    GRAPH <http://localhost:3030/food/data/ontology> {?p a owl:ObjectProperty} .\r\n" + "	}\r\n"
-				+ "}\r\n" + "";
+				+ "SELECT (COUNT(DISTINCT ?p) as ?numberOfProperties) WHERE{\r\n" + "	{\r\n" + "     " + dataGraph
+				+ " {?s ?p ?o} .\r\n" + "    " + ontologyGraph + " {?p a owl:ObjectProperty} .\r\n" + "	}\r\n" + "}\r\n"
+				+ "";
 	}
 
 	// list of all classes used in your dataset per data source (see named graphs)
@@ -89,8 +92,8 @@ public class Queries {
 				+ "PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>\r\n"
 				+ "PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>\r\n"
 				+ "PREFIX owl: <http://www.w3.org/2002/07/owl#>\r\n" + "\r\n" + "SELECT\r\n" + "DISTINCT ?g ?class \r\n"
-				+ "WHERE{\r\n" + "	{\r\n" + "      GRAPH ?g {?s ?p ?class } .\r\n"
-				+ "      GRAPH <http://localhost:3030/food/data/ontology> {?class  a owl:Class } . \r\n"
+				+ "WHERE{\r\n" + "	{\r\n" + "      GRAPH ?g {?s ?p ?class } .\r\n" + "      " + ontologyGraph
+				+ " {?class  a owl:Class } . \r\n"
 				+ "      FILTER(?g != <http://localhost:3030/food/data/ontology>) .\r\n" + "	}\r\n" + "}";
 
 	}
@@ -106,7 +109,7 @@ public class Queries {
 				+ "PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>\r\n"
 				+ "PREFIX owl: <http://www.w3.org/2002/07/owl#>\r\n" + "\r\n" + "SELECT\r\n"
 				+ "DISTINCT ?g ?property\r\n" + "WHERE{\r\n" + "	{\r\n" + "      GRAPH ?g {?s ?property ?o } .\r\n"
-				+ "      GRAPH <http://localhost:3030/food/data/ontology> {?property a owl:ObjectProperty } .\r\n"
+				+ "      " + ontologyGraph + " {?property a owl:ObjectProperty } .\r\n"
 				+ "      FILTER(?g != <http://localhost:3030/food/data/ontology>) .\r\n" + "	}\r\n" + "  \r\n"
 				+ "  \r\n" + "}";
 
@@ -127,8 +130,7 @@ public class Queries {
 				+ "PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>\r\n"
 				+ "PREFIX owl: <http://www.w3.org/2002/07/owl#>\r\n" + "\r\n" + "SELECT\r\n"
 				+ "?g ?class (COUNT(?class ) as ?instances)\r\n" + "WHERE{\r\n" + "	{\r\n"
-				+ "      GRAPH ?g {?s ?p ?class  } .\r\n"
-				+ "      GRAPH <http://localhost:3030/food/data/ontology> {?class  a owl:Class } . \r\n"
+				+ "      GRAPH ?g {?s ?p ?class  } .\r\n" + "      " + ontologyGraph + " {?class  a owl:Class } . \r\n"
 				+ "      FILTER(?g != <http://localhost:3030/food/data/ontology>) .\r\n" + "	} \r\n"
 				+ "}GROUP BY ?g ?class ";
 	}
@@ -141,8 +143,8 @@ public class Queries {
 				+ "PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>\r\n"
 				+ "PREFIX owl: <http://www.w3.org/2002/07/owl#>\r\n" + "\r\n" + "SELECT\r\n"
 				+ "DISTINCT ?g ?property (COUNT(DISTINCT ?s) as ?subjects)\r\n" + "WHERE{\r\n" + "	{\r\n"
-				+ "      GRAPH ?g {?s ?property ?o } .\r\n"
-				+ "      GRAPH <http://localhost:3030/food/data/ontology> {?property a owl:ObjectProperty } .\r\n"
+				+ "      GRAPH ?g {?s ?property ?o } .\r\n" + "      " + ontologyGraph
+				+ " {?property a owl:ObjectProperty } .\r\n"
 				+ "      FILTER(?g != <http://localhost:3030/food/data/ontology>) .\r\n" + "    \r\n" + "	}\r\n"
 				+ " \r\n" + "} GROUP BY ?g ?property";
 	}
@@ -155,8 +157,8 @@ public class Queries {
 				+ "PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>\r\n"
 				+ "PREFIX owl: <http://www.w3.org/2002/07/owl#>\r\n" + "\r\n" + "SELECT\r\n"
 				+ "DISTINCT ?g ?property (COUNT(DISTINCT ?o) as ?objects)\r\n" + "WHERE{\r\n" + "	{\r\n"
-				+ "      GRAPH ?g {?s ?property ?o } .\r\n"
-				+ "      GRAPH <http://localhost:3030/food/data/ontology> {?property a owl:ObjectProperty } .\r\n"
+				+ "      GRAPH ?g {?s ?property ?o } .\r\n" + "      " + ontologyGraph
+				+ " {?property a owl:ObjectProperty } .\r\n"
 				+ "      FILTER(?g != <http://localhost:3030/food/data/ontology>) .\r\n" + "    \r\n" + "	}\r\n"
 				+ " \r\n" + "} GROUP BY ?g ?property";
 
@@ -170,12 +172,10 @@ public class Queries {
 				+ "PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>\r\n"
 				+ "PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>\r\n"
 				+ "PREFIX owl: <http://www.w3.org/2002/07/owl#>\r\n" + "\r\n"
-				+ "SELECT DISTINCT ?property ?class WHERE {\r\n" + "  \r\n"
-				+ "   GRAPH <http://localhost:3030/food/data/data> {?s a ?class . ?s ?property ?o} .\r\n"
-				+ "   FILTER(?property != rdf:type) .\r\n" + "\r\n"
-				+ "{SELECT ?class (COUNT(?class) as ?instances) WHERE{\r\n" + "	{\r\n"
-				+ "     GRAPH <http://localhost:3030/food/data/data> {?s ?property ?class} .\r\n"
-				+ "    GRAPH <http://localhost:3030/food/data/ontology> {?class a owl:Class } .\r\n" + "	}\r\n"
+				+ "SELECT DISTINCT ?property ?class WHERE {\r\n" + "  \r\n" + "   " + dataGraph
+				+ " {?s a ?class . ?s ?property ?o} .\r\n" + "   FILTER(?property != rdf:type) .\r\n" + "\r\n"
+				+ "{SELECT ?class (COUNT(?class) as ?instances) WHERE{\r\n" + "	{\r\n" + "     " + dataGraph
+				+ " {?s ?property ?class} .\r\n" + "    " + ontologyGraph + " {?class a owl:Class } .\r\n" + "	}\r\n"
 				+ "    } GROUP BY ?class ORDER BY DESC(?instances) LIMIT 5}}";
 	}
 
@@ -183,7 +183,7 @@ public class Queries {
 	// (reasoning on and off)
 	public static String federatedQuery() {
 		System.out.println("wikiDataAlignment");
-		return prefix + "\r\n" + "PREFIX wds: <http://www.wikidata.org/entity/statement/>\r\n"
+		return "\r\n" + "PREFIX wds: <http://www.wikidata.org/entity/statement/>\r\n"
 				+ "PREFIX wdv: <http://www.wikidata.org/value/>\r\n"
 				+ "PREFIX wdt: <http://www.wikidata.org/prop/direct/>\r\n"
 				+ "PREFIX wikibase: <http://wikiba.se/ontology#>\r\n" + "PREFIX p: <http://www.wikidata.org/prop/>\r\n"

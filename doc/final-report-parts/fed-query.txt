@@ -1,0 +1,65 @@
+Data Alignment:
+	The goal of this action is to align our datatypes with already existing and widely used types. Prime-example for this is Wikidata.
+Using Wikidatas SPARQL-Endpoint it is possible to find equivalent classes to localally used classes. In this case only schema:Recipe was aligned but it is totally possible
+to find an aligment for all locally used classes and integrate the Wikidata classes into the ontology in an automated fashion. This requires certain steps such as: Load all
+yieled Class-Codes from Wikidata to a lookup-table, using a script integrate all loaded Class-Codes into existing ontology via Protege e.g.
+This was not necessary hence only a demonstrative federated query was included. Explanation below the query.
+
+----------------------------------------------------------------------------------------------
+PREFIX wds: <http://www.wikidata.org/entity/statement/>
+PREFIX wdv: <http://www.wikidata.org/value/>
+PREFIX wdt: <http://www.wikidata.org/prop/direct/>
+PREFIX wikibase: <http://wikiba.se/ontology#>
+PREFIX p: <http://www.wikidata.org/prop/>
+PREFIX ps: <http://www.wikidata.org/prop/statement/>
+PREFIX pq: <http://www.wikidata.org/prop/qualifier/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX bd: <http://www.bigdata.com/rdf#> 
+PREFIX afn: <http://jena.hpl.hp.com/ARQ/function#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX mw: <http://tools.wmflabs.org/mw2sparql/ontology#>
+PREFIX mwapi: <https://www.mediawiki.org/ontology#API/> 
+PREFIX schema: <http://schema.org/>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+
+SELECT DISTINCT ?item ?itemLabel ?localClass WHERE
+{
+	{
+    	SELECT DISTINCT ?localClass ?label WHERE 
+    	{
+        	GRAPH <http://uibk.org/data> {?s a ?localClass} .
+    		GRAPH <http://uibk.org/ontology> {?localClass a owl:Class } .
+      		GRAPH <http://uibk.org/ontology> {?localClass rdfs:label ?label}
+    	}  
+  	}  
+	SERVICE <https://query.wikidata.org/sparql>
+	{ 
+		SERVICE wikibase:mwapi
+		{    
+     		bd:serviceParam wikibase:api "EntitySearch" .
+      		bd:serviceParam wikibase:endpoint "www.wikidata.org" .
+      		bd:serviceParam mwapi:search ?label .    
+		bd:serviceParam mwapi:language "en" .
+     		bd:serviceParam mwapi:limit 5 .    
+		?item wikibase:apiOutputItem mwapi:item .  
+    		}    
+    	?item rdfs:label ?itemLabel .
+    	FILTER(LANG(?itemLabel) = "" || LANGMATCHES(LANG(?itemLabel), "en")).
+  	?item <http://www.wikidata.org/prop/direct/P1709> schema:Recipe      
+	} 
+}
+----------------------------------------------------------------------------------------------
+
+Explanation:
+	First part of the query focuses on getting all locally used classes and their labels '?localClass' '?label'.
+Once these are known using the keywordd 'SERVICE' an external queryservice is consulted (WikiData in this case).
+On top of the normal usual SPARQL-Query service WikiData offers a Search-API (MediaWiki SearchAPI) which comes in handy
+since the labels of the local classes can simply be entred in that API which then returns the according search-results.
+The part 'SERVICE wikibase:mwapi' returns the WikiData objects into '?item' which is then further used.
+The API-Request can be modified by changing the according 'bd:serviceParam'.
+When finally receiving entries as '?item' from the API a simple query is submitted to find the labels 
+which are then displayed at the local TripleStore that requested the SERVICE.
+The last line '?item <http://www.wikidata.org/prop/direct/P1709> schema:Recipe' is to filter to our locally used class schema:Recipe
+since WikiData offers a direct equivalence property to 'schema.org' classes.
+In general the rest of this query could have been avoided, but for reasons mentioned earlier it is useful to leave it in anyway.

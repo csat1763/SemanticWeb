@@ -10,7 +10,6 @@ public class LevenshteinFilter extends FunctionBase2 {
 		String a = value1.asString();
 		String b = value2.asString();
 		int ld = LevenshteinDistance.getDefaultInstance().apply(a, b);
-		ld -= Math.abs(a.length() - b.length());
 		return NodeValue.makeInteger(ld);
 
 	}

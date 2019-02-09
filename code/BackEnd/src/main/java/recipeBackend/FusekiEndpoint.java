@@ -38,15 +38,18 @@ public class FusekiEndpoint {
 		query.append(prefix)
 				.append("DESCRIBE ?s " + "FROM " + fusekiOntGraphName + " \r\n" + "FROM " + fusekiDataGraphName
 						+ " \r\n" + "{ SELECT \r\n" + "DISTINCT ?s \r\n" + "WHERE{")
-				.append("\r\n?s ?p ?o . \r\n" + "?s a schema:Recipe . ");
+				.append(" \r\n" + "?s a schema:Recipe . ");
+
 		if (ings != null && !ings.isEmpty()) {
 			for (String inge : ings) {
 				String ing = DigestUtils.sha256Hex(inge);
+				int error = errorMargin(inge);
 				query.append("?s schema:recipeIngredient ?" + ing + ".\r\n")
 						.append("?" + ing + " schema:ingredientName ?" + ing + "1 .\r\n")
-						.append("?" + ing + "1 schema:ingridientFullName ?" + ing + "2 .\r\n")
+						.append("?" + ing + "1 schema:name ?" + ing + "2 .\r\n")
 						// .append("FILTER regex(?" + ing + "2,\"" + inge + "\") .")
-						.append("FILTER(<java:fuseki.LevenshteinFilter>(?" + ing + "2,\"" + inge + "\") < 5) .");
+						.append("FILTER(<java:fuseki.LevenshteinFilter>(?" + ing + "2,\"" + inge + "\") < " + error
+								+ ") .");
 
 			}
 		} else {
@@ -57,12 +60,12 @@ public class FusekiEndpoint {
 				String keyw = DigestUtils.sha256Hex(key);
 				query.append("?s schema:keywords ?" + keyw + ".\r\n")
 						// .append("FILTER regex(?" + keyw + ",\"" + key + "\") .\r\n")
-						.append("FILTER(<java:fuseki.LevenshteinFilter>(?" + keyw + ", \"" + key + "\") < 5) .\r\n");
+						.append("FILTER(<java:fuseki.LevenshteinFilter>(?" + keyw + ", \"" + key + "\") < 4) .\r\n");
 
 			}
 		}
 		query.append("  \r\n" + "  } LIMIT 5}");
-		// System.out.println(query.toString());
+		System.out.println(query.toString());
 		return query.toString();
 	}
 
@@ -70,5 +73,20 @@ public class FusekiEndpoint {
 			+ "PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>\r\n"
 			+ "PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>\r\n"
 			+ "PREFIX owl: <http://www.w3.org/2002/07/owl#>\r\n";
+
+	public static int errorMargin(String a) {
+		int margin = 0;
+		if (a.length() <= 3) {
+			margin = 1;
+		} else if (a.length() > 3 && a.length() <= 6) {
+			margin = 2;
+		} else if (a.length() > 6 && a.length() <= 10) {
+			margin = 3;
+		} else {
+			margin = 4;
+		}
+
+		return margin;
+	}
 
 }

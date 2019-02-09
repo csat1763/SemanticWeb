@@ -126,8 +126,8 @@ public class DataTranslator {
 								.append("\t\t{\r\n \t\t\t\"@type\" : \"IngredientAddition\",\r\n"
 										+ "\t\t\t\"ingredientName\" : {\r\n" + "\t\t\t\t\"@type\" : \"Ingredient\",\r\n"
 										+ "\t\t\t\t\"name\" : \"" + ingredient + "\",\r\n"
-										+ "\t\t\t\t\"ingridientFullName\" : \"" + i + "\"\r\n" + " \t\t\t},")
-								.append("\r\n \t\t\t\"ingridientAmount\" : {\r\n"
+										+ "\t\t\t\t\"ingredientFullName\" : \"" + i + "\"\r\n" + " \t\t\t},")
+								.append("\r\n \t\t\t\"ingredientAmount\" : {\r\n"
 										+ "\t\t\t\t\"@type\" : \"QuantitativeValue\",\r\n" + "\t\t\t\t\"unitText\" : \""
 										+ unit + "\",\r\n" + "\t\t\t\t\"value\" : \"" + amount + "\"\r\n" + "\t\t\t}");
 

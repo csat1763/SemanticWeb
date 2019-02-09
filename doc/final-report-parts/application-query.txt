@@ -1,0 +1,71 @@
+-Application Query
+Motivation:
+	The goal of this query is, to find entries in the triplestore that match the requirements.
+These requirements are based on selected ingredients and healthlabels. From these userinputs a dynamic
+query is generated to get the desired schema:Recipe entries. The general idea is to find the matching
+subjects to a simple 'describe' in the query is used to reconstruct the original recipe in its entirety.
+Since 'describe' in Fusekis SPARQL yields a TTL-format a conversion to JSON-LD is essential since the results
+can be passed to any web-frontend without much modification of the data.
+
+Query described with a use-case:
+	In our use-case the input is:
+        ingredientList[salt, butter, chicken]
+        tagList: [Low-Carb]
+
+In the Backend (code/BackEnd/src/main/java/recipeBackend/FusekiEndpoint.java - generateQuery())
+the following SPARQL-Query is generated:
+-----------------------------------------------------------------------------------------
+PREFIX schema: <http://schema.org/>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+DESCRIBE ?s 
+FROM <http://uibk.org/ontology>
+FROM <http://uibk.org/data>
+{ 
+	SELECT
+	DISTINCT ?s
+	WHERE
+	{
+		?s ?p ?o .
+		?s a schema:Recipe . 
+
+		?s schema:recipeIngredient ?ing1.
+		?ing1 schema:ingredientName ?ing11 .
+		?ing11 schema:name ?ing12 .
+		FILTER(<java:fuseki.LevenshteinFilter>(?ing12,"salt") < 2) .
+    
+		?s schema:recipeIngredient ?ing2.
+		?ing2 schema:ingredientName ?ing21 .
+		?ing21 schema:name ?ing22 .
+		FILTER(<java:fuseki.LevenshteinFilter>(?ing22,"butter") < 2) .
+    
+		?s schema:recipeIngredient ?ing3.
+		?ing3 schema:ingredientName ?ing31 .
+		?ing31 schema:name ?ing32 .
+		FILTER(<java:fuseki.LevenshteinFilter>(?ing32,"chicken") < 3) .
+    
+		?s schema:keywords ?keyword1.
+		FILTER(<java:fuseki.LevenshteinFilter>(?keyword1, "Low-Carb") < 4) .
+	} 
+}
+-----------------------------------------------------------------------------------------
+
+Explanation of SPARQL-Query:
+	Since the prefixes are ovbious the first line that's interesting is 'DESCRIBE ?s': This returns a TTL-Format RDF Graph reconstruction of a specified resource.
+In particular of the subject ?s which should ultimately be a schema:Recipe.
+The 'FROM' specifies the data and ontology graph.
+Now the ingedrients need to be somehow looked up in the graph. First all possible values of '?s' must be a 'schema:Recipe'. Ingedrients are linked to the recipe by the predicate 'schema:recipeIngredient'.
+This class has 3 classes in itself: 'schema:ingredientName', 'schema:ingridientAmount', 'schema:potentialAction'. Further the name of the ingredient can be found in the class 'schema:ingredientName'.
+Once the 'schema:ingredientName' object has been found a simple 'schema:name' will contain the actual name of an ingredient. 
+The line 'FILTER(<java:fuseki.LevenshteinFilter>(?ing12,"salt") < 2) .' applies a filter to match the ingredientname to a given searchword which is 'butter' in this case.
+Because user-error is sometimes inevitable the searchword is not directly matched to the entries.
+Instead a custom-made function 'LevenshteinFilter' extends the current SPARQL of the fuseki to allow an error-margin when passing the search-words to the query.
+In this particular case any ingredientnames will match satisfying the condidtion of 'LevenshteinFilter(ingredientNameIntripleStore,searchWord) < 2'.
+The number '2' is automatically generated for the inital query and custom for every search-word and it
+simply depends on the length of the search-word (implemenation: code/BackEnd/src/main/java/recipeBackend/FusekiEndpoint.java - errorMargin()).
+
+This same method is applied for other ingredients and the health-labels.
+
+		
+
