@@ -1,8 +1,8 @@
 Data Alignment:
-	The goal of this action is to align our datatypes with already existing and widely used types. Prime-example for this is Wikidata.
-Using Wikidatas SPARQL-Endpoint it is possible to find equivalent classes to localally used classes. In this case only schema:Recipe was aligned but it is totally possible
-to find an aligment for all locally used classes and integrate the Wikidata classes into the ontology in an automated fashion. This requires certain steps such as: Load all
-yieled Class-Codes from Wikidata to a lookup-table, using a script integrate all loaded Class-Codes into existing ontology via Protege e.g.
+	The goal of this action is to align our data types with already existing and widely used types. Prime-example for this is Wikidata.
+Using Wikidatas SPARQL-Endpoint it is possible to find equivalent classes to locally used classes. In this case only schema:Recipe was aligned but it is totally possible
+to find an alignment for all locally used classes and integrate the Wikidata classes into the ontology in an automated fashion. This requires certain steps such as: Load all
+yielded Class-Codes from Wikidata to a lookup-table, using a script integrate all loaded Class-Codes into existing ontology via Protege e.g.
 This was not necessary hence only a demonstrative federated query was included. Explanation below the query.
 
 ----------------------------------------------------------------------------------------------
@@ -53,9 +53,9 @@ SELECT DISTINCT ?item ?itemLabel ?localClass WHERE
 
 Explanation:
 	First part of the query focuses on getting all locally used classes and their labels '?localClass' '?label'.
-Once these are known using the keywordd 'SERVICE' an external queryservice is consulted (WikiData in this case).
+Once these are known using the keyword 'SERVICE' an external query-service is consulted (WikiData in this case).
 On top of the normal usual SPARQL-Query service WikiData offers a Search-API (MediaWiki SearchAPI) which comes in handy
-since the labels of the local classes can simply be entred in that API which then returns the according search-results.
+since the labels of the local classes can simply be entered in that API which then returns the according search-results.
 The part 'SERVICE wikibase:mwapi' returns the WikiData objects into '?item' which is then further used.
 The API-Request can be modified by changing the according 'bd:serviceParam'.
 When finally receiving entries as '?item' from the API a simple query is submitted to find the labels 
