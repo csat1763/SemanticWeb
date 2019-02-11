@@ -15,7 +15,9 @@ To start the application do following:
 	
 To gather data do following:
 
-1.	$ ./gather
+1. Execute
+
+	$ ./gather
 	
 2.	in *\SemanticWeb\ner-tools* execute (NLP):
 
