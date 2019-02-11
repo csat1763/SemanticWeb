@@ -175,7 +175,7 @@ Basically our architecture consists of three main components shown in Figure \re
 \end{figure}
 \noindent
 \\ \\
-As seen in the picture the client (where the main page is displayed) sends a HTTP request with the desired tags and a list of the chosen ingredients to our RESTful Web Service Server. The RESTful Server parses the HTTP request (extracts the ingredients and tags from the HTTP request) and forms a dynamic SPARQL query, which is then send to the Apache Jena Fuseki Server, where our triples are stored. The Fuseki Server then executes the query and responds with the desired data in Turtle-format (with the keyword DESCRIBE). We then take this result and parse it into jsonld which we hand back to the RESTful Web Service Server. This server forms a HTTP response with the results from the query and sends it back to the client where the results will be displayed properly.
+As seen in the picture the client (where the main page is displayed) sends a HTTP request with the desired tags and a list of the chosen ingredients to our RESTful Web Service Server. The RESTful Server parses the HTTP request (extracts the ingredients and tags from the HTTP request) and forms a dynamic SPARQL query, which is then sent to the Apache Jena Fuseki Server, where our triples are stored. The Fuseki Server then executes the query and responds with the desired data in Turtle-format (with the keyword DESCRIBE). We then take this result and parse it into jsonld which we hand back to the RESTful Web Service Server. This server forms a HTTP response with the results from the query and sends it back to the client where the results will be displayed properly.
 
 \subsubsection{Client}
 In this section we want to talk a little bit about the front-end of our application. The front-end is designed with ``Angular'' and is available on port 4200. Angular is a platform that makes it easy to build applications with the web. Angular combines declarative templates, dependency injection, end to end tooling, and integrated best practices to solve development challenges.  \\ \\
@@ -189,7 +189,7 @@ We performed an example request without any tags selected. The result is display
 \end{figure}
 \noindent
 \\ \\
-The user gets a nice looking result with the title of the recipe, the stored tags for each recipe, a picture is rendered so the user gets a first impression what the meal might look like after preparation and a list of ingredients. \\
+The user gets a nice looking result with the title of the recipe, the stored tags for each recipe, a picture which gives the user a first impression what the meal might look like after preparation and a list of ingredients. \\
 Here we can also observe that directly after each listed ingredient there is a symbol to click on. When the user clicks on this symbol he is redirected to an online store which is called ``freshdirect'' where he or she can buy the corresponding ingredient. This is handled via a potentialAction (more specific: SearchAction).
 
 \subsubsection{RESTful Web Service Server and Apache Jena Fuseki}
