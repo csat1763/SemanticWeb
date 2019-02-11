@@ -15,7 +15,11 @@ To start the application do following:
 	
 To gather data do following:
 
-	$ ./gather
+1.	$ ./gather
+	
+2.	in *\SemanticWeb\ner-tools* execute (NLP):
+
+	$ find ../code/TripleStore/Triple/src/main/resources/data/recipes/ -name "*.jsonld" -print0 | xargs -0 -L1 python apply_ner.py	
 
 The crawling is done based on the file *SemanticWeb/code/SemanticWeb/src/Cuisines.txt*.
 Edit the entries as you wish.
@@ -39,7 +43,7 @@ or follow these steps:
 4.  in *\SemanticWeb\sw* to start the Front-End
 	
 		$ node_modules/.bin/ng serve
-	
+		
 ## Application
 
 There are 3 sites that can be accessed:
