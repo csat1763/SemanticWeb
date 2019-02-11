@@ -15,9 +15,10 @@ To start the application do following:
 	
 To gather data do following:
 
-1.	$ ./gather
+1.	
+	$ ./gather
 	
-2.	in *\SemanticWeb\ner-tools* execute (NLP):
+2. in *\SemanticWeb\ner-tools* execute (NLP):
 
 	$ find ../code/TripleStore/Triple/src/main/resources/data/recipes/ -name "*.jsonld" -print0 | xargs -0 -L1 python apply_ner.py	
 
@@ -36,7 +37,7 @@ or follow these steps:
 
 		$ java -jar floader.jar
 	
-3.  in *\SemanticWeb\code\BackEnd\target* run _ to start the Back-End
+3. in *\SemanticWeb\code\BackEnd\target* run _ to start the Back-End
 	
 		$ java -jar gs-rest-service-0.1.0.jar
 	
