@@ -15,13 +15,13 @@ To start the application do following:
 	
 To gather data do following:
 
-1. Execute
+1. Execute:
 
-	$ ./gather
+		$ ./gather
+
+2. in *\SemanticWeb\ner-tools* execute (NLP):
 	
-2.	in *\SemanticWeb\ner-tools* execute (NLP):
-
-	$ find ../code/TripleStore/Triple/src/main/resources/data/recipes/ -name "*.jsonld" -print0 | xargs -0 -L1 python apply_ner.py	
+		$ find ../code/TripleStore/Triple/src/main/resources/data/recipes/ -name "*.jsonld" -print0 | xargs -0 -L1 python apply_ner.py	
 
 The crawling is done based on the file *SemanticWeb/code/SemanticWeb/src/Cuisines.txt*.
 Edit the entries as you wish.
